@@ -1,2 +1,7 @@
-# DOREMUS knowledge base data dumps
-... to detail the specific organization of this folder
+# DOREMUS knowledge base data dumps 
+Sub-folders:  
+* diabolo
+* redomi
+* itema3
+* philharmonie
+* bnf
