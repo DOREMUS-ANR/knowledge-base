@@ -1,0 +1,153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.doremus.org/vocabulary/mode> a skos:ConceptScheme ;
+	rdfs:comment "Un mode est l'organisation des hauteurs d'une échelle autour d'une tonique, à l'origine dans un contexte mélodique"@fr , "Mode generally refers to a type of scale, coupled with a set of characteristic melodic behaviours"@en ;
+	rdfs:label "La liste des modes mélodiques"@fr , "List of modes"@en .
+	
+<http://data.doremus.org/vocabulary/mode/1> a skos:Concept ;
+	skos:narrower <http://data.doremus.org/vocabulary/mode/2> , <http://data.doremus.org/vocabulary/mode/3> , <http://data.doremus.org/vocabulary/mode/4> , <http://data.doremus.org/vocabulary/mode/5> , <http://data.doremus.org/vocabulary/mode/6> , <http://data.doremus.org/vocabulary/mode/7> , <http://data.doremus.org/vocabulary/mode/8> , <http://data.doremus.org/vocabulary/mode/9> , <http://data.doremus.org/vocabulary/mode/10> , <http://data.doremus.org/vocabulary/mode/11> , <http://data.doremus.org/vocabulary/mode/12> , <http://data.doremus.org/vocabulary/mode/13> ;
+	skos:topConceptOf "http://data.doremus.org/vocabulary/mode" ;
+	skos:prefLabel "mode ecclésiastique"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/2> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "dorien"@fr ;
+	skos:editorialNote "unimarc: 01"@fr ;
+	skos:prefLabel "dorian"@en , "Protus authente"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/3> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "hypodorien"@fr ;
+	skos:editorialNote "unimarc: 02"@fr ;
+	skos:prefLabel "hypodorian"@en , "Protus plagal"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/4> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "phrygien"@fr ;
+	skos:editorialNote "unimarc: 03"@fr ;
+	skos:prefLabel "phrygian"@en , "Deuterus authente"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/5> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "hypophrygien"@fr ;
+	skos:editorialNote "unimarc: 04"@fr ;
+	skos:prefLabel "hypophrygian"@en , "Deuterus plagal"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/6> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "lydien"@fr ;
+	skos:editorialNote "unimarc: 05"@fr ;
+	skos:prefLabel "lydian"@en , "Tritus authente"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/7> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "hypolydien"@fr ;
+	skos:editorialNote "unimarc: 06"@fr ;
+	skos:prefLabel "hypolydian"@en , "Tritus plagal"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/8> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "mixolydien"@fr ;
+	skos:editorialNote "unimarc: 07"@fr ;
+	skos:prefLabel "mixolydian"@en , "Tetrardus authente"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/9> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "hypomixolydien"@fr ;
+	skos:editorialNote "unimarc: 08"@fr ;
+	skos:prefLabel "hypomixolydian"@en , "Tetrardus plagal"@la ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/10> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "éolien "@fr ;
+	skos:editorialNote "unimarc: 09"@fr ;
+	skos:prefLabel "aeolian"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/11> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "hypoéolien"@fr ;
+	skos:editorialNote "unimarc: 10"@fr ;
+	skos:prefLabel "hypoaeolian"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/12> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "ionien"@fr ;
+	skos:editorialNote "unimarc: 11"@fr ;
+	skos:prefLabel "ionian"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/13> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/1> ;
+	skos:prefLabel "hypoionien"@fr ;
+	skos:editorialNote "unimarc: 12"@fr ;
+	skos:prefLabel "hypoionian"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/14> a skos:Concept ;
+	skos:topConceptOf "http://data.doremus.org/vocabulary/mode" ;
+	skos:prefLabel "Ton pérégrin"@fr ;
+	skos:editorialNote "unimarc: 13"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/15> a skos:Concept ;
+	skos:narrower <http://data.doremus.org/vocabulary/mode/16> , <http://data.doremus.org/vocabulary/mode/17> , <http://data.doremus.org/vocabulary/mode/18> , <http://data.doremus.org/vocabulary/mode/19> , <http://data.doremus.org/vocabulary/mode/20> , <http://data.doremus.org/vocabulary/mode/21> , <http://data.doremus.org/vocabulary/mode/22> ;
+	skos:topConceptOf "http://data.doremus.org/vocabulary/mode" ;
+	skos:prefLabel "mode naturel"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+	
+<http://data.doremus.org/vocabulary/mode/16> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "ionien"@fr ;
+	skos:altLabel "mode de do"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/17> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "dorien"@fr ;
+	skos:altLabel "mode de ré"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/18> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "phrygien"@fr ;
+	skos:altLabel "mode de mi"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/19> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "lydien"@fr ;
+	skos:altLabel "mode de fa"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/20> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "mixolydien"@fr ;
+	skos:altLabel "mode de sol"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/21> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "éolien "@fr ;
+	skos:altLabel "mode de la"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .
+
+<http://data.doremus.org/vocabulary/mode/22> a skos:Concept ;
+	skos:broader <http://data.doremus.org/vocabulary/mode/15> ;
+	skos:prefLabel "locrien"@fr ;
+	skos:altLabel "mode de si"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/mode> .

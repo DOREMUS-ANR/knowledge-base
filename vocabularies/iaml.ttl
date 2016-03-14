@@ -1,0 +1,3080 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.doremus.org/vocabulary/iaml> a skos:ConceptScheme ;
+	rdfs:comment "List of Medium of performance"@en .
+
+<http://data.doremus.org/vocabulary/iaml/bah> a skos:Concept ;
+	skos:prefLabel "Alphorn"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Alpenhorn"@gr ;
+	skos:prefLabel "alphorn"@en , "cor des Alpes"@fr , "corno delle Alpi"@it , "corno dos Alpes"@por ;
+	skos:altLabel "Stockbückel"@gr ;
+	skos:prefLabel "trompa de los Alpes"@es .
+
+<http://data.doremus.org/vocabulary/iaml/bbb> a skos:Concept ;
+	skos:prefLabel "bombardino"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bariton"@gr , "bombardino"@por ;
+	skos:altLabel "flicorno baritono"@it ;
+	skos:prefLabel "saxhorn baryton"@fr ;
+	skos:altLabel "saxtromba baryton"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/bbd> a skos:Concept ;
+	skos:prefLabel "bombardon"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse impériale"@fr , "basso in fa"@it , "basso in mib"@it , "Basstromba"@gr ;
+	skos:prefLabel "bombarda"@por , "Bombardon"@gr , "bombardón"@es , "bombardone"@fr , "bombardone"@it ;
+	skos:altLabel "flicorno basso-grave"@it , "helicon contrabbasso"@it , "helikon contrabbasso"@it , "Kaiserbass"@gr , "saxhorn basse"@fr , "sousaphone basso"@it .
+
+<http://data.doremus.org/vocabulary/iaml/bbh> a skos:Concept ;
+	skos:prefLabel "bersag horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bersaglieri-Horn"@gr , "biucolo"@it ;
+	skos:altLabel "tromba da fanfara"@it , "tromba dei Bersaglieri"@it .
+
+<http://data.doremus.org/vocabulary/iaml/bbu> a skos:Concept ;
+	skos:prefLabel "bugle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bugle baryton"@fr , "bugle horn"@en , "bugleret"@fr ;
+	skos:prefLabel "clairon"@fr ;
+	skos:altLabel "clarín de banda de guerra"@es , "cor buglèr"@fr , "cor bugleret"@fr ;
+	skos:prefLabel "corneta"@por ;
+	skos:altLabel "corneta de banda de guerra"@es ;
+	skos:prefLabel "corneta natural"@es , "corno segnale"@it ;
+	skos:altLabel "Infanteriehorn"@gr , "Kavalleriehorn"@gr ;
+	skos:prefLabel "Signalhorn"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bca> a skos:Concept ;
+	skos:prefLabel "carnyx@gre" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "carnyx"@en , "carnyx@hun" , "carnyx"@por ;
+	skos:altLabel "karnyx@gre" ;
+	skos:prefLabel "lituus@lat" .
+
+<http://data.doremus.org/vocabulary/iaml/bcb> a skos:Concept ;
+	skos:prefLabel "cimbasso"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bassposaune"@gr , "cimbasso"@por ;
+	skos:altLabel "trombone Verdi"@it .
+
+<http://data.doremus.org/vocabulary/iaml/bch> a skos:Concept ;
+	skos:prefLabel "cow horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "corno (de vaca)"@por , "corno di toro"@it , "Stierhorn"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bcl> a skos:Concept ;
+	skos:prefLabel "clarion"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Bach-Trompete"@gr , "Clarien"@gr , "Clarin"@gr ;
+	skos:prefLabel "clarín"@es , "clarino"@it , "Clarino"@gr ;
+	skos:altLabel "Clarin-Trompete"@gr ;
+	skos:prefLabel "claro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/bco> a skos:Concept ;
+	skos:prefLabel "cornet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "corneta"@es , "corneta de pistões"@por ;
+	skos:altLabel "corneta de pistones"@es ;
+	skos:prefLabel "cornet à pistons"@fr ;
+	skos:altLabel "cornetín"@es ;
+	skos:prefLabel "cornetta"@it ;
+	skos:altLabel "cornetta a pistoni"@it , "cornetto"@it , "echo cornet"@en ;
+	skos:prefLabel "Kornett"@gr ;
+	skos:altLabel "piston"@fr , "Ventilkornett"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bct> a skos:Concept ;
+	skos:prefLabel "cornett"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cornaboux"@fr , "corneta"@es ;
+	skos:prefLabel "cornet à bouquin"@fr ;
+	skos:altLabel "corneta curva"@es , "corneta negra"@es , "corneta renacentista"@es ;
+	skos:prefLabel "corneto"@por ;
+	skos:altLabel "cornettino"@it ;
+	skos:prefLabel "cornetto"@it , "cornetto"@es ;
+	skos:altLabel "cornetto muto"@it ;
+	skos:prefLabel "Zink"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bcu> a skos:Concept ;
+	skos:prefLabel "cornu@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "buzina"@por ;
+	skos:altLabel "cornum@lat" , "tuba curva@lat" .
+
+<http://data.doremus.org/vocabulary/iaml/bdx> a skos:Concept ;
+	skos:prefLabel "duplex"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Bb-C-clairon"@en , "bombardino-trombone"@it ;
+	skos:prefLabel "dublophone"@fr , "duplex"@por , "duplex"@it , "Duplexinstrument"@gr ;
+	skos:altLabel "eufonio-trombone"@it , "flicorno-cornetta"@it , "gemelli"@it , "genis-tromba"@it , "highamphone"@en , "lyrophone"@fr , "tuba-tromba bassa"@it .
+
+<http://data.doremus.org/vocabulary/iaml/beu> a skos:Concept ;
+	skos:prefLabel "euphonium"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "baritone"@fr , "barítono"@es , "baroxyton"@en , "Baryton"@gr , "baryton en sib"@fr , "barytonhorn"@en , "Baryton-Tuba"@gr , "basse à pistons"@fr , "basse en sib"@fr , "basse impériale"@fr , "Bassflügelhorn"@gr , "bombarda a quattro pistoni"@it ;
+	skos:prefLabel "bombardino"@es ;
+	skos:altLabel "elicon"@it , "eufonio"@es , "eufonio"@it ;
+	skos:prefLabel "eufonio"@it , "eufónio"@por ;
+	skos:altLabel "Euphonikon"@gr , "euphonion"@en ;
+	skos:prefLabel "euphonium"@fr , "Euphonium"@gr ;
+	skos:altLabel "flicorno basso"@it , "helicon"@en , "Hellhorn"@gr , "Kaiserbaryton"@gr , "Kaiserbass"@gr , "Phonikon"@gr , "Tenorbass"@gr , "Tenorbasshorn"@gr , "tenor tuba"@en , "tuba in Sib"@it .
+
+<http://data.doremus.org/vocabulary/iaml/bhh> a skos:Concept ;
+	skos:prefLabel "hunting horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cor de chasse"@fr ;
+	skos:altLabel "corneta de monte"@es ;
+	skos:prefLabel "corno da caccia"@it ;
+	skos:altLabel "cuerno de caza"@es , "Hiefhorn"@gr , "Hifthorn"@gr , "huchet"@fr ;
+	skos:prefLabel "Jagdhorn"@gr ;
+	skos:altLabel "Jägerhorn"@gr , "tromba da caccia"@it ;
+	skos:prefLabel "trompa de caça"@por , "trompa de caza"@es ;
+	skos:altLabel "trompe de chasse"@fr , "Waldhorn"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bho> a skos:Concept ;
+	skos:prefLabel "horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "ballad horn"@en , "chromatic horn"@en ;
+	skos:prefLabel "cor"@fr ;
+	skos:altLabel "cor à piston"@fr , "cor d'harmonie"@fr , "cor naturel"@fr ;
+	skos:prefLabel "corno"@it ;
+	skos:altLabel "corno a macchina"@it , "corno da tirarsi"@it , "corno francés"@es , "corno francese"@it , "corno naturale"@it , "cor simple"@fr , "french horn"@en , "Heerhorn"@gr , "Herhorn"@gr ;
+	skos:prefLabel "Horn"@gr ;
+	skos:altLabel "Inventionshorn"@gr , "Jäger Trommet"@gr , "Konzerthorn"@gr , "Oktavhorn"@gr , "Primhorn"@gr ;
+	skos:prefLabel "trompa"@por , "trompa"@es ;
+	skos:altLabel "trompe"@fr , "Ventilhorn"@gr , "Wic-Horn"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bht> a skos:Concept ;
+	skos:prefLabel "herald's trumpet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bousine"@fr ;
+	skos:prefLabel "buisine"@fr ;
+	skos:altLabel "Busen"@gr , "busine"@fr , "buysine"@fr , "buzine"@fr , "chiarina"@it , "Fanfare"@gr , "Fanfarentrompete"@gr ;
+	skos:prefLabel "Fanfaren-Trompete"@gr ;
+	skos:altLabel "fanfare trumpet"@en , "Herolds-Trompete"@gr , "tromba d'araldo"@it , "tromba diritta"@it ;
+	skos:prefLabel "tromba dritta"@it ;
+	skos:altLabel "tromba duttile"@it , "tromba lunga"@it ;
+	skos:prefLabel "trombeta direita"@por .
+
+<http://data.doremus.org/vocabulary/iaml/bkb> a skos:Concept ;
+	skos:prefLabel "keyed bugle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Amorschall"@gr ;
+	skos:prefLabel "bugle à clefs"@fr , "bugle de llaves"@es ;
+	skos:altLabel "cor à clefs"@fr ;
+	skos:prefLabel "corneta de chaves"@por , "cornetta a chiavi"@it ;
+	skos:altLabel "corno a chiavi"@it , "Flügelhorn cromático"@es , "kent bugle"@en , "Kenthorn"@gr , "key bugle"@en , "Klappenflügelhorn"@gr ;
+	skos:prefLabel "Klappenhorn"@gr ;
+	skos:altLabel "Kleppenbugel"@gr , "royal kent bugle"@en , "taille d'amour"@fr , "trompette à clefs"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/blu> a skos:Concept ;
+	skos:prefLabel "lur@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "lur (pré-histórico)"@por .
+
+<http://data.doremus.org/vocabulary/iaml/bol> a skos:Concept ;
+	skos:prefLabel "oliphant"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "buccina"@it ;
+	skos:prefLabel "bucina@lat" , "cor d'olifant"@fr , "Olifant"@gr , "olifante"@es , "olifante"@it , "olifante"@por ;
+	skos:altLabel "oliphant"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/bop> a skos:Concept ;
+	skos:prefLabel "ophicleide"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse à clefs"@fr , "basse d'harmonie"@fr , "basso d'armonia"@it , "contrebasse d'harmonie"@fr ;
+	skos:prefLabel "figle"@es ;
+	skos:altLabel "Harmoniekontrabass"@gr ;
+	skos:prefLabel "oficleide"@it , "oficleide"@por ;
+	skos:altLabel "oficleido"@es , "ofleide"@it , "omniton"@en ;
+	skos:prefLabel "ophicleïde"@fr , "Ophikleide"@gr ;
+	skos:altLabel "serpentcleide"@fr , "tuba-dupré"@fr .
+
+<http://data.doremus.org/vocabulary/mop/bopg> a skos:Concept ;
+	skos:altLabel "contrabass ophicleide"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Kontrastbombardon"@gr , "oficleide contrabaixo"@por , "oficleide-monstre"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/bph> a skos:Concept ;
+	skos:prefLabel "post horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "clarion"@en ;
+	skos:prefLabel "corneta de posta"@es , "corneta de postilhão"@por ;
+	skos:altLabel "corneta de postillón"@es ;
+	skos:prefLabel "cornet de poste"@fr ;
+	skos:altLabel "cornet de postillon"@fr ;
+	skos:prefLabel "cornetta da postiglione"@it ;
+	skos:altLabel "corno di posta"@it ;
+	skos:prefLabel "Posthorn"@gr ;
+	skos:altLabel "trompa de posta"@es , "trompa de postillón"@es .
+
+<http://data.doremus.org/vocabulary/iaml/brh> a skos:Concept ;
+	skos:prefLabel "russian horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "baixo russo"@por , "corno russo"@it , "cor russe"@fr , "russische hoorn@dut" , "russisches Horn"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bse> a skos:Concept ;
+	skos:prefLabel "serpent"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse-cor"@fr , "basse-trompette"@fr , "bass-Euphonium"@gr , "Basseuphonium"@gr , "bass-horn"@en , "Basshorn"@gr , "basson russe"@fr , "basson serpent"@fr , "chromatic bass-horn"@en , "chromatisches Basshorn"@gr , "corno basso"@it , "corno di basso"@it , "english bass-horn"@en , "fagotto russo"@it , "fagotto serpente"@it , "ofibaritono"@it , "Ophibariton"@gr , "ophibaterion"@en , "ophimonocleide"@en , "russian bassoon"@en , "russisches Basshorn"@gr , "russisches Fagott"@gr , "Schlangenhorn"@gr , "serpan"@it ;
+	skos:prefLabel "serpent"@fr , "Serpent"@gr , "serpentão"@por ;
+	skos:altLabel "serpent-bassoon"@en , "serpent d'église"@fr , "serpent droit"@fr , "serpente"@it , "serpent militaire"@fr , "serpenton"@fr ;
+	skos:prefLabel "serpentón"@es , "serpentone"@it .
+
+<http://data.doremus.org/vocabulary/iaml/bsh> a skos:Concept ;
+	skos:prefLabel "shofar"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chofar"@fr , "chofar"@por ;
+	skos:altLabel "chophar"@fr , "rem's horn"@en ;
+	skos:prefLabel "Schofar"@gr , "shofar"@es , "shofar"@it ;
+	skos:altLabel "shofar hajovel@oth" , "s'ofar@oth" ;
+	skos:prefLabel "×©×•×¤×¨@heb" .
+
+<http://data.doremus.org/vocabulary/iaml/bsr> a skos:Concept ;
+	skos:altLabel "sarrusofono"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "sarrusophone"@en .
+
+<http://data.doremus.org/vocabulary/iaml/bsx> a skos:Concept ;
+	skos:prefLabel "salpinx@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "salpinx@gre" , "salpinx"@it , "Salpinx"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bta> a skos:Concept ;
+	skos:prefLabel "tuba@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "tuba"@por , "tuba"@it .
+
+<http://data.doremus.org/vocabulary/iaml/btb> a skos:Concept ;
+	skos:prefLabel "trombone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Armeeposaune"@gr , "Bassaune"@gr , "bimbonifono"@it , "buccin trombone"@it ;
+	skos:prefLabel "Posaune"@gr ;
+	skos:altLabel "sacabuche"@es , "sacbuto"@it , "Sackbut"@gr , "sacqueboute"@fr , "saicqueboute"@fr , "saqueboute"@fr , "seykebuds"@en , "Shagbolt"@gr , "Shagbutt"@gr , "shakbushe"@en , "slide trombone"@en , "tromba contralta in Fa"@it ;
+	skos:prefLabel "trombón"@es , "trombone"@fr , "trombone"@por , "trombone"@it , "trombone à coulisse"@fr ;
+	skos:altLabel "trombone a tiro"@it , "trombone da tracolla"@it , "trompette saqueboute"@fr , "Zugposaune"@gr .
+
+<http://data.doremus.org/vocabulary/mop/btbf> a skos:Concept ;
+	skos:altLabel "bass trombone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Quartposaune"@gr , "Quintposaune"@gr , "trombone baixo"@por .
+
+<http://data.doremus.org/vocabulary/mop/btbg> a skos:Concept ;
+	skos:altLabel "contrabass trombone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Doppelposaune"@gr , "Oktavposaune"@gr , "trombone contrabaixo"@por .
+
+<http://data.doremus.org/vocabulary/iaml/btr> a skos:Concept ;
+	skos:prefLabel "trumpet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chromatic trumpet"@en , "Clarino"@gr , "echo trumpet"@en , "Inventionstrompete"@gr , "Stopftrompete"@gr ;
+	skos:prefLabel "tromba"@it ;
+	skos:altLabel "tromba a coulisse"@it , "tromba da tirare"@it , "tromba dell'aida"@it , "tromba diritta"@it , "trombeta"@es ;
+	skos:prefLabel "trompeta"@es , "trompete"@por , "Trompete"@gr , "trompette"@fr ;
+	skos:altLabel "valved trumpet"@en .
+
+<http://data.doremus.org/vocabulary/mop/btrj> a skos:Concept ;
+	skos:altLabel "Clarintrompete"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "high trumpet"@en , "trompete aguda"@por .
+
+<http://data.doremus.org/vocabulary/iaml/btu> a skos:Concept ;
+	skos:prefLabel "tuba"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "tuba"@es , "tuba"@fr , "tuba"@por , "tuba"@it , "Tuba"@gr .
+
+<http://data.doremus.org/vocabulary/mop/btuf> a skos:Concept ;
+	skos:altLabel "basso tuba"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bass tuba"@en , "Basstuba"@gr , "tuba"@en , "tuba baixo"@por , "tuba in sib"@it .
+
+<http://data.doremus.org/vocabulary/mop/btug> a skos:Concept ;
+	skos:altLabel "BBb bass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "contrabass tuba"@en , "soubassophone"@fr , "tuba contrabaixo"@por .
+
+<http://data.doremus.org/vocabulary/iaml/bun> a skos:Concept ;
+	skos:prefLabel "brass - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Blechbläser - unbestimmt"@gr ;
+	skos:altLabel "brass instruments"@en ;
+	skos:prefLabel "cuivre - non spécifié"@fr ;
+	skos:altLabel "instrumento de viento metal"@es ;
+	skos:prefLabel "metais - não especificado"@por , "metales - sin especificar"@es , "ottoni - non specificato"@it .
+
+<http://data.doremus.org/vocabulary/mop/buny> a skos:Concept ;
+	skos:altLabel "Blechbläser - ethnisch"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "brass - ethnic"@en , "cuivre - ethnique"@fr , "metais - étnico"@por , "metales - étrnico"@es , "ottoni - etnico"@it .
+
+<http://data.doremus.org/vocabulary/iaml/bvb> a skos:Concept ;
+	skos:prefLabel "valved bugle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bügelhorn"@gr , "bugle à pistons"@fr ;
+	skos:altLabel "Cornett"@gr , "fiscorno"@it , "fiscorno"@es ;
+	skos:prefLabel "flicorno"@it , "fliscorno"@es ;
+	skos:altLabel "fliscorno"@it , "saxcorno"@it , "Saxhorn"@gr , "saxhorno"@it , "saxtromba"@it ;
+	skos:prefLabel "saxtrompa"@por ;
+	skos:altLabel "sudrophone"@fr , "Ventilbügelhorn"@gr .
+
+<http://data.doremus.org/vocabulary/mop/bvba> a skos:Concept ;
+	skos:altLabel "bugle soprano en Mib"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "corneta piccolo"@por , "cornettino in Mib"@it , "cornett piccolo"@en , "flicornino"@it , "petit bugle"@fr , "piston"@it , "pistoncino"@it , "pistonino"@it .
+
+<http://data.doremus.org/vocabulary/mop/bvbb> a skos:Concept ;
+	skos:altLabel "bugle"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "flicorno"@it , "fliscorne soprano"@por , "Flugelhorn"@gr , "Flügelhorn"@gr , "sopran cornett"@en .
+
+<http://data.doremus.org/vocabulary/mop/bvbc> a skos:Concept ;
+	skos:altLabel "alt Cornett"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Althorn"@gr , "alto en Mib"@fr , "baryton aigu"@fr , "bugle alto"@fr , "clavicor"@fr , "clavicorno"@it , "elicon"@it , "genis"@it , "genis corno"@it , "helicon"@en , "mellophone"@en , "pelittone"@it , "tenor cor"@fr , "ténor en Mib"@fr , "tenor horn"@en , "tenor-Tube"@gr , "tuba alto"@en .
+
+<http://data.doremus.org/vocabulary/mop/bvbd> a skos:Concept ;
+	skos:altLabel "baritone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "baryton"@fr , "Bb baritone"@en , "bugle ténor"@fr , "clavicor"@fr , "clavicorno"@it , "emboliclave"@it , "flicorno tenore"@it , "saxhorn ténor"@fr , "Tenorhorn"@gr , "trompa tenor"@por , "tuba tenor"@por , "tuba tenore"@it .
+
+<http://data.doremus.org/vocabulary/mop/bvbg> a skos:Concept ;
+	skos:altLabel "basso in sib"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "elicon contrabbasso"@it , "helicon contrabbasso"@it , "pellittone"@it , "sousafone contrabaixo"@por , "sousaphone contrabbasso"@it .
+
+<http://data.doremus.org/vocabulary/mop/bvbi> a skos:Concept ;
+	skos:altLabel "corneto agudo"@por ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "oktav Kornett"@gr , "petit saxhorn suraigu"@fr , "piccolo cornett"@en .
+
+<http://data.doremus.org/vocabulary/iaml/bwt> a skos:Concept ;
+	skos:prefLabel "wagner tuba"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "corno-tuba"@it , "tuba wagner"@fr ;
+	skos:prefLabel "tuba Wagner"@es ;
+	skos:altLabel "tuba wagneriana"@es ;
+	skos:prefLabel "tuba wagneriana"@por , "tuba wagneriana"@it , "Wagnertuba"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/bzz> a skos:Concept ;
+	skos:prefLabel "brass - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Blechbläser - Andere"@gr ;
+	skos:prefLabel "Blechblasinstrumente - andere"@gr , "cuivre - autre"@fr , "metais - outros"@por , "metales - otros"@es , "ottoni - altro"@it .
+
+<http://data.doremus.org/vocabulary/iaml/cch> a skos:Concept ;
+	skos:prefLabel "children's choir"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "choeur d'enfants"@fr ;
+	skos:altLabel "chœur d'enfants"@fr , "coro de niños"@es , "coro de voces blancas"@es ;
+	skos:prefLabel "coro di voci bianche"@it , "coro infantil"@por , "escolanía"@es , "Kinderchor"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/cme> a skos:Concept ;
+	skos:prefLabel "men's choir"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "choeur d'hommes"@fr ;
+	skos:altLabel "chœur d'hommes"@fr ;
+	skos:prefLabel "coro de hombres"@es , "coro maschile"@it , "coro masculino"@por , "Männerchor"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/cmi> a skos:Concept ;
+	skos:prefLabel "mixed choir"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "choeur mixte"@fr ;
+	skos:altLabel "chœur mixte"@fr ;
+	skos:prefLabel "coro misto"@por , "coro misto"@it , "coro mixto"@es , "gemischter Chor"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/cre> a skos:Concept ;
+	skos:prefLabel "reciting choir"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "choeur parlé"@fr ;
+	skos:altLabel "chœur parlé"@fr ;
+	skos:prefLabel "coro falado"@por ;
+	skos:altLabel "coro parlato"@it ;
+	skos:prefLabel "coro recitante"@it , "Sprechchor"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/cun> a skos:Concept ;
+	skos:prefLabel "choir - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chœur"@fr ;
+	skos:prefLabel "choeur - non spécifié"@fr ;
+	skos:altLabel "Chor"@gr , "choro"@it ;
+	skos:prefLabel "Chor - unbestimmt"@gr , "coro – não especificado"@por , "coro - non specificato"@it , "coro - sin especificar"@es .
+
+<http://data.doremus.org/vocabulary/mop/cuny> a skos:Concept ;
+	skos:altLabel "choeur - ethnique"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "choir - ethnic"@en , "Chor - ethnisch"@gr , "coro - etnico"@it , "coro - étnico"@es , "coro - étnico"@por .
+
+<http://data.doremus.org/vocabulary/iaml/cve> a skos:Concept ;
+	skos:prefLabel "vocal ensemble"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "complesso vocale"@it , "conjunto vocal"@es , "conjunto vocal"@por , "ensemble vocal"@fr , "Vokal-Ensemble"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/cwo> a skos:Concept ;
+	skos:prefLabel "women's choir"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "choeur de femmes"@fr ;
+	skos:altLabel "chœur de femmes"@fr ;
+	skos:prefLabel "coro de mujeres"@es , "coro feminino"@por , "coro femminile"@it , "Frauenchor"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/czz> a skos:Concept ;
+	skos:prefLabel "choir - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "choeur - autre"@fr , "Chor - andere"@gr , "coro - altro"@it , "coro - otro"@es , "coro - outro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/eco> a skos:Concept ;
+	skos:prefLabel "computer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "calcolatore"@it ;
+	skos:prefLabel "computador"@por ;
+	skos:altLabel "computadora"@es ;
+	skos:prefLabel "computer"@it , "Computer"@gr ;
+	skos:altLabel "Elektronenrechengerät"@gr , "elektronisches Rechengerät"@gr , "laptop"@en ;
+	skos:prefLabel "ordenador"@es , "ordinateur"@fr ;
+	skos:altLabel "ordinateur portable"@fr , "processeur numérique"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/ecs> a skos:Concept ;
+	skos:prefLabel "computerized musical station"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Computer-Musik-Station"@gr , "estação informática musical"@por , "postazione informatica musicale"@it , "station informatique musicale"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/ect> a skos:Concept ;
+	skos:prefLabel "computerized tape"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bande réalisée par ordinateur, sons fixés"@fr , "Computer-Zuspielaufnahme"@gr , "fita computorizada"@por , "nastro realizzato da computer"@it .
+
+<http://data.doremus.org/vocabulary/iaml/eds> a skos:Concept ;
+	skos:prefLabel "digital space device"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "3D-Raumklang-Gerät"@gr , "3D-Sound-Anlage"@gr , "3D-Surround-Sound-Anlage"@gr ;
+	skos:prefLabel "Digital-Raumklang-Anlage"@gr ;
+	skos:altLabel "dispositif de spatialisation numérique"@fr , "dispositif spatial numérique"@fr ;
+	skos:prefLabel "dispositivo espacial digital"@por , "dispositivo spaziale digitale"@it ;
+	skos:altLabel "Klanginstallation"@gr , "Mehrkanal-Raumklang Gerät"@gr , "spatialisateur"@fr , "Surround-Sound-Anlage"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/eea> a skos:Concept ;
+	skos:prefLabel "electro-acoustic device"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "dispositif électroacoustique"@fr , "dispositivo electroacústico"@es , "dispositivo elétrico-acústico"@por , "dispositivo elettroacustico"@it , "elektroakustisches Gerät"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/eli> a skos:Concept ;
+	skos:prefLabel "live electronic"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "dispositif électronique temps réel"@fr , "live electronic"@por , "live electronic"@it , "Live-elektronik"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ely> a skos:Concept ;
+	skos:prefLabel "lyricon"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Blaswandler"@gr ;
+	skos:altLabel "controller elettronico"@it ;
+	skos:prefLabel "liricon"@it , "lyricon"@por .
+
+<http://data.doremus.org/vocabulary/iaml/ema> a skos:Concept ;
+	skos:prefLabel "ondes Martenot"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "ondas de Martenot"@es ;
+	skos:prefLabel "ondas Martenot"@es , "ondas Martenot"@por , "onde Martenot"@it , "Ondes Martenot"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/eme> a skos:Concept ;
+	skos:prefLabel "meta-instrument"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "meta-Instrument"@gr , "méta-instrument"@fr , "meta-instrumento"@por , "metastrumento"@it .
+
+<http://data.doremus.org/vocabulary/iaml/emu> a skos:Concept ;
+	skos:prefLabel "multimedial device"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "dispositif multimédia"@fr , "dispositivo multimédia"@por , "dispositivo multimedial"@es , "dispositivo multimediale"@it , "Multimedia Gerät"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/eos> a skos:Concept ;
+	skos:prefLabel "oscillator"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "oscilador"@por , "oscillateur"@fr , "oscillatore"@it , "Oszillator"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/esp> a skos:Concept ;
+	skos:prefLabel "space device"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "dispositif spatial"@fr , "dispositivo espacial"@por , "dispositivo spaziale"@it , "Raumklang-Anlage"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/esy> a skos:Concept ;
+	skos:prefLabel "synthesizer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "minimoog"@en , "moog"@en , "odyssey"@en ;
+	skos:prefLabel "sintetizador"@es , "sintetizador"@por , "sintetizzatore"@it ;
+	skos:altLabel "synclavier"@en , "synket"@en ;
+	skos:prefLabel "synthétiseur"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/eta> a skos:Concept ;
+	skos:prefLabel "tape"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bande magnétique"@fr , "fita magnética"@por ;
+	skos:altLabel "Magnettonband"@gr ;
+	skos:prefLabel "nastro magnetico"@it ;
+	skos:altLabel "Tonband"@gr ;
+	skos:prefLabel "Zuspielaufnahme"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/eth> a skos:Concept ;
+	skos:prefLabel "theremin"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "ætérfono"@es ;
+	skos:prefLabel "teremin"@it , "theremin"@por , "Theremin"@gr , "theremín"@es , "thereminovox"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/eun> a skos:Concept ;
+	skos:prefLabel "electronic - non specified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "electrónica - sin especificar"@es , "electrónico – não especificado"@por ;
+	skos:altLabel "Elektronik - unbestimmt"@gr ;
+	skos:prefLabel "elettronico - non specificato"@it , "instrument électronique - non spécifié"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/ezz> a skos:Concept ;
+	skos:prefLabel "electronic - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "electrónica - otro"@es , "electrónico - outro"@por , "Elektronik - andere"@gr , "elettronico - altro"@it , "instrument électronique - autre"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/kab> a skos:Concept ;
+	skos:prefLabel "archicembalo"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "archicembalo"@por , "Archicembalo"@gr , "archicémbalo"@es ;
+	skos:altLabel "arcicembalo"@it , "cembalo enarmonico"@it , "cembalo omnicordo"@it , "clavecin parfait accord"@fr , "clavemusicum omnitonum@lat" , "clavicymbalum universale@lat" , "enharmonic harpsichord"@en , "pentecontachordon@gre" , "proteus@lat" , "sambuca lincea"@it .
+
+<http://data.doremus.org/vocabulary/iaml/kac> a skos:Concept ;
+	skos:prefLabel "accordion"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "accordéon"@fr ;
+	skos:altLabel "accordio"@it ;
+	skos:prefLabel "acordeão"@por , "acordeón"@es ;
+	skos:altLabel "aeola@lat" ;
+	skos:prefLabel "Akkordeon"@gr ;
+	skos:altLabel "armonica a manticino"@it , "concertina"@it , "fisa"@it ;
+	skos:prefLabel "fisarmonica"@it ;
+	skos:altLabel "Handharmonika"@gr , "harmonieflûte"@fr , "Klavier-Harmonika"@gr , "Konzertina"@gr , "organetto"@it , "Physharmonika"@gr , "Ziehharmonika"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/kba> a skos:Concept ;
+	skos:prefLabel "bandoneon"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bandoneon"@gr , "bandonéon"@fr , "bandonéon"@por ;
+	skos:altLabel "Bandonion"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/kca> a skos:Concept ;
+	skos:prefLabel "carillon"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "beiaard@dut" ;
+	skos:altLabel "campanelli"@it , "campanette"@it , "cariglione"@it , "carillon@dut" ;
+	skos:prefLabel "carillon"@it , "Carillon"@gr , "carillón"@es ;
+	skos:altLabel "carillon di campane"@it ;
+	skos:prefLabel "carrilhão"@por ;
+	skos:altLabel "jeu de timbres"@fr , "klockspel@swe" , "klokkenspel@dut" , "timbres"@fr , "Turmglockenspiel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/kce> a skos:Concept ;
+	skos:prefLabel "celesta"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "adiaphone"@fr ;
+	skos:prefLabel "celesta"@es , "celesta"@por , "celesta"@it , "Celesta"@gr , "célesta"@fr ;
+	skos:altLabel "celeste"@en , "céleste"@fr , "clavi-lame"@it .
+
+<http://data.doremus.org/vocabulary/iaml/kch> a skos:Concept ;
+	skos:prefLabel "chordette"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chordette"@por .
+
+<http://data.doremus.org/vocabulary/iaml/kcl> a skos:Concept ;
+	skos:prefLabel "clavichord"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Clavichord"@gr ;
+	skos:altLabel "clavichordium@lat" ;
+	skos:prefLabel "clavicorde"@fr ;
+	skos:altLabel "clavicordio"@it ;
+	skos:prefLabel "clavicordio"@es , "clavicórdio"@por , "clavicordo"@it ;
+	skos:altLabel "cravo"@es , "épinette sourde"@fr , "Klavichord"@gr , "manicorde"@fr , "manicordio"@it , "manicordion"@fr , "manicordo"@it , "monacordio"@it , "monacordo"@it , "sordino"@it .
+
+<http://data.doremus.org/vocabulary/iaml/kco> a skos:Concept ;
+	skos:prefLabel "claviorgan"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "clavecin organisé"@fr , "claviorgano"@it , "claviórgano"@es , "claviorganum@lat" ;
+	skos:altLabel "Claviorganum"@gr ;
+	skos:prefLabel "claviórgão"@por ;
+	skos:altLabel "épinette organisée"@fr , "Klaviorganum"@gr , "organ-harpsichord"@en , "organo-piano"@it ;
+	skos:prefLabel "Orgelklavier"@gr ;
+	skos:altLabel "Orgelklavizimbel"@gr , "piano-melodium"@en .
+
+<http://data.doremus.org/vocabulary/iaml/kcy> a skos:Concept ;
+	skos:prefLabel "clavicytherium"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "arpa a cembalo"@it , "arpone"@it , "cembalo verticale"@it , "clavecin vertical"@fr ;
+	skos:prefLabel "claveciterio"@es , "claviciterio"@it ;
+	skos:altLabel "claviciterium@lat" , "clavicyterium"@en ;
+	skos:prefLabel "clavicytherium"@por ;
+	skos:altLabel "Clavicytherium"@gr ;
+	skos:prefLabel "Claviziterium"@gr ;
+	skos:altLabel "Klaviziterium"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/kfp> a skos:Concept ;
+	skos:prefLabel "fortepiano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cembalo a martelli"@it , "cembalo pianoforte"@it , "clavicordio de piano"@es ;
+	skos:prefLabel "fortepiano"@es , "fortepiano"@it ;
+	skos:altLabel "Hammerflügel"@gr ;
+	skos:prefLabel "Hammerklavier"@gr , "pianoforte"@fr , "pianoforte"@por ;
+	skos:altLabel "piano-forte"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/kgl> a skos:Concept ;
+	skos:prefLabel "Glockenspiel"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "glockenspiel"@fr , "glockenspiel"@por , "glockenspiel"@es , "glockenspiel"@en , "glockenspiel"@it .
+
+<http://data.doremus.org/vocabulary/iaml/khm> a skos:Concept ;
+	skos:prefLabel "harmonium"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "aeoline"@en , "aeolodion"@en , "Aeolsklavier"@gr , "Aerophon"@gr , "Akkordeon"@gr , "american organ"@en , "amerikanisches Organ"@gr , "Äolsklavier"@gr ;
+	skos:prefLabel "armonio"@es ;
+	skos:altLabel "armonio"@it , "armonium"@es , "cabinet organ"@en , "eoline"@en , "harmonicorde"@fr , "harmonio"@es , "harmonio"@it ;
+	skos:prefLabel "harmónio"@por , "harmonium"@it , "harmonium"@fr ;
+	skos:altLabel "harmonium"@es ;
+	skos:prefLabel "Harmonium"@gr ;
+	skos:altLabel "lap organ"@en , "melodeon"@en , "melofono"@it , "melophone"@en , "orchestrion"@en , "organophone"@en , "Organo-Violine"@gr , "orgue américain"@fr , "orgue expressif"@fr , "Physharmonika"@gr , "piano-chanteur"@fr , "poïkilorgue"@fr , "reed organ"@en , "séraphine"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/khp> a skos:Concept ;
+	skos:prefLabel "harpsichord"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cembalo"@it , "cembalo"@en ;
+	skos:prefLabel "Cembalo"@gr ;
+	skos:altLabel "cémbalo"@es , "cembalo a penna"@it , "cimbalo"@it ;
+	skos:prefLabel "clave"@es , "clavecin"@fr ;
+	skos:altLabel "clavecín"@es , "clavecin brisé"@fr , "clavessin"@fr ;
+	skos:prefLabel "clavicembalo"@it ;
+	skos:altLabel "clavicémbalo"@es , "Clavicimbal"@gr , "clavicímbalo"@es , "clavicimbalum@lat" , "clavicymbalum@lat" , "clavi simbalum@lat" ;
+	skos:prefLabel "cravo"@por ;
+	skos:altLabel "Flügel"@gr , "gravicembalo"@it , "gravicémbalo"@es , "Kielflügel"@gr , "Klavier"@gr , "Klavizymbel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/kmp> a skos:Concept ;
+	skos:prefLabel "melopiano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "armonipiano"@it ;
+	skos:prefLabel "melopiano"@it , "melopiano"@por ;
+	skos:altLabel "piano trémolophone"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/kor> a skos:Concept ;
+	skos:prefLabel "organ"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "ninfale"@it , "organetto"@it , "organino"@it ;
+	skos:prefLabel "organo"@it , "órgano"@es , "organum@lat" , "órgão"@por , "Orgel"@gr ;
+	skos:altLabel "orglet@oth" ;
+	skos:prefLabel "orgue"@fr ;
+	skos:altLabel "orgue positif"@fr , "orgues"@fr , "portativo"@it , "positive"@en , "positivo"@it .
+
+<http://data.doremus.org/vocabulary/mop/korr> a skos:Concept ;
+	skos:altLabel "electric organ"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "hammond organ"@en , "organo elettrico"@it , "organo hammond"@it , "órgão elétrico"@por , "órgão eletrónico"@por , "órgão hammond"@por , "orgue électrique"@fr , "orgue hammond"@fr .
+
+<http://data.doremus.org/vocabulary/mop/kors> a skos:Concept ;
+	skos:altLabel "casiotone"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "electone"@fr , "electrone"@en , "electronic organ"@en , "organo bontempi"@it .
+
+<http://data.doremus.org/vocabulary/iaml/kpf> a skos:Concept ;
+	skos:prefLabel "piano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "aliquot piano"@en , "apolliricon"@en , "apollonion"@en , "apollonium"@en , "cabinet piano"@en , "cottage piano"@en , "Ditanaklasis"@gr ;
+	skos:prefLabel "Klavier"@gr ;
+	skos:altLabel "luthéal"@fr , "Lyraflügel"@gr , "pforte@oth" , "pianino"@it , "piano"@it ;
+	skos:prefLabel "piano"@por , "piano"@fr , "piano"@es ;
+	skos:altLabel "piano-console"@en , "piano cottage"@en , "piano cycloide"@fr , "piano droit"@fr , "piano elliptique"@fr ;
+	skos:prefLabel "pianoforte"@it ;
+	skos:altLabel "piano-forte"@it , "pianoforte piramidale"@it , "piano-giraffa"@it , "piano-luthéal"@fr , "square piano"@en , "upright pianoforte"@en .
+
+<http://data.doremus.org/vocabulary/mop/kpfr> a skos:Concept ;
+	skos:altLabel "electone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "electric piano"@en , "Neo-Bechstein-Flügel"@gr , "piano électrique"@fr , "piano elétrico"@por , "piano elettrico"@it , "pianoforte elettrico"@it , "pianotron"@en .
+
+<http://data.doremus.org/vocabulary/mop/kpfs> a skos:Concept ;
+	skos:altLabel "Digital Piano"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "electronic piano"@en , "elektronisches KIavier"@gr , "E-Piano"@gr , "piano électronique"@fr , "piano eletrónico"@por , "piano elettronico"@it .
+
+<http://data.doremus.org/vocabulary/iaml/kps> a skos:Concept ;
+	skos:prefLabel "plucked string keyboard"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "clavier à cordes pincées"@fr , "tastiere a corde pizzicate"@it , "teclado de cordas beliscadas"@por , "teclado de cuerda punteada"@es .
+
+<http://data.doremus.org/vocabulary/iaml/kre> a skos:Concept ;
+	skos:prefLabel "regals"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "órgano de lengüetería"@es , "órgano de regalía"@es , "realejo"@es ;
+	skos:prefLabel "regal"@es , "regal"@por , "Regal"@gr ;
+	skos:altLabel "regalas"@es ;
+	skos:prefLabel "regale"@it ;
+	skos:altLabel "régale"@fr , "regales"@es , "regallo"@it , "regalos real"@es .
+
+<http://data.doremus.org/vocabulary/iaml/ksi> a skos:Concept ;
+	skos:prefLabel "sirenion"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "piano clédi-harmonique"@fr , "piano-doucine"@fr , "piano eutophone"@fr ;
+	skos:prefLabel "piano eutophone"@por ;
+	skos:altLabel "piano harmonicorde"@fr ;
+	skos:prefLabel "sirenion"@it , "Sirenion"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ksp> a skos:Concept ;
+	skos:prefLabel "sostenente piano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Bogenflügel"@gr , "Bogenklavier"@gr , "bowed clavier"@en ;
+	skos:prefLabel "cembalo ad arco"@it ;
+	skos:altLabel "cembalo da arco"@it , "clavecin à archet"@fr , "clavicembalo ad arco"@it , "Geigenwerck"@gr , "Geigenwerk"@gr , "harmonichord"@en ;
+	skos:prefLabel "harmonicorde"@por ;
+	skos:altLabel "piano à archet"@fr , "piano quatuor"@fr , "piano-violon"@fr , "sostinente piano"@en ;
+	skos:prefLabel "Streichklavier"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/kst> a skos:Concept ;
+	skos:prefLabel "spinet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "arpicordo"@it , "bentside spinet"@en , "cembalo traverso"@it , "épinette"@fr ;
+	skos:prefLabel "espineta"@es , "espineta"@por ;
+	skos:altLabel "espinetta"@it , "Oktavspinett"@gr , "Querflügel"@gr ;
+	skos:prefLabel "Spinett"@gr , "spinetta"@it ;
+	skos:altLabel "spinettina"@it , "spinettone"@it .
+
+<http://data.doremus.org/vocabulary/iaml/kun> a skos:Concept ;
+	skos:prefLabel "keyboard - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "clavier - non spécifié"@fr ;
+	skos:altLabel "instrument à clavier"@fr , "instrumento da tasto"@it , "instrumento de tecla"@es , "keyboard"@en , "keyboard instrument"@en , "Klavierinstrument"@gr , "strumento a tastiera"@it , "strumento da tasto"@it ;
+	skos:prefLabel "Tasteninstrument - unbestimmt"@gr , "tastiera - non specificato"@it , "teclado - não especificado"@por , "teclado - sin especificar"@es .
+
+<http://data.doremus.org/vocabulary/mop/kuny> a skos:Concept ;
+	skos:altLabel "clavier - ethnique"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "keyboard - ethnic"@en , "Tastenistrument - ethnisch"@gr , "tastiera - etnico"@it , "teclado - étnico"@por , "teclado - étnico"@es .
+
+<http://data.doremus.org/vocabulary/iaml/kvg> a skos:Concept ;
+	skos:prefLabel "virginal"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "double virginal"@en ;
+	skos:prefLabel "virginal"@por , "virginal"@es , "Virginal"@gr , "virginale"@it ;
+	skos:altLabel "virginalls"@en , "virginals"@en .
+
+<http://data.doremus.org/vocabulary/iaml/kzz> a skos:Concept ;
+	skos:prefLabel "keyboard - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "clavier - autre"@fr ;
+	skos:altLabel "Klavierinstrument -andere"@gr ;
+	skos:prefLabel "Tastenistrument - andere"@gr , "tastiera - altro"@it , "teclado - otro"@es , "teclado - outro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/mah> a skos:Concept ;
+	skos:prefLabel "aeolian harp"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "aéro-clavicorde"@fr , "anémocorde"@fr ;
+	skos:prefLabel "Äolsharfe"@gr ;
+	skos:altLabel "arpa de viento"@es ;
+	skos:prefLabel "arpa eolia"@it ;
+	skos:altLabel "arpa eolia"@es , "arpa eolica"@it ;
+	skos:prefLabel "arpa eólica"@es ;
+	skos:altLabel "eliocordo"@it ;
+	skos:prefLabel "harpa eólica"@por , "harpe éolienne"@fr ;
+	skos:altLabel "piano éolien"@fr , "Windharfe"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mbo> a skos:Concept ;
+	skos:prefLabel "barrel organ"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Drehorgel"@gr ;
+	skos:altLabel "dutch organ"@en , "grinder organ"@en , "hand organ"@en , "Leierkasten"@gr , "organetto a cilindro"@it , "organetto a manovella"@it ;
+	skos:prefLabel "organillo"@es , "organo di barberia"@it ;
+	skos:altLabel "organo tedesco"@it ;
+	skos:prefLabel "orgue à manivelle"@fr ;
+	skos:altLabel "orgue de barbarie"@fr ;
+	skos:prefLabel "realejo"@por ;
+	skos:altLabel "street organ"@en , "Walzenorgel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mbr> a skos:Concept ;
+	skos:prefLabel "bullroarer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bramadera"@es ;
+	skos:prefLabel "bullroarer"@por ;
+	skos:altLabel "bull-roarer"@en , "buzzer"@en , "churinga"@es , "dischi sibilanti"@it , "planchette ronflante"@fr ;
+	skos:prefLabel "rhombe"@fr ;
+	skos:altLabel "Rhombus"@gr ;
+	skos:prefLabel "rombo"@it , "Schwirrholz"@gr ;
+	skos:altLabel "spinning disc"@en , "tavoletta sibilante"@it , "thunder stick"@en , "tjurungas"@es , "Waldteufel"@gr ;
+	skos:prefLabel "zumbador"@es .
+
+<http://data.doremus.org/vocabulary/iaml/mbs> a skos:Concept ;
+	skos:prefLabel "bass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "baixo"@por , "bajo"@es ;
+	skos:altLabel "bas"@fr , "Bass"@gr , "Baß"@gr ;
+	skos:prefLabel "basse"@fr , "Bassinstrument"@gr , "basso"@it ;
+	skos:altLabel "bassus@lat" .
+
+<http://data.doremus.org/vocabulary/iaml/mbw> a skos:Concept ;
+	skos:prefLabel "musical bow"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "arc musical"@fr , "arco musical"@es , "arco musicale"@it , "berimbau"@por ;
+	skos:altLabel "birimbao"@es , "camalpa@oth" , "caramba"@es , "harpa"@es ;
+	skos:prefLabel "Musikbogen"@gr ;
+	skos:altLabel "ukeke@oth" , "umcunga"@por .
+
+<http://data.doremus.org/vocabulary/iaml/mbx> a skos:Concept ;
+	skos:prefLabel "musical box"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Ariston"@gr ;
+	skos:prefLabel "boîte à musique"@fr , "caixa de música"@por , "caja de música"@es , "scatola musicale"@it , "Spieldose"@gr ;
+	skos:altLabel "tabatière"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/mcb> a skos:Concept ;
+	skos:prefLabel "cristal Baschet"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Cristal Baschet"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mck> a skos:Concept ;
+	skos:prefLabel "chekker"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "archiquier"@fr , "échiquier"@fr , "escacherium@lat" , "escaque@oth" , "eschaqueil d'angleterre"@fr ;
+	skos:prefLabel "eschiquier"@fr , "eschiquier"@it ;
+	skos:altLabel "exaquier"@fr , "scacchiere"@it ;
+	skos:prefLabel "Schachtbrett"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mcl> a skos:Concept ;
+	skos:prefLabel "musical clock"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Flötenharfenuhr"@gr , "Flötenuhr"@gr , "Harfenuhr"@gr ;
+	skos:prefLabel "horloge musicale"@fr , "orologio musicale"@it , "relógio de carrilhão"@por , "reloj musical"@es , "Spieluhr"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mco> a skos:Concept ;
+	skos:prefLabel "continuo"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "baixo contínuo"@por , "bajo continuo"@es ;
+	skos:altLabel "bajo fundamental"@es , "basse chiffrée"@fr ;
+	skos:prefLabel "basse continue"@fr ;
+	skos:altLabel "basse fondamentale"@fr , "basso cifrato"@it ;
+	skos:prefLabel "basso continuo"@it , "Basso Continuo"@gr ;
+	skos:altLabel "basso figurato"@it , "basso fondamentale"@it , "basso generale"@it , "basso numerato"@it , "bassus continuus@lat" , "bezifferten Bass"@gr , "figured bass"@en , "fondamento"@it , "fundamental bass"@en , "Generalbass"@gr , "Grundbass"@gr , "thorough bass"@en .
+
+<http://data.doremus.org/vocabulary/iaml/mgh> a skos:Concept ;
+	skos:prefLabel "glassharmonika"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "armonica"@en , "armonica"@it , "armonica a cristalli rotanti"@it , "armónica de copas"@es ;
+	skos:prefLabel "armónica de cristal"@es ;
+	skos:altLabel "cassa armonica"@it , "clavicylinder"@en , "Cölison"@gr , "copologo"@it , "copólogo"@es , "Euphon"@gr , "euphone"@fr , "Gläserspiel"@gr ;
+	skos:prefLabel "Glasharmonika"@gr ;
+	skos:altLabel "glasschord"@en , "glassharmonica"@en , "glass harmonica"@en ;
+	skos:prefLabel "glassharmonika"@it , "glassharmonika"@por ;
+	skos:altLabel "harmonica"@en ;
+	skos:prefLabel "harmonica de verre"@fr ;
+	skos:altLabel "harmonicon"@en , "musical glasses"@en , "verrillon"@fr , "xylharmonicon"@en , "xylomelodichord"@en , "xylosistron"@en .
+
+<http://data.doremus.org/vocabulary/iaml/mgt> a skos:Concept ;
+	skos:prefLabel "glass trumpet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "tromba di vetro"@it ;
+	skos:prefLabel "trompette de verre"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/mha> a skos:Concept ;
+	skos:prefLabel "harmonica"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "armonica"@it , "armónica"@es ;
+	skos:altLabel "armonica a bocca"@it , "armónica de boca"@es ;
+	skos:prefLabel "harmonica"@fr , "harmónica"@por ;
+	skos:altLabel "harmonica à bouche"@fr , "mouth organ"@en ;
+	skos:prefLabel "Mundharmonika"@gr ;
+	skos:altLabel "Panharmonicon"@gr , "rondín"@es .
+
+<http://data.doremus.org/vocabulary/iaml/mhg> a skos:Concept ;
+	skos:prefLabel "hurdy-gurdy"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Bauernleier"@gr , "Bettlerleier"@gr , "chifonie"@fr , "chinforgne"@fr , "cinfonia"@it , "ciphonie"@fr , "clavecin-vielle"@fr ;
+	skos:prefLabel "Drehleier"@gr ;
+	skos:altLabel "gaita de rabil"@es ;
+	skos:prefLabel "ghironda"@it ;
+	skos:altLabel "Klaviergamba"@gr , "Leier"@gr , "lira organizzata"@it , "lyra mendicorum@lat" , "lyra organica"@it , "lyra pagana"@it , "lyra rustica"@it , "lyra tedesca"@it , "organistro"@it , "organistrum@lat" , "Orgelleier"@gr , "rabel de manubrio"@es , "Radleier"@gr , "rotata"@it , "sambuca"@it ;
+	skos:prefLabel "sanfona"@por ;
+	skos:altLabel "sinfonia"@it , "stampella"@it , "symphonia@lat" , "symphonie"@fr ;
+	skos:prefLabel "vielle à roue"@fr ;
+	skos:altLabel "vielle organisée"@fr , "viola da orbo"@it , "viola de ruedas"@es , "zampugna"@it ;
+	skos:prefLabel "zanfona"@es ;
+	skos:altLabel "zanfona"@it , "zanfoña"@es , "zanfonia"@it , "zanfonía"@es .
+
+<http://data.doremus.org/vocabulary/iaml/mjh> a skos:Concept ;
+	skos:prefLabel "jew's harp"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "arpa de boca"@es ;
+	skos:altLabel "aura"@it ;
+	skos:prefLabel "berimbau"@por ;
+	skos:altLabel "birimbao"@es , "Brummeisen"@gr , "guimbarda"@es ;
+	skos:prefLabel "guimbarde"@fr ;
+	skos:altLabel "jaw's harp"@en , "jew's trump"@en , "manguaco"@es ;
+	skos:prefLabel "Maultrommel"@gr ;
+	skos:altLabel "pichulita"@es , "pico dulce"@es , "rebube"@es ;
+	skos:prefLabel "scacciapensieri"@it ;
+	skos:altLabel "trombula"@es , "trompe"@es , "trompe de béarn"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/mla> a skos:Concept ;
+	skos:prefLabel "lamellaphone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "lameláfono"@es ;
+	skos:prefLabel "Lamellophon"@gr , "lamellophone"@fr , "lamelofone"@por , "lamelófono"@es , "zanza"@it ;
+	skos:altLabel "Zupfidiophon"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mmc> a skos:Concept ;
+	skos:prefLabel "monochord"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "canon harmonicus@lat" ;
+	skos:prefLabel "Monochord"@gr , "monocorde"@fr , "monocordio"@es , "monocórdio"@por , "monocordo"@it ;
+	skos:altLabel "Tastenmonochord"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mme> a skos:Concept ;
+	skos:prefLabel "melodica"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "blow-organ"@en , "key-flute"@en ;
+	skos:prefLabel "melodica"@it , "Melodica"@gr , "mélodica"@fr , "melódica"@por , "melódica"@es ;
+	skos:altLabel "pianica"@en .
+
+<http://data.doremus.org/vocabulary/iaml/mmi> a skos:Concept ;
+	skos:prefLabel "mirliton"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bazooka"@en , "cantophone"@en , "eunuch"@en , "eunuch flute"@en , "flûte à l'oignon"@fr , "flûte eunuque"@fr , "gazooka"@en , "gazoota"@en , "kazoo"@es , "kazoo"@en ;
+	skos:prefLabel "mirliton"@por , "mirliton"@it , "mirliton"@fr , "Mirliton"@gr , "mirlitón"@es ;
+	skos:altLabel "Narrenpfeife"@gr , "Näselhäutchen"@gr , "nyastaranga@swe" , "onion flute"@en , "pito de chapa"@es , "tommy-talker"@en , "turuta"@es , "zazah"@en .
+
+<http://data.doremus.org/vocabulary/iaml/mml> a skos:Concept ;
+	skos:prefLabel "melodic instrument"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "instrument mélodique"@fr , "instrumento melódico"@es , "instrumento melódico"@por , "Melodieinstrument"@gr , "strumento melodico"@it .
+
+<http://data.doremus.org/vocabulary/iaml/mms> a skos:Concept ;
+	skos:prefLabel "musical saw"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "hoja sonora"@es , "lame sonore"@fr , "Säge mit Bassbogen gestrichen"@gr ;
+	skos:prefLabel "scie musicale"@fr ;
+	skos:altLabel "sega cantante"@it ;
+	skos:prefLabel "sega musicale"@it , "serrote"@por , "sierra musical"@es , "singende Säge"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/moc> a skos:Concept ;
+	skos:prefLabel "ocarina"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "ocarina"@por , "ocarina"@es , "ocarina"@en ;
+	skos:altLabel "Ocarina"@gr ;
+	skos:prefLabel "Okarina"@gr ;
+	skos:altLabel "vessel flute"@en , "xun@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/mpo> a skos:Concept ;
+	skos:prefLabel "polyphonic instrument"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Harmonieinstrument"@gr , "instrument harmonique"@fr , "instrumento harmónico"@por , "instrumento polifónico"@es ;
+	skos:altLabel "instrument polyphonique"@fr ;
+	skos:prefLabel "strumento armonico"@it .
+
+<http://data.doremus.org/vocabulary/iaml/mpp> a skos:Concept ;
+	skos:prefLabel "player piano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "ampico"@it , "automatisches Klavier"@gr , "autopiano"@it , "duo-art piano"@en , "duophonola"@en , "elektrisches Klavier"@gr , "Kunstspielklavier"@gr , "phonola"@en ;
+	skos:prefLabel "pianola"@es , "pianola"@it , "pianola"@por ;
+	skos:altLabel "piano mecánico"@es ;
+	skos:prefLabel "piano mécanique"@fr ;
+	skos:altLabel "piano pneumatico"@it , "Reproduktionsflügel"@gr ;
+	skos:prefLabel "Selbstspielklavier"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mra> a skos:Concept ;
+	skos:prefLabel "rabab@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "raba?b"@es , "raba?b"@en ;
+	skos:altLabel "rab?b@oth" , "rab?ba@oth" , "rbab@oth" , "rebab@oth" ;
+	skos:prefLabel "rebab"@por , "Rebab"@gr ;
+	skos:altLabel "rub?b@oth" , "rubob@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/mss> a skos:Concept ;
+	skos:prefLabel "sound sculpture"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Klangskulptur"@gr , "scultura sonora"@it .
+
+<http://data.doremus.org/vocabulary/iaml/msw> a skos:Concept ;
+	skos:prefLabel "swanee whistle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "flauta de émbolo"@es , "flauta de êmbolo"@por , "flauto a coulisse"@it , "flûte à coulisse"@fr ;
+	skos:altLabel "jazz flute"@en , "jazz flûte"@fr , "Lotosflöte"@gr , "lotos flute"@en , "piston flute"@en , "slide flute"@en , "slide whistle"@en ;
+	skos:prefLabel "Stempelflöte"@gr ;
+	skos:altLabel "swanee flute"@en , "Ziehpfeife"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mtf> a skos:Concept ;
+	skos:prefLabel "tuning-fork"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "alamire"@it , "corista"@it ;
+	skos:prefLabel "diapasão"@por , "diapason"@it ;
+	skos:altLabel "diapason"@fr ;
+	skos:prefLabel "diapasón"@es , "Stimmgabel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/mui> a skos:Concept ;
+	skos:prefLabel "instrument - non specified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "instrument - non spécifié"@fr ;
+	skos:altLabel "instrumento"@it ;
+	skos:prefLabel "instrumento - não especificado"@por , "instrumento - sin especificar"@es , "Instrument - unbestimmt"@gr , "strumento - non specificato"@it .
+
+<http://data.doremus.org/vocabulary/mop/muiy> a skos:Concept ;
+	skos:altLabel "Instrument - ethnisch"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "instrument - non specified - ethnic"@en , "instrument - non spécifié - ethnique"@fr , "instrumento - sin especificar - étnico"@es .
+
+<http://data.doremus.org/vocabulary/iaml/mun> a skos:Concept ;
+	skos:prefLabel "instrument or voice - non specified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Instrument oder Singstimme - unbestimmt"@gr , "instrumento ou voz, não especificado"@por , "instrumento o voz - sin especificar"@es , "instrument ou voix - non spécifié"@fr , "strumento o voce - non specificato"@it .
+
+<http://data.doremus.org/vocabulary/iaml/mwd> a skos:Concept ;
+	skos:prefLabel "wind instrument"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "aerofone"@por ;
+	skos:altLabel "aerofono"@it ;
+	skos:prefLabel "Blasinstrument"@gr , "instrument à vent"@fr , "instrumento de viento"@es , "strumento a fiato"@it .
+
+<http://data.doremus.org/vocabulary/iaml/mwh> a skos:Concept ;
+	skos:prefLabel "whistle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "apito"@por , "fischietto"@it , "Pfeife"@gr , "sifflet"@fr , "silbato"@es .
+
+<http://data.doremus.org/vocabulary/iaml/mzz> a skos:Concept ;
+	skos:prefLabel "other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "altro"@it , "Andere"@gr , "autre"@fr ;
+	skos:altLabel "divers"@fr ;
+	skos:prefLabel "otro"@es , "outro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/oba> a skos:Concept ;
+	skos:prefLabel "band"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "banda"@es , "banda"@it , "banda"@por ;
+	skos:altLabel "banda de música"@es , "Blaskapelle"@gr ;
+	skos:prefLabel "Blasorchester"@gr , "harmonie"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/obi> a skos:Concept ;
+	skos:prefLabel "big band"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "big band"@gr ;
+	skos:prefLabel "big band"@es , "big band"@por , "Jazzorchester"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/obr> a skos:Concept ;
+	skos:prefLabel "brass band"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "banda de viento metal"@es ;
+	skos:altLabel "Blechblaskapelle"@gr , "Blechblasorchester"@gr ;
+	skos:prefLabel "Brassband"@gr , "fanfara"@it , "fanfare"@fr ;
+	skos:altLabel "Fanfarenzug"@gr ;
+	skos:prefLabel "fanfarra"@por .
+
+<http://data.doremus.org/vocabulary/iaml/ocb> a skos:Concept ;
+	skos:prefLabel "cobla"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/och> a skos:Concept ;
+	skos:prefLabel "chamber orchestra"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Kammerorchester"@gr , "orchestra da camera"@it , "orchestre de chambre"@fr , "orquesta de cámara"@es , "orquestra de câmara"@por .
+
+<http://data.doremus.org/vocabulary/iaml/oco> a skos:Concept ;
+	skos:prefLabel "combo"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "combo"@it , "combo"@por , "Combo"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/odo> a skos:Concept ;
+	skos:prefLabel "dance orchestra"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "orchestra da ballo"@it , "orchestre de danse"@fr , "orquesta de baile"@es , "orquestra de dança"@por , "Tanzorchester"@gr ;
+	skos:altLabel "Unterhaltungsorchester"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ofu> a skos:Concept ;
+	skos:prefLabel "full orchestra"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "grand orchestre"@fr , "Großes Orchester"@gr ;
+	skos:prefLabel "orchestra sinfonica"@it , "orchestre symphonique"@fr , "orquesta sinfónica"@es , "orquestra sinfónica"@por , "Sinfonieorchester"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/oga> a skos:Concept ;
+	skos:prefLabel "gamelan"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "gamelan"@it , "gamelan"@fr , "Gamelan"@gr , "gamelán"@es , "gamelão"@por .
+
+<http://data.doremus.org/vocabulary/iaml/oie> a skos:Concept ;
+	skos:prefLabel "instrumental ensemble"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "complesso strumentale"@it , "conjunto instrumental"@es , "conjunto instrumental"@por ;
+	skos:altLabel "conjunto musical"@es , "ensamble"@es ;
+	skos:prefLabel "ensemble instrumental"@fr , "Instrumentalensemble"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/oiv> a skos:Concept ;
+	skos:prefLabel "vocal and instrumental ensemble"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "complesso vocale e strumentale"@it , "conjunto vocal y instrumental"@es , "Vokal- und Instrumentalensemble"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/oja> a skos:Concept ;
+	skos:prefLabel "jazz band"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "banda de jazz"@es , "complesso jazz"@it , "ensemble de jazz"@fr , "grupo de jazz"@por , "Jazzband"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ope> a skos:Concept ;
+	skos:prefLabel "percussion orchestra"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "grupo de percussão"@por ;
+	skos:altLabel "instrumentarium orff"@fr ;
+	skos:prefLabel "orchestra di percussioni"@it , "orchestre de percussions"@fr ;
+	skos:altLabel "Orff-Instrumentenensemble"@gr ;
+	skos:prefLabel "orquesta de percusión"@es , "Schlagzeugensemble"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/orb> a skos:Concept ;
+	skos:prefLabel "ragtime band"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "banda de ragtime"@es , "ragtime band"@por .
+
+<http://data.doremus.org/vocabulary/iaml/osb> a skos:Concept ;
+	skos:prefLabel "steel band"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "steelband"@es , "steel band"@por .
+
+<http://data.doremus.org/vocabulary/iaml/ost> a skos:Concept ;
+	skos:prefLabel "string orchestra"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "orchestra d'archi"@it , "orchestre à cordes"@fr , "orquesta de cuerdas"@es , "orquestra de cordas"@por , "Streichorchester"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/oun> a skos:Concept ;
+	skos:prefLabel "orchestra - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Orchester - unbestimmt"@gr , "orchestra - non specificata"@it , "orchestre - non spécifié"@fr , "orquesta - sin especificar"@es , "orquestra – não especificado"@por .
+
+<http://data.doremus.org/vocabulary/mop/ouny> a skos:Concept ;
+	skos:altLabel "Orchester - ethnisch"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "orchestra - ethnic"@en , "orchestra - etnica"@it , "orchestre - ethnique"@fr , "orquesta - étnico"@es , "orquesta - étnico"@por .
+
+<http://data.doremus.org/vocabulary/iaml/owi> a skos:Concept ;
+	skos:prefLabel "wind orchestra"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Blasorchester"@gr , "conjunto de sopros"@por , "orchestra di fiati"@it , "orchestre de vents"@fr , "orquesta de vientos"@es .
+
+<http://data.doremus.org/vocabulary/iaml/ozz> a skos:Concept ;
+	skos:prefLabel "orchestra - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Orchester - andere"@gr , "orchestra - altro"@it , "orchestre - autre"@fr , "orquesta - otro"@es , "orquestra - outro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/pab> a skos:Concept ;
+	skos:prefLabel "aeolian bells"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Aeolsglocken"@gr , "baguettes de verre"@fr ;
+	skos:prefLabel "campanelle a vento"@it ;
+	skos:altLabel "campanelle cinesi a vento"@it ;
+	skos:prefLabel "carillones de viento"@es ;
+	skos:altLabel "chinese wind chimes"@en , "chinesischer Messingpendelrassel"@gr , "cloches de coquille"@fr , "cloches de verre"@fr , "clochette à vent"@fr , "clochette chinoise à vent"@fr , "clochettes éoliennes"@fr ;
+	skos:prefLabel "clochettes suspendues"@fr ;
+	skos:altLabel "glass chimes"@en , "Glass Glocken"@gr , "Glasstäbchen"@gr , "glass wind chimes"@en , "Glaswindglocken"@gr , "lastrine a vento di vetro"@it , "mark-tree"@en , "Metalpendelrassel"@gr , "pearly chimes"@en , "plaquettes de verre"@fr , "shell chimes"@en , "shell wind chimes"@en , "Türgelaüt"@gr ;
+	skos:prefLabel "wind chimes"@por ;
+	skos:altLabel "wind chimes"@en , "wind-chimes"@en , "wood chimes"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pad> a skos:Concept ;
+	skos:prefLabel "arabian drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "arabische Trommel"@gr , "darabucca@oth" , "darabuka@oth" , "darabukka@oth" ;
+	skos:prefLabel "darabukke"@it , "darbouka"@fr ;
+	skos:altLabel "darbuka@oth" ;
+	skos:prefLabel "darbuka"@por ;
+	skos:altLabel "darbukat@oth" , "derabukka@oth" ;
+	skos:prefLabel "derbake"@es ;
+	skos:altLabel "derbouka"@fr , "derbuka@oth" , "doumbek@oth" , "dumbeg-drum"@en , "goblet drum"@en , "tabourka@oth" , "tambour arabe"@fr , "tamburo arabo"@it , "tarabonka@oth" , "tarabuka@oth" , "tarbourka@oth" , "tunbuk@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pag> a skos:Concept ;
+	skos:prefLabel "agogo@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "agogo"@en , "agogó"@es , "agogò"@it , "agogô"@por ;
+	skos:altLabel "agogô"@en ;
+	skos:prefLabel "agogô"@fr , "Agogô"@gr ;
+	skos:altLabel "agogo bells"@en , "ekòn@oth" , "gongué"@fr , "ogàn@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pan> a skos:Concept ;
+	skos:prefLabel "anvil"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Amboss"@gr , "Ambosse"@gr ;
+	skos:prefLabel "bigorna"@por ;
+	skos:altLabel "bigornia@oth" ;
+	skos:prefLabel "enclume"@fr , "incudine"@it ;
+	skos:altLabel "yunke@oth" , "yunque"@es , "yunque@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pbb> a skos:Concept ;
+	skos:prefLabel "boobams"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "boo-bams"@en ;
+	skos:prefLabel "boo-bams"@por ;
+	skos:altLabel "Boobamstrommel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pbd> a skos:Concept ;
+	skos:prefLabel "bass drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "big drum"@en ;
+	skos:prefLabel "bombo"@es , "bombo"@por ;
+	skos:altLabel "cassa"@it , "cassa grande"@it , "catuba"@it , "einfellige grosse Trommel"@gr , "gong bass drum"@en , "gong drum"@en ;
+	skos:prefLabel "grancassa"@it ;
+	skos:altLabel "gran cassa"@it , "grancassa gong"@it , "grand tambour"@fr , "gran tamburo"@it ;
+	skos:prefLabel "grosse caisse"@fr ;
+	skos:altLabel "grosse Trommel"@gr , "Mammoth"@gr , "rollo"@it , "tambor grande"@es , "tamburo grande"@it , "tamburo turco"@it , "tonnant"@fr , "turkish drum"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pbe> a skos:Concept ;
+	skos:prefLabel "tambourin de béarn"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "altobasso"@it , "bertz@baq" , "chicotén"@es , "danburia@baq" , "psalterium"@es ;
+	skos:prefLabel "tambor de cuerdas"@es , "tamboril"@por ;
+	skos:altLabel "tambourin à cordes"@fr , "tambourin de gascogne"@fr , "tamburina@baq" , "tountouna@baq" , "trombe"@fr ;
+	skos:prefLabel "ttun-ttuna@baq" ;
+	skos:altLabel "tuntun@baq" .
+
+<http://data.doremus.org/vocabulary/iaml/pbl> a skos:Concept ;
+	skos:prefLabel "bells"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bell chime"@en , "campana"@it ;
+	skos:prefLabel "campanas"@es ;
+	skos:altLabel "campanas tubulares"@es ;
+	skos:prefLabel "campane"@it ;
+	skos:altLabel "campane tubolari"@it , "chimes"@en , "cloche"@fr ;
+	skos:prefLabel "cloches"@fr ;
+	skos:altLabel "cloches tubes"@fr ;
+	skos:prefLabel "Glocke"@gr ;
+	skos:altLabel "Röhrenglocken"@gr , "Röhrenglockenspiel"@gr , "Röhrenspiel"@gr ;
+	skos:prefLabel "sinos tubolares"@por ;
+	skos:altLabel "tubular bells"@en , "tubular chimes"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pbo> a skos:Concept ;
+	skos:prefLabel "bongos"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bongo"@it , "bongo"@fr , "bongó"@es ;
+	skos:altLabel "bongo drums"@en , "bongoes"@en , "bongos"@es ;
+	skos:prefLabel "bongós"@por .
+
+<http://data.doremus.org/vocabulary/iaml/pbp> a skos:Concept ;
+	skos:prefLabel "metal bells plate"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bell plate"@en ;
+	skos:prefLabel "campane a lastra"@it ;
+	skos:altLabel "campane a placca"@it , "cloches à plaque"@fr , "cloches en lame de métal"@fr ;
+	skos:prefLabel "cloches-plaques"@fr ;
+	skos:altLabel "Metalplatten"@gr ;
+	skos:prefLabel "placa de metal"@por ;
+	skos:altLabel "plate bells"@en , "Plattenglocken"@gr , "Stahlplatten"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pbr> a skos:Concept ;
+	skos:prefLabel "bronté"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bronte"@it .
+
+<http://data.doremus.org/vocabulary/iaml/pca> a skos:Concept ;
+	skos:prefLabel "castanets"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "castagnette"@it , "castagnettes"@fr ;
+	skos:altLabel "castagnetti"@it , "castagnole"@it , "castañetas"@es ;
+	skos:prefLabel "castanholas"@por , "castañuelas"@es ;
+	skos:altLabel "castanyoles@oth" , "Clappern"@gr , "cliquettes"@fr , "Kastagnetten"@gr , "nacchere"@it , "palillos"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pcb> a skos:Concept ;
+	skos:prefLabel "cabaca"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "afoche"@es , "afoxe"@por , "afuché"@es , "afuche cabaza"@por ;
+	skos:prefLabel "cabaça"@por ;
+	skos:altLabel "cabasa"@por ;
+	skos:prefLabel "cabaza"@it , "calabaza"@es , "calebasse"@fr ;
+	skos:altLabel "caqueré"@por , "casabia"@por , "Kurbisrassel"@gr , "xaqué@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pcc> a skos:Concept ;
+	skos:prefLabel "chinese cymbals"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cymbales chinoises"@fr ;
+	skos:altLabel "pang cymbals"@en ;
+	skos:prefLabel "piatto cinese"@it ;
+	skos:altLabel "ping cymbals"@en ;
+	skos:prefLabel "platillos chinos"@es , "pratos chineses"@por ;
+	skos:altLabel "swish cymbals"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pcg> a skos:Concept ;
+	skos:prefLabel "conga"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "atabaque"@por ;
+	skos:prefLabel "conga"@por , "conga"@es , "conga"@fr , "conga"@it , "Conga"@gr ;
+	skos:altLabel "conga drum"@en , "congas"@es , "Conga Trommel"@gr , "tambó"@es , "tambor"@es , "tambora"@es , "tambour congo"@fr , "tumba"@es , "tumbadora"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pch> a skos:Concept ;
+	skos:prefLabel "chains"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cadenas"@es , "catene"@it , "chaînes"@fr , "correntes"@por ;
+	skos:altLabel "Ketten"@gr , "Kettenrassel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pci> a skos:Concept ;
+	skos:prefLabel "cimbalom@hun" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Brettl"@gr ;
+	skos:prefLabel "címbalo"@es ;
+	skos:altLabel "címbalo húngaro"@es , "cimbalom"@es ;
+	skos:prefLabel "cymbalum"@fr ;
+	skos:altLabel "dolcema@oth" , "dolcemela"@it , "dolcimela"@it , "doucemelle"@fr , "doulcemelle"@fr , "dowcememere"@en , "dulçema"@fr , "dulcémele"@es , "dulce melos@lat" , "dulcet"@fr , "dulcette"@fr , "dulcimer"@en , "dulcimor"@en , "Hachbratt"@gr , "Hackbrett"@gr , "kimbalom@hun" , "Kymbalon"@gr , "pantaleon@oth" , "psaltari@oth" , "psalter"@en , "psaltérion"@fr , "psalterium@lat" , "psaltery"@en , "tympanon"@fr ;
+	skos:prefLabel "zimbalão"@por .
+
+<http://data.doremus.org/vocabulary/iaml/pco> a skos:Concept ;
+	skos:prefLabel "chocalho"@por ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chocallo"@por , "chocolo"@por , "ganzá"@por , "metal chocalcho"@en , "Metallgefässrassel"@gr , "metal tube"@en ;
+	skos:prefLabel "sacudidor"@es ;
+	skos:altLabel "Shüttenrohr"@gr , "sounding tube"@en , "tube shaker"@en , "tube sonore"@fr , "tubos"@es , "tubo sonoro"@it , "xocalho@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pcr> a skos:Concept ;
+	skos:prefLabel "crash cymbal"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "aufgehängte Becken"@gr , "Becken auf Ständer"@gr , "Becken freihängend"@gr , "bounce cymbals"@en ;
+	skos:prefLabel "crash"@es ;
+	skos:altLabel "crash ride cymbals"@en ;
+	skos:prefLabel "cymbale suspendue"@fr ;
+	skos:altLabel "hängendes Becken"@gr , "piatto"@it ;
+	skos:prefLabel "piatto sospeso"@it , "pratos de choque"@por ;
+	skos:altLabel "ride cymbals"@en , "rock cymbals"@en , "snap cymbal"@en , "splash cymbals"@en , "suspended cymbals"@en , "top cymbals"@en , "Zymbal"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pct> a skos:Concept ;
+	skos:prefLabel "crotales"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "antikes Becken"@gr , "antike Zimbeln"@gr , "antique cymbals"@en , "cimbali antichi"@it ;
+	skos:prefLabel "crotales"@fr , "crotali"@it ;
+	skos:altLabel "crotali antichi"@it ;
+	skos:prefLabel "crótalos"@por , "crótalos"@es ;
+	skos:altLabel "cymbales antiques"@fr , "gioco di crotali"@it , "kleine tanz-becken"@it , "Zimbeln"@gr , "Zimbelspiel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pcu> a skos:Concept ;
+	skos:prefLabel "cuíca"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cuica"@es ;
+	skos:prefLabel "cuíca"@por ;
+	skos:altLabel "friction drum cuíca"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pcv> a skos:Concept ;
+	skos:prefLabel "claves"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "baguettes"@fr ;
+	skos:prefLabel "claves"@en , "claves"@it , "claves"@por , "claves"@fr , "Holzstäbe"@gr ;
+	skos:altLabel "Klanghölzer"@gr , "Klangstäbe"@gr , "legnetti"@it .
+
+<http://data.doremus.org/vocabulary/iaml/pcw> a skos:Concept ;
+	skos:prefLabel "cowbell"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Almglocke"@gr ;
+	skos:prefLabel "campana"@por , "campanaccio"@it ;
+	skos:altLabel "campanaccio alpestre"@it , "campanaccio a pedale"@it , "campanaccio da mucca"@it ;
+	skos:prefLabel "cencerro"@es ;
+	skos:altLabel "cincerro"@por , "cloche à vache"@fr ;
+	skos:prefLabel "cloche de vache"@fr ;
+	skos:altLabel "cow-bell"@en , "grelot de vache"@fr , "Herdenglocke"@gr , "Kuhglocke"@gr , "metal bloc"@en , "Vieh Glocke"@gr ;
+	skos:prefLabel "Viehschelle"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pcy> a skos:Concept ;
+	skos:prefLabel "cymbal"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Becken"@gr , "Beckenpaar"@gr , "Becken Teller"@gr , "cimbales"@es , "cimbali"@it , "címbalos"@es , "cinelli"@it , "clashed cymbals"@en , "coppia di piatti"@it ;
+	skos:prefLabel "cymbale"@fr ;
+	skos:altLabel "cymbales"@fr , "cymbales à main"@fr , "cymbales coquées"@fr , "cymbales frappées"@fr , "cymbals"@en , "cymbals clashed"@en , "cymbals - pair"@en , "gewöhnlich Becken"@gr , "Hand Becken"@gr , "hand cymbals"@en ;
+	skos:prefLabel "piatti"@it ;
+	skos:altLabel "piatti a due"@it , "piatti a mano"@it , "piatti in coppia"@it , "piatti volanti"@it ;
+	skos:prefLabel "platillos"@es ;
+	skos:altLabel "platos"@es ;
+	skos:prefLabel "pratos"@por ;
+	skos:altLabel "Schellbecken"@gr , "Tellern"@gr , "Tschinellen"@gr , "two cymbals"@en , "zwei Becken gestossen"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pdr> a skos:Concept ;
+	skos:prefLabel "drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "tabur"@por ;
+	skos:prefLabel "tambor"@por , "tambor"@es , "tambour"@fr , "tamburo"@it , "Trommel"@gr ;
+	skos:altLabel "Trumme"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pds> a skos:Concept ;
+	skos:prefLabel "drums"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bateria"@por , "batería"@es , "batteria"@it , "batterie"@fr ;
+	skos:altLabel "équipement de la batterie"@fr , "percusión"@es , "percussion outfit"@en , "Schlagzeug-Garnitur"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pfc> a skos:Concept ;
+	skos:prefLabel "finger cymbals"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "castagnette di ferro"@it , "castagnettes de fer"@fr , "chinchines"@es , "cimbalini a dita"@it , "cliquettes métalliques"@fr , "crotales à doigts"@fr , "crotali a dita"@it ;
+	skos:prefLabel "crótalos de dedos"@es , "crótalos de dedos"@por ;
+	skos:altLabel "cymbales à doigts"@fr ;
+	skos:prefLabel "cymbales digitales"@fr ;
+	skos:altLabel "Finger-Zimbel"@gr , "iron castanets"@en , "metal castanets"@en , "Metallkastagnetten"@gr ;
+	skos:prefLabel "piattini"@it ;
+	skos:altLabel "zills"@en , "zils"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pfd> a skos:Concept ;
+	skos:prefLabel "friction drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Brummtopf"@gr , "bufù"@it ;
+	skos:prefLabel "caccavella"@it ;
+	skos:altLabel "crocrò"@it , "cupa-cupa"@it , "cupello"@it , "jackdaw"@en , "lion's roar"@en , "lions roar"@en , "Löwengebrüll"@gr , "putipù"@it , "puti-puti"@it , "Reibentrommel"@gr , "Reibtrommel"@gr , "ruggito del leone"@it , "Rummeltopf"@gr ;
+	skos:prefLabel "sarronca"@por ;
+	skos:altLabel "spernacchiatore"@it , "string drum"@en , "string-drum"@en ;
+	skos:prefLabel "tambor de fricción"@es ;
+	skos:altLabel "tambour à corde"@fr ;
+	skos:prefLabel "tambour à friction"@fr ;
+	skos:altLabel "tamburo a corda"@it , "tamburo a frizione"@it , "zambomba"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pfl> a skos:Concept ;
+	skos:prefLabel "flexatone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "flexaton"@it , "Flexaton"@gr , "flexatone"@fr , "flexatone"@por , "flexatono"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pgl> a skos:Concept ;
+	skos:prefLabel "Glockenspiel"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "armónica de metal"@es , "bell-lyra"@en ;
+	skos:prefLabel "glockenspiel"@es , "glockenspiel"@por ;
+	skos:altLabel "instrumento d'acciaio"@it , "juego de timbres"@es , "lira"@es , "Lyra Glockenspiel"@gr , "metallino"@it , "militär Glockenspiel"@gr , "sistro"@it , "Stabspiel"@gr , "Stahlspiel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pgn> a skos:Concept ;
+	skos:prefLabel "gun"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "canhão"@por , "cannone"@it , "canon"@fr , "cañón"@es ;
+	skos:altLabel "Explosivaerophone"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pgo> a skos:Concept ;
+	skos:prefLabel "gong"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "gong"@por , "gong"@it ;
+	skos:altLabel "Gong"@gr , "gong a suono indeterminato"@it , "tamtam"@it , "tam tam"@it ;
+	skos:prefLabel "tam-tam"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pgu> a skos:Concept ;
+	skos:prefLabel "güiro"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "churuca"@es , "Fisch"@gr , "Flaschenkürbis"@gr , "gracé"@por , "guayó"@es , "güícharo"@es , "güira"@es ;
+	skos:prefLabel "guiro"@it , "güiro"@en , "Güiro"@gr ;
+	skos:altLabel "jiruquía"@es , "Ratschgurke"@gr , "rayador"@es ;
+	skos:prefLabel "reco-reco"@por ;
+	skos:altLabel "sapo"@por , "vis guirra"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pha> a skos:Concept ;
+	skos:prefLabel "hammer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Hammerschlag"@gr , "maglio"@it ;
+	skos:prefLabel "marteau"@fr , "martello"@it ;
+	skos:altLabel "martellone"@it , "martelo"@es ;
+	skos:prefLabel "martelo"@por , "martillo"@es ;
+	skos:altLabel "massue"@fr , "mazza"@it , "sledge-hammer"@en , "Stimmhammer"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/phb> a skos:Concept ;
+	skos:prefLabel "handbell"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "campanella"@it ;
+	skos:altLabel "campanella a mano"@it , "campanella da chiesa"@it ;
+	skos:prefLabel "campanilla"@es , "cloches à main"@fr ;
+	skos:altLabel "clochette"@fr , "clochette à main"@fr , "clochette de messe"@fr , "clochette pour la messe"@fr , "hand bell"@en , "Handglocke"@gr , "Messglöche"@gr , "Messklingel"@gr , "sanctus bell"@en ;
+	skos:prefLabel "sineta"@por ;
+	skos:altLabel "Tischglocke"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/phh> a skos:Concept ;
+	skos:prefLabel "hi-hat"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "charles"@es , "charleston"@fr , "charleston"@en , "charleston"@it , "charleston-cymbals"@en , "charleston machine"@en , "choke cymbals"@en , "cymbales à pedale"@fr ;
+	skos:prefLabel "cymbales charleston"@fr ;
+	skos:altLabel "foot cymbals"@en , "high-hat"@en ;
+	skos:prefLabel "hi hat"@es , "hi-hat"@por ;
+	skos:altLabel "hi-hat"@es ;
+	skos:prefLabel "Hi-Hat"@gr ;
+	skos:altLabel "Hi-Hat Becken"@gr , "hi-hat charleston"@en , "hi-hat cymbals"@en ;
+	skos:prefLabel "piatti a pedale"@it ;
+	skos:altLabel "piatto a pedale"@it , "sock cymbals"@en , "Ständerbecken"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pir> a skos:Concept ;
+	skos:prefLabel "intonarumori"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/pje> a skos:Concept ;
+	skos:prefLabel "jembe@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "djembe@oth" , "djembé"@fr ;
+	skos:prefLabel "jembe"@por ;
+	skos:altLabel "yimbe@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pji> a skos:Concept ;
+	skos:prefLabel "jingles"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "araine"@fr , "bubbolo"@it , "carquavel"@es ;
+	skos:prefLabel "cascabel"@es ;
+	skos:altLabel "esquila"@es , "girellina"@it , "grelot"@fr ;
+	skos:prefLabel "grelots"@fr , "guizos"@por ;
+	skos:altLabel "jingle bells"@en , "Rolle"@gr , "Rollschelle"@gr , "Schelle"@gr , "sleigh bells"@en ;
+	skos:prefLabel "sonagli"@it ;
+	skos:altLabel "sonagliera"@it , "sonaglio"@it , "sonnaille"@fr , "sonneau"@fr , "sonnette"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pli> a skos:Concept ;
+	skos:prefLabel "lithophone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Felsenharmonika"@gr , "Lithophon"@gr ;
+	skos:prefLabel "lithophone"@fr , "litofono"@it , "litófono"@por , "litófono"@es ;
+	skos:altLabel "Steinharmonika"@gr , "Steinspiel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/plj> a skos:Concept ;
+	skos:prefLabel "lujon@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "loo-jon@oth" ;
+	skos:prefLabel "loo-jon"@por .
+
+<http://data.doremus.org/vocabulary/iaml/pmb> a skos:Concept ;
+	skos:prefLabel "marimba"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "marimba"@it , "marimba"@por , "marimba"@es , "marimba"@fr , "Marimba"@gr ;
+	skos:altLabel "Marimbaphon"@gr , "marimbaphone"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pmc> a skos:Concept ;
+	skos:prefLabel "maracas"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "alfandoque"@es , "asô@oth" , "asson@oth" , "dadu@oth" , "guará"@es , "huada"@es , "maracá@oth" ;
+	skos:prefLabel "maracas"@por ;
+	skos:altLabel "marraga@oth" , "maruga@oth" , "nasisi@oth" , "sonajas"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pmd> a skos:Concept ;
+	skos:prefLabel "military drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basel drum"@en , "basler Trommel"@gr , "caisse"@fr , "caisse claire"@fr , "caisse plate"@fr , "caisse roulante"@fr , "caisse sourde"@fr ;
+	skos:prefLabel "caja"@es ;
+	skos:altLabel "caja clara"@es , "cassa chiara"@it , "cassa rullante"@it , "drum with strings"@en , "field drum"@en , "kleine Trommel"@gr , "Landsknechtsz-Trommel"@gr , "Militärtrommel"@gr , "parade drum"@en , "Paradetrommel"@gr , "redoblante"@es , "rolling case"@en , "rolling drum"@en , "Rolltrommel"@gr , "Rührtrommel"@gr , "rullante"@it , "Schnarrtrommel"@gr , "side drum"@en , "snare drum"@en ;
+	skos:prefLabel "tambor militar"@por ;
+	skos:altLabel "tambour à timbre"@fr , "tambour de Bâle"@fr , "tambour d'empire"@fr , "tambour de parade"@fr , "tambourin de Suisse"@fr ;
+	skos:prefLabel "tambour militaire"@fr ;
+	skos:altLabel "tambour roulant"@fr , "tambour ténor"@fr , "tamburo con corde"@it , "tamburo da parata"@it , "tamburo di Basilea"@it ;
+	skos:prefLabel "tamburo militare"@it ;
+	skos:altLabel "tamburo piccolo"@it , "tamburo rullante"@it , "tamburo tenore"@it , "tenor drum"@en , "Tenortrommel"@gr , "Wirbel Trommel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pme> a skos:Concept ;
+	skos:prefLabel "metallophone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "medalófono"@es ;
+	skos:prefLabel "metallofono"@it , "métallophone"@fr , "metalofone"@por , "metalofóno"@es .
+
+<http://data.doremus.org/vocabulary/iaml/pnv> a skos:Concept ;
+	skos:prefLabel "nail violin"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "daxophone"@en , "Eisenvioline"@gr , "Melkharmonica"@gr , "Metallstabsharfe"@gr , "Nagelclavier"@gr , "Nagelgeige"@gr , "Nagelharmonika"@gr , "Stockspiel"@gr ;
+	skos:prefLabel "violín de hierro"@es ;
+	skos:altLabel "violín de uñas"@es ;
+	skos:prefLabel "violino de ferro"@por , "violino di ferro"@it , "violon de fer"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pra> a skos:Concept ;
+	skos:prefLabel "ratchet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bird-scare"@en , "carraca"@es , "carraca@oth" , "carraco"@es ;
+	skos:prefLabel "cega-rega"@por ;
+	skos:altLabel "cog rattle"@en ;
+	skos:prefLabel "crécelle"@fr ;
+	skos:altLabel "gragger"@en , "Knallfrosch"@gr , "Knarre"@gr ;
+	skos:prefLabel "matraca"@es , "raganella"@it ;
+	skos:altLabel "ratchett"@en ;
+	skos:prefLabel "Ratsche"@gr ;
+	skos:altLabel "rattle"@en , "tartevelle"@fr ;
+	skos:prefLabel "×¨×¢×©×Ÿâ€Ž@heb" .
+
+<http://data.doremus.org/vocabulary/iaml/prs> a skos:Concept ;
+	skos:prefLabel "rain stick"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "albero della pioggia"@it ;
+	skos:prefLabel "bastone della pioggia"@it , "bâton de pluie"@fr , "efeito de chuva"@por ;
+	skos:altLabel "palo de agua"@es , "palo della pioggia"@it ;
+	skos:prefLabel "palo de lluvia"@es .
+
+<http://data.doremus.org/vocabulary/iaml/prt> a skos:Concept ;
+	skos:prefLabel "roto-toms"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "rototoms"@por ;
+	skos:altLabel "rototoms"@en , "Rototomspiel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/psc> a skos:Concept ;
+	skos:prefLabel "sizzle cymbals"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cymbale cloutée"@fr ;
+	skos:altLabel "Nietenbecken"@gr ;
+	skos:prefLabel "piatto chiodato"@it ;
+	skos:altLabel "piatto con sizzler"@it , "piatto jazz"@it ;
+	skos:prefLabel "prato jazz"@por .
+
+<http://data.doremus.org/vocabulary/iaml/pse> a skos:Concept ;
+	skos:prefLabel "sound-effect instrument"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "objecto sonoro"@por , "objet sonore"@fr , "oggetto sonoro"@it .
+
+<http://data.doremus.org/vocabulary/iaml/psl> a skos:Concept ;
+	skos:prefLabel "slit-drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "afrikanische Schlitztrommel"@gr , "cassa di legno"@it , "gestimmte Hölzer"@gr , "Holzblocktrommel"@gr , "huiringua"@es , "log drum"@en , "rhythm log"@en , "Schlitztrommel"@gr , "slit drum"@en , "slit gong"@en , "slit wood drum"@en , "talking drum"@en ;
+	skos:prefLabel "tambor de hendidura"@es , "tambor de madeira"@por ;
+	skos:altLabel "tambour à fente"@fr , "tambour à fessure"@fr , "tambour de bois"@fr ;
+	skos:prefLabel "tambour de bois à fente"@fr ;
+	skos:altLabel "tambour de tronc d'arbre"@fr ;
+	skos:prefLabel "tamburo a fessura"@it ;
+	skos:altLabel "tamburo di legno"@it , "teponaztli"@es .
+
+<http://data.doremus.org/vocabulary/iaml/psm> a skos:Concept ;
+	skos:prefLabel "sistrum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "crepitaculum@lat" , "sistre"@fr , "sistro"@es , "sistro"@it , "sistro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/psn> a skos:Concept ;
+	skos:prefLabel "siren"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "sirena"@it , "sirena"@es , "sirene"@por ;
+	skos:altLabel "sirene"@en ;
+	skos:prefLabel "Sirene"@gr , "sirène"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/psp> a skos:Concept ;
+	skos:prefLabel "sandpaper"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "blocchi di carta vetrata"@it , "blocs à papier de verre"@fr ;
+	skos:prefLabel "carta vetrata"@it , "lija"@es , "lixa"@por ;
+	skos:altLabel "papel de lija"@es ;
+	skos:prefLabel "papier de verre"@fr , "Sandblock"@gr ;
+	skos:altLabel "Sandblöcke"@gr , "sandblocks"@en , "sandpapier"@fr , "Sandpapier"@gr , "Sandpapierblöcke"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pss> a skos:Concept ;
+	skos:prefLabel "sound sculpture"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "escultura sonora"@por , "sculpture sonore"@fr ;
+	skos:altLabel "scultura sonora"@it , "structure Baschet"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pst> a skos:Concept ;
+	skos:prefLabel "steel drum"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bass pan"@en , "ping-pong@oth" , "rhythm pan"@en ;
+	skos:prefLabel "tambor de metal"@por , "tambores metálicos de Trinidad y Tobago"@es , "tambour d'acier"@fr ;
+	skos:altLabel "tamburo d'acciaio"@it ;
+	skos:prefLabel "tamburo di ferro"@it ;
+	skos:altLabel "tamburo di metallo"@it , "tenor pan"@en , "Trinidad-Gongtrommel"@gr , "trinidad steel drum"@en , "tuned-boom"@en .
+
+<http://data.doremus.org/vocabulary/iaml/psw> a skos:Concept ;
+	skos:prefLabel "switch whip"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cepillo"@es ;
+	skos:altLabel "escobilla"@es ;
+	skos:prefLabel "fouet de verges"@fr ;
+	skos:altLabel "frusta di verghe"@it , "Klapper aus Bambus"@gr , "pu-ili@oth" , "rod"@en ;
+	skos:prefLabel "rute"@it , "Rute"@gr ;
+	skos:altLabel "ruthe@oth" , "spazzola"@it , "spazzolino"@it , "Stab aus Bambus"@gr , "twig brush"@en , "twigs"@en ;
+	skos:prefLabel "vergas"@por ;
+	skos:altLabel "verges"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pta> a skos:Concept ;
+	skos:prefLabel "tablas"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "tabla"@por ;
+	skos:altLabel "tabla"@es , "Tabla Trommel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ptb> a skos:Concept ;
+	skos:prefLabel "tabor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "frame drum"@en , "hand drum"@en , "Handtrommel"@gr , "Rahmentrommel"@gr , "Taberett"@gr , "tabolet"@fr , "taboret"@fr , "tamborcillo"@es , "tambori@oth" ;
+	skos:prefLabel "tamboril"@es , "tamborim"@por ;
+	skos:altLabel "tamborim@oth" ;
+	skos:prefLabel "tambourin"@fr ;
+	skos:altLabel "tambourin de provence"@fr , "tambourine"@fr , "tambourine without jingles"@en , "tambour provençal"@fr , "tambour sur cadre"@fr , "tamburello senza sonagli"@it ;
+	skos:prefLabel "tamburino"@it ;
+	skos:altLabel "tamburo di provenza"@it , "tamburo provenzale"@it , "Tammarin"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ptc> a skos:Concept ;
+	skos:prefLabel "turkish crescent"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "albanese"@it , "albanesse"@it , "albero dei sonagli"@it , "bonnet chinois"@fr , "cappel cinese"@it , "cappello cinese"@it , "cappello turco"@it ;
+	skos:prefLabel "chapeau chinois"@fr , "chapéu chinês"@por , "chinesco"@es ;
+	skos:altLabel "chinesco"@it , "chinese pavilion"@en , "cimbalero"@es , "crescent"@en , "Halbmond"@gr , "jingling johnny"@en ;
+	skos:prefLabel "mezzaluna"@it ;
+	skos:altLabel "Mohamedsfahne"@gr , "padiglione cinese"@it , "pavillon chinois"@fr , "Schellenbaum"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pte> a skos:Concept ;
+	skos:prefLabel "temple block"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bloc chinois"@fr ;
+	skos:prefLabel "bloque de templo"@es ;
+	skos:altLabel "chinese temple block"@en , "chorean blocks"@en , "dragon's mouth"@en ;
+	skos:prefLabel "Tempelblock"@gr ;
+	skos:altLabel "temple bloc"@fr ;
+	skos:prefLabel "temple block"@por ;
+	skos:altLabel "temple-block"@en , "Templeblock"@gr , "wooden fish"@en .
+
+<http://data.doremus.org/vocabulary/iaml/ptg> a skos:Concept ;
+	skos:prefLabel "tuned gong"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bossed gong"@en , "Buckelgong"@gr , "button gong"@en , "chinese gong"@en , "chinesischer Gong"@gr , "chromatic gong"@en , "gestimmtes Gong"@gr , "gong"@en ;
+	skos:prefLabel "gong"@fr ;
+	skos:altLabel "gong a bulbo"@it , "gong a calotta"@it , "gong accordé"@fr , "gong ageng@oth" , "gong a mamellone"@it , "gong-chime"@en ;
+	skos:prefLabel "gong chinês"@por ;
+	skos:altLabel "gong cinese"@it , "gong filippino"@it ;
+	skos:prefLabel "gong intonato"@it ;
+	skos:altLabel "gong javanese"@it , "gong tailandese"@it , "kempul@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/pti> a skos:Concept ;
+	skos:prefLabel "timpani"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "atabal@oth" , "bedon@oth" , "Heerpauken"@gr , "kettledrum"@en , "nacaires"@fr ;
+	skos:prefLabel "Pauken"@gr , "timbal"@es ;
+	skos:altLabel "timbale"@fr , "timbale chromatique"@fr ;
+	skos:prefLabel "timbales"@por , "timbales"@fr ;
+	skos:altLabel "timbale-trompette"@fr , "timballi"@it ;
+	skos:prefLabel "timpani"@it ;
+	skos:altLabel "timpano"@it , "timpano a pedale"@it , "timpano cromatico"@it , "trompette-timbale"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/ptl> a skos:Concept ;
+	skos:prefLabel "triangle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "acciarino"@it , "staffa"@it , "staffetto"@it , "Stegeryff"@gr , "Triangel"@gr ;
+	skos:prefLabel "triangle"@fr , "triangolo"@it ;
+	skos:altLabel "triangulo"@it ;
+	skos:prefLabel "triángulo"@es , "triângulo"@por ;
+	skos:altLabel "tripet@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/ptm> a skos:Concept ;
+	skos:prefLabel "thunder machine"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bronteron"@en ;
+	skos:prefLabel "chapa de trueno"@es , "Donnerblech"@gr ;
+	skos:altLabel "Donnermaschine"@gr , "lamiera del tuono"@it , "lamina metallica"@it ;
+	skos:prefLabel "lastra del tuono"@it ;
+	skos:altLabel "macchina del tuono"@it ;
+	skos:prefLabel "machine à tonnerre"@fr , "máquina do trovão"@por ;
+	skos:altLabel "metal sheet"@en , "thunder sheet"@en , "tôle pour imiter le tonnerre"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pto> a skos:Concept ;
+	skos:prefLabel "tarol"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "tamburo militare piccolo"@it ;
+	skos:altLabel "tamburo tarole"@it ;
+	skos:prefLabel "tarola"@por , "tarole"@fr ;
+	skos:altLabel "tarole drum"@en , "Tarole-Trommel"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ptr> a skos:Concept ;
+	skos:prefLabel "tambourine"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basque drum"@en , "bedon de biscaye"@fr ;
+	skos:prefLabel "pandeireta"@por ;
+	skos:altLabel "pandeiro"@es ;
+	skos:prefLabel "pandereta"@es ;
+	skos:altLabel "pandero"@es , "pantheru@oth" , "penderete"@es , "piano-basque"@fr , "Rahmentrommen"@gr , "rikk@oth" , "riqq@oth" , "Schellentrommel"@gr ;
+	skos:prefLabel "tambour de basque"@fr , "tamburello"@it ;
+	skos:altLabel "tamburello basco"@it , "tamburello senza pelle"@it , "Tamburin"@gr , "tamburo basco"@it , "timbrel"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/ptt> a skos:Concept ;
+	skos:prefLabel "tom-tom"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "tom"@it ;
+	skos:prefLabel "tom"@fr ;
+	skos:altLabel "Tom"@gr , "tomtom"@it ;
+	skos:prefLabel "tom-tom"@por , "tom-tom"@it , "tom-tom"@es , "Tomtom"@gr ;
+	skos:altLabel "Tom-Tom"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/ptx> a skos:Concept ;
+	skos:prefLabel "txalaparta@baq" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/pun> a skos:Concept ;
+	skos:prefLabel "percussion - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "percusión - sin especificar"@es , "percussão – não especificado"@por ;
+	skos:altLabel "percussioni"@it ;
+	skos:prefLabel "percussioni - non specificato"@it , "percussions - non spécifié"@fr ;
+	skos:altLabel "Perkussion"@gr , "Schlagwerk"@gr , "Schlagzeug"@gr .
+
+<http://data.doremus.org/vocabulary/mop/puns> a skos:Concept ;
+	skos:altLabel "drum machine"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "electronic percussion"@en , "percusión electrónica"@es , "percussão electrónica"@por , "percussione elettronica"@it , "percussion électronique"@fr , "rhythm machine"@en , "side man"@en .
+
+<http://data.doremus.org/vocabulary/mop/puny> a skos:Concept ;
+	skos:altLabel "percusión - étnico"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "percussão - étnico"@por , "percussion - ethnic"@en , "percussioni - etnico"@it , "percussions - ethnique"@fr , "Perkussion - ethnisch"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pvi> a skos:Concept ;
+	skos:prefLabel "vibraphone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "steel marimba"@en , "vibes"@en ;
+	skos:prefLabel "vibrafone"@por , "vibrafono"@it , "vibráfono"@es ;
+	skos:altLabel "vibraharp"@en ;
+	skos:prefLabel "Vibraphon"@gr , "vibraphone"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pvs> a skos:Concept ;
+	skos:prefLabel "vibra-slap"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "jawbone"@en , "Kieferknochen"@gr , "mascella d'asino"@it ;
+	skos:prefLabel "queixada"@por ;
+	skos:altLabel "quijada"@es , "Schlagrassel"@gr ;
+	skos:prefLabel "vibraslap"@it .
+
+<http://data.doremus.org/vocabulary/iaml/pwh> a skos:Concept ;
+	skos:prefLabel "whip"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chicote"@por ;
+	skos:altLabel "claquette"@fr , "flagello"@it ;
+	skos:prefLabel "fouet"@fr , "frusta"@it ;
+	skos:altLabel "Holzklapper"@gr ;
+	skos:prefLabel "látigo"@es ;
+	skos:altLabel "Peitsche"@gr , "slapstick"@en , "slap stick"@en .
+
+<http://data.doremus.org/vocabulary/iaml/pwm> a skos:Concept ;
+	skos:prefLabel "wind machine"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "aeoliphone"@fr , "eolifono"@it ;
+	skos:prefLabel "eolífono"@es , "macchina del vento"@it , "machine à vent"@fr , "máquina de vento"@por ;
+	skos:altLabel "máquina de viento"@es , "Windmaschine"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pwo> a skos:Concept ;
+	skos:prefLabel "woodblocks"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "blocchi"@it , "blocchi di legno"@it , "bloc chinois"@fr , "bloc de bois cylindrique"@fr , "blocs chinois en bois"@fr , "blocs de bois"@fr , "bloque"@es ;
+	skos:prefLabel "caixa chinesa"@por , "caja china"@es ;
+	skos:altLabel "chinese blocks"@en , "chinese woodblocks"@en , "chinesische Blöcke"@gr , "Holzblock"@gr , "mokubio@jap" , "Röhrenholztrommel"@gr , "tone block"@en , "tone block cylinder"@en ;
+	skos:prefLabel "woodblock"@fr ;
+	skos:altLabel "wood block cilindrico"@it ;
+	skos:prefLabel "wood blocks"@it .
+
+<http://data.doremus.org/vocabulary/iaml/pxr> a skos:Concept ;
+	skos:prefLabel "xylorimba"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "marimba-xylophone"@en , "xilofono-marimba"@it ;
+	skos:prefLabel "xilomarimba"@it , "xilomarimba"@por ;
+	skos:altLabel "xilorimba"@it , "xylo-marimba"@en ;
+	skos:prefLabel "xylorimba"@fr , "Xylorimba"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/pxy> a skos:Concept ;
+	skos:prefLabel "xylophone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "armonica di legno"@it , "armonica di paglia"@it , "arpilegno"@it , "balafon"@fr , "claquebois"@fr , "échelette"@fr , "eschelletes"@fr , "gigelyra@oth" , "hölzernes Gelächter"@gr , "Holzharmonika"@gr , "Holzspiel"@gr , "Hülze Glechter"@gr , "instrumento di legno"@it , "legnofono"@it , "orgue de bois"@fr , "patouilles"@fr , "régale de bois"@fr , "silofono"@it , "sistro d'apulia"@it , "sticcato"@it , "straw fiddle"@en , "Strohfiedel"@gr , "Tastenxylophon"@gr , "timpano musicale"@it , "tryphon@oth" ;
+	skos:prefLabel "xilofone"@por , "xilofono"@it , "xilófono"@es ;
+	skos:altLabel "Xylofon"@gr , "Xyloharmonika"@gr ;
+	skos:prefLabel "Xylophon"@gr , "xylophone"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/pza> a skos:Concept ;
+	skos:prefLabel "zarb@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "dombak@oth" , "tombak@oth" , "tonbak@oth" ;
+	skos:prefLabel "zarb"@es , "zarb"@por .
+
+<http://data.doremus.org/vocabulary/iaml/pzz> a skos:Concept ;
+	skos:prefLabel "percussion - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "percusión - otro"@es , "percussão - outros"@por , "percussioni - altro"@it , "percussions - autre"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/qce> a skos:Concept ;
+	skos:prefLabel "live electronic conductor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chef du dispositif électronique"@fr ;
+	skos:prefLabel "director de live electronic"@por , "director de live electronic"@es , "direttore di live electronic"@it .
+
+<http://data.doremus.org/vocabulary/iaml/qch> a skos:Concept ;
+	skos:prefLabel "choir conductor, chorus master"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chef de choeur"@fr ;
+	skos:altLabel "chef de chœur"@fr , "chorus master"@en ;
+	skos:prefLabel "director de coro"@es , "direttore di coro"@it ;
+	skos:altLabel "maestro del coro"@it ;
+	skos:prefLabel "maestro do coro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/qco> a skos:Concept ;
+	skos:prefLabel "conductor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chef d'orchestre"@fr , "director de orquesta"@es , "direttore"@it ;
+	skos:altLabel "direttore d'orchestra"@it ;
+	skos:prefLabel "maestro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/qlc> a skos:Concept ;
+	skos:prefLabel "light conductor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chef éclairagiste"@fr ;
+	skos:prefLabel "director de luzes"@por , "direttore delle luci"@it .
+
+<http://data.doremus.org/vocabulary/iaml/qzz> a skos:Concept ;
+	skos:prefLabel "conductor - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "directeur - autre"@fr , "director - otro"@es , "direttore - altro"@it , "maestro - outro"@por .
+
+<http://data.doremus.org/vocabulary/iaml/sar> a skos:Concept ;
+	skos:prefLabel "arpeggione"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "arpeggione"@es , "arpeggione"@it , "arpeggione"@fr , "arpeggione"@por , "Arpeggione"@gr ;
+	skos:altLabel "Bogengitarre"@gr , "bowed guitar"@en , "chitarra ad arco"@it , "guitare d'amour"@fr , "guitare-violoncelle"@fr , "Guitarre-Violoncell"@gr , "guitar violoncello"@en , "Streichguitarre"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/sba> a skos:Concept ;
+	skos:prefLabel "baryton"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bardone"@it ;
+	skos:prefLabel "baritón"@es , "baryton"@it ;
+	skos:altLabel "baryton"@es ;
+	skos:prefLabel "baryton"@fr , "viola bastarda"@por ;
+	skos:altLabel "viola di bardone"@it , "viola di bordone"@it , "viola paradon"@it .
+
+<http://data.doremus.org/vocabulary/iaml/sbt> a skos:Concept ;
+	skos:prefLabel "bassett"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Bassel"@gr ;
+	skos:prefLabel "basset"@fr , "bassete"@es ;
+	skos:altLabel "Bassettl"@gr ;
+	skos:prefLabel "bassetto"@it ;
+	skos:altLabel "Bassl"@gr , "basso da camera"@it , "Bierbass"@gr , "Halbass"@gr , "kammerbass"@it ;
+	skos:prefLabel "viola bastarda baixo"@por .
+
+<http://data.doremus.org/vocabulary/iaml/sbu> a skos:Concept ;
+	skos:prefLabel "bumbass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse à boyau"@fr ;
+	skos:prefLabel "basse de flandre"@fr ;
+	skos:altLabel "bladder and string"@en , "bladder fiddle"@en ;
+	skos:prefLabel "bumbass"@es , "Bumbass"@gr , "bumbassa"@por ;
+	skos:altLabel "Bumbasz"@gr , "carangano"@es , "Deiwelsgeije"@gr , "guarumba"@es , "guasdua"@es , "guimbarde à corde"@fr , "poispil"@en , "tarimba"@es , "Teufelsgeige"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/scr> a skos:Concept ;
+	skos:prefLabel "crwth"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chrota"@it , "chrotta"@it , "crot"@en ;
+	skos:prefLabel "crota"@por ;
+	skos:altLabel "crota"@es , "Crott"@gr ;
+	skos:prefLabel "crotta"@it ;
+	skos:altLabel "croud"@en , "crouth"@fr , "crouthe"@en , "crowd"@en , "cruit"@en , "crwth"@fr , "Crwthau"@gr , "germanic lyre"@en , "rhota"@it , "rota"@it ;
+	skos:prefLabel "rota"@es ;
+	skos:altLabel "rote"@fr , "rotta"@it ;
+	skos:prefLabel "Rotta"@gr ;
+	skos:altLabel "Rotte"@gr , "round lyre"@en .
+
+<http://data.doremus.org/vocabulary/iaml/sdb> a skos:Concept ;
+	skos:prefLabel "double bass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse-contre"@fr , "basse des italiens"@fr ;
+	skos:prefLabel "contrabaixo"@por , "contrabajo"@es ;
+	skos:altLabel "Contrabass"@gr ;
+	skos:prefLabel "contrabbasso"@it ;
+	skos:altLabel "contraviolon"@fr ;
+	skos:prefLabel "contrebasse"@fr , "Kontrabass"@gr ;
+	skos:altLabel "string bass"@en .
+
+<http://data.doremus.org/vocabulary/iaml/sdf> a skos:Concept ;
+	skos:prefLabel "five-string double bass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "contrabbasso a cinque corde"@it , "contrebasse à cinq cordes"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/sfi> a skos:Concept ;
+	skos:prefLabel "fiddle, viol (family)"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "fedil"@en , "fedylle"@en , "fele@oth" , "ffythele"@en , "fidella"@it , "fidula"@it , "Fiedel"@gr , "Fiele"@gr , "phidil"@en , "vialla"@it , "Videl"@gr , "vidula"@it , "vièle"@fr ;
+	skos:prefLabel "vièle (famille)"@fr , "viella"@it ;
+	skos:altLabel "Vigel"@gr ;
+	skos:prefLabel "vihuela de arco"@es , "viola (família)"@por ;
+	skos:altLabel "Vithele"@gr , "vitula"@it , "viula (Provenç.)"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/sgu> a skos:Concept ;
+	skos:prefLabel "gusle@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "gusla"@por ;
+	skos:altLabel "gusla@oth" ;
+	skos:prefLabel "gusla"@it , "guzla"@es .
+
+<http://data.doremus.org/vocabulary/iaml/sli> a skos:Concept ;
+	skos:prefLabel "lira da braccio"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "lira"@it , "lira ad arco"@it ;
+	skos:prefLabel "lira da braccio"@es , "lira da braccio"@en , "lira da braccio"@por , "Lira da Braccio"@gr ;
+	skos:altLabel "lira da spalla"@it .
+
+<http://data.doremus.org/vocabulary/iaml/sln> a skos:Concept ;
+	skos:prefLabel "lirone"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "accordo"@it , "Arceviolyra"@gr , "arciviola di lira"@it , "arciviolatalira"@it , "arciviolata lira"@it , "lira"@it , "lira ad arco"@it , "lira da gamba"@fr , "lira da gamba"@it ;
+	skos:prefLabel "lira da gamba"@por , "Lira da Gamba"@gr ;
+	skos:altLabel "lira doppia"@it , "lira grande"@it ;
+	skos:prefLabel "lirone"@en ;
+	skos:altLabel "lirone perfetto"@it ;
+	skos:prefLabel "lyra@lat" ;
+	skos:altLabel "lyra perfecta@lat" , "Lyre"@gr , "Lyrone"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/sny> a skos:Concept ;
+	skos:prefLabel "keyed fiddle"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "lökkelje@swe" , "nickelharpa@oth" , "nyckelfiol@swe" , "nyckelgiga@swe" ;
+	skos:prefLabel "nyckelharpa@swe" ;
+	skos:altLabel "nyckelharpa"@es ;
+	skos:prefLabel "Nyckelharpa"@gr ;
+	skos:altLabel "schlüsselfidel@swe" , "Schlüsselfidel"@gr , "Schlüsselfiedel"@gr , "Schlüsselgeige"@gr , "silverbasharpa@swe" , "Tastenfidel"@gr ;
+	skos:prefLabel "viella a tasti"@it , "violín de llaves"@es , "violino de teclas"@por , "ÑÐ¸Ð¼Ñ„Ð¾Ð½Ð¸Ñ_x008f_@rus" .
+
+<http://data.doremus.org/vocabulary/iaml/sob> a skos:Concept ;
+	skos:prefLabel "octobass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse gigantesque"@fr ;
+	skos:prefLabel "octabajo"@es ;
+	skos:altLabel "Octobass"@gr ;
+	skos:prefLabel "octobasse"@fr ;
+	skos:altLabel "octobasse"@it ;
+	skos:prefLabel "octobasso"@por , "Oktobass"@gr , "ottobasso"@it .
+
+<http://data.doremus.org/vocabulary/iaml/spo> a skos:Concept ;
+	skos:prefLabel "kit"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "canino"@it , "kytte"@en , "linterculus@lat" , "poche"@fr ;
+	skos:prefLabel "pochette"@es , "pochette"@por , "pochette"@fr ;
+	skos:altLabel "pochetto"@it , "Posch"@gr , "sordina"@it ;
+	skos:prefLabel "sordino"@it ;
+	skos:altLabel "sourdine"@fr , "Tanzmeistergeige"@gr , "Taschengeige"@gr , "treble violin"@en .
+
+<http://data.doremus.org/vocabulary/iaml/spv> a skos:Concept ;
+	skos:prefLabel "quinton"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "pardessus de viole"@fr , "pardessus de viole"@por , "quintone"@it .
+
+<http://data.doremus.org/vocabulary/iaml/sre> a skos:Concept ;
+	skos:prefLabel "rebec"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "giga"@it , "gigue"@fr , "rabé"@es , "rabec"@fr , "rabecq"@fr ;
+	skos:prefLabel "rabel"@es , "rabeque"@por ;
+	skos:altLabel "rebebe"@fr ;
+	skos:prefLabel "rebec"@fr ;
+	skos:altLabel "rebeca"@it , "rebecca"@it , "Rebeck"@gr , "Rebecke"@gr , "rebecq"@fr , "rebecquet"@fr , "rebecum@lat" , "Rebekke"@gr , "rebelle"@fr , "rebequin"@fr , "reberbe"@fr , "rebesbe"@fr ;
+	skos:prefLabel "ribeca"@it ;
+	skos:altLabel "ribecca"@it , "ribibe"@en , "ribible"@en , "robecq"@fr , "rubeba@lat" , "rubebe"@fr , "rubella@lat" , "rybybe"@en .
+
+<http://data.doremus.org/vocabulary/iaml/stm> a skos:Concept ;
+	skos:prefLabel "trumpet marine"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "tromba marina"@it , "trombeta marina"@es , "trombeta marinha"@por , "Trompetengeige"@gr , "trompette marine"@fr ;
+	skos:altLabel "Trumscheit"@gr , "violintromba"@it .
+
+<http://data.doremus.org/vocabulary/iaml/sun> a skos:Concept ;
+	skos:prefLabel "strings, bowed - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "archi - non specificato"@it , "cordas, friccionadas – não especificado"@por , "cordes frottées - non spécifié"@fr , "instrumento de cuerda frotada - sin especificar"@es .
+
+<http://data.doremus.org/vocabulary/mop/suny> a skos:Concept ;
+	skos:altLabel "archi - etnico"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cordas, friccionadas - étnico"@por , "cordes frottées - ethnique"@fr , "instrumento de cuerda frotada - étnico"@es , "strings, bowed - ethnic"@en .
+
+<http://data.doremus.org/vocabulary/iaml/sva> a skos:Concept ;
+	skos:prefLabel "viola"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "alto"@fr ;
+	skos:altLabel "altopiano"@it , "alto viola"@it ;
+	skos:prefLabel "Bratsche"@gr ;
+	skos:altLabel "haute-contre de violon"@fr , "quinte de violon"@fr , "taille de violon"@fr , "tenor"@en , "Tenorgeige"@gr , "tenor viola"@en , "tenor violin"@en ;
+	skos:prefLabel "viola"@es , "viola"@en ;
+	skos:altLabel "viola da brazzo"@it ;
+	skos:prefLabel "viola de arco"@por ;
+	skos:altLabel "Viole"@gr , "violet"@en , "violetta"@it .
+
+<http://data.doremus.org/vocabulary/iaml/svc> a skos:Concept ;
+	skos:prefLabel "cello"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bas de violon"@fr , "basse de violon"@fr , "bass-Geige"@gr , "bass violin"@en , "bas viol de braccio@oth" , "chelo"@es , "violoncel"@es , "Violoncell"@gr ;
+	skos:prefLabel "violoncelle"@fr , "violoncello"@it , "violoncelo"@por ;
+	skos:altLabel "violoncelo"@es ;
+	skos:prefLabel "violonchelo"@es ;
+	skos:altLabel "violoncino"@it .
+
+<http://data.doremus.org/vocabulary/iaml/svd> a skos:Concept ;
+	skos:prefLabel "viola d'amore"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "arnolo"@it , "english violet"@en ;
+	skos:prefLabel "Liebesgeige"@gr , "viola d'amore"@es , "viola de amor"@por ;
+	skos:altLabel "viola de amor"@es ;
+	skos:prefLabel "viole d'amour"@fr ;
+	skos:altLabel "violetta marina"@it .
+
+<http://data.doremus.org/vocabulary/iaml/sve> a skos:Concept ;
+	skos:prefLabel "violone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "contrabaixo de viola"@por ;
+	skos:altLabel "contrebasse de viole"@fr , "grande basse de viole"@fr , "Violon"@gr ;
+	skos:prefLabel "violón"@es ;
+	skos:altLabel "violone"@es ;
+	skos:prefLabel "violone"@it .
+
+<http://data.doremus.org/vocabulary/iaml/svg> a skos:Concept ;
+	skos:prefLabel "viola da gamba"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "division viol"@en , "gamba"@en , "Gambe"@gr , "Kniegeige"@gr , "lira viola"@es , "lyra bastarda"@it , "lyra viol"@en , "Schoßgeige"@gr ;
+	skos:prefLabel "viol"@en ;
+	skos:altLabel "viola bastarda"@it ;
+	skos:prefLabel "viola da gamba"@por , "Viola Da Gamba"@gr , "viola de gamba"@es , "viole de gambe"@fr .
+
+<http://data.doremus.org/vocabulary/mop/svgf> a skos:Concept ;
+	skos:altLabel "basse de viole"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/svl> a skos:Concept ;
+	skos:prefLabel "violin"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "dessus de violon"@fr ;
+	skos:prefLabel "Geige"@gr ;
+	skos:altLabel "soprano di viola da braccio"@it ;
+	skos:prefLabel "violín"@es ;
+	skos:altLabel "Violine"@gr ;
+	skos:prefLabel "violino"@it , "violino"@por , "violon"@fr .
+
+<http://data.doremus.org/vocabulary/mop/svlj> a skos:Concept ;
+	skos:altLabel "Quartgeige"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/svp> a skos:Concept ;
+	skos:prefLabel "viola pomposa"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "pomposa"@it ;
+	skos:prefLabel "viola pomposa"@es , "viola pomposa"@por ;
+	skos:altLabel "violino pomposo"@it .
+
+<http://data.doremus.org/vocabulary/iaml/szz> a skos:Concept ;
+	skos:prefLabel "strings, bowed - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "archi - altro"@it , "cordas - outro"@por , "cordes frottées - autre"@fr , "instrumento de cuerda frotada - otro"@es .
+
+<http://data.doremus.org/vocabulary/iaml/tal> a skos:Concept ;
+	skos:prefLabel "archlute"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "angelica"@it , "Angelika"@gr , "angélique"@fr , "angel lute"@en , "Archilaud"@gr ;
+	skos:prefLabel "archilaúd"@es , "archiluth"@fr ;
+	skos:altLabel "arcileuto"@it ;
+	skos:prefLabel "arciliuto"@it ;
+	skos:altLabel "arciliuto"@it ;
+	skos:prefLabel "arquialaúde"@por ;
+	skos:altLabel "Basslaute"@gr , "liuto attiorbato"@it .
+
+<http://data.doremus.org/vocabulary/iaml/tat> a skos:Concept ;
+	skos:prefLabel "harp-psaltery"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "ala"@it , "arpa-citara"@es ;
+	skos:prefLabel "arpaneta"@es , "arpanetta"@it , "arpanette"@fr ;
+	skos:altLabel "arpe pointue"@fr ;
+	skos:prefLabel "cítara-harpa"@por ;
+	skos:altLabel "Flügel"@gr , "Harfenett"@gr , "harpanetta"@it , "psaltery-harp"@en , "Spitzharfe"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/tbb> a skos:Concept ;
+	skos:prefLabel "barbitos@gre" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "barbiton@gre" , "barbiton"@en ;
+	skos:prefLabel "barbitón"@es , "barbitos"@en , "lira"@por , "lira"@it ;
+	skos:altLabel "Î²Î¬ÏÎ²Î¹Ï„Î¿Î½@gre" , "Î²Î¬ÏÎ²Î¹Ï„Î¿Ï‚@gre" .
+
+<http://data.doremus.org/vocabulary/iaml/tbi> a skos:Concept ;
+	skos:prefLabel "biwa@jap" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "biwa"@es , "biwa"@en ;
+	skos:altLabel "çµç¶@jap" .
+
+<http://data.doremus.org/vocabulary/iaml/tbj> a skos:Concept ;
+	skos:prefLabel "banjo"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bangio"@it , "banjar@oth" , "banjer@oth" , "banjo"@es ;
+	skos:prefLabel "banjo"@it , "banjo"@fr , "banjo"@por , "Banjo"@gr ;
+	skos:altLabel "banjolin"@es , "Banjo Zither"@gr ;
+	skos:prefLabel "banyo"@es ;
+	skos:altLabel "banza"@it , "ramkie"@en , "strum-strum"@en , "Zither Banjo"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/tbl> a skos:Concept ;
+	skos:prefLabel "balalaika@rus" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "balalaica"@por ;
+	skos:altLabel "balalaica"@es ;
+	skos:prefLabel "balalaika"@es , "balalaika"@it , "Balalaika"@gr ;
+	skos:altLabel "balalaïka"@fr , "balalajka@rus" ;
+	skos:prefLabel "Ð±Ð°Ð»Ð°Ð»Ð°Ð¹ÐºÐ°@rus" .
+
+<http://data.doremus.org/vocabulary/iaml/tbo> a skos:Concept ;
+	skos:prefLabel "bouzouki@gre" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bouzouk@gre" ;
+	skos:prefLabel "bouzouki"@en , "bouzouki"@es , "bouzouki"@it ;
+	skos:altLabel "bozuk@oth" , "buzuk@oth" , "buzuki@oth" , "buzuq@oth" , "Î¼Ï€Î¿Ï…Î¶Î¿Ï_x008d_ÎºÎ¹@gre" .
+
+<http://data.doremus.org/vocabulary/iaml/tch> a skos:Concept ;
+	skos:prefLabel "chitarrone"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chitarrone"@por ;
+	skos:altLabel "chitarrone"@es , "citarone"@it , "Erzlaute"@gr ;
+	skos:prefLabel "guitarrón"@es .
+
+<http://data.doremus.org/vocabulary/iaml/tci> a skos:Concept ;
+	skos:prefLabel "cittern"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "archcittern"@en , "archicetra"@it , "archicistre"@fr , "arcicetera"@it , "arcicetra"@it , "bandola"@it , "bandoura@oth" , "bandurria"@es , "Bass Cister"@gr , "bijuga cither@oth" , "cedra"@es , "cetera"@it , "cetra"@it , "chitarra inglese"@it , "chitarra portuguese"@it , "chitarra tedesca"@it ;
+	skos:prefLabel "cister"@it ;
+	skos:altLabel "Cister"@gr , "cistra@oth" ;
+	skos:prefLabel "cistre"@por , "cistre"@fr , "cistro"@es ;
+	skos:altLabel "citarino"@it , "cithara@lat" , "Cither"@gr , "cithern"@en , "cithre"@fr , "cithren"@en , "Citrinchen"@gr , "Citter"@gr , "Citterlein"@gr , "cittharn"@en , "Cythar"@gr , "cytharino"@it , "deutsche Guitarre"@gr , "english guitar"@en , "Erzcister"@gr , "guitare allemande"@fr , "guitare anglaise"@fr , "guitarra portuguesa"@es , "mandora"@it , "mandurria"@es , "sister"@en , "terzina"@it , "Zither"@gr , "Zitrinchen"@gr , "Zitter"@gr , "Zitterlein"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/tcs> a skos:Concept ;
+	skos:prefLabel "colascione"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "calchedon@oth" , "calichon"@fr , "callichone"@it ;
+	skos:prefLabel "colachão"@por ;
+	skos:altLabel "colachon"@fr , "colascioncino"@it , "colasciontino"@it , "colocion"@es , "galizona"@it , "gallishon@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/tct> a skos:Concept ;
+	skos:prefLabel "citole"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cetera"@it , "cetra"@it , "cetula"@it ;
+	skos:prefLabel "cistre"@por , "citola"@it , "citole"@es , "citole"@fr ;
+	skos:altLabel "cytiole"@es , "gytolle"@es , "sytole"@es , "Zitôl"@gr ;
+	skos:prefLabel "Zitole"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/tcz> a skos:Concept ;
+	skos:prefLabel "cobza@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cobuz@oth" ;
+	skos:prefLabel "cobza"@por .
+
+<http://data.doremus.org/vocabulary/iaml/tgu> a skos:Concept ;
+	skos:prefLabel "guitar"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Akkordgitarre"@gr , "bordelletto"@it , "charango"@es ;
+	skos:prefLabel "chitarra"@it ;
+	skos:altLabel "chitarra battente"@it , "chitarra francese"@it , "chitarra spagnola"@it , "chitarriglia"@it , "chitarrino"@it , "chiterna@lat" , "Gitarre"@gr , "gittern@oth" ;
+	skos:prefLabel "guitare"@fr ;
+	skos:altLabel "guitare capucine"@fr , "guitare en bateau"@fr ;
+	skos:prefLabel "guitarra"@por , "guitarra"@es ;
+	skos:altLabel "guitarre"@fr , "guitarrico"@es , "guitarrillo"@es , "guitarro"@es , "Guittern"@gr , "Klange"@gr , "Terzguitarre"@gr .
+
+<http://data.doremus.org/vocabulary/mop/tguf> a skos:Concept ;
+	skos:altLabel "baixo elétrico"@por ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basso elettrico"@it , "electric bass guitar"@en , "fender bass"@en , "gitare électrique basse"@fr .
+
+<http://data.doremus.org/vocabulary/mop/tgur> a skos:Concept ;
+	skos:altLabel "chitarra elettrica"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "electric guitar"@en , "guitare électrique"@fr , "guitarra eléctrica"@es .
+
+<http://data.doremus.org/vocabulary/iaml/tha> a skos:Concept ;
+	skos:prefLabel "harp"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "arpa"@es , "arpa"@it ;
+	skos:altLabel "arpa a nottolini"@it , "arpa a uncini"@it , "arpa cromatica"@it , "arpa doppia"@it ;
+	skos:prefLabel "Harfe"@gr , "harpa"@por , "harpe"@fr ;
+	skos:altLabel "lira barberina"@it , "lyra barberina"@it .
+
+<http://data.doremus.org/vocabulary/iaml/thg> a skos:Concept ;
+	skos:prefLabel "hawaiian guitar"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "chitarra hawaiana"@it , "guitare hawaïenne"@fr , "guitarra havaiana"@por , "guitarra hawaiana"@es , "Hawaiische Gitar"@gr ;
+	skos:altLabel "lap steel guitar"@en , "steel guitar"@en , "steel guitar"@es .
+
+<http://data.doremus.org/vocabulary/iaml/tih> a skos:Concept ;
+	skos:prefLabel "Irish harp"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "arpa celtica"@it ;
+	skos:prefLabel "arpa céltica"@es , "arpa irlandese"@it ;
+	skos:altLabel "cláirseach"@en , "Gaelic harp"@en ;
+	skos:prefLabel "harpe celtique"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/tkh> a skos:Concept ;
+	skos:prefLabel "kithara@gre" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cetra"@it ;
+	skos:prefLabel "citara"@it , "cítara"@por ;
+	skos:altLabel "cithara"@en ;
+	skos:prefLabel "cithara@lat" , "kithara"@en ;
+	skos:altLabel "ÎºÎ¹Î¸Î¬ÏÎ±@gre" .
+
+<http://data.doremus.org/vocabulary/iaml/tko> a skos:Concept ;
+	skos:prefLabel "kora@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "arpa-laúd"@es ;
+	skos:prefLabel "arpa-liuto"@it ;
+	skos:altLabel "cora@oth" , "Ditalharfe"@gr , "dital harp"@en , "guitarra arpa-laúd"@es ;
+	skos:prefLabel "Harfengitarre"@gr , "harpa-alaúde"@por , "kora"@en ;
+	skos:altLabel "kora"@it ;
+	skos:prefLabel "kora"@es .
+
+<http://data.doremus.org/vocabulary/iaml/tkt> a skos:Concept ;
+	skos:prefLabel "koto@jap" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "koto"@fr , "koto"@en , "koto"@it , "koto"@es , "Koto"@gr ;
+	skos:altLabel "ç®_x008f_@jap" .
+
+<http://data.doremus.org/vocabulary/iaml/tlf> a skos:Concept ;
+	skos:prefLabel "lute (family)"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "alaúde (família)"@por , "laúd (familia)"@es , "liuto (famiglia)"@it , "lute (famille)"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/tlg> a skos:Concept ;
+	skos:prefLabel "lyre-guitar"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "anakreontische Leier"@gr , "apollo guitar"@en ;
+	skos:prefLabel "guitarra-lira"@es ;
+	skos:altLabel "lira"@it ;
+	skos:prefLabel "lira chitarra"@it , "lira-guitarra"@por ;
+	skos:altLabel "lyra"@it , "lyra guitar"@en , "lyre"@fr , "lyre"@en , "lyre anacréontique"@fr ;
+	skos:prefLabel "lyre-guitare"@fr ;
+	skos:altLabel "lyre organisée"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/tlu> a skos:Concept ;
+	skos:prefLabel "lute"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "alaúde"@por , "laúd"@es ;
+	skos:altLabel "laut@hun" ;
+	skos:prefLabel "Laute"@gr ;
+	skos:altLabel "lauto"@it , "leuto"@it ;
+	skos:prefLabel "liuto"@it ;
+	skos:altLabel "luit@oth" ;
+	skos:prefLabel "luth"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/tma> a skos:Concept ;
+	skos:prefLabel "mandolin"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bandolim"@por ;
+	skos:altLabel "bandolín"@es , "banjolín"@es , "liuto romano"@it ;
+	skos:prefLabel "mandolina"@es , "mandoline"@fr , "mandolino"@it .
+
+<http://data.doremus.org/vocabulary/iaml/tmd> a skos:Concept ;
+	skos:prefLabel "mandore"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bandora"@it , "Bandürichen"@gr , "gallichon"@fr , "gallizona@oth" , "mandoër@oth" , "mandoire"@fr ;
+	skos:prefLabel "mandola"@por , "mandola"@it , "mandola"@es ;
+	skos:altLabel "mandole"@fr , "mandolino lombardo"@it , "mandolino milanese"@it , "mandolle"@fr , "mandora"@it ;
+	skos:prefLabel "mandore"@fr ;
+	skos:altLabel "mandorina"@it , "mandura"@fr , "Mandürichen"@gr , "orpharion"@en , "pandora"@en , "pandurina"@it , "penorcon"@es , "vandola"@it .
+
+<http://data.doremus.org/vocabulary/iaml/tpi> a skos:Concept ;
+	skos:prefLabel "pipa@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/tps> a skos:Concept ;
+	skos:prefLabel "psaltery"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "gusli@rus" , "kantele@oth" , "nebel@oth" , "Psalter"@gr ;
+	skos:prefLabel "psaltérion"@fr , "psalterium@lat" ;
+	skos:altLabel "Saltari"@gr , "saltere"@fr ;
+	skos:prefLabel "salterio"@es , "salterio"@it , "saltério"@por ;
+	skos:altLabel "sauterie"@fr , "sautier"@fr , "sautiéron"@fr ;
+	skos:prefLabel "Ð³ÑƒÑÐ»Ð¸@rus" .
+
+<http://data.doremus.org/vocabulary/iaml/tpx> a skos:Concept ;
+	skos:prefLabel "phorminx@gre" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "phorminx"@en , "phorminx"@por , "phorminx"@it ;
+	skos:altLabel "Ï†ÏŒÏÎ¼Î¹Î³Î¾@gre" .
+
+<http://data.doremus.org/vocabulary/iaml/tqa> a skos:Concept ;
+	skos:prefLabel "qanun@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "kanun@oth" ;
+	skos:prefLabel "q?n?n"@es , "q?n?n"@en .
+
+<http://data.doremus.org/vocabulary/iaml/tsh> a skos:Concept ;
+	skos:prefLabel "shamisen@jap" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "shamisen"@it , "shamisen"@en , "shamisen"@es ;
+	skos:altLabel "ä¸‰å‘³ç·š@jap" .
+
+<http://data.doremus.org/vocabulary/iaml/tsi> a skos:Concept ;
+	skos:prefLabel "sit?r@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "sitar"@it , "sitar"@es , "sitar"@en .
+
+<http://data.doremus.org/vocabulary/iaml/tth> a skos:Concept ;
+	skos:prefLabel "theorbo"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Theorbe"@gr , "théorbe"@fr ;
+	skos:altLabel "theorbo lute"@en ;
+	skos:prefLabel "tiorba"@it , "tiorba"@por , "tiorba"@es ;
+	skos:altLabel "tiorbino"@it , "tuorba"@it , "tuorbe"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/ttn> a skos:Concept ;
+	skos:prefLabel "tanbur@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "tambûr"@fr , "tanbur"@por , "tanbur"@en , "tanbur"@it ;
+	skos:altLabel "?anb?r@oth" , "tanburica@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/tud> a skos:Concept ;
+	skos:prefLabel "'ud@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "aoud@oth" ;
+	skos:prefLabel "oud"@en ;
+	skos:altLabel "oud@oth" , "ud@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/tuk> a skos:Concept ;
+	skos:prefLabel "ukulele"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cavaquinho"@por ;
+	skos:altLabel "uculele"@it , "ukelele"@es , "ukelele@oth" ;
+	skos:prefLabel "ukulele"@es , "ukulele"@it , "Ukulele"@gr , "ukulélé"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/tun> a skos:Concept ;
+	skos:prefLabel "strings, plucked - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cordes pincées - non spécifié"@fr , "dedilhado – não especificado"@por , "instrumento de cuerda punteada - sin especificar"@es , "pizzicati - non specificato"@it .
+
+<http://data.doremus.org/vocabulary/mop/tuny> a skos:Concept ;
+	skos:altLabel "cordes pincées - ethnique"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "dedilhado - étnico"@por , "instrumento de cuerda punteada - étnico"@es , "pizzicati - etnico"@it , "strings, plucked - ethnic"@en .
+
+<http://data.doremus.org/vocabulary/iaml/tvi> a skos:Concept ;
+	skos:prefLabel "vihuela"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "biguela"@es , "cuatro"@es ;
+	skos:prefLabel "vihuela"@por ;
+	skos:altLabel "vihuela de mano"@es , "viola da mano"@it .
+
+<http://data.doremus.org/vocabulary/iaml/tzi> a skos:Concept ;
+	skos:prefLabel "zither"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "accord zither"@en , "Akkordzither"@gr , "alpine zither"@en , "appalachian dulcimer"@en , "autoharp"@en , "autoharpe"@fr , "banjo harp"@en , "bell harp"@en , "bowed zither"@en , "box zither"@en , "bûche"@fr , "bûche de flandres"@fr , "cetra da tavolo"@it , "chord zither"@en ;
+	skos:prefLabel "cítara"@es , "cítara"@por , "cithare"@fr ;
+	skos:altLabel "Elegiezither"@gr , "épinette des vosges"@fr , "fairy bells"@en , "Hexenscheit"@gr , "hommel@oth" , "humle@oth" , "hummel@oth" , "langeleik@nor" , "langspil@oth" , "Scheitholt"@gr , "Schwungzither"@gr ;
+	skos:prefLabel "zither"@it ;
+	skos:altLabel "zither harp"@en .
+
+<http://data.doremus.org/vocabulary/iaml/tzz> a skos:Concept ;
+	skos:prefLabel "strings, plucked - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cordes pincées - autre"@fr , "dedilhado – outros"@por , "instrumento de cuerda punteada - otro"@es , "pizzicati - altro"@it .
+
+<http://data.doremus.org/vocabulary/iaml/val> a skos:Concept ;
+	skos:prefLabel "alto"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Alt"@gr ;
+	skos:altLabel "alto"@es ;
+	skos:prefLabel "altus@lat" , "contralto"@fr , "contralto"@por , "contralto"@es , "contralto"@it .
+
+<http://data.doremus.org/vocabulary/iaml/vbr> a skos:Concept ;
+	skos:prefLabel "baritone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bariton"@gr , "baritono"@it , "baritono"@por , "barítono"@es , "baryton"@fr ;
+	skos:altLabel "baryton Martin"@fr , "baryton Verdi"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/vbs> a skos:Concept ;
+	skos:prefLabel "bass"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "baixo"@por , "bajo"@es ;
+	skos:altLabel "bas"@fr ;
+	skos:prefLabel "Bass"@gr ;
+	skos:altLabel "Baß"@gr ;
+	skos:prefLabel "basse"@fr , "basso"@it , "bassus@lat" .
+
+<http://data.doremus.org/vocabulary/iaml/vca> a skos:Concept ;
+	skos:prefLabel "child alto"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "alto enfant"@fr ;
+	skos:altLabel "boy alto"@en ;
+	skos:prefLabel "contralto - criança"@por , "contralto voce bianca"@it ;
+	skos:altLabel "Knabenalt"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/vcl> a skos:Concept ;
+	skos:prefLabel "contratenor altus@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "contra altus@lat" .
+
+<http://data.doremus.org/vocabulary/iaml/vcs> a skos:Concept ;
+	skos:prefLabel "child soprano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "boy soprano"@en ;
+	skos:prefLabel "Knabensopran"@gr , "soprano - criança"@por , "soprano enfant"@fr , "soprano voce bianca"@it .
+
+<http://data.doremus.org/vocabulary/iaml/vct> a skos:Concept ;
+	skos:prefLabel "countertenor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "contra@lat" ;
+	skos:prefLabel "contratenor"@por , "contratenor"@es , "contratenor@lat" , "contre-ténor"@fr , "controtenore"@it ;
+	skos:altLabel "haute-contre"@fr .
+
+<http://data.doremus.org/vocabulary/mop/vctc> a skos:Concept ;
+	skos:altLabel "contratenor altus@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/mop/vctf> a skos:Concept ;
+	skos:altLabel "contratenor bassus@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/vcv> a skos:Concept ;
+	skos:prefLabel "child voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "boy singer"@en , "boy's voice"@en ;
+	skos:prefLabel "Knabenstimme"@gr , "voce bianca"@it ;
+	skos:altLabel "voce di fanciullo"@it , "voce infantile"@it ;
+	skos:prefLabel "voix d'enfant"@fr ;
+	skos:altLabel "voix enfantine"@fr ;
+	skos:prefLabel "voz branca"@por , "voz de niño"@es .
+
+<http://data.doremus.org/vocabulary/iaml/vhc> a skos:Concept ;
+	skos:prefLabel "haute-contre"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/vma> a skos:Concept ;
+	skos:prefLabel "man's voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "male voice"@en ;
+	skos:prefLabel "voce maschile"@it , "voix d'homme"@fr , "voz de hombre"@es , "voz masculina"@por .
+
+<http://data.doremus.org/vocabulary/iaml/vms> a skos:Concept ;
+	skos:prefLabel "mezzosoprano"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bas-dessus"@fr ;
+	skos:prefLabel "meio-soprano"@por ;
+	skos:altLabel "mezzo"@en ;
+	skos:prefLabel "mezzosoprano"@es , "mezzo-soprano"@en .
+
+<http://data.doremus.org/vocabulary/iaml/vrc> a skos:Concept ;
+	skos:prefLabel "reciting child's voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "récitant enfant"@fr , "voce bianca recitante"@it ;
+	skos:altLabel "voix parlée enfant"@fr ;
+	skos:prefLabel "voz falada - criança"@por .
+
+<http://data.doremus.org/vocabulary/iaml/vre> a skos:Concept ;
+	skos:prefLabel "reciting voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "narrador"@por ;
+	skos:altLabel "narrator"@en , "récitant"@fr , "recitante"@it ;
+	skos:prefLabel "Sprechrolle"@gr ;
+	skos:altLabel "storico"@it , "testo"@it , "text"@en ;
+	skos:prefLabel "voce recitante"@it , "voix parlée"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/vrm> a skos:Concept ;
+	skos:prefLabel "reciting man's voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "récitant homme"@fr , "voce recitante uomo"@it ;
+	skos:altLabel "voix parlée homme"@fr ;
+	skos:prefLabel "voz falada - homem"@por .
+
+<http://data.doremus.org/vocabulary/iaml/vrw> a skos:Concept ;
+	skos:prefLabel "reciting woman's voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "récitante"@fr , "voce recitante donna"@it ;
+	skos:altLabel "voix parlée femme"@fr ;
+	skos:prefLabel "voz falada - mulher"@por .
+
+<http://data.doremus.org/vocabulary/iaml/vso> a skos:Concept ;
+	skos:prefLabel "soprano"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cantus@lat" ;
+	skos:altLabel "descant"@en , "dessus"@fr , "discanto"@it , "discantus@lat" , "Diskant"@gr ;
+	skos:prefLabel "Sopran"@gr , "soprano"@fr , "soprano"@es , "soprano"@it , "soprano"@por ;
+	skos:altLabel "superius@lat" , "tiple"@es , "treble"@en .
+
+<http://data.doremus.org/vocabulary/iaml/vte> a skos:Concept ;
+	skos:prefLabel "tenor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "taille (voix)"@fr ;
+	skos:prefLabel "tenor"@es , "tenor"@por , "ténor"@fr , "tenore"@it ;
+	skos:altLabel "ténorino"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/vun> a skos:Concept ;
+	skos:prefLabel "voice - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "canto"@it , "chant"@fr , "part"@en , "parte"@it , "partie vocale"@fr ;
+	skos:prefLabel "Stimme"@gr , "voce - non specificata"@it , "voix - non spécifié"@fr , "vox@lat" , "voz - não especificada"@por , "voz - sin especificar"@es .
+
+<http://data.doremus.org/vocabulary/mop/vunj> a skos:Concept ;
+	skos:altLabel "high voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "hohe Stimme"@gr , "voce acuta"@it , "voix haute"@fr , "voz aguda"@por , "voz alta"@es .
+
+<http://data.doremus.org/vocabulary/mop/vunk> a skos:Concept ;
+	skos:altLabel "medium voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "voce media"@it , "voix moyenne"@fr , "voz media"@es , "voz média"@por .
+
+<http://data.doremus.org/vocabulary/mop/vunl> a skos:Concept ;
+	skos:altLabel "low voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "tiefe Stimme"@gr , "voce grave"@it , "voix grave"@fr , "voz baja"@es , "voz grave"@por .
+
+<http://data.doremus.org/vocabulary/mop/vunw> a skos:Concept ;
+	skos:altLabel "recorded voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "voce registrata"@it , "voix enregistrée"@fr , "voz grabada"@en , "voz gravada"@por .
+
+<http://data.doremus.org/vocabulary/mop/vuny> a skos:Concept ;
+	skos:altLabel "Stimme - ethnisch"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "voce - etnica"@it , "voice - ethnic"@en , "voix - ethnique"@fr , "voz - etnica"@por .
+
+<http://data.doremus.org/vocabulary/iaml/vvg> a skos:Concept ;
+	skos:prefLabel "vagans@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/vwo> a skos:Concept ;
+	skos:prefLabel "woman's voice"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "female voice"@en ;
+	skos:prefLabel "voce femminile"@it , "voix de femme"@fr , "voz de mujer"@es , "voz feminina"@por .
+
+<http://data.doremus.org/vocabulary/iaml/vzz> a skos:Concept ;
+	skos:prefLabel "voice - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "voce - altro"@it , "voix - autre"@fr , "voz - otra"@es , "voz - outra"@por .
+
+<http://data.doremus.org/vocabulary/iaml/wau> a skos:Concept ;
+	skos:prefLabel "aulos@gre" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "aulos"@por , "aulos"@it , "aulós"@es ;
+	skos:altLabel "diaulos@gre" , "doppio aulos"@it ;
+	skos:prefLabel "tibia@lat" ;
+	skos:altLabel "Î±á½Î»ÏŒÏ‚@gre" , "Î±Ï…Î»ÏŒÏ‚@gre" .
+
+<http://data.doremus.org/vocabulary/iaml/wba> a skos:Concept ;
+	skos:prefLabel "bassoon"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bajon"@es ;
+	skos:prefLabel "basson"@fr ;
+	skos:altLabel "bassono"@it , "Choristfagott"@gr , "fagot"@fr ;
+	skos:prefLabel "fagot"@es , "fagote"@por , "Fagott"@gr , "fagotto"@it .
+
+<http://data.doremus.org/vocabulary/mop/wbaj> a skos:Concept ;
+	skos:altLabel "basson quinte"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "caledonica"@it , "fagotino"@por , "fagottino"@it , "fagotti-octavo"@it , "fagotti-quarto"@it , "Quintfagott"@gr , "Tenorfagott"@gr , "tenoroon"@en .
+
+<http://data.doremus.org/vocabulary/iaml/wbh> a skos:Concept ;
+	skos:prefLabel "basset-horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Bassetthorn"@gr ;
+	skos:altLabel "clarinete tenor"@es ;
+	skos:prefLabel "cor de basset"@fr , "corno di bassetto"@es , "corno di bassetto"@it , "corno di bassetto"@por ;
+	skos:altLabel "cuerno de bajete"@es .
+
+<http://data.doremus.org/vocabulary/iaml/wbn> a skos:Concept ;
+	skos:prefLabel "bassanello"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bassanello"@por , "bassanello"@es .
+
+<http://data.doremus.org/vocabulary/iaml/wbp> a skos:Concept ;
+	skos:prefLabel "bagpipe"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "biniou"@fr , "bladder pipe"@en , "Blaterpfife"@gr , "Bock"@gr , "cabrette"@fr ;
+	skos:prefLabel "conamusa"@it , "cornemuse"@fr ;
+	skos:altLabel "Dudelsack"@gr ;
+	skos:prefLabel "gaita"@es ;
+	skos:altLabel "gaita"@it ;
+	skos:prefLabel "gaita de foles"@por ;
+	skos:altLabel "gaita gallega"@es , "piva"@it , "piva a vescica"@it , "Platerpfeife"@gr , "Platerspiel"@gr , "Sackpfeife"@gr , "sourdeline"@fr , "vescica"@it , "vèze"@fr , "zampogna"@it .
+
+<http://data.doremus.org/vocabulary/iaml/wch> a skos:Concept ;
+	skos:prefLabel "chalumeau"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "calimiau"@fr , "chalemiau"@fr , "chalimo"@it , "chalimou"@fr ;
+	skos:prefLabel "chalumeau"@es , "chalumeau"@it , "charamela"@por ;
+	skos:altLabel "mock trumpet"@en , "salmò"@it , "salmoè"@it , "schalamaux@oth" , "schalamo@oth" , "schalumò@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/wcl> a skos:Concept ;
+	skos:prefLabel "clarinet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "clarinete"@por , "clarinete"@es , "clarinette"@fr , "clarinetto"@it , "Klarinette"@gr .
+
+<http://data.doremus.org/vocabulary/mop/wclf> a skos:Concept ;
+	skos:altLabel "bass clarinet"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "basse-guerrière"@fr , "basse-orgue"@fr , "clarinete baixo"@por , "clarinette basse"@fr , "clarinetto basso"@it , "clarone"@it .
+
+<http://data.doremus.org/vocabulary/mop/wclg> a skos:Concept ;
+	skos:altLabel "bathyphone"@por ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bathyphone"@fr , "batyphone"@fr .
+
+<http://data.doremus.org/vocabulary/mop/wclj> a skos:Concept ;
+	skos:altLabel "clarinete en mib"@por ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "clarinette piccolo"@fr , "clarinetto in lab"@it , "clarinetto in mib"@it , "piccolo clarinet"@en , "quartino"@it .
+
+<http://data.doremus.org/vocabulary/iaml/wcm> a skos:Concept ;
+	skos:prefLabel "ciaramella"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cennamella"@it , "cornamusina"@it , "dulzaina"@it ;
+	skos:prefLabel "dulzaina"@es ;
+	skos:altLabel "oboe degli abruzzi"@it ;
+	skos:prefLabel "oboé pastoril"@por ;
+	skos:altLabel "zampogna"@it .
+
+<http://data.doremus.org/vocabulary/iaml/wcr> a skos:Concept ;
+	skos:prefLabel "cromorne"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "cornamuto torto"@it , "cromcorno"@es ;
+	skos:prefLabel "cromorne"@por , "cromorne"@fr , "cromorno"@es , "cromorno"@it ;
+	skos:altLabel "Crumhorn"@gr , "Krumb Horn"@gr ;
+	skos:prefLabel "Krummhorn"@gr ;
+	skos:altLabel "orlo"@es , "Pfifferhorn"@gr , "piva torta"@it , "storto"@it , "Stumberhorno"@gr , "tournebout"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/wdb> a skos:Concept ;
+	skos:prefLabel "double bassoon"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "bassono grosso"@it ;
+	skos:prefLabel "contrabajon"@es ;
+	skos:altLabel "contrabassoon"@en , "Contrabassophon"@gr , "contrafagot"@es , "contrafagote"@es ;
+	skos:prefLabel "contrafagote"@por ;
+	skos:altLabel "contraforte"@it , "contraforte"@en ;
+	skos:prefLabel "contrebasson"@fr , "controfagotto"@it ;
+	skos:altLabel "fagottone"@it , "Klaviaturkontrafagott"@gr ;
+	skos:prefLabel "Kontrafagott"@gr ;
+	skos:altLabel "Kontraforte"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wdi> a skos:Concept ;
+	skos:prefLabel "didjeridu@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "didgeridoo"@en ;
+	skos:altLabel "didgeridoo@oth" , "didgeridu@oth" , "didjeridu"@en ;
+	skos:prefLabel "didjeridu"@es ;
+	skos:altLabel "mandapul@oth" , "ngarrriralkpwina@oth" , "yi?aki@oth" , "yirdaki@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/wdp> a skos:Concept ;
+	skos:prefLabel "doppione"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "doppione"@por ;
+	skos:altLabel "doppioni"@it .
+
+<http://data.doremus.org/vocabulary/iaml/wdu> a skos:Concept ;
+	skos:prefLabel "dulcian"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bajón"@es ;
+	skos:altLabel "Corthol"@gr , "curtaile"@en , "curtal"@en , "Curthol"@gr , "curtoll@oth" ;
+	skos:prefLabel "dolçaine"@fr ;
+	skos:altLabel "dolcesuono"@it ;
+	skos:prefLabel "dolciana"@it ;
+	skos:altLabel "dolciano"@it , "dolzana"@it , "Dolzian"@gr , "dolzone"@it , "double courtaile"@en , "dulciana"@it ;
+	skos:prefLabel "dulciana"@por ;
+	skos:altLabel "dulción"@es ;
+	skos:prefLabel "Dulzian"@gr ;
+	skos:altLabel "kortholt"@en , "Kortholt"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wdv> a skos:Concept ;
+	skos:prefLabel "dvojnice@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "dvoinice@oth" ;
+	skos:prefLabel "dvoinice"@por ;
+	skos:altLabel "dvojanka@oth" , "dvojenice@oth" , "dvojkinje@oth" ;
+	skos:prefLabel "dvojnice"@en , "dvojnice"@it ;
+	skos:altLabel "dvoynice@oth" , "slagarka@oth" , "vidulice@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/weh> a skos:Concept ;
+	skos:prefLabel "english horn"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cor anglais"@fr , "corne inglês"@por , "corno inglés"@es , "corno inglese"@it ;
+	skos:altLabel "englisches Horn"@gr , "Englischhorn"@gr , "taille de hautbois d'amour"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/wfa> a skos:Concept ;
+	skos:prefLabel "flauto d'amore"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "amabile"@it ;
+	skos:prefLabel "flauta de amor"@es , "flauto d'amore"@por , "flûte d'amour"@fr , "Liebesflöte"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wfg> a skos:Concept ;
+	skos:prefLabel "flageolet"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Akkordflöte"@gr , "chord flute"@en , "ciufolo"@it ;
+	skos:prefLabel "flageolet"@en , "Flageolett"@gr ;
+	skos:altLabel "flageoletto"@it ;
+	skos:prefLabel "flagioletto"@it , "flajolé"@por , "flajolé"@es .
+
+<http://data.doremus.org/vocabulary/iaml/wfi> a skos:Concept ;
+	skos:prefLabel "fife"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Feldpfeife"@gr , "fiffaro"@it ;
+	skos:prefLabel "fifre"@fr ;
+	skos:altLabel "pifano"@it ;
+	skos:prefLabel "pífano"@es , "pífaro"@por ;
+	skos:altLabel "piffaro"@it ;
+	skos:prefLabel "piffero"@it ;
+	skos:altLabel "Querpfeife"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wfl> a skos:Concept ;
+	skos:prefLabel "flute"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "concert flute"@en , "cros flute"@en ;
+	skos:prefLabel "flauta"@es ;
+	skos:altLabel "flauta transversal"@es ;
+	skos:prefLabel "flauta transversal"@por ;
+	skos:altLabel "flauta traversa"@es , "flauta travesera"@es ;
+	skos:prefLabel "flauto"@it ;
+	skos:altLabel "flauto alemano"@it , "flauto traverso"@it ;
+	skos:prefLabel "Flöte"@gr ;
+	skos:altLabel "fluta"@it ;
+	skos:prefLabel "flûte"@fr ;
+	skos:altLabel "flûte allemande"@fr , "flûte d'allemagne"@fr , "flûte traversière"@fr , "flutta"@it , "german flute"@en , "grosse Flöte"@gr , "Querflöte"@gr , "Schweitzerpfeife"@gr , "Schweizerpfeife"@gr , "transverse flute"@en , "traversa"@it , "traverse flute"@en , "Traversflöte"@gr , "traversiere"@it , "traversière"@fr , "traversiero"@it , "traverso"@it , "Zwerchpfeiff"@gr .
+
+<http://data.doremus.org/vocabulary/mop/wflf> a skos:Concept ;
+	skos:altLabel "albisifono"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "albisiphon"@en , "bass flute"@en , "flauta baixo"@por , "flauto albisi"@it , "flauto basso in do"@it , "flautone"@it , "flûte basse"@fr .
+
+<http://data.doremus.org/vocabulary/mop/wflj> a skos:Concept ;
+	skos:altLabel "flautino"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> .
+
+<http://data.doremus.org/vocabulary/iaml/wga> a skos:Concept ;
+	skos:prefLabel "tabor pipe"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "chirula@baq" ;
+	skos:prefLabel "flabiol"@por ;
+	skos:altLabel "flabiol"@es , "flautilla"@es , "flaviol"@es , "flûte à trois trous"@fr , "flutet"@fr , "fluviol"@es ;
+	skos:prefLabel "galoubet"@fr , "galoubet"@it ;
+	skos:altLabel "Holefloyte"@gr , "Holler"@gr , "Holre"@gr , "pipe"@en , "Schwegel"@gr , "Tämerlinpfeife"@gr , "Tammarinpfeife"@gr , "Tammerinpfeife"@gr , "Tämmerlinpfeife"@gr , "txistu@baq" .
+
+<http://data.doremus.org/vocabulary/iaml/wge> a skos:Concept ;
+	skos:prefLabel "Gemshorn"@gr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cor de chamois"@fr , "corno di camoscio"@it , "gemscorno"@es , "gemshorn"@en ;
+	skos:altLabel "gemshorn"@es ;
+	skos:prefLabel "gemshorn"@por .
+
+<http://data.doremus.org/vocabulary/iaml/whp> a skos:Concept ;
+	skos:prefLabel "hornpipe"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "albogue"@es ;
+	skos:altLabel "cornicyll"@en , "gaita gastore"@es , "gaita serrana"@es , "gastoreña"@es ;
+	skos:prefLabel "Hornpfeife"@gr ;
+	skos:altLabel "pibcorn"@en ;
+	skos:prefLabel "pibgorn"@por ;
+	skos:altLabel "pibgorn"@es , "pibgorn"@en .
+
+<http://data.doremus.org/vocabulary/iaml/wmo> a skos:Concept ;
+	skos:prefLabel "mouth organ"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "armonica"@it , "gaita de beiços"@por , "órgano de boca"@es , "orgue à bouche"@fr ;
+	skos:altLabel "scho-no fouye@jap" , "sheng@oth" , "sho@jap" ;
+	skos:prefLabel "shÃ´@jap" ;
+	skos:altLabel "ç¬™@jap" .
+
+<http://data.doremus.org/vocabulary/iaml/wmu> a skos:Concept ;
+	skos:prefLabel "musette"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "museta"@por , "musette"@en , "musette"@it ;
+	skos:altLabel "oboe musette"@en ;
+	skos:prefLabel "oboe pícolo"@es ;
+	skos:altLabel "piccolo oboe"@en .
+
+<http://data.doremus.org/vocabulary/iaml/wna> a skos:Concept ;
+	skos:prefLabel "ney@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "nai@oth" , "nay@oth" ;
+	skos:prefLabel "nay"@por , "ney"@it , "ney"@en , "ney"@es ;
+	skos:altLabel "nye@oth" .
+
+<http://data.doremus.org/vocabulary/iaml/woa> a skos:Concept ;
+	skos:prefLabel "oboe d'amore"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "hautbois d'amour"@fr ;
+	skos:altLabel "Liebesoboe"@gr ;
+	skos:prefLabel "oboe d'amore"@es , "oboe d'amore"@en , "Oboe d’amore"@gr ;
+	skos:altLabel "oboe de amor"@es ;
+	skos:prefLabel "oboé de amor"@por .
+
+<http://data.doremus.org/vocabulary/iaml/wob> a skos:Concept ;
+	skos:prefLabel "oboe"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "french hautboy"@en ;
+	skos:prefLabel "hautbois"@fr ;
+	skos:altLabel "haut-bois"@fr , "hautboy"@en , "Hautboy"@gr , "hoboe"@en , "Hoboe"@gr , "Hoboy"@gr ;
+	skos:prefLabel "oboe"@es , "oboe"@it , "Oboe"@gr , "oboé"@por .
+
+<http://data.doremus.org/vocabulary/mop/wobd> a skos:Concept ;
+	skos:altLabel "haute-contre de hautbois"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "oboe tenore"@it , "taille de hautbois"@fr , "tenor oboe"@en , "tenor oboe"@por .
+
+<http://data.doremus.org/vocabulary/mop/wobe> a skos:Concept ;
+	skos:altLabel "heckelfón"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "heckelfone"@por , "heckelfono"@it , "heckelphon"@it , "Heckelphon"@gr , "heckelphone"@en , "heckelphone"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/woh> a skos:Concept ;
+	skos:prefLabel "oboe da caccia"@it ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "hautbois de chasse"@fr ;
+	skos:prefLabel "Jagd-Hautboy"@gr ;
+	skos:altLabel "Jagdoboe"@gr ;
+	skos:prefLabel "oboe da caccia"@por , "oboe da caccia"@en , "oboe de caza"@es ;
+	skos:altLabel "Wald Hautbois"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wpi> a skos:Concept ;
+	skos:prefLabel "piccolo"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "flautim"@por , "flautín"@es ;
+	skos:altLabel "flauto piccolo"@it , "kleine Flöte"@gr , "Oktavflöte"@gr ;
+	skos:prefLabel "ottavino"@it ;
+	skos:altLabel "petite flûte"@fr , "piccolo"@por ;
+	skos:prefLabel "piccolo"@fr ;
+	skos:altLabel "Pickelflöte"@gr , "Pikkoloflöte"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wpo> a skos:Concept ;
+	skos:prefLabel "pommer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Bombard"@gr ;
+	skos:prefLabel "bombarda"@por , "bombarda"@it , "bombarde"@fr ;
+	skos:altLabel "bombardo"@it , "bombardone"@it , "Bombart"@gr , "Bomhart"@gr , "Calamello"@gr , "chalemelle"@fr , "chalemie"@fr , "chalmeye"@fr , "chirimia"@it , "cialamella"@it , "cialamello"@it , "Pumhart"@gr , "Rauschpfeife"@gr , "Rausspfeife"@gr , "Russ Pfeife"@gr ;
+	skos:prefLabel "Schalmei"@gr ;
+	skos:altLabel "schalmey"@en , "shalme"@en , "shalmie"@en , "shalmuse"@en , "shawm"@en .
+
+<http://data.doremus.org/vocabulary/mop/wpod> a skos:Concept ;
+	skos:altLabel "tenora"@es ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "tenora"@por , "tiple"@es .
+
+<http://data.doremus.org/vocabulary/iaml/wpp> a skos:Concept ;
+	skos:prefLabel "panpipes"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "antara"@es , "ciufolo"@it , "fistola"@it ;
+	skos:prefLabel "flauta de pan"@es , "flauta de Pan"@por , "flauto di pan"@it ;
+	skos:altLabel "flauto pastorale"@it , "flauto policalamo"@it ;
+	skos:prefLabel "flûte de pan"@fr ;
+	skos:altLabel "flûte pastorelle"@fr , "pandean pipes"@en ;
+	skos:prefLabel "Panflöte"@gr ;
+	skos:altLabel "Panpfeife"@gr , "sicu"@es , "siringa"@it ;
+	skos:prefLabel "syrinx@gre" ;
+	skos:altLabel "zampoña"@es , "ÏƒÏ_x008d_ÏÎ¹Î³Î³Î±@gre" , "ÏƒÏ_x008d_ÏÎ¹Î³Î¾@gre" .
+
+<http://data.doremus.org/vocabulary/iaml/wra> a skos:Concept ;
+	skos:prefLabel "racket"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "cervelas"@fr ;
+	skos:altLabel "cervelat"@es ;
+	skos:prefLabel "cervelato"@por , "cervellato"@it ;
+	skos:altLabel "cornaldo"@it , "cortaldi"@it , "cortale"@it , "cortalli"@it , "Faustfagott"@gr , "rackett"@en ;
+	skos:prefLabel "rackett"@es , "Rackett"@gr ;
+	skos:altLabel "Rackettfagott"@gr , "racquette"@fr , "Ragett"@gr , "Rankett"@gr , "Rogett"@gr , "Stockfagott"@gr , "Tartöld"@gr , "Tartölt"@gr , "Wurstfagott"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wre> a skos:Concept ;
+	skos:prefLabel "recorder"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "Blockflöte"@gr ;
+	skos:altLabel "common flute"@en , "english flute"@en , "flauste"@fr ;
+	skos:prefLabel "flauta"@por , "flauta de pico"@es ;
+	skos:altLabel "flauta dulce"@es , "flaute"@fr ;
+	skos:prefLabel "flauto a becco"@it ;
+	skos:altLabel "flauto diritto"@it , "flauto dolce"@it , "flauto dritto"@it ;
+	skos:prefLabel "flûte à bec"@fr ;
+	skos:altLabel "flûte à neuf trous"@fr , "flûte d'angleterre"@fr , "Langsflöte"@gr , "Schnabelflöte"@gr , "Zartflöte"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wro> a skos:Concept ;
+	skos:prefLabel "rothophone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "rothaphone"@en ;
+	skos:prefLabel "rothfono"@it , "rothophone"@por , "rothophone"@fr ;
+	skos:altLabel "rothphone"@en , "saxorusofono"@it , "saxsarrusophone"@en .
+
+<http://data.doremus.org/vocabulary/iaml/wsa> a skos:Concept ;
+	skos:prefLabel "saxophone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "alto-fagotto"@it , "ophicléide á clefs"@fr , "ophicléide á clefs et á bec"@fr ;
+	skos:prefLabel "sassofono"@it ;
+	skos:altLabel "sax"@it , "sax"@en , "saxo"@es , "Saxofon"@gr ;
+	skos:prefLabel "saxofón"@es , "saxofone"@por ;
+	skos:altLabel "saxofono"@it , "saxófono"@es ;
+	skos:prefLabel "Saxophon"@gr , "saxophone"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/wsh> a skos:Concept ;
+	skos:prefLabel "shakuhachi@jap" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "shakuhachi"@por , "shakuhachi"@en , "shakuhachi"@es ;
+	skos:altLabel "å°ºå…«@jap" .
+
+<http://data.doremus.org/vocabulary/iaml/wsn> a skos:Concept ;
+	skos:prefLabel "surn?y@oth" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "mizm?r@oth" ;
+	skos:prefLabel "surna"@fr ;
+	skos:altLabel "surnay@oth" , "zurla@oth" ;
+	skos:prefLabel "zurna"@en ;
+	skos:altLabel "zurna@oth" ;
+	skos:prefLabel "zurna"@es .
+
+<http://data.doremus.org/vocabulary/iaml/wsr> a skos:Concept ;
+	skos:prefLabel "sarrusophone"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "contrabbasso ad ancia"@it , "contrabbasso da ancia"@it , "contrebasse à anche"@fr , "flarmonica"@it ;
+	skos:prefLabel "sarrusofone"@por , "sarrusofono"@it , "sarrusófono"@es , "Sarrusophon"@gr , "sarrusophone"@fr ;
+	skos:altLabel "Tritonikon"@gr , "universal-Kontrabass"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/wsu> a skos:Concept ;
+	skos:prefLabel "sordun"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "courtaut"@fr , "sordone"@it , "sordun"@por , "Sordun"@gr ;
+	skos:altLabel "sourdine"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/wun> a skos:Concept ;
+	skos:prefLabel "woodwind - unspecified"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bois - non spécifié"@fr , "Holzbläser"@gr , "instrumento de viento madera - sin especificar"@es , "legni - non specificato"@it , "madeiras – não especificado"@por ;
+	skos:altLabel "strumentini"@it .
+
+<http://data.doremus.org/vocabulary/mop/wuny> a skos:Concept ;
+	skos:altLabel "bois - ethnique"@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "Holzbläser - ethnisch"@gr , "instrumento de viento madera - étnico"@es , "legni - etnico"@it , "madeiras - étnico"@por , "woodwind - ethnic"@en .
+
+<http://data.doremus.org/vocabulary/iaml/wvu> a skos:Concept ;
+	skos:prefLabel "vox humana@lat" ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "human voice"@en ;
+	skos:prefLabel "voce umana"@it , "vox"@por , "vox humana"@en .
+
+<http://data.doremus.org/vocabulary/iaml/wzz> a skos:Concept ;
+	skos:prefLabel "woodwind - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bois - autre"@fr , "instrumento de viento madera - otro"@es , "legni - altro"@it , "madeiras - outros"@por .
+
+<http://data.doremus.org/vocabulary/iaml/zab> a skos:Concept ;
+	skos:prefLabel "acrobat"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "acrobata"@it , "acrobata"@por , "acróbata"@es , "acrobate"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/zac> a skos:Concept ;
+	skos:prefLabel "child actor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "acteur enfant"@fr , "actor niño"@es , "ator - criança"@por , "attore bambino"@it .
+
+<http://data.doremus.org/vocabulary/iaml/zas> a skos:Concept ;
+	skos:prefLabel "silent actor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "acteur muet"@fr , "ator mudo"@por , "attore muto"@it .
+
+<http://data.doremus.org/vocabulary/iaml/zat> a skos:Concept ;
+	skos:prefLabel "actor"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "acteur"@fr , "actor"@es , "ator"@por , "attore"@it ;
+	skos:altLabel "comédien"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/zaw> a skos:Concept ;
+	skos:prefLabel "actress"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "actrice"@fr , "actriz"@es , "atriz"@por , "attrice"@it ;
+	skos:altLabel "comédienne"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/zda> a skos:Concept ;
+	skos:prefLabel "dancer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "bailarín"@es , "bailarino"@por , "ballerino"@it , "danseur"@fr ;
+	skos:altLabel "danseuse"@fr .
+
+<http://data.doremus.org/vocabulary/iaml/zel> a skos:Concept ;
+	skos:prefLabel "light engineer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "éclairagiste"@fr ;
+	skos:prefLabel "tecnico delle luci"@it , "técnico de luzes"@por .
+
+<http://data.doremus.org/vocabulary/iaml/zes> a skos:Concept ;
+	skos:prefLabel "sound engineer"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "audio engineer"@en ;
+	skos:prefLabel "ingeniero de audio"@es , "ingénieur du son"@fr , "tecnico del suono"@it , "técnico de som"@por , "Toningenieur"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/zju> a skos:Concept ;
+	skos:prefLabel "juggler"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "giocoliere"@it , "jongleur"@fr , "malabarista"@es , "malabarista"@por .
+
+<http://data.doremus.org/vocabulary/iaml/zmi> a skos:Concept ;
+	skos:prefLabel "mime"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "mime"@fr ;
+	skos:altLabel "mime artist"@en ;
+	skos:prefLabel "mímico"@por , "mimo"@es , "mimo"@it .
+
+<http://data.doremus.org/vocabulary/iaml/zwp> a skos:Concept ;
+	skos:prefLabel "walk-on part"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:altLabel "background actor"@en , "comparsa"@es ;
+	skos:prefLabel "comparsa"@it , "extra"@es ;
+	skos:altLabel "extra"@en ;
+	skos:prefLabel "figurant"@fr ;
+	skos:altLabel "Figurant"@gr ;
+	skos:prefLabel "figurante"@por ;
+	skos:altLabel "figurante"@it , "figurante"@es ;
+	skos:prefLabel "Statist"@gr .
+
+<http://data.doremus.org/vocabulary/iaml/zzz> a skos:Concept ;
+	skos:prefLabel "performer - other"@en ;
+	skos:inScheme <http://data.doremus.org/vocabulary/iaml> ;
+	skos:prefLabel "executante - outro"@por , "interprete - altro"@it , "interprète - autre"@fr , "intérprete - otro"@es .
