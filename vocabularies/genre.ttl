@@ -7,7 +7,7 @@
 
 <http://data.doremus.org/vocabulary/genre>
         a       skos:ConceptScheme .
-		
+
 <http://data.doremus.org/vocabulary/genre/frs>
         a               skos:Concept ;
         skos:altLabel   "medley"@en ;
@@ -17,7 +17,7 @@
 
 <http://data.doremus.org/vocabulary/genre/si>
         a               skos:Concept ;
-        skos:altLabel   "sinfonia"@it , "Sinfonias"@fr ;
+        skos:altLabel   "sinfonia"@it , "sinfonias"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for works so designated from the late Renaissance for a variety of performing media, usually instrumental ensembles, commonly part of a larger framework"@en , "Usare per la forma tardo rinascimentale"@it ;
         skos:prefLabel  "sinfonia"@en .
@@ -29,7 +29,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cg>
         a               skos:Concept ;
-        skos:altLabel   "Concertos grossos"@fr ;
+        skos:altLabel   "concertos grossos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "concerto grosso"@it .
 
@@ -47,14 +47,14 @@
 
 <http://data.doremus.org/vocabulary/genre/gal>
         a               skos:Concept ;
-        skos:altLabel   "Schnell-Polka"@de , "Rutscher"@de , "Galops (musique)"@fr , "Galoppwaltzer"@de , "galopade"@fr , "Galops"@fr ;
+        skos:altLabel   "schnell-polka"@de , "rutscher"@de , "galops (musique)"@fr , "galoppwaltzer"@de , "galopade"@fr , "galops"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Rutscher and Schnell-Polka"@en ;
         skos:prefLabel  "Galopp"@de , "galop"@it , "galop"@fr , "galop"@en .
 
 <http://data.doremus.org/vocabulary/genre/prd>
         a               skos:Concept ;
-        skos:altLabel   "Préludes"@fr , "preambulum"@la , "Präambulum"@de , "Préludes (musique)"@fr , "praeambulum"@la , "Vorspiel"@de , "Priamel"@de , "Praeludium"@de , "anabole"@it , "Praeambel"@de ;
+        skos:altLabel   "préludes"@fr , "preambulum"@la , "präambulum"@de , "préludes (musique)"@fr , "praeambulum"@la , "vorspiel"@de , "priamel"@de , "praeludium"@de , "anabole"@it , "praeambel"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for praeambulum and similar"@en ;
         skos:prefLabel  "prelude"@en , "preludio"@it , "praeludium"@la , "prélude"@fr , "Präludium"@de .
@@ -68,14 +68,14 @@
 
 <http://data.doremus.org/vocabulary/genre/fg>
         a               skos:Concept ;
-        skos:altLabel   "Fugues (musique)"@fr , "Tripelfuge"@de , "Doppelfuge"@de , "fughetta"@it , "Spielfuge"@de , "Fugues"@fr , "Permutationsfuge"@de , "Quadrupelfuge"@de , "Gegenfuge"@de ;
+        skos:altLabel   "fugues (musique)"@fr , "tripelfuge"@de , "doppelfuge"@de , "fughetta"@it , "spielfuge"@de , "fugues"@fr , "permutationsfuge"@de , "quadrupelfuge"@de , "gegenfuge"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental music from the 17th century and later so designated; contrapuntal compositions built on a subject which is introduced at the beginning in imitation and recurs throughout interspersed with other contrapuntal materials, from the 17th century and later"@en ;
         skos:prefLabel  "fuga"@it , "Fuge"@de , "fugue"@en , "fugue"@fr .
 
 <http://data.doremus.org/vocabulary/genre/st>
         a               skos:Concept ;
-        skos:altLabel   "Études"@fr , "Übungsstück"@de , "Études (musique)"@fr , "Konzert-Etude"@de , "studio da concerto"@it , "Übung"@de , "modulazioni"@it , "esercizio"@it , "étude"@fr , "estudio"@ru , "ejercicio"@ru , "Klavierübung"@de , "lesson"@en , "Handstück"@de , "leçon"@fr , "exercice"@fr , "exercise"@en , "Etüde"@de , "etude"@en ;
+        skos:altLabel   "études"@fr , "übungsstück"@de , "études (musique)"@fr , "konzert-etude"@de , "studio da concerto"@it , "übung"@de , "modulazioni"@it , "esercizio"@it , "étude"@fr , "estudio"@ru , "ejercicio"@ru , "klavierübung"@de , "lesson"@en , "handstück"@de , "leçon"@fr , "exercice"@fr , "exercise"@en , "etüde"@de , "etude"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "study, exercise"@en , "étude et exercice"@fr , "studio"@it .
 
@@ -92,21 +92,21 @@
 
 <http://data.doremus.org/vocabulary/genre/dui>
         a               skos:Concept ;
-        skos:altLabel   "Duett"@de , "Duos"@fr , "duet"@en , "duo"@fr ;
+        skos:altLabel   "duett"@de , "duos"@fr , "duet"@en , "duo"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental"@it , "Instrumental"@fr , "Instrumental"@de , "Instrumental"@en ;
         skos:prefLabel  "duo instrumental"@fr , "duo"@en , "duetto"@it .
 
 <http://data.doremus.org/vocabulary/genre/aub>
         a               skos:Concept ;
-        skos:altLabel   "aube instrumentale"@fr , "alborada"@es , "Aubades"@fr ;
+        skos:altLabel   "aube instrumentale"@fr , "alborada"@es , "aubades"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental"@it ;
         skos:prefLabel  "aubade"@fr , "alba"@it .
 
 <http://data.doremus.org/vocabulary/genre/mus>
         a               skos:Concept ;
-        skos:altLabel   "musetta"@it , "Musettes"@fr ;
+        skos:altLabel   "musetta"@it , "musettes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "musette"@fr .
 
@@ -140,13 +140,13 @@
 
 <http://data.doremus.org/vocabulary/genre/mi>
         a               skos:Concept ;
-        skos:altLabel   "menuet"@fr , "minué"@it , "Menuett"@de , "Menuets"@fr ;
+        skos:altLabel   "menuet"@fr , "minué"@it , "menuett"@de , "menuets"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "minuet"@en , "minuetto"@it .
 
 <http://data.doremus.org/vocabulary/genre/fls>
         a               skos:Concept ;
-        skos:altLabel   "Geisslerlieder"@de ;
+        skos:altLabel   "geisslerlieder"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Geisslerlied"@en ;
         skos:prefLabel  "flagellant song"@en .
@@ -164,7 +164,7 @@
 
 <http://data.doremus.org/vocabulary/genre/srv>
         a               skos:Concept ;
-        skos:altLabel   "serventese"@it , "serventois"@fr , "sirventesca"@it , "sirventese"@it , "Serventois"@fr ;
+        skos:altLabel   "serventese"@it , "serventois"@fr , "sirventesca"@it , "sirventese"@it , "serventois"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sirventes"@es .
 
@@ -182,14 +182,14 @@
 
 <http://data.doremus.org/vocabulary/genre/qua>
         a               skos:Concept ;
-        skos:altLabel   "Klavierquartett"@de , "квартет"@ru , "Bläserquartett"@de , "cuarteto"@es , "Quadro"@de , "Streichquartett"@de , "sonata a quattro"@it , "Quatuors"@fr , "divertimento a quattro"@it , "kvartett"@sw ;
+        skos:altLabel   "klavierquartett"@de , "квартет"@ru , "bläserquartett"@de , "cuarteto"@es , "quadro"@de , "streichquartett"@de , "sonata a quattro"@it , "quatuors"@fr , "divertimento a quattro"@it , "kvartett"@sw ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "18th-19th cent."@it , "2nd half 18th cent."@it ;
         skos:prefLabel  "quartet"@en , "quartetto"@it , "Quartett"@de , "quatuor instrumental"@fr .
 
 <http://data.doremus.org/vocabulary/genre/cr>
         a               skos:Concept ;
-        skos:altLabel   "Noëls anglais"@fr ;
+        skos:altLabel   "noëls anglais"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "carol"@en .
 
@@ -200,14 +200,14 @@
 
 <http://data.doremus.org/vocabulary/genre/opt>
         a               skos:Concept ;
-        skos:altLabel   "musiquette"@fr , "operetta"@it , "Opérettes"@fr ;
+        skos:altLabel   "musiquette"@fr , "operetta"@it , "opérettes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "19th-20th cent."@it ;
         skos:prefLabel  "operetta"@it , "opérette"@fr .
 
 <http://data.doremus.org/vocabulary/genre/zar>
         a               skos:Concept ;
-        skos:altLabel   "Zarzuelas"@fr ;
+        skos:altLabel   "zarzuelas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "zarzuela"@es .
 
@@ -226,7 +226,7 @@
 
 <http://data.doremus.org/vocabulary/genre/gle>
         a               skos:Concept ;
-        skos:altLabel   "Glees"@fr ;
+        skos:altLabel   "glees"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "glee"@en .
 
@@ -237,26 +237,26 @@
 
 <http://data.doremus.org/vocabulary/genre/csy>
         a               skos:Concept ;
-        skos:altLabel   "Cammersymphonie"@de ;
+        skos:altLabel   "cammersymphonie"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "chamber symphony"@en , "sinfonia da camera"@it , "symphonie de chambre"@fr , "Kammersymphonie"@de .
 
 <http://data.doremus.org/vocabulary/genre/czp>
         a               skos:Concept ;
-        skos:altLabel   "canzone profana"@it , "Weltliches Lied"@de , "canzone"@it , "canzona"@it , "canzon"@it , "Kanzone"@de ;
+        skos:altLabel   "canzone profana"@it , "weltliches lied"@de , "canzone"@it , "canzona"@it , "canzon"@it , "kanzone"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@it , "16th cent.; except where an individual code has been assigned to a specific form"@it ;
         skos:prefLabel  "canzone, polyphonic"@it .
 
 <http://data.doremus.org/vocabulary/genre/alb>
         a               skos:Concept ;
-        skos:altLabel   "feuille d'album"@fr , "feuillet d'album"@fr , "Albumblatt"@de ;
+        skos:altLabel   "feuille d'album"@fr , "feuillet d'album"@fr , "albumblatt"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "foglio d'album"@it , "albumleaf"@en .
 
 <http://data.doremus.org/vocabulary/genre/vir>
         a               skos:Concept ;
-        skos:altLabel   "virela"@fr , "vireli"@fr , "Virelais"@fr ;
+        skos:altLabel   "virela"@fr , "vireli"@fr , "virelais"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "virelai"@fr .
 
@@ -267,13 +267,13 @@
 
 <http://data.doremus.org/vocabulary/genre/ccl>
         a               skos:Concept ;
-        skos:altLabel   "canticum"@la , "magnificat"@la , "nunc dimittis"@la , "Cantiques"@fr ;
+        skos:altLabel   "canticum"@la , "magnificat"@la , "nunc dimittis"@la , "cantiques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cantique"@fr , "cantico"@it , "canticle"@en .
 
 <http://data.doremus.org/vocabulary/genre/alm>
         a               skos:Concept ;
-        skos:altLabel   "ballo tedesco"@it , "alman"@it , "Allemandes"@fr , "Dantz"@de , "danse allemande"@fr , "tedesco"@it , "Allemandes (musique)"@fr , "balletto allemanno"@it , "Deutscher Tanz"@de ;
+        skos:altLabel   "ballo tedesco"@it , "alman"@it , "allemandes"@fr , "dantz"@de , "danse allemande"@fr , "tedesco"@it , "allemandes (musique)"@fr , "balletto allemanno"@it , "deutscher tanz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "16th-18th cent."@it ;
         skos:prefLabel  "allemande"@fr , "allemanda"@it .
@@ -286,13 +286,13 @@
 
 <http://data.doremus.org/vocabulary/genre/hum>
         a               skos:Concept ;
-        skos:altLabel   "Humoreske"@de , "Humoresques"@fr ;
+        skos:altLabel   "humoreske"@de , "humoresques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "humoresque"@fr , "umoresca"@it .
 
 <http://data.doremus.org/vocabulary/genre/smb>
         a               skos:Concept ;
-        skos:altLabel   "cae cae"@pt , "Sambas"@fr ;
+        skos:altLabel   "cae cae"@pt , "sambas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "samba"@en , "samba"@it , "samba"@fr , "samba"@es .
 
@@ -303,41 +303,41 @@
 
 <http://data.doremus.org/vocabulary/genre/trs>
         a               skos:Concept ;
-        skos:altLabel   "prontuario"@it , "compendio"@it , "regola"@it , "Anweisung"@de , "manuel"@fr , "tratado"@es , "traité"@fr , "Überlieferung"@de , "ristretto"@it , "compendium"@la , "Handbuch"@de , "tractatus"@la , "Traktat"@de , "manual"@en , "dissertation"@en , "manuale"@it ;
+        skos:altLabel   "prontuario"@it , "compendio"@it , "regola"@it , "anweisung"@de , "manuel"@fr , "tratado"@es , "traité"@fr , "überlieferung"@de , "ristretto"@it , "compendium"@la , "handbuch"@de , "tractatus"@la , "traktat"@de , "manual"@en , "dissertation"@en , "manuale"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "trattato"@it , "treatise"@en .
 
 <http://data.doremus.org/vocabulary/genre/rde>
         a               skos:Concept ;
-        skos:altLabel   "rondello"@it , "rundelus"@la , "rondellus"@la , "redondel"@fr , "rondiau"@fr , "Reigen"@de , "rondet"@fr , "rëondet"@fr , "rondelet"@fr , "round"@en , "rondel"@fr , "roont"@fr , "rundela"@es , "rundel"@fr , "reondel"@fr , "rëont"@fr , "ronde"@fr , "rota medievale"@it ;
+        skos:altLabel   "rondello"@it , "rundelus"@la , "rondellus"@la , "redondel"@fr , "rondiau"@fr , "reigen"@de , "rondet"@fr , "rëondet"@fr , "rondelet"@fr , "round"@en , "rondel"@fr , "roont"@fr , "rundela"@es , "rundel"@fr , "reondel"@fr , "rëont"@fr , "ronde"@fr , "rota medievale"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@en , "Use for medieval vocal forms; use also for rondellus, round, and similar"@fr ;
         skos:prefLabel  "rondeau"@fr .
 
 <http://data.doremus.org/vocabulary/genre/noe>
         a               skos:Concept ;
-        skos:altLabel   "Noëls"@fr , "chant de noël"@fr , "Weihnachtslied"@de ;
+        skos:altLabel   "noëls"@fr , "chant de noël"@fr , "weihnachtslied"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "New variant term."@en , "New variant term."@de ;
         skos:prefLabel  "christmas music"@en , "Weihnachtsmusik"@de , "noël"@fr .
 
 <http://data.doremus.org/vocabulary/genre/lnd>
         a               skos:Concept ;
-        skos:altLabel   "tyrolienne"@fr , "Tiroler"@de , "Bayerischer"@de , "Siebenbürger"@de , "Böhmerwaldler"@de , "tirolese"@it , "Südmärische"@de , "Egerländer"@de , "Ländler"@fr , "Oberländer"@de , "Steirer"@de ;
+        skos:altLabel   "tyrolienne"@fr , "tiroler"@de , "bayerischer"@de , "siebenbürger"@de , "böhmerwaldler"@de , "tirolese"@it , "südmärische"@de , "egerländer"@de , "ländler"@fr , "oberländer"@de , "steirer"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes Bayrischer, tyrolienne and similar"@de ;
         skos:prefLabel  "Ländler"@de .
 
 <http://data.doremus.org/vocabulary/genre/ai>
         a               skos:Concept ;
-        skos:altLabel   "Airs"@fr , "air à boire"@fr , "air de ballet"@fr , "air de cour"@fr , "air à chanter"@fr , "ayre"@en , "air à danser"@fr ;
+        skos:altLabel   "airs"@fr , "air à boire"@fr , "air de ballet"@fr , "air de cour"@fr , "air à chanter"@fr , "ayre"@en , "air à danser"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for ayre; for instrumental air prefer ain – air, instrumental"@fr ;
         skos:prefLabel  "ayr"@en , "air, vocal"@fr .
 
 <http://data.doremus.org/vocabulary/genre/ctp>
         a               skos:Concept ;
-        skos:altLabel   "contrapunctum"@la , "contrepoint"@fr , "Kontrapunkt"@de ;
+        skos:altLabel   "contrapunctum"@la , "contrepoint"@fr , "kontrapunkt"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "counterpoint"@en , "contrappunto"@it .
 
@@ -354,13 +354,13 @@
 
 <http://data.doremus.org/vocabulary/genre/bru>
         a               skos:Concept ;
-        skos:altLabel   "Brunettes (musique vocale)"@fr ;
+        skos:altLabel   "brunettes (musique vocale)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "brunette"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rap>
         a               skos:Concept ;
-        skos:altLabel   "Rap"@fr ;
+        skos:altLabel   "rap"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rap"@en , "rap"@it , "rap"@fr , "rap"@de .
 
@@ -398,13 +398,13 @@
 
 <http://data.doremus.org/vocabulary/genre/bou>
         a               skos:Concept ;
-        skos:altLabel   "borea"@it , "borre"@en , "borry"@en , "buora"@it , "Bourrées"@fr ;
+        skos:altLabel   "borea"@it , "borre"@en , "borry"@en , "buora"@it , "bourrées"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "bourrée"@fr .
 
 <http://data.doremus.org/vocabulary/genre/snd>
         a               skos:Concept ;
-        skos:altLabel   "serenade"@en , "sérénade"@fr , "serenata maritima notturna"@it , "Ständchen"@de , "Sérénades (musique instrumentale)"@fr , "Nachtmusik"@de , "Sérénades"@fr ;
+        skos:altLabel   "serenade"@en , "sérénade"@fr , "serenata maritima notturna"@it , "ständchen"@de , "sérénades (musique instrumentale)"@fr , "nachtmusik"@de , "sérénades"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "English"@en , "Instrumental form, use also for Nachtmusik, Ständchen and similar"@en ;
         skos:prefLabel  "serenata"@it , "serenade"@en .
@@ -423,39 +423,39 @@
 
 <http://data.doremus.org/vocabulary/genre/fea>
         a               skos:Concept ;
-        skos:altLabel   "festa di ballo"@it , "feste"@it , "festa boschereccia"@it , "festeggio armonico"@it , "festa reale per balletto a cavallo"@it , "festa pastorale"@it , "spettacolo festivo"@it , "festa allegorica"@it , "Festmusik"@de , "festa inaugurale"@it , "festino"@it , "festa a cavallo"@it , "feste galanti per musica"@it , "festa d'armi a cavallo"@it , "festa teatrale"@it , "festa da camera"@it , "festa musicale"@it , "pastorale intrecciata d'esercizi cavallereschi"@it , "festa di corte"@it , "inventione di festa teatrale per musica"@it , "festa con esercizi d'arte cavallereschi"@it ;
+        skos:altLabel   "festa di ballo"@it , "feste"@it , "festa boschereccia"@it , "festeggio armonico"@it , "festa reale per balletto a cavallo"@it , "festa pastorale"@it , "spettacolo festivo"@it , "festa allegorica"@it , "festmusik"@de , "festa inaugurale"@it , "festino"@it , "festa a cavallo"@it , "feste galanti per musica"@it , "festa d'armi a cavallo"@it , "festa teatrale"@it , "festa da camera"@it , "festa musicale"@it , "pastorale intrecciata d'esercizi cavallereschi"@it , "festa di corte"@it , "inventione di festa teatrale per musica"@it , "festa con esercizi d'arte cavallereschi"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "musique de fête"@fr , "feast"@en , "festa"@it .
 
 <http://data.doremus.org/vocabulary/genre/lyh>
         a               skos:Concept ;
-        skos:altLabel   "ora nona"@it , "officium"@la , "ora prima"@it , "ora media"@it , "heures canoniales"@fr , "ora terza"@it , "ufficio divino"@it , "office canonial"@fr , "orazione"@it , "Office divin (musique)"@fr , "ora sesta"@it ;
+        skos:altLabel   "ora nona"@it , "officium"@la , "ora prima"@it , "ora media"@it , "heures canoniales"@fr , "ora terza"@it , "ufficio divino"@it , "office canonial"@fr , "orazione"@it , "office divin (musique)"@fr , "ora sesta"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Officium, divine office, etc."@en , "Liturgical"@it ;
         skos:prefLabel  "liturgia delle ore"@it , "liturgy of the hours"@en , "heures liturgiques"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rer>
         a               skos:Concept ;
-        skos:altLabel   "Rêveries"@fr ;
+        skos:altLabel   "rêveries"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rêverie"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rot>
         a               skos:Concept ;
-        skos:altLabel   "rode"@it , "Radel"@de ;
+        skos:altLabel   "rode"@it , "radel"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Italian dance form, 14th cent.; for the canon form use rde – rondeau"@it ;
         skos:prefLabel  "rota"@it .
 
 <http://data.doremus.org/vocabulary/genre/iru>
         a               skos:Concept ;
-        skos:altLabel   "interludium"@la , "interludio"@it , "Interludes"@fr ;
+        skos:altLabel   "interludium"@la , "interludio"@it , "interludes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "interlude"@en , "interlude"@fr , "Zwischenspiel"@de .
 
 <http://data.doremus.org/vocabulary/genre/chp>
         a               skos:Concept ;
-        skos:altLabel   "ricreazioni"@it , "pensiero"@it , "Genrestück"@de , "pièce de genre"@fr , "esquisse"@fr , "pezzo di carattere"@it , "réminescences"@fr , "illustrazioni"@it , "ghiribizzo"@it , "pensiero caratteristico"@it , "divagazioni"@it , "pensée"@fr , "brano caratteristico"@it , "pensée musicale"@fr , "schizzo"@it , "souvenir"@fr , "bozzetto"@it , "miniatura"@it , "épisode musical"@fr , "pensiero intimo"@it , "ricordo"@it , "passatempo"@it , "leggenda"@it , "récréations"@fr , "morceau caractéristique"@fr , "pensiero lugubre"@it , "Charakterstück"@de , "reminescenza"@it ;
+        skos:altLabel   "ricreazioni"@it , "pensiero"@it , "genrestück"@de , "pièce de genre"@fr , "esquisse"@fr , "pezzo di carattere"@it , "réminescences"@fr , "illustrazioni"@it , "ghiribizzo"@it , "pensiero caratteristico"@it , "divagazioni"@it , "pensée"@fr , "brano caratteristico"@it , "pensée musicale"@fr , "schizzo"@it , "souvenir"@fr , "bozzetto"@it , "miniatura"@it , "épisode musical"@fr , "pensiero intimo"@it , "ricordo"@it , "passatempo"@it , "leggenda"@it , "récréations"@fr , "morceau caractéristique"@fr , "pensiero lugubre"@it , "charakterstück"@de , "reminescenza"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "19th cent."@it , "19th-20th cent."@fr , "Includes bozzetto, esquisse, leggenda, pensée, souvenir and similar"@en ;
         skos:prefLabel  "pièce de caractère"@fr , "pezzo caratteristico"@it , "character piece"@en .
@@ -468,7 +468,7 @@
 
 <http://data.doremus.org/vocabulary/genre/crr>
         a               skos:Concept ;
-        skos:altLabel   "coplas"@es , "Corridos"@fr ;
+        skos:altLabel   "coplas"@es , "corridos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Latin America"@es ;
         skos:prefLabel  "corrido"@es .
@@ -488,39 +488,39 @@
 
 <http://data.doremus.org/vocabulary/genre/fm>
         a               skos:Concept ;
-        skos:altLabel   "canzone popolare"@it , "musique populaire"@fr , "canto folclorico"@it , "Volksgesang"@de , "canto popolare"@it , "Musique traditionnelle"@fr , "motto popolare"@it , "popular melody"@en , "melodia popolare"@it ;
+        skos:altLabel   "canzone popolare"@it , "musique populaire"@fr , "canto folclorico"@it , "volksgesang"@de , "canto popolare"@it , "musique traditionnelle"@fr , "motto popolare"@it , "popular melody"@en , "melodia popolare"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes ballads, etc.; if existing prefer a more specific code"@en ;
         skos:prefLabel  "musique traditionnelle"@fr , "folk music"@en .
 
 <http://data.doremus.org/vocabulary/genre/md>
         a               skos:Concept ;
-        skos:altLabel   "madrigale"@it , "madrigale passeggiato"@it , "Madrigaux (musique)"@fr , "Madrigaux"@fr ;
+        skos:altLabel   "madrigale"@it , "madrigale passeggiato"@it , "madrigaux (musique)"@fr , "madrigaux"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "madrigal"@en , "madrigal"@fr , "Madrigal"@de .
 
 <http://data.doremus.org/vocabulary/genre/po>
         a               skos:Concept ;
-        skos:altLabel   "Polonäise"@de , "Polonaises"@fr , "Polonaises (musique)"@fr , "pieszy"@pl , "polonesa"@it , "chodzony"@pl ;
+        skos:altLabel   "polonäise"@de , "polonaises"@fr , "polonaises (musique)"@fr , "pieszy"@pl , "polonesa"@it , "chodzony"@pl ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "polonaise"@fr , "polonaise"@en , "polacca"@it , "Polonäse"@de , "polonez"@pl .
 
 <http://data.doremus.org/vocabulary/genre/rit>
         a               skos:Concept ;
-        skos:altLabel   "ritornello"@it , "ritournelle"@fr , "ritornel"@it , "reprise"@fr , "refrain"@fr , "ripresa"@it , "Ritournelles"@fr , "recoupe"@it ;
+        skos:altLabel   "ritornello"@it , "ritournelle"@fr , "ritornel"@it , "reprise"@fr , "refrain"@fr , "ripresa"@it , "ritournelles"@fr , "recoupe"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Uae also for refrain, reprise and similar"@it ;
         skos:prefLabel  "ritornello"@it .
 
 <http://data.doremus.org/vocabulary/genre/fin>
         a               skos:Concept ;
-        skos:altLabel   "Finales (musique)"@fr ;
+        skos:altLabel   "finales (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "finale"@it .
 
 <http://data.doremus.org/vocabulary/genre/mo>
         a               skos:Concept ;
-        skos:altLabel   "mocteto"@it , "Motette"@de , "Doppelmotette"@de , "motetus"@la , "concerto ecclesiastico"@it , "sacro concerto"@it , "Motets"@fr , "concerto sacro"@it , "concerto spirituale"@it , "motetto"@it , "mottetto concertato"@it , "motete"@es ;
+        skos:altLabel   "mocteto"@it , "motette"@de , "doppelmotette"@de , "motetus"@la , "concerto ecclesiastico"@it , "sacro concerto"@it , "motets"@fr , "concerto sacro"@it , "concerto spirituale"@it , "motetto"@it , "mottetto concertato"@it , "motete"@es ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@it , "17th cent."@it ;
         skos:prefLabel  "motet"@en , "motet"@fr , "mottetto"@it .
@@ -533,7 +533,7 @@
 
 <http://data.doremus.org/vocabulary/genre/dod>
         a               skos:Concept ;
-        skos:altLabel   "danse macabre"@fr , "Totentanz"@de ;
+        skos:altLabel   "danse macabre"@fr , "totentanz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for danse macabre, Totentanz and similar"@en ;
         skos:prefLabel  "dance of death"@en , "danza macabra"@it .
@@ -564,19 +564,19 @@
 
 <http://data.doremus.org/vocabulary/genre/jep>
         a               skos:Concept ;
-        skos:altLabel   "Jeux-partis"@fr ;
+        skos:altLabel   "jeux-partis"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "jeu parti"@fr .
 
 <http://data.doremus.org/vocabulary/genre/cst>
         a               skos:Concept ;
-        skos:altLabel   "Kassation"@de , "Cassations"@fr ;
+        skos:altLabel   "kassation"@de , "cassations"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cassazione"@it , "cassation"@en , "cassation"@fr .
 
 <http://data.doremus.org/vocabulary/genre/psa>
         a               skos:Concept ;
-        skos:altLabel   "psaume"@fr , "miserere"@la , "Psaumes (musique)"@fr , "Bussalm"@de , "psalmus"@la , "salmo penitenziale"@it , "psalmo"@it , "Psaumes"@fr ;
+        skos:altLabel   "psaume"@fr , "miserere"@la , "psaumes (musique)"@fr , "bussalm"@de , "psalmus"@la , "salmo penitenziale"@it , "psalmo"@it , "psaumes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "psalm"@en , "salmo"@it .
 
@@ -587,7 +587,7 @@
 
 <http://data.doremus.org/vocabulary/genre/mz>
         a               skos:Concept ;
-        skos:altLabel   "mazurca"@it , "Mazurkas"@fr ;
+        skos:altLabel   "mazurca"@it , "mazurkas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "mazurka"@en , "mazurka"@it , "mazurka"@fr , "mazurek"@pl .
 
@@ -598,7 +598,7 @@
 
 <http://data.doremus.org/vocabulary/genre/ars>
         a               skos:Concept ;
-        skos:altLabel   "Ariosos"@fr ;
+        skos:altLabel   "ariosos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "arioso"@it .
 
@@ -616,14 +616,14 @@
 
 <http://data.doremus.org/vocabulary/genre/jz>
         a               skos:Concept ;
-        skos:altLabel   "Jazz"@fr ;
+        skos:altLabel   "jazz"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Except where an individual code has been assigned to a specific form"@en ;
         skos:prefLabel  "jazz"@en , "jazz"@it , "jazz"@fr , "Jazz"@de .
 
 <http://data.doremus.org/vocabulary/genre/psl>
         a               skos:Concept ;
-        skos:altLabel   "pastorela"@it , "pastorelle"@fr , "Pastourelles"@fr ;
+        skos:altLabel   "pastorela"@it , "pastorelle"@fr , "pastourelles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "pastourelle"@fr .
 
@@ -653,13 +653,13 @@
 
 <http://data.doremus.org/vocabulary/genre/ton>
         a               skos:Concept ;
-        skos:altLabel   "Tonadillas"@fr ;
+        skos:altLabel   "tonadillas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tonadilla"@es .
 
 <http://data.doremus.org/vocabulary/genre/sps>
         a               skos:Concept ;
-        skos:altLabel   "chant de prisonniers"@fr , "chant de travail"@fr , "chant d\\'émigrants"@fr , "Chansons politiques"@fr ;
+        skos:altLabel   "chant de prisonniers"@fr , "chant de travail"@fr , "chant d\\'émigrants"@fr , "chansons politiques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "social and political song"@en , "canto sociale e politico"@it , "chanson politique"@fr .
 
@@ -691,14 +691,14 @@
 
 <http://data.doremus.org/vocabulary/genre/rdv>
         a               skos:Concept ;
-        skos:altLabel   "Kuhreigen"@de , "Kuhreihen"@de , "Ranz des vaches"@fr ;
+        skos:altLabel   "kuhreigen"@de , "kuhreihen"@de , "ranz des vaches"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Kuhreigen and similar"@fr ;
         skos:prefLabel  "ranz des vaches"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rhb>
         a               skos:Concept ;
-        skos:altLabel   "Rhythm and blues"@fr ;
+        skos:altLabel   "rhythm and blues"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rhythm and blues"@en .
 
@@ -715,19 +715,19 @@
 
 <http://data.doremus.org/vocabulary/genre/ben>
         a               skos:Concept ;
-        skos:altLabel   "Benedictus (musique)"@fr ;
+        skos:altLabel   "benedictus (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "benedictus"@la .
 
 <http://data.doremus.org/vocabulary/genre/ptn>
         a               skos:Concept ;
-        skos:altLabel   "Notre Père (musique)"@fr ;
+        skos:altLabel   "notre père (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "pater noster"@la .
 
 <http://data.doremus.org/vocabulary/genre/cdt>
         a               skos:Concept ;
-        skos:altLabel   "Chansons de toile"@fr ;
+        skos:altLabel   "chansons de toile"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "chanson de toile"@fr .
 
@@ -738,20 +738,20 @@
 
 <http://data.doremus.org/vocabulary/genre/sdh>
         a               skos:Concept ;
-        skos:altLabel   "låtar"@sw , "Runda"@de , "Gsangl"@de , "stev"@no , "Gstanzl"@de , "Schnaderhüpfl"@de ;
+        skos:altLabel   "låtar"@sw , "runda"@de , "gsangl"@de , "stev"@no , "gstanzl"@de , "schnaderhüpfl"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Gstanzl, låtar and similar"@de ;
         skos:prefLabel  "Schnadahüpfl"@de .
 
 <http://data.doremus.org/vocabulary/genre/rem>
         a               skos:Concept ;
-        skos:altLabel   "ricordo"@it , "Réminiscences"@fr ;
+        skos:altLabel   "ricordo"@it , "réminiscences"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "réminiscence"@fr , "reminescenza"@it .
 
 <http://data.doremus.org/vocabulary/genre/mng>
         a               skos:Concept ;
-        skos:altLabel   "Milongas"@fr ;
+        skos:altLabel   "milongas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "milonga"@es .
 
@@ -768,7 +768,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cob>
         a               skos:Concept ;
-        skos:altLabel   "Musique de comédie-ballet"@fr ;
+        skos:altLabel   "musique de comédie-ballet"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "comédie-ballet"@fr .
 
@@ -803,57 +803,57 @@
 
 <http://data.doremus.org/vocabulary/genre/su>
         a               skos:Concept ;
-        skos:altLabel   "ordre"@fr , "suite de pièces"@fr , "Orchestersuite"@de , "Suites (musique)"@fr , "Suites"@fr , "Ballett-Suite"@de , "suite de ballet"@fr , "Cembalo Suite"@de ;
+        skos:altLabel   "ordre"@fr , "suite de pièces"@fr , "orchestersuite"@de , "suites (musique)"@fr , "suites"@fr , "ballett-suite"@de , "suite de ballet"@fr , "cembalo suite"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "16e-18e s."@fr , "Use also for ordre"@en ;
         skos:prefLabel  "suite"@fr , "suite"@en , "suite"@it , "Suite"@de .
 
 <http://data.doremus.org/vocabulary/genre/syc>
         a               skos:Concept ;
-        skos:altLabel   "symphonie concertante"@fr , "concertante"@it , "Konzertante"@de , "Konzertante Symphonie"@de , "Symphonies concertantes"@fr ;
+        skos:altLabel   "symphonie concertante"@fr , "concertante"@it , "konzertante"@de , "konzertante symphonie"@de , "symphonies concertantes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sinfonia concertante"@it .
 
 <http://data.doremus.org/vocabulary/genre/vrs>
         a               skos:Concept ;
-        skos:altLabel   "Verst"@de , "versillo"@es , "verso"@it , "versus"@la , "Versetl"@de , "verseto"@ru , "Versett"@de , "versetto concertato"@it ;
+        skos:altLabel   "verst"@de , "versillo"@es , "verso"@it , "versus"@la , "versetl"@de , "verseto"@ru , "versett"@de , "versetto concertato"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "versetto"@it , "verset"@fr , "verse"@en .
 
 <http://data.doremus.org/vocabulary/genre/mut>
         a               skos:Concept ;
-        skos:altLabel   "Théâtre musical"@fr ;
+        skos:altLabel   "théâtre musical"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "musical theatre"@en , "théâtre musical"@fr .
 
 <http://data.doremus.org/vocabulary/genre/ch>
         a               skos:Concept ;
-        skos:altLabel   "Choralbearbeitung"@de , "Kirchenlied"@de , "cantique"@it , "Chorals"@fr , "choral"@fr , "choral chanté"@fr , "Kantionalsatz"@de ;
+        skos:altLabel   "choralbearbeitung"@de , "kirchenlied"@de , "cantique"@it , "chorals"@fr , "choral"@fr , "choral chanté"@fr , "kantionalsatz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@de ;
         skos:prefLabel  "chorale"@en , "Choral"@de , "corale"@it .
 
 <http://data.doremus.org/vocabulary/genre/tng>
         a               skos:Concept ;
-        skos:altLabel   "canson tango"@es , "Tangos"@fr ;
+        skos:altLabel   "canson tango"@es , "tangos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tango"@en , "tango"@it , "tango"@fr , "tango"@es , "Tango"@de .
 
 <http://data.doremus.org/vocabulary/genre/sol>
         a               skos:Concept ;
-        skos:altLabel   "sol-fa"@en , "solfège"@fr , "Solfeggien"@de ;
+        skos:altLabel   "sol-fa"@en , "solfège"@fr , "solfeggien"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "solfeggio"@it .
 
 <http://data.doremus.org/vocabulary/genre/ntz>
         a               skos:Concept ;
-        skos:altLabel   "dance-pair"@en , "tripla"@it , "Proportz"@de ;
+        skos:altLabel   "dance-pair"@en , "tripla"@it , "proportz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Nachtanz"@de .
 
 <http://data.doremus.org/vocabulary/genre/phy>
         a               skos:Concept ;
-        skos:altLabel   "Chants patriotiques"@fr , "chant révolutionnaire"@fr , "chant patriotique"@fr , "inno di guerra"@it , "inno patriottico"@it , "hymne révolutionnaire"@fr ;
+        skos:altLabel   "chants patriotiques"@fr , "chant révolutionnaire"@fr , "chant patriotique"@fr , "inno di guerra"@it , "inno patriottico"@it , "hymne révolutionnaire"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "hymne patriotique"@fr , "patriotic hymn"@en .
 
@@ -864,7 +864,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cs>
         a               skos:Concept ;
-        skos:altLabel   "aleatoric music"@en , "chance composition"@en , "musique aléatoire"@fr , "Musique aléatoire "@fr ;
+        skos:altLabel   "aleatoric music"@en , "chance composition"@en , "musique aléatoire"@fr , "musique aléatoire "@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "chance composition / aleatoric music"@en , "musica aleatoria"@it .
 
@@ -875,7 +875,7 @@
 
 <http://data.doremus.org/vocabulary/genre/opu>
         a               skos:Concept ;
-        skos:altLabel   "melodramma giocoso"@it , "opera giocosa"@it , "comic drama"@en , "comi-drama"@en , "operetta buffa"@it , "dramma giocoso"@it , "opéra-bouffon"@fr , "dramma eroicomico boscareccio"@it , "azione serio-giocosa"@it , "rappresentazione giocosa"@it , "melodramma comico"@it , "Komische Oper"@de , "dramma musicale burlesco"@it , "dramma ridicolo"@it , "dramma buffo"@it , "dramma comico"@it , "dramma bernesco"@it , "comic opera"@it , "comic opera"@en , "opéra-comique italien"@fr , "dramma pastorale giocoso"@it , "azione comica"@it , "drama comico"@it , "dramma giocosmorale"@it , "opera tragicomica"@it , "theatrale divertimento"@it , "dramma comico pastorale"@it , "Musicalisches Lust-Spiel"@de , "estro musicale giocoso"@it , "operetta comica"@it , "dramma burlesco"@it , "opera scenica tragicomica"@it , "opera comica"@it , "melodramma eroicomico"@it , "Freudenspiel"@de , "opera comica-giocosa"@it , "operetta giocosa"@it , "opéra bouffon"@fr , "dramma tragicomico"@it , "ilaro-tragedia"@it , "opera bernesca"@it , "tragic-comic opera"@en , "azione giocosa"@it , "azione drammatica giocosa"@it , "dramma eroi-comico"@it , "drama jocoso"@it , "opéra héroicomique"@fr , "dramma faceto"@it , "Opéras buffa"@fr ;
+        skos:altLabel   "melodramma giocoso"@it , "opera giocosa"@it , "comic drama"@en , "comi-drama"@en , "operetta buffa"@it , "dramma giocoso"@it , "opéra-bouffon"@fr , "dramma eroicomico boscareccio"@it , "azione serio-giocosa"@it , "rappresentazione giocosa"@it , "melodramma comico"@it , "komische oper"@de , "dramma musicale burlesco"@it , "dramma ridicolo"@it , "dramma buffo"@it , "dramma comico"@it , "dramma bernesco"@it , "comic opera"@it , "comic opera"@en , "opéra-comique italien"@fr , "dramma pastorale giocoso"@it , "azione comica"@it , "drama comico"@it , "dramma giocosmorale"@it , "opera tragicomica"@it , "theatrale divertimento"@it , "dramma comico pastorale"@it , "musicalisches lust-spiel"@de , "estro musicale giocoso"@it , "operetta comica"@it , "dramma burlesco"@it , "opera scenica tragicomica"@it , "opera comica"@it , "melodramma eroicomico"@it , "freudenspiel"@de , "opera comica-giocosa"@it , "operetta giocosa"@it , "opéra bouffon"@fr , "dramma tragicomico"@it , "ilaro-tragedia"@it , "opera bernesca"@it , "tragic-comic opera"@en , "azione giocosa"@it , "azione drammatica giocosa"@it , "dramma eroi-comico"@it , "drama jocoso"@it , "opéra héroicomique"@fr , "dramma faceto"@it , "opéras buffa"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes dramma giocoso, opéra-bouffon, azione comica and similar"@it , "If translated from Italian"@fr , "English"@it , "English"@en ;
         skos:prefLabel  "opera buffa"@it .
@@ -887,13 +887,13 @@
 
 <http://data.doremus.org/vocabulary/genre/arn>
         a               skos:Concept ;
-        skos:altLabel   "aria, strumentale"@it , "Arias"@fr ;
+        skos:altLabel   "aria, strumentale"@it , "arias"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "aria, instrumental"@en , "aria, instrumental"@fr .
 
 <http://data.doremus.org/vocabulary/genre/tri>
         a               skos:Concept ;
-        skos:altLabel   "Trios"@fr , "terzetto"@it ;
+        skos:altLabel   "trios"@fr , "terzetto"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Strumentale"@it , "Instrumental"@it , "Instrumental"@en , "Instrumental"@fr ;
         skos:prefLabel  "trio"@fr , "trio"@en , "trio"@it , "Trio"@de .
@@ -910,7 +910,7 @@
 
 <http://data.doremus.org/vocabulary/genre/bag>
         a               skos:Concept ;
-        skos:altLabel   "Bagatelles (musique)"@fr , "Bagatelles"@fr ;
+        skos:altLabel   "bagatelles (musique)"@fr , "bagatelles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "bagatella"@it , "bagatelle"@fr .
 
@@ -922,14 +922,14 @@
 
 <http://data.doremus.org/vocabulary/genre/ctf>
         a               skos:Concept ;
-        skos:altLabel   "contraffattura"@it , "travestimento spirituale"@it , "Kontrafaktum"@de , "Kontrafaktur"@de , "Parodie (musique)"@fr ;
+        skos:altLabel   "contraffattura"@it , "travestimento spirituale"@it , "kontrafaktum"@de , "kontrafaktur"@de , "parodie (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for travestimento spirituale"@la ;
         skos:prefLabel  "contrafactum"@la .
 
 <http://data.doremus.org/vocabulary/genre/psr>
         a               skos:Concept ;
-        skos:altLabel   "Pas redoublés"@fr ;
+        skos:altLabel   "pas redoublés"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "pas redoublé"@fr .
 
@@ -940,52 +940,52 @@
 
 <http://data.doremus.org/vocabulary/genre/itt>
         a               skos:Concept ;
-        skos:altLabel   "introitus"@la , "Introïts (musique)"@fr ;
+        skos:altLabel   "introitus"@la , "introïts (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "New variant term."@de ;
         skos:prefLabel  "introito"@it , "introit"@en , "introït"@fr , "Introitus"@de .
 
 <http://data.doremus.org/vocabulary/genre/bar>
         a               skos:Concept ;
-        skos:altLabel   "barcarolle"@fr , "Barkarole"@de , "Barcarolles"@fr ;
+        skos:altLabel   "barcarolle"@fr , "barkarole"@de , "barcarolles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "barcarole"@en , "barcarola"@it .
 
 <http://data.doremus.org/vocabulary/genre/ter>
         a               skos:Concept ;
-        skos:altLabel   "Trios vocaux"@fr , "trio"@it , "Terzett"@de ;
+        skos:altLabel   "trios vocaux"@fr , "trio"@it , "terzett"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@en , "Vocal"@it ;
         skos:prefLabel  "terzetto"@it , "trio vocal"@fr , "terzet"@en .
 
 <http://data.doremus.org/vocabulary/genre/ain>
         a               skos:Concept ;
-        skos:altLabel   "Airs"@fr ;
+        skos:altLabel   "airs"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "air, instrumental"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rc>
         a               skos:Concept ;
-        skos:altLabel   "Rock (musique)"@fr ;
+        skos:altLabel   "rock (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rock music"@en , "musique rock"@fr .
 
 <http://data.doremus.org/vocabulary/genre/ste>
         a               skos:Concept ;
-        skos:altLabel   "Scottisch"@de , "four-step schottisch"@en , "Ecossaisenvalzer"@de , "scotis"@en , "Schottisch"@de , "Hacken-Schottisch"@de , "Ecossaise Walzer"@de , "Schottischer Walzer"@de , "Scottishs"@fr , "german polka"@en ;
+        skos:altLabel   "scottisch"@de , "four-step schottisch"@en , "ecossaisenvalzer"@de , "scotis"@en , "schottisch"@de , "hacken-schottisch"@de , "ecossaise walzer"@de , "schottischer walzer"@de , "scottishs"@fr , "german polka"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for German polka, Ecossaise valzer and similar"@de ;
         skos:prefLabel  "Schottische"@de .
 
 <http://data.doremus.org/vocabulary/genre/wsg>
         a               skos:Concept ;
-        skos:altLabel   "Chants de guerre"@fr ;
+        skos:altLabel   "chants de guerre"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "war song"@en , "canzone di guerra"@it , "chant de guerre"@fr .
 
 <http://data.doremus.org/vocabulary/genre/mtb>
         a               skos:Concept ;
-        skos:altLabel   "air de bouffons"@fr , "matasin"@fr , "danse des bouffons"@fr , "Schwerttanz"@de , "bouffons"@fr , "matachine"@fr , "matassin"@fr ;
+        skos:altLabel   "air de bouffons"@fr , "matasin"@fr , "danse des bouffons"@fr , "schwerttanz"@de , "bouffons"@fr , "matachine"@fr , "matassin"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "mattaccino"@it , "matachin"@fr .
 
@@ -1004,40 +1004,40 @@
 
 <http://data.doremus.org/vocabulary/genre/cad>
         a               skos:Concept ;
-        skos:altLabel   "Cadences"@fr ;
+        skos:altLabel   "cadences"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cadence"@fr , "cadenza"@it .
 
 <http://data.doremus.org/vocabulary/genre/app>
         a               skos:Concept ;
-        skos:altLabel   "applauso festivo"@it , "applauso musicale"@it , "applausus musicus"@la , "Singgedicht"@de ;
+        skos:altLabel   "applauso festivo"@it , "applauso musicale"@it , "applausus musicus"@la , "singgedicht"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Singgedicht"@it ;
         skos:prefLabel  "applauso"@it .
 
 <http://data.doremus.org/vocabulary/genre/int>
         a               skos:Concept ;
-        skos:altLabel   "Eingang"@de , "Einleitung"@de ;
+        skos:altLabel   "eingang"@de , "einleitung"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental"@it , "Instrumentale"@fr , "Chiefly associated with instrumental music of the classical period including instrumental music of operatic genre; for introductions including voices use din – dramatic introduction"@en ;
         skos:prefLabel  "introduction"@en , "introduction"@fr , "introduzione"@it .
 
 <http://data.doremus.org/vocabulary/genre/cdo>
         a               skos:Concept ;
-        skos:altLabel   "Opéras pour la jeunesse"@fr ;
+        skos:altLabel   "opéras pour la jeunesse"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "opéra pour enfants"@fr , "children opera"@en , "opera per bambini"@it .
 
 <http://data.doremus.org/vocabulary/genre/ldy>
         a               skos:Concept ;
-        skos:altLabel   "Jiterburg"@de , "breakaway"@en , "Jitterburg"@de , "lindy-hop"@en , "lindberg-hop"@en , "jitterbug"@it ;
+        skos:altLabel   "jiterburg"@de , "breakaway"@en , "jitterburg"@de , "lindy-hop"@en , "lindberg-hop"@en , "jitterbug"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for breakaway, jitterburg and similar"@en ;
         skos:prefLabel  "lindy"@en .
 
 <http://data.doremus.org/vocabulary/genre/ptt>
         a               skos:Concept ;
-        skos:altLabel   "Parthia"@de , "Parthie"@de , "Partitas"@fr ;
+        skos:altLabel   "parthia"@de , "parthie"@de , "partitas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "partita"@it .
 
@@ -1050,33 +1050,33 @@
 
 <http://data.doremus.org/vocabulary/genre/bl>
         a               skos:Concept ;
-        skos:altLabel   "blues"@it , "Blues"@fr ;
+        skos:altLabel   "blues"@it , "blues"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "blues"@en .
 
 <http://data.doremus.org/vocabulary/genre/res>
         a               skos:Concept ;
-        skos:altLabel   "respond"@fr , "responsum"@la , "response"@fr , "Répons"@fr , "tenebrae"@la , "respons"@fr , "responsory"@en ;
+        skos:altLabel   "respond"@fr , "responsum"@la , "response"@fr , "répons"@fr , "tenebrae"@la , "respons"@fr , "responsory"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "responsorio"@it , "responsorium"@la , "répons"@fr .
 
 <http://data.doremus.org/vocabulary/genre/fro>
         a               skos:Concept ;
-        skos:altLabel   "barzelletta"@it , "capitolo"@it , "capitulo"@la , "Frottole (musique)"@fr ;
+        skos:altLabel   "barzelletta"@it , "capitolo"@it , "capitulo"@la , "frottole (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for barzelletta, capitolo and similar"@it ;
         skos:prefLabel  "frottola"@it .
 
 <http://data.doremus.org/vocabulary/genre/est>
         a               skos:Concept ;
-        skos:altLabel   "ductia"@la , "Estampies"@fr , "nota"@la , "stantipes"@fr , "istampita"@ru , "estampida"@es , "stempenie"@fr ;
+        skos:altLabel   "ductia"@la , "estampies"@fr , "nota"@la , "stantipes"@fr , "istampita"@ru , "estampida"@es , "stempenie"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for ductia"@fr ;
         skos:prefLabel  "estampie"@fr .
 
 <http://data.doremus.org/vocabulary/genre/tct>
         a               skos:Concept ;
-        skos:altLabel   "Tricotets"@fr ;
+        skos:altLabel   "tricotets"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tricotet"@fr .
 
@@ -1088,13 +1088,13 @@
 
 <http://data.doremus.org/vocabulary/genre/san>
         a               skos:Concept ;
-        skos:altLabel   "Sanctus (musique)"@fr ;
+        skos:altLabel   "sanctus (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sanctus"@la .
 
 <http://data.doremus.org/vocabulary/genre/in>
         a               skos:Concept ;
-        skos:altLabel   "intermezzo spirituale"@it , "intermedio musicale"@it , "intramezzo"@it , "intermezzo buffo"@it , "entremès"@es , "intermedio"@it , "intermezzo comico"@it , "intermedij comici musicali"@it , "drammatico per intramedio"@it , "intermède"@fr , "intermedio pastorale"@it , "Musicalisches Zwischen-Spiel"@de , "intermezzo scenico"@it , "entr'acte"@fr , "intermedium"@la , "ntramiezze pe mmuseca"@it ;
+        skos:altLabel   "intermezzo spirituale"@it , "intermedio musicale"@it , "intramezzo"@it , "intermezzo buffo"@it , "entremès"@es , "intermedio"@it , "intermezzo comico"@it , "intermedij comici musicali"@it , "drammatico per intramedio"@it , "intermède"@fr , "intermedio pastorale"@it , "musicalisches zwischen-spiel"@de , "intermezzo scenico"@it , "entr'acte"@fr , "intermedium"@la , "ntramiezze pe mmuseca"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Neapolitan"@it , "After the 1st half 17th cent."@it ;
         skos:prefLabel  "intermezzo"@it .
@@ -1106,7 +1106,7 @@
 
 <http://data.doremus.org/vocabulary/genre/sp>
         a               skos:Concept ;
-        skos:altLabel   "poème symphonique"@fr , "Poèmes symphoniques"@fr , "tone poem"@en , "symphonie à programme"@fr , "Tondichtung"@de , "sinfonia a programma"@it , "Symphonische Dichtung"@de ;
+        skos:altLabel   "poème symphonique"@fr , "poèmes symphoniques"@fr , "tone poem"@en , "symphonie à programme"@fr , "tondichtung"@de , "sinfonia a programma"@it , "symphonische dichtung"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "poema sinfonico"@it , "symphonic poem"@en .
 
@@ -1118,27 +1118,27 @@
 
 <http://data.doremus.org/vocabulary/genre/voc>
         a               skos:Concept ;
-        skos:altLabel   "Vocalises"@fr ;
+        skos:altLabel   "vocalises"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "vocalizzo"@it , "vocalise"@fr , "vocalise"@en .
 
 <http://data.doremus.org/vocabulary/genre/due>
         a               skos:Concept ;
-        skos:altLabel   "duo"@fr , "duo"@en , "Duos vocaux"@fr , "Duett"@de ;
+        skos:altLabel   "duo"@fr , "duo"@en , "duos vocaux"@fr , "duett"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocale"@it , "Vocal"@fr , "Vocal"@de , "Vocal"@en ;
         skos:prefLabel  "duo vocal"@fr , "duet"@en , "duetto"@it .
 
 <http://data.doremus.org/vocabulary/genre/cc>
         a               skos:Concept ;
-        skos:altLabel   "chant, gallican"@en , "chant, gregorian"@en , "Choralgesang"@de , "plain-chant"@en , "canto llano"@es , "chant grégorien"@fr , "canto gregoriano"@it , "cantus planus"@la , "chant, ambrosian"@en , "Choral Gregorianischer"@de , "chant, old roman"@en , "canto piano"@it , "plainsong"@en , "chant, mozarabic"@en , "Chants grégoriens"@fr ;
+        skos:altLabel   "chant, gallican"@en , "chant, gregorian"@en , "choralgesang"@de , "plain-chant"@en , "canto llano"@es , "chant grégorien"@fr , "canto gregoriano"@it , "cantus planus"@la , "chant, ambrosian"@en , "choral gregorianischer"@de , "chant, old roman"@en , "canto piano"@it , "plainsong"@en , "chant, mozarabic"@en , "chants grégoriens"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for plainchant, Gregorian chant, and similar, except where an individual code has been assigned to a specific form"@en ;
         skos:prefLabel  "chant, christian"@en .
 
 <http://data.doremus.org/vocabulary/genre/gra>
         a               skos:Concept ;
-        skos:altLabel   "gradualis"@la , "graduel"@fr , "Graduels (musique)"@fr ;
+        skos:altLabel   "gradualis"@la , "graduel"@fr , "graduels (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "gradual"@en , "graduale"@it .
 
@@ -1149,7 +1149,7 @@
 
 <http://data.doremus.org/vocabulary/genre/pp>
         a               skos:Concept ;
-        skos:altLabel   "musica pop"@it , "pop"@en , "pop"@it , "Pop music"@fr ;
+        skos:altLabel   "musica pop"@it , "pop"@en , "pop"@it , "pop music"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Except where an individual code has been assigned to a specific form"@en ;
         skos:prefLabel  "popular music"@en , "musica leggera"@it .
@@ -1163,7 +1163,7 @@
 
 <http://data.doremus.org/vocabulary/genre/vlc>
         a               skos:Concept ;
-        skos:altLabel   "estrebillo"@es , "estreviglio"@it , "estribillo"@es , "Villancicos (musique)"@fr ;
+        skos:altLabel   "estrebillo"@es , "estreviglio"@it , "estribillo"@es , "villancicos (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "villancico"@es .
 
@@ -1185,7 +1185,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cn>
         a               skos:Concept ;
-        skos:altLabel   "Canons (musique)"@fr , "Canons"@fr ;
+        skos:altLabel   "canons (musique)"@fr , "canons"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Compositions employing strict imitation throughout; for vocal rounds prefer rde - rondeau"@en ;
         skos:prefLabel  "canone"@it , "canon"@en , "canon"@fr , "Kanon"@de .
@@ -1197,53 +1197,53 @@
 
 <http://data.doremus.org/vocabulary/genre/mp>
         a               skos:Concept ;
-        skos:altLabel   "Film Musik"@de , "soundtrack"@en , "colonna sonora"@it , "Musique de film"@fr ;
+        skos:altLabel   "film musik"@de , "soundtrack"@en , "colonna sonora"@it , "musique de film"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for soundtracks, film music, etc."@en ;
         skos:prefLabel  "musica da film"@it , "musique de film"@fr , "moving picture music"@en .
 
 <http://data.doremus.org/vocabulary/genre/bto>
         a               skos:Concept ;
-        skos:altLabel   "ballet"@en , "ballo"@it , "Ballett"@de ;
+        skos:altLabel   "ballet"@en , "ballo"@it , "ballett"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for vocal / instrumental forms of the 16th-17th cent."@it ;
         skos:prefLabel  "balletto"@it .
 
 <http://data.doremus.org/vocabulary/genre/dec>
         a               skos:Concept ;
-        skos:altLabel   "dixtuor"@fr , "Dezett"@de , "Dixtuors"@fr ;
+        skos:altLabel   "dixtuor"@fr , "dezett"@de , "dixtuors"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "decimino"@it .
 
 <http://data.doremus.org/vocabulary/genre/ari>
         a               skos:Concept ;
-        skos:altLabel   "Ariettes"@fr ;
+        skos:altLabel   "ariettes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "ariette"@it .
 
 <http://data.doremus.org/vocabulary/genre/mld>
         a               skos:Concept ;
-        skos:altLabel   "Mélodies"@fr ;
+        skos:altLabel   "mélodies"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "French vocal form, from mid-19th cent."@fr ;
         skos:prefLabel  "mélodie"@fr .
 
 <http://data.doremus.org/vocabulary/genre/vln>
         a               skos:Concept ;
-        skos:altLabel   "villotta alla napolitana"@it , "Villanelles (musique)"@fr , "villanesca alla napolitana"@it , "canzone alla napolitana"@it , "napoletana"@it , "napolitana"@it , "canzone villanesca"@it , "aria alla napolitana"@it , "villanella alla napolitana"@it , "villanesca"@it ;
+        skos:altLabel   "villotta alla napolitana"@it , "villanelles (musique)"@fr , "villanesca alla napolitana"@it , "canzone alla napolitana"@it , "napoletana"@it , "napolitana"@it , "canzone villanesca"@it , "aria alla napolitana"@it , "villanella alla napolitana"@it , "villanesca"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for canzone alla napoletana and similar"@it ;
         skos:prefLabel  "villanella"@it .
 
 <http://data.doremus.org/vocabulary/genre/plk>
         a               skos:Concept ;
-        skos:altLabel   "Polkas"@fr , "Schottische Bohème"@de , "Kreuzpolka"@de , "polca"@it , "barn dance"@en , "Polkas "@fr ;
+        skos:altLabel   "polkas"@fr , "schottische bohème"@de , "kreuzpolka"@de , "polca"@it , "barn dance"@en , "polkas "@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "polka"@en , "polka"@fr , "polka"@it , "Polka"@de .
 
 <http://data.doremus.org/vocabulary/genre/cy>
         a               skos:Concept ;
-        skos:altLabel   "Country"@fr ;
+        skos:altLabel   "country"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "country music"@en , "musica country"@it .
 
@@ -1255,7 +1255,7 @@
 
 <http://data.doremus.org/vocabulary/genre/mbm>
         a               skos:Concept ;
-        skos:altLabel   "Mambos"@fr ;
+        skos:altLabel   "mambos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "mambo"@en , "mambo"@it , "mambo"@fr .
 
@@ -1277,19 +1277,19 @@
 
 <http://data.doremus.org/vocabulary/genre/vsp>
         a               skos:Concept ;
-        skos:altLabel   "Vêpres (musique)"@fr ;
+        skos:altLabel   "vêpres (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "vespers"@en , "vespro"@it , "vêpres"@fr .
 
 <http://data.doremus.org/vocabulary/genre/tod>
         a               skos:Concept ;
-        skos:altLabel   "Fackeltanz"@de ;
+        skos:altLabel   "fackeltanz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "torch dance"@en , "marche aux flambeaux"@fr .
 
 <http://data.doremus.org/vocabulary/genre/tro>
         a               skos:Concept ;
-        skos:altLabel   "troparion"@el , "tropus"@la , "Tropes (musique)"@fr ;
+        skos:altLabel   "troparion"@el , "tropus"@la , "tropes (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tropo"@it , "trope"@en , "trope"@fr , "Trope"@de .
 
@@ -1300,19 +1300,19 @@
 
 <http://data.doremus.org/vocabulary/genre/spi>
         a               skos:Concept ;
-        skos:altLabel   "folk-hymn"@en , "camp-meeting spiritual"@en , "Negro spirituals"@fr , "shouting"@en , "African-America spiritual"@en , "black-spiritual"@en , "negro spiritual"@en , "religious ballad"@en , "white spiritual"@en , "shout"@en ;
+        skos:altLabel   "folk-hymn"@en , "camp-meeting spiritual"@en , "negro spirituals"@fr , "shouting"@en , "african-america spiritual"@en , "black-spiritual"@en , "negro spiritual"@en , "religious ballad"@en , "white spiritual"@en , "shout"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "spiritual"@en , "spiritual"@it .
 
 <http://data.doremus.org/vocabulary/genre/zor>
         a               skos:Concept ;
-        skos:altLabel   "Zortzikos"@fr ;
+        skos:altLabel   "zortzikos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "zortziko"@eu .
 
 <http://data.doremus.org/vocabulary/genre/tem>
         a               skos:Concept ;
-        skos:altLabel   "Techno (musique)"@fr ;
+        skos:altLabel   "techno (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "techno music"@en , "musique techno"@fr .
 
@@ -1335,7 +1335,7 @@
 
 <http://data.doremus.org/vocabulary/genre/ode>
         a               skos:Concept ;
-        skos:altLabel   "oda"@it , "ode melodrammatica"@it , "Odenkomposition"@de ;
+        skos:altLabel   "oda"@it , "ode melodrammatica"@it , "odenkomposition"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "ode"@en , "ode"@it , "ode"@fr .
 
@@ -1352,13 +1352,13 @@
 
 <http://data.doremus.org/vocabulary/genre/spt>
         a               skos:Concept ;
-        skos:altLabel   "septuor"@fr , "settimetto"@it , "Septett"@de , "septimino"@it , "Septuors"@fr , "septeto"@ru ;
+        skos:altLabel   "septuor"@fr , "settimetto"@it , "septett"@de , "septimino"@it , "septuors"@fr , "septeto"@ru ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "settimino"@it , "septet"@en .
 
 <http://data.doremus.org/vocabulary/genre/ind>
         a               skos:Concept ;
-        skos:altLabel   "entrada"@es , "entrata"@it , "entry"@en , "Aufzug"@de ;
+        skos:altLabel   "entrada"@es , "entrata"@it , "entry"@en , "aufzug"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "intrada"@es .
 
@@ -1380,14 +1380,14 @@
 
 <http://data.doremus.org/vocabulary/genre/ri>
         a               skos:Concept ;
-        skos:altLabel   "Ricercari"@fr , "recercata"@it , "tiento"@es , "ricercata"@it , "ricercar"@it , "recercar"@it , "recerchar"@it ;
+        skos:altLabel   "ricercari"@fr , "recercata"@it , "tiento"@es , "ricercata"@it , "ricercar"@it , "recercar"@it , "recerchar"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Nonfugal ricercars of the 16th and 17th centuries are coded as fantasias"@it ;
         skos:prefLabel  "ricercare"@it .
 
 <http://data.doremus.org/vocabulary/genre/rdw>
         a               skos:Concept ;
-        skos:altLabel   "Redowas"@fr ;
+        skos:altLabel   "redowas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Redowa"@de .
 
@@ -1399,13 +1399,13 @@
 
 <http://data.doremus.org/vocabulary/genre/kyr>
         a               skos:Concept ;
-        skos:altLabel   "Kyrie eleison (musique)"@fr ;
+        skos:altLabel   "kyrie eleison (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "kyrie"@el .
 
 <http://data.doremus.org/vocabulary/genre/lai>
         a               skos:Concept ;
-        skos:altLabel   "laich"@fr , "leich"@fr , "Lais (musique)"@fr ;
+        skos:altLabel   "laich"@fr , "leich"@fr , "lais (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "lai"@fr .
 
@@ -1418,76 +1418,76 @@
 
 <http://data.doremus.org/vocabulary/genre/mth>
         a               skos:Concept ;
-        skos:altLabel   "Schule"@de , "sistema"@it , "Lehrbuch"@de , "méthode"@fr , "tutor"@en , "scuola"@it ;
+        skos:altLabel   "schule"@de , "sistema"@it , "lehrbuch"@de , "méthode"@fr , "tutor"@en , "scuola"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for didactic tutors"@en ;
         skos:prefLabel  "method"@en , "metodo"@it .
 
 <http://data.doremus.org/vocabulary/genre/faf>
         a               skos:Concept ;
-        skos:altLabel   "Signal"@de , "signale"@it , "Tusch"@de , "Trompetenstoss"@de , "Fanfares (compositions musicales)"@fr ;
+        skos:altLabel   "signal"@de , "signale"@it , "tusch"@de , "trompetenstoss"@de , "fanfares (compositions musicales)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Fanfare"@de , "fanfare"@fr , "fanfare"@en , "fanfara"@it .
 
 <http://data.doremus.org/vocabulary/genre/cnl>
         a               skos:Concept ;
-        skos:altLabel   "cantilène"@fr , "Kantilene"@de , "Kantilenensatz"@de ;
+        skos:altLabel   "cantilène"@fr , "kantilene"@de , "kantilenensatz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cantilena"@it .
 
 <http://data.doremus.org/vocabulary/genre/fns>
         a               skos:Concept ;
-        skos:altLabel   "Chants funèbres"@fr ;
+        skos:altLabel   "chants funèbres"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "funeral song"@en , "canto funebre"@it , "chant funèbre"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rec>
         a               skos:Concept ;
-        skos:altLabel   "récitatif"@fr , "recitado"@es , "Rezitativ"@de , "Récitatifs"@fr ;
+        skos:altLabel   "récitatif"@fr , "recitado"@es , "rezitativ"@de , "récitatifs"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "recitative"@en , "recitativo"@it .
 
 <http://data.doremus.org/vocabulary/genre/elm>
         a               skos:Concept ;
-        skos:altLabel   "musique pour bande magnétique"@fr , "tape music"@en , "musique électronique"@fr , "musique par ordinateur"@fr , "computer music"@en , "Musique électroacoustique"@fr , "electronic music"@en ;
+        skos:altLabel   "musique pour bande magnétique"@fr , "tape music"@en , "musique électronique"@fr , "musique par ordinateur"@fr , "computer music"@en , "musique électroacoustique"@fr , "electronic music"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Covers tape music, electronic music and computer music"@en ;
         skos:prefLabel  "musique électroacoustique"@fr , "electroacoustic music"@en .
 
 <http://data.doremus.org/vocabulary/genre/cha>
         a               skos:Concept ;
-        skos:altLabel   "cha-cha"@en , "Cha-cha-chas"@fr ;
+        skos:altLabel   "cha-cha"@en , "cha-cha-chas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cha-cha-cha"@en , "chachachá"@es , "cha cha cha"@it .
 
 <http://data.doremus.org/vocabulary/genre/bg>
         a               skos:Concept ;
-        skos:altLabel   "Bluegrass"@fr ;
+        skos:altLabel   "bluegrass"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "bluegrass"@en .
 
 <http://data.doremus.org/vocabulary/genre/li>
         a               skos:Concept ;
-        skos:altLabel   "Kunstlied"@de , "Massenlied"@de , "Minnelied"@de , "Chorallied"@de , "Minnesang"@de , "Volkslied"@de , "Meistersang"@de , "Lieder"@fr , "Generalbasslied"@de , "Tenorlied"@de ;
+        skos:altLabel   "kunstlied"@de , "massenlied"@de , "minnelied"@de , "chorallied"@de , "minnesang"@de , "volkslied"@de , "meistersang"@de , "lieder"@fr , "generalbasslied"@de , "tenorlied"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Lied"@de .
 
 <http://data.doremus.org/vocabulary/genre/frj>
         a               skos:Concept ;
-        skos:altLabel   "Free jazz"@fr ;
+        skos:altLabel   "free jazz"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "free jazz"@en .
 
 <http://data.doremus.org/vocabulary/genre/elx>
         a               skos:Concept ;
-        skos:altLabel   "Musique electroacoustique mixte"@fr ;
+        skos:altLabel   "musique electroacoustique mixte"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Covers electroacoustic devices mixed with acoustic instruments live"@en ;
         skos:prefLabel  "electroacoustic mixed music"@en , "musique électroacoustique mixte"@fr .
 
 <http://data.doremus.org/vocabulary/genre/mnh>
         a               skos:Concept ;
-        skos:altLabel   "Modinhas"@fr ;
+        skos:altLabel   "modinhas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "modinha"@pt .
 
@@ -1499,7 +1499,7 @@
 
 <http://data.doremus.org/vocabulary/genre/ckw>
         a               skos:Concept ;
-        skos:altLabel   "Cake-walk (musique)"@fr ;
+        skos:altLabel   "cake-walk (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cakewalk"@en .
 
@@ -1510,7 +1510,7 @@
 
 <http://data.doremus.org/vocabulary/genre/srb>
         a               skos:Concept ;
-        skos:altLabel   "zarabanda"@es , "Sarabandes"@fr ;
+        skos:altLabel   "zarabanda"@es , "sarabandes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sarabande"@fr , "sarabanda"@it .
 
@@ -1550,20 +1550,20 @@
 
 <http://data.doremus.org/vocabulary/genre/ft>
         a               skos:Concept ;
-        skos:altLabel   "fancy"@en , "Fantasie"@de , "Fantaisies"@fr , "fantasy"@en , "fantaisie"@fr , "phancy"@en , "phantasy"@en , "fansy"@en , "Opernfantasie"@de , "Fantaisies (musique)"@fr ;
+        skos:altLabel   "fancy"@en , "fantasie"@de , "fantaisies"@fr , "fantasy"@en , "fantaisie"@fr , "phancy"@en , "phantasy"@en , "fansy"@en , "opernfantasie"@de , "fantaisies (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental music so designated; includes fancies, fantasies, etc.; and includes nonfugal ricercars of the 16th and 17th centuries"@it ;
         skos:prefLabel  "fantasia"@it .
 
 <http://data.doremus.org/vocabulary/genre/pv>
         a               skos:Concept ;
-        skos:altLabel   "pavenne"@fr , "Pavanes"@fr , "pavin"@fr , "paven"@fr ;
+        skos:altLabel   "pavenne"@fr , "pavanes"@fr , "pavin"@fr , "paven"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Pavane"@de , "pavan"@en , "pavana"@it , "pavane"@fr .
 
 <http://data.doremus.org/vocabulary/genre/syo>
         a               skos:Concept ;
-        skos:altLabel   "Shōmyō "@fr ;
+        skos:altLabel   "shōmyō "@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "syomyo"@ja .
 
@@ -1575,20 +1575,20 @@
 
 <http://data.doremus.org/vocabulary/genre/cly>
         a               skos:Concept ;
-        skos:altLabel   "calipso"@it , "Calypso (musique)"@fr ;
+        skos:altLabel   "calipso"@it , "calypso (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "calypso"@en .
 
 <http://data.doremus.org/vocabulary/genre/ct>
         a               skos:Concept ;
-        skos:altLabel   "Ratswechselkantate"@de , "cantatina"@it , "Cantate"@de , "Trauungskantate"@de , "cantata pastorale"@it , "cantata drammatica"@it , "Cantates"@fr , "cantata per un'accademia"@it , "cantata accademica"@it , "cantata epitalamica"@it , "Trauerkantate"@de , "cantata morale"@it , "fantasia poetica cantata"@it , "composizione poetica di congratulazione"@it , "Cantates profanes"@fr , "Weltliche Kantate"@de , "cantata per serenata"@it , "Solokantate"@de , "cantata rustico-pastorale"@it , "Hochzeitskantate"@de , "triumphale canticum"@la ;
+        skos:altLabel   "ratswechselkantate"@de , "cantatina"@it , "cantate"@de , "trauungskantate"@de , "cantata pastorale"@it , "cantata drammatica"@it , "cantates"@fr , "cantata per un'accademia"@it , "cantata accademica"@it , "cantata epitalamica"@it , "trauerkantate"@de , "cantata morale"@it , "fantasia poetica cantata"@it , "composizione poetica di congratulazione"@it , "cantates profanes"@fr , "weltliche kantate"@de , "cantata per serenata"@it , "solokantate"@de , "cantata rustico-pastorale"@it , "hochzeitskantate"@de , "triumphale canticum"@la ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "French, German"@fr ;
         skos:prefLabel  "cantata"@it , "cantata"@en , "cantate"@fr , "Kantate"@de .
 
 <http://data.doremus.org/vocabulary/genre/sev>
         a               skos:Concept ;
-        skos:altLabel   "Sevillanas"@fr ;
+        skos:altLabel   "sevillanas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sevillana"@es .
 
@@ -1600,13 +1600,13 @@
 
 <http://data.doremus.org/vocabulary/genre/oct>
         a               skos:Concept ;
-        skos:altLabel   "octeto"@es , "octuor"@fr , "Oktett"@de , "Octuors"@fr ;
+        skos:altLabel   "octeto"@es , "octuor"@fr , "oktett"@de , "octuors"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "octet"@en , "ottetto"@it .
 
 <http://data.doremus.org/vocabulary/genre/rgg>
         a               skos:Concept ;
-        skos:altLabel   "Reggae"@fr ;
+        skos:altLabel   "reggae"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "reggae"@en .
 
@@ -1617,7 +1617,7 @@
 
 <http://data.doremus.org/vocabulary/genre/lmz>
         a               skos:Concept ;
-        skos:altLabel   "lamentations de jérémie"@fr , "lectio hieremie"@la , "Lamentations de Jérémie (musique)"@fr , "lezioni di geremia"@it , "Klagelied"@de , "Lamentationen"@de ;
+        skos:altLabel   "lamentations de jérémie"@fr , "lectio hieremie"@la , "lamentations de jérémie (musique)"@fr , "lezioni di geremia"@it , "klagelied"@de , "lamentationen"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "lamentations"@en , "lamentazione"@it , "lamentation"@fr .
 
@@ -1634,19 +1634,19 @@
 
 <http://data.doremus.org/vocabulary/genre/pph>
         a               skos:Concept ;
-        skos:altLabel   "Paraphrases"@fr ;
+        skos:altLabel   "paraphrases"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "parafrasi"@it , "paraphrase"@en , "paraphrase"@fr , "Paraphrase"@de .
 
 <http://data.doremus.org/vocabulary/genre/gig>
         a               skos:Concept ;
-        skos:altLabel   "Gigues"@fr ;
+        skos:altLabel   "gigues"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "gigue"@fr , "giga"@it .
 
 <http://data.doremus.org/vocabulary/genre/ths>
         a               skos:Concept ;
-        skos:altLabel   "Third stream (musique)"@fr ;
+        skos:altLabel   "third stream (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "third stream"@en .
 
@@ -1659,7 +1659,7 @@
 
 <http://data.doremus.org/vocabulary/genre/bra>
         a               skos:Concept ;
-        skos:altLabel   "brando"@it , "bransle"@fr , "Branles"@fr ;
+        skos:altLabel   "brando"@it , "bransle"@fr , "branles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "branle"@fr .
 
@@ -1672,7 +1672,7 @@
 
 <http://data.doremus.org/vocabulary/genre/dv>
         a               skos:Concept ;
-        skos:altLabel   "divertissemente"@it , "trattenimento"@it , "Divertimenti"@fr , "divertissement"@fr , "Divertissements"@fr , "divertimento"@it ;
+        skos:altLabel   "divertissemente"@it , "trattenimento"@it , "divertimenti"@fr , "divertissement"@fr , "divertissements"@fr , "divertimento"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental"@it , "Instrumental music so designated; includes divertissements of the 18th century; for serenades and cassations prefer specific codes"@it , "Instrumental, 18th-19th cent."@it ;
         skos:prefLabel  "divertimento"@it .
@@ -1685,7 +1685,7 @@
 
 <http://data.doremus.org/vocabulary/genre/rd>
         a               skos:Concept ;
-        skos:altLabel   "rondino"@it , "rondo instrumental"@fr , "Rondos"@fr ;
+        skos:altLabel   "rondino"@it , "rondo instrumental"@fr , "rondos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes instrumental rondeau"@it ;
         skos:prefLabel  "rondo"@it , "rondò"@it .
@@ -1697,13 +1697,13 @@
 
 <http://data.doremus.org/vocabulary/genre/hem>
         a               skos:Concept ;
-        skos:altLabel   "Heavy metal"@fr ;
+        skos:altLabel   "heavy metal"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "heavy metal"@en .
 
 <http://data.doremus.org/vocabulary/genre/bol>
         a               skos:Concept ;
-        skos:altLabel   "bolero"@en , "bolero"@it , "Boléros (musique)"@fr , "Boléros"@fr ;
+        skos:altLabel   "bolero"@en , "bolero"@it , "boléros (musique)"@fr , "boléros"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "boléro"@fr , "bolero"@es .
 
@@ -1729,14 +1729,14 @@
 
 <http://data.doremus.org/vocabulary/genre/mda>
         a               skos:Concept ;
-        skos:altLabel   "mélodrame"@fr , "monodramma"@it , "Monodram"@de , "Melodramm"@de , "Mélodrames (musique)"@fr , "Duodrama"@de , "monodramma lirico"@it , "Melodrama"@de ;
+        skos:altLabel   "mélodrame"@fr , "monodramma"@it , "monodram"@de , "melodramm"@de , "mélodrames (musique)"@fr , "duodrama"@de , "monodramma lirico"@it , "melodrama"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for monodrama, melologo and similar"@de ;
         skos:prefLabel  "Melodrama"@de , "melologo"@it .
 
 <http://data.doremus.org/vocabulary/genre/sad>
         a               skos:Concept ;
-        skos:altLabel   "sagro componimento"@it , "drama musicum"@la , "componimento sacro-poetico recitato con musica"@it , "cristiano trattenimento"@it , "jerodramma"@it , "drama tragicum"@la , "componimento sacro drammatico"@it , "sacro dramma"@it , "drammatica composizione (sacra)"@it , "drame sacré"@fr , "dramma da cantarsi in chiesa"@it , "sacrum drama"@it , "rappresentazione morale"@it , "Drames liturgiques"@fr , "extemporaneum drama"@la , "dramaticum carmen"@it , "sacrum modulamen"@la , "dramma sacrum"@la , "rappresentanza sacra"@it , "componimento drammatico (da cantarsi in chiesa)"@it , "Geistliches Drama"@de , "drama sacrum"@la , "rappresentazione sacra"@it , "dramma spirituale"@it , "dramma sagro"@it , "rappresentatione sacra"@it , "ierodramma"@it , "rappresentazione spirituale"@it , "composizione drammatica spirituale"@it ;
+        skos:altLabel   "sagro componimento"@it , "drama musicum"@la , "componimento sacro-poetico recitato con musica"@it , "cristiano trattenimento"@it , "jerodramma"@it , "drama tragicum"@la , "componimento sacro drammatico"@it , "sacro dramma"@it , "drammatica composizione (sacra)"@it , "drame sacré"@fr , "dramma da cantarsi in chiesa"@it , "sacrum drama"@it , "rappresentazione morale"@it , "drames liturgiques"@fr , "extemporaneum drama"@la , "dramaticum carmen"@it , "sacrum modulamen"@la , "dramma sacrum"@la , "rappresentanza sacra"@it , "componimento drammatico (da cantarsi in chiesa)"@it , "geistliches drama"@de , "drama sacrum"@la , "rappresentazione sacra"@it , "dramma spirituale"@it , "dramma sagro"@it , "rappresentatione sacra"@it , "ierodramma"@it , "rappresentazione spirituale"@it , "composizione drammatica spirituale"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Sacred"@la , "Use for the works so designated"@en ;
         skos:prefLabel  "dramma sacro"@it , "sacred drama"@en .
@@ -1755,13 +1755,13 @@
 
 <http://data.doremus.org/vocabulary/genre/chr>
         a               skos:Concept ;
-        skos:altLabel   "Chœurs "@fr , "Soldatengesang"@de , "Chor"@de , "Chœurs (musique)"@fr , "choeur"@fr , "coro di soldati"@it ;
+        skos:altLabel   "chœurs "@fr , "soldatengesang"@de , "chor"@de , "chœurs (musique)"@fr , "choeur"@fr , "coro di soldati"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "choir"@en , "coro"@it .
 
 <http://data.doremus.org/vocabulary/genre/crt>
         a               skos:Concept ;
-        skos:altLabel   "courante"@fr , "corranto"@it , "Courantes"@fr , "coranta"@es , "allemande courante"@fr , "bransle courans"@fr , "coranto"@es ;
+        skos:altLabel   "courante"@fr , "corranto"@it , "courantes"@fr , "coranta"@es , "allemande courante"@fr , "bransle courans"@fr , "coranto"@es ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "corant"@en , "corrente"@it .
 
@@ -1777,14 +1777,14 @@
 
 <http://data.doremus.org/vocabulary/genre/gai>
         a               skos:Concept ;
-        skos:altLabel   "sinque-pace"@en , "sink-a-pace"@en , "gallarda"@it , "gaillarde"@fr , "galliard"@en , "Gaillardes"@fr , "galliarde"@fr , "sinco-pass"@en ;
+        skos:altLabel   "sinque-pace"@en , "sink-a-pace"@en , "gallarda"@it , "gaillarde"@fr , "galliard"@en , "gaillardes"@fr , "galliarde"@fr , "sinco-pass"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for sink-a-pace and similar"@en ;
         skos:prefLabel  "gagliarda"@it , "gaillard"@en .
 
 <http://data.doremus.org/vocabulary/genre/cli>
         a               skos:Concept ;
-        skos:altLabel   "Chorals"@fr ;
+        skos:altLabel   "chorals"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "choral, instrumental"@en , "choral instrumental"@fr , "corale strumentale"@it .
 
@@ -1796,7 +1796,7 @@
 
 <http://data.doremus.org/vocabulary/genre/prl>
         a               skos:Concept ;
-        skos:altLabel   "protasi in musica"@it , "Prolog"@de ;
+        skos:altLabel   "protasi in musica"@it , "prolog"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "prologue"@en , "prologo"@it , "prologue"@fr .
 
@@ -1807,14 +1807,14 @@
 
 <http://data.doremus.org/vocabulary/genre/opf>
         a               skos:Concept ;
-        skos:altLabel   "Opéras bouffes"@fr ;
+        skos:altLabel   "opéras bouffes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "French late 19th cent. humorous and satiric form"@fr ;
         skos:prefLabel  "opéra bouffe"@fr .
 
 <http://data.doremus.org/vocabulary/genre/co>
         a               skos:Concept ;
-        skos:altLabel   "Doppelkonzert"@de , "Concertos"@fr , "Concert"@de , "concertino"@it , "conzerto"@it , "Violinkonzert"@de , "Tripelkonzert"@de , "Quadrupelkonzert"@de , "concert"@en , "Klavierkonzert"@de ;
+        skos:altLabel   "doppelkonzert"@de , "concertos"@fr , "concert"@de , "concertino"@it , "conzerto"@it , "violinkonzert"@de , "tripelkonzert"@de , "quadrupelkonzert"@de , "concert"@en , "klavierkonzert"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Konzert"@de , "concerto"@it , "concerto"@fr , "concerto"@en .
 
@@ -1825,13 +1825,13 @@
 
 <http://data.doremus.org/vocabulary/genre/seq>
         a               skos:Concept ;
-        skos:altLabel   "Séquences (musique)"@fr , "lauda sion"@la , "victimae paschali laudes"@la , "prose"@en , "sequentia"@la , "dies irae"@la , "veni sancte spiritus"@la , "stabat mater"@la , "Sequenz"@de , "prosa"@it , "sequencia"@ru ;
+        skos:altLabel   "séquences (musique)"@fr , "lauda sion"@la , "victimae paschali laudes"@la , "prose"@en , "sequentia"@la , "dies irae"@la , "veni sancte spiritus"@la , "stabat mater"@la , "sequenz"@de , "prosa"@it , "sequencia"@ru ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sequence"@en , "sequenza"@it , "séquence"@fr .
 
 <http://data.doremus.org/vocabulary/genre/qui>
         a               skos:Concept ;
-        skos:altLabel   "Quintettes"@fr , "quintuor"@fr , "quintette"@fr , "Quintette"@de , "quinteto"@pt ;
+        skos:altLabel   "quintettes"@fr , "quintuor"@fr , "quintette"@fr , "quintette"@de , "quinteto"@pt ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Quintett"@de , "quintette instrumental"@fr , "quintet"@en , "quintetto"@it .
 
@@ -1842,26 +1842,26 @@
 
 <http://data.doremus.org/vocabulary/genre/cz>
         a               skos:Concept ;
-        skos:altLabel   "canzone alla francese"@it , "Canzones (musique instrumentale)"@fr , "canzon francese"@it , "canzonas"@en , "chanson instrumentale"@fr , "canzone"@it ;
+        skos:altLabel   "canzone alla francese"@it , "canzones (musique instrumentale)"@fr , "canzon francese"@it , "canzonas"@en , "chanson instrumentale"@fr , "canzone"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental music so designated"@it , "Instrumental"@it ;
         skos:prefLabel  "canzona"@it .
 
 <http://data.doremus.org/vocabulary/genre/sls>
         a               skos:Concept ;
-        skos:altLabel   "Salsas"@fr ;
+        skos:altLabel   "salsas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "salsa"@en , "salsa"@it , "salsa"@fr , "salsa"@es , "Salsa"@de .
 
 <http://data.doremus.org/vocabulary/genre/jot>
         a               skos:Concept ;
-        skos:altLabel   "Jotas"@fr ;
+        skos:altLabel   "jotas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "jota"@es .
 
 <http://data.doremus.org/vocabulary/genre/ts>
         a               skos:Concept ;
-        skos:altLabel   "sonate en trio"@fr , "Triosonate"@de , "Sonates en trio"@fr ;
+        skos:altLabel   "sonate en trio"@fr , "triosonate"@de , "sonates en trio"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "triosonata"@en , "sonata a tre"@it .
 
@@ -1873,14 +1873,14 @@
 
 <http://data.doremus.org/vocabulary/genre/df>
         a               skos:Concept ;
-        skos:altLabel   "Musique de danse"@fr , "dance"@en , "tánc"@hu , "danza moderna"@it , "musica di danza"@it , "Tanzmusik"@de , "danse de salon"@fr ;
+        skos:altLabel   "musique de danse"@fr , "dance"@en , "tánc"@hu , "danza moderna"@it , "musica di danza"@it , "tanzmusik"@de , "danse de salon"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Except where an individual code has been assigned to a specific form"@en ;
         skos:prefLabel  "dance form"@en , "danse"@fr , "Tanz"@de , "danza"@it .
 
 <http://data.doremus.org/vocabulary/genre/nat>
         a               skos:Concept ;
-        skos:altLabel   "himno nacional"@es , "hymne national"@fr , "yankee doodle"@en , "Nationalhymne"@de , "Hymnes nationaux"@fr ;
+        skos:altLabel   "himno nacional"@es , "hymne national"@fr , "yankee doodle"@en , "nationalhymne"@de , "hymnes nationaux"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "national anthem"@en , "inno nazionale"@it .
 
@@ -1902,7 +1902,7 @@
 
 <http://data.doremus.org/vocabulary/genre/sch>
         a               skos:Concept ;
-        skos:altLabel   "Scherzos"@fr ;
+        skos:altLabel   "scherzos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "scherzo"@it .
 
@@ -1913,7 +1913,7 @@
 
 <http://data.doremus.org/vocabulary/genre/bur>
         a               skos:Concept ;
-        skos:altLabel   "bourlesca"@it , "burla"@it , "burletta, instrumental"@it , "Burleske"@de ;
+        skos:altLabel   "bourlesca"@it , "burla"@it , "burletta, instrumental"@it , "burleske"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "burlesque"@fr .
 
@@ -1946,20 +1946,20 @@
 
 <http://data.doremus.org/vocabulary/genre/ons>
         a               skos:Concept ;
-        skos:altLabel   "One-steps"@fr , "turkey trot"@en , "pas du dindon"@fr , "castle walk"@en , "fish walk"@en , "one-step"@en , "horse-walk"@en , "grizzly bear"@en , "judy walk"@en , "bunny-hug"@en ;
+        skos:altLabel   "one-steps"@fr , "turkey trot"@en , "pas du dindon"@fr , "castle walk"@en , "fish walk"@en , "one-step"@en , "horse-walk"@en , "grizzly bear"@en , "judy walk"@en , "bunny-hug"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for castle walk, turkey trot and similar"@en ;
         skos:prefLabel  "onestep"@en .
 
 <http://data.doremus.org/vocabulary/genre/ram>
         a               skos:Concept ;
-        skos:altLabel   "Musique radiophonique"@fr ;
+        skos:altLabel   "musique radiophonique"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "radio music"@en , "musique pour la radio"@fr .
 
 <http://data.doremus.org/vocabulary/genre/sww>
         a               skos:Concept ;
-        skos:altLabel   "chanson sans paroles"@fr , "chant sans paroles"@fr , "Lied Ohne Worte"@de , "Romances sans paroles"@fr ;
+        skos:altLabel   "chanson sans paroles"@fr , "chant sans paroles"@fr , "lied ohne worte"@de , "romances sans paroles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "song without words"@en , "romanza senza parole"@it , "romance sans paroles"@fr .
 
@@ -1978,14 +1978,14 @@
 
 <http://data.doremus.org/vocabulary/genre/lau>
         a               skos:Concept ;
-        skos:altLabel   "laude spirituali"@it , "lodi spirituali"@it , "lodi sacre"@it , "laude"@it , "laudes"@la , "laudi sacre"@it , "laudi"@it , "laudi spirituali"@it , "Laude"@fr ;
+        skos:altLabel   "laude spirituali"@it , "lodi spirituali"@it , "lodi sacre"@it , "laude"@it , "laudes"@la , "laudi sacre"@it , "laudi"@it , "laudi spirituali"@it , "laude"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Non liturgical"@it , "Non liturgical"@la ;
         skos:prefLabel  "lauda"@it .
 
 <http://data.doremus.org/vocabulary/genre/bbp>
         a               skos:Concept ;
-        skos:altLabel   "bop"@en , "rebop"@en , "bebop"@it , "Be-bop"@fr ;
+        skos:altLabel   "bop"@en , "rebop"@en , "bebop"@it , "be-bop"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "bebop"@en .
 
@@ -1997,19 +1997,19 @@
 
 <http://data.doremus.org/vocabulary/genre/ska>
         a               skos:Concept ;
-        skos:altLabel   "Ska"@fr ;
+        skos:altLabel   "ska"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "ska"@en , "ska"@it , "ska"@fr , "ska"@de .
 
 <http://data.doremus.org/vocabulary/genre/ely>
         a               skos:Concept ;
-        skos:altLabel   "Elegie"@de , "Élégies"@fr ;
+        skos:altLabel   "elegie"@de , "élégies"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "elegy"@en , "elegia"@it , "élégie"@fr .
 
 <http://data.doremus.org/vocabulary/genre/cav>
         a               skos:Concept ;
-        skos:altLabel   "Kavatine"@de , "Cavatines"@fr ;
+        skos:altLabel   "kavatine"@de , "cavatines"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cavatine"@fr , "cavatina"@it .
 
@@ -2021,27 +2021,27 @@
 
 <http://data.doremus.org/vocabulary/genre/bst>
         a               skos:Concept ;
-        skos:altLabel   "boston figurato"@it , "doppio boston"@it , "three step"@en , "valse boston"@fr , "Bostons"@fr ;
+        skos:altLabel   "boston figurato"@it , "doppio boston"@it , "three step"@en , "valse boston"@fr , "bostons"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for three step"@en ;
         skos:prefLabel  "boston"@en .
 
 <http://data.doremus.org/vocabulary/genre/lic>
         a               skos:Concept ;
-        skos:altLabel   "epilogo"@it , "epilogue"@en , "Epilog"@de ;
+        skos:altLabel   "epilogo"@it , "epilogue"@en , "epilog"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for epilogue and similar"@it ;
         skos:prefLabel  "licenza"@it .
 
 <http://data.doremus.org/vocabulary/genre/pdy>
         a               skos:Concept ;
-        skos:altLabel   "Parodie (musique)"@fr ;
+        skos:altLabel   "parodie (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "parody"@en , "parodia"@it , "parodie"@fr .
 
 <http://data.doremus.org/vocabulary/genre/cld>
         a               skos:Concept ;
-        skos:altLabel   "colindă"@ro , "colind"@ro , "corind"@ro , "Noëls roumains"@fr ;
+        skos:altLabel   "colindă"@ro , "colind"@ro , "corind"@ro , "noëls roumains"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "colinda"@ro , "Colinde"@de .
 
@@ -2053,7 +2053,7 @@
 
 <http://data.doremus.org/vocabulary/genre/ttt>
         a               skos:Concept ;
-        skos:altLabel   "retreat"@en , "rappel"@fr , "Zapfenstreich"@de , "last post"@en , "retraite"@fr , "Zapfenschlag"@de , "retreta"@es , "ritirata"@it ;
+        skos:altLabel   "retreat"@en , "rappel"@fr , "zapfenstreich"@de , "last post"@en , "retraite"@fr , "zapfenschlag"@de , "retreta"@es , "ritirata"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tattoo"@en .
 
@@ -2066,20 +2066,20 @@
 
 <http://data.doremus.org/vocabulary/genre/tc>
         a               skos:Concept ;
-        skos:altLabel   "elevazione (per organo)"@it , "tocada"@es , "tocatta"@it , "Tokkate"@de , "Toccatas"@fr ;
+        skos:altLabel   "elevazione (per organo)"@it , "tocada"@es , "tocatta"@it , "tokkate"@de , "toccatas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental music so designated"@it ;
         skos:prefLabel  "toccata"@it .
 
 <http://data.doremus.org/vocabulary/genre/mym>
         a               skos:Concept ;
-        skos:altLabel   "Musique militaire"@fr ;
+        skos:altLabel   "musique militaire"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "military music"@en , "musica militare"@it , "musique militaire"@fr .
 
 <http://data.doremus.org/vocabulary/genre/sic>
         a               skos:Concept ;
-        skos:altLabel   "ciciliana"@it , "siciliano"@it , "sicilienne"@fr , "Siciliennes (musique)"@fr , "Siciliennes"@fr ;
+        skos:altLabel   "ciciliana"@it , "siciliano"@it , "sicilienne"@fr , "siciliennes (musique)"@fr , "siciliennes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "siciliana"@it .
 
@@ -2090,21 +2090,21 @@
 
 <http://data.doremus.org/vocabulary/genre/kra>
         a               skos:Concept ;
-        skos:altLabel   "chorea polonica"@la , "flisak"@pl , "volta polonica"@la , "cracovienne"@fr , "Polnischer Tanz"@de , "wyóczek"@pl , "kopeniak"@pl ;
+        skos:altLabel   "chorea polonica"@la , "flisak"@pl , "volta polonica"@la , "cracovienne"@fr , "polnischer tanz"@de , "wyóczek"@pl , "kopeniak"@pl ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for cracovienne, flisak, volta polonica and similar"@pl ;
         skos:prefLabel  "krakowiak"@pl .
 
 <http://data.doremus.org/vocabulary/genre/bdi>
         a               skos:Concept ;
-        skos:altLabel   "ballade instrumentale"@fr , "Ballades (musique instrumentale)"@fr , "Ballades"@fr ;
+        skos:altLabel   "ballade instrumentale"@fr , "ballades (musique instrumentale)"@fr , "ballades"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "19th-20th cent."@fr , "Instrumental, 19th-20th cent."@it ;
         skos:prefLabel  "ballade, instrumental"@fr , "ballata"@it .
 
 <http://data.doremus.org/vocabulary/genre/tar>
         a               skos:Concept ;
-        skos:altLabel   "Tarentelles"@fr ;
+        skos:altLabel   "tarentelles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tarantella"@it , "tarentelle"@fr .
 
@@ -2121,44 +2121,44 @@
 
 <http://data.doremus.org/vocabulary/genre/gos>
         a               skos:Concept ;
-        skos:altLabel   "student song"@en , "Chansons d'étudiants"@fr , "Vagantenlied"@de , "cancion estudiantil"@es , "chanson d'étudiant"@fr , "Studentenlied"@de ;
+        skos:altLabel   "student song"@en , "chansons d'étudiants"@fr , "vagantenlied"@de , "cancion estudiantil"@es , "chanson d'étudiant"@fr , "studentenlied"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "goliard song"@en , "canto goliardico"@it .
 
 <http://data.doremus.org/vocabulary/genre/czs>
         a               skos:Concept ;
-        skos:altLabel   "cantio sacra"@la , "canzona spirituale"@it , "canzone spirituale"@it , "sacrae cantiones"@la , "Geistliches Lied"@de ;
+        skos:altLabel   "cantio sacra"@la , "canzona spirituale"@it , "canzone spirituale"@it , "sacrae cantiones"@la , "geistliches lied"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "16th-17th cent."@it ;
         skos:prefLabel  "canzonetta spirituale"@it .
 
 <http://data.doremus.org/vocabulary/genre/fmm>
         a               skos:Concept ;
-        skos:altLabel   "Freimaurermusik"@de , "Musique maçonnique"@fr ;
+        skos:altLabel   "freimaurermusik"@de , "musique maçonnique"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "masonic music"@en , "musica massonica"@it , "musique maçonnique"@fr .
 
 <http://data.doremus.org/vocabulary/genre/nc>
         a               skos:Concept ;
-        skos:altLabel   "Nachtstück"@de , "Nokturne"@de , "Nocturnes (musique)"@fr , "Nocturnes"@fr ;
+        skos:altLabel   "nachtstück"@de , "nokturne"@de , "nocturnes (musique)"@fr , "nocturnes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "nocturne"@fr , "notturno"@it .
 
 <http://data.doremus.org/vocabulary/genre/qav>
         a               skos:Concept ;
-        skos:altLabel   "Quatuors vocaux"@fr , "Quatuors"@fr ;
+        skos:altLabel   "quatuors vocaux"@fr , "quatuors"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "quartet, vocal"@en , "quatuor vocal"@fr .
 
 <http://data.doremus.org/vocabulary/genre/ssp>
         a               skos:Concept ;
-        skos:altLabel   "Singe-Spiel"@de , "Sing-Spiel"@de , "Singspiele"@fr ;
+        skos:altLabel   "singe-spiel"@de , "sing-spiel"@de , "singspiele"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Singspiel"@de .
 
 <http://data.doremus.org/vocabulary/genre/dia>
         a               skos:Concept ;
-        skos:altLabel   "dialogo tragico-sacro"@it , "dialogus"@la , "dialoghetto con armonia"@it , "Dialogues (musique)"@fr , "dialogo spirituale recitato"@it , "dialogo morale"@it , "dialogo pastorale"@it , "dialogo melodrammatico"@it , "dialogo in maschera"@it , "Dialog"@de , "melodialogo"@it ;
+        skos:altLabel   "dialogo tragico-sacro"@it , "dialogus"@la , "dialoghetto con armonia"@it , "dialogues (musique)"@fr , "dialogo spirituale recitato"@it , "dialogo morale"@it , "dialogo pastorale"@it , "dialogo melodrammatico"@it , "dialogo in maschera"@it , "dialog"@de , "melodialogo"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "dialogue"@en , "dialogue"@fr , "dialogo"@it .
 
@@ -2169,19 +2169,19 @@
 
 <http://data.doremus.org/vocabulary/genre/bai>
         a               skos:Concept ;
-        skos:altLabel   "Baiaos"@fr ;
+        skos:altLabel   "baiaos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "baião"@pt .
 
 <http://data.doremus.org/vocabulary/genre/scc>
         a               skos:Concept ;
-        skos:altLabel   "Cantates sacrées"@fr , "Kirchenmusik"@de , "cantata morale"@it , "cantata per la passione"@it , "concerto spirituale"@it , "cantata spirituale"@it , "cantate d'église"@fr , "Kirchenstück"@de , "Kirchenkantate"@de ;
+        skos:altLabel   "cantates sacrées"@fr , "kirchenmusik"@de , "cantata morale"@it , "cantata per la passione"@it , "concerto spirituale"@it , "cantata spirituale"@it , "cantate d'église"@fr , "kirchenstück"@de , "kirchenkantate"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cantata sacra"@it , "cantate sacrée"@fr , "sacred cantata"@en .
 
 <http://data.doremus.org/vocabulary/genre/pst>
         a               skos:Concept ;
-        skos:altLabel   "Hirtenstück"@de , "Hirtenspiel"@de , "Pastorales (musique instrumentale)"@fr , "Schafenspiel"@de ;
+        skos:altLabel   "hirtenstück"@de , "hirtenspiel"@de , "pastorales (musique instrumentale)"@fr , "schafenspiel"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for the non-dramatic forms"@en ;
         skos:prefLabel  "pastoral"@en , "pastorale"@fr , "pastorale"@it .
@@ -2199,7 +2199,7 @@
 
 <http://data.doremus.org/vocabulary/genre/fnd>
         a               skos:Concept ;
-        skos:altLabel   "granadina"@it , "murciana"@es , "rodena"@es , "rondeña"@es , "Fandangos"@fr ;
+        skos:altLabel   "granadina"@it , "murciana"@es , "rodena"@es , "rondeña"@es , "fandangos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes granadina, rondeña and similar"@es ;
         skos:prefLabel  "fandango"@es .
@@ -2216,7 +2216,7 @@
 
 <http://data.doremus.org/vocabulary/genre/rp>
         a               skos:Concept ;
-        skos:altLabel   "Rhapsodie"@de , "Rhapsodies"@fr ;
+        skos:altLabel   "rhapsodie"@de , "rhapsodies"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rhapsody"@en , "rapsodia"@it , "rhapsodie"@fr .
 
@@ -2240,13 +2240,13 @@
 
 <http://data.doremus.org/vocabulary/genre/cns>
         a               skos:Concept ;
-        skos:altLabel   "Cansos"@fr ;
+        skos:altLabel   "cansos"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "canso"@la .
 
 <http://data.doremus.org/vocabulary/genre/op>
         a               skos:Concept ;
-        skos:altLabel   "opera melodramatica"@it , "opera dramatica"@it , "tragedia per musica"@it , "Traur-Spiel"@de , "melo-dramma"@it , "operetta di sentimento"@it , "opera lirica"@it , "drame lyrique"@fr , "dramma lirico"@it , "opera in musica"@it , "lyric drama"@en , "Musikdrama"@de , "ópera"@es , "melodrama (italiano, fino al 18. sec.)"@it , "melodramma"@it , "Opéras "@fr , "tragedia"@it , "opera scenica"@it , "opera drammatica"@it , "Musicalische Opera"@de , "dramma di sentimento"@it , "opera musicale"@it , "opera eroica"@it , "Opéras"@fr , "tragedia lirica"@it , "opera regia"@it , "azione melodrammatica"@it , "azione tragica"@it ;
+        skos:altLabel   "opera melodramatica"@it , "opera dramatica"@it , "tragedia per musica"@it , "traur-spiel"@de , "melo-dramma"@it , "operetta di sentimento"@it , "opera lirica"@it , "drame lyrique"@fr , "dramma lirico"@it , "opera in musica"@it , "lyric drama"@en , "musikdrama"@de , "ópera"@es , "melodrama (italiano, fino al 18. sec.)"@it , "melodramma"@it , "opéras "@fr , "tragedia"@it , "opera scenica"@it , "opera drammatica"@it , "musicalische opera"@de , "dramma di sentimento"@it , "opera musicale"@it , "opera eroica"@it , "opéras"@fr , "tragedia lirica"@it , "opera regia"@it , "azione melodrammatica"@it , "azione tragica"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Include melodramma, drame-lyrique e simili, e quando un codice individuale non è stato assegnato a una forma specifica"@it , "Includes melodramma, drame-lyrique and similar, and where an individual code has not been assigned to a specific form"@en ;
         skos:prefLabel  "opera"@en , "opera"@it , "Oper"@de , "opéra"@fr .
@@ -2258,7 +2258,7 @@
 
 <http://data.doremus.org/vocabulary/genre/hy>
         a               skos:Concept ;
-        skos:altLabel   "hymnos"@el , "himno"@it , "hinno"@it , "tantum ergo"@la , "hymne"@fr , "pange lingua"@la , "ave maris stella"@la , "Hymnes"@fr , "te deum"@la ;
+        skos:altLabel   "hymnos"@el , "himno"@it , "hinno"@it , "tantum ergo"@la , "hymne"@fr , "pange lingua"@la , "ave maris stella"@la , "hymnes"@fr , "te deum"@la ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Pour hymne national, utiliser nat"@fr ;
         skos:prefLabel  "inno"@it , "hymn"@en .
@@ -2275,7 +2275,7 @@
 
 <http://data.doremus.org/vocabulary/genre/pnk>
         a               skos:Concept ;
-        skos:altLabel   "Punk rock"@fr ;
+        skos:altLabel   "punk rock"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "punk"@it .
 
@@ -2286,7 +2286,7 @@
 
 <http://data.doremus.org/vocabulary/genre/nwa>
         a               skos:Concept ;
-        skos:altLabel   "Musique New Age"@fr ;
+        skos:altLabel   "musique new age"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "new age"@en .
 
@@ -2303,13 +2303,13 @@
 
 <http://data.doremus.org/vocabulary/genre/fax>
         a               skos:Concept ;
-        skos:altLabel   "Faux-bourdon (musique)"@fr ;
+        skos:altLabel   "faux-bourdon (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "falsobordone"@it , "faux-bourdon"@fr .
 
 <http://data.doremus.org/vocabulary/genre/sae>
         a               skos:Concept ;
-        skos:altLabel   "Saetas"@fr ;
+        skos:altLabel   "saetas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "saeta"@es .
 
@@ -2321,14 +2321,14 @@
 
 <http://data.doremus.org/vocabulary/genre/sg>
         a               skos:Concept ;
-        skos:altLabel   "Chansons"@fr ;
+        skos:altLabel   "chansons"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Except where an individual code has been assigned to a specific form"@en ;
         skos:prefLabel  "song"@en , "chanson"@fr .
 
 <http://data.doremus.org/vocabulary/genre/vr>
         a               skos:Concept ;
-        skos:altLabel   "variazioni"@it , "variatio"@la , "variacion"@es , "diferencia"@es , "Variations"@fr , "Variationen-Suite"@de , "Ostinatovariationen"@de , "division"@en , "choral varié"@fr , "Choralvariation"@de , "thème de variation"@fr , "melodia variata"@it , "tema con variazioni"@it , "Veränderung"@de , "Variations (musique)"@fr , "Variationsthema"@de , "ground"@en , "Variationen"@de ;
+        skos:altLabel   "variazioni"@it , "variatio"@la , "variacion"@es , "diferencia"@es , "variations"@fr , "variationen-suite"@de , "ostinatovariationen"@de , "division"@en , "choral varié"@fr , "choralvariation"@de , "thème de variation"@fr , "melodia variata"@it , "tema con variazioni"@it , "veränderung"@de , "variations (musique)"@fr , "variationsthema"@de , "ground"@en , "variationen"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes division, ground and similar"@en ;
         skos:prefLabel  "Variation"@de , "variazione"@it , "variation"@en , "variation"@fr .
@@ -2341,7 +2341,7 @@
 
 <http://data.doremus.org/vocabulary/genre/chs>
         a               skos:Concept ;
-        skos:altLabel   "chanson pour enfants"@fr , "canzonetta per bambini"@it , "Kinderlied"@de , "Chansons enfantines"@fr ;
+        skos:altLabel   "chanson pour enfants"@fr , "canzonetta per bambini"@it , "kinderlied"@de , "chansons enfantines"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "chanson enfantine"@fr , "children's song"@en , "canzone infantile"@it .
 
@@ -2353,13 +2353,13 @@
 
 <http://data.doremus.org/vocabulary/genre/pg>
         a               skos:Concept ;
-        skos:altLabel   "Musique à programme"@fr ;
+        skos:altLabel   "musique à programme"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "programme music"@en , "musica a programma"@it , "musique à programme"@fr .
 
 <http://data.doremus.org/vocabulary/genre/nww>
         a               skos:Concept ;
-        skos:altLabel   "New wave (musique)"@fr ;
+        skos:altLabel   "new wave (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "new wave"@en .
 
@@ -2370,7 +2370,7 @@
 
 <http://data.doremus.org/vocabulary/genre/csa>
         a               skos:Concept ;
-        skos:altLabel   "friss"@hu , "friszka"@hu , "Csárdás"@fr ;
+        skos:altLabel   "friss"@hu , "friszka"@hu , "csárdás"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "csárdás"@hu , "ciarda"@it .
 
@@ -2381,13 +2381,13 @@
 
 <http://data.doremus.org/vocabulary/genre/ant>
         a               skos:Concept ;
-        skos:altLabel   "asperges me"@la , "salve regina"@la , "ave regina"@la , "antienne"@fr , "marianische antiphon"@it , "Antiennes"@fr , "alma redemptoris mater"@la , "regina coeli"@it , "antiphona"@it , "antiphony"@en ;
+        skos:altLabel   "asperges me"@la , "salve regina"@la , "ave regina"@la , "antienne"@fr , "marianische antiphon"@it , "antiennes"@fr , "alma redemptoris mater"@la , "regina coeli"@it , "antiphona"@it , "antiphony"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "antifona"@it , "antiphon"@en .
 
 <http://data.doremus.org/vocabulary/genre/rmc>
         a               skos:Concept ;
-        skos:altLabel   "Romances (musique instrumentale)"@fr , "romance instrumentale"@fr , "romanice"@la , "Romanze"@de , "románc"@hu , "Romances "@fr ;
+        skos:altLabel   "romances (musique instrumentale)"@fr , "romance instrumentale"@fr , "romanice"@la , "romanze"@de , "románc"@hu , "romances "@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental"@de ;
         skos:prefLabel  "romance (instrumental)"@en .
@@ -2400,26 +2400,26 @@
 
 <http://data.doremus.org/vocabulary/genre/clu>
         a               skos:Concept ;
-        skos:altLabel   "clausule"@fr , "Klausel"@de , "Clausules (polyphonies sacrées)"@fr ;
+        skos:altLabel   "clausule"@fr , "klausel"@de , "clausules (polyphonies sacrées)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "clausula"@la , "clausola"@it .
 
 <http://data.doremus.org/vocabulary/genre/cp>
         a               skos:Concept ;
-        skos:altLabel   "chanson courtoise"@fr , "Chansons polyphoniques"@fr ;
+        skos:altLabel   "chanson courtoise"@fr , "chansons polyphoniques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for French polyphonic songs of the late Middle ages and Renaissance"@en ;
         skos:prefLabel  "chanson, polyphonic"@en , "chanson polyphonique"@fr .
 
 <http://data.doremus.org/vocabulary/genre/btq>
         a               skos:Concept ;
-        skos:altLabel   "batucada"@es , "Batuques"@fr ;
+        skos:altLabel   "batucada"@es , "batuques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "batuque"@es .
 
 <http://data.doremus.org/vocabulary/genre/mr>
         a               skos:Concept ;
-        skos:altLabel   "marche"@fr , "pas de charge"@fr , "Marsch"@de , "Marches (musique)"@fr , "Marches"@fr ;
+        skos:altLabel   "marche"@fr , "pas de charge"@fr , "marsch"@de , "marches (musique)"@fr , "marches"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "march"@en , "marcia"@it .
 
@@ -2442,7 +2442,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cpl>
         a               skos:Concept ;
-        skos:altLabel   "Coplas"@fr ;
+        skos:altLabel   "coplas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "copla"@es .
 
@@ -2455,20 +2455,20 @@
 
 <http://data.doremus.org/vocabulary/genre/psd>
         a               skos:Concept ;
-        skos:altLabel   "passo doppio"@it , "Paso doble (musique)"@fr ;
+        skos:altLabel   "passo doppio"@it , "paso doble (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "paso doble"@es .
 
 <http://data.doremus.org/vocabulary/genre/czn>
         a               skos:Concept ;
-        skos:altLabel   "Canzones"@fr ;
+        skos:altLabel   "canzones"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for the works of the Italian songs so defined during the 19th-20th centuries. For earlier periods use more specific terms"@it ;
         skos:prefLabel  "canzone"@it .
 
 <http://data.doremus.org/vocabulary/genre/slt>
         a               skos:Concept ;
-        skos:altLabel   "alta danza"@it , "bréban"@fr , "pas de brabant"@fr , "Hupfauf"@de , "Saltarelles"@fr ;
+        skos:altLabel   "alta danza"@it , "bréban"@fr , "pas de brabant"@fr , "hupfauf"@de , "saltarelles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for pas de Brabant and similar"@it ;
         skos:prefLabel  "saltarello"@it .
@@ -2493,7 +2493,7 @@
 
 <http://data.doremus.org/vocabulary/genre/nau>
         a               skos:Concept ;
-        skos:altLabel   "nawba"@ar , "Andalusī nūbah"@ar , "nūba"@ar , "نوبة أندلسية"@ar ;
+        skos:altLabel   "nawba"@ar , "andalusī nūbah"@ar , "nūba"@ar , "نوبة أندلسية"@ar ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "nauba"@ar , "Andalusi nubah"@en , "nouba"@fr .
 
@@ -2505,7 +2505,7 @@
 
 <http://data.doremus.org/vocabulary/genre/wom>
         a               skos:Concept ;
-        skos:altLabel   "World music"@fr ;
+        skos:altLabel   "world music"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "world music"@en , "musiques du monde"@fr .
 
@@ -2517,13 +2517,13 @@
 
 <http://data.doremus.org/vocabulary/genre/mph>
         a               skos:Concept ;
-        skos:altLabel   "métamorphose"@fr , "Metamorphosen"@de , "Métamorphoses"@fr ;
+        skos:altLabel   "métamorphose"@fr , "metamorphosen"@de , "métamorphoses"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "metamorphosis"@el , "metamorfosi"@it .
 
 <http://data.doremus.org/vocabulary/genre/hrk>
         a               skos:Concept ;
-        skos:altLabel   "Hard rock"@fr ;
+        skos:altLabel   "hard rock"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "hard rock"@en .
 
@@ -2534,13 +2534,13 @@
 
 <http://data.doremus.org/vocabulary/genre/sft>
         a               skos:Concept ;
-        skos:altLabel   "Sinfoniettas"@fr ;
+        skos:altLabel   "sinfoniettas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sinfonietta"@it .
 
 <http://data.doremus.org/vocabulary/genre/non>
         a               skos:Concept ;
-        skos:altLabel   "noneto"@es , "Nonets"@fr ;
+        skos:altLabel   "noneto"@es , "nonets"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "nonetto"@it , "nonet"@en , "nonette"@fr , "Nonett"@de .
 
@@ -2565,14 +2565,14 @@
 
 <http://data.doremus.org/vocabulary/genre/ar>
         a               skos:Concept ;
-        skos:altLabel   "aria di sortita"@it , "Arias"@fr , "Arie"@de , "aer"@la , "arietta"@it , "aria drammatica"@it ;
+        skos:altLabel   "aria di sortita"@it , "arias"@fr , "arie"@de , "aer"@la , "arietta"@it , "aria drammatica"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "For instrumental forms prefer arn – aria, instrumental"@it ;
         skos:prefLabel  "aria"@it .
 
 <http://data.doremus.org/vocabulary/genre/sct>
         a               skos:Concept ;
-        skos:altLabel   "Scat"@fr ;
+        skos:altLabel   "scat"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "scat"@en .
 
@@ -2584,7 +2584,7 @@
 
 <http://data.doremus.org/vocabulary/genre/ree>
         a               skos:Concept ;
-        skos:altLabel   "Reels"@fr ;
+        skos:altLabel   "reels"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "reel"@en .
 
@@ -2595,7 +2595,7 @@
 
 <http://data.doremus.org/vocabulary/genre/chc>
         a               skos:Concept ;
-        skos:altLabel   "chacona"@it , "chacota"@es , "Chaconnes "@fr , "Chaconnes"@fr ;
+        skos:altLabel   "chacona"@it , "chacota"@es , "chaconnes "@fr , "chaconnes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "chaconne"@fr , "ciaccona"@it .
 
@@ -2614,13 +2614,13 @@
 
 <http://data.doremus.org/vocabulary/genre/cre>
         a               skos:Concept ;
-        skos:altLabel   "Credo (musique)"@fr ;
+        skos:altLabel   "credo (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "credo"@la .
 
 <http://data.doremus.org/vocabulary/genre/ov>
         a               skos:Concept ;
-        skos:altLabel   "overteur"@it , "Französische Ouverture"@de , "Ouvertures (musique)"@fr , "ouvertura"@it , "obertura"@es , "ouverture à la française"@fr , "Ouvertures"@fr , "ouverture"@fr ;
+        skos:altLabel   "overteur"@it , "französische ouverture"@de , "ouvertures (musique)"@fr , "ouvertura"@it , "obertura"@es , "ouverture à la française"@fr , "ouvertures"@fr , "ouverture"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "overture"@en .
 
@@ -2638,20 +2638,20 @@
 
 <http://data.doremus.org/vocabulary/genre/pad>
         a               skos:Concept ;
-        skos:altLabel   "commedia pastorale"@it , "Schüffergedicht"@de , "melodrama pastorale"@it , "rime pastorali"@it , "trattenimento pastorale"@it , "tragicommedia boschereccia"@it , "drame pastoral"@fr , "opera pastorale"@it , "pastoral opera"@en , "divertimento pastorale"@it , "pastorale eroica"@it , "trattenimento villareccio"@it , "composizione pastorale"@it , "opera teotragicomica pastorale"@it , "componimento dramatico pastorale"@it , "tragicommedia pastorale"@it , "Schäfergedicht"@de , "Heroisches Schafer-Spiel"@de , "raggionamenti pastorali"@it , "azione pastorale"@it , "divertimento boschereccio"@it , "componimento pastorale"@it , "rappresentanza pastorale"@it , "opera boschereccia"@it , "Pastorales (musique vocale)"@fr , "dramma boschereccio"@it ;
+        skos:altLabel   "commedia pastorale"@it , "schüffergedicht"@de , "melodrama pastorale"@it , "rime pastorali"@it , "trattenimento pastorale"@it , "tragicommedia boschereccia"@it , "drame pastoral"@fr , "opera pastorale"@it , "pastoral opera"@en , "divertimento pastorale"@it , "pastorale eroica"@it , "trattenimento villareccio"@it , "composizione pastorale"@it , "opera teotragicomica pastorale"@it , "componimento dramatico pastorale"@it , "tragicommedia pastorale"@it , "schäfergedicht"@de , "heroisches schafer-spiel"@de , "raggionamenti pastorali"@it , "azione pastorale"@it , "divertimento boschereccio"@it , "componimento pastorale"@it , "rappresentanza pastorale"@it , "opera boschereccia"@it , "pastorales (musique vocale)"@fr , "dramma boschereccio"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes Hirtenstück, dramma boschereccio and similar dramatic forms"@en ;
         skos:prefLabel  "pastorale dramatique"@fr , "pastoral drama"@en , "dramma pastorale"@it .
 
 <http://data.doremus.org/vocabulary/genre/mqu>
         a               skos:Concept ;
-        skos:altLabel   "entremets"@fr , "maschara"@it , "Mask"@de , "Musique de masque"@fr ;
+        skos:altLabel   "entremets"@fr , "maschara"@it , "mask"@de , "musique de masque"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "masque"@en .
 
 <http://data.doremus.org/vocabulary/genre/bt>
         a               skos:Concept ;
-        skos:altLabel   "balletto allegorico"@it , "ballet royal"@fr , "gran balletto"@it , "ballet blanc"@fr , "Ross-Ballet"@de , "ballet de cour"@fr , "balletto pantomimico"@it , "ballet comique"@it , "ballet mascarade"@fr , "Singballet"@de , "Militärballett"@de , "ballet divertissement"@fr , "azione coreografica"@it , "Musique de ballet"@fr , "ballet"@fr , "Marchenballet"@de , "balletto comico"@it , "ballet pantomime"@fr , "ballet d'action"@fr , "Turnier-Ballet"@de , "ballet mélodramatique"@fr , "grand ballet"@fr , "ballet à entrées"@fr , "coreodramma"@it ;
+        skos:altLabel   "balletto allegorico"@it , "ballet royal"@fr , "gran balletto"@it , "ballet blanc"@fr , "ross-ballet"@de , "ballet de cour"@fr , "balletto pantomimico"@it , "ballet comique"@it , "ballet mascarade"@fr , "singballet"@de , "militärballett"@de , "ballet divertissement"@fr , "azione coreografica"@it , "musique de ballet"@fr , "ballet"@fr , "marchenballet"@de , "balletto comico"@it , "ballet pantomime"@fr , "ballet d'action"@fr , "turnier-ballet"@de , "ballet mélodramatique"@fr , "grand ballet"@fr , "ballet à entrées"@fr , "coreodramma"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Usare per le esecuzioni teatrali di danza e pantomima, ballo di corte e simili"@it , "Use for theatrical exhibitions of dance and pantomimic action, ballet de cour and similar"@en ;
         skos:prefLabel  "balletto"@it , "ballet"@en , "Ballett"@de .
@@ -2664,7 +2664,7 @@
 
 <http://data.doremus.org/vocabulary/genre/fla>
         a               skos:Concept ;
-        skos:altLabel   "cante gitano"@es , "tanguillo"@es , "solearilla"@es , "solea"@es , "cana"@es , "cante hondo"@es , "Flamenco (musique)"@fr , "cante grande"@es , "cante chico"@es , "burleria"@es , "cante jondo"@es , "fandangillo"@es , "seguiriya"@es , "martinetes"@es , "alegria"@es ;
+        skos:altLabel   "cante gitano"@es , "tanguillo"@es , "solearilla"@es , "solea"@es , "cana"@es , "cante hondo"@es , "flamenco (musique)"@fr , "cante grande"@es , "cante chico"@es , "burleria"@es , "cante jondo"@es , "fandangillo"@es , "seguiriya"@es , "martinetes"@es , "alegria"@es ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes cante chico, cante hondo, seguiriya and similar"@es ;
         skos:prefLabel  "flamenco"@es .
@@ -2677,31 +2677,31 @@
 
 <http://data.doremus.org/vocabulary/genre/rig>
         a               skos:Concept ;
-        skos:altLabel   "rigadoon"@en , "rigodon"@it , "Rigaudons"@fr ;
+        skos:altLabel   "rigadoon"@en , "rigodon"@it , "rigaudons"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rigaudon"@fr .
 
 <http://data.doremus.org/vocabulary/genre/srd>
         a               skos:Concept ;
-        skos:altLabel   "Sardanes"@fr ;
+        skos:altLabel   "sardanes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sardana"@it .
 
 <http://data.doremus.org/vocabulary/genre/lid>
         a               skos:Concept ;
-        skos:altLabel   "dramma liturgico"@it , "Drames liturgiques"@fr , "Liturgisches Spiel"@de , "Osterspiel"@de , "Mysterienspiel"@de , "drame liturgique"@fr , "Liturgisches Drama"@de ;
+        skos:altLabel   "dramma liturgico"@it , "drames liturgiques"@fr , "liturgisches spiel"@de , "osterspiel"@de , "mysterienspiel"@de , "drame liturgique"@fr , "liturgisches drama"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "liturgical drama"@en .
 
 <http://data.doremus.org/vocabulary/genre/cop>
         a               skos:Concept ;
-        skos:altLabel   "brano da concerto"@it , "pièce de concert"@fr , "Concertstück"@de , "Konzertstück"@de ;
+        skos:altLabel   "brano da concerto"@it , "pièce de concert"@fr , "concertstück"@de , "konzertstück"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "concert piece"@en , "pezzo da concerto"@it , "morceau de concert"@fr .
 
 <http://data.doremus.org/vocabulary/genre/eco>
         a               skos:Concept ;
-        skos:altLabel   "Écossaises (musique)"@fr , "Écossaises"@fr ;
+        skos:altLabel   "écossaises (musique)"@fr , "écossaises"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "écossaise"@fr , "scozzese"@it .
 
@@ -2712,13 +2712,13 @@
 
 <http://data.doremus.org/vocabulary/genre/opb>
         a               skos:Concept ;
-        skos:altLabel   "Ballettoper"@de , "Opéras-ballets"@fr ;
+        skos:altLabel   "ballettoper"@de , "opéras-ballets"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "opéra-ballet"@fr .
 
 <http://data.doremus.org/vocabulary/genre/pm>
         a               skos:Concept ;
-        skos:altLabel   "turba"@it , "Choralpassion"@de , "passion"@en , "Musique de la Passion"@fr , "Oratorische Passion"@de , "turba del passio"@it , "passio"@la ;
+        skos:altLabel   "turba"@it , "choralpassion"@de , "passion"@en , "musique de la passion"@fr , "oratorische passion"@de , "turba del passio"@it , "passio"@la ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Passion"@de , "passion"@fr , "passione"@it , "passion music"@en .
 
@@ -2729,14 +2729,14 @@
 
 <http://data.doremus.org/vocabulary/genre/bcs>
         a               skos:Concept ;
-        skos:altLabel   "lullaby"@en , "Wiegenlied"@de , "Berceuses"@fr , "Berceuses (musique vocale)"@fr ;
+        skos:altLabel   "lullaby"@en , "wiegenlied"@de , "berceuses"@fr , "berceuses (musique vocale)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Art form"@en , "Use for art form lullaby, Wiegenlied, etc."@fr , "Art form"@it ;
         skos:prefLabel  "ninna nanna"@it , "berceuse"@fr .
 
 <http://data.doremus.org/vocabulary/genre/csg>
         a               skos:Concept ;
-        skos:altLabel   "Chansons de carnaval"@fr ;
+        skos:altLabel   "chansons de carnaval"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "carnival song"@en , "canto carnascialesco"@it , "chanson de carnaval"@fr .
 
@@ -2749,7 +2749,7 @@
 
 <http://data.doremus.org/vocabulary/genre/qdl>
         a               skos:Concept ;
-        skos:altLabel   "quadrille à la cour"@fr , "cuadrilla"@es , "Quadrilles"@fr , "valzer-quadrille"@it , "quadrille-mignon"@fr ;
+        skos:altLabel   "quadrille à la cour"@fr , "cuadrilla"@es , "quadrilles"@fr , "valzer-quadrille"@it , "quadrille-mignon"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "quadrille"@fr , "quadrille"@en , "quadriglia"@it , "Walzerquadrille"@de .
 
@@ -2760,7 +2760,7 @@
 
 <http://data.doremus.org/vocabulary/genre/sex>
         a               skos:Concept ;
-        skos:altLabel   "sexteto"@es , "sextuor"@fr , "Sextett"@de , "Sextuors"@fr ;
+        skos:altLabel   "sexteto"@es , "sextuor"@fr , "sextett"@de , "sextuors"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sextet"@en , "sestetto"@it .
 
@@ -2772,19 +2772,19 @@
 
 <http://data.doremus.org/vocabulary/genre/hab>
         a               skos:Concept ;
-        skos:altLabel   "abanera"@it , "Habaneras"@fr ;
+        skos:altLabel   "abanera"@it , "habaneras"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "habanera"@es .
 
 <http://data.doremus.org/vocabulary/genre/wz>
         a               skos:Concept ;
-        skos:altLabel   "Waltzer"@de , "Wiener Walzer"@de , "waltzer"@it , "Valses"@fr , "valzero"@it , "valser"@it , "valse chantée"@fr , "valtzer"@it ;
+        skos:altLabel   "waltzer"@de , "wiener walzer"@de , "waltzer"@it , "valses"@fr , "valzero"@it , "valser"@it , "valse chantée"@fr , "valtzer"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Walzer"@de , "vals"@es , "valzer"@it , "valse"@fr , "waltz"@en .
 
 <http://data.doremus.org/vocabulary/genre/cpr>
         a               skos:Concept ;
-        skos:altLabel   "Caprices (musique)"@fr , "Caprices "@fr ;
+        skos:altLabel   "caprices (musique)"@fr , "caprices "@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "caprice"@fr , "capriccio"@it .
 
@@ -2806,20 +2806,20 @@
 
 <http://data.doremus.org/vocabulary/genre/czt>
         a               skos:Concept ;
-        skos:altLabel   "Kanzonette"@de , "Canzonettes"@fr , "Canzonettas"@fr ;
+        skos:altLabel   "kanzonette"@de , "canzonettes"@fr , "canzonettas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "16th-19th cent."@it ;
         skos:prefLabel  "canzonetta"@it .
 
 <http://data.doremus.org/vocabulary/genre/gm>
         a               skos:Concept ;
-        skos:altLabel   "gospel"@en , "gospel song"@en , "Gospel"@fr ;
+        skos:altLabel   "gospel"@en , "gospel song"@en , "gospel"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "gospel music"@en .
 
 <http://data.doremus.org/vocabulary/genre/trl>
         a               skos:Concept ;
-        skos:altLabel   "tragédie en musique"@fr , "tragédie-ballet"@fr , "Tragédies lyriques"@fr ;
+        skos:altLabel   "tragédie en musique"@fr , "tragédie-ballet"@fr , "tragédies lyriques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "tragédie lyrique"@fr .
 
@@ -2830,13 +2830,13 @@
 
 <http://data.doremus.org/vocabulary/genre/ens>
         a               skos:Concept ;
-        skos:altLabel   "Ensaladas"@fr ;
+        skos:altLabel   "ensaladas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "ensalada"@es .
 
 <http://data.doremus.org/vocabulary/genre/imu>
         a               skos:Concept ;
-        skos:altLabel   "Impromptus (musique)"@fr , "Impromptus"@fr ;
+        skos:altLabel   "impromptus (musique)"@fr , "impromptus"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for improvviso"@fr ;
         skos:prefLabel  "impromptu"@fr , "improvviso"@it .
@@ -2854,13 +2854,13 @@
 
 <http://data.doremus.org/vocabulary/genre/ogm>
         a               skos:Concept ;
-        skos:altLabel   "diaphonia"@la , "Organa"@fr ;
+        skos:altLabel   "diaphonia"@la , "organa"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "organum"@la .
 
 <http://data.doremus.org/vocabulary/genre/scd>
         a               skos:Concept ;
-        skos:altLabel   "ludus scholasticus"@la , "school opera"@en , "Schuldrama"@de , "Schuloper"@de ;
+        skos:altLabel   "ludus scholasticus"@la , "school opera"@en , "schuldrama"@de , "schuloper"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "scholastic drama"@en , "dramma scolastico"@it , "opéra de collège"@fr .
 
@@ -2871,7 +2871,7 @@
 
 <http://data.doremus.org/vocabulary/genre/dim>
         a               skos:Concept ;
-        skos:altLabel   "Disco (musique)"@fr ;
+        skos:altLabel   "disco (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "disco music"@en .
 
@@ -2896,7 +2896,7 @@
 
 <http://data.doremus.org/vocabulary/genre/dix>
         a               skos:Concept ;
-        skos:altLabel   "Dixieland"@fr ;
+        skos:altLabel   "dixieland"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "dixieland"@en .
 
@@ -2907,13 +2907,13 @@
 
 <http://data.doremus.org/vocabulary/genre/rum>
         a               skos:Concept ;
-        skos:altLabel   "canson rumba"@es , "son cubano"@es , "Rhumba"@de , "Rumbas"@fr ;
+        skos:altLabel   "canson rumba"@es , "son cubano"@es , "rhumba"@de , "rumbas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "rumba"@en , "rumba"@it , "rumba"@fr .
 
 <http://data.doremus.org/vocabulary/genre/hoq>
         a               skos:Concept ;
-        skos:altLabel   "hoquet"@fr , "canzonetta leggera"@it , "ochetus"@la , "ochetto"@it , "Schlager"@de , "hochetus"@la ;
+        skos:altLabel   "hoquet"@fr , "canzonetta leggera"@it , "ochetus"@la , "ochetto"@it , "schlager"@de , "hochetus"@la ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "20th cent."@it ;
         skos:prefLabel  "hoquetus"@it .
@@ -2926,7 +2926,7 @@
 
 <http://data.doremus.org/vocabulary/genre/rq>
         a               skos:Concept ;
-        skos:altLabel   "messa da requiem"@it , "Requiem"@fr , "mass for the dead"@en , "messe des morts"@fr , "missa defunctorum"@la , "messa dei defunti"@it , "misa de difuntos"@es , "messe funèbre"@fr , "messa per i defunti"@it , "missa pro defunctis"@la , "messa da morto"@it , "Totenmesse"@de ;
+        skos:altLabel   "messa da requiem"@it , "requiem"@fr , "mass for the dead"@en , "messe des morts"@fr , "missa defunctorum"@la , "messa dei defunti"@it , "misa de difuntos"@es , "messe funèbre"@fr , "messa per i defunti"@it , "missa pro defunctis"@la , "messa da morto"@it , "totenmesse"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "requiem"@la , "messe de requiem"@fr , "messa di requiem"@it , "requiem mass"@en .
 
@@ -2967,7 +2967,7 @@
 
 <http://data.doremus.org/vocabulary/genre/mdc>
         a               skos:Concept ;
-        skos:altLabel   "madrigale drammatico"@it , "Madrigalkomödie"@de ;
+        skos:altLabel   "madrigale drammatico"@it , "madrigalkomödie"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "madrigal comedy"@en , "madrigale rappresentativo"@it .
 
@@ -2990,7 +2990,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cht>
         a               skos:Concept ;
-        skos:altLabel   "dit"@fr , "Spruch"@de , "Spruchlied"@de ;
+        skos:altLabel   "dit"@fr , "spruch"@de , "spruchlied"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for dit, Spruch"@fr ;
         skos:prefLabel  "chanson sentencieuse"@fr .
@@ -3002,13 +3002,13 @@
 
 <http://data.doremus.org/vocabulary/genre/for>
         a               skos:Concept ;
-        skos:altLabel   "friulana"@it , "furlana"@it , "ballo forlana"@it , "frulana"@it , "Forlanes"@fr , "Friauler"@de ;
+        skos:altLabel   "friulana"@it , "furlana"@it , "ballo forlana"@it , "frulana"@it , "forlanes"@fr , "friauler"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "forlane"@fr , "forlana"@it , "forlana"@en .
 
 <http://data.doremus.org/vocabulary/genre/bwg>
         a               skos:Concept ;
-        skos:altLabel   "boogie"@en , "boogie woogie"@en , "Boogie-woogie"@fr ;
+        skos:altLabel   "boogie"@en , "boogie woogie"@en , "boogie-woogie"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "boogie-woogie"@en , "boogie-woogie"@it , "boogie-woogie"@fr .
 
@@ -3020,32 +3020,32 @@
 
 <http://data.doremus.org/vocabulary/genre/off>
         a               skos:Concept ;
-        skos:altLabel   "Offertoires (musique)"@fr ;
+        skos:altLabel   "offertoires (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "offertorio"@it , "offertory"@en , "offertorium"@la , "offertoire"@fr .
 
 <http://data.doremus.org/vocabulary/genre/ps>
         a               skos:Concept ;
-        skos:altLabel   "pasacalle"@it , "passacaglio"@it , "passagallo"@it , "passacalle"@it , "passacaille"@fr , "Passacailles"@fr ;
+        skos:altLabel   "pasacalle"@it , "passacaglio"@it , "passagallo"@it , "passacalle"@it , "passacaille"@fr , "passacailles"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental music so designated; includes all types of ostinato basses, except where an individual code has been assigned to a specific form"@it ;
         skos:prefLabel  "passacaglia"@it .
 
 <http://data.doremus.org/vocabulary/genre/ara>
         a               skos:Concept ;
-        skos:altLabel   "arabesque"@en , "Arabeske"@de , "Arabesques (musique)"@fr , "Arabesques"@fr ;
+        skos:altLabel   "arabesque"@en , "arabeske"@de , "arabesques (musique)"@fr , "arabesques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "arabesque"@fr .
 
 <http://data.doremus.org/vocabulary/genre/gav>
         a               skos:Concept ;
-        skos:altLabel   "gavot"@en , "gavota"@it , "Gavottes"@fr ;
+        skos:altLabel   "gavot"@en , "gavota"@it , "gavottes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "gavotte"@fr , "gavotta"@it .
 
 <http://data.doremus.org/vocabulary/genre/drh>
         a               skos:Concept ;
-        skos:altLabel   "Drehtanz"@de ;
+        skos:altLabel   "drehtanz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Dreher"@de .
 
@@ -3056,13 +3056,13 @@
 
 <http://data.doremus.org/vocabulary/genre/plc>
         a               skos:Concept ;
-        skos:altLabel   "Planctus"@fr ;
+        skos:altLabel   "planctus"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "planctus"@la .
 
 <http://data.doremus.org/vocabulary/genre/egl>
         a               skos:Concept ;
-        skos:altLabel   "Églogues"@fr , "ecloga"@it , "Ekloge"@de , "egloga sacra"@it , "éclogue"@fr , "egloga rusticale"@it , "egloga pastorale"@it , "ecloga sacra"@it ;
+        skos:altLabel   "églogues"@fr , "ecloga"@it , "ekloge"@de , "egloga sacra"@it , "éclogue"@fr , "egloga rusticale"@it , "egloga pastorale"@it , "ecloga sacra"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "églogue"@fr , "eglogue"@en , "egloga"@it .
 
@@ -3073,26 +3073,26 @@
 
 <http://data.doremus.org/vocabulary/genre/ms>
         a               skos:Concept ;
-        skos:altLabel   "kyrie"@el , "agnus dei"@la , "Messes (musique)"@fr , "misa"@es , "sanctus"@la , "Mehrstimmige Messe"@de , "gloria in excelsis"@la , "gloria"@it , "Choralmesse"@de , "benedictus"@la , "credo"@la , "Messes"@fr ;
+        skos:altLabel   "kyrie"@el , "agnus dei"@la , "messes (musique)"@fr , "misa"@es , "sanctus"@la , "mehrstimmige messe"@de , "gloria in excelsis"@la , "gloria"@it , "choralmesse"@de , "benedictus"@la , "credo"@la , "messes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "missa"@la , "Messe"@de , "messa"@it , "messe"@fr , "mass"@en .
 
 <http://data.doremus.org/vocabulary/genre/ops>
         a               skos:Concept ;
-        skos:altLabel   "dramma per musica"@it , "dramma tragico"@it , "dramma serio"@it , "arcidramma musicale"@it , "dramma reale per musica"@it , "dramma in musica"@it , "drama musicale"@it , "operetta drammatica"@it , "dramma pe' museca"@it , "dramma rivoluzionario"@it , "Schauspiel"@de , "drama per musica"@it , "componimento drammatico"@it , "drama regio musicale"@it , "dramma teatrale"@it , "rappresentazione per musica"@it , "drama"@it , "dramma musicale"@it , "Musicalisches Schau-Spiel"@de , "poemetto dramatico"@it , "dramma"@it , "dramma eroico"@it , "serious opera"@en , "dramma civile"@it , "drama fantastico musicale"@it , "melodramma tragico"@it , "dramma morale"@it , "dramma fantastico"@it , "drama melotragico"@it , "dramma eroi-tragico"@it , "dramma fatto cantare"@it , "musical drama"@en , "trattenimento per musica"@it , "drama en musica"@es , "frammento drammatico"@it , "dramma napoletano"@it , "rappresentazione tragica"@it , "operetta"@it , "drama para musica"@es , "rappresentazione scenica"@it , "opera allegorica"@it , "Musikalisches Drama"@de , "rappresentazione teatrale"@it , "trattenimento scenico"@it , "poema drammatico scenico"@it , "opera tragica"@it , "Opéras seria"@fr , "dramma armonico"@it , "dramma en musica"@es , "dramma allegorico"@it ;
+        skos:altLabel   "dramma per musica"@it , "dramma tragico"@it , "dramma serio"@it , "arcidramma musicale"@it , "dramma reale per musica"@it , "dramma in musica"@it , "drama musicale"@it , "operetta drammatica"@it , "dramma pe' museca"@it , "dramma rivoluzionario"@it , "schauspiel"@de , "drama per musica"@it , "componimento drammatico"@it , "drama regio musicale"@it , "dramma teatrale"@it , "rappresentazione per musica"@it , "drama"@it , "dramma musicale"@it , "musicalisches schau-spiel"@de , "poemetto dramatico"@it , "dramma"@it , "dramma eroico"@it , "serious opera"@en , "dramma civile"@it , "drama fantastico musicale"@it , "melodramma tragico"@it , "dramma morale"@it , "dramma fantastico"@it , "drama melotragico"@it , "dramma eroi-tragico"@it , "dramma fatto cantare"@it , "musical drama"@en , "trattenimento per musica"@it , "drama en musica"@es , "frammento drammatico"@it , "dramma napoletano"@it , "rappresentazione tragica"@it , "operetta"@it , "drama para musica"@es , "rappresentazione scenica"@it , "opera allegorica"@it , "musikalisches drama"@de , "rappresentazione teatrale"@it , "trattenimento scenico"@it , "poema drammatico scenico"@it , "opera tragica"@it , "opéras seria"@fr , "dramma armonico"@it , "dramma en musica"@es , "dramma allegorico"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Includes dramma per musica, melodramma tragico and similar"@it , "18th cent."@it ;
         skos:prefLabel  "opera seria"@it .
 
 <http://data.doremus.org/vocabulary/genre/sou>
         a               skos:Concept ;
-        skos:altLabel   "Soul music"@fr ;
+        skos:altLabel   "soul music"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "soul"@en .
 
 <http://data.doremus.org/vocabulary/genre/ipp>
         a               skos:Concept ;
-        skos:altLabel   "improperii"@it , "Improperien"@de ;
+        skos:altLabel   "improperii"@it , "improperien"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "improperia"@la , "improperio"@it .
 
@@ -3103,20 +3103,20 @@
 
 <http://data.doremus.org/vocabulary/genre/mor>
         a               skos:Concept ;
-        skos:altLabel   "moralidad"@es , "moralité"@fr , "Moralität"@de ;
+        skos:altLabel   "moralidad"@es , "moralité"@fr , "moralität"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "morality"@en , "moralità"@it .
 
 <http://data.doremus.org/vocabulary/genre/drs>
         a               skos:Concept ;
-        skos:altLabel   "chanson à boire"@fr , "Trinklied"@de , "Chansons à boire"@fr , "canción báquica"@es , "air à boire"@fr , "bacchanalian song"@en , "chanson pour boire"@fr ;
+        skos:altLabel   "chanson à boire"@fr , "trinklied"@de , "chansons à boire"@fr , "canción báquica"@es , "air à boire"@fr , "bacchanalian song"@en , "chanson pour boire"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for brindisi, chanson à boire and similar"@en ;
         skos:prefLabel  "brindisi"@it , "drinking song"@en .
 
 <http://data.doremus.org/vocabulary/genre/bde>
         a               skos:Concept ;
-        skos:altLabel   "ballade vocale"@fr , "Ballades (musique vocale)"@fr ;
+        skos:altLabel   "ballade vocale"@fr , "ballades (musique vocale)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "14th-15th cent."@fr ;
         skos:prefLabel  "ballade, vocal"@fr .
@@ -3135,7 +3135,7 @@
 
 <http://data.doremus.org/vocabulary/genre/ala>
         a               skos:Concept ;
-        skos:altLabel   "alba"@it , "aube"@fr , "Tagelied"@de , "Chansons d'aubes"@fr ;
+        skos:altLabel   "alba"@it , "aube"@fr , "tagelied"@de , "chansons d'aubes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@it , "Vocal"@fr ;
         skos:prefLabel  "alba"@it .
@@ -3147,14 +3147,14 @@
 
 <http://data.doremus.org/vocabulary/genre/rmz>
         a               skos:Concept ;
-        skos:altLabel   "Romances (musique vocale)"@fr ;
+        skos:altLabel   "romances (musique vocale)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Vocal"@it , "Gesang"@de ;
         skos:prefLabel  "romanza"@it , "romance chantée"@fr , "romance (vocal)"@en , "Romanze"@de .
 
 <http://data.doremus.org/vocabulary/genre/bkg>
         a               skos:Concept ;
-        skos:altLabel   "Moritat"@de ;
+        skos:altLabel   "moritat"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Moritat"@de ;
         skos:prefLabel  "Bänkelgesang"@de .
@@ -3167,25 +3167,25 @@
 
 <http://data.doremus.org/vocabulary/genre/glo>
         a               skos:Concept ;
-        skos:altLabel   "gloria in excelsis"@la , "gloria"@it , "Gloria in excelsis Deo (musique)"@fr ;
+        skos:altLabel   "gloria in excelsis"@la , "gloria"@it , "gloria in excelsis deo (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "gloria"@la , "gloria"@en .
 
 <http://data.doremus.org/vocabulary/genre/ctd>
         a               skos:Concept ;
-        skos:altLabel   "inglesa"@it , "contradanza"@it , "Kontertanz"@de , "Contredanses"@fr , "anglaise"@fr , "Contretanz"@de ;
+        skos:altLabel   "inglesa"@it , "contradanza"@it , "kontertanz"@de , "contredanses"@fr , "anglaise"@fr , "contretanz"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "contredance"@en , "contredanse"@fr , "contraddanza"@it .
 
 <http://data.doremus.org/vocabulary/genre/psp>
         a               skos:Concept ;
-        skos:altLabel   "paspy"@en , "Passepieds"@fr ;
+        skos:altLabel   "paspy"@en , "passepieds"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "passepied"@fr .
 
 <http://data.doremus.org/vocabulary/genre/all>
         a               skos:Concept ;
-        skos:altLabel   "alleluja"@la , "hallelujah"@it , "Alléluia (musique)"@fr ;
+        skos:altLabel   "alleluja"@la , "hallelujah"@it , "alléluia (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "alleluia"@la .
 
@@ -3197,7 +3197,7 @@
 
 <http://data.doremus.org/vocabulary/genre/lty>
         a               skos:Concept ;
-        skos:altLabel   "litania"@it , "litanie"@fr , "Litanei"@de , "Litanies (musique)"@fr ;
+        skos:altLabel   "litania"@it , "litanie"@fr , "litanei"@de , "litanies (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "litany"@en .
 
@@ -3224,13 +3224,13 @@
 
 <http://data.doremus.org/vocabulary/genre/beg>
         a               skos:Concept ;
-        skos:altLabel   "Biguines"@fr ;
+        skos:altLabel   "biguines"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "béguine"@fr .
 
 <http://data.doremus.org/vocabulary/genre/cnd>
         a               skos:Concept ;
-        skos:altLabel   "conduit"@fr , "Conduits (musique)"@fr ;
+        skos:altLabel   "conduit"@fr , "conduits (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "conductus"@la .
 
@@ -3241,13 +3241,13 @@
 
 <http://data.doremus.org/vocabulary/genre/fnk>
         a               skos:Concept ;
-        skos:altLabel   "Funk"@fr ;
+        skos:altLabel   "funk"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "funk"@en , "funk"@it .
 
 <http://data.doremus.org/vocabulary/genre/rao>
         a               skos:Concept ;
-        skos:altLabel   "opéra radiophonique"@fr , "radio-opera"@en , "Funkoper"@de ;
+        skos:altLabel   "opéra radiophonique"@fr , "radio-opera"@en , "funkoper"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "radio opera"@en , "opera radiofonica"@it .
 
@@ -3263,7 +3263,7 @@
 
 <http://data.doremus.org/vocabulary/genre/cab>
         a               skos:Concept ;
-        skos:altLabel   "Cavalette"@de ;
+        skos:altLabel   "cavalette"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "cabaletta"@it .
 
@@ -3274,14 +3274,14 @@
 
 <http://data.doremus.org/vocabulary/genre/acl>
         a               skos:Concept ;
-        skos:altLabel   "festosa acclamazione"@it , "laudes regiae"@la , "laudes papales"@la , "laudes imperiales"@la , "Akklamation"@de ;
+        skos:altLabel   "festosa acclamazione"@it , "laudes regiae"@la , "laudes papales"@la , "laudes imperiales"@la , "akklamation"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for laudes regiae or similar"@la ;
         skos:prefLabel  "acclamatio"@la , "acclamazione"@it .
 
 <http://data.doremus.org/vocabulary/genre/sgl>
         a               skos:Concept ;
-        skos:altLabel   "Seguidillas"@fr ;
+        skos:altLabel   "seguidillas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "seguidilla"@es .
 
@@ -3313,7 +3313,7 @@
 
 <http://data.doremus.org/vocabulary/genre/pae>
         a               skos:Concept ;
-        skos:altLabel   "Päan"@de , "Péans"@fr ;
+        skos:altLabel   "päan"@de , "péans"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "paean"@en , "peana"@it .
 
@@ -3324,7 +3324,7 @@
 
 <http://data.doremus.org/vocabulary/genre/agn>
         a               skos:Concept ;
-        skos:altLabel   "Agnus Dei (musique)"@fr ;
+        skos:altLabel   "agnus dei (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "agnus dei"@la .
 
@@ -3335,7 +3335,7 @@
 
 <http://data.doremus.org/vocabulary/genre/sn>
         a               skos:Concept ;
-        skos:altLabel   "canzona da sonar"@it , "kirchensonate"@it , "Sonates"@fr , "Sonatine"@de , "canzone da sonar"@it , "Kammersonate"@de , "sonate d'église"@fr , "sonata da chiesa"@it , "suonata"@it , "Klaviersonate"@de , "Solosonate"@de , "sonatina"@it , "sonatina"@en , "sonatine"@fr , "Sonatensatz"@de , "sonata da camera"@it ;
+        skos:altLabel   "canzona da sonar"@it , "kirchensonate"@it , "sonates"@fr , "sonatine"@de , "canzone da sonar"@it , "kammersonate"@de , "sonate d'église"@fr , "sonata da chiesa"@it , "suonata"@it , "klaviersonate"@de , "solosonate"@de , "sonatina"@it , "sonatina"@en , "sonatine"@fr , "sonatensatz"@de , "sonata da camera"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "sonate"@fr , "Sonate"@de , "sonata"@it , "sonata"@en , "sonata"@es .
 
@@ -3360,7 +3360,7 @@
 
 <http://data.doremus.org/vocabulary/genre/mxx>
         a               skos:Concept ;
-        skos:altLabel   "machiche"@pt , "matchiche"@pt , "Maxixes"@fr ;
+        skos:altLabel   "machiche"@pt , "matchiche"@pt , "maxixes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "maxixe"@pt .
 
@@ -3371,61 +3371,61 @@
 
 <http://data.doremus.org/vocabulary/genre/mc>
         a               skos:Concept ;
-        skos:altLabel   "musical comedy"@en , "musical"@en , "musical show"@en , "musical romance"@en , "folie musicale"@fr , "comédie musicale"@fr , "musical mummery"@en , "musical trifle"@en , "Comédies musicales"@fr , "musical fantasy"@en , "musical absurdity"@en , "musical play"@en ;
+        skos:altLabel   "musical comedy"@en , "musical"@en , "musical show"@en , "musical romance"@en , "folie musicale"@fr , "comédie musicale"@fr , "musical mummery"@en , "musical trifle"@en , "comédies musicales"@fr , "musical fantasy"@en , "musical absurdity"@en , "musical play"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "20th cent."@it , "20th cent."@en , "For musical revue prefer rev – revue"@en ;
         skos:prefLabel  "commedia musicale"@it , "musical revue and comedy"@en .
 
 <http://data.doremus.org/vocabulary/genre/fox>
         a               skos:Concept ;
-        skos:altLabel   "fox-trot"@en , "quickstep"@en , "Fox-trots"@fr , "Foxtrott"@de , "slowfox"@en , "fox trot"@en ;
+        skos:altLabel   "fox-trot"@en , "quickstep"@en , "fox-trots"@fr , "foxtrott"@de , "slowfox"@en , "fox trot"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for quickstep and slowfox"@en ;
         skos:prefLabel  "foxtrfot"@it , "foxtrot"@en .
 
 <http://data.doremus.org/vocabulary/genre/opc>
         a               skos:Concept ;
-        skos:altLabel   "opéra comique"@fr , "comédie mêlée d'ariettes"@fr , "Opéras-comiques"@fr ;
+        skos:altLabel   "opéra comique"@fr , "comédie mêlée d'ariettes"@fr , "opéras-comiques"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for comédie mêlée d’ariettes"@fr ;
         skos:prefLabel  "opéra-comique"@fr .
 
 <http://data.doremus.org/vocabulary/genre/mat>
         a               skos:Concept ;
-        skos:altLabel   "Matines (musique)"@fr ;
+        skos:altLabel   "matines (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "mattutino"@it , "matines"@fr , "matins"@en .
 
 <http://data.doremus.org/vocabulary/genre/sy>
         a               skos:Concept ;
-        skos:altLabel   "symphonie périodique"@fr , "sinfonia avanti l'opera"@it , "sinfonia d'opera"@it , "Symphonies"@fr , "prologo sinfonico"@it , "sinfonia periodica"@it ;
+        skos:altLabel   "symphonie périodique"@fr , "sinfonia avanti l'opera"@it , "sinfonia d'opera"@it , "symphonies"@fr , "prologo sinfonico"@it , "sinfonia periodica"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use for an extended and autonomous work for orchestra"@en ;
         skos:prefLabel  "symphony"@en , "symphonie"@fr , "sinfonia"@it .
 
 <http://data.doremus.org/vocabulary/genre/lby>
         a               skos:Concept ;
-        skos:altLabel   "cradle song"@en , "berceuse (populaire)"@fr , "lullaby (forma popolare)"@en , "Berceuses (musique vocale)"@fr ;
+        skos:altLabel   "cradle song"@en , "berceuse (populaire)"@fr , "lullaby (forma popolare)"@en , "berceuses (musique vocale)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "For the art form use bcs – berceuse"@en ;
         skos:prefLabel  "lullaby / cradle song"@en , "ninna nanna (forma popolare)"@it .
 
 <http://data.doremus.org/vocabulary/genre/vol>
         a               skos:Concept ;
-        skos:altLabel   "Wolte"@de , "Volta"@de , "levolto"@en , "lavolta"@en ;
+        skos:altLabel   "wolte"@de , "volta"@de , "levolto"@en , "lavolta"@en ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "volta"@it , "volta"@en , "Volte"@de , "volte"@fr .
 
 <http://data.doremus.org/vocabulary/genre/cl>
         a               skos:Concept ;
-        skos:altLabel   "Choralvorspiel"@de , "prélude de choral"@fr , "Préludes de chorals"@fr , "Orgelchoral"@de , "Choralbearbeitung"@de ;
+        skos:altLabel   "choralvorspiel"@de , "prélude de choral"@fr , "préludes de chorals"@fr , "orgelchoral"@de , "choralbearbeitung"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Instrumental"@de ;
         skos:prefLabel  "choral prelude"@en , "preludio corale"@it .
 
 <http://data.doremus.org/vocabulary/genre/prt>
         a               skos:Concept ;
-        skos:altLabel   "Partimenti"@fr ;
+        skos:altLabel   "partimenti"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "partimento"@it .
 
@@ -3442,20 +3442,20 @@
 
 <http://data.doremus.org/vocabulary/genre/vvn>
         a               skos:Concept ;
-        skos:altLabel   "varsoviana"@it , "Varsoviennes (musique)"@fr ;
+        skos:altLabel   "varsoviana"@it , "varsoviennes (musique)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "varsovienne"@fr .
 
 <http://data.doremus.org/vocabulary/genre/bgk>
         a               skos:Concept ;
-        skos:altLabel   "gaguku"@ja , "Gagaku"@fr ;
+        skos:altLabel   "gaguku"@ja , "gagaku"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for gagaku"@ja ;
         skos:prefLabel  "bugaku"@ja .
 
 <http://data.doremus.org/vocabulary/genre/pot>
         a               skos:Concept ;
-        skos:altLabel   "pot pourri"@fr , "Pots-pourris (musique) "@fr , "Pots-pourris"@fr ;
+        skos:altLabel   "pot pourri"@fr , "pots-pourris (musique) "@fr , "pots-pourris"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "potpourri"@en , "pot-pourri"@fr .
 
@@ -3506,7 +3506,7 @@
 
 <http://data.doremus.org/vocabulary/genre/mim>
         a               skos:Concept ;
-        skos:altLabel   "Parademarsch"@de , "Sturmmarsch"@de , "marcia di parata"@it , "Geschwindmarsch"@de , "Quickmarsch"@de , "Deployermarsch"@de , "Truppenmarsch"@de , "marcia di trasferimento"@it , "Armeemarsch"@de , "Präsentiermarsch"@de ;
+        skos:altLabel   "parademarsch"@de , "sturmmarsch"@de , "marcia di parata"@it , "geschwindmarsch"@de , "quickmarsch"@de , "deployermarsch"@de , "truppenmarsch"@de , "marcia di trasferimento"@it , "armeemarsch"@de , "präsentiermarsch"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "military march"@en , "marche militaire"@fr , "marcia militare"@it .
 
@@ -3518,13 +3518,13 @@
 
 <http://data.doremus.org/vocabulary/genre/bkm>
         a               skos:Concept ;
-        skos:altLabel   "Musique noire américaine"@fr ;
+        skos:altLabel   "musique noire américaine"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "black music"@en .
 
 <http://data.doremus.org/vocabulary/genre/sce>
         a               skos:Concept ;
-        skos:altLabel   "scena lirica"@it , "Ombra-Szene"@de ;
+        skos:altLabel   "scena lirica"@it , "ombra-szene"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "scene"@en , "scena"@it , "scène"@fr .
 
@@ -3542,7 +3542,7 @@
 
 <http://data.doremus.org/vocabulary/genre/swi>
         a               skos:Concept ;
-        skos:altLabel   "Swing (jazz)"@fr ;
+        skos:altLabel   "swing (jazz)"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "swing"@en .
 
@@ -3553,13 +3553,13 @@
 
 <http://data.doremus.org/vocabulary/genre/an>
         a               skos:Concept ;
-        skos:altLabel   "antem"@en , "antym"@en , "Anthems"@fr ;
+        skos:altLabel   "antem"@en , "antym"@en , "anthems"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "anthem"@en .
 
 <http://data.doremus.org/vocabulary/genre/pmk>
         a               skos:Concept ;
-        skos:altLabel   "Polkas-mazurkas"@fr ;
+        skos:altLabel   "polkas-mazurkas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "polka mazurka"@en , "polka mazurka"@fr , "polka mazurka"@it , "Polka Mazurka"@de .
 
@@ -3570,19 +3570,19 @@
 
 <http://data.doremus.org/vocabulary/genre/tvo>
         a               skos:Concept ;
-        skos:altLabel   "video opera"@en , "Fernsehoper"@de ;
+        skos:altLabel   "video opera"@en , "fernsehoper"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "television opera"@en , "opera televisiva"@it , "opéra pour la télévision"@fr .
 
 <http://data.doremus.org/vocabulary/genre/rg>
         a               skos:Concept ;
-        skos:altLabel   "rag"@en , "Ragtime"@fr ;
+        skos:altLabel   "rag"@en , "ragtime"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "ragtime"@en .
 
 <http://data.doremus.org/vocabulary/genre/inm>
         a               skos:Concept ;
-        skos:altLabel   "musique de scène"@fr , "theater music"@en , "Bühnenmusik"@de , "Musique de scène"@fr ;
+        skos:altLabel   "musique de scène"@fr , "theater music"@en , "bühnenmusik"@de , "musique de scène"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "incidental / theater music"@en , "musica di scena"@it .
 
@@ -3593,7 +3593,7 @@
 
 <http://data.doremus.org/vocabulary/genre/fad>
         a               skos:Concept ;
-        skos:altLabel   "fadinho"@pt , "Fados"@fr ;
+        skos:altLabel   "fadinho"@pt , "fados"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "fado"@pt .
 
@@ -3605,7 +3605,7 @@
 
 <http://data.doremus.org/vocabulary/genre/rhl>
         a               skos:Concept ;
-        skos:altLabel   "Bayerische Polka"@de , "Jägerschottisch"@de ;
+        skos:altLabel   "bayerische polka"@de , "jägerschottisch"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Use also for Bayerische Polka and similar"@de ;
         skos:prefLabel  "Rheinländer"@de .
@@ -3630,32 +3630,32 @@
 
 <http://data.doremus.org/vocabulary/genre/zwi>
         a               skos:Concept ;
-        skos:altLabel   "Doppelter"@de ;
+        skos:altLabel   "doppelter"@de ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "Zwiefacher"@de .
 
 <http://data.doremus.org/vocabulary/genre/blo>
         a               skos:Concept ;
-        skos:altLabel   "ballad farce"@en , "Bettleroper"@de , "Ballad operas"@fr ;
+        skos:altLabel   "ballad farce"@en , "bettleroper"@de , "ballad operas"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "ballad opera"@en .
 
 <http://data.doremus.org/vocabulary/genre/or>
         a               skos:Concept ;
-        skos:altLabel   "tragicomedia spirituale"@it , "historia"@la , "opera tragi-sacra"@it , "opera spirituale"@it , "opera sacra tragicomica"@it , "Passionsoratorium"@de , "oratorio sacro"@it , "lucubratio sacra canenda"@la , "operetta tragica da rappresentarsi nell'oratorio"@it , "sacro componimento per musica"@it , "opera biblica"@it , "opera sacro-scenica"@it , "operetta spirituale"@it , "operetta morale"@it , "trattenimento divoto"@it , "tragedia spirituale"@it , "horatorio"@it , "Oratorios"@fr , "operetta sacra"@it , "dramma musicale nell'oratorio"@it , "opera drammatica (sacra)"@it , "oratorium"@la , "musicalis interlocutio decantanda"@la , "istoria sacra da cantarsi"@it , "dramma per oratorio in musica"@it , "tragedia sacra"@it , "tragisacroscenica"@it , "passion oratorio"@en , "poema eroico sagro"@it , "rappresentazione sacra (dal 16. sec.)"@it , "melodrama sacro"@it , "melodramma"@it , "opera sacra"@it , "sacra rappresentazione (dal 16.sec.)"@it , "poema sacro"@it , "historia sacra cantata"@it , "oratorio allegorico"@it , "operetta drammatica (sacra)"@it , "pia rappresentazione"@it , "tragedia sagra"@it , "melodramma sacro"@it , "sacrum militare oratorium"@la , "melodrama"@it ;
+        skos:altLabel   "tragicomedia spirituale"@it , "historia"@la , "opera tragi-sacra"@it , "opera spirituale"@it , "opera sacra tragicomica"@it , "passionsoratorium"@de , "oratorio sacro"@it , "lucubratio sacra canenda"@la , "operetta tragica da rappresentarsi nell'oratorio"@it , "sacro componimento per musica"@it , "opera biblica"@it , "opera sacro-scenica"@it , "operetta spirituale"@it , "operetta morale"@it , "trattenimento divoto"@it , "tragedia spirituale"@it , "horatorio"@it , "oratorios"@fr , "operetta sacra"@it , "dramma musicale nell'oratorio"@it , "opera drammatica (sacra)"@it , "oratorium"@la , "musicalis interlocutio decantanda"@la , "istoria sacra da cantarsi"@it , "dramma per oratorio in musica"@it , "tragedia sacra"@it , "tragisacroscenica"@it , "passion oratorio"@en , "poema eroico sagro"@it , "rappresentazione sacra (dal 16. sec.)"@it , "melodrama sacro"@it , "melodramma"@it , "opera sacra"@it , "sacra rappresentazione (dal 16.sec.)"@it , "poema sacro"@it , "historia sacra cantata"@it , "oratorio allegorico"@it , "operetta drammatica (sacra)"@it , "pia rappresentazione"@it , "tragedia sagra"@it , "melodramma sacro"@it , "sacrum militare oratorium"@la , "melodrama"@it ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:note       "Latin"@it , "Includes melodramma sacro, opera spirituale and similar"@en , "With Latin text"@it , "Include melodramma sacro, opera spirituale e simili"@it ;
         skos:prefLabel  "oratorio"@it , "oratorio"@en , "oratorio"@fr .
 
 <http://data.doremus.org/vocabulary/genre/fus>
         a               skos:Concept ;
-        skos:altLabel   "Jazz-rock"@fr ;
+        skos:altLabel   "jazz-rock"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "fusion"@en .
 
 <http://data.doremus.org/vocabulary/genre/dtr>
         a               skos:Concept ;
-        skos:altLabel   "dithyrambus"@la , "Dithyrambes"@fr ;
+        skos:altLabel   "dithyrambus"@la , "dithyrambes"@fr ;
         skos:inScheme   "http://data.doremus.org/vocabulary/genre" ;
         skos:prefLabel  "dithyramb"@en , "ditirambo"@it , "dithyrambe"@fr .
 
