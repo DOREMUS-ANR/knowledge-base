@@ -1,0 +1,26 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Utility scripts for this repo",
+  "main": "index.js",
+  "scripts": {
+    "mop-iaml-post-script": "node mop-iaml-post-script",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOREMUS-ANR/knowledge-base.git"
+  },
+  "author": "pasquale.lisena@eurecom.fr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DOREMUS-ANR/knowledge-base/issues"
+  },
+  "homepage": "https://github.com/DOREMUS-ANR/knowledge-base#readme",
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "dependencies": {
+    "rdflib": "^0.10.0"
+  }
+}
