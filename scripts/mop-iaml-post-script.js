@@ -4,6 +4,7 @@
  */
 
 const fs = require('fs'),
+    isoConv = require('iso-language-converter'),
     unicodeConv = require('./common/unicode_converter'),
     rdfTranslator = require('./common/rdf_translator');
 $rdf = require('rdflib');
@@ -18,7 +19,7 @@ rdfData = literalLangFix(rdfData);
 
 var store = $rdf.graph();
 var contentType = 'text/turtle';
-var baseUrl = "http://data.doremus.org/vocabulary/iaml";
+var baseUrl = "http://iflastandards.info/ns/unimarc/terms/mop/";
 try {
     $rdf.parse(rdfData, store, baseUrl, contentType);
 
@@ -60,10 +61,22 @@ try {
 }
 
 // Literals are exported like "text@ita"
-// We want to change them to "text"@ita
+// We want to change them to "text"@it
 function literalLangFix(source) {
     // source should be a string
-    return source.replace(/@([a-z]{3})"/g, '"@$1');
+
+    // fix bad format
+    return source.replace(/@([a-z]{3})"/g, '"@$1')
+        // fix bad japanese co
+        .replace(/("@|\$\$)jap/g, '$1jpn')
+        // replace 3chars with 2chars in literals
+        .replace(/"@([a-z]{3})/g, (match, p1) => {
+            return '"@' + isoConv(p1, {
+                to: 1
+            });
+        })
+        // replace $$ita with Italian
+        .replace(/\$\$([a-z]{3})/g, (match, p1) => isoConv(p1));
 }
 
 function writeTtl(str) {

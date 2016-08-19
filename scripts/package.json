@@ -21,6 +21,7 @@
     "esversion": 6
   },
   "dependencies": {
+    "iso-language-converter": "^1.0.6",
     "rdflib": "^0.10.0"
   }
 }
