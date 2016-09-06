@@ -1,4 +1,3 @@
-// test string abcÃ¡ÃŸÃ§à¤•à¤–à¥€åœ‹éš›ðŽ„ðŽ”ðŽ˜
 /*
 	Copyright (C) 2007  Richard Ishida ishida@w3.org
 	This program is free software; you can redistribute it and/or modify it under the terms

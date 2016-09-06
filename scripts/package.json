@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "mop-iaml-post-script": "node mop-iaml-post-script",
+    "genre-aibm-post-script": "node genre-aibm-post-script",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
