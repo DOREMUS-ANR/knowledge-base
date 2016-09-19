@@ -1,0 +1,20 @@
+{
+  "name": "knowledge-loader",
+  "version": "0.0.1",
+  "description": "Load data on virtuoso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pasquale.lisena@eurecom.fr",
+  "license": "ISC",
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "dependencies": {
+    "deasync": "^0.1.7",
+    "follow-redirects": "^0.2.0",
+    "ncp": "^2.0.0",
+    "noop": "^0.2.2"
+  }
+}

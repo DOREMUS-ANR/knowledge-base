@@ -1,0 +1,20 @@
+{
+    "targetRoot": "/var/docker/virtuoso/doremus/data",
+    "toFile": true,
+    "db": {
+        "user": "dba",
+        "mountedVolumeRoot": "/config/data"
+    },
+    "sources": [{
+        "folder": "vocabularies",
+        "graph": "http://data.doremus.org/vocabulary",
+        "format": "*.ttl",
+        "clean": true
+    }, {
+        "folder": "ontology",
+        "remote": "https://github.com/DOREMUS-ANR/doremus-ontology/raw/master/doremus.ttl",
+        "graph": "http://data.doremus.org/ontology",
+        "format": "*.ttl",
+        "clean": true
+    }]
+}

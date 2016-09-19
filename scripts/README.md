@@ -3,7 +3,7 @@ Scripts
 
 Scripts to run after vocabulary generation through OpenRefine.
 
-Each command should be runned pointing to the `scripts` folder.
+Each command should be run pointing to the `scripts` folder.
 
     cd scripts/
 
