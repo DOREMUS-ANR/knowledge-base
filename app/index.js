@@ -8,7 +8,7 @@ const url = require('url');
 const config = require('./config.json');
 const Isql = require('./isql');
 
-var isql = new Isql(config.db.user);
+var isql = new Isql(config.db.user, true, config.db.isqlCommand);
 
 for (let src of config.sources) {
     if (src.skip) continue;

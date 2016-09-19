@@ -24,8 +24,9 @@ Write your configuration into the `config.json` file:
     "toFile": false, //specify true if you want to write the isql commands on a file
     "db": { //virtuoso settings
         "user": "dba", // user
-        "mountedVolumeRoot": "/tmp" //where virtuoso can find the files
+        "mountedVolumeRoot": "/tmp", //where virtuoso can find the files
         //normally, should be the same of targetRoot
+        "isqlCommand": "isql" // command to run for isql (i.e. isql-v)
     },
     "sources": [ // list of sources to upload
        {

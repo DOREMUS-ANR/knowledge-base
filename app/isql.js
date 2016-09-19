@@ -2,7 +2,7 @@ const exec = require('child_process').execSync;
 const noop = require('noop');
 
 class Isql {
-    constructor(user, log) {
+    constructor(user, log, alias = 'isql') {
         this.user = user;
         this.logger = log ? console.log : noop;
         this.commands = [];
@@ -18,7 +18,7 @@ class Isql {
         this.commands.push(this.toString(command));
     }
     toString(command) {
-        return `isql -U ${this.user} exec="${command}"`;
+        return `${this.alias} -U ${this.user} exec="${command}"`;
     }
     getCommands() {
         return this.commands;

@@ -3,7 +3,8 @@
     "toFile": true,
     "db": {
         "user": "dba",
-        "mountedVolumeRoot": "/config/data"
+        "mountedVolumeRoot": "/config/data",
+        "isqlCommand": "isql-v"
     },
     "sources": [{
         "folder": "vocabularies",
