@@ -4,6 +4,7 @@ const noop = require('noop');
 class Isql {
     constructor(user, log, alias = 'isql') {
         this.user = user;
+        this.alias = alias;
         this.logger = log ? console.log : noop;
         this.commands = [];
     }
