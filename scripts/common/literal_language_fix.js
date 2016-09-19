@@ -7,7 +7,7 @@ function literalLangFix(source) {
     // source should be a string
 
     // fix bad format
-    return source.replace(/@([a-z]{3})"/g, '"@$1')
+    return source.replace(/@([a-zA-Z\-]+)"/g, '"@$1')
         // fix bad japanese co
         .replace(/("@|\$\$)jap/g, '$1jpn')
         // replace 3chars with 2chars in literals
