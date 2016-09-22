@@ -10,4 +10,4 @@ https://github.com/DOREMUS-ANR/knowledge-base/blob/master/vocabularies/rameau.tt
 MIMO:
 https://github.com/philharmoniedeparis/mimo/blob/master/our-data/03_skos/keywords_skos.xml
 
-Note that an two alignements exist per pair of ontologies and format: one from A to B and another from B to A, the alignment process being asymetrique. 
+Note that two alignements exist per pair of ontologies and format: one from A to B and another from B to A (with A and B two vocabularies), the alignment process being asymetrique. 
