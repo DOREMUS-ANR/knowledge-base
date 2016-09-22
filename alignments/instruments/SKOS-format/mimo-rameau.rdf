@@ -1,0 +1,2152 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2276">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122711493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4128">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6537">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2361">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16980615w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2264">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2373">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169796882"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3111">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3269">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713862w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3475">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16720856f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3245">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3233">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3451">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307427s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3572">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713846n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3790">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270247f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3584">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122278274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3330">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13511156s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6840">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169277953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6525">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4443">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4322">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4455">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4116">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6622">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11976117r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4467">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4346">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4479">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122904671"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2265">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4018">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2289">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6526">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12546784c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6538">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2253">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2241">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5531">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166827708"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2807">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697991"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3486">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3232">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb150354285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3353">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb136237491"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3450">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16720715k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6635">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120627421"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4454">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4127">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb15065852r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4333">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6841">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167285525"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4369">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4103">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16953235h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4236">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270542j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6720">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2298">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6648">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16689562s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4029">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2250">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12303090g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2371">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11971088s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6527">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12546784c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3918">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2286">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2274">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5530">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3012">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690744f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5227">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16947161j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5348">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3036">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690744f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3267">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713813p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3497">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16764004s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2937">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271130p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2949">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16687870r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3255">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3594">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13619840f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3473">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12175608p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3570">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3582">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119983474"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4320">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4356">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6624">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4126">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4138">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711902t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4017">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4344">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4368">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2299">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6625">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2251">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2493">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2275">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3122">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16714792s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3134">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb145708603"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5359">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169029297"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3013">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981640b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3025">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12540473f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5347">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3158">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16737556h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3399">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122716186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3266">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16682242n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3363">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16720069k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3242">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12294217w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3230">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12016351t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6071">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169551420"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4101">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb157794463"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4343">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4573">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16961302j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4367">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4476">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122904671"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4488">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120627421"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6722">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4258">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14575110t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6759">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16763848c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3928">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169532523"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4693">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981628s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3819">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2296">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5770">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12290478p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3010">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697871"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2381">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122711462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2490">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166880149"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5685">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16940794g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2260">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11975043s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3143">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16719910c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5346">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3289">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713901z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2729">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13558230w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3277">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3495">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715674"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3265">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3241">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3471">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169622046"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3580">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122719108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4463">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270871z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4233">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711902t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4342">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4475">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11940904j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4257">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16965696h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4039">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6820">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169663858"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4136">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711902t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3818">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2273">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3806">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270247f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2297">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2285">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11974996m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2370">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119389226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3011">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697871"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3132">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167364518"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5684">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5345">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2827">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981878k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3288">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169024960"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3276">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3482">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16721327q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3252">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11979055r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2609">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16980591q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4341">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4450">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16742478j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4111">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270608n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4462">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3591">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11959305m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4232">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6700">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6833">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16714792s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4377">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950965z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2912">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11982141v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6616">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713901z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5223">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16928062f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5332">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169817758"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3177">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb15501270p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5695">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11940905w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5477">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167634964"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3493">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4461">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4485">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120627421"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4497">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4110">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270608n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4388">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4267">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16928312q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2703">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167439336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6508">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6714">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6702">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16686536h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3828">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11965960n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2283">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5234">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169479236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3142">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124210610"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5682">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11977663j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5343">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169542332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3804">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270245r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3937">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16961778w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3045">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169647627"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5246">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169534383"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3298">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16776372s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3286">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717968"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6293">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169242056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3395">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3274">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12541614q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4133">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4242">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16947161j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4012">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16962188s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4351">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4145">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169203165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4024">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166909309"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2813">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169796731"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4157">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920231s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4169">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3839">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270536m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3609">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271896j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6618">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3151">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16736293n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3042">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16688637m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3706">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135076401"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3827">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11965960n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/7044">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713901z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6294">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16980067g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3285">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3273">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167138815"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3394">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11974996m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6270">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169816572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3261">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16714337j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4362">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270897n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4495">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12337082f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2507">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16758007k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6800">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169271180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4047">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16748333r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4168">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16947062m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3729">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3608">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12227829t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2390">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16688625m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3031">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169819587"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3838">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16940728p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3826">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169213977"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3705">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715523"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2281">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11933131r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3188">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167376125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3079">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271130p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6271">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169816572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3296">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711725x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4361">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4240">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169479236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4494">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11940905w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4155">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169409345"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4264">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16902889t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3381">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb155012564"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4927">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb145708007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4131">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16952666n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4143">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122706048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4022">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16930922z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2859">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb121969174"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2968">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269798p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2738">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307234h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3185">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16763313b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3825">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169213977"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5352">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16961308m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3837">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705389"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6284">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16972730b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6272">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169816572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4372">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708593"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4829">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb157794463"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4708">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169618038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4360">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4493">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122904671"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4045">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16963220p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4263">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2965">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16687900v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2820">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697991"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2517">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb162715879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4299">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4142">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711902t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4154">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122706048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4287">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14575110t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4914">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169545703"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2856">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16982306k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2989">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307760f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6815">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16763313b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5690">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3509">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3162">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167634964"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3836">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11965960n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3945">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5169">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16715219k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3186">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb121466236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5254">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169269911"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3848">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16941454n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3812">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270247f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6055">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6140">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6285">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4020">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270588v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4492">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4250">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16965147x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4068">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166171753"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2821">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb162712237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4395">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16953381z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4189">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2506">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135777413"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4165">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14405710v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2930">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11982141v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2978">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3062">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3956">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3617">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271762z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3968">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16954505n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3859">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3932">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6262">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12293256j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6141">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4370">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950965z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4491">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715523"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2636">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb162719742"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4297">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4067">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2975">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4164">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4055">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119827436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6068">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169551420"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5252">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981878k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5470">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271510q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3063">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271135d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3628">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16682922z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3737">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3519">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12275075b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3979">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3099">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3604">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11959305m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5143">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16912208j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3834">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3713">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167210047"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5167">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169819525"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3822">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3955">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4393">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16670550d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2734">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169542781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2504">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4959">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705389"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4729">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169545180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4838">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16686536h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4296">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4175">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2952">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16687870r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4187">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12521786f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2879">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12198281s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2746">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981628s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3060">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb131964721"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6709">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16569260p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3181">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12508468z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3193">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16763332m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5251">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981875j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3736">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb125415869"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3930">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16748347f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3700">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166829119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3845">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135644958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3724">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb121969174"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3833">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270534x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4295">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2416">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11971088s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2973">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2743">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16549766q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2985">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271127s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2319">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11946205d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4934">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16736521m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2404">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122711462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6807">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5274">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981919b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3194">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124210610"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3868">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3747">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166906596"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3408">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271762z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3626">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16714376f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3832">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270534x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3820">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5177">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166871986"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3735">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12546784c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4173">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12490326h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4282">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4391">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13340075t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4040">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119687406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4294">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2756">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169271180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4197">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270540v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2308">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2974">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2429">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16747973d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4836">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16686536h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4703">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16972458w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4800">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/7028">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169431471"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3649">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119615252"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3613">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16278835k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3746">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920372n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3867">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4390">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3940">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166871986"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4281">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4075">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169029297"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2777">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb162586557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2886">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169647282"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2208">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932126x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6036">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16715012m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5151">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167424776"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2730">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124934046"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5260">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16747908z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3309">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120047877"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3406">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14420427z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3963">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3721">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16714792s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3515">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3757">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169242056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3878">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3987">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169020439"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3866">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3612">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3745">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920372n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5717">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122278274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4086">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6691">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2548">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16743492b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2899">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307234h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2318">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11946205d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2887">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12198281s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2306">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2875">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16982061w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4858">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12198281s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4822">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16569260p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4701">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167632419"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3080">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb145721839"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2642">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16963220p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2993">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119389226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5392">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167128859"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3538">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124086988"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3308">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167661663"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3514">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3853">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16945824s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3986">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169020439"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3732">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3502">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16763390s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3962">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4182">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2799">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb123073908"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6147">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2873">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166907224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2752">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16693145v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2970">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269798p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3319">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122716186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3525">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13510670g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3876">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3658">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16715012m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3501">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3610">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4060">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16918147m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3961">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3731">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4096">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4072">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4193">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16942342m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6148">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2316">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119985570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4832">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690562t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2679">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16932665w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4601">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920372n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2531">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2301">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4419">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12571708p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2991">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119389226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2870">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166907224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3318">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271668r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3875">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3512">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122716186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3633">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271557t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3899">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3960">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270542j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3863">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11982141v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5726">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3730">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11960149q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4988">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb121969174"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2579">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12572179s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2349">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5195">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16670550d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2532">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2653">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16747908z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3329">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12331135r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3898">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3559">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3305">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950982j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3656">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13508271f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3402">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16720369d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3971">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167665964"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3874">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3983">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb165890282"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3753">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12536903w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6683">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4648">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169435621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2205">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120765132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2302">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6320">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16686981f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2217">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271473s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4733">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16966341n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4611">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16961308m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4405">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169546157"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2311">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4429">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169534383"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2892">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16928062f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3897">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16158010f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3316">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb121756060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3304">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950982j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3413">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307733j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5700">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16695121b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3534">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711273d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3970">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119818348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4081">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3510">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3643">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4093">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3873">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6660">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6139">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2226">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122714744"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4635">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16954171b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5193">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb165890282"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2760">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169622046"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3799">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16686981f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3218">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16763588s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3569">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3787">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270247f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5711">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb165890282"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3545">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16901412w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3436">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167205031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3642">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12184776d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3521">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124086988"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5517">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920173f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3860">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5723">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950965z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5759">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16737634g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6116">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6540">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb162586557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4658">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169333926"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2239">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6334">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2321">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119985570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2430">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16973105q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4318">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2224">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135068452"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3677">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12184776d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3568">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb151095953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5516">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3883">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3107">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3786">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5649">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119389226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6686">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16689038j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6117">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6674">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122706048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6662">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167365479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2599">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690553v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6311">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122706048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4329">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4850">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16714376f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3688">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16696827k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3228">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3216">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167635503"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3325">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307414f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3204">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122719437"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3894">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16943131n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3313">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11974996m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3882">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3434">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167204508"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3797">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5769">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120627421"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3108">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5515">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167144323"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5309">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16932103z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6578">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2358">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb136198633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6542">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14632592q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2249">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6554">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4402">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16953458q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2573">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167429914"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2210">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb165331683"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2585">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4437">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169542332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2246">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167356580"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2234">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270608n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4328">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2682">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb15521596m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5720">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690895m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3239">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3336">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16589015q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3469">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167513698"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3566">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3300">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16981861v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3760">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920372n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3881">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3990">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169618398"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6555">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6325">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16903085g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6337">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6543">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270608n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4788">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122942961"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4327">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4787">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4666">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16941529q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2780">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16903085g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4872">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16953458q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2235">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2598">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16593511g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4339">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4218">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16947840h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5513">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169806701"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3238">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167200834"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3226">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12211154f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3795">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5767">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3106">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715763"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3783">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16921653f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3202">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13337394d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3541">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16711436r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3880">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6653">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6556">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166889452"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2368">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb125277021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6798">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166968205"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4217">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14575110t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2244">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122711582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4338">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4447">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4326">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4459">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4786">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166968205"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4205">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2232">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2268">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2498">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167424776"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2220">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3103">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16682242n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3249">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3115">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167362402"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3237">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3006">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12542247t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3576">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122719139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3225">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3139">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16736259g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3794">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3588">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13619784s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3322">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271764n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3443">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135076583"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3564">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3661">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16226614j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6557">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16688937f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6860">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16569260p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6787">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16686765n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6666">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169029297"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4302">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6400">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4228">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169479058"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2233">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4349">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2487">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169807662"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2257">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14632592q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2572">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167429798"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3236">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11961430c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3224">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3575">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119983474"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3660">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307635z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3793">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270542j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3781">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690649w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6631">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6401">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6534">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6546">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932125k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6558">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2269">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16552616d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4325">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4446">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950965z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4239">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14572201d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2266">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2387">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11976117r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4796">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4675">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16943203p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4118">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2278">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2460">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16719695r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2484">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16980747s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2230">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932125k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5413">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169618038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3101">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981325x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3113">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124210610"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5401">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16713846n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3368">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167201199"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2808">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169816572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3247">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3598">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11959305m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3574">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12227829t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3586">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13619840f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3332">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12502847n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3441">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307615b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6402">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16688937f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4215">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16947089n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4336">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3909">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2364">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270608n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2243">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb125014537"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2279">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4117">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4129">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6669">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2267">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135086946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2231">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3102">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715763"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3379">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169647282"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3585">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985553p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3597">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122278274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3561">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3573">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6536">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4444">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16954563t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4347">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4335">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4468">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4214">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270545k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4589">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16980151c"/>
+  </rdf:Description>
+</rdf:RDF>

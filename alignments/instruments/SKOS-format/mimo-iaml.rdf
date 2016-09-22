@@ -1,0 +1,1432 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4128">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6537">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2470">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2264">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3111">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3245">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2806">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/oga"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3233">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3790">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6525">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4443">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/msw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4116">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4322">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4455">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4358">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4467">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6622">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4346">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4479">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mpp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2265">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4018">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/msw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2289">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2471">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6538">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2253">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2241">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3112">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2807">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3571">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/spo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4321">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4454">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bvb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4333">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4369">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4357">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6720">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4236">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/woa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2298">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4029">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2250">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2371">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pbl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3918">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2286">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2274">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5530">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2937">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pmb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3255">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2949">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3473">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3594">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/spv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3570">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3582">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4320">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4126">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4356">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6624">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4017">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4138">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bhh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4344">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4368">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2299">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6625">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2251">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2493">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3929">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2275">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3808">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3399">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tmd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3266">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2805">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/oga"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3242">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/thg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3230">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4101">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mwh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4343">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4367">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4476">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mpp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6722">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wpi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3807">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4693">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2296">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5770">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3010">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5685">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2260">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mpp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2381">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pbl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3277">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3265">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3241">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4112">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4233">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bhh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4463">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/beu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4342">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4039">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4136">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bhh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2273">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3818">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2297">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2370">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mwd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3011">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5684">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3276">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4111">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4341">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4123">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4462">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3591">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4232">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4377">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6700">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2912">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5695">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mbx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2270">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mzz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4461">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4243">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4497">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4110">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4388">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6508">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6617">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6968">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6714">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2283">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3828">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3142">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sfi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3154">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pnv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3804">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2849">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pgo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3286">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tih"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3274">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4460">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4133">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4024">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wpp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4351">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4169">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3839">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3609">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6618">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5015">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tkt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3042">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/psm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3827">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3285">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4350">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3394">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tlu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4362">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2967">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/psp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3729">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5692">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3608">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3838">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3959">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2281">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3826">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3079">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pmb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4361">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2811">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4494">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mbx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4143">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wmo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2968">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kgl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4179">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sbu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3825">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3946">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3837">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6284">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4372">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4829">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mwh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4360">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4493">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2965">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4263">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2820">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2408">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pbl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2517">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4154">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wmo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4287">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2529">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2989">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5690">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3509">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6827">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/prs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3836">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3945">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3812">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3800">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6055">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6140">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6285">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4492">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4177">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2821">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4189">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2506">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pbd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2930">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2978">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3062">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pxy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3956">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3859">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3823">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bkb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3932">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/msw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6141">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4370">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4273">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4297">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2515">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pbo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2745">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pbe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4067">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/msw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4164">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4176">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3737">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3519">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/stm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3979">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3604">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3099">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pxy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3834">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wbh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3822">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3955">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4284">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wpo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2504">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2734">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4959">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4296">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4175">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2952">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2988">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mzz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2879">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2746">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3518">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mmc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3736">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3615">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3930">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3700">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3833">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wbh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4174">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4295">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4283">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2743">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pgo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2864">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mjh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2319">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2985">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pvi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2404">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5141">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6807">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3194">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mmc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3868">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3832">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3820">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4282">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4185">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2998">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4197">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/weh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2308">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4824">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4800">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3516">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mmc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3746">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wbp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3867">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4184">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4281">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2208">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ezz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4835">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2730">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/psl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3963">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3515">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3878">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3612">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3745">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wbp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3866">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4086">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4171">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6691">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2318">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2887">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2306">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4967">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3538">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mbw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3514">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3732">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3853">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3768">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wmu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4170">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3962">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5716">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4182">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6147">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2873">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pji"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4408">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bkb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2861">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mjh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2970">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kgl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3319">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tmd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3876">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3501">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tlg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3610">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4181">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wpo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3731">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3961">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5703">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4096">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4072">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6148">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2316">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/esy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4832">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2531">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2301">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4419">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2870">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pji"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3512">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tmd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3633">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3899">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5702">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3960">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3863">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5726">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3730">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mwd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2349">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2532">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4309">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mzz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2762">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3668">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tkt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3898">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3305">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mhg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3559">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3874">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6683">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2423">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2217">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2420">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2444">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pwh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2311">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3558">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3788">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3316">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3304">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mhg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5700">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/psl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4081">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/msw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3510">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3970">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wga"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4093">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3643">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3873">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6660">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6139">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2347">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mmi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2990">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3569">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3787">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3521">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mbw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3642">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tps"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5723">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3860">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6116">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2687">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6540">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2239">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2469">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2348">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mmi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2321">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/esy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2224">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2793">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3677">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tps"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3568">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5516">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/msw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3883">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3786">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3107">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6117">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6674">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wmo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2369">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pnv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2599">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pfd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6311">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wmo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4329">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/val"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3228">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tbj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3313">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tlu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3555">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mzz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3797">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5648">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/psn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5769">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/och"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3108">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6578">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2358">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mcb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2225">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/eth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2467">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6554">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2249">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2585">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2246">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2355">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mzz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2488">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4328">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3239">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3893">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wpp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3566">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6555">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6337">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bvb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4401">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mgt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6543">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4788">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4327">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4787">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2235">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4339">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3226">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tbj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3347">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pgo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3335">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3565">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pnv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3795">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3202">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3106">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5767">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3880">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6653">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2489">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2368">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4338">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4447">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2232">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4205">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4326">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4459">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2268">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3249">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3237">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3225">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3576">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3794">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3564">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4544">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6400">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4302">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4349">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2233">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4458">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2354">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ezz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2451">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pcy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3236">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3224">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3575">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3793">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6401">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6631">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6534">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/brh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6558">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/pdr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4325">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4446">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2266">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2387">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4796">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2278">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4118">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2230">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mwd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5764">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3101">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3598">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3247">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tlg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3235">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3574">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3586">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/spv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4336">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3909">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2243">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2364">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4117">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2279">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kpf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4129">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6669">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/khm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2267">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2231">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/kcl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2352">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/mmi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3102">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3005">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/ptl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3585">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3791">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/vbs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3561">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3573">
+    <SKOS:exactMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/svl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6536">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/tgu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4347">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/wsa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4456">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/sva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4335">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/bbu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4468">
+    <SKOS:closeMatch rdf:resource="http://iflastandards.info/ns/unimarc/terms/mop/btu"/>
+  </rdf:Description>
+</rdf:RDF>

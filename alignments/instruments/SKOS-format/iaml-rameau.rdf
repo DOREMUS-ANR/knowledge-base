@@ -1,0 +1,358 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/spv">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13619840f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tci">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715763"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sva">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tps">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12184776d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kcl">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wdb">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270245r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kgl">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269798p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mpp">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11975043s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/psm">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16688637m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/ptg">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697991"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bho">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/vbr">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985553p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pcv">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12307760f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kpf">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pwm">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11960149q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bvb">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pbl">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11971088s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wga">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119818348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pab">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122711462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pbd">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb135777413"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/msw">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12015450h"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mms">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb125277021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/woa">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270542j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pfd">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16690553v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kce">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269776c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bbb">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/svg">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11959305m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tth">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12175608p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mbr">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb169213977"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wfl">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119712096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mcl">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16689649v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wpp">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166909309"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mah">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pji">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb166907224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kor">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tuk">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12305133d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tha">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pvi">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271127s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bco">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mbs">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270897n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pra">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697871"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mwd">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11960149q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tal">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb121756060"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bbu">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/ema">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271473s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sba">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985553p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sfi">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124210610"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tmd">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122716186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wre">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119656228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/khm">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/stm">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12275075b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/psl">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124934046"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bhh">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124934166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mhg">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950982j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wpi">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kba">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12274777q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/esy">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119985570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pmd">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tgu">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sre">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb13337394d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mbx">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11940905w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/weh">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270540v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wcl">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11965960n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/ptb">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981628s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/thg">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12294217w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pci">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271557t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sdb">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119600781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/ost">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981325x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tlg">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122715612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mcb">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb136198633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pme">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16687900v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tma">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/btb">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/beu">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270871z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wge">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124934166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/btr">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11950965z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kps">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb14628431g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/ptt">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb162586557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kca">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11976117r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pmb">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12271130p"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mha">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270608n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sar">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122719139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bah">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708593"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wsa">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wcr">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mla">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11982141v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wbp">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16920372n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/sbt">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270897n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/vbs">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270897n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/bct">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/svc">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119983474"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wbh">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705238"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tlu">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11974996m"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pxy">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122697949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pgo">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16549766q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/khp">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/btu">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270906s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pli">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16687870r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mgh">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12188366z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wob">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119601351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/svl">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tzi">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/svd">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12227829t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mbw">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb124086988"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pti">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12198281s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wmo">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122706048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/mwh">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb157794463"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pdr">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tbj">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12211154f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wfi">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122705029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/brh">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wfa">
+    <SKOS:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12270542j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kco">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb167356580"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/tih">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb122717968"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/wba">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/pad">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb126990951"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/kac">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/unimarc/terms/mop/ptr">
+    <SKOS:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11981627f"/>
+  </rdf:Description>
+</rdf:RDF>
