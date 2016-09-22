@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wdb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270245r'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kps'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb14628431g'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8660253882408142</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/btb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11985550n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sar'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122719139'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wsa'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11966972w'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bvb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708651'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8164966106414795</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wpi'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705923'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pab'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122711462'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pwm'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11960149q'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8206393122673035</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/psm'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16688637m'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pvi'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271127s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tma'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717681'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tci'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715763'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wre'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119656228'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mla'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11982141v'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mha'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270608n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sdb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119600781'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tha'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11948112w'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wfi'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705029'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pti'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12198281s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/btu'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270906s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kco'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb167356580'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pli'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16687870r'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9523809552192688</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/vbr'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11985553p'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/woa'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270542j'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pra'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697871'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9411764740943909</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mwd'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11960149q'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9843829870223999</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wga'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119818348'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/stm'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12275075b'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mwh'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb157794463'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sva'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708411'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tth'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12175608p'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wge'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb124934166'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8359541296958923</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bbb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270879q'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pci'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271557t'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mpp'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11975043s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sre'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb13337394d'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pji'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb166907224'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wfa'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270542j'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8164966106414795</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/esy'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119985570'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mbx'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11940905w'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9706434607505798</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pme'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16687900v'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9599999785423279</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wba'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12269056t'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bbu'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270846r'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/psl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb124934046'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8680286407470703</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/ptt'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb162586557'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/beu'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270871z'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wpp'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb166909309'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9330127239227295</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kac'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11987678s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tmd'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122716186'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tih'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717968'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kor'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119353920'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tps'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12184776d'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/msw'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12015450h'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wfl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119712096'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tal'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb121756060'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mgh'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12188366z'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9821547865867615</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kpf'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11932961n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tuk'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12305133d'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wbp'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16920372n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mcl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16689649v'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9491492509841919</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sfi'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb124210610'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mms'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb125277021'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pmd'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16271576n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mah'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717999'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/svl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11969158v'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/ema'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271473s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wcl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11965960n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pbl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11971088s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wbh'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705238'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/brh'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708531'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/weh'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270540v'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sba'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11985553p'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mbs'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270897n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/sbt'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270897n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8069959282875061</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/svd'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12227829t'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pfd'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16690553v'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9782826900482178</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tlg'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715612'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bct'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270867q'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mbw'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb124086988'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pbd'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb135777413'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/thg'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12294217w'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9392120242118835</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bhh'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb124934166'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wmo'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122706048'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9706434607505798</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pad'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb126990951'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/ost'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981325x'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8164966106414795</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/khm'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12202452m'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pgo'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16549766q'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9082483053207397</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mhg'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11950982j'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/ptg'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697991'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8888888955116272</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bah'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708593'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/svc'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119983474'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/svg'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11959305m'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kce'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12269776c'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kba'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12274777q'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/ptr'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981627f'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bho'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708531'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/khp'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119454031'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/bco'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708651'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tbj'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12211154f'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mbr'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb169213977'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9230769276618958</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tzi'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981445t'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kca'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11976117r'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/btr'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11950965z'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pcv'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307760f'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tlu'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11974996m'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wcr'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705687'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/vbs'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270897n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8535534143447876</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/wob'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb119601351'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/tgu'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11938184j'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pdr'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb16271576n'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pmb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271130p'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/ptb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981628s'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9816151261329651</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/spv'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb13619840f'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kgl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb12269798p'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/kcl'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb11978172c'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/mcb'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb136198633'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://iflastandards.info/ns/unimarc/terms/mop/pxy'/>
+      <entity2 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697949'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
+
