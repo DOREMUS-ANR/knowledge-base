@@ -22,3 +22,7 @@ AIBM/IAML Medium of performance
 AIBM/IAML Genre
 
     npm run genre-aibm-post-script
+
+Mode
+
+    npm run mode-post-script
