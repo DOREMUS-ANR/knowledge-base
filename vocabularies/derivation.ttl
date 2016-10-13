@@ -5,7 +5,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.doremus.org/vocabulary/derivation> a skos:ConceptScheme ;
+<http://data.doremus.org/vocabulary/derivation/> a skos:ConceptScheme ;
     rdfs:label "List of types of derivation"@en,
         "Liste de type de dérivation"@fr,
         "Lista dei tipi di derivazione"@it ;
@@ -25,7 +25,7 @@
         "Arreglo"@es,
         "Arrangement"@fr,
         "Arrangiamento"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/fantasy> a skos:Concept ;
     skos:altLabel "Phantasie"@de,"""Fancy
@@ -41,7 +41,7 @@ Au siècle dernier, -notamment en ce qui concerne les œuvres pour piano- œuvre
         "Fantasía"@es,
         "Fantaisie"@fr,
         "Fantasia"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/harmonization> a skos:Concept ;
     skos:definition """Réalisation de l’accompagnement harmonique d’une mélodie.
@@ -51,7 +51,7 @@ Au siècle dernier, -notamment en ce qui concerne les œuvres pour piano- œuvre
         "Armonización"@es,
         "Harmonisation"@fr,
         "Armonizzazione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/medley> a skos:Concept ;
     skos:altLabel """Pot-pourri
@@ -64,7 +64,7 @@ Potpourri"""@en ;
         "Popurrí"@es,
         "Pot-pourri"@fr,
         "Pot-pourri"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/orchestration> a skos:Concept ;
     skos:altLabel "Orchestrierung"@de ;
@@ -76,7 +76,7 @@ Potpourri"""@en ;
         "Orquestración"@es,
         "Orchestration"@fr,
         "Orchestrazione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/paraphrase> a skos:Concept ;
     skos:altLabel "Parafrasi"@it ;
@@ -90,7 +90,7 @@ Au XIXe s., fantaisie brillante écrite généralement pour le piano sur des air
         "Paráfrasis"@es,
         "Paraphrase"@fr,
         "Paràfrasi"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/parody> a skos:Concept ;
     skos:definition """Imitation burlesque (d’une œuvre sérieuse). Contrefaçon ridicule.
@@ -102,7 +102,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Parodia"@es,
         "Parodie"@fr,
         "Parodia"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/quotation> a skos:Concept ;
     skos:altLabel "Zitat"@de,
@@ -115,7 +115,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Citación"@es,
         "Réminiscence"@fr,
         "Citazione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/reconstruction> a skos:Concept ;
     skos:definition "Reconstruction d’une oeuvre perdue ou inachevée."@fr ;
@@ -124,7 +124,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Reconstrucción"@es,
         "Reconstruction"@fr,
         "Ricostruzione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/reduction> a skos:Concept ;
     skos:definition """Abrègement d’une partition conçue pour plusieurs instruments ou voix qui est destiné à un plus petit nombre d’exécutants. Réduction pour piano : abrègement pour le piano d’une partition écrite pour un ensemble de plusieurs exécutants.
@@ -135,7 +135,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Reducción"@es,
         "Réduction"@fr,
         "Riduzione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/reharmonization> a skos:Concept ;
     skos:altLabel "Riarmonizzazione"@it ;
@@ -146,7 +146,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Reharmonization"@en,
         "Réharmonisation"@fr,
         "Rearmonizzazione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/reorchestration> a skos:Concept ;
     skos:definition """Changement, révision d’une orchestration.
@@ -155,7 +155,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Reorchestration"@en,
         "Réorchestration"@fr,
         "Riorchestrazione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/revision> a skos:Concept ;
     skos:definition """Ensemble des adaptations appliquées à une partition ancienne aux conventions modernes.
@@ -165,7 +165,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Revision"@en,
         "Révision"@fr,
         "Revisione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/transcription> a skos:Concept ;
     skos:definition """Arrangement ou adaptation d’une œuvre musicale pour un autre instrument ou voix que l’original.
@@ -176,7 +176,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Transcripcón"@es,
         "Transcription"@fr,
         "Trascrizione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/transposition> a skos:Concept ;
     skos:altLabel "Trasporto"@it ;
@@ -188,7 +188,7 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Trasposizione"@es,
         "Transposition"@fr,
         "Trasposizione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/variation> a skos:Concept ;
     skos:definition """Procédé fondamental du langage musical consistant à transformer un élément thématique de base, à l’aide d’artifices variés. Considérée au sens large comme le développement d’une composition, la variation utilise de multiples procédés qui peuvent, selon leur nature, concerner la mélodie (ornements, inversions, rétrogradations, etc.), le rythme (diminution, augmentation, ornementation, modifications métriques, de tempo, etc.), l’harmonie (altérations, modulations tonales ou modales, élargissement du matériau original harmonique, etc.), le timbre (modification de la couleur instrumentale, du registre, etc.) ou peuvent être de nature agogique ou dynamique […].
@@ -202,4 +202,4 @@ Modification […] importante par rapport à l'œuvre initiale qui n'est plus pr
         "Variación"@es,
         "Variation"@fr,
         "Variazione"@it ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
