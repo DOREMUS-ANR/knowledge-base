@@ -22,6 +22,8 @@
     "esversion": 6
   },
   "dependencies": {
+    "async": "^2.1.2",
+    "csv-parser": "^1.11.0",
     "iso-language-converter": "^1.0.6",
     "rdflib": "^0.10.0"
   }

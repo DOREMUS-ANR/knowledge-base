@@ -7,22 +7,36 @@ Each command should be run pointing to the `scripts` folder.
 
     cd scripts/
 
-### Installation
+## Installation
 
 Latest version of Node.JS is required.
 
     npm install
 
-### Commands
+## Commands
+
+### vocabularies
 
 AIBM/IAML Medium of performance
 
-    npm run mop-iaml-post-script
+    node mop-iaml-post-script
 
 AIBM/IAML Genre
 
-    npm run genre-aibm-post-script
+    node genre-aibm-post-script
 
 Mode
 
-    npm run mode-post-script
+    node mode-post-script
+
+### collections
+
+Collections should be located in the `raw-data` folder in `tsv` format.
+
+RAMEAU Medium of performance
+
+    node rameau-mop-script
+
+RAMEAU Ethnic groups
+
+    node rameau-groups-script
