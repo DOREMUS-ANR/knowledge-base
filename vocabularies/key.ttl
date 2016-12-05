@@ -11,205 +11,204 @@
 <http://data.doremus.org/vocabulary/key/cb> a skos:Concept ;
 	skos:prefLabel "Do bémol majeur"@fr ;
 	skos:editorialNote "unimarc: cb"@fr ;
-	skos:prefLabel "C-flat Major"@en-us , "C flat Major"@en-gb , "Do bemolle maggiore"@it , "Do bemol mayor"@es , "Ces Dur"@de ;
+	skos:prefLabel "C flat Major"@en , "Do bemolle maggiore"@it , "Do bemol mayor"@es , "Ces Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CFlatMajor> .
-
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CFlatMajor> , <http://iflastandards.info/ns/unimarc/terms/key#cb> .
 
 <http://data.doremus.org/vocabulary/key/c> a skos:Concept ;
 	skos:prefLabel "Do majeur"@fr ;
 	skos:editorialNote "unimarc: c"@fr ;
-	skos:prefLabel "C Major"@en-us , "C Major"@en-gb , "Do maggiore"@it , "Do mayor"@es , "C Dur"@de ;
+	skos:prefLabel "C Major"@en , "Do maggiore"@it , "Do mayor"@es , "C Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CMajor> , <http://iflastandards.info/ns/unimarc/terms/key#c> .
 
 <http://data.doremus.org/vocabulary/key/cm> a skos:Concept ;
 	skos:prefLabel "Do mineur"@fr ;
 	skos:editorialNote "unimarc: cm"@fr ;
-	skos:prefLabel "C Minor"@en-us , "C Minor"@en-gb , "Do minore"@it , "Do menor"@es , "C Moll"@de ;
+	skos:prefLabel "C Minor"@en , "Do minore"@it , "Do menor"@es , "C Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CMinor> , <http://iflastandards.info/ns/unimarc/terms/key#cm> .
 
 <http://data.doremus.org/vocabulary/key/cx> a skos:Concept ;
 	skos:prefLabel "Do dièse majeur"@fr ;
 	skos:editorialNote "unimarc: cx"@fr ;
-	skos:prefLabel "C-sharp Major"@en-us , "C sharp Major"@en-gb , "Do diesis maggiore"@it , "Do sostenido mayor"@es , "Cis Dur"@de ;
+	skos:prefLabel "C sharp Major"@en , "Do diesis maggiore"@it , "Do sostenido mayor"@es , "Cis Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CSharpMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CSharpMajor> , <http://iflastandards.info/ns/unimarc/terms/key#cx> .
 
 <http://data.doremus.org/vocabulary/key/cxm> a skos:Concept ;
 	skos:prefLabel "Do dièse mineur"@fr ;
 	skos:editorialNote "unimarc: cxm"@fr ;
-	skos:prefLabel "C-sharp Minor"@en-us , "C sharp Minor"@en-gb , "Do diesis minore"@it , "Do sostenido menor"@es , "Cis Moll"@de ;
+	skos:prefLabel "C sharp Minor"@en , "Do diesis minore"@it , "Do sostenido menor"@es , "Cis Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CSharpMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#CSharpMinor> , <http://iflastandards.info/ns/unimarc/terms/key#cxm> .
 
 <http://data.doremus.org/vocabulary/key/db> a skos:Concept ;
 	skos:prefLabel "Ré bémol majeur"@fr ;
 	skos:editorialNote "unimarc: db"@fr ;
-	skos:prefLabel "D-flat Major"@en-us , "D flat Major"@en-gb , "Re bemolle maggiore"@it , "Re bemol mayor"@es , "Des Dur"@de ;
+	skos:prefLabel "D flat Major"@en , "Re bemolle maggiore"@it , "Re bemol mayor"@es , "Des Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DFlatMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DFlatMajor> , <http://iflastandards.info/ns/unimarc/terms/key#db> .
 
 <http://data.doremus.org/vocabulary/key/d> a skos:Concept ;
 	skos:prefLabel "Ré majeur"@fr ;
 	skos:editorialNote "unimarc: d"@fr ;
-	skos:prefLabel "D Major"@en-us , "D Major"@en-gb , "Re maggiore"@it , "Re mayor"@es , "D Dur"@de ;
+	skos:prefLabel "D Major"@en , "Re maggiore"@it , "Re mayor"@es , "D Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DMajor> , <http://iflastandards.info/ns/unimarc/terms/key#d> .
 
 <http://data.doremus.org/vocabulary/key/dm> a skos:Concept ;
 	skos:prefLabel "Ré mineur"@fr ;
 	skos:editorialNote "unimarc: dm"@fr ;
-	skos:prefLabel "D Minor"@en-us , "D Minor"@en-gb , "Re minore"@it , "Re menor"@es , "D Moll"@de ;
+	skos:prefLabel "D Minor"@en , "Re minore"@it , "Re menor"@es , "D Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DMinor> , <http://iflastandards.info/ns/unimarc/terms/key#dm> .
 
 <http://data.doremus.org/vocabulary/key/dxm> a skos:Concept ;
 	skos:prefLabel "Ré dièse mineur"@fr ;
 	skos:editorialNote "unimarc: dxm"@fr ;
-	skos:prefLabel "D-sharp Minor"@en-us , "D sharp Minor"@en-gb , "Re diesis minore"@it , "Re sostenido menor"@es , "Dis Moll"@de ;
+	skos:prefLabel "D sharp Minor"@en , "Re diesis minore"@it , "Re sostenido menor"@es , "Dis Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DSharpMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#DSharpMinor> , <http://iflastandards.info/ns/unimarc/terms/key#dxm> .
 
 <http://data.doremus.org/vocabulary/key/eb> a skos:Concept ;
 	skos:prefLabel "Mi bémol majeur"@fr ;
 	skos:editorialNote "unimarc: eb"@fr ;
-	skos:prefLabel "E-flat Major"@en-us , "E flat Major"@en-gb , "Mi bemolle maggiore"@it , "Mi bemol mayor"@es , "Es Dur"@de ;
+	skos:prefLabel "E flat Major"@en , "Mi bemolle maggiore"@it , "Mi bemol mayor"@es , "Es Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EFlatMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EFlatMajor> , <http://iflastandards.info/ns/unimarc/terms/key#eb> .
 
 <http://data.doremus.org/vocabulary/key/ebm> a skos:Concept ;
 	skos:prefLabel "Mi bémol mineur"@fr ;
 	skos:editorialNote "unimarc: ebm"@fr ;
-	skos:prefLabel "E-flat MInor"@en-us , "E flat Minor"@en-gb , "Mi bemolle minore"@it , "Mi bemol menor"@es , "Es Moll"@de ;
+	skos:prefLabel "E flat Minor"@en , "Mi bemolle minore"@it , "Mi bemol menor"@es , "Es Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EFlatMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EFlatMinor> , <http://iflastandards.info/ns/unimarc/terms/key#ebm> .
 
 <http://data.doremus.org/vocabulary/key/e> a skos:Concept ;
 	skos:prefLabel "Mi majeur"@fr ;
 	skos:editorialNote "unimarc: e"@fr ;
-	skos:prefLabel "E Major"@en-us , "E Major"@en-gb , "Mi maggiore"@it , "Mi mayor"@es , "E Dur"@de ;
+	skos:prefLabel "E Major"@en , "Mi maggiore"@it , "Mi mayor"@es , "E Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EMajor> , <http://iflastandards.info/ns/unimarc/terms/key#e> .
 
 <http://data.doremus.org/vocabulary/key/em> a skos:Concept ;
 	skos:prefLabel "Mi mineur"@fr ;
 	skos:editorialNote "unimarc: em"@fr ;
-	skos:prefLabel "E Minor"@en-us , "E Minor"@en-gb , "Mi minore"@it , "Mi menor"@es , "E Moll"@de ;
+	skos:prefLabel "E Minor"@en , "Mi minore"@it , "Mi menor"@es , "E Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#EMinor> , <http://iflastandards.info/ns/unimarc/terms/key#em> .
 
 <http://data.doremus.org/vocabulary/key/f> a skos:Concept ;
 	skos:prefLabel "Fa majeur"@fr ;
 	skos:editorialNote "unimarc: f"@fr ;
-	skos:prefLabel "F Major"@en-us , "F Major"@en-gb , "Fa maggiore"@it , "Fa mayor"@es , "F Dur"@de ;
+	skos:prefLabel "F Major"@en , "Fa maggiore"@it , "Fa mayor"@es , "F Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FMajor> , <http://iflastandards.info/ns/unimarc/terms/key#f> .
 
 <http://data.doremus.org/vocabulary/key/fm> a skos:Concept ;
 	skos:prefLabel "Fa mineur"@fr ;
 	skos:editorialNote "unimarc: fm"@fr ;
-	skos:prefLabel "F Minor"@en-us , "F Minor"@en-gb , "Fa minore"@it , "Fa menor"@es , "F Moll"@de ;
+	skos:prefLabel "F Minor"@en , "Fa minore"@it , "Fa menor"@es , "F Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FMinor> , <http://iflastandards.info/ns/unimarc/terms/key#fm> .
 
 <http://data.doremus.org/vocabulary/key/fx> a skos:Concept ;
 	skos:prefLabel "Fa dièse majeur"@fr ;
 	skos:editorialNote "unimarc: fx"@fr ;
-	skos:prefLabel "F-sharp Major"@en-us , "F sharp Major"@en-gb , "Fa diesis maggiore"@it , "Fa sostenido mayor"@es , "Fis Dur"@de ;
+	skos:prefLabel "F sharp Major"@en , "Fa diesis maggiore"@it , "Fa sostenido mayor"@es , "Fis Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FSharpMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FSharpMajor> , <http://iflastandards.info/ns/unimarc/terms/key#fx> .
 
 <http://data.doremus.org/vocabulary/key/fxm> a skos:Concept ;
 	skos:prefLabel "Fa dièse mineur"@fr ;
 	skos:editorialNote "unimarc: fxm"@fr ;
-	skos:prefLabel "F-sharp Minor"@en-us , "F sharp Minor"@en-gb , "Fa diesis minore"@it , "Fa sostenido menor"@es , "Fis Moll"@de ;
+	skos:prefLabel "F sharp Minor"@en , "Fa diesis minore"@it , "Fa sostenido menor"@es , "Fis Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FSharpMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#FSharpMinor> , <http://iflastandards.info/ns/unimarc/terms/key#fxm> .
 
 <http://data.doremus.org/vocabulary/key/gb> a skos:Concept ;
 	skos:prefLabel "Sol bémol majeur"@fr ;
 	skos:editorialNote "unimarc: gb"@fr ;
-	skos:prefLabel "G-flat Major"@en-us , "G flat Major"@en-gb , "Sol bemolle maggiore"@it , "Sol bemol mayor"@es , "Ges Dur"@de ;
+	skos:prefLabel "G flat Major"@en , "Sol bemolle maggiore"@it , "Sol bemol mayor"@es , "Ges Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GFlatMajor> ;
-	skos:prefLabel "Sol majeur"@fr , "G Major"@en-us , "G Major"@en-gb , "Sol maggiore"@it , "Sol mayor"@es , "G Dur"@de ;
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GFlatMajor> , <http://iflastandards.info/ns/unimarc/terms/key#gb> ;
+	skos:prefLabel "Sol majeur"@fr , "G Major"@en , "Sol maggiore"@it , "Sol mayor"@es , "G Dur"@de ;
 	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GMajor> .
 
 <http://data.doremus.org/vocabulary/key/gm> a skos:Concept ;
 	skos:prefLabel "Sol mineur"@fr ;
 	skos:editorialNote "unimarc: gm"@fr ;
-	skos:prefLabel "G Minor"@en-us , "G Minor"@en-gb , "Sol minore"@it , "Sol menor"@es , "G Moll"@de ;
+	skos:prefLabel "G Minor"@en , "Sol minore"@it , "Sol menor"@es , "G Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GMinor> , <http://iflastandards.info/ns/unimarc/terms/key#gm> .
 
 <http://data.doremus.org/vocabulary/key/gxm> a skos:Concept ;
 	skos:prefLabel "Sol dièse mineur"@fr ;
 	skos:editorialNote "unimarc: gxm"@fr ;
-	skos:prefLabel "G-sharp Minor"@en-us , "G sharp Minor"@en-gb , "Sol diesis minore"@it , "Sol sostenido menor"@es , "Gis Moll"@de ;
+	skos:prefLabel "G sharp Minor"@en , "Sol diesis minore"@it , "Sol sostenido menor"@es , "Gis Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GSharpMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#GSharpMinor> , <http://iflastandards.info/ns/unimarc/terms/key#gxm> .
 
 <http://data.doremus.org/vocabulary/key/ab> a skos:Concept ;
 	skos:prefLabel "La bémol majeur"@fr ;
 	skos:editorialNote "unimarc: ab"@fr ;
-	skos:prefLabel "A-flat Major"@en-us , "A flat Major"@en-gb , "La bemolle maggiore"@it , "La bemol mayor"@es , "As Dur"@de ;
+	skos:prefLabel "A flat Major"@en , "La bemolle maggiore"@it , "La bemol mayor"@es , "As Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AFlatMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AFlatMajor> , <http://iflastandards.info/ns/unimarc/terms/key#ab> .
 
 <http://data.doremus.org/vocabulary/key/abm> a skos:Concept ;
 	skos:prefLabel "La bémol mineur"@fr ;
 	skos:editorialNote "unimarc: abm"@fr ;
-	skos:prefLabel "A-flat MInor"@en-us , "A flat Minor"@en-gb , "La bemolle minore"@it , "La bemol menor"@es , "As Moll"@de ;
+	skos:prefLabel "A flat Minor"@en , "La bemolle minore"@it , "La bemol menor"@es , "As Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AFlatMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AFlatMinor> , <http://iflastandards.info/ns/unimarc/terms/key#abm> .
 
 <http://data.doremus.org/vocabulary/key/a> a skos:Concept ;
 	skos:prefLabel "La majeur"@fr ;
 	skos:editorialNote "unimarc: a"@fr ;
-	skos:prefLabel "A Major"@en-us , "A Major"@en-gb , "La maggiore"@it , "La mayor"@es , "A Dur"@de ;
+	skos:prefLabel "A Major"@en , "La maggiore"@it , "La mayor"@es , "A Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AMajor> , <http://iflastandards.info/ns/unimarc/terms/key#a> .
 
 <http://data.doremus.org/vocabulary/key/am> a skos:Concept ;
 	skos:prefLabel "La mineur"@fr ;
 	skos:editorialNote "unimarc: am"@fr ;
-	skos:prefLabel "A Minor"@en-us , "A Minor"@en-gb , "La minore"@it , "La menor"@es , "A Moll"@de ;
+	skos:prefLabel "A Minor"@en , "La minore"@it , "La menor"@es , "A Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#AMinor> , <http://iflastandards.info/ns/unimarc/terms/key#am> .
 
 <http://data.doremus.org/vocabulary/key/axm> a skos:Concept ;
 	skos:prefLabel "La dièse mineur"@fr ;
 	skos:editorialNote "unimarc: axm"@fr ;
-	skos:prefLabel "A-sharp Minor"@en-us , "A sharp Minor"@en-gb , "La diesis minore"@it , "La sostenido menor"@es , "Ais Moll"@de ;
+	skos:prefLabel "A sharp Minor"@en , "La diesis minore"@it , "La sostenido menor"@es , "Ais Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#ASharpMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#ASharpMinor> , <http://iflastandards.info/ns/unimarc/terms/key#axm> .
 
 <http://data.doremus.org/vocabulary/key/bb> a skos:Concept ;
 	skos:prefLabel "Si bémol majeur"@fr ;
 	skos:editorialNote "unimarc: bb"@fr ;
-	skos:prefLabel "B-flat Major"@en-us , "B flat Major"@en-gb , "Si bemolle maggiore"@it , "Si bemol mayor"@es , "B Dur"@de ;
+	skos:prefLabel "B flat Major"@en , "Si bemolle maggiore"@it , "Si bemol mayor"@es , "B Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BFlatMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BFlatMajor> , <http://iflastandards.info/ns/unimarc/terms/key#bb> .
 
 <http://data.doremus.org/vocabulary/key/bbm> a skos:Concept ;
 	skos:prefLabel "Si bémol mineur"@fr ;
 	skos:editorialNote "unimarc: bbm"@fr ;
-	skos:prefLabel "B-flat MInor"@en-us , "B flat Minor"@en-gb , "Si bemolle minore"@it , "Si bemol menor"@es , "B Moll"@de ;
+	skos:prefLabel "B flat Minor"@en , "Si bemolle minore"@it , "Si bemol menor"@es , "B Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BFlatMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BFlatMinor> , <http://iflastandards.info/ns/unimarc/terms/key#bbm> .
 
 <http://data.doremus.org/vocabulary/key/b> a skos:Concept ;
 	skos:prefLabel "Si majeur"@fr ;
 	skos:editorialNote "unimarc: b"@fr ;
-	skos:prefLabel "B Major"@en-us , "B Major"@en-gb , "Si maggiore"@it , "Si mayor"@es , "H Dur"@de ;
+	skos:prefLabel "B Major"@en , "Si maggiore"@it , "Si mayor"@es , "H Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BMajor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BMajor> , <http://iflastandards.info/ns/unimarc/terms/key#b> .
 
 <http://data.doremus.org/vocabulary/key/bm> a skos:Concept ;
 	skos:prefLabel "Si mineur"@fr ;
 	skos:editorialNote "unimarc: bm"@fr ;
-	skos:prefLabel "B Minor"@en-us , "B Minor"@en-gb , "Si minore"@it , "Si menor"@es , "H Moll"@de ;
+	skos:prefLabel "B Minor"@en , "Si minore"@it , "Si menor"@es , "H Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
-	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BMinor> .
+	owl:sameAs <http://purl.org/NET/c4dm/keys.owl#BMinor> , <http://iflastandards.info/ns/unimarc/terms/key#bm> .
