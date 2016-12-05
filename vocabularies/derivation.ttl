@@ -104,17 +104,15 @@ Attention : ne pas confondre avec “messe parodie”."""@fr ;
         "Parodia"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
-<http://data.doremus.org/vocabulary/derivation/quotation> a skos:Concept ;
-    skos:altLabel "Zitat"@de,
-        "Cita"@es ;
+<http://data.doremus.org/vocabulary/derivation/reminiscence> a skos:Concept ;
     skos:definition """Partie d’une œuvre qui évoque plus ou moins un autre morceau, sans être réellement du plagiat.
 (Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002.)
 """@fr ;
-    skos:prefLabel "Musikzitat"@de,
-        "Quotation"@en,
-        "Citación"@es,
+    skos:prefLabel "Reminiszenz"@de,
+        "Reminiscence"@en,
+        "Reminiscencia"@es,
         "Réminiscence"@fr,
-        "Citazione"@it ;
+        "Reminiscenza"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/reconstruction> a skos:Concept ;
