@@ -4,61 +4,60 @@
  */
 
 const fs = require('fs'),
+    request = require('request'),
+    async = require('async'),
     literalLangFix = require('./common/literal_language_fix'),
     unicodeConv = require('./common/unicode_converter'),
-    rdfTranslator = require('rdf-translator'),
-    $rdf = require('rdflib');
+    rdfTranslator = require('rdf-translator');
 
-const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
-    SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
-
-var file = __dirname + '/../vocabularies/iaml.ttl';
+var file = __dirname + '/../vocabularies/mop-iaml.ttl';
 
 var rdfData = fs.readFileSync(file).toString();
 rdfData = literalLangFix(rdfData);
 
-var store = $rdf.graph();
-var contentType = 'text/turtle';
-var baseUrl = "http://iflastandards.info/ns/unimarc/terms/mop/";
-try {
-    $rdf.parse(rdfData, store, baseUrl, contentType);
+//remove unspecified
+var unspecifiedRegex = / [-–] (unbestimmt|(un|non )specified|sin especificar|non spécifié|non specificat[oa]|não especificad[oa])/g;
+rdfData = rdfData.replace(unspecifiedRegex, '');
 
-    let allConcepts = store.each(undefined, RDF('type'), SKOS('Concept'));
-    let allConceptUris = allConcepts.map((c) => c.uri);
+var exactMatchRegex = /skos\:exactMatch <(.+)>/gi;
+var match = exactMatchRegex.exec(rdfData);
+var uriArray = [];
+while (exactMatchRegex.exec(rdfData) !== null) {
+    let uri = match[1];
+    uriArray.push(match[1]);
+    match = exactMatchRegex.exec(rdfData);
+}
 
-    // the file contains groups like "<instrument name> - undefined"
-    // we should add the "narrower/broader" concepts to them.
-    for (let statements of store.statementsMatching(undefined, SKOS('prefLabel'))) {
-        let label = statements.object;
-        if (label.lang == 'eng' && label.value.match(/- (un|non )specified/)) {
-            //  console.log(statements.subject.uri + " . " + label.value);
-            let groupUri = statements.subject.uri;
-            let groupId = groupUri.substring(groupUri.length - 3);
-            let $group = $rdf.sym(groupUri);
-
-            let regex = new RegExp('/' + groupId + ".+$");
-            allConceptUris.filter((uri) => uri.match(regex)).forEach((uri) => {
-                let $this = $rdf.sym(uri);
-                store.add($group, SKOS('narrower'), $this);
-                store.removeMany($this, SKOS('broader'));
-                store.add($this, SKOS('broader'), $group);
-            });
+var unmatchedResults = [];
+async.eachSeries(uriArray, (uri, callback) => {
+    // console.log(`Checking the existence of ${uri}`);
+    request({
+        followAllRedirects: true,
+        url: uri,
+        method: 'HEAD'
+    }, (error, response, body) => {
+        if (!error && response.statusCode == 200) {
+            //everything ok
+            callback();
+        } else {
+            console.error('FAIL', uri, response.statusCode, error);
+            unmatchedResults.push(uri);
+            callback();
         }
-    }
-
-    // print modified ttl document
-    $rdf.serialize(undefined, store, undefined, 'application/rdf+xml', function(err, str) {
-        if (err) return console.error(err);
-
-        rdfTranslator(restoreUnicode(str), 'xml', 'n3', function(err, data) {
-            if (err) return console.error(err);
-            writeTtl(data);
-        });
     });
 
-} catch (err) {
-    console.log(err);
-}
+}, function done() {
+    console.log(`Formatting the rdf`);
+    for(let umr of unmatchedResults){
+        let toRemove = `skos:exactMatch <${umr}> ;`;
+        rdfData = rdfData.replace(toRemove, '');
+    }
+    
+    rdfTranslator(rdfData, 'n3', 'n3', function(err, data) {
+        if (err) return console.error(err);
+        writeTtl(data);
+    });
+});
 
 function writeTtl(str) {
     fs.writeFile(file, str, 'utf8', function(err) {
@@ -70,7 +69,7 @@ function writeTtl(str) {
 
 function restoreUnicode(str) {
     // preserve prefixes
-    let prefixesThreshold = str.indexOf('>');
+    let prefixesThreshold = str.indexOf('.\n\n');
     let prefixesString = str.substring(0, prefixesThreshold);
     let restOfTheString = str.substring(prefixesThreshold);
 

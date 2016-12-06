@@ -10,7 +10,7 @@ const fs = require('fs'),
     unicodeConv = require('./common/unicode_converter'),
     rdfTranslator = require('rdf-translator');
 
-var file = __dirname + '/../vocabularies/genre.ttl';
+var file = __dirname + '/../vocabularies/genre-iaml.ttl';
 
 var rdfData = fs.readFileSync(file).toString();
 rdfData = literalLangFix(rdfData);
@@ -31,12 +31,12 @@ async.eachSeries(uriArray, (uri, callback) => {
         url: uri,
         method: 'HEAD'
     }, (error, response, body) => {
-        if (!error && response.statusCode) {
+        if (!error && response.statusCode == 200) {
             //everything ok
             callback();
         } else {
             // TODO remove the exactMatch
-            console.error('FAIL', uri, error);
+            console.error('FAIL', uri, response.statusCode, error);
             callback();
         }
     });
