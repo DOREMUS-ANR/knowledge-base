@@ -47,12 +47,12 @@ async.eachSeries(uriArray, (uri, callback) => {
     });
 
 }, function done() {
-    console.log(`Formatting the rdf`);
     for(let umr of unmatchedResults){
         let toRemove = `skos:exactMatch <${umr}> ;`;
         rdfData = rdfData.replace(toRemove, '');
     }
     
+    console.log(`Formatting the rdf`);
     rdfTranslator(rdfData, 'n3', 'n3', function(err, data) {
         if (err) return console.error(err);
         writeTtl(data);
