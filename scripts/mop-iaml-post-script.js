@@ -6,7 +6,7 @@
 const fs = require('fs'),
     literalLangFix = require('./common/literal_language_fix'),
     unicodeConv = require('./common/unicode_converter'),
-    rdfTranslator = require('./common/rdf_translator'),
+    rdfTranslator = require('rdf-translator'),
     $rdf = require('rdflib');
 
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),

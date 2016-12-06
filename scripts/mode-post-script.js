@@ -3,7 +3,7 @@
  */
 
 const fs = require('fs'),
-    rdfTranslator = require('./common/rdf_translator'),
+    rdfTranslator = require('rdf-translator'),
     $rdf = require('rdflib');
 
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),

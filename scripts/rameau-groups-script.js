@@ -2,7 +2,7 @@ const fs = require('fs'),
     csv = require('csv-parser'),
     request = require('request'),
     async = require('async'),
-    rdfTranslator = require('./common/rdf_translator'),
+    rdfTranslator = require('rdf-translator'),
     $rdf = require('rdflib');
 
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
