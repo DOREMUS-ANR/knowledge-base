@@ -26,6 +26,7 @@
     "csv-parser": "^1.11.0",
     "iso-language-converter": "^1.0.6",
     "rdf-translator": "0.0.0",
-    "rdflib": "^0.10.0"
+    "rdflib": "^0.10.0",
+    "to-sentence-case": "^1.0.0"
   }
 }

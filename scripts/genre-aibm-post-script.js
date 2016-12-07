@@ -25,7 +25,7 @@ while (exactMatchRegex.exec(rdfData) !== null) {
 }
 
 async.eachSeries(uriArray, (uri, callback) => {
-  console.log(`Checking the existence of ${uri}`);
+  // console.log(`Checking the existence of ${uri}`);
     request({
         followAllRedirects: true,
         url: uri,
