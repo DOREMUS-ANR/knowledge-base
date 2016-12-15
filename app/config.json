@@ -3,7 +3,7 @@
     "toFile": true,
     "db": {
         "user": "dba",
-        "mountedVolumeRoot": "/config/data",
+        "mountedVolumeRoot": "/data",
         "isqlCommand": "isql-v"
     },
     "sources": [{
