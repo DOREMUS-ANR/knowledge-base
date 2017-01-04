@@ -29,6 +29,10 @@ Mode
 
     node mode-post-script
 
+Diabolo mop and genre
+  
+    node diabolo-post-script
+
 ### collections
 
 Collections should be located in the `raw-data` folder in `tsv` format.

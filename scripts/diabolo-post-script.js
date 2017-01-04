@@ -7,7 +7,10 @@ const fs = require('fs'),
     rdfTranslator = require('rdf-translator'),
     toSentenceCase = require('to-sentence-case');
 
-var files = ['genre-rf.ttl', 'mop-rf.ttl'];
+var files = [
+    'genre-diabolo.ttl',
+    'mop-diabolo.ttl'
+];
 
 for (let fileName of files) {
     let file = __dirname + '/../vocabularies/' + fileName;
