@@ -1,0 +1,130 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/1> skos:prefLabel "Ambiance" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/10> skos:prefLabel "Musique de chambre" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/101> skos:prefLabel "Musique ancienne" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/11> skos:prefLabel "Musique de film" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/12> skos:prefLabel "Musique du monde" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/121> skos:prefLabel "Lieder" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/122> skos:prefLabel "Mélodies" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/13> skos:prefLabel "Musique électronique" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/14> skos:prefLabel "Musique religieuse & sacrée" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/141> skos:prefLabel "Oratorio" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/142> skos:prefLabel "Opéra comique" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/15> skos:prefLabel "Musique symphonique" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/16> skos:prefLabel "Musique traditionnelle" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/161> skos:prefLabel "Musique Improvisée" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/17> skos:prefLabel "New Age" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/18> skos:prefLabel "Opéra" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/19> skos:prefLabel "Opérette & musique légère" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/2> skos:prefLabel "Blues" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/20> skos:prefLabel "Orchestre" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/21> skos:prefLabel "Pop-Rock" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/22> skos:prefLabel "Rap & HipHop" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/23> skos:prefLabel "Reggae" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/24> skos:prefLabel "Rock" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/25> skos:prefLabel "Rock indépendant" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/26> skos:prefLabel "Sketch" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/27> skos:prefLabel "Soul & RnB" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/28> skos:prefLabel "Variété" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/29> skos:prefLabel "Divers" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/3> skos:prefLabel "Choral" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/4> skos:prefLabel "Comédie musicale" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/5> skos:prefLabel "Country" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/6> skos:prefLabel "Enfants" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/61> skos:prefLabel "Musique baroque" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/7> skos:prefLabel "Hard-Rock & Métal" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/8> skos:prefLabel "Jazz" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/81> skos:prefLabel "Rock folk " ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/82> skos:prefLabel "Bruitage" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/83> skos:prefLabel "Diction" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/84> skos:prefLabel "Instrumental" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/9> skos:prefLabel "Musique contemporaine" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/genre/> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/> a skos:ConceptScheme ;
+    rdfs:label "List of musical genres from ITEMA3 of Radio France"@en,
+        "Liste des genres de ITEMA3 de Radio France"@fr .
+
