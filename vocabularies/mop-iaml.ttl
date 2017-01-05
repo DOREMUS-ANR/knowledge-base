@@ -99,7 +99,7 @@
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bca> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "carnyx"@el,
+    skos:prefLabel "carnyx"@el-Latn,
         "carnyx"@en,
         "carnyx"@hu,
         "lituus"@la,
@@ -496,7 +496,6 @@
 <http://data.doremus.org/vocabulary/iaml/mop/bsr> a skos:Concept ;
     skos:altLabel "sarrusofono"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/b> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bsr> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "Use wsr"@en,
         "usare wsr"@it ;
@@ -510,14 +509,13 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bsx> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "Salpinx"@de,
-        "salpinx"@el,
+        "salpinx"@el-Latn,
         "salpinx"@it,
         "salpinx"@la .
 
 <http://data.doremus.org/vocabulary/iaml/mop/bta> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/b> ;
     skos:editorialNote "Latin term is preferred globally." ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bta> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "antica"@it,
         "antique"@la,
@@ -598,7 +596,6 @@
         "ottoni - etnico"@it,
         "metais - étnico"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/bun> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bun__y> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "benutzen Suffix in Position 7: bun..y"@de,
         "use suffix in position 7: bun..y"@en,
@@ -707,7 +704,6 @@
         "sousaphone contrabbasso"@it,
         "sousafone contrabaixo"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/bvb> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bvbg> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "si bemolle, usare il suffisso in posizione 5: bvbg"@it,
         "usare il suffisso in posizione 5: bvbg"@it,
@@ -815,7 +811,6 @@
         "coro - etnico"@it,
         "coro - étnico"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/cun> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/cun__y> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "benutzen Suffix in Position 7: cun..y"@de,
         "use suffix in position 7: cun..y"@en,
@@ -1079,7 +1074,7 @@
         "electrónico - outro"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kab> a skos:Concept ;
-    skos:altLabel "pentecontachordon"@el,
+    skos:altLabel "pentecontachordon"@el-Latn,
         "enharmonic harpsichord"@en,
         "clavecin parfait accord"@fr,
         "arcicembalo"@it,
@@ -2118,7 +2113,6 @@
         "instrumento - étnico"@es,
         "instrument - ethnique"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/mui> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/mui__y> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "benutzen Suffix in Position 7: mui..y"@de,
         "use suffix in position 7: mui..y"@en,
@@ -2755,10 +2749,10 @@
     skos:editorialNote "Hungarian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pci> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "struck"@en,
+    skos:note "struck",
+        "struck"@en,
         "cordes frappées"@fr,
-        "struck"@la,
-        "struck"@null ;
+        "struck"@la ;
     skos:prefLabel "címbalo"@es,
         "cymbalum"@fr,
         "cimbalom"@hu,
@@ -3036,7 +3030,6 @@
         "sistro"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "German term is preferred globally." ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pgl> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "ohne Klavier"@de,
         "18.-19. sec."@it ;
@@ -3506,7 +3499,6 @@
         "scultura sonora"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "English term is preferred globally." ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pss> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "Use mss"@en,
         "utiliser mss"@fr,
@@ -3913,12 +3905,12 @@
         "blocchi"@it,
         "blocchi di legno"@it,
         "wood block cilindrico"@it,
-        "mokubio"@ja ;
+        "mokubio"@ja-Latn ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pwo> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "Japanese woodblocks"@ja ;
+    skos:note "Japanese woodblocks"@en ;
     skos:prefLabel "woodblocks"@en,
         "caja china"@es,
         "woodblock"@fr,
@@ -4189,7 +4181,6 @@
 <http://data.doremus.org/vocabulary/iaml/mop/sdf> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/s> ;
     skos:editorialNote "English term is preferred globally." ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/sdf> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "five-string double bass"@en,
         "contrebasse à cinq cordes"@fr,
@@ -4341,7 +4332,6 @@
 <http://data.doremus.org/vocabulary/iaml/mop/spv> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/s> ;
     skos:editorialNote "French term is preferred globally." ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/spv> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "pardessus de viole"@fr,
         "quinton"@fr,
@@ -4406,7 +4396,6 @@
         "archi - etnico"@it,
         "cordas, friccionadas - étnico"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/sun> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/sun__y> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "use suffix in position 7: sun..y"@en,
         "utilizar sufijo en la posición 7: sun..y"@es,
@@ -4577,7 +4566,7 @@
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "antica"@it,
         "antigo"@pt ;
-    skos:prefLabel "barbitos"@el,
+    skos:prefLabel "barbitos"@el-Latn,
         "barbitos"@en,
         "barbitón"@es,
         "lira"@it,
@@ -4591,7 +4580,7 @@
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "biwa"@en,
         "biwa"@es,
-        "biwa"@ja .
+        "biwa"@ja-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tbj> a skos:Concept ;
     skos:altLabel "banjar",
@@ -4627,8 +4616,8 @@
         "balalaika"@es,
         "balalaika"@it,
         "balalaica"@pt,
-        "balalaika"@ru,
-        "балалайка"@ru .
+        "балалайка"@ru,
+        "balalaika"@ru-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tbo> a skos:Concept ;
     skos:altLabel "bozuk",
@@ -4641,7 +4630,7 @@
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tbo> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "bouzouki"@el,
+    skos:prefLabel "bouzouki"@el-Latn,
         "bouzouki"@en,
         "bouzouki"@es,
         "bouzouki"@it .
@@ -4848,7 +4837,7 @@
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "antica"@it,
         "antique"@la ;
-    skos:prefLabel "kithara"@el,
+    skos:prefLabel "kithara"@el-Latn,
         "kithara"@en,
         "citara"@it,
         "cithara"@la,
@@ -4878,13 +4867,13 @@
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tkt> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "a Japanese long zither"@ja ;
+    skos:note "a Japanese long zither"@en ;
     skos:prefLabel "Koto"@de,
         "koto"@en,
         "koto"@es,
         "koto"@fr,
         "koto"@it,
-        "koto"@ja .
+        "koto"@ja-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tlf> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
@@ -4987,7 +4976,7 @@
     skos:editorialNote "The term pipa is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tpi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "This instrument had four strings and four frets, and was held transversely and plucked with a plectrum"@null ;
+    skos:note "This instrument had four strings and four frets, and was held transversely and plucked with a plectrum" ;
     skos:prefLabel "pipa" .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tps> a skos:Concept ;
@@ -4999,7 +4988,7 @@
         "sauterie"@fr,
         "sautier"@fr,
         "sautiéron"@fr,
-        "gusli"@ru ;
+        "gusli"@ru-Latn ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tps> ;
@@ -5019,7 +5008,7 @@
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tpx> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "phorminx"@el,
+    skos:prefLabel "phorminx"@el-Latn,
         "phorminx"@en,
         "phorminx"@it,
         "phorminx"@pt .
@@ -5040,18 +5029,18 @@
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tsh> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "a Japanese three-string fretless plucked lute"@ja ;
+    skos:note "a Japanese three-string fretless plucked lute"@en ;
     skos:prefLabel "shamisen"@en,
         "shamisen"@es,
         "shamisen"@it,
-        "shamisen"@ja .
+        "shamisen"@ja-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tsi> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "The term sitār is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tsi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "Large, fretted long-necked lute"@null ;
+    skos:note "Large, fretted long-necked lute" ;
     skos:prefLabel "sitār",
         "sitar"@en,
         "sitar"@es,
@@ -5246,7 +5235,6 @@
     skos:altLabel "contra altus"@la ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/v> ;
     skos:editorialNote "Latin term is preferred globally." ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/vcl> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "contratenor altus"@la .
 
@@ -5427,7 +5415,6 @@
         "voce - etnica"@it,
         "voz - etnica"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/vun> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/vun__y> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "benutzen Suffix in Position 7: vun..y"@de,
         "use suffix in position 7: vun..y"@en,
@@ -5523,7 +5510,7 @@
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wau> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "aulos"@el,
+    skos:prefLabel "aulos"@el-Latn,
         "aulós"@es,
         "aulos"@it,
         "tibia"@la,
@@ -5641,7 +5628,6 @@
         "batyphone"@fr,
         "bathyphone"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wcl> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wclg> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "utiliser le suffixe en position 5: wclg"@fr .
 
@@ -5731,7 +5717,7 @@
     skos:editorialNote "The term didjeridu is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wdi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "wooden drone pipe"@null ;
+    skos:note "wooden drone pipe" ;
     skos:prefLabel "didjeridu",
         "didgeridoo"@en,
         "didjeridu"@es .
@@ -5930,9 +5916,9 @@
 
 <http://data.doremus.org/vocabulary/iaml/mop/wmo> a skos:Concept ;
     skos:altLabel "sheng",
-        "scho-no fouye"@ja,
         "sho"@ja,
-        "笙"@ja ;
+        "笙"@ja,
+        "scho-no fouye"@ja-Latn ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wmo> ;
@@ -5941,7 +5927,7 @@
         "órgano de boca"@es,
         "orgue à bouche"@fr,
         "armonica"@it,
-        "shô"@ja,
+        "shô"@ja-Latn,
         "gaita de beiços"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wmu> a skos:Concept ;
@@ -6077,7 +6063,7 @@
     skos:note "precolombino"@es,
         "preincaico"@es ;
     skos:prefLabel "Panflöte"@de,
-        "syrinx"@el,
+        "syrinx"@el-Latn,
         "panpipes"@en,
         "flauta de pan"@es,
         "flûte de pan"@fr,
@@ -6180,7 +6166,7 @@
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "shakuhachi"@en,
         "shakuhachi"@es,
-        "shakuhachi"@ja,
+        "shakuhachi"@ja-Latn,
         "shakuhachi"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wsn> a skos:Concept ;
@@ -6236,7 +6222,6 @@
         "legni - etnico"@it,
         "madeiras - étnico"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wun> ;
-    skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wun__y> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "benutzen Suffix in Position 7: wun..y"@de,
         "use suffix in position 7: wun..y"@en,

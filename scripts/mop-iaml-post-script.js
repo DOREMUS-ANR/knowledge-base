@@ -8,7 +8,9 @@ const fs = require('fs'),
     async = require('async'),
     literalLangFix = require('./common/literal_language_fix'),
     unicodeConv = require('./common/unicode_converter'),
-    rdfTranslator = require('rdf-translator');
+    rdfTranslator = require('rdf-translator'),
+    isoConv = require('iso-language-converter');
+
 
 var file = __dirname + '/../vocabularies/mop-iaml.ttl';
 
@@ -19,10 +21,26 @@ rdfData = literalLangFix(rdfData);
 var unspecifiedRegex = / [-–] (unbestimmt|(un|non )specified|sin especificar|non spécifié|non specificat[oa]|não especificad[oa])/g;
 rdfData = rdfData.replace(unspecifiedRegex, '');
 
+//detect scripts
+var langRegex = /"([^"]+)"@([a-z]{2,3})/g;
+var latnRegex = /^[a-zA-Z\s\-'-\u007F\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF]+$/g;
+rdfData = rdfData.replace(langRegex, (match, text, code) => {
+    let script = isoConv(code, {
+        to: 'script'
+    });
+    if (!script || script == 'Latn') return match;
+    
+    let isLatn = latnRegex.test(text);
+    if (isLatn) return `"${text}"@${code}-Latn`;
+    
+    return match;
+});
+
+// check if the exactMatch are correctly referencing a page
 var exactMatchRegex = /skos\:exactMatch <(.+)>/gi;
 var match = exactMatchRegex.exec(rdfData);
 var uriArray = [];
-while (exactMatchRegex.exec(rdfData) !== null) {
+while (match !== null) {
     let uri = match[1];
     uriArray.push(match[1]);
     match = exactMatchRegex.exec(rdfData);
@@ -47,11 +65,11 @@ async.eachSeries(uriArray, (uri, callback) => {
     });
 
 }, function done() {
-    for(let umr of unmatchedResults){
+    for (let umr of unmatchedResults) {
         let toRemove = `skos:exactMatch <${umr}> ;`;
         rdfData = rdfData.replace(toRemove, '');
     }
-    
+
     console.log(`Formatting the rdf`);
     rdfTranslator(rdfData, 'n3', 'n3', function(err, data) {
         if (err) return console.error(err);

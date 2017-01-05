@@ -8,13 +8,15 @@ function literalLangFix(source) {
 
     // fix bad format
     return source.replace(/@([a-zA-Z\-]+)"/g, '"@$1')
-        // fix bad japanese co
+        // fix bad japanese code
         .replace(/("@|\$\$)jap/g, '$1jpn')
         // replace 3chars with 2chars in literals
         .replace(/"@([a-z]{3})/g, (match, p1) => {
-            return '"@' + isoConv(p1, {
-                to: 1
-            });
+          let code = isoConv(p1, {
+              to: 1
+          });
+          
+          return code? '"@' + code : '"';
         })
         // replace $$ita with Italian
         .replace(/\$\$([a-z]{3})/g, (match, p1) => isoConv(p1));

@@ -22,11 +22,11 @@
     "esversion": 6
   },
   "dependencies": {
-    "async": "^2.1.2",
+    "async": "^2.1.4",
     "csv-parser": "^1.11.0",
-    "iso-language-converter": "^1.0.6",
+    "iso-language-converter": "^1.1.0",
     "rdf-translator": "0.0.0",
-    "rdflib": "^0.10.0",
+    "rdflib": "^0.13.0",
     "to-sentence-case": "^1.0.0"
   }
 }
