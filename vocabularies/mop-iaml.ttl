@@ -6929,7 +6929,7 @@
         "Altri esecutori"@it ;
     skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
 
-<http://iflastandards.info/ns/unimarc/terms/mop/> a skos:ConceptScheme ;
+<http://data.doremus.org/vocabulary/iaml/mop/> a skos:ConceptScheme ;
     rdfs:comment "List of Media of Performances" ;
     skos:hasTopConcept <http://data.doremus.org/vocabulary/iaml/mop/b>,
         <http://data.doremus.org/vocabulary/iaml/mop/c>,
