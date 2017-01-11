@@ -8,7 +8,7 @@ const fs = require('fs'),
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 const SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
 
-var file = __dirname + '/../raw-data/rameau.groups.txt';
+var file = __dirname + '/../vocabularies/raw-data/rameau.groups.txt';
 var output = __dirname + '/../vocabularies/rameau.groups.ttl';
 var array = [];
 var store = $rdf.graph();
@@ -63,7 +63,7 @@ fs.createReadStream(file)
                 store.add(collection, SKOS('member'), $rdf.sym(ark)));
 
             // print modified ttl document
-            $rdf.serialize(undefined, store, undefined, 'application/rdf+xml', function(err, str) {
+            $rdf.serialize(undefined, store, 'http://example.org', 'application/rdf+xml', function(err, str) {
                 if (err) return console.error(err);
 
                 rdfTranslator(str, 'xml', 'n3', function(err, data) {
