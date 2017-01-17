@@ -9,7 +9,7 @@ const fs = require('fs'),
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
     SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
 
-var file = __dirname + '/rameau.genres.ttl';
+var file = __dirname +'/../vocabularies/rameau.genres.ttl';
 
 var rdfData = fs.readFileSync(file).toString();
 
@@ -23,7 +23,7 @@ try {
     for (let statement of store.statementsMatching(undefined, SKOS('prefLabel'))) {
         let suffix;
         let label = statement.object.value;
-        suffix = (label.replace(/ /g, '_')).toLowerCase();;
+        suffix = (label.replace(/ /g, '_')).toLowerCase();
         suffixTable.push({
             uri: statement.subject.value,
             suffix

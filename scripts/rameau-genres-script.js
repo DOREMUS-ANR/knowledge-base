@@ -8,8 +8,8 @@ const fs = require('fs'),
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 const SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
 
-var file = __dirname + '/rameau.genres.txt';
-var output = __dirname + '/rameau.genres.ttl';
+var file = __dirname + '/../vocabularies/raw-data/rameau.genres.txt';
+var output = __dirname + '/../vocabularies/rameau.genres.ttl';
 var baseUrl = "http://data.doremus.org/vocabulary/rameau/genre/";
 var array = [];
 var store = $rdf.graph();
@@ -18,7 +18,7 @@ var store = $rdf.graph();
 fs.createReadStream(file)
     .pipe(csv({
         separator: '\t', // specify optional cell separator
-        newline: '\r', // specify a newline character
+        newline: '\n', // specify a newline character
         headers: ['code', 'label'] // Specifing the headers
     }))
     .on('data', (data) => array.push(toSPARQL(data.code)))
@@ -32,11 +32,11 @@ fs.createReadStream(file)
                 },
             }, (err, response, body) => {
                 var contentType = 'text/n3';
-                $rdf.parse(body,store,baseUrl,contentType);
+                $rdf.parse(body, store, baseUrl, contentType);
                 callback();
             });
         }, function done() {
-               $rdf.serialize(undefined, store, 'http://example.org', 'application/rdf+xml', function(err, str) {
+            $rdf.serialize(undefined, store, 'http://example.org', 'application/rdf+xml', function(err, str) {
                 if (err) return console.error(err);
                 rdfTranslator(str, 'xml', 'n3', function(err, data) {
                     if (err) return console.error(err);
