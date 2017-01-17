@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:align="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/100"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb145708007"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/17"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/170"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb16593511g"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.77</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2006"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122711582"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/466"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb169199410"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/466"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb169200061"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.51</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/466"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122706048"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/75"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271127s"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/99"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb136198633"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/588"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12305133d"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/87"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11976117r"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/36"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/24"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122708651"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/104"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12211154f"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/48"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/202"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122705238"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/70"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12198281s"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/706"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122719139"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/446"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122697991"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2020"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122717968"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/79"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/79"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271896j"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.68</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/7"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1186"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb150354285"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/135"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122697949"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/245"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270245r"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/50"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/74"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122715523"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/142"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb119818348"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/23"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270867q"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/426"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb166906596"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/35"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12269798p"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2012"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122705029"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/47"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11974996m"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/42"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/185"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12274777q"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/54"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1594"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb16687870r"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.73</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2043"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb157794463"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2031"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271265m"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2055"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270897n"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/78"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11959305m"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/107"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1330"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb16035513j"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/192"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/61"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1550"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11987678s"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/85"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb13558230w"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2011"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270871z"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/58"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12184776d"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/41"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2030"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122708891"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/77"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122278274"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/786"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270879q"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/191"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122715763"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/38"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12016351t"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/84"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/96"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb124934166"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/57"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122705923"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2046"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb16549766q"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/69"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12175608p"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/183"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/4"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb121756060"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/13"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <entity2 rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/25"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271557t"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/71"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/20"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/486"/>
+      <entity2 rdf:resource="http://data.bnf.fr/ark:/12148/cb16711902t"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

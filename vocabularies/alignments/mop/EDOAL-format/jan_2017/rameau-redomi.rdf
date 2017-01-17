@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:align="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb125064554"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/steel_drum"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122705029"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/fifre"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122717968"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb123073908"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/zarb"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12269056t"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/basson"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb145708603"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/erhu"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11981627f"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122697949"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/xylophone"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270836f"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/bugle"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12211154f"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/banjo"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122711493"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/claviharpe"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119818348"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/galoubet"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122714744"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trautonium"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12307615b"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sarod"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11974996m"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/luth"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb166906596"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/biniou"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11938184j"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/guitare"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122697991"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/gong"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12307427s"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/shamisen"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270846r"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clairon"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb135076583"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/saz"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122705923"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piccolo"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12198281s"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/timbales"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11966972w"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/saxophone"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11981445t"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cithare"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11959305m"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb157794463"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sifflet"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12202452m"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harmonium"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122717681"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/mandoline"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11978172c"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clavicorde"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11948112w"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harpe"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb13337394d"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/rebec"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12502847n"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/charango"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271896j"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/violon"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.52</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12307635z"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/kantele"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11969158v"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/violon"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122705238"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119353920"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122715763"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cistre"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12016351t"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/guitare_basse"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb124210610"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viele"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb119454031"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clavecin"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb16271576n"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tambour"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271127s"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/vibraphone"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11976117r"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/carillon"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb16687870r"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/lithophone"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122719139"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/arpeggione"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11985550n"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trombone"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122708531"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cor"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb122278274"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viole"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12270245r"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/contrebasson"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <entity2 rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271557t"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cymbalum"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb136198633"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb11932961n"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piano"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb16711902t"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell><valid>true</valid>
+      <entity1 rdf:resource="http://data.bnf.fr/ark:/12148/cb12271135d"/>
+      <entity2 rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/balafon"/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
