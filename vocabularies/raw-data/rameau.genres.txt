@@ -1,0 +1,670 @@
+16962284	Acid house
+12548830	Acid jazz
+15030557	Afrobeat
+13574749	Agnus Dei (musique)
+12215093	Airs d'opéra
+14400465	Airs de concert
+12247271	Airs de cour
+15837569	Airs sérieux
+15054882	Alabados
+16540900	?l?p 
+13558185	Alléluia (musique)
+13557889	Allemandes (musique)
+13330792	Ambient 
+12287121	Anthems
+13558189	Antiennes
+16180038	Antifolk
+14611602	Arabesques (musique)
+15837652	Ariettes
+12293005	Ariosos
+14522006	?Ar?bi
+12092515	Autos sacramentales 
+13557897	Ave Maris Stella (musique)
+13558196	Ave Regina coelorum (musique)
+13558240	Ave verum Corpus (musique)
+16741742	Bachatas
+14417304	Bagatelles (musique)
+13774650	Baiaos
+16182395	Baile funk 
+16035733	Baithak g?n? 
+12299917	Ballad operas
+13562480	Ballades (musique instrumentale)
+11978725	Ballades (musique vocale)
+12549252	Barcarolles
+14571683	Batuques
+12179998	Be-bop
+16995967	Beiguan
+13754961	Bèlè (musique) 
+14618793	Benedictus (musique)
+16219329	Benedictus Dominus Deus Israël (musique)
+11965515	Berceuses (musique vocale)
+11965515	Berceuses (musique vocale)
+13319523	Bhajan
+17087597	Bhangra (musique)
+13509042	Big beat 
+16708540	Biguines
+13509054	Black metal 
+16063220	Blue-eyed soul 
+12405731	Bluegrass
+11975253	Blues
+16053564	Blues-rock 
+16131311	Blues shouters 
+16589003	Bocet 
+12245639	Boléros (musique)
+12290265	Boogie-woogie
+16504685	Bostons
+13329618	Bossas-novas
+13558726	Bourrées
+16500776	Branles
+16510476	Britpop
+14410697	Brunettes (musique vocale)
+12488042	Cadences
+14418984	Cake-walk (musique)
+12207896	Calypso (musique)
+16523119	Candombés
+11979561	Canons (musique)
+14597350	Cansos
+13319725	Cantates pour soliste
+12288702	Cantates pour soliste profanes 
+13319727	Cantates pour soliste sacrées 
+12288709	Cantates profanes
+12288706	Cantates sacrées
+13516277	Cantiques
+15704639	Canti carnascialeschi 
+15584906	Cantorias
+13575784	Canzones (musique instrumentale)
+13575778	Canzones (musique vocale)
+13576192	Canzonettes
+14611655	Caprices (musique)
+16714532	Ca trù 
+13511349	Chaabi 
+12487459	Cha-cha-chas
+12295004	Chaconnes 
+13539198	Chamamés
+16714554	Changüi 
+13319048	Chansons
+11977660	Chansons à boire
+16637598	Chansons à danser 
+12436449	Chansons à répondre 
+16998744	Chansons à sujet religieux 
+12151036	Chansons contestataires 
+12394701	Chansons d'amour 
+11957511	Chansons d'aube
+12050156	Chansons d'étudiants
+12521738	Chansons de carnaval
+11955660	Chansons de cow-boys 
+11931814	Chansons de croisade 
+14587072	Chansons de femmes 
+16589048	Chansons de labour 
+12260665	Chansons de marins
+12307588	Chansons de toile
+11957023	Chansons de travail 
+12573774	Chansons de troubadours 
+12571676	Chansons de trouvères 
+16967710	Chansons de vagabonds 
+11959092	Chansons enfantines
+16991398	Chansons en laisse 
+16634621	Chansons énumératives 
+11931149	Chansons humoristiques 
+16765179	Chansons libertaires 
+13510943	Chansons maçonniques 
+11931150	Chansons paillardes 
+12005114	Chansons politiques
+12289870	Chansons polyphoniques
+12553050	Chansons réalistes 
+12408164	Chansons satiriques 
+16991475	Chansons strophiques 
+11940754	Chansons traditionnelles 
+15542869	Chants chamaniques 
+11978213	Chants de mariage 
+12080269	Chants funèbres
+11945385	Chants de guerre
+14575528	Chants de Sanaa 
+13318328	Chants grégoriens
+13319656	Chants hindous 
+12061402	Chants patriotiques
+11965367	Chants révolutionnaires 
+13516310	Chants sacrés
+16141053	Chants syriaques 
+15551480	Chants vieux-romain 
+11978727	Chœurs (musique)
+11939340	Choeurs profanes 
+13319724	Choeurs sacrés 
+13319746	Chorals
+14500835	Chutney (musique) 
+13505798	Ch'angg?k 
+16164871	Clausules (polyphonies sacrées)
+15792393	Cold wave (musique) 
+11936146	Comédies musicales
+16724850	Compas (musique) 
+11965549	Complaintes
+14619031	Complies (musique)
+11977741	Comptines
+12240522	Concertos
+12309689	Concertos grossos
+13568634	Conduits (musique)
+12426850	Contes musicaux 
+13742438	Contredanses
+12030841	Coplas
+12250897	Corridos
+11965103	Country
+16955674	Country blues 
+16965611	Country-folk 
+16064313	Country rock 
+13742482	Courantes
+14618816	Credo (musique)
+12524986	Dance music 
+16504657	Dancehall 
+13509047	Death metal 
+16740794	Delta blues 
+13615042	Dhrupad 
+12309837	Dialogues (musique)
+14618827	Dies irae (musique)
+11938164	Disco (musique)
+11978214	Dithyrambes
+16965312	Divertimenti
+16042445	Dixieland
+15618846	Doinas 
+15618811	Dongjing
+13337496	Doo-wop 
+16523137	Doom metal 
+11980813	Drames liturgiques
+17026603	Dream pop 
+13337274	Dub
+16539763	Dubstep
+12293216	Duos
+13577772	Duos de jazz
+12293225	Duos sacrés
+12293233	Duos vocaux
+13509101	Easy listening 
+14418177	?cossaises (musique)
+16131564	?lectro (musique)
+16060780	Electro-pop 
+15583678	Electronica 
+11934307	?légies
+13774713	Emboladas
+14611690	Ensaladas
+12354189	Estampies
+16546455	Ethio-jazz 
+13603306	?tudes (musique)
+11963474	Fados
+12408340	Fandangos
+16564469	Fandanguillos 
+11981465	Fanfares (compositions musicales)
+14613274	Fantaisies (musique)
+13508312	Fas?l 
+12214308	Faux-bourdon (musique)
+13753144	Finales (musique)
+12121615	Flamenco (musique)
+16147649	Folias
+12312299	Folk (musique)
+16694318	Folk metal 
+12508669	Folk-rock 
+16500827	Forlanes
+16723213	Forr?s
+12487455	Fox-trots
+12210598	Free jazz
+13774706	Frevos
+12241496	Frottole (musique)
+12287109	Fugues (musique)
+16743760	Funanas
+12475100	Funk
+13742470	Gaillardes
+13742476	Galops (musique)
+12478788	Gagaku
+16216555	Gangsta rap 
+13514103	Garage (musique) 
+16540939	Gat (musique)
+13742456	Gavottes
+13757236	Género chico 
+11971240	Ghazals 
+13742464	Gigues
+16030342	Glam rock 
+16625166	Glees
+12649509	Gloria in excelsis Deo (musique)
+14625866	Go-go 
+14588846	Goigs
+13318813	Gospel
+11980047	Graduels (musique)
+15518331	Grajé
+15890378	Grindcore 
+12493389	Grunge 
+13623789	Guajiras 
+16708574	Guarachas 
+14634564	Gwerziou 
+13577618	Gwoka (musique) 
+14418201	Habaneras
+15545285	Hard bop 
+12471027	Hard rock
+12548786	Hardcore
+13537363	H?t chèo 
+12406456	H?awfi 
+14522004	Hawz? 
+12486943	Heavy metal
+13511030	Highlife 
+14572225	Hira Gasy
+16064277	Honky tonk
+12486957	House music 
+15059582	Huapangos 
+16575664	Huaynos
+16605785	Human beatbox 
+13505214	Hymnes
+17007044	Hymnes bouddhiques 
+13736048	Hymnes chrétiens primitifs 
+13507409	Hymnes coptes 
+13734607	Hymnes égyptiens anciens 
+11968585	Hymnes funèbres
+13736035	Hymnes hébraïques 
+13736054	Hymnes hindous 
+13736014	Hymnes islamiques 
+14549436	Hymnes ismaéliens 
+13736036	Hymnes juifs
+13736058	Hymnes manichéens 
+11948136	Hymnes nationaux
+13319471	Hymnes pascales
+13516482	Hymnes shivaïtes 
+13735905	Hymnes sikhs 
+14615400	Impromptus (musique)
+16219300	Indie dance 
+16732743	Indie pop 
+14614725	Intermezzos (musique instrumentale) 
+13603166	Introïts (musique)
+15580256	Iscathamiya
+12571748	Javas
+11938040	Jazz
+15533128	Jazz cool 
+16065639	Jazz funky 
+14627863	Jazz manouche 
+12210538	Jazz Nouvelle-Orléans 
+12548846	Jazz-rock
+15788361	Jazz soul 
+11983473	Jazz vocal 
+15533191	Jazz West Coast 
+15065247	Jeux-partis
+14571914	Joropos
+12426896	Jotas
+12451409	Juju 
+13333727	Jungle (musique) 
+16650080	K-pop 
+16527819	Kalindula
+16254870	Kan ha diskan 
+16594351	Kaséko 
+15619124	Kecak
+16706019	Ki?rtana 
+13561286	Kiyomoto
+13507523	Klezmer
+12316190	Konkoma
+14626141	Krautrock 
+16076619	Kuduro
+13512338	Kyrie eleison (musique)
+12285534	Lais (musique)
+14611893	L?ndler
+14618885	Lamentations de Jérémie (musique)
+13513522	Latin jazz 
+16056510	Latin soul 
+12262534	Laude
+16983162	Laudes regiae
+12109363	Lieder
+14609688	Litanies (musique)
+15508009	Lounge (musique)
+12151638	Madrigaux (musique)
+12311234	Maggio
+14619037	Magnificat (musique)
+16264220	Makossa
+12423147	Malh??n
+13738618	Malouf
+14625598	Maloyas
+16709195	Mambos
+16248828	Mangue beat 
+12238072	Marches (musique)
+15511860	Matines (musique)
+16504673	Maxixes
+12490763	Mazurkas
+15567602	Mazurkas créoles
+16740806	Mbalax 
+16594927	Mbaqanga
+16029697	Meistersang 
+12297345	Mélodies
+14639581	Mélodrames (musique)
+12309757	Menuets
+14553682	Mento
+16714142	Merengues
+13557958	Messes (musique)
+16914163	Metal chrétien 
+16947417	Metal gothique 
+16724865	Metal progressif 
+16747693	Metal symphonique 
+16708577	Milongas
+14616399	Minnesang 
+12234858	Modinhas
+15962967	Mornas
+12151626	Motets
+14403354	Mugam 
+14620155	Musette (musique populaire)
+12274798	Musique à programme
+12285592	Musique acousmatique 
+11953038	Musique aléatoire 
+12138226	Musique de ballet
+12050487	Musique bouddhique 
+16248215	Musique bruitiste 
+12573005	Musique carnatique
+13318360	Musique chrétienne 
+13505249	Musique chrétienne -- ?glise catholique
+13505279	Musique chrétienne -- ?glise luthérienne
+13505255	Musique chrétienne -- ?glise maronite
+13505285	Musique chrétienne -- ?glise orthodoxe
+13505229	Musique chrétienne -- ?glises protestantes
+14611868	Musique de comédie-ballet
+11978707	Musique concrète 
+12235298	Musique d'ambiance 
+12138226	Musique de ballet 
+16741830	Musique de cabaret 
+16720381	Musique de capoeira 
+13574339	Musique de carnaval 
+12260705	Musique de chasse 
+12293518	Musique de cirque 
+14611868	Musique de comédie-ballet 
+13603182	Musique de couronnement 
+12048235	Musique de danse
+11980662	Musique de danse traditionnelle 
+11937299	Musique de film
+12152151	Musique de film muet 
+16746133	Musique de gambuh 
+16759566	Musique de jeux vidéo 
+13561276	Musique de kabuki 
+13319478	Musique de l'Avent 
+16140570	Musique de l'?piphanie 
+13318752	Musique de la Passion 
+14418152	Musique de la Pentecôte 
+13319846	Musique de la Semaine sainte 
+13320278	Musique de mariage
+14618706	Musique de masque
+14402378	Musique de nô 
+13319515	Musique de Noël
+13603266	Musique de Pâques 
+16761776	Musique de publicité 
+12550689	Musique de relaxation 
+11949607	Musique de rue 
+11957876	Musique de scène
+15055563	Musique de séries télévisées 
+11978060	Musique de télévision 
+13318759	Musique du carême 
+13603286	Musique du jeudi saint 
+13603278	Musique du vendredi saint 
+12132383	Musique électroacoustique
+12513696	Musique electroacoustique mixte
+12513700	Musique électronique en direct 
+13319208	Musique funèbre
+12513700	Musique hindoue 
+13505668	Musique humoristique 
+13509068	Musique industrielle 
+12148634	Musique islamique 
+13319168	Musique juive 
+12140150	Musique maçonnique
+14642901	Musique mécanique 
+11961654	Musique militaire
+12550690	Musique New Age
+11983471	Musique noire américaine
+11946083	Musique par ordinateur 
+11938730	Musique populaire
+12300754	Musique pour la jeunesse 
+11978059	Musique radiophonique
+16237606	Musique religieuse 
+12513214	Musique répétitive 
+12254276	Musique révolutionnaire 
+12228338	Musique sérielle 
+13163340	Musique soufie 
+12513704	Musique spectrale 
+16573614	Musique stochastique 
+11953379	Musique traditionnelle
+11981009	Negro spirituals
+13505251	Musique synagogale 
+12475329	Musique taoïste 
+11953379	Musique traditionnelle 
+16725097	Musique troubadour 
+16733321	Musique vaudou 
+15087923	Musique vishnouite 
+11936006	Musique vocale 
+13319122	Musique vocale chrétienne 
+16237559	Musique vocale sacrée 
+11953665	Muwashshah
+13746113	Nagauta 
+15619148	Nan kouan 
+15718860	Néofolk
+13509160	New jack 
+12179854	New wave (musique)
+16137792	Nigunim
+16054184	No-wave 
+12426863	Nocturnes (musique)
+11978458	Noëls
+12574376	Noëls anglais
+14630743	Noëls roumains
+13337286	Noisy (musique)
+12324193	Nonets
+13577796	Nonets de jazz 
+12324254	Nonets sacrés 
+12324256	Nonets vocaux 
+14637445	Notre Père (musique)
+13511179	Noubas
+14505126	Nu jazz 
+16075740	Nu-metal 
+16138230	Nu soul 
+15518300	Nunc dimittis (musique) 
+12324177	Octuors
+12324186	Octuors sacrés
+12324189	Octuors vocaux 
+14481629	Offertoires (musique)
+12574198	Office des ténèbres (musique) 
+14623304	Office divin (musique)
+14419060	One-steps
+11976227	Opéras
+14648477	Opéras-ballets
+16255951	Opéras bouffes
+16172430	Opéras buffa
+12238089	Opéras-comiques
+11964509	Opéras de Pékin 
+16624185	Opéras filmés 
+11981216	Opéras pour la jeunesse
+12525030	Opéras-rock 
+12341643	Opéras seria
+11949713	Opérettes
+12287908	Oratorios
+12287094	Organa
+13553918	Or?k? 
+12454201	Ouvertures (musique)
+13546541	P'ansori 
+12436286	Péans
+13187472	Parodie (musique)
+16617234	Partimenti
+13187472	Parodie (musique)
+14624729	Pas redoublés
+13746045	Pasillos 
+12487497	Paso doble (musique)
+12555457	Passacailles
+14418762	Passepieds
+14419907	Pastorales (musique instrumentale)
+13337418	Pastorales (musique vocale)
+17089510	Pastorales héroïques 
+11953268	Pastourelles
+12556115	Pavanes
+16635004	Paysage sonore (musique)
+12436286	Péans 
+13319463	Piyyutim
+16554143	Plain-chant musical 
+16184891	Planctus
+13508712	Plenas
+12303230	Poèmes symphoniques
+12043842	Poésie sonore
+12487465	Polkas
+13742536	Polkas-mazurkas
+12117608	Polonaises (musique)
+12287111	Polyphonies sacrées 
+15579531	Polyphonies traditionnelles 
+11957141	Pop music
+16715570	Pop-rock 
+15567376	Post bop
+13738429	Post-rock 
+13742565	Pots-pourris (musique) 
+16057581	Power pop 
+15510858	Préludes (musique)
+12307918	Préludes de chorals
+12214757	Psaumes (musique)
+16062499	Psychobilly
+12486954	Punk rock
+11957907	Qas?das
+12542590	Qaww?l? 
+13742427	Quadrilles
+12049772	Quatuors
+13577788	Quatuors de jazz 
+12310471	Quatuors sacrés
+11978729	Quatuors vocaux
+16131405	Queercore
+12302396	Quintettes
+11979047	Quintettes de jazz 
+12302446	Quintettes sacrés 
+12548808	Raggamuffin
+11979048	Ragtime
+12201050	Raï (musique) 
+16649817	Ranz des vaches
+12187346	Rap
+13507961	Rebétika
+11978853	Récitatifs
+13742723	Redowas
+13508926	Refrains
+13611540	Reels
+11938753	Reggae
+16535131	Reggaet?n
+15788449	Regina Caeli (musique) 
+12134303	Répons
+12478796	Requiem
+17050993	Responsoriaux
+11949735	Revues (music-hall) 
+12528422	Rhapsodies
+11983469	Rhythm and blues
+15105105	Ricercari
+13742520	Rigaudons
+16562502	Ritournelles
+11932376	Rock (musique)
+12525036	Rock alternatif 
+16130963	Rock and roll (musique)
+16946538	Rock expérimental 
+12548780	Rock fusion 
+13606832	Rock garage 
+13509063	Rock gothique 
+16057179	Rock indépendant 
+13509070	Rock industriel 
+16721524	Rock planant 
+12499708	Rock progressif 
+13561480	Rock steady 
+16721529	Rock sudiste 
+12179947	Rockabilly 
+14420189	Romances (musique instrumentale)
+14420186	Romances (musique vocale)
+14638256	Romances sans paroles
+12530319	Rondos
+12487462	Rumbas
+15501217	Saetas
+16984319	Saibara 
+16741794	Salegy
+12331117	Salsas
+14418759	Saltarelles
+12406174	Sambas
+15030568	Sambe
+15019463	Sanctus (musique)
+12317396	Sanjo
+13185702	Sarabandes
+12061905	Sardanes
+15088737	Sawt 
+13340269	Scat
+13742687	Scherzos
+13742510	Scottishs
+15079631	Sean-n?s 
+12302248	Segas 
+16743708	Seggae
+16565097	Seguidillas
+12324159	Septuors
+13577792	Septuors de jazz
+12324165	Septuors sacrés 
+12324168	Septuors vocaux 
+13319653	Séquences (musique)
+14629862	Sérénades (musique instrumentale)
+16502535	Sérénades (musique vocale) 
+16575675	Serranas 
+12550848	Serventois
+15002297	Sevdalinka 
+16575685	Sevillanas
+12323139	Sextuors
+13577790	Sextuors de jazz 
+12323142	Sextuors sacrés
+12323144	Sextuors vocaux
+15079564	Sh?my?
+13742548	Siciliennes (musique)
+12299855	Singspiele
+11978293	Sirventès 
+12530355	Ska
+16965585	Sludge metal 
+16710837	Soca
+16240938	S?kyoku
+12324351	Sonates
+12310562	Sonates en trio
+13514321	Sones
+11981466	Sonneries militaires 
+13340289	Soukouss 
+11933300	Soul music
+13509049	Speed metal 
+12273813	Stabat Mater (musique)
+17000651	Stoner rock 
+12213036	Suites (musique)
+16555262	Surf-rock 
+15874597	Swamp blues 
+12210583	Swing (jazz)
+12144214	Symphonies
+16553153	Symphonies concertantes
+16574664	Taarab
+14597113	Tamboras
+16992583	Tanci
+12049072	Tangos
+16576015	Tarantas
+12487471	Tarentelles
+13337380	Te Deum (musique)
+12266067	Théâtre musical
+12525027	Techno (musique)
+16224275	Techno hardcore 
+13576613	Tensons
+13537501	Teocuicatl
+16061293	Third stream (musique)
+13509052	Thrash metal 
+16063680	T?humri? 
+11956905	Tientos
+12528416	Toccatas
+16984335	T?gaku 
+14632732	Tonadillas
+16244899	Tragédies lyriques
+15619134	Trallalero
+16652723	Tricotets
+12310556	Trios
+13577783	Trios de jazz
+12317416	Trios sacrés
+11979179	Trios vocaux
+13337262	Trip-hop
+13318709	Tropes (musique)
+14521555	Tropicalisme (musique)
+14569678	Vallenato
+12556040	Valses
+12523950	Variations (musique)
+16647202	Varsoviennes (musique)
+14633937	Veni creator Spiritus (musique)
+14632714	Vêpres (musique)
+12380544	Villancicos (musique)
+13576309	Villanelles (musique)
+12528434	Virelais
+12525043	Vocalises
+12080271	Voceri
+13511190	Wasla
+16064288	Western swing 
+12524990	World music
+12238085	Zarzuelas
+16565111	Zortzikos
+16535118	Zouglou
+12475341	Zouk 
+12503884	Zydeco
