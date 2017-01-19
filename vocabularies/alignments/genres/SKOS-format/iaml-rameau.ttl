@@ -1,0 +1,577 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/acl> skos:narrower <http://data.bnf.fr/ark:/12148/cb16983162r> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/agn> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135747494> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ala> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11957511m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/all> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13558185w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/alm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13557889z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/an#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12287121c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ant> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135581898> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ara> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14611602j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ari> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15837652f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ars> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122930053> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bag> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14417304h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bai> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13774650d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bar> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125492523> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bbp> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121799988> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bcs> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11965515q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bde> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11978725h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bdi> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13562480r> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/beg> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16708540r> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ben> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14618793n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bg#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12405731j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bkm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11983471v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bl#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11975253n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/blo> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122999171> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bol> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12245639h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bou> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135587261> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bra> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb165007761> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bru> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14410697g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bst> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16504685p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bt#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12138226d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/btq> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14571683f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cad> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12488042n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cb#> skos:broader <http://data.bnf.fr/ark:/12148/cb135163107> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cc#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13318328f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ccl> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135162777> ;
+    skos:narrower <http://data.bnf.fr/ark:/12148/cb14619037g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cdo> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11981216p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cdt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123075888> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cg#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12309689c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ch#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13319746q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cha> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124874597> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122950047> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chr> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119787276> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chs> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11959092j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ckw> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14418984w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cl#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123079186> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cld> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14630743k> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/clu> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb161648713> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cly> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12207896j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cn#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119795612> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cnd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13568634k> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cns> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14597350h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/co#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122405229> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cob> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146118681> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cp#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122898700> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cpl> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12030841v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cpr> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146116554> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cr#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12574376s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cre> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14618816g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/crr> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122508977> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/crt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742482c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cs#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119530389> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/csg> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12521738k> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ct#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12288709d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ctd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742438w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ctf> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb131874722> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cy#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11965103m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cz#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13575784w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/czt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135761923> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/df#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12048235d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dia> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12309837p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dim> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11938164x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dix> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16042445c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/drs> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11977660h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dtr> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11978214g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/due> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12293233w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dui> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122932169> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dv#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16965312t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/eco> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14418177d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121323832> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elx> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12513696r> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ely> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11934307p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ens> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14611690n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/est> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12354189t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fad> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11963474g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/faf> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11981465f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fax> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12214308j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fg#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12287109h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fin> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13753144f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fla> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12121615z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fm#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11953379q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fmm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121401508> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fnd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124083404> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fnk> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124751002> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fns> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12080269m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/for> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb165008273> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fox> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12487455v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/frj> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12210598x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fro> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12241496t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ft#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14613274s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fum> skos:broader <http://data.bnf.fr/ark:/12148/cb13319208s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fus> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12548846k> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gai> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742470c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gal> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742476f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gav> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742456t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gch> skos:broader <http://data.bnf.fr/ark:/12148/cb12238085j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gig> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742464f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gle> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16625166v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/glo> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12649509z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gm#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13318813s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gos> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12050156c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gra> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119800475> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hab> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14418201f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hem> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124869430> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hip> skos:narrower <http://data.bnf.fr/ark:/12148/cb121873463> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hit> skos:broader <http://data.bnf.fr/ark:/12148/cb119387308> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hrk> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12471027v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hy#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13505214w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/imu> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146154008> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/inm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119578761> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/itt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13603166j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jep> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15065247h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jot> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124268962> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jz#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11938040n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/kuj> skos:relatedMatch <http://data.bnf.fr/ark:/12148/cb12490763t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/kyr> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13512338n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lai> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12285534b> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lau> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122625346> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lby> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11965515q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/li#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12109363h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lid> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119808132> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lmz> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146188859> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lnd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146118937> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lty> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14609688t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lyh> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146233043> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mat> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb155118607> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mbm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167091955> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mc#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11936146h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/md#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121516387> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mda> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14639581r> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mi#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123097571> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mim> skos:broader <http://data.bnf.fr/ark:/12148/cb122380726> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mld> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122973454> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mlg> skos:broader <http://data.bnf.fr/ark:/12148/cb124083404> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mng> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167085773> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mnh> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12234858w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mo#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121516267> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mp#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11937299m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mqu> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14618706w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mr#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122380726> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ms#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13557958z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mut> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12266067r> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mxx> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16504673p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mym> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11961654x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mz#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12490763t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nat> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11948136w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nc#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124268633> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/noe> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11978458n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/non> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12324193f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nwa> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12550690s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nww> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12179854c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/obk> skos:broader <http://data.bnf.fr/ark:/12148/cb12490763t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/oct> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123241776> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/off> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14481629p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ogm> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122870949> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ons> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14419060n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/op#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11976227b> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opb> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146484776> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12238089x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opf> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16255951z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ops> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12341643z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119497134> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opu> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb161724304> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/or#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12287908c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ov#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124542011> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pad> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13337418k> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pae> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124362869> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pdy> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb131874722> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pg#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12274798p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/phy> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12061402q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/plc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb161848914> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/plk> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124874655> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pm#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13318752d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pmk> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742536g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pnk> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12486954n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/po#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12117608x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pot> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb137425652> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pp#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11957141f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/prd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15510858f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/prt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16617234s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ps#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12555457m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psa> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12214757v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12487497s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psl> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11953268s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psp> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb144187621> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psr> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14624729s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pst> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14419907p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ptn> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146374454> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pv#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125561153> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/qav> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11978729w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/qdl> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb137424277> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/qua> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb120497727> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/qui> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123023964> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ram> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11978059w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rap> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121873463> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rc#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119323761> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rd#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125303195> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rdv> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16649817z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rdw> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742723p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rec> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119788531> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ree> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13611540p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/res> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121343032> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rg#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11979048g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rgg> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11938753x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rhb> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119834699> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ri#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb151051057> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rig> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb137425203> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rit> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16562502n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rmc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14420189p> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rmz> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14420186n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rp#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125284222> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rq#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124787969> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rum> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124874624> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sad> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119808132> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sae> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb155012177> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/san> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb150194637> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/scc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12288706c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sch> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742687n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/scs> skos:broader <http://data.bnf.fr/ark:/12148/cb135163107> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sct> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13340269f> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/seq> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13319653q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sev> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16575685c> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sex> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12323139d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sg#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13319048g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sgl> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16565097h> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sha> skos:broader <http://data.bnf.fr/ark:/12148/cb122606658> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sic> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742548g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ska> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125303551> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sls> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12331117t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/slt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb144187594> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/smb> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12406174d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sn#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123243512> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/snd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb146298623> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/snt> skos:broader <http://data.bnf.fr/ark:/12148/cb12288709d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sou> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119333001> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sp#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123032305> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/spi> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11981009v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sps> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12005114m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/spt> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123241598> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/srb> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb131857027> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/srd> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb120619054> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/srv> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12550848j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ssp> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122998559> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/st#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb136033067> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ste> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13742510s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/su#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12213036q> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/swi> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12210583w> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sww> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14638256g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sy#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12144214n> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/syc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16553153g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/syo> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb150795643> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tar> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124874713> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tc#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125284164> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tct> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166527234> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tem> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12525027z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ter> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119791791> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tfm> skos:relatedMatch <http://data.bnf.fr/ark:/12148/cb16965312t> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ths> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16061293v> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tng> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb120490729> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ton> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14632732d> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tri> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123105565> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/trl> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb162448997> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tro> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb133187098> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ts#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123105623> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vir> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125284342> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vlc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12380544m> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vln> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135763098> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/voc> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125250436> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vr#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12523950g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vsp> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14632714g> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vvn> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16647202s> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wem> skos:broader <http://data.bnf.fr/ark:/12148/cb133202780> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wom> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12524990z> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wsg> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11945385x> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wz#> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125560401> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/zar> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12238085j> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/zor> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb165651117> .
+
