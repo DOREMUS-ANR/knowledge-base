@@ -8,29 +8,15 @@
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "gigue" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/librettiste> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/metier_de_la_musique> ;
-    skos:editorialNote "Auteur d'un livret d'opéra"@fr ;
-    skos:prefLabel "librettiste" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/merengue> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:editorialNote "Genre musical et danse ayant émergé en République dominicaine vers 1850."@fr ;
     skos:prefLabel "merengue" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/musette> a skos:Concept ;
-    skos:altLabel "bal musette" ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
-    skos:prefLabel "musette (genre)" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/punto> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:editorialNote "Le punto est un genre musical d'origine paysanne, héritage des poètes improvisateurs, des jongleurs et d'autres formes artistiques présentes en Amérique latine auquel se mélangent des traditions de jeux oratoires de Sardaigne, Portugal, Espagne, Afghanistan, Afrique de l'ouest et Madagascar. Les \" poetas \" ou \" repentistas \" suivent la métrique poétique de la \" décima \" et leur goût de l'improvisation. Il ne s'agit pas d'un véritable chant mais plutôt d'une création verbale, d'un jeu de mots inspiré de l'imaginaire populaire. Ludique, festive et spirituelle, cette forme musicale reste fidèle au cadre métrique en laissant la place à l'imagination. le punto naît au coeur des plantations de tabac et de café, héritage des poésies savantes de l'Espagne du 15éme siècle et de leur forme andalouse, il devient un véritable succès à l'arrivée de la Radio à Cuba en 1922. Souvent utilisé comme porteur de l'espoir populaire, le punto a été utilisé pendant les étapes le plus importantes qui ont marqué l'histoire de Cuba et il reste toujours bien vivant."@fr ;
     skos:prefLabel "punto" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/accompagnement> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:prefLabel "accompagnement (musique)" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/acid_jazz> a skos:Concept ;
     skos:altLabel "groove jazz" ;
@@ -52,17 +38,12 @@
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:editorialNote """L'afrobeat est un mélange de musique traditionnelle nigériane, de jazz, de highlife, de funk, et de chant, accompagné de percussions et de styles vocaux, popularisé en Afrique dans les années 1970. Le genre est créé par le multi-instrumentaliste nigérien et leadeur Fela Kuti (dit Fela), qui lui en attribue le nom. C'est Kuti qui utilise pour la première fois le terme d'"afrobeat" à son retour d'une tournée américaine avec son groupe Nigeria '70 (anciennement Koola Lobitos).
 Grâce au charisme de son créateur Fela Kuti, au rythme nouveau créé par son batteur Tony Allen et à la qualité de ses compositions (textes engagés et satiriques), cette musique devient rapidement très populaire au Nigeria. 
-L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacrée à ce genre musical et à ses adeptes (2014C21361E0091).
-"""@fr ;
+L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacrée à ce genre musical et à ses adeptes (2014C21361E0091)."""@fr ;
     skos:prefLabel "afrobeat" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/air> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "air (musique)" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/alto_(tessiture)> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "alto (tessiture)" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/ambient> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
@@ -81,6 +62,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/composition> ;
     skos:prefLabel "arrangement (musique)" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/bagatelle> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
+    skos:editorialNote "Pièce de musique de chambre légère, courte, sans prétention"@fr ;
+    skos:prefLabel "bagatelle (musique)" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/ballade> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "ballade" .
@@ -89,14 +75,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
     skos:editorialNote "Pièce de rythme ternaire généralement en 6/8 dont l'accompagnement évoque les mouvements d'une barque ou d'une gondole vénitienne."@fr ;
     skos:prefLabel "barcarolle" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/baryton_(voix)> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "baryton (voix)" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/basse> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "basse" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/basse_continue> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
@@ -119,11 +97,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "bicinium" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/big_band> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:editorialNote "Grand orchestre (comportant au moins 11-12 musiciens), notamment en vogue dans le jazz et le blues des années 1930-1940, le rhythm'n'blues des années 1950-1960 et de la soul des années 1960-1970."@fr ;
-    skos:prefLabel "big band" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/biguine> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "biguine" .
@@ -134,10 +107,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:editorialNote "Le Bikousti ou bikusti (parfois appelé Tipi) est une musique et une danse féminine traditionnelle du Cameroun. Cette danse et cette musique sont originaires des provinces du Centre et du Sud. C'est une danse traditionnelle de l'ethnie Beti. Le mot bikusti signifierait en Ewondo battement de la terre (bi est une marque du pluriel, kut signifie battre, pulser, et si signifie terre)."@fr ;
     skos:prefLabel "bikousti" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/bis> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/concert> ;
-    skos:prefLabel "bis" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/blues> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:prefLabel "blues" .
@@ -145,6 +114,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
 <http://data.doremus.org/vocabulary/redomi/genre/boogie_woogie> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
     skos:prefLabel "boogie woogie" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/bootleg> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
+    skos:editorialNote "Morceaux de musique créés à partir d'autres titres remixés entre eux."@fr ;
+    skos:prefLabel "bootleg" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/bossa_nova> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
@@ -180,6 +154,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:editorialNote "Danse japonaise, qui s'apparente aussi au mime, créée dans les années 60, après Hiroshima et Nagazaki."@fr ;
     skos:prefLabel "buto" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/cadence> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
+    skos:editorialNote "Formule harmonique ou mélodique de ponctuation des phrases musicales. Improvisation virtuose ménagée pour le soliste à la fin d'un mouvement de concerto. Dans le vocabulaire du XVIIIe siècle, synonyme de trille."@fr ;
+    skos:prefLabel "cadence" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/cajun> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:editorialNote "Musique populaire des descendants des Acadiens francophones (Canada) émigrés en Louisiane."@fr ;
@@ -198,6 +177,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
 <http://data.doremus.org/vocabulary/redomi/genre/cantate> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "cantate" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/cantique> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_religieuse> ;
+    skos:editorialNote "Chant religieux d'inspiration libre."@fr ;
+    skos:prefLabel "cantique" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/canzone> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
@@ -220,10 +204,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "cassation (musique)" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/castrat> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "castrat" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/cavatine> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:editorialNote "Dans l'opéra, des 17ème-19ème siècles, air bref qui sert à présenter un personnage, à le situer par rapport à l'action. Dans la musique instrumentale, pièce mélodique lyrique."@fr ;
@@ -233,6 +213,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:editorialNote "Chanson traditionnelle algéroise."@fr ;
     skos:prefLabel "chaabi" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chaconne> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
+    skos:editorialNote "Danse baroque d'origine italienne ; les chaconnes de Jean Sébastien Bach sont un modèle du genre mais le côté dansant a été remplacé par un côté dramatique."@fr ;
+    skos:prefLabel "chaconne" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
@@ -284,17 +269,9 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
     skos:prefLabel "chanson satirique" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/chant_a_cappella> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chant> ;
-    skos:prefLabel "chant a cappella" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/chant_de_marin> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
     skos:prefLabel "chant de marin" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/chant_diphonique> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> ;
-    skos:prefLabel "chant diphonique" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/chant_epique> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
@@ -307,10 +284,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
 <http://data.doremus.org/vocabulary/redomi/genre/chant_revolutionnaire> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
     skos:prefLabel "chant revolutionnaire" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/choeur> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> ;
-    skos:prefLabel "choeur" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/choral> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
@@ -325,7 +298,8 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
     skos:editorialNote "Courant de rock anglais des années 1980, dérivé du new wave, qui cultivait des ambiances industrielles glaciales et désespérées."@fr ;
     skos:prefLabel "cold wave" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/new_wave;musique_industrielle> .
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_industrielle>,
+        <http://data.doremus.org/vocabulary/redomi/genre/new_wave> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/comedie_musicale> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -348,19 +322,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:editorialNote "Dialogue entre un ensemble de solistes (concertino) et le reste de l'orchestre (ripieno/grosso)."@fr ;
     skos:prefLabel "concerto grosso" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/concours> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:prefLabel "concours (musique)" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/contralto> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "contralto" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/contre_tenor> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:editorialNote "Dans les oeuvres des 14ème et 15ème siècles (Moyen Age), troisième voix du cantus firmus et du déchant, qui est une voix de remplissage harmonique souvent inventée par le ténor, de tessiture soit intermédiaire, soit grave. (à distinguer de haute-contre)"@fr ;
-    skos:prefLabel "contre tenor" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/contredanse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
@@ -392,10 +353,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:prefLabel "dub" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/reggae> .
 
-<http://data.doremus.org/vocabulary/redomi/genre/duo> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "duo" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/echantillon> a skos:Concept ;
     skos:altLabel "sample" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/composition> ;
@@ -406,6 +363,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:altLabel "gamme" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
     skos:prefLabel "echelle musicale" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/electro_pop> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
+    skos:editorialNote "Courant né dans les années 1980, dans lequel se mêlent pop music, électronique et nouvelles technologies"@fr ;
+    skos:prefLabel "electro pop" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/elegie> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
@@ -424,19 +386,14 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
     skos:prefLabel "fado" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/fanfare> a skos:Concept ;
-    skos:altLabel "orpheon" ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "fanfare" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/fantaisie> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "fantaisie (musique)" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/faux_bourdon> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:editorialNote "Pratique musicale du 15ème siècle, qui consiste à accompagner un chant, le cantus firmus, par deux voix parallèles à la quarte et à la sixte inférieures."@fr ;
-    skos:prefLabel "faux bourdon" .
+<http://data.doremus.org/vocabulary/redomi/genre/figuralisme> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/composition> ;
+    skos:editorialNote "Utilisation de figures ou groupes de notes pour évoquer une image, une situation dramatique, un mouvement, un sentiment ou un symbole"@fr ;
+    skos:prefLabel "figuralisme" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/flamenco> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
@@ -446,6 +403,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:editorialNote "Musique populaire traditionnelle modernisée anglo-saxonne."@fr ;
     skos:prefLabel "folk" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/forro> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:editorialNote "Musique et danse traditionnelles du Brésil."@fr ;
+    skos:prefLabel "forro" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/free_jazz> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
@@ -463,23 +425,22 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "fugue" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/funk> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
-    skos:prefLabel "funk" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/fusion> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:editorialNote "Courants musicaux divers des années 1980-1990 caractérisés par des métissages et des mélanges d'influences jazz, rock, ethniques, pop, généralement à croches binaires."@fr ;
     skos:prefLabel "fusion (musique)" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/funk;jazz_fusion;rock_music> .
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/funk>,
+        <http://data.doremus.org/vocabulary/redomi/genre/jazz_fusion>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_music> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/gagaku> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
     skos:prefLabel "gagaku" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/gamelan> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "gamelan" .
+<http://data.doremus.org/vocabulary/redomi/genre/gavotte> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
+    skos:editorialNote "Pas et danse à deux temps, de mouvement modéré, originaire de la fin du XVIème siècle, qui se danse en ligne ou en cercle. La gavotte est devenue une danse de cour sous Louis XIV et Louis XV"@fr ;
+    skos:prefLabel "gavotte" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/glam_rock> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
@@ -505,20 +466,14 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:editorialNote "Version radicale explosive et rapide d'un courant."@fr ;
     skos:prefLabel "hardcore" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/rock_music;punk;techno;hip_hop> .
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/hip_hop>,
+        <http://data.doremus.org/vocabulary/redomi/genre/punk>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_music>,
+        <http://data.doremus.org/vocabulary/redomi/genre/techno> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/harmonie> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/composition> ;
     skos:prefLabel "harmonie" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/harmonie_(orchestre)> a skos:Concept ;
-    skos:altLabel "orchestre d'harmonie" ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "harmonie (orchestre)" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/haute_contre> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "haute contre" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/heavy_metal> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
@@ -564,10 +519,6 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
     skos:prefLabel "jazz cool" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/west_coast> .
 
-<http://data.doremus.org/vocabulary/redomi/genre/jazz_fusion> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
-    skos:prefLabel "jazz fusion" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/jazz_hot> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:editorialNote "Jazz des années 1920-1930. Il caractérise une façon typiquement \"noire\" de jouer le jazz privilégiant le côté expressionniste, chaud et vibrant, avec un swing appuyé qui se distinguait des formes de musique de variété teintées de jazz."@fr ;
@@ -580,6 +531,11 @@ L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacr
 Le jazz manouche revient devant le grand public au milieu des années 1990 grâce à des artistes comme Angelo Debarre, Romane, Moreno. On peut également citer un certain nombre d'artistes qui se situent plus ou moins dans l'esprit du jazz manouche : Stochelo Rosenberg, Biréli Lagrène, Romane, Raphaël Faÿs, Jimmy Rosenberg, Tchavolo Schmitt, Angelo Debarre, Serge Krief, Dorado Schmitt, David Reinhardt, Christophe Lartilleux, Christian Escoudé (...). D'autres artistes, de variété cette fois, tels que Sanseverino s'inspirent également du jazz manouche. """@fr ;
     skos:prefLabel "jazz manouche" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/jota> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:editorialNote "Chant et danse de couple populaires, d'origine aragonaise, à 3 temps, brillants et virtuoses, apparus à la fin du XVIIème siècle"@fr ;
+    skos:prefLabel "jota" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/jungle> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
     skos:editorialNote "Courant électronique proche ou identique au Drum and Bass, né en Angleterre au milieu des années 1990, dans le sillage du breakbeat, du dub, de la techno, du hardcore, du ragga, du jazz et du hip-hop. Il se caractérise par des tempos rapides, des basses puissantes, une caisse claire électronique, une rythmique complexe et un large usage du sampling. (Ne pas confondre avec le jungle jazz des années 1920-1940)."@fr ;
@@ -590,7 +546,13 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
     skos:editorialNote "Courant allemand du rock underground, expérimental et avant-gardiste, né à la fin des années 1960, qui était influencé par le psychédélisme californien. Le Krautrock se caractérisait par des ambiances électroniques (guitares électriques, premières générations de synthétiseurs)."@fr ;
     skos:prefLabel "krautrock" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_progressive;psychedelisme> .
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_progressive>,
+        <http://data.doremus.org/vocabulary/redomi/genre/psychedelisme> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/latin_jazz> a skos:Concept ;
+    skos:altLabel "jazz afro-cubain" ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
+    skos:prefLabel "latin jazz" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/lied> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
@@ -600,10 +562,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "madrigal" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/maitrise> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> ;
-    skos:prefLabel "maitrise" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/maloya> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
     skos:editorialNote "Genre musical originaire de l'Île de la Réunion, chanté à l'origine par les esclaves ayant le mal du pays ou se plaignant des mauvais traitements de leur maître."@fr ;
@@ -612,11 +570,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
 <http://data.doremus.org/vocabulary/redomi/genre/mambo> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "mambo" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/masterclass> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:editorialNote "Cours d'interprétation donnés par des musiciens célèbres."@fr ;
-    skos:prefLabel "masterclass" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/mazurka> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
@@ -630,10 +583,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "menuet" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/mezzo_soprano> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "mezzo soprano" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/modalite> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
     skos:prefLabel "modalite (musique)" .
@@ -644,6 +593,16 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "motet" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/murga> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
+    skos:editorialNote "La murga, forme musicale née en Argentine descendante du \"candomblé\", enflamme l'âme des Argentins et des Urugayens. Cousine du tango, c'est une musique très rythmée que l'on retrouve dans les carnavals. Le pianiste et chanteur argentin Juan Carlos Caceres, installé à Paris, est le maître du genre."@fr ;
+    skos:prefLabel "murga" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musette> a skos:Concept ;
+    skos:altLabel "bal musette" ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
+    skos:prefLabel "musette (genre)" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/musique_afro_cubaine> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:prefLabel "musique afro cubaine" .
@@ -652,11 +611,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:altLabel "musique stochastique" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:prefLabel "musique aleatoire" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/musique_arabo_andalouse> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/nouba> ;
-    skos:prefLabel "musique arabo andalouse" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musique_assistee_par_ordinateur> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -671,10 +625,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
 <http://data.doremus.org/vocabulary/redomi/genre/musique_carnatique> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
     skos:prefLabel "musique carnatique" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/musique_chorale> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> ;
-    skos:prefLabel "musique chorale" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musique_concrete> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique> ;
@@ -713,9 +663,10 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:editorialNote "Courant de musique contemporaine, d'avant-garde, axé sur des recherches sonores, comprenant souvent l'utilisation de nouvelles technologies, et/ou de nouvelles approches du langage musical."@fr ;
     skos:prefLabel "musique experimentale" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/musique_industrielle> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
-    skos:prefLabel "musique industrielle" .
+<http://data.doremus.org/vocabulary/redomi/genre/musique_hindoustanie> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:editorialNote "Musique classique de l'Inde du nord."@fr ;
+    skos:prefLabel "musique hindoustanie" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musique_klezmer> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
@@ -750,6 +701,10 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
 <http://data.doremus.org/vocabulary/redomi/genre/musique_orthodoxe> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_religieuse> ;
     skos:prefLabel "musique orthodoxe" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_persane> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:prefLabel "musique persane" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musique_polyphonique> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -789,10 +744,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:prefLabel "musique symphonique" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/new_wave> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
-    skos:prefLabel "new wave" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/nocturne> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:editorialNote "Forme musicale destinée à des fêtes nocturnes de plein air (18ème siècle, proche de la sérénade ou du divertimento), ou inspirée par la nuit (19ème siècle)"@fr ;
@@ -802,10 +753,11 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "noel (musique)" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/notation> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/tablature> ;
-    skos:prefLabel "notation (musique)" .
+<http://data.doremus.org/vocabulary/redomi/genre/nouba> a skos:Concept ;
+    skos:altLabel "nawba" ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_arabo_andalouse> ;
+    skos:editorialNote "Forme musicale de la musique traditionnelle savante arabo andalouse, il existe 24 noubas pour les 24 heures de la journée. Ces noubas se jouent sur 7 modes différents. Le musicologue et musicien Rachid Guerbas a redonné à cette forme musicale ses lettres de noblesse et la place qui lui revient dans la culture algérienne et dans le monde arabe."@fr ;
+    skos:prefLabel "nouba" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/opera> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/art_lyrique> ;
@@ -848,18 +800,20 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/composition> ;
     skos:prefLabel "orchestration" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/orchestre> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "orchestre" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/oreille_absolue> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique> ;
     skos:prefLabel "oreille absolue" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/physiologie;ouie> .
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/ouie>,
+        <http://data.doremus.org/vocabulary/redomi/genre/physiologie> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/ornement> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
     skos:prefLabel "ornement (musique)" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ostinato> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
+    skos:editorialNote "Ensemble des répétitions ininterrompues d'une seule et même structure rythmique : phénomène apparu dès le XIIIème siècle tant dans les musiques savantes occidentales que dans les traditions musicales populaires, indépendamment de leurs origines géographiques."@fr ;
+    skos:prefLabel "ostinato" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/ouverture> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
@@ -876,10 +830,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
 <http://data.doremus.org/vocabulary/redomi/genre/passion> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "passion (musique)" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/piano_a_quatre_mains> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "piano a quatre mains" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/plain_chant> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_religieuse> ;
@@ -916,20 +866,6 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:editorialNote "Chant de dévotion islamique pratiqué en Inde et au pakistan."@fr ;
     skos:prefLabel "qawwali" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/quatuor> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/quatuor_a_cordes> ;
-    skos:prefLabel "quatuor" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/quintette> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "quintette" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/r&b> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
-    skos:editorialNote "Issu du rythm and blues et de la soul, le R&B est apparu dans les années 90."@fr ;
-    skos:prefLabel "r&b" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/raga> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "raga" .
@@ -962,6 +898,13 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:editorialNote "Genre pratiqué à l'origine au sein de la communauté grecque de Turquie chassée par les troupes d'Atatürk après l'agression des Grecs dans les années 20. Pleine d'influences ottomanes, cette musique, jouée dans les bars où l'on fumait le haschisch, fut réprouvée en Grèce, jusqu'à sa réhabilitation et sa renaissance dans les années 70."@fr ;
     skos:prefLabel "rebetiko" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/remix> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
+    skos:editorialNote "Action de mixer à nouveau un morceau."@fr ;
+    skos:prefLabel "remix" ;
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/mixage>,
+        <http://data.doremus.org/vocabulary/redomi/genre/technique_audiovisuelle> .
+
 <http://data.doremus.org/vocabulary/redomi/genre/requiem> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "requiem" .
@@ -975,6 +918,11 @@ Le jazz manouche revient devant le grand public au milieu des années 1990 grâc
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:editorialNote "Le rigaudon est une danse populaire, originaire semble-t-il du sud des Alpes et du Languedoc, bien que Pierre Rameau, la situe plutôt du côté de la Provence. Elle fait son apparition vers le XVIIème siècle. Jean-Jacques Rousseau, dans son Dictionnaire de Musique (1768) note une petite histoire à ce propos : « ouï dire à un Maître à danser que le nom de cette Danse venoit de celui de l'inventeur, lequel s'appeleroit Rigaud ». Mais rien ne vient confirmer cette assertion. Vers le milieu du XVIIIème siècle, il disparaîtra progressivement et ne fera sa réapparition que vers l'extrême fin du XIXème siècle. C'est une danse de société à deux temps (binaire), comportant parfois une anacrouse. Danse de couple, le rigaudon se danse en cercle d'un pas que Charles Campan [Dictionnaire de la Danse, 1787] décrit comme suit : le pas se fait de manière fort singulière puisqu'il se fait \" à la même place sans avancer ni reculer... ce n'est que la jambe qui agite la hanche et la brise tout de suite. Les deux pieds étant à terre, vous pliez et vous relevez en sautant\". Son tempo est rapide. Quantz la qualifie de danse gaie, et d'Alembert décrit le mouvement vif. Son pas de base est le pas de rigaudon. Il entre dans la composition de bon nombre d'autres pas chorégraphiques. Au théâtre, le rigaudon est réservé aux rôles de matelots ou de personnages champêtres. "@fr ;
     skos:prefLabel "rigaudon" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rnb> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
+    skos:editorialNote "Issu du rythm and blues et de la soul, le R&B est apparu dans les années 90."@fr ;
+    skos:prefLabel "r&b" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/rock_alternatif> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
@@ -1022,10 +970,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
     skos:prefLabel "rythme" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/salle_de_concert> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/concert> ;
-    skos:prefLabel "salle de concert" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/salsa> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "salsa" .
@@ -1033,6 +977,11 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
 <http://data.doremus.org/vocabulary/redomi/genre/samba> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "samba" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/sardane> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
+    skos:editorialNote "Danse populaire de Catalogne et du Roussillon qui se pratique en cercle dans la rue."@fr ;
+    skos:prefLabel "sardane" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/scat> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
@@ -1045,6 +994,12 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
 <http://data.doremus.org/vocabulary/redomi/genre/serenade> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "serenade" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/shash-maqam> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:editorialNote "Le Shash-maqâm est la musique classique d'Ouzbékistan et du Tadjikistan. Il a pris forme au 18ème siècle, âge d'or de la cour des khan de Boukhara, et comprend six grandes suites vocales et instrumentales dont le Maqâm Dugâh, pour voix, luths (dotar) et violes. Interprétée pour célébrer les fêtes, c'est une musique d'une grande intensité expressive, tantôt dramatique ou mélancolique, tantôt jubilatoire. Nadira Pirmatova est une grande interprète de shash-maqâm."@fr ;
+    skos:prefLabel "shash-maqam" ;
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/chanson> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/sinfonia> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
@@ -1072,10 +1027,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:editorialNote "Petite sonate (XVIIIè-XXè siècle). Oeuvre instrumentale généralement élaborée, destinée à un petit nombre d'exécutants (souvent un ou plusieurs instruments solistes accompagnés)."@fr ;
     skos:prefLabel "sonatine" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/soprano> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "soprano" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/soul> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:prefLabel "soul" .
@@ -1096,6 +1047,11 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale> ;
     skos:prefLabel "symphonie" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/tablature> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/notation> ;
+    skos:editorialNote "Représentation graphique de la position des doigts de l'exécution sur l'instrument. Au 16 et 17ème siècle, cette représentation graphique est surtout utilisée pour l'orgue, le luth, la viuhela et la guitare. Pour le jazz, le rock et la variété, cette représentation graphique est surtout utilisée pour les instruments à cordes frettées (guitare, basse, banjo)."@fr ;
+    skos:prefLabel "tablature" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/tango> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "tango" .
@@ -1105,13 +1061,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:editorialNote "Sérénade italienne d'origine napolitaine."@fr ;
     skos:prefLabel "tarentelle" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/techno> a skos:Concept ;
-    skos:altLabel "musique techno",
-        "techno music" ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
-    skos:prefLabel "techno" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> .
-
 <http://data.doremus.org/vocabulary/redomi/genre/tecktonik> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:editorialNote "Tecktonik (souvent abrégé en TCK) est une marque déposée et protégée depuis 2002. Par extension, Tecktonik définit également une danse basée sur des mouvements atypiques adaptés au rythme de la musique hardstyle (Wikipedia)."@fr ;
@@ -1120,10 +1069,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
 <http://data.doremus.org/vocabulary/redomi/genre/temperament> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
     skos:prefLabel "temperament (musique)" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/tenor> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "tenor" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/theatre_musical> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -1154,23 +1099,10 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/composition> ;
     skos:prefLabel "transcription (musique)" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/trio> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> ;
-    skos:prefLabel "trio" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/trip_hop> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
-    skos:editorialNote "Courant musical. Le groupe britannique Massive Attack est le précurseur de ce courant musical mêlant reggae, dub, funk et soul. "@fr ;
-    skos:prefLabel "trip hop" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> .
-
-<http://data.doremus.org/vocabulary/redomi/genre/troubadour> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:prefLabel "troubadour" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/trouvere> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:prefLabel "trouvere" .
+<http://data.doremus.org/vocabulary/redomi/genre/tyrolienne> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:editorialNote "Danse à trois temps proche des Ländler et du Jodel. Chant par déformation abusive"@fr ;
+    skos:prefLabel "tyrolienne" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/valse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
@@ -1205,6 +1137,11 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
     skos:prefLabel "yodel" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/yoik> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:editorialNote "Chant traditionnel du pays Sami, peuple de l'extrême nord de la Norvège."@fr ;
+    skos:prefLabel "yoik" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/zarzuela> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/art_lyrique> ;
     skos:prefLabel "zarzuela" .
@@ -1212,6 +1149,15 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
 <http://data.doremus.org/vocabulary/redomi/genre/zouk> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
     skos:prefLabel "zouk" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/zydeco> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
+    skos:editorialNote "Musique créole francophone, versant noir de la musique cajun, devenue populaire dans les années 30, avec un renouveau dans les années 80"@fr ;
+    skos:prefLabel "zydeco" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/> a skos:ConceptScheme ;
+    rdfs:label "List of musical genres from REDOMI of Radio France"@en,
+        "Liste des genres de REDOMI de Radio France"@fr .
 
 <http://data.doremus.org/vocabulary/redomi/genre/berceuse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
@@ -1223,11 +1169,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/chanson_rive_gauche> ;
     skos:prefLabel "chanson francaise" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/chant> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/chant_a_cappella> ;
-    skos:prefLabel "chant" .
-
 <http://data.doremus.org/vocabulary/redomi/genre/country_music> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:prefLabel "country music" .
@@ -1237,6 +1178,10 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:editorialNote "Courant identique ou proche de la jungle, né en Angleterre dans les années 1990, qui comprend des sons techno jazzy sur une rythmique électronique syncopée rapide avec des basses puissantes."@fr ;
     skos:prefLabel "drum and bass" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/funk> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
+    skos:prefLabel "funk" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/gospel> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_religieuse> ;
     skos:prefLabel "gospel" ;
@@ -1245,6 +1190,10 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
 <http://data.doremus.org/vocabulary/redomi/genre/hard_rock> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
     skos:prefLabel "hard rock" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/jazz_fusion> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
+    skos:prefLabel "jazz fusion" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/jazz_new_orleans> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/jazz> ;
@@ -1268,6 +1217,11 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:prefLabel "musique afro americaine" .
 
+<http://data.doremus.org/vocabulary/redomi/genre/musique_arabo_andalouse> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> ;
+    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/nouba> ;
+    skos:prefLabel "musique arabo andalouse" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/musique_electronique> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique> ;
     skos:editorialNote "A NE PAS CONFONDRE avec MUSIQUES ELECTRONIQUES "@fr,
@@ -1275,10 +1229,9 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:prefLabel "musique electronique" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_savante> .
 
-<http://data.doremus.org/vocabulary/redomi/genre/musique_progressive> a skos:Concept ;
+<http://data.doremus.org/vocabulary/redomi/genre/musique_industrielle> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
-    skos:editorialNote "Style musical apparu en 1967 dans le sud-est de l'Angleterre."@fr ;
-    skos:prefLabel "musique progressive" .
+    skos:prefLabel "musique industrielle" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musique_savante> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -1291,13 +1244,24 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:prefLabel "negro spiritual" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/gospel> .
 
+<http://data.doremus.org/vocabulary/redomi/genre/new_wave> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/rock_music> ;
+    skos:prefLabel "new wave" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/notation> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
+    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/tablature> ;
+    skos:prefLabel "notation (musique)" .
+
 <http://data.doremus.org/vocabulary/redomi/genre/popmusic> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:prefLabel "pop'music" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/> a skos:ConceptScheme ;
-    rdfs:label "List of musical genres from REDOMI of Radio France"@en,
-        "Liste des genres de REDOMI de Radio France"@fr .
+<http://data.doremus.org/vocabulary/redomi/genre/trip_hop> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
+    skos:editorialNote "Courant musical. Le groupe britannique Massive Attack est le précurseur de ce courant musical mêlant reggae, dub, funk et soul. "@fr ;
+    skos:prefLabel "trip hop" ;
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
@@ -1305,16 +1269,22 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:prefLabel "chanson enfantine" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/berceuse> .
 
-<http://data.doremus.org/vocabulary/redomi/genre/concert> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/bis>,
-        <http://data.doremus.org/vocabulary/redomi/genre/salle_de_concert> ;
-    skos:prefLabel "concert" .
+<http://data.doremus.org/vocabulary/redomi/genre/musique_progressive> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
+    skos:editorialNote "Style musical apparu en 1967 dans le sud-est de l'Angleterre."@fr ;
+    skos:prefLabel "musique progressive" .
 
 <http://data.doremus.org/vocabulary/redomi/genre/reggae> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/raggamuffin> ;
     skos:prefLabel "reggae" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/techno> a skos:Concept ;
+    skos:altLabel "musique techno",
+        "techno music" ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques> ;
+    skos:prefLabel "techno" ;
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musicologie> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
@@ -1351,18 +1321,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:prefLabel "musique religieuse" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/liturgie> .
 
-<http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/cantillation>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chant>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chant_diphonique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/choeur>,
-        <http://data.doremus.org/vocabulary/redomi/genre/maitrise>,
-        <http://data.doremus.org/vocabulary/redomi/genre/musique_chorale>,
-        <http://data.doremus.org/vocabulary/redomi/genre/tessiture> ;
-    skos:prefLabel "musique vocale" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/chef_de_choeur> .
-
 <http://data.doremus.org/vocabulary/redomi/genre/composition> a skos:Concept ;
     skos:altLabel "composition musicale" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> ;
@@ -1393,49 +1351,22 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
     skos:prefLabel "musiques electroniques" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> .
 
-<http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> a skos:Concept ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/accompagnement>,
-        <http://data.doremus.org/vocabulary/redomi/genre/concert>,
-        <http://data.doremus.org/vocabulary/redomi/genre/concours>,
-        <http://data.doremus.org/vocabulary/redomi/genre/faux_bourdon>,
-        <http://data.doremus.org/vocabulary/redomi/genre/formation_musicale>,
-        <http://data.doremus.org/vocabulary/redomi/genre/masterclass>,
-        <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale>,
-        <http://data.doremus.org/vocabulary/redomi/genre/troubadour>,
-        <http://data.doremus.org/vocabulary/redomi/genre/trouvere> ;
-    skos:prefLabel "interpretation musicale" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/metier_de_la_musique> ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/redomi/genre/> .
-
-<http://data.doremus.org/vocabulary/redomi/genre/formation_musicale> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/interpretation_musicale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/big_band>,
-        <http://data.doremus.org/vocabulary/redomi/genre/brass_band>,
-        <http://data.doremus.org/vocabulary/redomi/genre/duo>,
-        <http://data.doremus.org/vocabulary/redomi/genre/fanfare>,
-        <http://data.doremus.org/vocabulary/redomi/genre/gamelan>,
-        <http://data.doremus.org/vocabulary/redomi/genre/harmonie_(orchestre)>,
-        <http://data.doremus.org/vocabulary/redomi/genre/orchestre>,
-        <http://data.doremus.org/vocabulary/redomi/genre/piano_a_quatre_mains>,
-        <http://data.doremus.org/vocabulary/redomi/genre/quatuor>,
-        <http://data.doremus.org/vocabulary/redomi/genre/quintette>,
-        <http://data.doremus.org/vocabulary/redomi/genre/sextuor>,
-        <http://data.doremus.org/vocabulary/redomi/genre/trio> ;
-    skos:prefLabel "formation musicale" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/tessiture> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_vocale> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/alto_(tessiture)>,
-        <http://data.doremus.org/vocabulary/redomi/genre/baryton_(voix)>,
-        <http://data.doremus.org/vocabulary/redomi/genre/basse>,
-        <http://data.doremus.org/vocabulary/redomi/genre/castrat>,
-        <http://data.doremus.org/vocabulary/redomi/genre/contralto>,
-        <http://data.doremus.org/vocabulary/redomi/genre/contre_tenor>,
-        <http://data.doremus.org/vocabulary/redomi/genre/haute_contre>,
-        <http://data.doremus.org/vocabulary/redomi/genre/mezzo_soprano>,
-        <http://data.doremus.org/vocabulary/redomi/genre/soprano>,
-        <http://data.doremus.org/vocabulary/redomi/genre/tenor> ;
-    skos:prefLabel "tessiture" .
+<http://data.doremus.org/vocabulary/redomi/genre/art_lyrique> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
+    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/bel_canto>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera_ballet>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera_comique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera_de_chambre>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants>,
+        <http://data.doremus.org/vocabulary/redomi/genre/opera_seria>,
+        <http://data.doremus.org/vocabulary/redomi/genre/operette>,
+        <http://data.doremus.org/vocabulary/redomi/genre/singspiel>,
+        <http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/zarzuela> ;
+    skos:prefLabel "art lyrique" ;
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/chanteur> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/jazz> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -1453,22 +1384,66 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
         <http://data.doremus.org/vocabulary/redomi/genre/swing> ;
     skos:prefLabel "jazz" .
 
-<http://data.doremus.org/vocabulary/redomi/genre/art_lyrique> a skos:Concept ;
+<http://data.doremus.org/vocabulary/redomi/genre/chanson> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/bel_canto>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera_ballet>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera_comique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera_de_chambre>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants>,
-        <http://data.doremus.org/vocabulary/redomi/genre/opera_seria>,
-        <http://data.doremus.org/vocabulary/redomi/genre/operette>,
-        <http://data.doremus.org/vocabulary/redomi/genre/singspiel>,
-        <http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/zarzuela> ;
-    skos:prefLabel "art lyrique" ;
+    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/berceuse>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_de_rue>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_engagee>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_francaise>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_grivoise>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_historique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_militaire>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_patriotique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_realiste>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chanson_satirique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chant_de_marin>,
+        <http://data.doremus.org/vocabulary/redomi/genre/chant_revolutionnaire> ;
+    skos:prefLabel "chanson" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/chanteur> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rock_music> a skos:Concept ;
+    skos:altLabel "rock" ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
+    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/brit_pop>,
+        <http://data.doremus.org/vocabulary/redomi/genre/cold_wave>,
+        <http://data.doremus.org/vocabulary/redomi/genre/funk>,
+        <http://data.doremus.org/vocabulary/redomi/genre/glam_rock>,
+        <http://data.doremus.org/vocabulary/redomi/genre/hard_rock>,
+        <http://data.doremus.org/vocabulary/redomi/genre/heavy_metal>,
+        <http://data.doremus.org/vocabulary/redomi/genre/krautrock>,
+        <http://data.doremus.org/vocabulary/redomi/genre/new_wave>,
+        <http://data.doremus.org/vocabulary/redomi/genre/post_rock>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_alternatif>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_and_roll>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_garage>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_gothique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rock_progressif> ;
+    skos:prefLabel "rock music" .
+
+<http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> a skos:Concept ;
+    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/barcarolle>,
+        <http://data.doremus.org/vocabulary/redomi/genre/basse_continue>,
+        <http://data.doremus.org/vocabulary/redomi/genre/composition>,
+        <http://data.doremus.org/vocabulary/redomi/genre/dechiffrage>,
+        <http://data.doremus.org/vocabulary/redomi/genre/diapason>,
+        <http://data.doremus.org/vocabulary/redomi/genre/echelle_musicale>,
+        <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale>,
+        <http://data.doremus.org/vocabulary/redomi/genre/modalite>,
+        <http://data.doremus.org/vocabulary/redomi/genre/musicologie>,
+        <http://data.doremus.org/vocabulary/redomi/genre/musique>,
+        <http://data.doremus.org/vocabulary/redomi/genre/notation>,
+        <http://data.doremus.org/vocabulary/redomi/genre/ornement>,
+        <http://data.doremus.org/vocabulary/redomi/genre/ostinato>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rythme>,
+        <http://data.doremus.org/vocabulary/redomi/genre/solfege>,
+        <http://data.doremus.org/vocabulary/redomi/genre/temperament>,
+        <http://data.doremus.org/vocabulary/redomi/genre/timbre>,
+        <http://data.doremus.org/vocabulary/redomi/genre/tonalite> ;
+    skos:prefLabel "theorie musicale" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/redomi/genre/> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> a skos:Concept ;
     skos:altLabel "folklore (musique)",
@@ -1495,67 +1470,6 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
         <http://data.doremus.org/vocabulary/redomi/genre/yodel>,
         <http://data.doremus.org/vocabulary/redomi/genre/yoik> ;
     skos:prefLabel "musique traditionnelle" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/rock_music> a skos:Concept ;
-    skos:altLabel "rock" ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/musique_populaire> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/brit_pop>,
-        <http://data.doremus.org/vocabulary/redomi/genre/cold_wave>,
-        <http://data.doremus.org/vocabulary/redomi/genre/funk>,
-        <http://data.doremus.org/vocabulary/redomi/genre/glam_rock>,
-        <http://data.doremus.org/vocabulary/redomi/genre/hard_rock>,
-        <http://data.doremus.org/vocabulary/redomi/genre/heavy_metal>,
-        <http://data.doremus.org/vocabulary/redomi/genre/krautrock>,
-        <http://data.doremus.org/vocabulary/redomi/genre/new_wave>,
-        <http://data.doremus.org/vocabulary/redomi/genre/post_rock>,
-        <http://data.doremus.org/vocabulary/redomi/genre/rock_alternatif>,
-        <http://data.doremus.org/vocabulary/redomi/genre/rock_and_roll>,
-        <http://data.doremus.org/vocabulary/redomi/genre/rock_garage>,
-        <http://data.doremus.org/vocabulary/redomi/genre/rock_gothique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/rock_progressif> ;
-    skos:prefLabel "rock music" .
-
-<http://data.doremus.org/vocabulary/redomi/genre/chanson> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/berceuse>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_de_rue>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_engagee>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_francaise>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_grivoise>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_historique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_militaire>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_patriotique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_realiste>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chanson_satirique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chant_de_marin>,
-        <http://data.doremus.org/vocabulary/redomi/genre/chant_revolutionnaire> ;
-    skos:prefLabel "chanson" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/chanteur> .
-
-<http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale> a skos:Concept ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/barcarolle>,
-        <http://data.doremus.org/vocabulary/redomi/genre/basse_continue>,
-        <http://data.doremus.org/vocabulary/redomi/genre/composition>,
-        <http://data.doremus.org/vocabulary/redomi/genre/dechiffrage>,
-        <http://data.doremus.org/vocabulary/redomi/genre/diapason>,
-        <http://data.doremus.org/vocabulary/redomi/genre/echelle_musicale>,
-        <http://data.doremus.org/vocabulary/redomi/genre/forme_musicale>,
-        <http://data.doremus.org/vocabulary/redomi/genre/modalite>,
-        <http://data.doremus.org/vocabulary/redomi/genre/musicologie>,
-        <http://data.doremus.org/vocabulary/redomi/genre/musique>,
-        <http://data.doremus.org/vocabulary/redomi/genre/notation>,
-        <http://data.doremus.org/vocabulary/redomi/genre/ornement>,
-        <http://data.doremus.org/vocabulary/redomi/genre/ostinato>,
-        <http://data.doremus.org/vocabulary/redomi/genre/rythme>,
-        <http://data.doremus.org/vocabulary/redomi/genre/solfege>,
-        <http://data.doremus.org/vocabulary/redomi/genre/temperament>,
-        <http://data.doremus.org/vocabulary/redomi/genre/timbre>,
-        <http://data.doremus.org/vocabulary/redomi/genre/tonalite> ;
-    skos:prefLabel "theorie musicale" ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/redomi/genre/> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/danse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
@@ -1595,15 +1509,15 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
         <http://data.doremus.org/vocabulary/redomi/genre/disco>,
         <http://data.doremus.org/vocabulary/redomi/genre/folk>,
         <http://data.doremus.org/vocabulary/redomi/genre/murga>,
-        <http://data.doremus.org/vocabulary/redomi/genre/musette_(genre)>,
+        <http://data.doremus.org/vocabulary/redomi/genre/musette>,
         <http://data.doremus.org/vocabulary/redomi/genre/musique_afro_americaine>,
         <http://data.doremus.org/vocabulary/redomi/genre/musique_afro_cubaine>,
         <http://data.doremus.org/vocabulary/redomi/genre/musique_de_rue>,
         <http://data.doremus.org/vocabulary/redomi/genre/popmusic>,
-        <http://data.doremus.org/vocabulary/redomi/genre/r&b>,
         <http://data.doremus.org/vocabulary/redomi/genre/rai>,
         <http://data.doremus.org/vocabulary/redomi/genre/rap>,
         <http://data.doremus.org/vocabulary/redomi/genre/reggae>,
+        <http://data.doremus.org/vocabulary/redomi/genre/rnb>,
         <http://data.doremus.org/vocabulary/redomi/genre/rock_music>,
         <http://data.doremus.org/vocabulary/redomi/genre/ska>,
         <http://data.doremus.org/vocabulary/redomi/genre/soul>,
@@ -1611,7 +1525,9 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
         <http://data.doremus.org/vocabulary/redomi/genre/ye_ye>,
         <http://data.doremus.org/vocabulary/redomi/genre/zydeco> ;
     skos:prefLabel "musique populaire" ;
-    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques;techno;trip_hop> .
+    skos:related <http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques>,
+        <http://data.doremus.org/vocabulary/redomi/genre/techno>,
+        <http://data.doremus.org/vocabulary/redomi/genre/trip_hop> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> a skos:Concept ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/genre/acid_jazz>,
@@ -1737,4 +1653,3 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
         <http://data.doremus.org/vocabulary/redomi/genre/villancico> ;
     skos:prefLabel "forme musicale" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/genre/pastorale> .
-

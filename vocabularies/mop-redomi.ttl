@@ -5,8 +5,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/> a skos:ConceptScheme ;
-rdfs:label "List of instrument from REDOMI of Radio France"@en,
-"Liste des instruments de REDOMI de Radio France"@fr .
+    rdfs:label "List of instrument from REDOMI of Radio France"@en,
+        "Liste des instruments de REDOMI de Radio France"@fr .
 
 <http://data.doremus.org/vocabulary/redomi/mop/arpegina> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
@@ -112,6 +112,11 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:editorialNote "Guitare andine faite avec une carapace de tatou."@fr ;
     skos:prefLabel "charango" .
 
+<http://data.doremus.org/vocabulary/redomi/mop/cistre> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
+    skos:editorialNote "Luth ancien à cordes métalliques pincées, à corps piriforme plat et mince, en usage en Europe entre le 15ème et le 18ème siècle. A DISTINGUER du sistre qui est une percussion."@fr ;
+    skos:prefLabel "cistre" .
+
 <http://data.doremus.org/vocabulary/redomi/mop/clairon> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "clairon" .
@@ -158,9 +163,10 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "cor des alpes" .
 
-<http://data.doremus.org/vocabulary/redomi/mop/cornet> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
-    skos:prefLabel "cornet" .
+<http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_experimental> ;
+    skos:editorialNote "Le cristal Baschet est un instrument de musique contemporain mis au point en 1952 par les frères Bernard et François Baschet. Il appartient à la famille des structures sonores qui utilisent comme principe acoustique la mise en vibration d'une verge métallique. Toujours fabriqué aujourd'hui, le cristal est constitué d'un clavier d'une tessiture maximale (en 2007) de 5 octaves Fa0-Sol5."@fr ;
+    skos:prefLabel "cristal baschet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/crouth> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/violon> ;
@@ -306,6 +312,11 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "lame sonore" .
 
+<http://data.doremus.org/vocabulary/redomi/mop/likembe> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
+    skos:editorialNote "Le likembe ou piano à pouces est un instrument de la famille des lamellophones que l'on retrouve dans de nombreux pays d'Afrique sous différents noms : sanza, mbira... Outre Konono N°1 qui a contribué à populariser cet instrument en occident, il y a d'autres maitres-likembé comme Antoine Moundanda"@fr ;
+    skos:prefLabel "likembe" .
+
 <http://data.doremus.org/vocabulary/redomi/mop/lithophone> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "lithophone" .
@@ -353,6 +364,11 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "ondes martenot" .
 
+<http://data.doremus.org/vocabulary/redomi/mop/ophicleide> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
+    skos:editorialNote "Instrument à vent en cuivre, de tessiture grave à embouchure et à clés. Apparût au XIXème siècle il est tombé en désuétude, remplacé par le trombone ou le tuba"@fr ;
+    skos:prefLabel "ophicleide" .
+
 <http://data.doremus.org/vocabulary/redomi/mop/organologie> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:prefLabel "organologie" .
@@ -374,7 +390,6 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:altLabel "limonaire",
         "orgue de barbarie" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> ;
     skos:prefLabel "orgue mecanique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue_positif> a skos:Concept ;
@@ -477,6 +492,13 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
 <http://data.doremus.org/vocabulary/redomi/mop/serinette> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> ;
     skos:prefLabel "serinette" .
+
+<http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
+    skos:editorialNote "Instrument ancien à vent de la famille des cuivres, proche du cornet à bouquin, de tessiture grave."@fr ;
+    skos:prefLabel "serpent (musique)" ;
+    skos:related <http://data.doremus.org/vocabulary/redomi/mop/cornet>,
+        <http://data.doremus.org/vocabulary/redomi/mop/cuivres> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/shakuhachi> a skos:Concept ;
     skos:altLabel "kiotaku" ;
@@ -585,7 +607,6 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
         "vinai" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cithare> ;
     skos:editorialNote "Instrument de musique indien, cithare tubulaire de l'Inde du Sud, munie de résonateurs en calebasse, jouée aujourd'hui comme un luth et utilisée dans la musique dite carnatique."@fr ;
-    skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> ;
     skos:prefLabel "vina" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/viole_damour> a skos:Concept ;
@@ -648,6 +669,10 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset> ;
     skos:prefLabel "cor" .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cornet> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
+    skos:prefLabel "cornet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/facture_dinstrument> a skos:Concept ;
     skos:altLabel "facture" ;
@@ -732,11 +757,6 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/biniou>,
         <http://data.doremus.org/vocabulary/redomi/mop/cabrette> ;
     skos:prefLabel "cornemuse" .
-
-<http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_experimental> ;
-    skos:editorialNote "Le cristal Baschet est un instrument de musique contemporain mis au point en 1952 par les frères Bernard et François Baschet. Il appartient à la famille des structures sonores qui utilisent comme principe acoustique la mise en vibration d'une verge métallique. Toujours fabriqué aujourd'hui, le cristal est constitué d'un clavier d'une tessiture maximale (en 2007) de 5 octaves Fa0-Sol5."@fr ;
-    skos:prefLabel "cristal baschet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/viele> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
@@ -891,8 +911,7 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
         <http://data.doremus.org/vocabulary/redomi/mop/organologie>,
         <http://data.doremus.org/vocabulary/redomi/mop/percussions>,
         <http://data.doremus.org/vocabulary/redomi/mop/scie_musicale> ;
-    skos:prefLabel "instrument de musique" ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/redomi/mop/> .
+    skos:prefLabel "instrument de musique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/percussions> a skos:Concept ;
     skos:altLabel "instrument a percussions" ;
@@ -974,4 +993,3 @@ rdfs:label "List of instrument from REDOMI of Radio France"@en,
         <http://data.doremus.org/vocabulary/redomi/mop/violon>,
         <http://data.doremus.org/vocabulary/redomi/mop/violoncelle> ;
     skos:prefLabel "instrument a cordes" .
-
