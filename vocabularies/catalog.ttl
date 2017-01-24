@@ -1,0 +1,1914 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix modsrdf: <http://www.loc.gov/standards/mods/rdf/v1/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/catalog/> a dcat:Catalog ;
+    dct:accrualPeriodicity <http://dublincore.org/groups/collections/frequency/#freqirregular> ;
+    dct:created "2017-01-24"^^xsd:date ;
+    dct:description "Thematic catalog or catalog of works, listing all known works of a composer"@en,
+        "Catalogue thématique ou catalogue d'oeuvres, listant toutes les oeuvres connues d'un compositeur"@fr,
+        "Catalogo tematico o catalogo delle opere, che enumera tutte le opere conosciute di un compositore"@it ;
+    dct:issued "2017-01-24"^^xsd:date ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en>,
+        <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+    dct:title "Catalogue"@fr,
+        "Catalogo"@it ;
+    dcat:record <http://data.doremus.org/vocabulary/catalog/001>,
+        <http://data.doremus.org/vocabulary/catalog/002>,
+        <http://data.doremus.org/vocabulary/catalog/003>,
+        <http://data.doremus.org/vocabulary/catalog/004>,
+        <http://data.doremus.org/vocabulary/catalog/005>,
+        <http://data.doremus.org/vocabulary/catalog/006>,
+        <http://data.doremus.org/vocabulary/catalog/007>,
+        <http://data.doremus.org/vocabulary/catalog/008>,
+        <http://data.doremus.org/vocabulary/catalog/009>,
+        <http://data.doremus.org/vocabulary/catalog/010>,
+        <http://data.doremus.org/vocabulary/catalog/011>,
+        <http://data.doremus.org/vocabulary/catalog/012>,
+        <http://data.doremus.org/vocabulary/catalog/013>,
+        <http://data.doremus.org/vocabulary/catalog/014>,
+        <http://data.doremus.org/vocabulary/catalog/015>,
+        <http://data.doremus.org/vocabulary/catalog/016>,
+        <http://data.doremus.org/vocabulary/catalog/017>,
+        <http://data.doremus.org/vocabulary/catalog/018>,
+        <http://data.doremus.org/vocabulary/catalog/019>,
+        <http://data.doremus.org/vocabulary/catalog/020>,
+        <http://data.doremus.org/vocabulary/catalog/021>,
+        <http://data.doremus.org/vocabulary/catalog/022>,
+        <http://data.doremus.org/vocabulary/catalog/023>,
+        <http://data.doremus.org/vocabulary/catalog/024>,
+        <http://data.doremus.org/vocabulary/catalog/025>,
+        <http://data.doremus.org/vocabulary/catalog/026>,
+        <http://data.doremus.org/vocabulary/catalog/027>,
+        <http://data.doremus.org/vocabulary/catalog/028>,
+        <http://data.doremus.org/vocabulary/catalog/029>,
+        <http://data.doremus.org/vocabulary/catalog/030>,
+        <http://data.doremus.org/vocabulary/catalog/031>,
+        <http://data.doremus.org/vocabulary/catalog/032>,
+        <http://data.doremus.org/vocabulary/catalog/033>,
+        <http://data.doremus.org/vocabulary/catalog/034>,
+        <http://data.doremus.org/vocabulary/catalog/035>,
+        <http://data.doremus.org/vocabulary/catalog/036>,
+        <http://data.doremus.org/vocabulary/catalog/037>,
+        <http://data.doremus.org/vocabulary/catalog/038>,
+        <http://data.doremus.org/vocabulary/catalog/039>,
+        <http://data.doremus.org/vocabulary/catalog/040>,
+        <http://data.doremus.org/vocabulary/catalog/041>,
+        <http://data.doremus.org/vocabulary/catalog/042>,
+        <http://data.doremus.org/vocabulary/catalog/043>,
+        <http://data.doremus.org/vocabulary/catalog/044>,
+        <http://data.doremus.org/vocabulary/catalog/045>,
+        <http://data.doremus.org/vocabulary/catalog/046>,
+        <http://data.doremus.org/vocabulary/catalog/047>,
+        <http://data.doremus.org/vocabulary/catalog/048>,
+        <http://data.doremus.org/vocabulary/catalog/049>,
+        <http://data.doremus.org/vocabulary/catalog/050>,
+        <http://data.doremus.org/vocabulary/catalog/051>,
+        <http://data.doremus.org/vocabulary/catalog/052>,
+        <http://data.doremus.org/vocabulary/catalog/053>,
+        <http://data.doremus.org/vocabulary/catalog/054>,
+        <http://data.doremus.org/vocabulary/catalog/055>,
+        <http://data.doremus.org/vocabulary/catalog/056>,
+        <http://data.doremus.org/vocabulary/catalog/057>,
+        <http://data.doremus.org/vocabulary/catalog/058>,
+        <http://data.doremus.org/vocabulary/catalog/059>,
+        <http://data.doremus.org/vocabulary/catalog/060>,
+        <http://data.doremus.org/vocabulary/catalog/061>,
+        <http://data.doremus.org/vocabulary/catalog/062>,
+        <http://data.doremus.org/vocabulary/catalog/063>,
+        <http://data.doremus.org/vocabulary/catalog/064>,
+        <http://data.doremus.org/vocabulary/catalog/065>,
+        <http://data.doremus.org/vocabulary/catalog/066>,
+        <http://data.doremus.org/vocabulary/catalog/067>,
+        <http://data.doremus.org/vocabulary/catalog/068>,
+        <http://data.doremus.org/vocabulary/catalog/069>,
+        <http://data.doremus.org/vocabulary/catalog/070>,
+        <http://data.doremus.org/vocabulary/catalog/071>,
+        <http://data.doremus.org/vocabulary/catalog/072>,
+        <http://data.doremus.org/vocabulary/catalog/073>,
+        <http://data.doremus.org/vocabulary/catalog/074>,
+        <http://data.doremus.org/vocabulary/catalog/075>,
+        <http://data.doremus.org/vocabulary/catalog/076>,
+        <http://data.doremus.org/vocabulary/catalog/077>,
+        <http://data.doremus.org/vocabulary/catalog/078>,
+        <http://data.doremus.org/vocabulary/catalog/079>,
+        <http://data.doremus.org/vocabulary/catalog/080>,
+        <http://data.doremus.org/vocabulary/catalog/081>,
+        <http://data.doremus.org/vocabulary/catalog/082>,
+        <http://data.doremus.org/vocabulary/catalog/083>,
+        <http://data.doremus.org/vocabulary/catalog/084>,
+        <http://data.doremus.org/vocabulary/catalog/085>,
+        <http://data.doremus.org/vocabulary/catalog/086>,
+        <http://data.doremus.org/vocabulary/catalog/087>,
+        <http://data.doremus.org/vocabulary/catalog/088>,
+        <http://data.doremus.org/vocabulary/catalog/089>,
+        <http://data.doremus.org/vocabulary/catalog/090>,
+        <http://data.doremus.org/vocabulary/catalog/091>,
+        <http://data.doremus.org/vocabulary/catalog/092>,
+        <http://data.doremus.org/vocabulary/catalog/093>,
+        <http://data.doremus.org/vocabulary/catalog/094>,
+        <http://data.doremus.org/vocabulary/catalog/095>,
+        <http://data.doremus.org/vocabulary/catalog/096>,
+        <http://data.doremus.org/vocabulary/catalog/097>,
+        <http://data.doremus.org/vocabulary/catalog/098>,
+        <http://data.doremus.org/vocabulary/catalog/099>,
+        <http://data.doremus.org/vocabulary/catalog/100>,
+        <http://data.doremus.org/vocabulary/catalog/101>,
+        <http://data.doremus.org/vocabulary/catalog/102>,
+        <http://data.doremus.org/vocabulary/catalog/103>,
+        <http://data.doremus.org/vocabulary/catalog/104>,
+        <http://data.doremus.org/vocabulary/catalog/105>,
+        <http://data.doremus.org/vocabulary/catalog/106>,
+        <http://data.doremus.org/vocabulary/catalog/107>,
+        <http://data.doremus.org/vocabulary/catalog/108>,
+        <http://data.doremus.org/vocabulary/catalog/109>,
+        <http://data.doremus.org/vocabulary/catalog/110>,
+        <http://data.doremus.org/vocabulary/catalog/111>,
+        <http://data.doremus.org/vocabulary/catalog/112>,
+        <http://data.doremus.org/vocabulary/catalog/113>,
+        <http://data.doremus.org/vocabulary/catalog/114>,
+        <http://data.doremus.org/vocabulary/catalog/115>,
+        <http://data.doremus.org/vocabulary/catalog/116>,
+        <http://data.doremus.org/vocabulary/catalog/117>,
+        <http://data.doremus.org/vocabulary/catalog/118>,
+        <http://data.doremus.org/vocabulary/catalog/119>,
+        <http://data.doremus.org/vocabulary/catalog/120>,
+        <http://data.doremus.org/vocabulary/catalog/121>,
+        <http://data.doremus.org/vocabulary/catalog/122>,
+        <http://data.doremus.org/vocabulary/catalog/123>,
+        <http://data.doremus.org/vocabulary/catalog/124>,
+        <http://data.doremus.org/vocabulary/catalog/125>,
+        <http://data.doremus.org/vocabulary/catalog/126>,
+        <http://data.doremus.org/vocabulary/catalog/127>,
+        <http://data.doremus.org/vocabulary/catalog/128>,
+        <http://data.doremus.org/vocabulary/catalog/129>,
+        <http://data.doremus.org/vocabulary/catalog/130>,
+        <http://data.doremus.org/vocabulary/catalog/131>,
+        <http://data.doremus.org/vocabulary/catalog/132>,
+        <http://data.doremus.org/vocabulary/catalog/133>,
+        <http://data.doremus.org/vocabulary/catalog/134>,
+        <http://data.doremus.org/vocabulary/catalog/135>,
+        <http://data.doremus.org/vocabulary/catalog/136>,
+        <http://data.doremus.org/vocabulary/catalog/137>,
+        <http://data.doremus.org/vocabulary/catalog/138>,
+        <http://data.doremus.org/vocabulary/catalog/139>,
+        <http://data.doremus.org/vocabulary/catalog/140>,
+        <http://data.doremus.org/vocabulary/catalog/141>,
+        <http://data.doremus.org/vocabulary/catalog/142>,
+        <http://data.doremus.org/vocabulary/catalog/143>,
+        <http://data.doremus.org/vocabulary/catalog/144>,
+        <http://data.doremus.org/vocabulary/catalog/145>,
+        <http://data.doremus.org/vocabulary/catalog/146>,
+        <http://data.doremus.org/vocabulary/catalog/147>,
+        <http://data.doremus.org/vocabulary/catalog/148>,
+        <http://data.doremus.org/vocabulary/catalog/149>,
+        <http://data.doremus.org/vocabulary/catalog/150>,
+        <http://data.doremus.org/vocabulary/catalog/151> .
+
+<http://data.doremus.org/vocabulary/catalog/distribution/turtle> a dcat:Distribution ;
+    dct:issued "2017-01-24"^^xsd:date ;
+    dct:license <https://www.etalab.gouv.fr/licence-ouverte-open-licence> ;
+    dcat:accessURL <https://raw.githubusercontent.com/DOREMUS-ANR/knowledge-base/master/vocabularies/catalog.ttl> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
+
+<http://data.doremus.org/vocabulary/catalog/001> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Bibliographisch-thematisches Verzeichnis der Kompositionen von Karl Friedrich Abel (1732-1787)"@de ;
+    modsrdf:dateOfCopyright "1971" ;
+    modsrdf:identifier "WKO" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Knape, Walter" ;
+    modsrdf:publisher "W. Knape (Cuxhaven)" ;
+    modsrdf:subjectName "ABEL, CARL FRIEDRICH (1723-1787)" ;
+    modsrdf:title "Knape, Abel"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43075778d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/002> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:identifier "AWV" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:locationUrl <http://www.oxfordmusiconline.com/subscriber/article/grove/music/00391pg2> ;
+    modsrdf:namePrincipal "Schauerte, Helga" ;
+    modsrdf:subjectName "ALAIN, JEHAN (1911-1940)" ;
+    modsrdf:titlePrincipal "Schauerte, Helga. – Jehan Alain"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/003> a modsrdf:ModsResource ;
+    dct:description "Sous la direction de Marie-Claire Alain.",
+        "Contient un catalogue d'œuvre"@fr ;
+    modsrdf:identifier "JA" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:locationUrl <http://www.jehanalain.com/> ;
+    modsrdf:namePrincipal "Marie-Claire Alain" ;
+    modsrdf:subjectName "ALAIN, JEHAN (1911-1940)" ;
+    modsrdf:titlePrincipal "Jehan Alain"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/004> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chronologisch-Thematisches Verzeichnis sämtlicher Werke von Daniel François Esprit Auber"@de ;
+    modsrdf:dateOfCopyright "1994" ;
+    modsrdf:identifier "AWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Schneider, Herbert" ;
+    modsrdf:publisher "G. Olms (Hildesheim)" ;
+    modsrdf:subjectName "AUBER, DANIEL-FRANCOIS-ESPRIT (1782-1871)" ;
+    modsrdf:title "Schneider, Auber"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb357393466/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/005> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematic catalogue of the works of Carl Philipp Emanuel Bach"@en ;
+    modsrdf:dateOfCopyright "1989" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Helm, Eugene E." ;
+    modsrdf:publisher "Yale University press (New-Haven ; London)" ;
+    modsrdf:subjectName "BACH, CARL PHILIPP EMANUEL (1714-1788)" ;
+    modsrdf:title "Helm, C.P.E. Bach"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb356796351/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/006> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der Werke von Carl Philipp Emanuel Bach"@de ;
+    modsrdf:dateOfCopyright "1905" ;
+    modsrdf:identifier "Wq" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Wotquenne, Alfred" ;
+    modsrdf:publisher "Breitkopf & Härtel (Leipzig ; Brüssel ; London ; New York" ;
+    modsrdf:subjectName "BACH, CARL PHILIPP EMANUEL (1714-1788)" ;
+    modsrdf:title "Wotquenne, C.P.E. Bach"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43340930n/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/007> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    dct:isPartOf "The collected works of Johann Christian Bach ; 48"@fr ;
+    modsrdf:abstract "The collected works of Johann Christian Bach 1735-1782 : Thematic catalog"@en ;
+    modsrdf:dateOfCopyright "1999" ;
+    modsrdf:identifier "W" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Warburton, Ernest." ;
+    modsrdf:publisher "Garland Publishing, Inc (New York ; London)" ;
+    modsrdf:subjectName "BACH, JOHANN CHRISTIAN (1735-1782)" ;
+    modsrdf:title "Warburton, J.C. Bach"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37661417p/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/008> a modsrdf:ModsResource ;
+    dct:description "Contient le catalogue thématique"@fr ;
+    modsrdf:abstract "Johann Christian Bach"@en ;
+    modsrdf:dateOfCopyright "1929" ;
+    modsrdf:identifier "T" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Terry, Charles Sanford" ;
+    modsrdf:publisher "Oxford University Press (London)" ;
+    modsrdf:subjectName "BACH, JOHANN CHRISTIAN (1735-1782)" ;
+    modsrdf:title "Terry, Johann Christian Bach"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43296946b/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/009> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisch-systematisches Verzeichnis der musikalischen Werke von Johann Sebastian Bach"@de ;
+    modsrdf:dateOfCopyright "1990" ;
+    modsrdf:edition "2e éd. revue et augm."@fr ;
+    modsrdf:identifier "BWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Schmieder, Wolfgang" ;
+    modsrdf:publisher "Breitkopf & Härtel (Wiesbaden)" ;
+    modsrdf:subjectName "BACH, JOHANN SEBASTIAN (1685-1750)" ;
+    modsrdf:title "Schmieder"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35502307n/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/010> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Wilhelm Friedemann Bach  : thematisch-systematisches Verzeichnis der musikalischen Werke (BR-WFB)"@de ;
+    modsrdf:dateOfCopyright "2012" ;
+    modsrdf:identifier "BR" ;
+    modsrdf:languageOfResource "de"^^xsd:language,
+        "en"^^xsd:language ;
+    modsrdf:namePrincipal "ISNI 0000 0001 0883 6476",
+        "Wollny, Peter" ;
+    modsrdf:publisher "Carus (Stuttgart)" ;
+    modsrdf:subjectName "BACH, WILHELM FRIEDEMANN (1710-1784)" ;
+    modsrdf:title "Wollny,  Wilhelm"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43526255f/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/011> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Wilhelm Friedemann Bach, sein Leben und seine Werke mit thematischem Verzeichnis seiner Kompositionen und zwei Bildern"@de ;
+    modsrdf:dateOfCopyright "1913" ;
+    modsrdf:identifier "F" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Falck, Martin" ;
+    modsrdf:publisher "C.F. Kahnt Nachfolger (Leipzig)" ;
+    modsrdf:subjectName "BACH, WILHELM FRIEDEMANN (1710-1784)" ;
+    modsrdf:title "Falck, Wilhelm Friedemann Bach"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb32090533v/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/012> a modsrdf:ModsResource ;
+    dct:description "Contient le catalogue thématique"@fr ;
+    modsrdf:abstract "Béla Bartók : composition, concepts and autograph sources"@en ;
+    modsrdf:dateOfCopyright "1996" ;
+    modsrdf:identifier "BB" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Somfai, László" ;
+    modsrdf:publisher "University of California press (Berkeley ; London)" ;
+    modsrdf:subjectName "BARTOK, BELA (1881-1945)" ;
+    modsrdf:title "Somfai, Bartok"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb402045396/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/013> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1956" ;
+    modsrdf:identifier "Sz" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Szabolcsi, Bence" ;
+    modsrdf:publisher "Corvina (Budapest)" ;
+    modsrdf:subjectName "BARTOK, BELA (1881-1945)" ;
+    modsrdf:title "Szabolcsi, Bence"@fr ;
+    modsrdf:titlePrincipal "Bartok : sa vie et son œuvre"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43347266d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/014> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique",
+        "(Les catalogues de G. Kinsky et de W. Hess sont complémentaires)"@fr ;
+    modsrdf:abstract "Das Werk Beethovens : Thematisch-bibliographisches Verzeichnis..."@de ;
+    modsrdf:dateOfCopyright "1955" ;
+    modsrdf:identifier "WoO" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Kinsky, Georg. Halm, Hans" ;
+    modsrdf:publisher "Henle Verlag (München)" ;
+    modsrdf:subjectName "BEETHOVEN, LUDWIG VAN (1770-1827)" ;
+    modsrdf:title "Kinsky"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb322183975/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/015> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique",
+        "(Les catalogues de G. Kinsky et de W. Hess sont complémentaires)"@fr ;
+    modsrdf:abstract "The new Hess catalog of Beethoven's works"@en ;
+    modsrdf:dateOfCopyright "2003" ;
+    modsrdf:edition "Révision de l’éd. 1957"@fr ;
+    modsrdf:identifier "Hess" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Hess, Willy" ;
+    modsrdf:publisher "Vance Brook Publishing (West Newbury (Vt.))" ;
+    modsrdf:subjectName "BEETHOVEN, LUDWIG VAN (1770-1827)" ;
+    modsrdf:title "The new Hess catalog of Beethoven's works, 2003"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb412916043/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/016> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Franz Benda (1709-1786) : a thematic catalogue of his works"@en ;
+    modsrdf:dateOfCopyright "1984" ;
+    modsrdf:identifier "L" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Lee, Douglas A." ;
+    modsrdf:publisher "Pendragon press (New York)" ;
+    modsrdf:subjectName "BENDA, FRANZ (1709-1786)" ;
+    modsrdf:title "Lee, Benda"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43103478t/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/017> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Catalogue of the works of Hector Berlioz"@en ;
+    modsrdf:dateOfCopyright "1987" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "de"^^xsd:language,
+        "en"^^xsd:language,
+        "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Holoman, D. Kern" ;
+    modsrdf:publisher "Bärenreiter (Kassel ; Basel ; London)" ;
+    modsrdf:subjectName "BERLIOZ, HECTOR (1803-1869)" ;
+    modsrdf:title "Holoman, Berlioz"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37396975j/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/018> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "The Bizet catalogue"@en ;
+    modsrdf:dateOfCopyright "2014" ;
+    modsrdf:identifier "GB" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:locationUrl <http://digital.wustl.edu/bizet/> ;
+    modsrdf:namePrincipal "Macdonald, Hugh" ;
+    modsrdf:subjectName "BIZET, GEORGES (1838-1875)" ;
+    modsrdf:title "Macdonald, Bizet : http://digital.wustl.edu/bizet (AAAAMMJJ)"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/019> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "Arthur Bliss : catalogue of the complete works"@en ;
+    modsrdf:dateOfCopyright "1980" ;
+    modsrdf:identifier "F" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Foreman, Lewis" ;
+    modsrdf:publisher "Novello (Sevenoaks)" ;
+    modsrdf:subjectName "BLISS, ARTHUR (1891-1975)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb429921556/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/020> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematic, bibliographical and critical catalogue of the works of Luigi Boccherini"@en ;
+    modsrdf:dateOfCopyright "1969" ;
+    modsrdf:identifier "G" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Gérard, Yves" ;
+    modsrdf:publisher "Oxford University press (London)" ;
+    modsrdf:subjectName "BOCCHERINI, LUIGI (1743-1805)" ;
+    modsrdf:title "Gérard, Boccherini"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35158704h/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/021> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Johannes Brahms thematisch-bibliographishes Werkverzeichnis"@de ;
+    modsrdf:dateOfCopyright "1984" ;
+    modsrdf:identifier "WoO" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "McCorkle, Margit L." ;
+    modsrdf:publisher "Henle (München)" ;
+    modsrdf:subjectName "BRAHMS, JOHANNES (1833-1897)" ;
+    modsrdf:title "McCorkle, Brahms"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37420397g/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/022> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Britten-Pears Foundation.- Britten thematic catalogue (http://www.brittenpears.org)"@en ;
+    modsrdf:dateOfCopyright "2013" ;
+    modsrdf:identifier "BTC" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:locationUrl <http://www.brittenpears.org> ;
+    modsrdf:namePrincipal "Britten-Pears Foundation" ;
+    modsrdf:subjectName "BRITTEN, BENJAMIN (1913-1976)" ;
+    modsrdf:title "Britten-Pears Foundation, Britten :http://www.brittenpears.org(AAAAMMJJ)"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/023> a modsrdf:ModsResource ;
+    dct:description "Catalogue chronologique avec index multiples"@fr ;
+    modsrdf:abstract "Benjamin Britten : A catalogue of the published works…"@en ;
+    modsrdf:dateOfCopyright "1999" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Banks, Paul (éd.)" ;
+    modsrdf:publisher "The Britten-Pears Library for the Britten Estate limited (Aldeburgh)" ;
+    modsrdf:subjectName "BRITTEN, BENJAMIN (1913-1976)" ;
+    modsrdf:title "Britten, Catalogue of published works"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb38912474c/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/024> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1995" ;
+    modsrdf:identifier "SdB" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Duron, Jean" ;
+    modsrdf:publisher "Editions du Centre de musique baroque de Versailles (Versailles)",
+        "Klincksieck (Paris)" ;
+    modsrdf:subjectName "BROSSARD, SEBASTIEN DE (1655-1730)" ;
+    modsrdf:title "Duron, Brossard"@fr ;
+    modsrdf:titlePrincipal "L'œuvre de Sébastien de Brossard (1655-1730) : catalogue thématique"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb358024272/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/025> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Werkverzeichnis Anton Bruckner"@de ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "WAB" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Grasberger, Renate" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "BRUCKNER, ANTON (1824-1896)" ;
+    modsrdf:title "Grasberger, Bruckner"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35135518h/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/026> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Studien zur Musikgeschichte des 19. Jahrhunderts ; 19)"@de,
+        "Thematisch-chronologisches Verzeichnis der musikalischen Werke von Ferruccio B. Busoni"@de ;
+    modsrdf:dateOfCopyright "1980" ;
+    modsrdf:identifier "K" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Kindermann, Jürgen" ;
+    modsrdf:publisher "G. Bosse (Regensburg)" ;
+    modsrdf:subjectName "BUSONI, FERRUCCIO (1866-1924)" ;
+    modsrdf:title "Kindermann, Busoni"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35644744f/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/027> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisch-systematisches Verzeichnis der musikalischer Werke von Dietrich Buxtehude"@de ;
+    modsrdf:dateOfCopyright "1974" ;
+    modsrdf:identifier "BuxWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Karstädt, Georg" ;
+    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
+    modsrdf:subjectName "BUXTEHUDE, DIETRICH (1637?-1707)" ;
+    modsrdf:title "Buxtehude Werke Verzeichnis"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35135494b/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/028> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique des motets attribués au compositeur"@fr ;
+    modsrdf:abstract "2 vol. – (British studies in musicology ; 5.)"@en,
+        "The motets of Carissimi"@en ;
+    modsrdf:dateOfCopyright "1982" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Jones, Andrew V" ;
+    modsrdf:publisher "UMI research press (Ann Arbor (Michigan))" ;
+    modsrdf:subjectName "CARISSIMI, GIACOMO (1605-1674)" ;
+    modsrdf:title "Jones, Carissimi"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/029> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1982" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Hitchkock, Hugh Wiley" ;
+    modsrdf:publisher "Picard (Paris)" ;
+    modsrdf:subjectName "CHARPENTIER, MARC-ANTOINE (1643-1704)" ;
+    modsrdf:title "Hitchcock, Charpentier"@fr ;
+    modsrdf:titlePrincipal "Les œuvres de Marc-Antoine Charpentier, catalogue raisonné"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb347341480/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/030> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Catalogo tematico delle opere di Ferdinando Carulli"@it ;
+    modsrdf:dateOfCopyright "1993" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:namePrincipal "Torta, Mario" ;
+    modsrdf:publisher "Libreria musicale italiana (Lucca)" ;
+    modsrdf:subjectName "CARULLI, FERDINANDO (1770-1841)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb357998982/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/031> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre. (Bibliothèque des grands musiciens ; 19.)"@fr ;
+    modsrdf:dateOfCopyright "1994" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Gallois, Jean" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "CHAUSSON, ERNEST (1855-1899)" ;
+    modsrdf:titlePrincipal "Ernest Chausson"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35680366h/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/032> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Tentativo di un catalogo della produzione di Luigi Cherubini"@it ;
+    modsrdf:dateOfCopyright "1972" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:publisher "Olschki (Firenze)" ;
+    modsrdf:subjectName "CHERUBINI, LUIGI (1760-1842)" ;
+    modsrdf:title "Lesure, Sartori, Cat. Cherubini"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb331662006/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/033> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1990" ;
+    modsrdf:identifier "CT" ;
+    modsrdf:languageOfResource "en"^^xsd:language,
+        "pl"^^xsd:language ;
+    modsrdf:publisher "PWM (Kraków)",
+        "TiFC (Warszawa)" ;
+    modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
+    modsrdf:title "Chominski et Turlo"@fr ;
+    modsrdf:titlePrincipal "Katalog dzieł Fryderyka Chopina"@pl ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35315970n/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/034> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Frédéric Chopin : thematisch-biographisches Werkverzeichnis"@de ;
+    modsrdf:dateOfCopyright "1979" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Kobylanska, Krystyna" ;
+    modsrdf:publisher "G. Henle (München)" ;
+    modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
+    modsrdf:title "Kobylanska, Chopin"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35133599v/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/035> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chopin : an index of his works in chronological order"@en ;
+    modsrdf:dateOfCopyright "1972" ;
+    modsrdf:edition "2e éd. révisée"@fr ;
+    modsrdf:identifier "B" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Brown, Maurice J. E." ;
+    modsrdf:publisher "Macmillan (London)" ;
+    modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
+    modsrdf:title "Brown, Chopin"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42880090k/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/036> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematic catalogue of the works of Muzio Clementi"@en ;
+    modsrdf:dateOfCopyright "1967" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Tyson, Alan" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "CLEMENTI, MUZIO (1752-1832)" ;
+    modsrdf:title "Tyson, Clementi"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb351354752/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/037> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1998" ;
+    modsrdf:identifier "C" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Cessac, Catherine" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "CLERAMBAULT, NICOLAS (1676-1749)" ;
+    modsrdf:title "Cessac, Clérambault"@fr ;
+    modsrdf:titlePrincipal "Nicolas Clérambault"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb367123912/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/038> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Historisch-kritische Gesamtausgabe der musikalischen Werke / Arcangelo Corelli ; Supplementband)"@de,
+        "Die Überlieferung der Werke Arcangelo Corellis : catalogue raisonné"@de ;
+    modsrdf:dateOfCopyright "1980" ;
+    modsrdf:identifier "WoO" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Marx, Hans Joachim" ;
+    modsrdf:publisher "A. Volk (Köln)",
+        "H. Gerig (Köln)" ;
+    modsrdf:subjectName "CORELLI, ARCANGELLO (1653-1713)" ;
+    modsrdf:title "Marx, Corelli"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43138752s/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/039> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematic index of the works of François Couperin"@en ;
+    modsrdf:dateOfCopyright "1949" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Cauchie, Maurice" ;
+    modsrdf:publisher "The Lyrebird press (Monaco)" ;
+    modsrdf:subjectName "COUPERIN, FRANCOIS (1668-1733)" ;
+    modsrdf:title "Cauchie, Couperin"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42896941h/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/040> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Thematic catalogues series ; 19.)"@en,
+        "Johann Baptist Cramer : A thematic catalogue of his works"@en ;
+    modsrdf:dateOfCopyright "1994" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Pendragon press (Stuyvesant)" ;
+    modsrdf:subjectName "CRAMER, JOHANN BAPTIST (1771-1858)" ;
+    modsrdf:title "Milligan et Graue, Cramer"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37447796b/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/041> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "2003" ;
+    modsrdf:edition "2e éd., 2003 (nouvelle numérotation)"@fr ;
+    modsrdf:identifier "FL" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Lesure, François" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
+    modsrdf:title "Lesure, Debussy, 2003"@fr ;
+    modsrdf:titlePrincipal "Claude Debussy : biographie critique ; suivie du Catalogue de l'œuvre"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39005568t/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/042> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "FL" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Lesure, François" ;
+    modsrdf:publisher "Minkoff (Paris)" ;
+    modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
+    modsrdf:titlePrincipal "Catalogue de l'œuvre de Claude Debussy"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34703639j/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/043> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "A catalogue of the compositions of Frederick Delius"@en ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "RT" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Threlfall, Robert" ;
+    modsrdf:publisher "Delius Trust (London)" ;
+    modsrdf:subjectName "DELIUS, FREDERICK (1862-1934)" ;
+    modsrdf:title "Threlfall, Delius"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb433003514/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/044> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:abstract "Dittersdorfiana"@de ;
+    modsrdf:dateOfCopyright "1900" ;
+    modsrdf:identifier "K" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Krebs, Carl" ;
+    modsrdf:publisher "Gebrüder Paetel (Berlin)" ;
+    modsrdf:subjectName "DITTERS VON DITTERSDORF, CARL (1739-1799)" ;
+    modsrdf:title "Krebs, Ditters von Dittersdorf"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43079343m/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/045> a modsrdf:ModsResource ;
+    dct:description "Contient la liste des œuvres du compositeur"@fr ;
+    modsrdf:abstract "Donizetti in the light of Romanticism and the teaching of Johann Simon Mayr"@en ;
+    modsrdf:dateOfCopyright "1991" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Allitt, John Stewart" ;
+    modsrdf:publisher "Element (Shaftesbury (Dorset) ; Rockport (Mass.))" ;
+    modsrdf:subjectName "DONIZETTI, GAETANO (1797-1848)" ;
+    modsrdf:title "Allit, Donizetti"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35501976w/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/046> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "A biography and thematic catalogue of the works of J.L. Dussek (1760-1812): dissertation: Phil. Los Angeles: 1964"@en ;
+    modsrdf:dateOfCopyright "1986" ;
+    modsrdf:identifier "C" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Craw, Howard Allen" ;
+    modsrdf:publisher "University microfilms international (Ann Arbor)" ;
+    modsrdf:subjectName "DUSSEK, JAN LADILSLAV (1760-1812)" ;
+    modsrdf:title "Craw, Dussek"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb429274026/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/047> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Antonin Dvorak : thematisches Verzeichnis"@de,
+        "Antonin Dvorak : thematic catalogue"@en ;
+    modsrdf:dateOfCopyright "1996" ;
+    modsrdf:edition "2e éd. révisée"@fr ;
+    modsrdf:identifier "B" ;
+    modsrdf:languageOfResource "cs"^^xsd:language,
+        "de"^^xsd:language,
+        "en"^^xsd:language ;
+    modsrdf:namePrincipal "Burghauser, Jarmil" ;
+    modsrdf:publisher "Bärenreiter (Praha)",
+        "Editio Supraphon (Praha)" ;
+    modsrdf:subjectName "DVORAK, ANTONIN (1841-1904)" ;
+    modsrdf:title "Burghauser, Dvorak"@fr ;
+    modsrdf:titlePrincipal "Antonin Dvorak : thematicky katalog"@cs ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36965627w/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/048> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1990" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Nectoux, Jean-Michel" ;
+    modsrdf:publisher "Flammarion (Paris)" ;
+    modsrdf:subjectName "FAURÉ, GABRIEL (1845-1924)" ;
+    modsrdf:title "Nectoux, Fauré"@fr ;
+    modsrdf:titlePrincipal "Gabriel Fauré : les voix du clair-obscur"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb350667956/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/049> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Alfonso Ferrabosco the elder : a thematic catalogue"@en ;
+    modsrdf:dateOfCopyright "1984" ;
+    modsrdf:identifier "C" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Charteris, Richard" ;
+    modsrdf:publisher "Pendragon press (New York)" ;
+    modsrdf:subjectName "FERRABOSCO, ALFONSO (1543-1588)" ;
+    modsrdf:title "Charteris, Ferrabosco"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42903212k/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/050> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "A Bibliographical thematic catalogue of the works of John Field (1782-1837)"@en ;
+    modsrdf:dateOfCopyright "1961" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Hopkinson, Cecil" ;
+    modsrdf:publisher "the author (London)" ;
+    modsrdf:subjectName "FIELD, JOHN (1782-1837)" ;
+    modsrdf:title "Hopkinson, Field"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430540795/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/051> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre avec numérotation"@fr ;
+    modsrdf:dateOfCopyright "1999" ;
+    modsrdf:identifier "CFF" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Fauquet, Joël-Marie" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "FRANCK, CESAR (1822-1890)" ;
+    modsrdf:title "Fauquet, Franck"@fr ;
+    modsrdf:titlePrincipal "César Franck"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37097428c/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/052> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue thématique"@fr ;
+    modsrdf:abstract "Caesar Franck"@en ;
+    modsrdf:dateOfCopyright "1969" ;
+    modsrdf:edition "2e éd."@fr ;
+    modsrdf:identifier "FWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Mohr, Wilhelm" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "FRANCK, CESAR (1822-1890)" ;
+    modsrdf:title "Mohr, C. Franck"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43160337g/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/053> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Johann Joseph Fux"@de ;
+    modsrdf:dateOfCopyright "1872" ;
+    modsrdf:identifier "K" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Köchel, Ludwig Ritter von" ;
+    modsrdf:publisher "A. Hölder (Wien)" ;
+    modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" ;
+    modsrdf:title "Köchel, Fux"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb30688243t/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/054> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "J.J. Fux : ein steinischen Meister des Barock, nebst Verzeichnis neuer Werkfunde"@de ;
+    modsrdf:dateOfCopyright "1948" ;
+    modsrdf:identifier "L" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Liess, Andreas" ;
+    modsrdf:publisher "L. Doblinger (Wien)" ;
+    modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" ;
+    modsrdf:title "Liess, Fux"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb323851756/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/055> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique de la musique sacrée, dans : Kirchen musikalisches Jahrbuch, LIII, 1959, p. 113"@fr ;
+    modsrdf:abstract "Unbekante Kirchenmusik von J.J. Fux"@de ;
+    modsrdf:identifier "E" ;
+    modsrdf:namePrincipal "Federhofer, Hellmut" ;
+    modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" ;
+    modsrdf:title "Federhofer, Fux"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/056> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Thematic catalogues ; 20.)"@en,
+        "Giovanni Gabrieli (ca 1555-1612) : a thematic catalogue of his music with a guide to the source materials and translations of his vocal texts"@en ;
+    modsrdf:dateOfCopyright "1996" ;
+    modsrdf:identifier "C" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Charteris, Richard" ;
+    modsrdf:publisher "Pendragon press  (New York)" ;
+    modsrdf:subjectName "GABRIELI, GIOVANNI (1555?-1612)" ;
+    modsrdf:title "Charteris, Gabrieli"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb369602147/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/057> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique de la musique instrumentale"@fr ;
+    modsrdf:abstract "(Music indexes and bibliographies ;12)"@en,
+        "A thematic catalog of the instrumental music of Florian Leopold Gassmann"@en ;
+    modsrdf:dateOfCopyright "1976" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Hill, George R." ;
+    modsrdf:publisher "Joseph Boonin (Hackensack (New Jersey)" ;
+    modsrdf:subjectName "GASSMANN, FLORIAN LEOPOLD (1729-1774)" ;
+    modsrdf:title "Hill, Gassmann"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430505427/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/058> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "2009" ;
+    modsrdf:identifier "CG" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Condé, Gérard" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "GOUNOD, CHARLES (1818-1893)" ;
+    modsrdf:titlePrincipal "Charles Gounod"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb41491325k/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/059> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:abstract "Enrique Granados : a bio-bibliography"@en ;
+    modsrdf:dateOfCopyright "1991" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Hess, Carol A." ;
+    modsrdf:publisher "Greenwood press (New York ; Westport (Con.) ; London)" ;
+    modsrdf:subjectName "GRANADOS, ENRIQUE (1867-1916)" ;
+    modsrdf:title "Hess, Granados"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb369831201/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/060> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Graun-Werkverzeichnis [GraunWV]"@de ;
+    modsrdf:dateOfCopyright "2006" ;
+    modsrdf:identifier "GraunWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Henzel, Christoph" ;
+    modsrdf:publisher "Ortus Musikverlag (Beeskow)" ;
+    modsrdf:subjectName "GRAUN, CARL HEINRICH (1703?-1759)",
+        "GRAUN, JOHANN GOTTLIEB ( 702?-1771)" ;
+    modsrdf:title "Henzel, Graun"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb41128243z/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/061> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Giovanni Battista Grazioli (1746-1820) : catalogo tematico"@it ;
+    modsrdf:dateOfCopyright "2005" ;
+    modsrdf:identifier "MT" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:namePrincipal "Tomasi, Margherita" ;
+    modsrdf:publisher "Edizioni fondazione Levi (Venezia)" ;
+    modsrdf:subjectName "GRAZIOLI, GIOVANNI BATTISTA (1746-1820)" ;
+    modsrdf:title "Tomasi, Grazioli"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb40145154w/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/062> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1904" ;
+    modsrdf:identifier "W" ;
+    modsrdf:languageOfResource "de"^^xsd:language,
+        "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Wotquenne, Alfred" ;
+    modsrdf:publisher "Breitkopf und Härtel (Leipzig ; Brüssel ; London ; New York)" ;
+    modsrdf:subjectName "GLUCK, CHRISTOPH WILLIBALD VON (1714-1787)" ;
+    modsrdf:title "Wotquenne, Gluck"@fr ;
+    modsrdf:titlePrincipal "Catalogue thématique des œuvres de Chr. W. v. Gluck."@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37049122x/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/063> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Händel-Handbuc : thematisch-systematisches Verzeichnis"@de ;
+    modsrdf:dateOfCopyright "1978-1985" ;
+    modsrdf:identifier "HMW" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Baselt, Bernd" ;
+    modsrdf:publisher "Bärenreiter (Kassel)" ;
+    modsrdf:subjectName "HÄNDEL, GEORG FRIEDRICH (1685-1759)" ;
+    modsrdf:title "Händel-Handbuch"@fr ;
+    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb35111282d%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb374021672%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb37402168d%2FPUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/064> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Joseph Haydn thematisch-bibliographisches Werkverzeichnis"@de ;
+    modsrdf:dateOfCopyright "1957-1978" ;
+    modsrdf:identifier "HoB" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Hoboken, Anthony van" ;
+    modsrdf:publisher "B. Schött's Söhne (Mainz)" ;
+    modsrdf:subjectName "HAYDN, JOSEPH (1732-1809)" ;
+    modsrdf:title "Hoboken, Haydn"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34340671f/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/065> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Thematic catalogues; 17.)"@en,
+        "Johann Michael Haydn (1737-1806) : a chronological thematic catalogue of his works"@en ;
+    modsrdf:dateOfCopyright "1993" ;
+    modsrdf:identifier "MH" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Pendragon press (Stuyvesant (N.Y.))" ;
+    modsrdf:subjectName "HAYDN, MICHAEL (1737-1806)" ;
+    modsrdf:title "Sherman et Thomas"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35823703j/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/066> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1994" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Halbreich, Harry" ;
+    modsrdf:publisher "Champion (Paris)" ;
+    modsrdf:subjectName "HONEGGER, ARTHUR (1892-1955)" ;
+    modsrdf:title "Halbreich, Honegger"@fr ;
+    modsrdf:titlePrincipal "L'œuvre d'Arthur Honegger"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35687805c/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/067> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der Werke von Johann Nepomuk Hummel"@de ;
+    modsrdf:dateOfCopyright "1971" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Zimmerschied, Dieter" ;
+    modsrdf:publisher "Hofmeister (Hofmein am Taunus)" ;
+    modsrdf:subjectName "HUMMEL, JOHANN NEPOMUK" ;
+    modsrdf:title "Zimmerschied, Hummel"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35159810z/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/068> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1998" ;
+    modsrdf:identifier "L" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Laederich, Alexandra" ;
+    modsrdf:publisher "G. Olms (Hildesheim ; Zürich ; New York)" ;
+    modsrdf:subjectName "IBERT, JACQUES (1890-1962)" ;
+    modsrdf:titlePrincipal "Catalogue de l'œuvre de Jacques Ibert"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36970947b/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/069> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "A catalogue of the music and writings of Leos Janacek"@en ;
+    modsrdf:dateOfCopyright "1997" ;
+    modsrdf:identifier "JW" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Clarendon press (Oxford)" ;
+    modsrdf:subjectName "JANACEK, LEOS (1854-1928)" ;
+    modsrdf:title "Simeone, Tyrrell et Nemcova, Janacek"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36968501n/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/070> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’éditeur"@fr ;
+    modsrdf:dateOfCopyright "1975" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:publisher "M. Eschig (Paris)" ;
+    modsrdf:subjectName "KOECHLIN, CHARLES (1867-1950)" ;
+    modsrdf:titlePrincipal "L'œuvre de Charles Kœchlin : catalogue..."@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34557746r/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/071> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Kompositionen von Fridr. Kuhlau : Thematisch-bibliographischen Katalog"@de ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Fog, Dan" ;
+    modsrdf:publisher "Dan Fog Musikverlag (Kopenhagen)" ;
+    modsrdf:subjectName "KUHLAU, FRIEDRICH (1786-1832)" ;
+    modsrdf:title "Fog, Kuhlau"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35160404z/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/072> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre avec numérotation"@fr ;
+    modsrdf:dateOfCopyright "1993" ;
+    modsrdf:identifier "V" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Verdebout, Luc" ;
+    modsrdf:publisher "Mardaga (Liège)" ;
+    modsrdf:subjectName "LEKEU, GUILLAUME (1870-1894)" ;
+    modsrdf:title "Verdebout, Lekeu"@fr ;
+    modsrdf:titlePrincipal "Correspondance, introd., chronologie et catalogue des œuvres"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb366696578/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/073> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1980" ;
+    modsrdf:identifier "M" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Mongrédien, Jean" ;
+    modsrdf:publisher "Pendragon (New York)" ;
+    modsrdf:subjectName "LE SUEUR, JEAN-FRANCOIS (1760-1837)" ;
+    modsrdf:title "Mongrédien, Le Sueur"@fr ;
+    modsrdf:titlePrincipal "Catalogue thématique de l'œuvre complète du compositeur Jean-François Le Sueur (1760-1837)"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb356514025/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/074> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1995" ;
+    modsrdf:edition "2e éd. revue et compl.1995"@fr ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Michel, Pierre" ;
+    modsrdf:publisher "Minerve (Paris)" ;
+    modsrdf:subjectName "LIGETI, GYORGY (1923-2006)" ;
+    modsrdf:titlePrincipal "György Ligeti"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb376188899/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/075> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique, en préparation ; numérotation déjà présente dans Grove music online"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der Werke Franz Liszts. – Munich"@de ;
+    modsrdf:identifier "LW" ;
+    modsrdf:namePrincipal "Charnin Mueller, Rena",
+        "Eckhardt, Maria" ;
+    modsrdf:subjectName "LISZT, FRANZ (1811-1886)" .
+
+<http://data.doremus.org/vocabulary/catalog/076> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1986" ;
+    modsrdf:edition "Trad. de l'anglais par Corine Derblum de l’éd. révisée de 1966"@fr ;
+    modsrdf:identifier "S" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Searle, Humphrey" ;
+    modsrdf:publisher "Editions du Rocher (Paris)" ;
+    modsrdf:subjectName "LISZT, FRANZ (1811-1886)" ;
+    modsrdf:title "Searle"@fr ;
+    modsrdf:titlePrincipal "Franz Liszt"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43267717t/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/077> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Liszts Schaffen"@de ;
+    modsrdf:dateOfCopyright "1968" ;
+    modsrdf:edition "réimpr. de l’éd. de 1931"@fr ;
+    modsrdf:identifier "R" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Raabe, Peter" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "LISZT, FRANZ (1811-1886)" ;
+    modsrdf:title "Raabe, Liszt"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43220578z/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/078> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Opera omnia / P.A. Locatelli ; vol. X.)"@it,
+        "Pietro Antonio Locatelli : catalogo tematico, lettere, documenti e iconografia…"@it ;
+    modsrdf:dateOfCopyright "2001" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:namePrincipal "Dunning, A." ;
+    modsrdf:publisher "Schott ( London ; Mainz ; Paris)" ;
+    modsrdf:subjectName "LOCATELLI, PIETRO ANTONIO ( 1695-1764)" ;
+    modsrdf:title "Dunning, Locatelli"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37224026r/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/079> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chronologisch-Thematisches Verzeichnis sämtlicher Werke von Jean-Baptiste Lully"@de ;
+    modsrdf:dateOfCopyright "1981" ;
+    modsrdf:identifier "LWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Schneider, Herbert" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "LULLY, JEAN-BAPTISTE (1632-1687)" ;
+    modsrdf:title "Schneider, Lully"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35660003c/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/080> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1979" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "La Grange, Henri-Louis de" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "MAHLER, GUSTAV (1860-1911)" ;
+    modsrdf:title "La Grange, Mahler"@fr ;
+    modsrdf:titlePrincipal "Gustav Mahler"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34639084m/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/081> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "Bohuslav Martinu, Werkverzeichnis, Dokumentation und Biographie"@de ;
+    modsrdf:dateOfCopyright "1968" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Gustav Mahler" ;
+    modsrdf:publisher "Atlantis Verlag ( Zürich)" ;
+    modsrdf:subjectName "MARTINU, BOHUSLAV (1890-1959)" ;
+    modsrdf:title "Halbreich, Martinu"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/082> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der im Druck erschiedenen Compositionen von Felix Mendelssohn"@de ;
+    modsrdf:dateOfCopyright "1882" ;
+    modsrdf:edition "3e éd."@fr ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:publisher "Breitkopf und Härtel (Leipzig)" ;
+    modsrdf:subjectName "MENDELSSOHN, FELIX (1809-1847)" ;
+    modsrdf:title "Mendelssohn, Thematisches Verzeichnis"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43362417z/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/083> a modsrdf:ModsResource ;
+    dct:description "Contient une liste des œuvres"@fr ;
+    modsrdf:abstract "The Olivier Messiaen page"@en ;
+    modsrdf:dateOfCopyright "2001" ;
+    modsrdf:locationUrl <http://www.oliviermessiaen.org/messiaen2index.htm> ;
+    modsrdf:subjectName "MESSIAEN, OLIVIER (1908-1992)" .
+
+<http://data.doremus.org/vocabulary/catalog/084> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1982" ;
+    modsrdf:edition "Éd. revue et augm."@fr ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Collaer, Paul" ;
+    modsrdf:publisher "Slatkine (Genève ; Paris)" ;
+    modsrdf:subjectName "MILHAUD, DARIUS (1892-1974)" ;
+    modsrdf:title "Collaer, Milhaud, 1982"@fr ;
+    modsrdf:titlePrincipal "Darius Milhaud"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb346709555/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/085> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts"@de ;
+    modsrdf:dateOfCopyright "1983" ;
+    modsrdf:edition "8e éd., version révisée de 1964 owl:sameAs K6"@fr ;
+    modsrdf:identifier "KV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Köchel, Dr. Ludwig Ritter von" ;
+    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
+    modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
+    modsrdf:title "Köchel 8"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35794010d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/086> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts"@de ;
+    modsrdf:dateOfCopyright "1958" ;
+    modsrdf:edition "4e éd., version révisée de 1937"@fr ;
+    modsrdf:identifier "KV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Köchel, Dr. Ludwig Ritter von" ;
+    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
+    modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43076262w/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/087> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Werkverzeichnis. Autobiographie. Beziehung zu seinen Zeitgenossen"@de ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "NV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Sigismund Neukomm" ;
+    modsrdf:publisher "Muzikverlag Emil Katzbichler (München ; Salzburg)" ;
+    modsrdf:subjectName "NEUKOMM, SIGISMUND (1778-1858)" ;
+    modsrdf:title "Angermüller, Neukomm"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35160410w/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/088> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1965" ;
+    modsrdf:identifier "FS" ;
+    modsrdf:languageOfResource "dk"^^xsd:language ;
+    modsrdf:publisher "Nyt Nordesk Forlag (Kobenhavn)" ;
+    modsrdf:subjectName "NIELSEN, CARL (1865-1931)" ;
+    modsrdf:title "Fog, Nielsen"@fr ;
+    modsrdf:titlePrincipal "Carl Nielsen : Kompositioner"@dk ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42991069c/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/089> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "2005" ;
+    modsrdf:identifier "MO" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "OHANA, MAURICE (1913-1992)" ;
+    modsrdf:titlePrincipal "Maurice Ohana"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39971243p/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/090> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Catalogo tematico delle musiche di Niccolò Paganini"@it ;
+    modsrdf:dateOfCopyright "1982" ;
+    modsrdf:identifier "MS" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:publisher "Commune di Genova" ;
+    modsrdf:subjectName "PAGANINI, NICOLO (1782-1840)" ;
+    modsrdf:title "Moretti et Sorrento"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43165226r/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/091> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Giovanni Paisiello : a thematic catalogue of his works"@en ;
+    modsrdf:dateOfCopyright "1991-1994" ;
+    modsrdf:identifier "R" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Robinson, Michael F." ;
+    modsrdf:publisher "Pendragon press (Stuyvesant, NY)" ;
+    modsrdf:subjectName "PAISIELLO, GIOVANNI (1740-1816)" ;
+    modsrdf:title "Robinson, Paisiello"@fr ;
+    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb354551902%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb357404277%2FPUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/092> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Giovanni Battista Pergolesi : a thematic catalogue of the opera omnia, with an appendix listing omitted compositions"@en ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "P" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Paymer, Mervin E." ;
+    modsrdf:publisher "Pendragon press (New York)" ;
+    modsrdf:subjectName "PERGOLESI, GIOVANNI BATTISTA (1710-1736)" ;
+    modsrdf:title "Paymer, Pergolesi"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb431926409/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/093> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Ignace Pleyel : a thematic catalogue of his compositions"@en ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "B" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Benton, Rita" ;
+    modsrdf:publisher "Pendragon (New York)" ;
+    modsrdf:subjectName "PLEYEL, IGNAZ (1757-1831)" ;
+    modsrdf:title "Benton, Pleyel"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35158923b/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/094> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "The music of Francis Poulenc : 1899-1963 : a catalogue"@en ;
+    modsrdf:dateOfCopyright "1995" ;
+    modsrdf:identifier "FP" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Schmidt, Carl B." ;
+    modsrdf:publisher "Clarendon press (Oxford)" ;
+    modsrdf:subjectName "POULENC, FRANCIS (1899-1963)" ;
+    modsrdf:title "Schmidt, Poulenc"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35835023x/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/095> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1994" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Dorigné, Michel" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "PROKOFIEV, SERGEI (1891-1953)" ;
+    modsrdf:titlePrincipal "Serge Prokofiev"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35735955v/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/096> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Henry Purcell (1659-1695) : an analytical catalogue of his music"@en ;
+    modsrdf:dateOfCopyright "1963" ;
+    modsrdf:identifier "Z" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Zimmerman, Franklin B." ;
+    modsrdf:publisher "Macmillan and co (London)",
+        "St Martin's press (New York)" ;
+    modsrdf:subjectName "PURCELL, HENRY (1659-1695)" ;
+    modsrdf:title "Zimmerman, Purcell"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb33227479m/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/097> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Johann Joachim Quantz : thematisches-systematisches Werkewerzeichnis (QV)"@de ;
+    modsrdf:dateOfCopyright "1984" ;
+    modsrdf:identifier "QV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Augsbach, Horst" ;
+    modsrdf:publisher "Sächsische Landesbibliothek (Dresden)" ;
+    modsrdf:subjectName "QUANTZ, JOHANN JOACHIM (1697-1773)" ;
+    modsrdf:title "Augsbach, Quantz"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb428239075/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/098> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1986" ;
+    modsrdf:identifier "O" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Marnat, Marcel" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:subjectName "RAVEL, MAURICE (1875-1937)" ;
+    modsrdf:title "Marnat, Ravel"@fr ;
+    modsrdf:titlePrincipal "Maurice Ravel"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb349014611/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/099> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1992" ;
+    modsrdf:identifier "L" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Labelle, Nicole" ;
+    modsrdf:publisher "Département d'archéologie et d'histoire de l'art de l'Université catholique (Louvain)" ;
+    modsrdf:subjectName "ROUSSEL, ALBERT (1869-1937)" ;
+    modsrdf:title "Labelle, Roussel"@fr ;
+    modsrdf:titlePrincipal "Catalogue raisonné de l'œuvre d'Albert Roussel"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35528127k/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/100> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Camille Saint-Saëns : 1835-1921 : a thematic catalogue of his complete works"@en ;
+    modsrdf:dateOfCopyright "2002-2012" ;
+    modsrdf:identifier "R" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Ratner, Sabina Teller" ;
+    modsrdf:publisher "Oxford university press (Oxford)" ;
+    modsrdf:subjectName "SAINT-SAENS, CAMILLE (1835-1921)" ;
+    modsrdf:title "Ratner, Saint-Saëns"@fr ;
+    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb388551727%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb426686040%2FPUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/101> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematic catalogue of the works of Giovanni Battista Sammartini : orchestral and vocal music"@en ;
+    modsrdf:dateOfCopyright "1976" ;
+    modsrdf:identifier "JC" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Harvard University press (London)" ;
+    modsrdf:subjectName "SAMMARTINI, GIOVANNI BATTISTA (1700?-1775)" ;
+    modsrdf:title "Jenkins and Churgin"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb351608162/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/102> a modsrdf:ModsResource ;
+    dct:description "Contient le catalogue des sonates pour clavier"@fr ;
+    modsrdf:dateOfCopyright "1982" ;
+    modsrdf:edition "trad. de l’éd. de 1953"@fr ;
+    modsrdf:identifier "K" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Kirkpatrick, Ralph" ;
+    modsrdf:publisher "J.-C. Lattès (Paris)" ;
+    modsrdf:subjectName "SCARLATTI, DOMENICO (1685-1757)" ;
+    modsrdf:title "Kirkpatrick, Scarlatti"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34689181w/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/103> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "2002" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:publisher "Séguier (Paris)" ;
+    modsrdf:subjectName "SAUGUET, HENRI (1901-1989)" ;
+    modsrdf:titlePrincipal "Henri Sauguet, 1901-1989 : catalogue des œuvres"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb38807877b/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/104> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "The works of Arnold Schœnberg"@en ;
+    modsrdf:dateOfCopyright "1962" ;
+    modsrdf:edition "trad. anglaise de l’éd. 1959"@fr ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Rufer, Josef" ;
+    modsrdf:publisher "Faber and Faber (London)" ;
+    modsrdf:subjectName "SCHOENBERG, ARNOLD (1874-1951)" ;
+    modsrdf:title "Rufer, Schoenberg"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb33161448j/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/105> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Franz Schubert : Thematisches Verzeichnis seiner Werke in chronologischer Folge"@de ;
+    modsrdf:dateOfCopyright "1978" ;
+    modsrdf:identifier "D" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Deutsch, Otto Erich" ;
+    modsrdf:publisher "Bärenreiter ( Kassel ; Basel ; Tours)" ;
+    modsrdf:subjectName "SCHUBERT, FRANZ (1797-1828)" ;
+    modsrdf:title "Deutsch"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb351356717/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/106> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Robert Schumann thematisch-bibliographisches Werkverzeichnis"@de ;
+    modsrdf:dateOfCopyright "2003" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "McCorkle, Margit L." ;
+    modsrdf:publisher "Henle (München)" ;
+    modsrdf:subjectName "SCHUMANN, ROBERT (1810-1856)" ;
+    modsrdf:title "McCorkle, Schumann"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb389986176/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/107> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Schütz-Werke-Verzeichnis, SWV, kleine Ausgabe, im Auftrag der der Neuen Schütz-Gesellschaft"@de ;
+    modsrdf:dateOfCopyright "1960" ;
+    modsrdf:identifier "SWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Bittinger, Werner" ;
+    modsrdf:publisher "Bärenreiter (Kassel ; Basel ; London)" ;
+    modsrdf:subjectName "SCHÜTZ, HEINRICH (1585-1672)" ;
+    modsrdf:title "Bittinger, Schütz"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb329255304/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/108> a modsrdf:ModsResource ;
+    dct:description "Contient le catalogue thématique des symphonies et des trios avec orchestre"@fr ;
+    modsrdf:abstract "The symphonies of Johann Stamitz : a study in the formation of the classic style"@en ;
+    modsrdf:dateOfCopyright "1981" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Wolf, Eugene K." ;
+    modsrdf:publisher "Bohn, Scheltema & Holkema (Utrecht ; Antwerp)",
+        "Martinus Nijhoff (The Hague ; Boston)" ;
+    modsrdf:subjectName "STAMITZ, JOHANN (1717-1757)" ;
+    modsrdf:title "Wolf, Stamitz"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43339880w/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/109> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Alessandro Stradella : 1639-1682 : a thematic catalogue of his compositions"@en ;
+    modsrdf:dateOfCopyright "1991" ;
+    modsrdf:identifier "GM" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Pendragon (Stuyvesant, N.Y.)" ;
+    modsrdf:subjectName "STRADELLA, ALESSANDRO (1639-1682)" ;
+    modsrdf:title "Gianturco et McCrickard, Stradella"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/110> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Richard Strauss Werkverzeichnis (TrV)"@de ;
+    modsrdf:dateOfCopyright "1999" ;
+    modsrdf:edition "2e éd. révisée"@fr ;
+    modsrdf:identifier "TrV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Trenner, Franz" ;
+    modsrdf:publisher "Verlag Dr Richard Strauss GmbH & Co KG (Wien)" ;
+    modsrdf:subjectName "STRAUSS, RICHARD (1864-1949)" ;
+    modsrdf:title "Trenner, Strauss"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36981580h/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/111> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Richard Strauss : thematisches Verzeichnis"@de ;
+    modsrdf:dateOfCopyright "1955" ;
+    modsrdf:identifier "AV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Mueller von Asow, Erich Hermann" ;
+    modsrdf:publisher "L. Doblinger (Wien)" ;
+    modsrdf:subjectName "STRAUSS, RICHARD (1864-1949)" ;
+    modsrdf:title "Mueller von Asow, Strauss"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43171381d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/112> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:abstract "(Schriftenreihe der Internationalen Stiftung Mozarteum Salzburg ; 12)"@de ;
+    modsrdf:dateOfCopyright "1983" ;
+    modsrdf:edition "trad. de l’éd. 1979, traduit de l'anglais par Dennis Collins"@fr ;
+    modsrdf:identifier "W" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "White, Eric Walter" ;
+    modsrdf:publisher "Flammarion (Paris)" ;
+    modsrdf:subjectName "STRAVINSKY, IGOR (1882-1971)" ;
+    modsrdf:title "White, Stravinsky"@fr ;
+    modsrdf:titlePrincipal "Stravinsky, le compositeur et son œuvre"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb347300400/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/113> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Das Musikalische Werke Franz Xaver Süssmayrs : thematisches Werkverzeichnis (SmWV)"@de ;
+    modsrdf:dateOfCopyright "2000" ;
+    modsrdf:identifier "SmWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Duda, Erich" ;
+    modsrdf:publisher "Bärenreiter (Basel ; Kassel ; London)" ;
+    modsrdf:subjectName "SUSSMAYR, FRANZ XAVER (1766-1803)" ;
+    modsrdf:title "Duda, Süssmayr"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/114> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1995" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Hugon, Gérald" ;
+    modsrdf:publisher "M. Eschig (Paris)" ;
+    modsrdf:subjectName "TANSMAN, ALEXANDRE (1897-1986)" ;
+    modsrdf:titlePrincipal "Alexandre Tansman (1897-1986) : catalogue de l'œuvre"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb370748646/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/115> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematic and bibliographical catalogue of P.I. Tchaikovsky's works"@en ;
+    modsrdf:dateOfCopyright "2006" ;
+    modsrdf:edition "2e éd."@fr ;
+    modsrdf:identifier "ČS",
+        "ČW" ;
+    modsrdf:languageOfResource "en"^^xsd:language,
+        "ru-Latn"^^xsd:language ;
+    modsrdf:publisher "P. Jurgenson ( Moskva)" ;
+    modsrdf:subjectName "TCHAIKOVSKY, PIOTR ILITCH (1840-1893)" ;
+    modsrdf:title "Vajdman, Korabelʹnikova et Rubcova, Čajkovskij"@fr ;
+    modsrdf:titlePrincipal "Tematiko-bibliografičeskij ukazatel' sočinenij P. I. Čajkovskogo"@ru-latn ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb41068384g/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/116> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1965" ;
+    modsrdf:edition "réimpr. de l’éd. de 1897"@fr ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Jurgenson, B" ;
+    modsrdf:publisher "H. Baron (London)" ;
+    modsrdf:subjectName "TCHAIKOVSKY, PIOTR ILITCH (1840-1893)" ;
+    modsrdf:title "Jurgenson, Tchaïkowsky"@fr ;
+    modsrdf:titlePrincipal "Catalogue thématique des œuvres de P. Tschaïkowsky"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430695925/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/117> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique des suites d’orchestre"@fr ;
+    modsrdf:abstract "Die Orchestersuiten Georg Philipp Telemanns TWV 55 mit thematisch-bibliographischen Werkverzeichnis"@de ;
+    modsrdf:dateOfCopyright "1969" ;
+    modsrdf:identifier "TWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Hoffmann, Adolf" ;
+    modsrdf:publisher "Möseler Verlag Wolfenbüttel (Zürich)" ;
+    modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    modsrdf:title "Hoffmann, Telemann"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43052718d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/118> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique des concertos pour solistes"@fr ;
+    modsrdf:abstract "Das Instrumentalkonzert bei Georg Philipp Telemann"@de ;
+    modsrdf:dateOfCopyright "1969" ;
+    modsrdf:identifier "TWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Kross, Siegfried" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    modsrdf:title "Kross, Telemann"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43080857q/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/119> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique des œuvres vocales"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der Vokalwerke von Georg Philipp Telemann. Band I : Cantaten zum gottesdienstlichen Gebrauch"@de ;
+    modsrdf:dateOfCopyright "1988" ;
+    modsrdf:edition "2e éd.,"@fr ;
+    modsrdf:identifier "TWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Menke, Werner" ;
+    modsrdf:publisher "V. Klostermann (Frankfurt am Main)" ;
+    modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    modsrdf:title "Menke, Telemann"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43148648g/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/120> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique des œuvres instrumentales"@fr ;
+    modsrdf:abstract "Georg Philipp Telemann : thematisch-systematisches Verzeichnis seiner Werke : Instrumentalwerke"@de ;
+    modsrdf:dateOfCopyright "1984-1999" ;
+    modsrdf:identifier "TWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Ruhnke, Martin" ;
+    modsrdf:publisher "Bärenreiter ( Kassel ; Basel ; London)" ;
+    modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    modsrdf:title "Telemann-Werkverzeichnis"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb343365377/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/121> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Themen-Verzeichnis der Kompositionen von Johann Baptiste Wanhal"@de ;
+    modsrdf:dateOfCopyright "1987" ;
+    modsrdf:identifier "W" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Weinmann, Alexander" ;
+    modsrdf:publisher "L. Krenn (Wien)" ;
+    modsrdf:subjectName "VANHAL, JOHANN BAPTIST (1739-1813)" ;
+    modsrdf:title "Weinmann, Vanhal"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb433350189/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/122> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Pauline Viardot : systematisch-bibliographisches Werkverzeichnis"@de ;
+    modsrdf:identifier "VWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:locationUrl <http://www.pauline-viardot.de> ;
+    modsrdf:namePrincipal "Heitmann, Christin" ;
+    modsrdf:subjectName "VIARDOT, PAULINE (1821-1910)" .
+
+<http://data.doremus.org/vocabulary/catalog/123> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1980" ;
+    modsrdf:edition "Nouv. éd.,"@fr ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Gavoty, Bernard" ;
+    modsrdf:publisher "Buchet-Chastel (Paris)" ;
+    modsrdf:subjectName "VIERNE, LOUIS (1870-1937)" ;
+    modsrdf:titlePrincipal "Louis Vierne : la vie et l'œuvre"@fr .
+
+<http://data.doremus.org/vocabulary/catalog/124> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Thematic catalogues ; 12.)"@en,
+        "Giovanni Battista Viotti (1755-1824) : a thematic catalogue of his works"@en ;
+    modsrdf:dateOfCopyright "1985" ;
+    modsrdf:identifier "W" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "White, Chapell" ;
+    modsrdf:publisher "Pendragon press (New York)" ;
+    modsrdf:subjectName "VIOTTI, GIOVANNI-BATTISTA (1755-1824)" ;
+    modsrdf:title "White, Viotti"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43336514j/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/125> a modsrdf:ModsResource ;
+    dct:description "Contient le catalogue thématique"@fr ;
+    modsrdf:abstract "Giovan Battista Viotti"@it ;
+    modsrdf:dateOfCopyright "1956" ;
+    modsrdf:identifier "G" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:namePrincipal "Giazotto, Remo" ;
+    modsrdf:publisher "Curci (Milano)" ;
+    modsrdf:subjectName "VIOTTI, GIOVANNI-BATTISTA (1755-1824)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43013354k/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/126> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Verzeichnis der Werke Antonio Vivaldis"@de ;
+    modsrdf:dateOfCopyright "1974" ;
+    modsrdf:identifier "RV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Ryom, Peter" ;
+    modsrdf:publisher "VEB Deutscher Verlag für Musik (Leipzig)" ;
+    modsrdf:subjectName "VIVALDI, ANTONIO (1678-1741)" ;
+    modsrdf:title "Ryom"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43249390v/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/127> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "1948" ;
+    modsrdf:identifier "P" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Pincherle, Marc" ;
+    modsrdf:publisher "Librairie Floury (Paris)" ;
+    modsrdf:subjectName "VIVALDI, ANTONIO (1678-1741)" ;
+    modsrdf:title "Pincherle, Vivaldi"@fr ;
+    modsrdf:titlePrincipal "Antonio Vivaldi et la musique instrumentale : vol. 2 : \"Inventaire thématique\""@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43205762x/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/128> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Wagner Werk-Verzeichnis (WWV)"@de ;
+    modsrdf:dateOfCopyright "1986" ;
+    modsrdf:identifier "WWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:publisher "Schott (Mainz ; London ; New York)" ;
+    modsrdf:subjectName "WAGNER, RICHARD (1813-1883)" ;
+    modsrdf:title "Deathridge, Geck et Voss, Wagner"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37404861d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/129> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Carl Maria von Weber in seinen Werken : Chronologisch-thematisches Verzeichnis"@de ;
+    modsrdf:dateOfCopyright "1871" ;
+    modsrdf:identifier "J" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Jähns, Friedrich Wilhelm" ;
+    modsrdf:publisher "Schlesinger (Berlin)" ;
+    modsrdf:subjectName "WEBER, CARL MARIA VON (1786-1826)" ;
+    modsrdf:title "Jähns, Weber"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb322767611/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/130> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Studien und Materialien zur Musikgeschichte Dresdens : 6.). 2 vol."@de,
+        "Jan Dismas Zelenka : thematisch-systematisches Verzeichnis des musikalisches Werke"@de ;
+    modsrdf:dateOfCopyright "1985" ;
+    modsrdf:identifier "ZWV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Reich, Wolfgang" ;
+    modsrdf:publisher "Sächsische Landesbibliothek (Dresden)" ;
+    modsrdf:subjectName "ZELENKA, JAN DISMAS (1679-1745)" ;
+    modsrdf:title "Reich, Zelenka"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb432270381/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/131> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:dateOfCopyright "2001" ;
+    modsrdf:languageOfResource "es"^^xsd:language ;
+    modsrdf:namePrincipal "Torres Mulas, Jacinto" ;
+    modsrdf:publisher "Instituto de bibliografía musical (Madrid)" ;
+    modsrdf:subjectName "ALBENIZ, ISAAC (1860-1909)" ;
+    modsrdf:titlePrincipal "Catálogo sistemático descriptivo de las obras musicales de Isaac Albéniz"@es ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb389102285/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/132> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Thematic catalogues ; 22.)"@en,
+        "Anton Cajetan Adlgasser (1729-1777) : a thematic catalogue of his works"@en ;
+    modsrdf:dateOfCopyright "2000" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Pendragon press (Hillsdale (New Jersey))" ;
+    modsrdf:subjectName "ADLGASSER, ANTON  CAJETAN (1729-1777)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37208130t/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/133> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d'œuvre"@fr ;
+    modsrdf:abstract "Johann Christoph Friedrich Bach : ein Komponist im Vorfeld der Klassic. – (Neue Heidelberger Studien zur Musikwissenschaft, 4.)"@de ;
+    modsrdf:dateOfCopyright "1971" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Wohlfart, Hannsdieter" ;
+    modsrdf:publisher "Franck (Bern ; München)" ;
+    modsrdf:subjectName "BACH, JOHANN CHRISTOPH FRIEDRICH (1732-1795)" .
+
+<http://data.doremus.org/vocabulary/catalog/134> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Frank Bridge : a thematic catalogue 1900-1941"@en ;
+    modsrdf:dateOfCopyright "1983" ;
+    modsrdf:identifier "H" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Hindmarsh, Paul" ;
+    modsrdf:publisher "Faber and Faber (London)" ;
+    modsrdf:subjectName "BRIDGE, FRANK (1879-1941)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430512957/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/135> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:abstract "(Mainzer Studien zur Musikwissenschaft ; 13)"@de,
+        "Peter Cornelius : Verzeichnis seiner musikalischen und literarischen Werke"@de ;
+    modsrdf:dateOfCopyright "1986" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Wagner, Günter" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "CORNELIUS, PETER (1824-1874)" ;
+    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb433285186%2FPUBLIC%0A> .
+
+<http://data.doremus.org/vocabulary/catalog/136> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der Kompositionen von Franz Danzi (1763-1826)"@de ;
+    modsrdf:dateOfCopyright "1996" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Pechstaedt, Volkmar von" ;
+    modsrdf:publisher "H. Schneider (Tutzing)" ;
+    modsrdf:subjectName "DANZI, FRANZ (1763-1826)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37511618c/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/137> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1987" ;
+    modsrdf:identifier "G" ;
+    modsrdf:languageOfResource "es"^^xsd:language ;
+    modsrdf:namePrincipal "Gallego, Antonio" ;
+    modsrdf:publisher "Ministerio de Cultura (Madrid)" ;
+    modsrdf:subjectName "FALLA, MANUEL DE (1876-1946)" ;
+    modsrdf:titlePrincipal "Catalogo de obras de Manuel de Falla"@es ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35019706f/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/138> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Frescobaldi thematic catalogue online (CFTO)"@en ;
+    modsrdf:dateOfCopyright "2010" ;
+    modsrdf:identifier "F" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:locationUrl <http://frescobaldi.music.duke.edu> ;
+    modsrdf:namePrincipal "Silbiger, Alexander" ;
+    modsrdf:subjectName "FRESCOBALDI, GIROLAMO (1583-1643)" .
+
+<http://data.doremus.org/vocabulary/catalog/139> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique, en préparation ; numérotation déjà présente dans Grove music online"@fr ;
+    modsrdf:abstract "Johann Joseph Fux : thematisches Verzeichnis der musikalischen Werke"@de ;
+    modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" .
+
+<http://data.doremus.org/vocabulary/catalog/140> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "L'anfione dell'Adria : catalogo tematico di Carlo Grossi"@it ;
+    modsrdf:dateOfCopyright "1999" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:namePrincipal "Sirch, Licia" ;
+    modsrdf:publisher "Edizioni Fondazione Levi (Venezia )" ;
+    modsrdf:subjectName "GROSSI, CARLO (1634?-1688)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb388299018/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/141> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "(Europäische Hochschulschriften ; 16.)"@de,
+        "Stephen Heller, ein Klaviermeister der Romantik"@de ;
+    modsrdf:dateOfCopyright "1986" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Müller-Kersten, Ursula" ;
+    modsrdf:publisher "P. Lang (Frankfurt am Main ; Bern ; New York)" ;
+    modsrdf:subjectName "HELLER, STEPHEN (1813-1888)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43171430s/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/142> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique des Lieder"@fr ;
+    modsrdf:abstract "Thematisches Verzeichnis der klavierbegleiteten Sololieder Fanny Hensels"@de ;
+    modsrdf:dateOfCopyright "1997" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Maurer, Annette" ;
+    modsrdf:publisher "Furore (Kassel)" ;
+    modsrdf:subjectName "HENSEL, FANNY (1805-1847)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb369680703/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/143> a modsrdf:ModsResource ;
+    dct:description "Thèse. Contient le catalogue thématique des œuvres pour clavier (orgue)."@fr ;
+    modsrdf:abstract "The Keyboard works of Félix Maximo Lopez (1742-1821)"@en ;
+    modsrdf:dateOfCopyright "2000" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Espinosa, Alma" ;
+    modsrdf:publisher "UMI (Ann Arbor (Mich.))" ;
+    modsrdf:subjectName "LOPEZ, FELIX MAXIMO (1742-1821)" .
+
+<http://data.doremus.org/vocabulary/catalog/144> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "(Musikwissenschaftliche Schriften ; 35.)"@de,
+        "Josef Myslivecek (1737-1781): a thematic catalog of his instrumental and orchestral works"@en ;
+    modsrdf:dateOfCopyright "1999" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:publisher "Katzbichler (München ; Salzburg)" ;
+    modsrdf:subjectName "MYSLIEVECEK, JOSEPH (1737-1781)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb370560255/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/145> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Catalogo tematico delle musiche di Amilcare Ponchielli"@it ;
+    modsrdf:dateOfCopyright "1989" ;
+    modsrdf:languageOfResource "it"^^xsd:language ;
+    modsrdf:namePrincipal "Sirch, Licia" ;
+    modsrdf:publisher "Fondazione Claudio Monteverdi (Cremona)" ;
+    modsrdf:subjectName "PONCHIELLI, AMILCARE (1834-1886)" .
+
+<http://data.doremus.org/vocabulary/catalog/146> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Henri Sauguet : a bio-bibliography"@en ;
+    modsrdf:dateOfCopyright "1991" ;
+    modsrdf:identifier "AW" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Austin, David L." ;
+    modsrdf:publisher "Greenwood Press (New York ; London)" ;
+    modsrdf:subjectName "SAUGUET, HENRI (1901-1989)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35691774p/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/147> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "Praktisches Verzeichnis der Werke Othmar Schœcks"@de ;
+    modsrdf:dateOfCopyright "1997" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Föllmi, Beat A." ;
+    modsrdf:publisher "Othmar Schœck-Gesellschaft (Zürich)" ;
+    modsrdf:subjectName "SCHOECK, OTHMAR (1886-1957)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36966908p/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/148> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Thematisch-chronologisches Verzeichnis der musikalischen Werke von Alexandre Scrjabin"@de ;
+    modsrdf:dateOfCopyright "2002" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Bosshard, Daniel" ;
+    modsrdf:publisher "Ed. Trais Giats (Ardez)" ;
+    modsrdf:subjectName "SCRIABINE, ALEXANDRE (1872-1915)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39017060c/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/149> a modsrdf:ModsResource ;
+    dct:description "Contient un catalogue d’œuvre"@fr ;
+    modsrdf:abstract "Polymath of the Baroque: Agostino Steffani and his music"@en ;
+    modsrdf:dateOfCopyright "2002" ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Timms, Colin" ;
+    modsrdf:publisher "Oxford University Press (Oxford)" ;
+    modsrdf:subjectName "STEFFANI, AGOSTINO (1654-1728)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb410411824/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/150> a modsrdf:ModsResource ;
+    dct:description "Liste des œuvres par nos d’opus"@fr ;
+    modsrdf:abstract "Johann Strauss [fils] : um die Welt im Dreivierteltakt"@de ;
+    modsrdf:dateOfCopyright "1998" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Endler, Franz" ;
+    modsrdf:publisher "Amalthea (Wien ; München )" ;
+    modsrdf:subjectName "STRAUSS, JOHANN (1825-1899)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36975176x/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/151> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:abstract "A catalogue of the works of Ralph Vaughan Williams"@en ;
+    modsrdf:dateOfCopyright "1996" ;
+    modsrdf:edition "2e éd."@fr ;
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Kennedy, Michael" ;
+    modsrdf:publisher "Oxford University Press (Oxford)" ;
+    modsrdf:subjectName "VAUGHAN WILLIAMS, RALPH (1872-1958)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35853116v/PUBLIC> .
+
