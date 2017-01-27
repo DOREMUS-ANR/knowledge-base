@@ -2,13 +2,13 @@
 12548830	Acid jazz
 15030557	Afrobeat
 13574749	Agnus Dei (musique)
-12215093	Airs d'opéra
+12215093	Airs d'opÃ©ra
 14400465	Airs de concert
 12247271	Airs de cour
-15837569	Airs sérieux
+15837569	Airs sÃ©rieux
 15054882	Alabados
 16540900	?l?p 
-13558185	Alléluia (musique)
+13558185	AllÃ©luia (musique)
 13557889	Allemandes (musique)
 13330792	Ambient 
 12287121	Anthems
@@ -34,9 +34,9 @@
 14571683	Batuques
 12179998	Be-bop
 16995967	Beiguan
-13754961	Bèlè (musique) 
+13754961	BÃ¨lÃ¨ (musique) 
 14618793	Benedictus (musique)
-16219329	Benedictus Dominus Deus Israël (musique)
+16219329	Benedictus Dominus Deus IsraÃ«l (musique)
 11965515	Berceuses (musique vocale)
 11965515	Berceuses (musique vocale)
 13319523	Bhajan
@@ -50,25 +50,25 @@
 16053564	Blues-rock 
 16131311	Blues shouters 
 16589003	Bocet 
-12245639	Boléros (musique)
+12245639	BolÃ©ros (musique)
 12290265	Boogie-woogie
 16504685	Bostons
 13329618	Bossas-novas
-13558726	Bourrées
+13558726	BourrÃ©es
 16500776	Branles
 16510476	Britpop
 14410697	Brunettes (musique vocale)
 12488042	Cadences
 14418984	Cake-walk (musique)
 12207896	Calypso (musique)
-16523119	Candombés
+16523119	CandombÃ©s
 11979561	Canons (musique)
 14597350	Cansos
 13319725	Cantates pour soliste
 12288702	Cantates pour soliste profanes 
-13319727	Cantates pour soliste sacrées 
+13319727	Cantates pour soliste sacrÃ©es 
 12288709	Cantates profanes
-12288706	Cantates sacrées
+12288706	Cantates sacrÃ©es
 13516277	Cantiques
 15704639	Canti carnascialeschi 
 15584906	Cantorias
@@ -76,21 +76,21 @@
 13575778	Canzones (musique vocale)
 13576192	Canzonettes
 14611655	Caprices (musique)
-16714532	Ca trù 
+16714532	Ca trÃ¹ 
 13511349	Chaabi 
 12487459	Cha-cha-chas
 12295004	Chaconnes 
-13539198	Chamamés
-16714554	Changüi 
+13539198	ChamamÃ©s
+16714554	ChangÃ¼i 
 13319048	Chansons
-11977660	Chansons à boire
-16637598	Chansons à danser 
-12436449	Chansons à répondre 
-16998744	Chansons à sujet religieux 
+11977660	Chansons Ã  boire
+16637598	Chansons Ã  danser 
+12436449	Chansons Ã  rÃ©pondre 
+16998744	Chansons Ã  sujet religieux 
 12151036	Chansons contestataires 
 12394701	Chansons d'amour 
 11957511	Chansons d'aube
-12050156	Chansons d'étudiants
+12050156	Chansons d'Ã©tudiants
 12521738	Chansons de carnaval
 11955660	Chansons de cow-boys 
 11931814	Chansons de croisade 
@@ -100,42 +100,42 @@
 12307588	Chansons de toile
 11957023	Chansons de travail 
 12573774	Chansons de troubadours 
-12571676	Chansons de trouvères 
+12571676	Chansons de trouvÃ¨res 
 16967710	Chansons de vagabonds 
 11959092	Chansons enfantines
 16991398	Chansons en laisse 
-16634621	Chansons énumératives 
+16634621	Chansons Ã©numÃ©ratives 
 11931149	Chansons humoristiques 
 16765179	Chansons libertaires 
-13510943	Chansons maçonniques 
+13510943	Chansons maÃ§onniques 
 11931150	Chansons paillardes 
 12005114	Chansons politiques
 12289870	Chansons polyphoniques
-12553050	Chansons réalistes 
+12553050	Chansons rÃ©alistes 
 12408164	Chansons satiriques 
 16991475	Chansons strophiques 
 11940754	Chansons traditionnelles 
 15542869	Chants chamaniques 
 11978213	Chants de mariage 
-12080269	Chants funèbres
+12080269	Chants funÃ¨bres
 11945385	Chants de guerre
 14575528	Chants de Sanaa 
-13318328	Chants grégoriens
+13318328	Chants grÃ©goriens
 13319656	Chants hindous 
 12061402	Chants patriotiques
-11965367	Chants révolutionnaires 
-13516310	Chants sacrés
+11965367	Chants rÃ©volutionnaires 
+13516310	Chants sacrÃ©s
 16141053	Chants syriaques 
 15551480	Chants vieux-romain 
-11978727	Chœurs (musique)
+11978727	ChÅ“urs (musique)
 11939340	Choeurs profanes 
-13319724	Choeurs sacrés 
+13319724	Choeurs sacrÃ©s 
 13319746	Chorals
 14500835	Chutney (musique) 
 13505798	Ch'angg?k 
-16164871	Clausules (polyphonies sacrées)
+16164871	Clausules (polyphonies sacrÃ©es)
 15792393	Cold wave (musique) 
-11936146	Comédies musicales
+11936146	ComÃ©dies musicales
 16724850	Compas (musique) 
 11965549	Complaintes
 14619031	Complies (musique)
@@ -174,14 +174,14 @@
 16539763	Dubstep
 12293216	Duos
 13577772	Duos de jazz
-12293225	Duos sacrés
+12293225	Duos sacrÃ©s
 12293233	Duos vocaux
 13509101	Easy listening 
 14418177	?cossaises (musique)
 16131564	?lectro (musique)
 16060780	Electro-pop 
 15583678	Electronica 
-11934307	?légies
+11934307	?lÃ©gies
 13774713	Emboladas
 14611690	Ensaladas
 12354189	Estampies
@@ -216,7 +216,7 @@
 13514103	Garage (musique) 
 16540939	Gat (musique)
 13742456	Gavottes
-13757236	Género chico 
+13757236	GÃ©nero chico 
 11971240	Ghazals 
 13742464	Gigues
 16030342	Glam rock 
@@ -226,7 +226,7 @@
 14588846	Goigs
 13318813	Gospel
 11980047	Graduels (musique)
-15518331	Grajé
+15518331	GrajÃ©
 15890378	Grindcore 
 12493389	Grunge 
 13623789	Guajiras 
@@ -237,7 +237,7 @@
 15545285	Hard bop 
 12471027	Hard rock
 12548786	Hardcore
-13537363	H?t chèo 
+13537363	H?t chÃ¨o 
 12406456	H?awfi 
 14522004	Hawz? 
 12486943	Heavy metal
@@ -250,32 +250,32 @@
 16605785	Human beatbox 
 13505214	Hymnes
 17007044	Hymnes bouddhiques 
-13736048	Hymnes chrétiens primitifs 
+13736048	Hymnes chrÃ©tiens primitifs 
 13507409	Hymnes coptes 
-13734607	Hymnes égyptiens anciens 
-11968585	Hymnes funèbres
-13736035	Hymnes hébraïques 
+13734607	Hymnes Ã©gyptiens anciens 
+11968585	Hymnes funÃ¨bres
+13736035	Hymnes hÃ©braÃ¯ques 
 13736054	Hymnes hindous 
 13736014	Hymnes islamiques 
-14549436	Hymnes ismaéliens 
+14549436	Hymnes ismaÃ©liens 
 13736036	Hymnes juifs
-13736058	Hymnes manichéens 
+13736058	Hymnes manichÃ©ens 
 11948136	Hymnes nationaux
 13319471	Hymnes pascales
-13516482	Hymnes shivaïtes 
+13516482	Hymnes shivaÃ¯tes 
 13735905	Hymnes sikhs 
 14615400	Impromptus (musique)
 16219300	Indie dance 
 16732743	Indie pop 
 14614725	Intermezzos (musique instrumentale) 
-13603166	Introïts (musique)
+13603166	IntroÃ¯ts (musique)
 15580256	Iscathamiya
 12571748	Javas
 11938040	Jazz
 15533128	Jazz cool 
 16065639	Jazz funky 
 14627863	Jazz manouche 
-12210538	Jazz Nouvelle-Orléans 
+12210538	Jazz Nouvelle-OrlÃ©ans 
 12548846	Jazz-rock
 15788361	Jazz soul 
 11983473	Jazz vocal 
@@ -288,7 +288,7 @@
 16650080	K-pop 
 16527819	Kalindula
 16254870	Kan ha diskan 
-16594351	Kaséko 
+16594351	KasÃ©ko 
 15619124	Kecak
 16706019	Ki?rtana 
 13561286	Kiyomoto
@@ -299,7 +299,7 @@
 13512338	Kyrie eleison (musique)
 12285534	Lais (musique)
 14611893	L?ndler
-14618885	Lamentations de Jérémie (musique)
+14618885	Lamentations de JÃ©rÃ©mie (musique)
 13513522	Latin jazz 
 16056510	Latin soul 
 12262534	Laude
@@ -320,17 +320,17 @@
 15511860	Matines (musique)
 16504673	Maxixes
 12490763	Mazurkas
-15567602	Mazurkas créoles
+15567602	Mazurkas crÃ©oles
 16740806	Mbalax 
 16594927	Mbaqanga
 16029697	Meistersang 
-12297345	Mélodies
-14639581	Mélodrames (musique)
+12297345	MÃ©lodies
+14639581	MÃ©lodrames (musique)
 12309757	Menuets
 14553682	Mento
 16714142	Merengues
 13557958	Messes (musique)
-16914163	Metal chrétien 
+16914163	Metal chrÃ©tien 
 16947417	Metal gothique 
 16724865	Metal progressif 
 16747693	Metal symphonique 
@@ -341,21 +341,21 @@
 12151626	Motets
 14403354	Mugam 
 14620155	Musette (musique populaire)
-12274798	Musique à programme
+12274798	Musique Ã  programme
 12285592	Musique acousmatique 
-11953038	Musique aléatoire 
+11953038	Musique alÃ©atoire 
 12138226	Musique de ballet
 12050487	Musique bouddhique 
 16248215	Musique bruitiste 
 12573005	Musique carnatique
-13318360	Musique chrétienne 
-13505249	Musique chrétienne -- ?glise catholique
-13505279	Musique chrétienne -- ?glise luthérienne
-13505255	Musique chrétienne -- ?glise maronite
-13505285	Musique chrétienne -- ?glise orthodoxe
-13505229	Musique chrétienne -- ?glises protestantes
-14611868	Musique de comédie-ballet
-11978707	Musique concrète 
+13318360	Musique chrÃ©tienne 
+13505249	Musique chrÃ©tienne -- ?glise catholique
+13505279	Musique chrÃ©tienne -- ?glise luthÃ©rienne
+13505255	Musique chrÃ©tienne -- ?glise maronite
+13505285	Musique chrÃ©tienne -- ?glise orthodoxe
+13505229	Musique chrÃ©tienne -- ?glises protestantes
+14611868	Musique de comÃ©die-ballet
+11978707	Musique concrÃ¨te 
 12235298	Musique d'ambiance 
 12138226	Musique de ballet 
 16741830	Musique de cabaret 
@@ -363,142 +363,142 @@
 13574339	Musique de carnaval 
 12260705	Musique de chasse 
 12293518	Musique de cirque 
-14611868	Musique de comédie-ballet 
+14611868	Musique de comÃ©die-ballet 
 13603182	Musique de couronnement 
 12048235	Musique de danse
 11980662	Musique de danse traditionnelle 
 11937299	Musique de film
 12152151	Musique de film muet 
 16746133	Musique de gambuh 
-16759566	Musique de jeux vidéo 
+16759566	Musique de jeux vidÃ©o 
 13561276	Musique de kabuki 
 13319478	Musique de l'Avent 
 16140570	Musique de l'?piphanie 
 13318752	Musique de la Passion 
-14418152	Musique de la Pentecôte 
+14418152	Musique de la PentecÃ´te 
 13319846	Musique de la Semaine sainte 
 13320278	Musique de mariage
 14618706	Musique de masque
-14402378	Musique de nô 
-13319515	Musique de Noël
-13603266	Musique de Pâques 
-16761776	Musique de publicité 
+14402378	Musique de nÃ´ 
+13319515	Musique de NoÃ«l
+13603266	Musique de PÃ¢ques 
+16761776	Musique de publicitÃ© 
 12550689	Musique de relaxation 
 11949607	Musique de rue 
-11957876	Musique de scène
-15055563	Musique de séries télévisées 
-11978060	Musique de télévision 
-13318759	Musique du carême 
+11957876	Musique de scÃ¨ne
+15055563	Musique de sÃ©ries tÃ©lÃ©visÃ©es 
+11978060	Musique de tÃ©lÃ©vision 
+13318759	Musique du carÃªme 
 13603286	Musique du jeudi saint 
 13603278	Musique du vendredi saint 
-12132383	Musique électroacoustique
+12132383	Musique Ã©lectroacoustique
 12513696	Musique electroacoustique mixte
-12513700	Musique électronique en direct 
-13319208	Musique funèbre
+12513700	Musique Ã©lectronique en direct 
+13319208	Musique funÃ¨bre
 12513700	Musique hindoue 
 13505668	Musique humoristique 
 13509068	Musique industrielle 
 12148634	Musique islamique 
 13319168	Musique juive 
-12140150	Musique maçonnique
-14642901	Musique mécanique 
+12140150	Musique maÃ§onnique
+14642901	Musique mÃ©canique 
 11961654	Musique militaire
 12550690	Musique New Age
-11983471	Musique noire américaine
+11983471	Musique noire amÃ©ricaine
 11946083	Musique par ordinateur 
 11938730	Musique populaire
 12300754	Musique pour la jeunesse 
 11978059	Musique radiophonique
 16237606	Musique religieuse 
-12513214	Musique répétitive 
-12254276	Musique révolutionnaire 
-12228338	Musique sérielle 
+12513214	Musique rÃ©pÃ©titive 
+12254276	Musique rÃ©volutionnaire 
+12228338	Musique sÃ©rielle 
 13163340	Musique soufie 
 12513704	Musique spectrale 
 16573614	Musique stochastique 
 11953379	Musique traditionnelle
 11981009	Negro spirituals
 13505251	Musique synagogale 
-12475329	Musique taoïste 
+12475329	Musique taoÃ¯ste 
 11953379	Musique traditionnelle 
 16725097	Musique troubadour 
 16733321	Musique vaudou 
 15087923	Musique vishnouite 
 11936006	Musique vocale 
-13319122	Musique vocale chrétienne 
-16237559	Musique vocale sacrée 
+13319122	Musique vocale chrÃ©tienne 
+16237559	Musique vocale sacrÃ©e 
 11953665	Muwashshah
 13746113	Nagauta 
 15619148	Nan kouan 
-15718860	Néofolk
+15718860	NÃ©ofolk
 13509160	New jack 
 12179854	New wave (musique)
 16137792	Nigunim
 16054184	No-wave 
 12426863	Nocturnes (musique)
-11978458	Noëls
-12574376	Noëls anglais
-14630743	Noëls roumains
+11978458	NoÃ«ls
+12574376	NoÃ«ls anglais
+14630743	NoÃ«ls roumains
 13337286	Noisy (musique)
 12324193	Nonets
 13577796	Nonets de jazz 
-12324254	Nonets sacrés 
+12324254	Nonets sacrÃ©s 
 12324256	Nonets vocaux 
-14637445	Notre Père (musique)
+14637445	Notre PÃ¨re (musique)
 13511179	Noubas
 14505126	Nu jazz 
 16075740	Nu-metal 
 16138230	Nu soul 
 15518300	Nunc dimittis (musique) 
 12324177	Octuors
-12324186	Octuors sacrés
+12324186	Octuors sacrÃ©s
 12324189	Octuors vocaux 
 14481629	Offertoires (musique)
-12574198	Office des ténèbres (musique) 
+12574198	Office des tÃ©nÃ¨bres (musique) 
 14623304	Office divin (musique)
 14419060	One-steps
-11976227	Opéras
-14648477	Opéras-ballets
-16255951	Opéras bouffes
-16172430	Opéras buffa
-12238089	Opéras-comiques
-11964509	Opéras de Pékin 
-16624185	Opéras filmés 
-11981216	Opéras pour la jeunesse
-12525030	Opéras-rock 
-12341643	Opéras seria
-11949713	Opérettes
+11976227	OpÃ©ras
+14648477	OpÃ©ras-ballets
+16255951	OpÃ©ras bouffes
+16172430	OpÃ©ras buffa
+12238089	OpÃ©ras-comiques
+11964509	OpÃ©ras de PÃ©kin 
+16624185	OpÃ©ras filmÃ©s 
+11981216	OpÃ©ras pour la jeunesse
+12525030	OpÃ©ras-rock 
+12341643	OpÃ©ras seria
+11949713	OpÃ©rettes
 12287908	Oratorios
 12287094	Organa
 13553918	Or?k? 
 12454201	Ouvertures (musique)
 13546541	P'ansori 
-12436286	Péans
+12436286	PÃ©ans
 13187472	Parodie (musique)
 16617234	Partimenti
 13187472	Parodie (musique)
-14624729	Pas redoublés
+14624729	Pas redoublÃ©s
 13746045	Pasillos 
 12487497	Paso doble (musique)
 12555457	Passacailles
 14418762	Passepieds
 14419907	Pastorales (musique instrumentale)
 13337418	Pastorales (musique vocale)
-17089510	Pastorales héroïques 
+17089510	Pastorales hÃ©roÃ¯ques 
 11953268	Pastourelles
 12556115	Pavanes
 16635004	Paysage sonore (musique)
-12436286	Péans 
+12436286	PÃ©ans 
 13319463	Piyyutim
 16554143	Plain-chant musical 
 16184891	Planctus
 13508712	Plenas
-12303230	Poèmes symphoniques
-12043842	Poésie sonore
+12303230	PoÃ¨mes symphoniques
+12043842	PoÃ©sie sonore
 12487465	Polkas
 13742536	Polkas-mazurkas
 12117608	Polonaises (musique)
-12287111	Polyphonies sacrées 
+12287111	Polyphonies sacrÃ©es 
 15579531	Polyphonies traditionnelles 
 11957141	Pop music
 16715570	Pop-rock 
@@ -506,8 +506,8 @@
 13738429	Post-rock 
 13742565	Pots-pourris (musique) 
 16057581	Power pop 
-15510858	Préludes (musique)
-12307918	Préludes de chorals
+15510858	PrÃ©ludes (musique)
+12307918	PrÃ©ludes de chorals
 12214757	Psaumes (musique)
 16062499	Psychobilly
 12486954	Punk rock
@@ -516,26 +516,26 @@
 13742427	Quadrilles
 12049772	Quatuors
 13577788	Quatuors de jazz 
-12310471	Quatuors sacrés
+12310471	Quatuors sacrÃ©s
 11978729	Quatuors vocaux
 16131405	Queercore
 12302396	Quintettes
 11979047	Quintettes de jazz 
-12302446	Quintettes sacrés 
+12302446	Quintettes sacrÃ©s 
 12548808	Raggamuffin
 11979048	Ragtime
-12201050	Raï (musique) 
+12201050	RaÃ¯ (musique) 
 16649817	Ranz des vaches
 12187346	Rap
-13507961	Rebétika
-11978853	Récitatifs
+13507961	RebÃ©tika
+11978853	RÃ©citatifs
 13742723	Redowas
 13508926	Refrains
 13611540	Reels
 11938753	Reggae
 16535131	Reggaet?n
 15788449	Regina Caeli (musique) 
-12134303	Répons
+12134303	RÃ©pons
 12478796	Requiem
 17050993	Responsoriaux
 11949735	Revues (music-hall) 
@@ -547,11 +547,11 @@
 11932376	Rock (musique)
 12525036	Rock alternatif 
 16130963	Rock and roll (musique)
-16946538	Rock expérimental 
+16946538	Rock expÃ©rimental 
 12548780	Rock fusion 
 13606832	Rock garage 
 13509063	Rock gothique 
-16057179	Rock indépendant 
+16057179	Rock indÃ©pendant 
 13509070	Rock industriel 
 16721524	Rock planant 
 12499708	Rock progressif 
@@ -584,23 +584,23 @@
 16565097	Seguidillas
 12324159	Septuors
 13577792	Septuors de jazz
-12324165	Septuors sacrés 
+12324165	Septuors sacrÃ©s 
 12324168	Septuors vocaux 
-13319653	Séquences (musique)
-14629862	Sérénades (musique instrumentale)
-16502535	Sérénades (musique vocale) 
+13319653	SÃ©quences (musique)
+14629862	SÃ©rÃ©nades (musique instrumentale)
+16502535	SÃ©rÃ©nades (musique vocale) 
 16575675	Serranas 
 12550848	Serventois
 15002297	Sevdalinka 
 16575685	Sevillanas
 12323139	Sextuors
 13577790	Sextuors de jazz 
-12323142	Sextuors sacrés
+12323142	Sextuors sacrÃ©s
 12323144	Sextuors vocaux
 15079564	Sh?my?
 13742548	Siciliennes (musique)
 12299855	Singspiele
-11978293	Sirventès 
+11978293	SirventÃ¨s 
 12530355	Ska
 16965585	Sludge metal 
 16710837	Soca
@@ -627,7 +627,7 @@
 16576015	Tarantas
 12487471	Tarentelles
 13337380	Te Deum (musique)
-12266067	Théâtre musical
+12266067	ThÃ©Ã¢tre musical
 12525027	Techno (musique)
 16224275	Techno hardcore 
 13576613	Tensons
@@ -639,12 +639,12 @@
 12528416	Toccatas
 16984335	T?gaku 
 14632732	Tonadillas
-16244899	Tragédies lyriques
+16244899	TragÃ©dies lyriques
 15619134	Trallalero
 16652723	Tricotets
 12310556	Trios
 13577783	Trios de jazz
-12317416	Trios sacrés
+12317416	Trios sacrÃ©s
 11979179	Trios vocaux
 13337262	Trip-hop
 13318709	Tropes (musique)
@@ -654,7 +654,7 @@
 12523950	Variations (musique)
 16647202	Varsoviennes (musique)
 14633937	Veni creator Spiritus (musique)
-14632714	Vêpres (musique)
+14632714	VÃªpres (musique)
 12380544	Villancicos (musique)
 13576309	Villanelles (musique)
 12528434	Virelais
