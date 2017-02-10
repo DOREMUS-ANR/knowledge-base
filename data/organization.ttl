@@ -8,3 +8,11 @@
   owl:sameAs <http://viaf.org/viaf/315254866> ;
   owl:sameAs <http://dbpedia.org/resource/Philharmonie_de_Paris> ;
   owl:sameAs <http://www.wikidata.org/entity/Q3378907> .
+
+<http://data.doremus.org/organization/BnF>
+  rdfs:label "Bibliothèque Nationale de France";
+  owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb12381002j> ;
+  owl:sameAs <http://viaf.org/viaf/137156173> ;
+  owl:sameAs <http://www.isni.org/isni/0000000121751303> ;
+  owl:sameAs <http://dbpedia.org/resource/Bibliotheque_nationale_de_France> ;
+  owl:sameAs <http://www.wikidata.org/entity/Q193563> .
