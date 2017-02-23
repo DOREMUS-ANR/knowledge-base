@@ -17,6 +17,7 @@
     dct:issued "2017-01-24"^^xsd:date ;
     dct:language <http://id.loc.gov/vocabulary/iso639-1/en>,
         <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+    dct:modified "2017-02-23"^^xsd:date ;
     dct:title "Catalogue"@fr,
         "Catalogo"@it ;
     dcat:record <http://data.doremus.org/vocabulary/catalog/001>,
@@ -237,12 +238,17 @@
     modsrdf:abstract "Thematisches Verzeichnis der Werke von Carl Philipp Emanuel Bach"@de ;
     modsrdf:dateOfCopyright "1905" ;
     modsrdf:identifier "Wq" ;
+    modsrdf:identifierGroup <http://data.doremus.org/vocabulary/catalog/006/alternate> ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Wotquenne, Alfred" ;
     modsrdf:publisher "Breitkopf & Härtel (Leipzig ; Brüssel ; London ; New York" ;
     modsrdf:subjectName "BACH, CARL PHILIPP EMANUEL (1714-1788)" ;
     modsrdf:title "Wotquenne, C.P.E. Bach"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43340930n/INTERMARC> .
+
+<http://data.doremus.org/vocabulary/catalog/006/alternate> a modsrdf:IdentifierGroup ;
+    modsrdf:identifierGroupType "alternate" ;
+    modsrdf:identifierGroupValue "W" .
 
 <http://data.doremus.org/vocabulary/catalog/007> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
@@ -517,6 +523,7 @@
 <http://data.doremus.org/vocabulary/catalog/029> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
     modsrdf:dateOfCopyright "1982" ;
+    modsrdf:identifier "H" ;
     modsrdf:languageOfResource "fr"^^xsd:language ;
     modsrdf:namePrincipal "Hitchkock, Hugh Wiley" ;
     modsrdf:publisher "Picard (Paris)" ;
@@ -572,6 +579,7 @@
     dct:description "Catalogue thématique"@fr ;
     modsrdf:abstract "Frédéric Chopin : thematisch-biographisches Werkverzeichnis"@de ;
     modsrdf:dateOfCopyright "1979" ;
+    modsrdf:identifier "KK" ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Kobylanska, Krystyna" ;
     modsrdf:publisher "G. Henle (München)" ;
@@ -650,30 +658,6 @@
     modsrdf:subjectName "CRAMER, JOHANN BAPTIST (1771-1858)" ;
     modsrdf:title "Milligan et Graue, Cramer"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37447796b/PUBLIC> .
-
-<http://data.doremus.org/vocabulary/catalog/041> a modsrdf:ModsResource ;
-    dct:description "Catalogue d’œuvre"@fr ;
-    modsrdf:dateOfCopyright "2003" ;
-    modsrdf:edition "2e éd., 2003 (nouvelle numérotation)"@fr ;
-    modsrdf:identifier "FL" ;
-    modsrdf:languageOfResource "fr"^^xsd:language ;
-    modsrdf:namePrincipal "Lesure, François" ;
-    modsrdf:publisher "Fayard (Paris)" ;
-    modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
-    modsrdf:title "Lesure, Debussy, 2003"@fr ;
-    modsrdf:titlePrincipal "Claude Debussy : biographie critique ; suivie du Catalogue de l'œuvre"@fr ;
-    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39005568t/PUBLIC> .
-
-<http://data.doremus.org/vocabulary/catalog/042> a modsrdf:ModsResource ;
-    dct:description "Catalogue d’œuvre"@fr ;
-    modsrdf:dateOfCopyright "1977" ;
-    modsrdf:identifier "FL" ;
-    modsrdf:languageOfResource "fr"^^xsd:language ;
-    modsrdf:namePrincipal "Lesure, François" ;
-    modsrdf:publisher "Minkoff (Paris)" ;
-    modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
-    modsrdf:titlePrincipal "Catalogue de l'œuvre de Claude Debussy"@fr ;
-    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34703639j/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/043> a modsrdf:ModsResource ;
     dct:description "Catalogue d’œuvre"@fr ;
@@ -1139,6 +1123,7 @@
     modsrdf:abstract "Thematisches Verzeichnis der im Druck erschiedenen Compositionen von Felix Mendelssohn"@de ;
     modsrdf:dateOfCopyright "1882" ;
     modsrdf:edition "3e éd."@fr ;
+    modsrdf:identifier "MVW" ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:publisher "Breitkopf und Härtel (Leipzig)" ;
     modsrdf:subjectName "MENDELSSOHN, FELIX (1809-1847)" ;
@@ -1163,31 +1148,6 @@
     modsrdf:title "Collaer, Milhaud, 1982"@fr ;
     modsrdf:titlePrincipal "Darius Milhaud"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb346709555/PUBLIC> .
-
-<http://data.doremus.org/vocabulary/catalog/085> a modsrdf:ModsResource ;
-    dct:description "Catalogue thématique"@fr ;
-    modsrdf:abstract "Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts"@de ;
-    modsrdf:dateOfCopyright "1983" ;
-    modsrdf:edition "8e éd., version révisée de 1964 owl:sameAs K6"@fr ;
-    modsrdf:identifier "KV" ;
-    modsrdf:languageOfResource "de"^^xsd:language ;
-    modsrdf:namePrincipal "Köchel, Dr. Ludwig Ritter von" ;
-    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
-    modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
-    modsrdf:title "Köchel 8"@fr ;
-    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35794010d/PUBLIC> .
-
-<http://data.doremus.org/vocabulary/catalog/086> a modsrdf:ModsResource ;
-    dct:description "Catalogue thématique"@fr ;
-    modsrdf:abstract "Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts"@de ;
-    modsrdf:dateOfCopyright "1958" ;
-    modsrdf:edition "4e éd., version révisée de 1937"@fr ;
-    modsrdf:identifier "KV" ;
-    modsrdf:languageOfResource "de"^^xsd:language ;
-    modsrdf:namePrincipal "Köchel, Dr. Ludwig Ritter von" ;
-    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
-    modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
-    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43076262w/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/087> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
@@ -1424,12 +1384,17 @@
     modsrdf:abstract "Schütz-Werke-Verzeichnis, SWV, kleine Ausgabe, im Auftrag der der Neuen Schütz-Gesellschaft"@de ;
     modsrdf:dateOfCopyright "1960" ;
     modsrdf:identifier "SWV" ;
+    modsrdf:identifierGroup <http://data.doremus.org/vocabulary/catalog/107/alternate> ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Bittinger, Werner" ;
     modsrdf:publisher "Bärenreiter (Kassel ; Basel ; London)" ;
     modsrdf:subjectName "SCHÜTZ, HEINRICH (1585-1672)" ;
     modsrdf:title "Bittinger, Schütz"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb329255304/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/107/alternate> a modsrdf:IdentifierGroup ;
+    modsrdf:identifierGroupType "alternate" ;
+    modsrdf:identifierGroupValue "SW" .
 
 <http://data.doremus.org/vocabulary/catalog/108> a modsrdf:ModsResource ;
     dct:description "Contient le catalogue thématique des symphonies et des trios avec orchestre"@fr ;
@@ -1648,7 +1613,8 @@
     dct:description "Catalogue thématique"@fr ;
     modsrdf:abstract "Verzeichnis der Werke Antonio Vivaldis"@de ;
     modsrdf:dateOfCopyright "1974" ;
-    modsrdf:identifier "RV" ;
+    modsrdf:identifier "R",
+        "RV" ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Ryom, Peter" ;
     modsrdf:publisher "VEB Deutscher Verlag für Musik (Leipzig)" ;
@@ -1911,4 +1877,59 @@
     modsrdf:publisher "Oxford University Press (Oxford)" ;
     modsrdf:subjectName "VAUGHAN WILLIAMS, RALPH (1872-1958)" ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35853116v/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/041> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "2003" ;
+    modsrdf:edition "2e éd., 2003 (nouvelle numérotation)"@fr ;
+    modsrdf:identifier "FL" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Lesure, François" ;
+    modsrdf:publisher "Fayard (Paris)" ;
+    modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/042> ;
+    modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
+    modsrdf:title "Lesure, Debussy, 2003"@fr ;
+    modsrdf:titlePrincipal "Claude Debussy : biographie critique ; suivie du Catalogue de l'œuvre"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39005568t/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/042> a modsrdf:ModsResource ;
+    dct:description "Catalogue d’œuvre"@fr ;
+    modsrdf:dateOfCopyright "1977" ;
+    modsrdf:identifier "FL" ;
+    modsrdf:languageOfResource "fr"^^xsd:language ;
+    modsrdf:namePrincipal "Lesure, François" ;
+    modsrdf:publisher "Minkoff (Paris)" ;
+    modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/041> ;
+    modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
+    modsrdf:titlePrincipal "Catalogue de l'œuvre de Claude Debussy"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34703639j/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/085> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts"@de ;
+    modsrdf:dateOfCopyright "1983" ;
+    modsrdf:edition "8e éd., version révisée de 1964 owl:sameAs K6"@fr ;
+    modsrdf:identifier "K",
+        "KV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Köchel, Dr. Ludwig Ritter von" ;
+    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
+    modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/086> ;
+    modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
+    modsrdf:title "Köchel 8"@fr ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35794010d/PUBLIC> .
+
+<http://data.doremus.org/vocabulary/catalog/086> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    modsrdf:abstract "Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts"@de ;
+    modsrdf:dateOfCopyright "1958" ;
+    modsrdf:edition "4e éd., version révisée de 1937"@fr ;
+    modsrdf:identifier "K",
+        "KV" ;
+    modsrdf:languageOfResource "de"^^xsd:language ;
+    modsrdf:namePrincipal "Köchel, Dr. Ludwig Ritter von" ;
+    modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
+    modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/085> ;
+    modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43076262w/PUBLIC> .
 
