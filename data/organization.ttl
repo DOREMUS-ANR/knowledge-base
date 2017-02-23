@@ -1,16 +1,25 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
-<http://data.doremus.org/organization/Philharmonie_de_Paris>
-  rdfs:label "Philharmonie de Paris";
+<http://data.doremus.org/organization/DOREMUS> a foaf:Project ;
+  rdfs:label "DOREMUS" ;
+  foaf:homepage <http://www.doremus.org/> ;
+  foaf:logo "http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png" ;
+  rdfs:comment "Initiated in late 2014, DOREMUS is a research project based on the semantic web technologies, aiming to develop tools and methods to describe, publish, connect and contextualize music catalogues on the web of data. Its primary objective is to provide common knowledge models and shared multilingual controlled vocabularies." .
+
+<http://data.doremus.org/organization/Philharmonie_de_Paris> a foaf:Organization ;
+  rdfs:label "Philharmonie de Paris" ;
+  foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> ;
   owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb16651244g> ;
   owl:sameAs <http://viaf.org/viaf/315254866> ;
   owl:sameAs <http://dbpedia.org/resource/Philharmonie_de_Paris> ;
   owl:sameAs <http://www.wikidata.org/entity/Q3378907> .
 
-<http://data.doremus.org/organization/BnF>
-  rdfs:label "Bibliothèque Nationale de France";
+<http://data.doremus.org/organization/BnF> a foaf:Organization ;
+  rdfs:label "Bibliothèque Nationale de France" ;
+  foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> ;
   owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb12381002j> ;
   owl:sameAs <http://viaf.org/viaf/137156173> ;
   owl:sameAs <http://www.isni.org/isni/0000000121751303> ;

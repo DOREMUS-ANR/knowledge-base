@@ -9,8 +9,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.doremus.org/vocabulary/catalog/> a dcat:Catalog ;
+    rdfs:label "Catalogues of classical compositions"@en,
+        "Catalogues de compositions classiques"@fr,
+        "Cataloghi delle composizioni musicali classiche"@it ;
     dct:accrualPeriodicity <http://dublincore.org/groups/collections/frequency/#freqirregular> ;
     dct:created "2017-01-24"^^xsd:date ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:description "Thematic catalog or catalog of works, listing all known works of a composer"@en,
         "Catalogue thématique ou catalogue d'oeuvres, listant toutes les oeuvres connues d'un compositeur"@fr,
         "Catalogo tematico o catalogo delle opere, che enumera tutte le opere conosciute di un compositore"@it ;
@@ -18,7 +22,8 @@
     dct:language <http://id.loc.gov/vocabulary/iso639-1/en>,
         <http://id.loc.gov/vocabulary/iso639-1/fr> ;
     dct:modified "2017-02-23"^^xsd:date ;
-    dct:title "Catalogue"@fr,
+    dct:title "Catalogue"@en,
+        "Catalogue"@fr,
         "Catalogo"@it ;
     dcat:record <http://data.doremus.org/vocabulary/catalog/001>,
         <http://data.doremus.org/vocabulary/catalog/002>,
@@ -175,7 +180,7 @@
 <http://data.doremus.org/vocabulary/catalog/distribution/turtle> a dcat:Distribution ;
     dct:issued "2017-01-24"^^xsd:date ;
     dct:license <https://www.etalab.gouv.fr/licence-ouverte-open-licence> ;
-    dcat:accessURL <https://raw.githubusercontent.com/DOREMUS-ANR/knowledge-base/master/vocabularies/catalog.ttl> ;
+    dcat:accessURL <https://raw.githubusercontent.com/DOREMUS-ANR/knowledge-base/master/vocabularies/catalogue.ttl> ;
     dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle> .
 
 <http://data.doremus.org/vocabulary/catalog/001> a modsrdf:ModsResource ;

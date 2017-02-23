@@ -9,7 +9,7 @@ const fs = require('fs'),
 const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
     MODS = $rdf.Namespace("http://www.loc.gov/standards/mods/rdf/v1/#");
 
-var file = __dirname + '/../vocabularies/catalog.ttl';
+var file = __dirname + '/../vocabularies/catalogue.ttl';
 
 var rdfData = fs.readFileSync(file).toString();
 
