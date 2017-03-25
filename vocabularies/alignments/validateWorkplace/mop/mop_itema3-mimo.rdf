@@ -1,0 +1,1453 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="http://data.doremus.org/vocabulary/itema3/mop/">
+      <location>http://data.doremus.org/vocabulary/itema3/mop/</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.mimo-db.eu/InstrumentsKeywords">
+      <location>http://www.mimo-db.eu/InstrumentsKeywords</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/25'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3633'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/107'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2493'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/107'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2585'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/906'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2225'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/73'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4467'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/73'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4455'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/36'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3224'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/36'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3237'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/84'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3818'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/84'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3881'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/84'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3822'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/84'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3875'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/100'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5330'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/100'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4927'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2016'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3577'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/40'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4110'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/40'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4111'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2043'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4101'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/24'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3859'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.71</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/24'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3860'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/170'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2598'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/35'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2968'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/62'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4342'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/192'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3818'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/192'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3822'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/57'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4029'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2020'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3286'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/68'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3591'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2031'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6621'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/198'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2371'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/198'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2381'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1595'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2609'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/79'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3564'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/79'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3609'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/79'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3573'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/204'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4126'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/50'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2266'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/50'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2264'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/13'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3729'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/13'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3610'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/61'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4341'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/61'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4346'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2048'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4276'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1551'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4356'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1551'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4350'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1551'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4357'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/67'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2321'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/67'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2316'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.68</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/466'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4154'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/466'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4143'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/866'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3735'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/7'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3786'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/7'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3795'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/23'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3868'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/23'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3866'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.71</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2026'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3486'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2026'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3501'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/191'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3106'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/191'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3102'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/175'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3249'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/56'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2273'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/56'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2030'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4294'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.66</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2030'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4299'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1594'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2949'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1594'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2952'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/60'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3808'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/142'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3970'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/71'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4369'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/71'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4360'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1550'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3731'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1550'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3732'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1670'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3516'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1670'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3518'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/66'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4349'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.w3.org/2004/02/skos/core#ConceptScheme'/>
+      <entity2 rdf:resource='http://www.w3.org/2004/02/skos/core#ConceptScheme'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/77'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3558'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/77'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3584'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/77'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3597'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/77'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3561'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/77'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3564'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/159'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3745'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/159'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3746'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/202'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3834'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/99'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2358'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/22'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3860'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/22'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3859'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/104'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3226'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/70'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2879'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/70'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2887'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2057'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4116'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/17'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2239'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.64</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/17'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2251'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/158'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3031'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/486'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4136'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/486'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4138'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/87'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2387'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/10'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4184'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/21'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4197'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/103'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2451'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/103'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2471'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1450'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4361'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/426'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3747'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/173'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3183'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/245'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3804'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/706'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3576'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/54'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/54'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2273'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/365'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4465'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/38'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3230'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/826'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2246'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/65'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4347'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/49'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2217'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2034'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6578'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2034'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6683'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2034'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4497'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2034'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2274'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2061'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2257'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2045'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2746'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/135'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3099'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/135'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3062'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2056'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4368'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'/>
+      <entity2 rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/80'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3582'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.66</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/80'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3575'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.66</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/64'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4344'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/75'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2985'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/4'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3316'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2001'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3538'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2001'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3521'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/86'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2520'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/786'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4318'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/786'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4333'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2012'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3945'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/97'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2423'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.67</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/97'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2420'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.67</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/20'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4118'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/20'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4116'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1510'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2515'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/113'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4171'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/15'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3832'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/42'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3265'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/42'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/26'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3594'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/183'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2231'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.66</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/183'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2232'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/48'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3509'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/48'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3510'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2011'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4463'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/59'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4364'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/112'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4258'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/112'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4181'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2033'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6705'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2033'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2292'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/41'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6635'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/41'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5767'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/41'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2233'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/41'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2235'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2028'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5530'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2055'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4362'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/63'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4343'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/446'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2807'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/446'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2820'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/47'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3394'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/47'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3313'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/74'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3705'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/385'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3604'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/58'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3677'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/85'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2729'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/69'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3473'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/1186'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3232'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/588'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3250'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2006'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2244'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/221'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2222'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/14'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3827'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/14'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3836'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2054'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3005'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2017'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2864'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.76</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/itema3/mop/2017'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2861'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.65</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
