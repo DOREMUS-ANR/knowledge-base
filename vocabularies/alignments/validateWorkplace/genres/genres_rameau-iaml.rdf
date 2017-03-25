@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="file:/tmp/yam-gui/WSYXQ5XEXRDAANW/source.owl">
+      <location>file:/tmp/yam-gui/WSYXQ5XEXRDAANW/source.owl</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://data.doremus.org/vocabulary/iaml/genre/">
+      <location>http://data.doremus.org/vocabulary/iaml/genre/</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12144214n'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sy'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb137424277'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/qdl'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.62</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13340269f'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sct'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125284222'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rp'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166527234'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tct'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125561153'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pv'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122625346'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lod'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122625346'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lau'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13505214w'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hy'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12274798p'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.72</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12490763t'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mz'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb155012177'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sae'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125303551'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ska'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.67</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16649817z'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rdv'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.72</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12331117t'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sls'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13319048g'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb121343032'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/res'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.64</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb165651117'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/zor'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14611690n'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ens'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13742464f'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gig'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14638256g'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sww'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.71</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124874655'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/plk'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13319746q'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ch'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12524990z'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/wom'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.68</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13611540p'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ree'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123023964'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/qui'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16625166v'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16504673p'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mxx'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125560401'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/wz'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124869430'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hem'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.66</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13742536g'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pmk'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.63</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11959092j'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/chs'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.64</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11978458n'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/noe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11961654x'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mym'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.68</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125250436'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/voc'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb120619054'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/srd'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16042445c'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dix'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12324193f'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/non'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122508977'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/crr'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12287121c'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/an'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13742438w'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ctd'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb120490729'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tng'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11945385x'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/wsg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.71</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12471027v'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hrk'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.62</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123075888'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cdt'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.75</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16565097h'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sgl'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13742723p'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rdw'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123105565'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tri'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135162777'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ccl'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12210598x'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/frj'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.62</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167085773'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mng'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124751002'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fnk'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.64</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119655491'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lam'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.62</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb15030568g'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/smb'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16575685c'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sev'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb137425203'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rig'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124268962'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jot'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14597350h'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cns'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb165007761'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bra'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167091955'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mbm'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11937299m'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mp'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.72</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119834699'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rhb'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.66</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11979048g'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb15837652f'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ari'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13742456t'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gav'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'/>
+      <entity2 rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122998559'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ssp'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.62</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb121873463'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rap'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.67</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13742470c'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gai'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14571683f'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/btq'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11978214g'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dtr'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124787969'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rq'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.64</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12525027z'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tem'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.68</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122405229'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/co'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135761923'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/czt'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122932169'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dui'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119323761'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rc'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.72</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb131857027'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/srb'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.62</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14632732d'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ton'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11975253n'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bl'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14418201f'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hab'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122999171'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/blo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.64</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124874624'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rum'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11938040n'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jz'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.59</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12488042n'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cad'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12290265s'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bwg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.68</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb144187594'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/slt'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12287908c'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/or'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11938753x'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rgg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123243512'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sn'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12406174d'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/smb'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb165008273'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/for'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124083404'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fnd'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.61</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12030841v'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cpl'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12238085j'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/zar'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb121516267'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16504685p'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bst'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.51</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12405731j'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bg'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.53</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
