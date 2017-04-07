@@ -25,3 +25,7 @@
   owl:sameAs <http://www.isni.org/isni/0000000121751303> ;
   owl:sameAs <http://dbpedia.org/resource/Bibliotheque_nationale_de_France> ;
   owl:sameAs <http://www.wikidata.org/entity/Q193563> .
+
+<http://data.doremus.org/organization/Radio_France> a foaf:Organization ;
+  rdfs:label "Radio France" ;
+  foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> .
