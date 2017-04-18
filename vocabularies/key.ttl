@@ -10,10 +10,11 @@
 	rdfs:label "Liste des tonalités"@fr , "List of keys"@en , "Lista di tonalità"@it ;
 	dct:creator <http://data.doremus.org/organization/DOREMUS> ;
 	dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	dct:modified "2017-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+	dct:modified "2017-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 <http://data.doremus.org/vocabulary/key/cb> a skos:Concept ;
 	skos:prefLabel "Do bémol majeur"@fr ;
+        skos:altLabel "Ut bémol majeur"@fr ;
 	skos:editorialNote "unimarc: cb" ;
 	skos:prefLabel "C flat Major"@en , "Do bemolle maggiore"@it , "Do bemol mayor"@es , "Ces Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
@@ -21,6 +22,7 @@
 
 <http://data.doremus.org/vocabulary/key/c> a skos:Concept ;
 	skos:prefLabel "Do majeur"@fr ;
+        skos:altLabel "Ut majeur"@fr ;
 	skos:editorialNote "unimarc: c" ;
 	skos:prefLabel "C Major"@en , "Do maggiore"@it , "Do mayor"@es , "C Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
@@ -28,6 +30,7 @@
 
 <http://data.doremus.org/vocabulary/key/cm> a skos:Concept ;
 	skos:prefLabel "Do mineur"@fr ;
+	skos:altLabel "Ut mineur"@fr ;
 	skos:editorialNote "unimarc: cm" ;
 	skos:prefLabel "C Minor"@en , "Do minore"@it , "Do menor"@es , "C Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
@@ -35,6 +38,7 @@
 
 <http://data.doremus.org/vocabulary/key/cx> a skos:Concept ;
 	skos:prefLabel "Do dièse majeur"@fr ;
+	skos:altLabel "Ut dièse majeur"@fr ;
 	skos:editorialNote "unimarc: cx" ;
 	skos:prefLabel "C sharp Major"@en , "Do diesis maggiore"@it , "Do sostenido mayor"@es , "Cis Dur"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
@@ -42,6 +46,7 @@
 
 <http://data.doremus.org/vocabulary/key/cxm> a skos:Concept ;
 	skos:prefLabel "Do dièse mineur"@fr ;
+	skos:altLabel "Ut dièse mineur"@fr ;
 	skos:editorialNote "unimarc: cxm" ;
 	skos:prefLabel "C sharp Minor"@en , "Do diesis minore"@it , "Do sostenido menor"@es , "Cis Moll"@de ;
 	skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
