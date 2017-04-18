@@ -28,4 +28,9 @@
 
 <http://data.doremus.org/organization/Radio_France> a foaf:Organization ;
   rdfs:label "Radio France" ;
-  foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> .
+  foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> ;
+  owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb13889733p> ;
+  owl:sameAs <http://viaf.org/viaf/132649088/> ;
+  owl:sameAs <http://www.isni.org/isni/0000000122649140> ;
+  owl:sameAs <http://dbpedia.org/resource/Radio_France> ;
+  owl:sameAs <https://www.wikidata.org/entity/Q2120364> .
