@@ -1,0 +1,20 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] What works are linked to a particular work and what type of link connect them?
+# [fr] Quelles oeuvres sont reliées à telle oeuvre et quel type de lien les unissent ?
+
+SELECT DISTINCT ?work, SAMPLE(?title) as ?title, ?link, ?work2, SAMPLE(?title2) as ?title2
+WHERE {
+  ?work ?link ?work2.
+
+  ?work a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in / mus:U70_has_title ?title .
+  ?work2 a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in / mus:U70_has_title ?title2 .
+} ORDER BY ?title
+LIMIT 500
+
+# Note: so far, we have in the database only link of type ecrm:P148_has_component

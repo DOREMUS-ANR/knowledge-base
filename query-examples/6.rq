@@ -1,0 +1,17 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the name and the birth date of artists that played the oboe
+# [fr] donne-moi les noms et date de naissance des artistes qui jouent du hautbois
+
+SELECT DISTINCT ?artist
+WHERE {
+  ?performance ecrm:P9_consists_of ?part .
+  ?part ecrm:P14_carried_out_by ?artist ;
+  mus:U1_used_medium_of_performance / skos:prefLabel "oboe"@en .
+
+} ORDER BY ?artists
+
+# Note: we have only the name of the artists

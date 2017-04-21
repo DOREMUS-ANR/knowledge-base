@@ -1,0 +1,29 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the works written for oboe and orchestra after the 1900
+# [fr] Donne-moi les oeuvres écrites pour hautbois et orchestre depuis 1900
+
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?casting
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U13_has_casting ?casting .
+  
+  ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/wob> .
+  {
+    ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type
+    <http://data.doremus.org/vocabulary/iaml/mop/o>
+  } UNION {
+    ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader <http://data.doremus.org/vocabulary/iaml/mop/o>
+  }
+  
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P4_has_time-span / ecrm:P79_beginning_is_qualified_by ?start .
+          
+  FILTER ( ?start > "1900"^^xsd:gYear )
+
+} ORDER BY ?start
