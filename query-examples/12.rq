@@ -1,0 +1,37 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the melodies written on French texts for average voice between 1870 and 1913.
+# [fr] Donne-moi toutes les mélodies écrites sur des textes français pour voix moyenne entre 1870 et 1913.
+
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?voix
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U13_has_casting ?casting ;
+          mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/mld> .
+
+  ?casting mus:U23_has_casting_detail ?castingDet .
+  ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type / skos:prefLabel ?voix .
+
+  {
+    ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/vbr> .
+  } UNION {
+    ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/vms> .
+  }
+  
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P4_has_time-span ?ts.
+  ?ts ecrm:P80_end_is_qualified_by ?end ;
+                ecrm:P79_beginning_is_qualified_by ?start .
+
+  FILTER ( ?start >= "1870"^^xsd:gYear AND ?end <= "1913"^^xsd:gYear AND lang(?voix) = "en" )
+
+} GROUP BY ?expression ?voix
+
+# Note: we have not the information on the language of the text
+
+# TODO add MIMO

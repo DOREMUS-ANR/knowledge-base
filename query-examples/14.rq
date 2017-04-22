@@ -1,0 +1,33 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the sacred vocal music for choir written in England after 1945
+# [fr] Donne-moi toute la musique vocale sacrée pour choeur écrite en Angleterre depuis 1945
+
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?end as ?composed, ?place, SAMPLE(?genre) AS ?genre
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U13_has_casting / mus:U23_has_casting_detail ?castingDet ;
+          mus:U12_has_genre / skos:prefLabel ?genre.
+  FILTER regex(str(?genre), "sacr(a|è|ed)") .
+  
+  {
+    ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/c> .
+  } UNION {
+    ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader <http://data.doremus.org/vocabulary/iaml/mop/c> .
+  }
+  
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P4_has_time-span / ecrm:P80_end_is_qualified_by ?end .
+          
+  OPTIONAL { ?expCreation ecrm:P7_took_place_at ?place }
+
+  FILTER ( ?end > "1945"^^xsd:gYear )
+
+} ORDER BY ?end
+
+# Note: we have not the information about the composition place

@@ -1,0 +1,37 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the list of concerts given at the Philharmonie de Paris in which the orchestra is directed by the solo violin
+# [fr] Donne-moi la liste des concerts donnés à la Philharmonie de Paris dans lesquels l’orchestre est dirigé par le violon solo
+
+SELECT DISTINCT ?performance, ?conductor
+WHERE {
+  ?performance a efrbroo:F31_Performance ;
+    efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
+    ecrm:P7_took_place_at ?philarmonie ;
+    ecrm:P9_consists_of ?activityDir ;
+    ecrm:P9_consists_of ?activityMus .
+  
+  ?activityDir ecrm:P14_carried_out_by ?conductor ;
+    mus:U35_foresees_function_of_type "conducteur"@fr .
+    
+  ?activityMus ecrm:P14_carried_out_by ?conductor ;
+    mus:U1_used_medium_of_performance <http://data.doremus.org/vocabulary/iaml/mop/svl> .
+
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U13_has_casting / mus:U23_has_casting_detail ?castingDet .
+
+  ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/svl>;
+              mus:U36_foresees_responsibility_of_type "soloist"@fr .
+    
+  FILTER ( contains(lcase(str(?philarmonie)), "philharmonie de paris") )
+}
+
+# Note: there are no data about it
+
+# Note: parsing to be improved (e.g. http://data.doremus.org/performance/fca3eb61-ce9c-331c-a189-c36f277e0985, http://data.doremus.org/performance/ea03ed33-39b7-3adf-925a-196faee706f6)
+
+# Note: this query will be improved by the creation of the controlled vocabulary of functions

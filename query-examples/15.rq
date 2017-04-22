@@ -1,0 +1,34 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the performances in which a composer interprets his or her works
+# [fr] Donne-moi tous les performance dans lesquels un compositeur interprète son ou ses oeuvres
+
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?composerName, ?function, ?mop, ?performance
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title .
+          
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
+          
+  ?composer foaf:name ?composerName .
+  
+  ?performance a efrbroo:F31_Performance ;
+    efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
+    ecrm:P9_consists_of ?activity.
+  
+  ?activity ecrm:P14_carried_out_by ?composer .
+  
+  OPTIONAL {
+    ?activity mus:U35_foresees_function_of_type ?function
+  }
+  OPTIONAL {
+    ?activity mus:U1_used_medium_of_performance ?mop
+  }
+}
+
+# Note: some parsing can be improved (the string "compositeur" appears as name not mapped, e.g. http://data.doremus.org/describe/?url=nodeID%3A%2F%2Fb510028&sid=222)

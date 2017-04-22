@@ -1,0 +1,28 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the slow movements of chamber music that foresee at least one cello
+# [fr] Donne-moi tous les mouvements lents d’oeuvres de musique de chambre dans lesquelles figure au moins un violoncelle
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, SAMPLE(?genre) AS ?genre
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U13_has_casting ?casting ;
+          mus:U12_has_genre / skos:prefLabel ?genre.
+  FILTER contains(str(?genre), "chambre") .
+
+  ?work a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in ?expression . 
+  OPTIONAL {
+    ?work ecrm:P148_has_component ?movement .
+  }
+
+  ?casting mus:U23_has_casting_detail ?castingDet .
+  ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/svc> .
+
+} GROUP BY ?expression
+
+# Note: we have not the information about the movement and about the tempos 

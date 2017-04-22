@@ -3,18 +3,18 @@ PREFIX ecrm: <http://erlangen-crm.org/current/>
 PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-# [en] Give me the works written for violin, clarinet and piano (strictly)
-# [fr] Donne-moi les oeuvres écrites pour violon, clarinette et piano (strictement)
+# [en] Give me the works of chamber music that involves at least violin, clarinet and piano
+# [fr] Donne-moi les oeuvres de musique de chambre comportant au moins violon, clarinette et piano
 
 
-SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?casting
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?genre, ?casting
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
           mus:U70_has_title ?title ;
-          mus:U13_has_casting ?casting .
-  
-  ?casting mus:U23_has_casting_detail ?allCastingDets .
-  
+          mus:U13_has_casting ?casting ;
+          mus:U12_has_genre / skos:prefLabel ?genre.
+          
   ?casting mus:U23_has_casting_detail ?castingDet1 .
   ?castingDet1 mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/svl> .
   
@@ -23,7 +23,6 @@ WHERE {
 
   ?casting mus:U23_has_casting_detail ?castingDet3 .
   ?castingDet3 mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/kpf> .
-
+        
+  FILTER contains(str(?genre), "chambre")
 }
-GROUP BY ?expression ?casting
-HAVING (COUNT(?allCastingDets) = 3)

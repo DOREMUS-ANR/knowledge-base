@@ -1,5 +1,7 @@
 This folder contains examples of query for interrogating the DOREMUS data, i.e. in the [DOREMUS SPARQL Endpoint](http://data.doremus.org/data).
 
+Some questions have a partial query or no query at all because the modeling or the publication of data is still work in progress.
+
 ## A. Works and Expressions
 
 1. **[en]** Which works have been composed by Mozart ?   
@@ -30,9 +32,35 @@ This folder contains examples of query for interrogating the DOREMUS data, i.e. 
 **[fr]** Donne-moi les oeuvres écrites pour violon, clarinette et piano (strictement)
 [query](./8.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0A%23+%5Ben%5D+Give+me+the+works+written+for+violin%2C+clarinet+and+piano+%28strictly%29%0D%0A%23+%5Bfr%5D+Donne-moi+les+oeuvres+%C3%A9crites+pour+violon%2C+clarinette+et+piano+%28strictement%29%0D%0A%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+.%0D%0A++%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FallCastingDets+.%0D%0A++++++++%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1+.%0D%0A++++++++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A%0D%0A++++++++%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet2+.%0D%0A++++++++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwcl%3E+.%0D%0A%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet3+.%0D%0A++++++++%3FcastingDet3+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+.%0D%0A%0D%0A%7D%0D%0AGROUP+BY+%3Fexpression+%3Fcasting%0D%0AHAVING+%28COUNT%28%3FallCastingDets%29+%3D+3%29%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
 
-## B. Artists
+1. **[en]** Give me the works of chamber music that involves at least violin, clarinet and piano  
+**[fr]** Donne-moi les oeuvres de musique de chambre comportant au moins violon, clarinette et piano  
+[query](./9.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fgenre%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AprefLabel+%3Fgenre.%0D%0A++++++++++%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1+.%0D%0A++++++++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A%0D%0A++++++++%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet2+.%0D%0A++++++++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwcl%3E+.%0D%0A%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet3+.%0D%0A++++++++%3FcastingDet3+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+.%0D%0A++++++++%0D%0A++FILTER+contains%28str%28%3Fgenre%29%2C+%22chambre%22%29%0D%0A%7D+&format=text%2Fhtml&timeout=0&debug=on)
 
-This section contains only partially the queries because the modeling or the publication of data is still work in progress.
+1. **[en]** Give me the works of chamber music that involves at most violin, clarinet and piano    
+**[fr]** Donne-moi les oeuvres de musique de chambre comportant au plus violon, clarinette et piano  
+[query](./10.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3FgroupCount+AS+%3FnbInstruments%2C+%3FisViolin%2C+%3FisClarinet%2C+%3FisPiano%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AprefLabel+%3Fgenre.%0D%0A++FILTER+contains%28str%28%3Fgenre%29%2C+%22chambre%22%29+.%0D%0A++%7B+%0D%0A++++SELECT+DISTINCT+%3Fcasting+%3FgroupCount+%3FisViolin+%3FisClarinet+%3FisPiano%0D%0A++++WHERE+%7B%0D%0A++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FallCastingDets+.%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1+.%0D%0A++++++++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A++++++%7D%0D%0A++++++BIND%28IF%28BOUND%28%3FcastingDet1%29%2C+1%2C+0%29+AS+%3FisViolin+%29%0D%0A++++++%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet2+.%0D%0A++++++++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwcl%3E+.%0D%0A++++++%7D%0D%0A++++++BIND%28IF%28BOUND%28%3FcastingDet2%29%2C+1%2C+0%29+AS+%3FisClarinet+%29%0D%0A%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet3+.%0D%0A++++++++%3FcastingDet3+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+.%0D%0A++++++%7D%0D%0A++++++BIND%28IF%28BOUND%28%3FcastingDet3%29%2C+1%2C+0%29+AS+%3FisPiano+%29%0D%0A++++++%0D%0A++++++BIND%28%28%3FisViolin+%2B+%3FisClarinet+%2B+%3FisPiano+%29+AS+%3FgroupCount%29%0D%0A%0D%0A++++%7D%0D%0A++++GROUP+BY+%3Fcasting+%3FgroupCount+%3FisViolin+%3FisClarinet+%3FisPiano%0D%0A++++HAVING+%28%3FgroupCount+%3E+0+AND+%3FgroupCount+%3D+count%28%3FallCastingDets%29%29%0D%0A++%7D%0D%0A%7D+ORDER+BY+desc%28%3FnbInstruments%29&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me the works of chamber music that involves at most violin, clarinet and piano, except from the sonatas for violin and piano and clarinet and piano  
+**[fr]** Donne-moi les oeuvres de musique de chambre comportant au plus violon, clarinette et piano, mais pas les sonates pour violon et piano ni pour clarinette et piano  
+[query](./11.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3FgroupCount+AS+%3FnbInstruments%2C+%3FisViolin%2C+%3FisClarinet%2C+%3FisPiano%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AprefLabel+%3Fgenre.%0D%0A++FILTER+contains%28str%28%3Fgenre%29%2C+%22chambre%22%29+.%0D%0A%0D%0A++%7B+%0D%0A++++SELECT+DISTINCT+%3Fcasting+%3FgroupCount+%3FisViolin+%3FisClarinet+%3FisPiano%0D%0A++++WHERE+%7B%0D%0A++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FallCastingDets+.%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1+.%0D%0A++++++++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A++++++%7D%0D%0A++++++BIND%28IF%28BOUND%28%3FcastingDet1%29%2C+1%2C+0%29+AS+%3FisViolin+%29%0D%0A++++++%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet2+.%0D%0A++++++++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwcl%3E+.%0D%0A++++++%7D%0D%0A++++++BIND%28IF%28BOUND%28%3FcastingDet2%29%2C+1%2C+0%29+AS+%3FisClarinet+%29%0D%0A%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet3+.%0D%0A++++++++%3FcastingDet3+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+.%0D%0A++++++%7D%0D%0A++++++BIND%28IF%28BOUND%28%3FcastingDet3%29%2C+1%2C+0%29+AS+%3FisPiano+%29%0D%0A++++++%0D%0A++++++BIND%28%28%3FisViolin+%2B+%3FisClarinet+%2B+%3FisPiano+%29+AS+%3FgroupCount%29%0D%0A%0D%0A++++%7D%0D%0A++++GROUP+BY+%3Fcasting+%3FgroupCount+%3FisViolin+%3FisClarinet+%3FisPiano%0D%0A++++HAVING+%28%3FgroupCount+%3E+0+AND+%3FgroupCount+%3D+count%28%3FallCastingDets%29%29%0D%0A++%7D%0D%0A++%0D%0A++MINUS+%7B%0D%0A++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++mus%3AU13_has_casting+%3Fcasting+%3B%0D%0A++++++++++++mus%3AU12_has_genre+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fsn%3E+.%0D%0A++++%7B%0D%0A++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1+.%0D%0A++++++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A++++%7D+UNION+%7B%0D%0A++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet2+.%0D%0A++++++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwcl%3E+.%0D%0A++++%7D%0D%0A%0D%0A++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet3+.%0D%0A++++%3FcastingDet3+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+.%0D%0A%0D%0A++%7D%0D%0A%7D+ORDER+BY+desc%28%3FnbInstruments%29&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all the melodies written on French texts for average voice between 1870 and 1913.  
+**[fr]** Donne-moi toutes les mélodies écrites sur des textes français pour voix moyenne entre 1870 et 1913.  
+[query (partial)](./12.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fvoix%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+%3B%0D%0A++++++++++mus%3AU12_has_genre+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fmld%3E+.%0D%0A%0D%0A++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet+.%0D%0A++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%2F+skos%3AprefLabel+%3Fvoix+.%0D%0A%0D%0A++%7B%0D%0A++++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fvbr%3E+.%0D%0A++%7D+UNION+%7B%0D%0A++++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fvms%3E+.%0D%0A++%7D%0D%0A++%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%3Fts.%0D%0A++%3Fts+ecrm%3AP80_end_is_qualified_by+%3Fend+%3B%0D%0A++++++++++++++++ecrm%3AP79_beginning_is_qualified_by+%3Fstart+.%0D%0A%0D%0A++FILTER+%28+%3Fstart+%3E%3D+%221870%22%5E%5Exsd%3AgYear+AND+%3Fend+%3C%3D+%221913%22%5E%5Exsd%3AgYear+AND+lang%28%3Fvoix%29+%3D+%22en%22+%29%0D%0A%0D%0A%7D+GROUP+BY+%3Fexpression+%3Fvoix&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all the slow movements of chamber music that foresee at least one cello  
+**[fr]** Donne-moi tous les mouvements lents d’oeuvres de musique de chambre dans lesquelles figure au moins un violoncelle  
+[query (partial)](./13.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+SAMPLE%28%3Fgenre%29+AS+%3Fgenre%2C+%3Fmovement%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AprefLabel+%3Fgenre.%0D%0A++FILTER+contains%28str%28%3Fgenre%29%2C+%22chambre%22%29+.%0D%0A++%0D%0A++%3Fwork+a+efrbroo%3AF14_Individual_Work%3B%0D%0A++++++++efrbroo%3AR9_is_realised_in+%3Fexpression+.+%0D%0A++OPTIONAL+%7B%0D%0A++++%3Fwork+ecrm%3AP148_has_component+%3Fmovement+.%0D%0A++%7D%0D%0A%0D%0A++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet+.%0D%0A++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvc%3E+.%0D%0A%0D%0A%7D+GROUP+BY+%3Fexpression+%3Fmovement&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all the sacred vocal music for choir written in England since 1945  
+**[fr]** Donne-moi toute la musique vocale sacrée pour choeur écrite en Angleterre depuis 1945  
+[query (partial)](./14.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fend+as+%3Fcomposed%2C+%3Fplace%2C+SAMPLE%28%3Fgenre%29+AS+%3Fgenre%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%3FcastingDet+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AprefLabel+%3Fgenre.%0D%0A++FILTER+regex%28str%28%3Fgenre%29%2C+%22sacr%28a%7C%C3%A8%7Ced%29%22%29+.%0D%0A++%0D%0A++%7B%0D%0A++++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fc%3E+.%0D%0A++%7D+UNION+%7B%0D%0A++++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%2F+skos%3Abroader+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fc%3E+.%0D%0A++%7D%0D%0A++%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%2F+ecrm%3AP80_end_is_qualified_by+%3Fend+.%0D%0A++++++++++%0D%0A++OPTIONAL+%7B+%3FexpCreation+ecrm%3AP7_took_place_at+%3Fplace+%7D%0D%0A%0D%0A++FILTER+%28+%3Fend+%3E+%221945%22%5E%5Exsd%3AgYear+%29%0D%0A%0D%0A%7D+ORDER+BY+%3Fend&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all the operas of which the composer is also the librettist  
+**[fr]** Donne-moi tous les opéras dont le compositeur est également le librettiste  
+-- see [issue](https://github.com/DOREMUS-ANR/marc2rdf/issues/46)
+
+## B. Artists
 
 1. **[en]** Retrieve the works by artists that have been mutually lovers  
 **[fr]** donne-moi les oeuvres d’artistes qui étaient fiancés l’un à l’autre
@@ -41,9 +69,55 @@ This section contains only partially the queries because the modeling or the pub
 **[fr]** donne-moi les noms et date de naissance des artistes qui jouent du hautbois  
 [query (partial)](./6.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fartist%0D%0AWHERE+%7B%0D%0A++%3Fperformance+ecrm%3AP9_consists_of+%3Fpart+.%0D%0A++%3Fpart+ecrm%3AP14_carried_out_by+%3Fartist+%3B%0D%0A++mus%3AU1_used_medium_of_performance+%2F+skos%3AprefLabel+%22oboe%22%40en+.%0D%0A%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on)
 
-## C. Performances and Publications
+1. **[en]** Give me the list of musicians of the Radio France Philharmonic Orchestra having a chamber music activity in concerts organized by Radio France  
+**[fr]** Donne-moi la liste des musiciens de l’Orchestre Philharmonique de Radio France ayant une activité de musique de chambre dans des concerts organisés par Radio France
 
-This section does not contains the queries because the modeling or the publication of data is still work in progress.
+## C. Performances
+
+1. **[en]** Give me all the works with an alternative distribution  
+**[fr]** Donne-moi toutes les oeuvres ayant une distribution alternative
+
+1. **[en]** Give me all the performances in which a composer interprets his or her works  
+**[fr]** Donne-moi tous les performance dans lesquels un compositeur interprète son ou ses oeuvres  
+[query](./15.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3FcomposerName%2C+%3Ffunction%2C+%3Fmop%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++++++++++%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++++++++++%0D%0A++%3Fcomposer+foaf%3Aname+%3FcomposerName+.%0D%0A++%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%3Factivity.%0D%0A++%0D%0A++%3Factivity+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++%0D%0A++OPTIONAL+%7B%0D%0A++++%3Factivity+mus%3AU35_foresees_function_of_type+%3Ffunction%0D%0A++%7D%0D%0A++OPTIONAL+%7B%0D%0A++++%3Factivity+mus%3AU1_used_medium_of_performance+%3Fmop%0D%0A++%7D%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all the performances in which a composer directs one of his works  
+**[fr]** Donne-moi tous les performance dans lesquels un compositeur dirige une de ses oeuvres  
+[query](./16.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3FcomposerName%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++++++++++%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++++++++++%0D%0A++%3Fcomposer+foaf%3Aname+%3FcomposerName+.%0D%0A++%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%3Factivity.%0D%0A++%0D%0A++%3Factivity+ecrm%3AP14_carried_out_by+%3Fcomposer+%3B%0D%0A++++mus%3AU35_foresees_function_of_type+%22conducteur%22%40fr+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me the list of concerts of the Orchestre National de France in which the conductor is also instrumental soloist (in the same concert)  
+**[fr]** Donne-moi la liste des concerts de l'Orchestre National de France dans lesquels le chef d'orchestre est également soliste instrumental (dans le même concert)  
+[query](./17.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fperformance%2C+%3Fconductor%0D%0AWHERE+%7B%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%3FactivityDir+%3B%0D%0A++++ecrm%3AP9_consists_of+%3FactivityMus+%3B%0D%0A++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Forchestra.%0D%0A++%0D%0A++%3FactivityDir+ecrm%3AP14_carried_out_by+%3Fconductor+%3B%0D%0A++++mus%3AU35_foresees_function_of_type+%22conducteur%22%40fr+.%0D%0A++++%0D%0A++%3FactivityMus+ecrm%3AP14_carried_out_by+%3Fconductor+%3B%0D%0A++++mus%3AU1_used_medium_of_performance+%3Fmop+.%0D%0A%0D%0A%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%3FcastingDet+.%0D%0A%0D%0A++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fmop%3B%0D%0A++++++++++++++mus%3AU36_foresees_responsibility_of_type+%22soloist%22%40fr+.%0D%0A++++%0D%0A++FILTER+%28+contains%28lcase%28str%28%3Forchestra%29%29%2C+%22orchestre+national+de+france%22%29+%29%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) (empty, no data about it)
+
+1. **[en]** Give me the list of concerts given at the Philharmonie de Paris in which the orchestra is directed by the solo violin  
+**[fr]** Donne-moi la liste des concerts donnés à la Philharmonie de Paris dans lesquels l’orchestre est dirigé par le violon solo  
+[query](./18.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fperformance%2C+%3Fconductor%0D%0AWHERE+%7B%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP7_took_place_at+%3Fphilarmonie+%3B%0D%0A++++ecrm%3AP9_consists_of+%3FactivityDir+%3B%0D%0A++++ecrm%3AP9_consists_of+%3FactivityMus+.%0D%0A++%0D%0A++%3FactivityDir+ecrm%3AP14_carried_out_by+%3Fconductor+%3B%0D%0A++++mus%3AU35_foresees_function_of_type+%22conducteur%22%40fr+.%0D%0A++++%0D%0A++%3FactivityMus+ecrm%3AP14_carried_out_by+%3Fconductor+%3B%0D%0A++++mus%3AU1_used_medium_of_performance+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%3FcastingDet+.%0D%0A%0D%0A++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E%3B%0D%0A++++++++++++++mus%3AU36_foresees_responsibility_of_type+%22soloist%22%40fr+.%0D%0A++++%0D%0A++FILTER+%28+contains%28lcase%28str%28%3Fphilarmonie%29%29%2C+%22philharmonie+de+paris%22%29+%29%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) (empty, no data about it)
+
+
+## D. Recordings
+
+1. **[en]** Give me the artists that have been recorded more than 10 times by Radio France  
+**[fr]** donne-moi les artistes qui ont été enregistrés plus de 10 fois par Radio France
+
+1. **[en]** Give me the flute sonatas that last less than or equal to 15 minutes  
+**[fr]** Donne-moi les sonates pour flûte d’une durée inférieure ou égale à 15 minutes
+
+1. **[en]** Give me the list of the choristers of the Collegium Vocale who participated in at least three radio recordings of the choir in 2012  
+**[fr]** Donne-moi la liste des choristes du Collegium Vocale ayant participé à au moins trois enregistrements radio du choeur en 2012
+
+1. **[en]** Give me the name of the vocal soloist most recorded by Radio France in 2014  
+**[fr]** Donne-moi le nom du ou de la soliste vocale ayant le plus été enregistré(e) par Radio France en 2014
+
+1. **[en]** Give me the list of all the concerts recorded by Radio France at the Cité de la Musique between 1995 and 2014  
+**[fr]** Donne-moi la liste de tous les concerts enregistrés par Radio France à la Cité de la Musique entre 1995 et 2014
+
+1. **[en]** Give me the list of concerts recorded by Radio France at the auditorium of the Cité de la Musique in which were used one or several French harpsichords of the 17th century belonging to the Musée de la Musique  
+**[fr]** Donne-moi la liste des concerts enregistrés par Radio France à l’auditorium de la Cité de la Musique dans lesquels étaient utilisés un ou plusieurs clavecins français du XVIIe siècle appartenant au Musée de la Musique
+
+1. **[en]** Give me the list of the recordings made in 2014 by Harmonia Mundi with French musical ensembles, using at least one Urtext score
+**[fr]** Donne-moi la liste des enregistrements réalisés en 2014 par Harmonia Mundi avec des ensembles musicaux français, utilisant au moins une partition Urtext
+
+## E. Publications
 
 1. **[en]** Among concerts and CDs, which works are often played after <other work> ?  
 **[fr]** Dans les concerts et les cd, quelles oeuvres sont souvent jouées après <telle autre oeuvre> ?  
@@ -51,67 +125,8 @@ This section does not contains the queries because the modeling or the publicati
 1. **[en]** Give me pairs of recorded tracks that are composed with the same key 
 **[fr]** donne-moi des paires de titres enregistrés qui sont composés dans la même tonalité
 
-1. **[en]** Give me the artists that have been recorded more than 10 times by Radio France  
-**[fr]** donne-moi les artistes qui ont été enregistrés plus de 10 fois par Radio France
-
 
 ## TODO
-
-1. **[en]** todo  
-**[fr]** Donne-moi les oeuvres de musique de chambre comportant au moins violon, clarinette et piano
-
-1. **[en]** todo  
-**[fr]** Donne-moi les oeuvres de musique de chambre comportant au plus violon, clarinette et piano
-
-1. **[en]** todo  
-**[fr]** Donne-moi les oeuvres de musique de chambre comportant au plus violon, clarinette et piano, mais pas les sonates pour violon et piano ni pour clarinette et piano
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les mélodies écrites sur des textes français pour voix moyenne entre 1870 et 1913.
-
-1. **[en]** todo  
-**[fr]** Donne-moi tous les mouvements lents d’oeuvres de musique de chambre dans lesquelles figure au moins un violoncelle
-
-1. **[en]** todo  
-**[fr]** Donne-moi toute la musique vocale sacrée pour choeur écrite en Angleterre depuis 1945
-
-1. **[en]** todo  
-**[fr]** Donne-moi les sonates pour flûte d’une durée inférieure ou égale à 15 minutes
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres ayant une distribution alternative
-
-1. **[en]** todo  
-**[fr]** Donne-moi tous les opéras dont le compositeur est également le librettiste
-
-1. **[en]** todo  
-**[fr]** Donne-moi tous les enregistrements dans lesquels un compositeur interprète son ou ses oeuvres
-
-1. **[en]** todo  
-**[fr]** Donne-moi tous les enregistrements dans lesquels un compositeur dirige au moins une de ses oeuvres
-
-1. **[en]** todo  
-**[fr]** Donne-moi la liste des choristes du Collegium Vocale ayant participé à au moins trois enregistrements radio du choeur en 2012
-
-1. **[en]** todo  
-**[fr]** Donne-moi le nom du ou de la soliste vocale ayant le plus été enregistré(e) par Radio France en 2014
-
-
-1. **[en]** todo  
-**[fr]** Donne-moi la liste de tous les concerts enregistrés par Radio France à la cité de la musique entre 1995 et 2014
-
-1. **[en]** todo  
-**[fr]** Donne-moi la liste des concerts enregistrés par Radio France à l’auditorium de la cité de la musique dans lesquels étaient utilisés un ou plusieurs clavecins français du XVIIe siècle appartenant au musée de la musique
-
-1. **[en]** todo  
-**[fr]** Donne-moi la liste des enregistrements réalisés en 2014 par harmonia mundi avec des ensembles musicaux français, utilisant au moins une partition urtext
-
-1. **[en]** todo  
-**[fr]** Donne-moi la liste des concerts de l’Orchestre National de France dans lesquels le chef d’orchestre est également soliste instrumental (dans le même concert)
--Donne-moi la liste des concerts donnés à la Philharmonie dans lesquels l’orchestre est dirigé par le violon solo
-
-1. **[en]** todo  
-**[fr]** Donne-moi la liste des musiciens de l’Orchestre Philharmonique ayant une activité de musique de chambre dans des concerts organisés par Radio France
 
 1. **[en]** todo  
 **[fr]** Donne-moi la liste des concerts enregistrés à l’Abbaye aux Dames de Saintes hors période du festival de Saintes
