@@ -60,6 +60,10 @@ Some questions have a partial query or no query at all because the modeling or t
 **[fr]** Donne-moi tous les opéras dont le compositeur est également le librettiste  
 -- see [issue](https://github.com/DOREMUS-ANR/marc2rdf/issues/46)
 
+1. **[en]** Give me all works for which there are alternate castings with different interpreters (e.g. keyboard & orch / cello, oboe & orch)  
+**[fr]** Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’interprètes différent (p.ex. clavier & orch / vl, hb & orch)  
+[query](./19.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+AS+%3Ftitle%2C+%3Fcasting1%2C+%3Fcasting2%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting1%2C+%3Fcasting2+.%0D%0A%0D%0A++FILTER+%28+%3Fcasting1+%21%3D+%3Fcasting2+%29%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) (empty, no data yet about it)
+
 ## B. Artists
 
 1. **[en]** Retrieve the works by artists that have been mutually lovers  
@@ -93,6 +97,8 @@ Some questions have a partial query or no query at all because the modeling or t
 **[fr]** Donne-moi la liste des concerts donnés à la Philharmonie de Paris dans lesquels l’orchestre est dirigé par le violon solo  
 [query](./18.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fperformance%2C+%3Fconductor%0D%0AWHERE+%7B%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP7_took_place_at+%3Fphilarmonie+%3B%0D%0A++++ecrm%3AP9_consists_of+%3FactivityDir+%3B%0D%0A++++ecrm%3AP9_consists_of+%3FactivityMus+.%0D%0A++%0D%0A++%3FactivityDir+ecrm%3AP14_carried_out_by+%3Fconductor+%3B%0D%0A++++mus%3AU35_foresees_function_of_type+%22conducteur%22%40fr+.%0D%0A++++%0D%0A++%3FactivityMus+ecrm%3AP14_carried_out_by+%3Fconductor+%3B%0D%0A++++mus%3AU1_used_medium_of_performance+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E+.%0D%0A%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%3FcastingDet+.%0D%0A%0D%0A++%3FcastingDet+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fsvl%3E%3B%0D%0A++++++++++++++mus%3AU36_foresees_responsibility_of_type+%22soloist%22%40fr+.%0D%0A++++%0D%0A++FILTER+%28+contains%28lcase%28str%28%3Fphilarmonie%29%29%2C+%22philharmonie+de+paris%22%29+%29%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) (empty, no data about it)
 
+1. **[en]** Give me the list of concerts performed at the Abbaye aux Dames de Saintes outside the festival period of Saintes  
+**[fr]** Donne-moi la liste des concerts performe à l’Abbaye aux Dames de Saintes hors période du festival de Saintes
 
 ## D. Recordings
 
@@ -128,11 +134,7 @@ Some questions have a partial query or no query at all because the modeling or t
 
 ## TODO
 
-1. **[en]** todo  
-**[fr]** Donne-moi la liste des concerts enregistrés à l’Abbaye aux Dames de Saintes hors période du festival de Saintes
 
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’interprètes différent (p.ex. clavier & orch / vl, hb & orch)
 
 1. **[en]** todo  
 **[fr]** Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’instruments différent (p.ex. 2 pianos ou piano 4 mains)
