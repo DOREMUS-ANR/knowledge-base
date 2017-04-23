@@ -110,6 +110,11 @@ Some questions have a _partial_ query or no query at all because the modeling or
 1. **[en]** Give me all works for piano based on works of Schubert  
 **[fr]** Donne-moi toutes les oeuvres pour piano basées sur des oeuvres de Schubert  
 
+1. **[en]** Give me all the works related to an extra-musical artistic field   
+**[fr]** Donne-moi toutes les oeuvres liées à un domaine artistique extra-musical
+
+1. **[en]** Give me all the works related to popular music  
+**[fr]** Donne-moi toutes les oeuvres liées à la musique populaire
 
 
 
@@ -126,6 +131,11 @@ Some questions have a _partial_ query or no query at all because the modeling or
 
 1. **[en]** Give me the list of musicians of the Radio France Philharmonic Orchestra having a chamber music activity in concerts organized by Radio France  
 **[fr]** Donne-moi la liste des musiciens de l’Orchestre Philharmonique de Radio France ayant une activité de musique de chambre dans des concerts organisés par Radio France
+
+
+
+
+
 
 ## C. Performances
 
@@ -155,6 +165,19 @@ Some questions have a _partial_ query or no query at all because the modeling or
 **[fr]** Donne moi la liste des oeuvres qui ont été créées là où elles ont été composées  
 [query](./26.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fplace+%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP7_took_place_at+%3Fplace+.%0D%0A++%3Fwork+efrbroo%3AR9_is_realised_in+%3Fexpression%3B%0D%0A++++++++mus%3AU5_had_premiere+%2F+ecrm%3AP7_took_place_at+%3Fplace+.%0D%0A%7D%0D%0ALIMIT+500%0D%0A&format=text%2Fhtml&timeout=0&debug=on) (empty, no data about it)
 
+1. **[en]** Give me all the works for which the title of the Performed Expression is different from the title of the work  
+**[fr]** Donne-moi toutes les oeuvres pour lesquelles le titre de l’Expression Performée est différent du titre de l’oeuvre
+
+1. **[en]** Give me all the works interpreted on at least one mop different from the casting of the work  
+**[fr]** Donne-moi toutes les oeuvres interprétées sur au moins un mop différent du casting de l’oeuvre  
+[query](./30.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+%3Fperformance%2C+%3Fmop%2C+group_concat%28DISTINCT+%3FmopWork%2C+%22%2C+%22%29+AS+%3FmopWork%0D%0AWHERE+%7B%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%2F+mus%3AU1_used_medium_of_performance+%3Fmop+.%0D%0A++++%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3FmopWork+.%0D%0A++%0D%0A++FILTER+NOT+EXISTS+%7B%0D%0A++++%3Fexpression+mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fmop+.%0D%0A++%7D%0D%0A%7D+LIMIT+300&format=text%2Fhtml&timeout=0&debug=on)
+
+
+<!-- END Performances -->
+
+
+
+
 ## D. Recordings
 
 1. **[en]** Give me the artists that have been recorded more than 10 times by Radio France  
@@ -181,6 +204,20 @@ Some questions have a _partial_ query or no query at all because the modeling or
 1. **[en]** Give me the list of the recordings made in 2014 by Harmonia Mundi with French musical ensembles, using at least one Urtext score  
 **[fr]** Donne-moi la liste des enregistrements réalisés en 2014 par Harmonia Mundi avec des ensembles musicaux français, utilisant au moins une partition Urtext
 
+1. **[en]** Give me all the registration free of rights  
+**[fr]** Donne-moi tous les enregistrement libre de droit
+
+1. **[en]** Give me the cutting of all the recordings of Don Giovanni by Mozart  
+**[fr]** Donne moi le découpage de tous les enregistrements de Don Giovanni de Mozart
+
+1. **[en]** Give me all the recordings of the air of the catalog (isolated air or in a recording of the opera)  
+**[fr]** Donne moi tous les enregistrements de l’air du catalogue (air isolé ou dans un enregistrement de l’opéra)
+
+<!-- END Recordings -->
+
+
+
+
 ## E. Publications
 
 1. **[en]** Among concerts and CDs, which works are often played after <other work> ?  
@@ -192,39 +229,11 @@ Some questions have a _partial_ query or no query at all because the modeling or
 1. **[en]** Give me the list of the latest releases of DGG (Deutsche Grammophon Gesellschaft) in chamber music for strings  
 **[fr]** Donne moi la liste des dernières parutions de DGG (Deutsche Grammophon Gesellschaft) en musique de chambre pour cordes
 
-
-
-
-
-
-## TODO
-
-
-
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres liées à un domaine artistique extra-musical
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres liées à la musique populaire
-
-1. **[en]** todo  
-**[fr]** Donne-moi tous les enregistrement libre de droit (requête à mixer avec des thématiques intéressant par exemple le milieu du cinéma)
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres pour lesquelles le titre de l’Expression Performée est différent du titre de l’oeuvre (F22)
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres interprétées sur au moins un mop différent du casting de l’oeuvre (solistes uniquement, p.ex. Cto piano & orch, Sonate piano...)
-
-1. **[en]** todo  
-**[fr]** Donne moi le découpage de tous les enregistrements de Don Giovanni de Mozart
-
-1. **[en]** todo  
-**[fr]** Donne moi tous les enregistrements de l’air du catalogue (air isolé ou dans un enregistrement de l’opéra)
-
-1. **[en]** todo  
+1. **[en]** Give me all the recordings of opera aria whose library has at least one score  
 **[fr]** Donne moi tous les enregistrements d’airs d’opéra dont la bibliothèque dispose d’au moins une partition
 
-1. **[en]** todo  
+1. **[en]** Give me all the recordings of opera aria whose library has no score  
 **[fr]** Donne moi tous les enregistrements d’airs d’opéra dont la bibliothèque ne dispose d’aucune partition
+
+<!-- END Publications -->
+
