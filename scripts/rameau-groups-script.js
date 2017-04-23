@@ -9,7 +9,7 @@ const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 const SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
 
 var file = __dirname + '/../vocabularies/raw-data/rameau.groups.txt';
-var output = __dirname + '/../vocabularies/rameau.groups.ttl';
+var output = __dirname + '/../vocabularies/groups-rameau.ttl';
 var array = [];
 var store = $rdf.graph();
 
