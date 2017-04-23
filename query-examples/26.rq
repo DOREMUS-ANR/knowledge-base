@@ -1,0 +1,26 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the list of the works that were created where they were composed
+# [fr] Donne moi la liste des oeuvres qui ont été créées là où elles ont été composées
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?place 
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title .
+  
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P7_took_place_at ?place .
+
+  ?work efrbroo:R9_is_realised_in ?expression;
+        mus:U5_had_premiere / ecrm:P7_took_place_at ?place .
+}
+LIMIT 500
+
+# Note: this query can evolve if we model/map differently the places or if we changhe the performace to PerformedEventCreation
+
+# Note 2: we have not the composition places
+
+# Note 3: we have not the places perfectly parsed (i.e. http://data.doremus.org/describe/?url=http%3A%2F%2Fdata.doremus.org%2Fperformance%2F2f84bb29-e6ef-35c6-b4d9-38b31e89ca80&sid=209)

@@ -1,0 +1,40 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me a list of works composed between 1860 and 1880, for small formation (maximum 6 instrumentalists) including 1 piano
+# [fr] Donne moi une liste d’oeuvres composées entre 1860 et 1880, pour petite formation (maximum 6 instrumentistes) dont 1 piano
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?start as ?compositionDate, ?nbInstruments, ?casting
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U13_has_casting ?casting .
+  {
+    SELECT ?casting, SUM(?q) AS ?nbInstruments
+    WHERE {
+      ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/kpf> .
+
+      ?casting mus:U23_has_casting_detail ?castingDet .
+      OPTIONAL { ?castingDet mus:U30_foresees_quantity_of_mop ?qty }
+      BIND(coalesce(?qty, 1) AS ?q)
+      
+      MINUS { ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader <http://data.doremus.org/vocabulary/iaml/mop/o> }
+    
+      MINUS { ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader <http://data.doremus.org/vocabulary/iaml/mop/c> }
+    } GROUP BY ?casting
+    HAVING (SUM(?qty) <= 6 AND SUM(?qty) > 1)
+  }
+
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P4_has_time-span ?ts.
+  ?ts ecrm:P80_end_is_qualified_by ?end ;
+                ecrm:P79_beginning_is_qualified_by ?start .
+
+  FILTER ( ?start >= "1860"^^xsd:gYear AND ?end <= "1880"^^xsd:gYear  )
+} 
+ORDER BY ?start
+LIMIT 500
+
+# TODO add MIMO

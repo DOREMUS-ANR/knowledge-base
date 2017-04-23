@@ -1,0 +1,23 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the works for which there are alternative castings with a different number of instruments (e.g. 2 pianos or 4 hands piano)
+# [fr] Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’instruments différent (p.ex. 2 pianos ou piano 4 mains)
+
+SELECT DISTINCT ?expression, ?casting1, SUM(?nI1) AS ?n1, ?casting2, count(?nI2) as ?n2
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U13_has_casting ?casting1, ?casting2 .
+  
+  ?casting1 mus:U23_has_casting_detail / mus:U30_foresees_quantity_of_mop ?nI1 .
+  
+  ?casting2 mus:U23_has_casting_detail / mus:U30_foresees_quantity_of_mop ?nI2 .
+  
+  FILTER ( ?casting1 != ?casting2 )
+}
+GROUP BY ?expression ?casting1 ?casting2
+HAVING (count(?nI1) != count(?nI2))
+
+# Note: not currently in the data. See https://github.com/DOREMUS-ANR/marc2rdf/issues/22

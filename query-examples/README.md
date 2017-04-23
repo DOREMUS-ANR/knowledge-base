@@ -1,6 +1,6 @@
 This folder contains examples of query for interrogating the DOREMUS data, i.e. in the [DOREMUS SPARQL Endpoint](http://data.doremus.org/data).
 
-Some questions have a partial query or no query at all because the modeling or the publication of data is still work in progress.
+Some questions have a _partial_ query or no query at all because the modeling or the publication of data is still work in progress.
 
 ## A. Works and Expressions
 
@@ -62,7 +62,58 @@ Some questions have a partial query or no query at all because the modeling or t
 
 1. **[en]** Give me all works for which there are alternate castings with different interpreters (e.g. keyboard & orch / cello, oboe & orch)  
 **[fr]** Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’interprètes différent (p.ex. clavier & orch / vl, hb & orch)  
-[query](./19.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+AS+%3Ftitle%2C+%3Fcasting1%2C+%3Fcasting2%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting1%2C+%3Fcasting2+.%0D%0A%0D%0A++FILTER+%28+%3Fcasting1+%21%3D+%3Fcasting2+%29%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) (empty, no data yet about it)
+[query](./19.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+AS+%3Ftitle%2C+%3Fcasting1%2C+count%28DISTINCT+%3FcDet1%29+AS+%3Fn1%2C+%3Fcasting2%2C+count%28DISTINCT+%3FcDet2%29+as+%3Fn2%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting1%2C+%3Fcasting2+.%0D%0A++%0D%0A++%3Fcasting1+mus%3AU23_has_casting_detail+%3FcDet1+.%0D%0A++%0D%0A++%3Fcasting2+mus%3AU23_has_casting_detail+%3FcDet2+.%0D%0A++%0D%0A++FILTER+%28+%3Fcasting1+%21%3D+%3Fcasting2+%29%0D%0A%7D%0D%0AGROUP+BY+%3Fexpression+%3Fcasting1+%3Fcasting2%0D%0AHAVING+%28count%28%3FcDet1%29+%21%3D+count%28%3FcDet2%29%29%0D%0A%0D%0A&format=text%2Fhtml&timeout=0&debug=on) (empty, no data yet about it)
+
+1. **[en]** Give me all the works for which there are alternative castings with a different number of instruments (e.g. 2 pianos or 4 hands piano)  
+**[fr]** Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’instruments différent (p.ex. 2 pianos ou piano 4 mains)  
+[query](./20.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+%3Fcasting1%2C+SUM%28%3FnI1%29+AS+%3Fn1%2C+%3Fcasting2%2C+count%28%3FnI2%29+as+%3Fn2%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting1%2C+%3Fcasting2+.%0D%0A++%0D%0A++%3Fcasting1+mus%3AU23_has_casting_detail+%2F+mus%3AU30_foresees_quantity_of_mop+%3FnI1+.%0D%0A++%0D%0A++%3Fcasting2+mus%3AU23_has_casting_detail+%2F+mus%3AU30_foresees_quantity_of_mop+%3FnI2+.%0D%0A++%0D%0A++FILTER+%28+%3Fcasting1+%21%3D+%3Fcasting2+%29%0D%0A%7D%0D%0AGROUP+BY+%3Fexpression+%3Fcasting1+%3Fcasting2%0D%0AHAVING+%28count%28%3FnI1%29+%21%3D+count%28%3FnI2%29%29%0D%0A&format=text%2Fhtml&timeout=0&debug=on) (empty, no data yet about it)
+
+1. **[en]** Give me a list of melodies of 20th century about gastronomy  
+**[fr]** Donne-moi une liste de mélodies du XXème siècle autour de la gastronomie  
+[query (partial)](./21) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fstart%2C+%3Fend%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU12_has_genre+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fmld%3E+.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%3Fts.%0D%0A++%3Fts+ecrm%3AP80_end_is_qualified_by+%3Fend+%3B%0D%0A++++++++++++++++ecrm%3AP79_beginning_is_qualified_by+%3Fstart+.%0D%0A%0D%0A++FILTER+%28+%3Fstart+%3E%3D+%221900%22%5E%5Exsd%3AgYear+AND+%3Fend+%3C%3D+%222000%22%5E%5Exsd%3AgYear+%29%0D%0A%7D+ORDER+BY+%3Fstart%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me a list of works of chamber music composed in the 19th century by Scandinavian composers  
+**[fr]** Donne-moi une liste d’oeuvres de musique de chambre composées au XIXème siècle par des compositeurs scandinaves  
+[query (partial)](./22.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3FcomposerName%2C+SAMPLE%28%3Fgenre%29+AS+%3Fgenre%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AprefLabel+%3Fgenre.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%3Fts+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++++++++++%0D%0A++%3Fcomposer+foaf%3Aname+%3FcomposerName+.%0D%0A++%0D%0A++%3Fts+ecrm%3AP80_end_is_qualified_by+%3Fend+%3B%0D%0A++++++++++++++++ecrm%3AP79_beginning_is_qualified_by+%3Fstart+.%0D%0A%0D%0A++FILTER+%28+contains%28str%28%3Fgenre%29%2C+%22chambre%22%29+AND+%3Fstart+%3E%3D+%221800%22%5E%5Exsd%3AgYear+AND+%3Fend+%3C+%221900%22%5E%5Exsd%3AgYear+%29%0D%0A%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on) (empty, no data yet about it)
+
+1. **[en]** Give me the list of the works of which at least one of the dedicatees is also a interprète of the work  
+**[fr]** Donne moi la liste des oeuvres dont au moins un des dédicataires est aussi un interprète de l’oeuvre  
+[query](./23.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fdedicatee%2C+%3Fperformance%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU44_has_dedication_statement+%2F+ecrm%3AP67_refers_to+%3Fdedicatee.%0D%0A%0D%0A++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fdedicatee+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me the list of the reductions of works of Wagner realized in the 20th century  
+**[fr]** Donne moi la liste des réductions d’oeuvres de Wagner réalisées au XXème siècle  
+
+1. **[en]** Give me the list of all symphonies that include 5 movements  
+**[fr]** Donne moi la liste de toutes les symphonies qui comprennent 5 mouvements  
+[query](./24.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fwork%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%0D%0AWHERE+%7B%0D%0A++%3Fwork+a+efrbroo%3AF14_Individual_Work%3B%0D%0A++++++++ecrm%3AP148_has_component+%3Fmovements%3B%0D%0A++++++++efrbroo%3AR9_is_realised_in+%3Fexpression.%0D%0A++%0D%0A++%3Fexpression+mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++++mus%3AU12_has_genre+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fsy%3E+.%0D%0A%0D%0A%7D+GROUP+BY+%3Fwork%0D%0AHAVING+%28+COUNT%28DISTINCT+%3Fmovements%29+%3E%3D+5+%29%0D%0ALIMIT+500%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me the list of works composed by Mozart in the last 5 years of his life  
+**[fr]** Donne moi la liste des oeuvres composées par Mozart dans les 5 dernières années de sa vie  
+[query](./24.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3FcompositionDate%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%2F+ecrm%3AP79_beginning_is_qualified_by+%3FcompositionDate+.%0D%0A%0D%0A++%3Fcomposer+foaf%3Aname+%22Wolfgang+Amadeus+Mozart%22+%3B%0D%0A++++++++++ecrm%3AP100i_died_in+%3Fdeath+.%0D%0A++%0D%0A++FILTER+%28+year%28%3FcompositionDate%29+-+year%28%3Fdeath%29+%3C%3D+5+%29%0D%0A%7D+ORDER+BY+%3FcompositionDate&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me a cycle of melodies whose author of text is the same for each melody  
+**[fr]** Donne moi un cycle de mélodies dont l’auteur de texte est le même pour chaque mélodie  
+-- can involve [issue](https://github.com/DOREMUS-ANR/marc2rdf/issues/46)
+
+1. **[en]** Give me a list of works composed between 1860 and 1880, for small formation (maximum 6 instrumentalists) including 1 piano  
+**[fr]** Donne moi une liste d’oeuvres composées entre 1860 et 1880, pour petite formation (maximum 6 instrumentistes) dont 1 piano  
+[query](./27.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fstart+as+%3FcompositionDate%2C+%3FnbInstruments%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+.%0D%0A++%7B%0D%0A++++SELECT+%3Fcasting%2C+SUM%28%3Fq%29+AS+%3FnbInstruments%0D%0A++++WHERE+%7B%0D%0A++++++%3Fcasting+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+.%0D%0A%0D%0A++++++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet+.%0D%0A++++++OPTIONAL+%7B+%3FcastingDet+mus%3AU30_foresees_quantity_of_mop+%3Fqty+%7D%0D%0A++++++BIND%28coalesce%28%3Fqty%2C+1%29+AS+%3Fq%29%0D%0A++++++%0D%0A++++++MINUS+%7B+%3Fcasting+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%2F+skos%3Abroader+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fo%3E+%7D%0D%0A++++%0D%0A++++++MINUS+%7B+%3Fcasting+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%2F+skos%3Abroader+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fc%3E+%7D%0D%0A++++%7D+GROUP+BY+%3Fcasting%0D%0A++++HAVING+%28SUM%28%3Fqty%29+%3C%3D+6+AND+SUM%28%3Fqty%29+%3E+1%29%0D%0A++%7D%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%3Fts.%0D%0A++%3Fts+ecrm%3AP80_end_is_qualified_by+%3Fend+%3B%0D%0A++++++++++++++++ecrm%3AP79_beginning_is_qualified_by+%3Fstart+.%0D%0A%0D%0A++FILTER+%28+%3Fstart+%3E%3D+%221860%22%5E%5Exsd%3AgYear+AND+%3Fend+%3C%3D+%221880%22%5E%5Exsd%3AgYear++%29%0D%0A%7D+%0D%0AORDER+BY+%3Fstart%0D%0ALIMIT+500&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me the list of works of J.S. Bach between BWV 30 and BWV 70  
+**[fr]** Donne moi la liste des oeuvres de J.S. Bach entre BWV 30 et BWV 70  
+[query](./28.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+modsrdf%3A+%3Chttp%3A%2F%2Fwww.loc.gov%2Fstandards%2Fmods%2Frdf%2Fv1%2F%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression+SAMPLE%28%3Ftitle%29+as+%3Ftitle+%3FcatNum%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU16_has_catalogue_statement+%3Fcatalogue+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++%3Fcomposer+foaf%3Aname+%22Johann+Sebastian+Bach%22+.%0D%0A++%3Fcatalogue+mus%3AU40_has_catalogue_name+%2F+modsrdf%3Aidentifier+%22BWV%22%3B%0D%0A++++++++++++mus%3AU41_has_catalogue_number+%3FcatNum+.%0D%0A++FILTER+%28%3FcatNum+%3E%3D+30+and+%3FcatNum+%3C+70+%29%0D%0A%7D+ORDER+BY+%3FcatNum%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all the works for piano connected to other musical works  
+**[fr]** Donne-moi toutes les oeuvres pour piano liées à d’autres oeuvres musicales  
+[query](./29.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0ASELECT+DISTINCT+%3Fwork%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Flink%2C+%3Fwork2%2C+SAMPLE%28%3Ftitle2%29+as+%3Ftitle2%0D%0AWHERE+%7B%0D%0A++%3Fwork+%3Flink+%3Fwork2.%0D%0A%0D%0A++%3Fwork+a+efrbroo%3AF14_Individual_Work%3B%0D%0A++++++++efrbroo%3AR9_is_realised_in+%3Fexpression+.%0D%0A++%0D%0A++%3Fexpression+mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++mus%3AU13_has_casting+%3Fcasting+.%0D%0A++++++++%0D%0A++%7B+SELECT+%3Fcasting%0D%0A++++WHERE+%7B%0D%0A++++++%0D%0A++++%3Fcasting+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fkpf%3E+%3B%0D%0A++++++++++mus%3AU23_has_casting_detail+%3FcDet+.%0D%0A++++%7D+GROUP+BY+%3Fcasting%0D%0A++++HAVING+%28COUNT%28%3FcDet%29+%3D+1%29%0D%0A++%7D++%0D%0A++++%0D%0A++%3Fwork2+a+efrbroo%3AF14_Individual_Work%3B%0D%0A++++++++efrbroo%3AR9_is_realised_in+%2F+mus%3AU70_has_title+%3Ftitle2+.%0D%0A%7D+%0D%0AORDER+BY+%3Ftitle%0D%0ALIMIT+500%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
+
+1. **[en]** Give me all works for piano based on works of Schubert  
+**[fr]** Donne-moi toutes les oeuvres pour piano basées sur des oeuvres de Schubert  
+
+
+
+
+
 
 ## B. Artists
 
@@ -100,6 +151,10 @@ Some questions have a partial query or no query at all because the modeling or t
 1. **[en]** Give me the list of concerts performed at the Abbaye aux Dames de Saintes outside the festival period of Saintes  
 **[fr]** Donne-moi la liste des concerts performe à l’Abbaye aux Dames de Saintes hors période du festival de Saintes
 
+1. **[en]** Give me the list of the works that were created where they were composed  
+**[fr]** Donne moi la liste des oeuvres qui ont été créées là où elles ont été composées  
+[query](./26.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0ASELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fplace+%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP7_took_place_at+%3Fplace+.%0D%0A++%3Fwork+efrbroo%3AR9_is_realised_in+%3Fexpression%3B%0D%0A++++++++mus%3AU5_had_premiere+%2F+ecrm%3AP7_took_place_at+%3Fplace+.%0D%0A%7D%0D%0ALIMIT+500%0D%0A&format=text%2Fhtml&timeout=0&debug=on) (empty, no data about it)
+
 ## D. Recordings
 
 1. **[en]** Give me the artists that have been recorded more than 10 times by Radio France  
@@ -107,6 +162,9 @@ Some questions have a partial query or no query at all because the modeling or t
 
 1. **[en]** Give me the flute sonatas that last less than or equal to 15 minutes  
 **[fr]** Donne-moi les sonates pour flûte d’une durée inférieure ou égale à 15 minutes
+
+1. **[en]** Give me all the sonatas for piano and violin whose duration is between 20 and 30 minutes  
+**[fr]** Donne-moi toutes les sonates pour piano et violon dont la durée est comprise entre 20 et 30 minutes
 
 1. **[en]** Give me the list of the choristers of the Collegium Vocale who participated in at least three radio recordings of the choir in 2012  
 **[fr]** Donne-moi la liste des choristes du Collegium Vocale ayant participé à au moins trois enregistrements radio du choeur en 2012
@@ -120,7 +178,7 @@ Some questions have a partial query or no query at all because the modeling or t
 1. **[en]** Give me the list of concerts recorded by Radio France at the auditorium of the Cité de la Musique in which were used one or several French harpsichords of the 17th century belonging to the Musée de la Musique  
 **[fr]** Donne-moi la liste des concerts enregistrés par Radio France à l’auditorium de la Cité de la Musique dans lesquels étaient utilisés un ou plusieurs clavecins français du XVIIe siècle appartenant au Musée de la Musique
 
-1. **[en]** Give me the list of the recordings made in 2014 by Harmonia Mundi with French musical ensembles, using at least one Urtext score
+1. **[en]** Give me the list of the recordings made in 2014 by Harmonia Mundi with French musical ensembles, using at least one Urtext score  
 **[fr]** Donne-moi la liste des enregistrements réalisés en 2014 par Harmonia Mundi avec des ensembles musicaux français, utilisant au moins une partition Urtext
 
 ## E. Publications
@@ -131,55 +189,18 @@ Some questions have a partial query or no query at all because the modeling or t
 1. **[en]** Give me pairs of recorded tracks that are composed with the same key 
 **[fr]** donne-moi des paires de titres enregistrés qui sont composés dans la même tonalité
 
+1. **[en]** Give me the list of the latest releases of DGG (Deutsche Grammophon Gesellschaft) in chamber music for strings  
+**[fr]** Donne moi la liste des dernières parutions de DGG (Deutsche Grammophon Gesellschaft) en musique de chambre pour cordes
+
+
+
+
+
 
 ## TODO
 
 
 
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres pour lesquelles il existe des castings alternatifs ayant un nombre d’instruments différent (p.ex. 2 pianos ou piano 4 mains)
-
-1. **[en]** todo  
-**[fr]** Donne-moi une liste de mélodies du XXème siècle autour de la gastronomie
-
-1. **[en]** todo  
-**[fr]** Donne-moi une liste d’oeuvres de musique de chambre composées au XIXème siècle par des compositeurs scandinaves
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les sonates pour piano et violon dont la durée est comprise entre 20 et 30 minutes
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste des oeuvres dont au moins un des dédicataires est aussi le créateur de l’oeuvre
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste des réductions d’oeuvres de Wagner réalisées au XXème siècle
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste de toutes les symphonies qui comprennent 5 mouvements
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste des oeuvres composées par Mozart dans les 5 dernières années de sa vie
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste des dernières parutions de DGG en musique de chambre pour cordes
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste des oeuvres qui ont été créées là où elles ont été composées
-
-1. **[en]** todo  
-**[fr]** Donne moi un cycle de mélodies dont l’auteur de texte est le même pour chaque mélodie
-
-1. **[en]** todo  
-**[fr]** Donne moi une liste d’oeuvres composées entre 1860 et 1880, pour petite formation (maximum 6 instrumentistes) dont 1 piano
-
-1. **[en]** todo  
-**[fr]** Donne moi la liste des oeuvres de J.S. Bach entre BWV 30 et BWV 70
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres pour piano liées à d’autres oeuvres musicales
-
-1. **[en]** todo  
-**[fr]** Donne-moi toutes les oeuvres pour piano basées sur des oeuvres de Schubert
 
 1. **[en]** todo  
 **[fr]** Donne-moi toutes les oeuvres liées à un domaine artistique extra-musical

@@ -1,0 +1,27 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me a list of works of chamber music composed in the 19th century by Scandinavian composers
+# [fr] Donne-moi une liste d’oeuvres de musique de chambre composées au XIXème siècle par des compositeurs scandinaves
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?composerName, SAMPLE(?genre) AS ?genre
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U12_has_genre / skos:prefLabel ?genre.
+
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P4_has_time-span ?ts ;
+          ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
+          
+  ?composer foaf:name ?composerName .
+  
+  ?ts ecrm:P80_end_is_qualified_by ?end ;
+                ecrm:P79_beginning_is_qualified_by ?start .
+
+  FILTER ( contains(str(?genre), "chambre") AND ?start >= "1800"^^xsd:gYear AND ?end < "1900"^^xsd:gYear )
+} ORDER BY ?start
+
+# Note: we have not the information about the composers' nationality 

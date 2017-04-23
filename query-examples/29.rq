@@ -1,0 +1,35 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the works for piano connected to other musical works
+# [fr] Donne-moi toutes les oeuvres pour piano liées à d’autres oeuvres musicales
+
+SELECT DISTINCT ?work, SAMPLE(?title) as ?title, ?link, ?work2, SAMPLE(?title2) as ?title2
+WHERE {
+  ?work ?link ?work2.
+
+  ?work a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in ?expression .
+  
+  ?expression mus:U70_has_title ?title ;
+        mus:U13_has_casting ?casting .
+        
+  { SELECT ?casting
+    WHERE {
+    ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/kpf> ;
+          mus:U23_has_casting_detail ?cDet .
+    } GROUP BY ?casting
+    HAVING (COUNT(?cDet) = 1)
+  }  
+    
+  ?work2 a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in / mus:U70_has_title ?title2 .
+} 
+ORDER BY ?title
+LIMIT 500
+
+# Note: so far, we have in the database only link of type ecrm:P148_has_component
+
+#TODO add MIMO
