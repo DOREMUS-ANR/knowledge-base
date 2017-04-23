@@ -9,7 +9,7 @@ DOREMUS controlled vocabularies
 * Medium of Performances:
   * Rameau: http://data.bnf.fr/vocabulary/scheme/r166
   * AIBM: http://data.doremus.org/vocabulary/iaml/mop
-  * MIMO: http://www.mimo-db.eu/InstrumentsKeywords
+  * MIMO: http://www.mimo-db.eu/InstrumentsKeywords + [github](https://github.com/philharmoniedeparis/mimo)
   * Hornbostel & Sachs: http://www.mimo-db.eu/HornbostelAndSachs
   * Diabolo: http://data.doremus.org/vocabulary/diabolo/mop/
 * Musical Genres:

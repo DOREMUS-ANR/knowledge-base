@@ -27,6 +27,7 @@
     "iso-language-converter": "^1.1.0",
     "rdf-translator": "0.0.0",
     "rdflib": "^0.13.0",
+    "request": "^2.81.0",
     "to-sentence-case": "^1.0.0"
   }
 }
