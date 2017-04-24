@@ -220,10 +220,10 @@ Some questions have a _partial_ query or no query at all because the modeling or
 
 ## E. Publications
 
-1. **[en]** Among concerts and CDs, which works are often played after <other work> ?  
-**[fr]** Dans les concerts et les cd, quelles oeuvres sont souvent jouées après <telle autre oeuvre> ?  
+1. **[en]** Among concerts and CDs, which works are often played after < other work > ?  
+**[fr]** Dans les concerts et les cd, quelles oeuvres sont souvent jouées après < telle autre oeuvre > ?  
 
-1. **[en]** Give me pairs of recorded tracks that are composed with the same key 
+1. **[en]** Give me pairs of recorded tracks that are composed with the same key  
 **[fr]** donne-moi des paires de titres enregistrés qui sont composés dans la même tonalité
 
 1. **[en]** Give me the list of the latest releases of DGG (Deutsche Grammophon Gesellschaft) in chamber music for strings  
