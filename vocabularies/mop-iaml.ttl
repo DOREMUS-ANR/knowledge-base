@@ -6915,19 +6915,19 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/q> ;
     skos:prefLabel "Conductors"@en,
         "Direttori"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/c> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/c> ;
     skos:prefLabel "Choruses"@en,
         "Cori"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/z> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/z> ;
     skos:prefLabel "Other performers"@en,
         "Altri esecutori"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/> a skos:ConceptScheme ;
     rdfs:comment "List of Media of Performances" ;
@@ -6949,59 +6949,59 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/e> ;
     skos:prefLabel "Electric / electronic instruments and devices"@en,
         "Strumenti e dispositivi elettrici e elettronici"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/o> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/o> ;
     skos:prefLabel "Orchestras, ensembles"@en,
         "Orchestre, complessi"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/v> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/v> ;
     skos:prefLabel "Voices"@en,
         "Voci"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/k> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/k> ;
     skos:prefLabel "Keyboard"@en,
         "tastiere"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/s> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/s> ;
     skos:prefLabel "Strings, bowed"@en,
         "Archi"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/m> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/m> ;
     skos:prefLabel "Miscellaneous, other, unspecified instruments"@en,
         "Miscellani, altri, strumenti non specificati"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/b> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/b> ;
     skos:prefLabel "Brass instruments"@en,
         "Ottoni"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/t> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/t> ;
     skos:prefLabel "Strings, plucked"@en,
         "Pizzicati"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/w> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/w> ;
     skos:prefLabel "Woodwinds"@en,
         "Legni"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/p> a skos:Concept ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/p> ;
     skos:prefLabel "Percussion"@en,
         "Percussioni"@it ;
-    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/mop/> .
+    skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
