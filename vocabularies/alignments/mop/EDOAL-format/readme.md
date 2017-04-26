@@ -1,1 +1,0 @@
-Alignments in EDOAL format.
