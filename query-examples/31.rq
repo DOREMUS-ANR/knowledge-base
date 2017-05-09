@@ -1,0 +1,24 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the list of the reductions of works of Wagner realized in the 20th century
+# [fr] Donne moi la liste des réductions d’oeuvres de Wagner réalisées au XXème siècle
+
+SELECT DISTINCT ?compositionDate, ?reductionExpression AS ?reduction, SAMPLE(?reductionTitle) AS ?title, ?expression AS ?original
+WHERE {
+  ?reduction mus:U47_has_derivation_type <http://data.doremus.org/vocabulary/derivation/reduction> ;
+        mus:U38_has_descriptive_expression ?reductionExpression;
+        efrbroo:R2_is_derivative_of / mus:U38_has_descriptive_expression ?expression .
+
+  ?expCreation efrbroo:R17_created ?expression ;
+      efrbroo:R17_created / mus:U70_has_title ?expressionTitle ;
+      ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/artist/34943da5-d068-3ada-bd4d-3db0c66c8a7d> .
+
+  ?reductionExpression mus:U70_has_title ?reductionTitle .
+  ?redCreation efrbroo:R17_created ?reductionExpression ;
+      ecrm:P4_has_time-span / ecrm:P80_end_is_qualified_by ?compositionDate .
+
+  FILTER ( ?compositionDate >= "1900"^^xsd:gYear AND ?compositionDate < "2000"^^xsd:gYear )
+} ORDER BY ?compositionDate

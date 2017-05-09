@@ -6,15 +6,18 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 # [en] What works are linked to a particular work and what type of link connect them?
 # [fr] Quelles oeuvres sont reliées à telle oeuvre et quel type de lien les unissent ?
 
-SELECT DISTINCT ?work, SAMPLE(?title) as ?title, ?link, ?work2, SAMPLE(?title2) as ?title2
+SELECT DISTINCT ?expression, SAMPLE(?title) AS ?title, ?link, SAMPLE(?title2) AS ?title2, ?expression2
 WHERE {
-  ?work ?link ?work2.
+  ?expression a efrbroo:F22_Self-Contained_Expression;
+        mus:U70_has_title ?title .
+  ?expression2 a efrbroo:F22_Self-Contained_Expression;
+        mus:U70_has_title ?title2 .
 
-  ?work a efrbroo:F14_Individual_Work;
-        efrbroo:R9_is_realised_in / mus:U70_has_title ?title .
-  ?work2 a efrbroo:F14_Individual_Work;
-        efrbroo:R9_is_realised_in / mus:U70_has_title ?title2 .
-} ORDER BY ?title
+  ?work mus:U38_has_descriptive_expression | efrbroo:R9_is_realised_in ?expression .
+  ?work2 mus:U38_has_descriptive_expression | efrbroo:R9_is_realised_in ?expression2 .
+
+  { ?work ?link ?work2 } UNION { ?expression ?link ?expression }
+
+  FILTER (?expression != ?expression2)
+} ORDER BY desc(?link)
 LIMIT 500
-
-# Note: so far, we have in the database only link of type ecrm:P148_has_component

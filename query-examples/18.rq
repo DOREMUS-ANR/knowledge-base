@@ -8,15 +8,15 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT DISTINCT ?performance, ?conductor
 WHERE {
-  ?performance a efrbroo:F31_Performance ;
+  ?performance a mus:M42_Performed_Expression_Creation ;
     efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
     ecrm:P7_took_place_at ?philarmonie ;
     ecrm:P9_consists_of ?activityDir ;
     ecrm:P9_consists_of ?activityMus .
-  
+
   ?activityDir ecrm:P14_carried_out_by ?conductor ;
     mus:U35_foresees_function_of_type "conducteur"@fr .
-    
+
   ?activityMus ecrm:P14_carried_out_by ?conductor ;
     mus:U1_used_medium_of_performance <http://data.doremus.org/vocabulary/iaml/mop/svl> .
 
@@ -26,12 +26,10 @@ WHERE {
 
   ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/svl>;
               mus:U36_foresees_responsibility_of_type "soloist"@fr .
-    
+
   FILTER ( contains(lcase(str(?philarmonie)), "philharmonie de paris") )
 }
 
 # Note: there are no data about it
-
-# Note: parsing to be improved (e.g. http://data.doremus.org/performance/fca3eb61-ce9c-331c-a189-c36f277e0985, http://data.doremus.org/performance/ea03ed33-39b7-3adf-925a-196faee706f6)
 
 # Note: this query will be improved by the creation of the controlled vocabulary of functions

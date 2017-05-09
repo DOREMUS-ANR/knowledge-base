@@ -22,7 +22,7 @@ WHERE {
   } UNION {
     ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/vms> .
   }
-  
+
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span ?ts.
   ?ts ecrm:P80_end_is_qualified_by ?end ;
@@ -33,5 +33,3 @@ WHERE {
 } GROUP BY ?expression ?voix
 
 # Note: we have not the information on the language of the text
-
-# TODO add MIMO

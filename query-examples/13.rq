@@ -15,14 +15,16 @@ WHERE {
   FILTER contains(str(?genre), "chambre") .
 
   ?work a efrbroo:F14_Individual_Work;
-        efrbroo:R9_is_realised_in ?expression . 
+        efrbroo:R9_is_realised_in ?expression .
   OPTIONAL {
     ?work ecrm:P148_has_component ?movement .
   }
 
   ?casting mus:U23_has_casting_detail ?castingDet .
-  ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/svc> .
+  ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type ?cello .
+
+  VALUES (?cello) { (<http://data.doremus.org/vocabulary/iaml/mop/svc>) (<http://www.mimo-db.eu/InstrumentsKeywords/3582>) }
 
 } GROUP BY ?expression
 
-# Note: we have not the information about the movement and about the tempos 
+# Note: we have not the information about the movement and about the tempos

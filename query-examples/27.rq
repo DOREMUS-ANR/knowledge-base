@@ -14,15 +14,16 @@ WHERE {
   {
     SELECT ?casting, SUM(?q) AS ?nbInstruments
     WHERE {
-      ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type <http://data.doremus.org/vocabulary/iaml/mop/kpf> .
+      VALUES (?piano) { (<http://data.doremus.org/vocabulary/iaml/mop/kpf>) (<http://www.mimo-db.eu/InstrumentsKeywords/2299>) }
+      VALUES (?ensambles) { (<http://data.doremus.org/vocabulary/iaml/mop/o>) (<http://data.doremus.org/vocabulary/iaml/mop/c>) }
+
+      ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type ?piano .
 
       ?casting mus:U23_has_casting_detail ?castingDet .
       OPTIONAL { ?castingDet mus:U30_foresees_quantity_of_mop ?qty }
       BIND(coalesce(?qty, 1) AS ?q)
-      
-      MINUS { ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader <http://data.doremus.org/vocabulary/iaml/mop/o> }
-    
-      MINUS { ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader <http://data.doremus.org/vocabulary/iaml/mop/c> }
+
+      MINUS { ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader ?ensambles }
     } GROUP BY ?casting
     HAVING (SUM(?qty) <= 6 AND SUM(?qty) > 1)
   }
@@ -33,8 +34,6 @@ WHERE {
                 ecrm:P79_beginning_is_qualified_by ?start .
 
   FILTER ( ?start >= "1860"^^xsd:gYear AND ?end <= "1880"^^xsd:gYear  )
-} 
+}
 ORDER BY ?start
 LIMIT 500
-
-# TODO add MIMO

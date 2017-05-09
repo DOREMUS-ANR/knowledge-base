@@ -12,20 +12,20 @@ SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?composerName, ?performan
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
           mus:U70_has_title ?title .
-          
+
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
-          
+
   ?composer foaf:name ?composerName .
-  
-  ?performance a efrbroo:F31_Performance ;
+
+  ?performance a mus:M42_Performed_Expression_Creation ;
     efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
     ecrm:P9_consists_of ?activity.
-  
+
   ?activity ecrm:P14_carried_out_by ?composer ;
     mus:U35_foresees_function_of_type "conducteur"@fr .
 }
 
-# Note: some parsing can be improved (the string "compositeur" appears as name not mapped, e.g. http://data.doremus.org/describe/?url=nodeID%3A%2F%2Fb510028&sid=222)
+# Note: some parsing can be improved (the string "compositeur" appears as name not mapped, e.g. http://data.doremus.org/sparql?default-graph-uri=&query=select+*+where+%7B+++%3Fperformance+a+mus%3AM42_Performed_Expression_Creation+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%3Factivity.%0D%0A++%0D%0A++%3Factivity+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0AFILTER+CONTAINS%28str%28%3Fcomposer%29%2C%22compositeur%22%29%0D%0A+%7D&format=text%2Fhtml&timeout=0&debug=on )
 
 # Note: this query will be improved by the creation of the controlled vocabulary of functions

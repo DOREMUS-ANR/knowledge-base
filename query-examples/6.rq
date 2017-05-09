@@ -10,8 +10,10 @@ SELECT DISTINCT ?artist
 WHERE {
   ?performance ecrm:P9_consists_of ?part .
   ?part ecrm:P14_carried_out_by ?artist ;
-  mus:U1_used_medium_of_performance / skos:prefLabel "oboe"@en .
+  mus:U1_used_medium_of_performance ?oboe .
 
-} ORDER BY ?artists
+  VALUES (?oboe) { ( <http://data.doremus.org/vocabulary/iaml/mop/wob> ) ( <http://www.mimo-db.eu/InstrumentsKeywords/4164> ) }
+} ORDER BY ?artist
 
 # Note: we have only the name of the artists
+# FIXME see https://github.com/DOREMUS-ANR/marc2rdf/issues/52
