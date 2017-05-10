@@ -1,0 +1,3277 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="file:/tmp/yam-gui/ERSTAEJV8U44D6S/source.owl">
+      <location>file:/tmp/yam-gui/ERSTAEJV8U44D6S/source.owl</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.mimo-db.eu/InstrumentsKeywords">
+      <location>http://www.mimo-db.eu/InstrumentsKeywords</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16688637m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3042'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122716186'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3512'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122716186'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3399'/>
+      <relation>http://www.w3.org/2004/02/skos/core#relatedMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166171753'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4068'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270588v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4020'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb151095953'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3568'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169242056'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3757'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11932961n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11932961n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2273'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123173898'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3666'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11965960n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3836'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11965960n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3827'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169409345'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4155'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166968205'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4786'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270542j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4236'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb121756060'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3316'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16961778w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3937'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12536903w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3753'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11950982j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3304'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11950982j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3305'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169542332'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4437'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb15501270p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3177'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16721327q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3482'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16271576n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2493'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16271576n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2585'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270879q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4333'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270879q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4318'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12269798p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2968'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16720069k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3363'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16688625m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2390'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125014537'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2243'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713901z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6616'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713901z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3289'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713901z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/7044'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16961308m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4611'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169545703'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4914'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16689562s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6648'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16763588s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3218'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16981640b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3013'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16670550d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4393'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb145708603'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3134'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16943203p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4675'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271127s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2985'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167362402'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3115'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169817758'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5332'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119818348'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3970'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13508271f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3656'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307414f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3325'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119454031'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2251'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119454031'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2239'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12337082f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4495'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11979055r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3252'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11974996m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3394'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11974996m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3313'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12227829t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3608'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13337394d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3202'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16170319v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2520'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715523'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3705'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270867q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3868'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270867q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3866'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16720715k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3450'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169333926'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4658'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16711273d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3534'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169542781'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2734'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708411'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4339'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119687406'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4040'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167424776'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2498'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12541614q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3274'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11946205d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2319'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12211154f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3226'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167635503'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3216'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16972730b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6284'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307760f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2989'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12508468z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3181'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270545k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4214'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16980067g'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6294'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124934046'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2730'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717999'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3612'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16963220p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4045'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11950965z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4446'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11950965z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4370'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16953458q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4402'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122714744'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2226'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715674'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3495'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122711462'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2404'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb165890282'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3983'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12542247t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3006'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135076401'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3706'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12202452m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2233'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12202452m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2235'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12202452m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5767'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12202452m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6635'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16687870r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2952'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16687870r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2949'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16763332m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3193'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270836f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3818'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270836f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3875'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270836f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3822'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270836f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3881'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11982141v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2930'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.57</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11982141v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2912'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16763848c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6759'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125277021'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2368'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11932125k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2230'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715763'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3102'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715763'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3106'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12490326h'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4173'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14420427z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3406'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169024960'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3288'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16945824s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3853'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122278274'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3558'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122278274'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3564'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122278274'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3597'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122278274'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3561'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122278274'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3584'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16737556h'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3158'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16982061w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2875'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270871z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4463'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167665964'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3971'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271896j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3573'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.88</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271896j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3609'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271896j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3564'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708651'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3860'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708651'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3859'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270608n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4111'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270608n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4110'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'/>
+      <entity2 rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.69</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16690562t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4832'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16682922z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3628'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16932665w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2679'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13510670g'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3525'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166827708'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5531'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16961302j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4573'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16711725x'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3296'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119600781'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3108'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119600781'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3111'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12275075b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3519'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14632592q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2257'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307615b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3441'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166907224'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2870'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166907224'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2873'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.54</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271265m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6621'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717968'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3286'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16736259g'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3139'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16947062m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4168'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16952666n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4131'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125415869'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3736'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169479236'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4240'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12571708p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4419'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16981875j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5251'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16942342m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4193'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16947840h'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4218'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708531'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4118'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708531'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4116'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb121969174'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3724'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16747973d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2429'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13619840f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3586'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697991'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2807'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697991'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2820'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16711902t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4138'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16711902t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4136'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16973105q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2430'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122711493'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2276'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb162586557'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6540'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122942961'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4788'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167364518'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3132'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167634964'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3162'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11938184j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3237'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11938184j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3224'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708593'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4372'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12305133d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3250'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb157794463'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4101'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb162712237'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2821'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167204508'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3434'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708891'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4294'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122708891'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4299'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169435621'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4648'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16687900v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2965'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122711582'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2244'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb120627421'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4485'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119712096'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3883'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119712096'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3955'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16717212n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6680'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307733j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3413'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169213977'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3825'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169213977'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3826'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169807662'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2487'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb125064554'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2978'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb155012564'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3381'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16278835k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3613'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697871'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3010'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697871'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3011'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.56</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16964574p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4024'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb15521596m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2682'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135644958'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3845'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16682242n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3266'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb162715879'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2517'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16902889t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4264'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11971088s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2416'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119656228'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4039'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16748333r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4047'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16552616d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2269'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167356580'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2246'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16226614j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3661'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270245r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3804'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135076583'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3443'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16769214v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3288'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.52</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270527n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4276'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135777413'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2506'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16736293n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6709'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16736293n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3151'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb15065852r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4127'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13340075t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4391'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16921653f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3783'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981325x'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3101'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb120047877'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3309'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16965696h'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4257'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119827436'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4055'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169796731'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2813'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16981878k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2827'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16720856f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3475'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167661663'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3308'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16742478j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4450'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16918147m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4060'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16928312q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4267'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11978172c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2232'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11978172c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2231'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb136198633'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2358'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16747908z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2653'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270536m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3839'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16954563t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4444'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11985550n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4360'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11985550n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4369'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16764004s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3497'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16980151c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4589'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705029'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3945'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169534383'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4429'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169806701'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5513'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11961430c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3236'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11969158v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3564'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11969158v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3573'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11969158v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3609'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16953381z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4395'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12015450h'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4067'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16930922z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4022'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169819525'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5167'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16763313b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3185'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16690895m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5720'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167200834'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3238'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16714376f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3626'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169817173'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4906'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13511156s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3330'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122719108'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3580'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16720136w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3382'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13619784s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3588'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16743492b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2548'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16954171b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4635'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12184776d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3677'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12331135r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3329'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167632419'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4701'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122706048'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4154'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122706048'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4143'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb136237491'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3353'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169796882'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2373'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11975043s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2260'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271668r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3318'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14405710v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4165'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16966341n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4733'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167429798'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2572'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13558230w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2729'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11966972w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4346'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11966972w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4341'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16954505n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3968'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169277953'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6840'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169199410'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4154'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169199410'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4143'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16732638n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4291'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169200061'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4154'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169200061'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4143'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16690553v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2599'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.58</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16980615w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2361'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11977663j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5682'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16947089n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4215'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169546157'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4405'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166871986'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3940'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119983474'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3582'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119983474'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3575'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169029297'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5359'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169029297'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4075'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270906s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4455'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270906s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4467'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16589015q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3336'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16688937f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6557'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16972458w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4703'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16719910c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3143'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16569260p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3151'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16569260p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6709'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167429914'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2573'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167285525'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6841'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169618038'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4708'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169271180'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2756'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11960149q'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3730'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270540v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4197'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11948112w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11948112w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3265'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16940728p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3838'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119353920'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2266'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119353920'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2264'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124210610'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3142'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124210610'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3113'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169020439'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3986'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169020439'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3987'/>
+      <relation>http://www.w3.org/2004/02/skos/core#relatedMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167210047'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3713'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167205031'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3436'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270897n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4362'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb131964721'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3060'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713846n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4936'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713846n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166889452'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6556'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16953235h'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4103'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12540473f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3025'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.54</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16593511g'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2598'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167128859'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5392'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16720369d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3402'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb145708007'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4927'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb145708007'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5330'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16920173f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5517'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16695121b'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5700'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12521786f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3818'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.55</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122904671'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4493'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16736521m'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4934'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169618398'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3990'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb135068452'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2224'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122719139'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3576'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169816572'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2808'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271130p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2937'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271130p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3079'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11976117r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2387'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16714792s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3721'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119389226'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2370'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166906596'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3747'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713862w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3269'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16947161j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4242'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270247f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3806'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270247f'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3789'/>
+      <relation>http://www.w3.org/2004/02/skos/core#relatedMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12016351t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3230'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16981861v'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5345'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124086988'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3521'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124086988'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3538'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271557t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3633'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16690649w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3781'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16690649w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3779'/>
+      <relation>http://www.w3.org/2004/02/skos/core#relatedMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270534x'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3832'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167138815'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3273'/>
+      <relation>http://www.w3.org/2004/02/skos/core#relatedMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123073908'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2799'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123073908'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5512'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb123073908'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2818'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705238'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3834'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307635z'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3660'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717681'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3509'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122717681'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3510'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270846r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3822'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270846r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3818'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12572179s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2579'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12175608p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3473'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb145721839'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3080'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715612'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3486'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715612'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3186'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122715612'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3501'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169532523'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3928'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271135d'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3063'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12198281s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2879'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12198281s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2887'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271473s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2217'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16691918p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3052'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12269056t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3786'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12269056t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3795'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12307427s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3451'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12546784c'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3735'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16903085g'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2780'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16941454n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3848'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11987678s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3731'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11987678s'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3732'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166829119'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3700'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16901412w'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3545'/>
+      <relation>http://www.w3.org/2004/02/skos/core#narrowMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16965147x'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4250'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705923'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4029'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb14575110t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4258'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12271764n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3322'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169819587'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3031'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167376125'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3188'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705389'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3837'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16982306k'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2856'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16714337j'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3261'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119601351'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4164'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb119601351'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4232'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16713813p'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3267'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122705687'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4189'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981445t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3610'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981445t'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3729'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167513698'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3469'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12502847n'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3332'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169269911'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5254'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb150354285'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3232'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697949'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3099'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697949'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3062'/>
+      <relation>http://www.w3.org/2004/02/skos/core#broadMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16711436r'/>
+      <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3541'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
