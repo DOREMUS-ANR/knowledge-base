@@ -1,4 +1,4 @@
-Alignments of MoP vocabulaires. Two formats of the alignments: EDOAL ("OAEI" format) and SKOS (simple triples).
+Alignments of MoP vocabulaires produced in September 20, 2016. Two formats of the alignments: EDOAL ("OAEI" format) and SKOS (simple triples).
 The aligned versions of vocabularies (as of 20 septembre 2016) are: 
 
 IAML:
