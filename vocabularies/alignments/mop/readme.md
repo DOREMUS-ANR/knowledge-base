@@ -1,5 +1,6 @@
-Alignments of MoP vocabulaires produced in September 20, 2016. Two formats of the alignments: EDOAL ("OAEI" format) and SKOS (simple triples).
-The aligned versions of vocabularies (as of 20 septembre 2016) are: 
+Alignments of MoP vocabulaires produced in September 20, 2016 in SKOS (simple triples) format.
+
+The used versions of the vocabularies (as of 20 septembre 2016) are: 
 
 IAML:
 https://github.com/DOREMUS-ANR/knowledge-base/blob/master/vocabularies/mop-iaml.ttl
