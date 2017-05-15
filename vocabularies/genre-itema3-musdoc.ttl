@@ -1,0 +1,529 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/> a skos:ConceptScheme ;
+  rdfs:label "List of musical types from ITEMA3 of Radio France"@en , "Liste des types musicaux de ITEMA3 de Radio France"@fr ;
+  dc:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dc:created "2017-05-15"^^xsd:date ;
+  dc:modified "2017-05-15"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/1> a skos:Concept ;
+  skos:prefLabel "A Cappella" .
+
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/2> a skos:Concept ;
+  skos:prefLabel "Adaptation Musicale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/129> a skos:Concept ;
+  skos:prefLabel "Afrique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/5> a skos:Concept ;
+  skos:prefLabel "Afro Cubain" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/3> a skos:Concept ;
+  skos:prefLabel "Air" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/131> a skos:Concept ;
+  skos:prefLabel "Amerique Du Sud" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/6> a skos:Concept ;
+  skos:prefLabel "Antilles" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/4> a skos:Concept ;
+  skos:prefLabel "Arrangement" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/130> a skos:Concept ;
+  skos:prefLabel "Asie Occidentale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/7> a skos:Concept ;
+  skos:prefLabel "Auvergne" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/8> a skos:Concept ;
+  skos:prefLabel "Bis" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/9> a skos:Concept ;
+  skos:prefLabel "Blues" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10> a skos:Concept ;
+  skos:prefLabel "Bossa Nova" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/132> a skos:Concept ;
+  skos:prefLabel "Bresil" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/11> a skos:Concept ;
+  skos:prefLabel "Bretagne" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/12> a skos:Concept ;
+  skos:prefLabel "Cantate" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/13> a skos:Concept ;
+  skos:prefLabel "Chanson" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/14> a skos:Concept ;
+  skos:prefLabel "Chant Gregorien" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/23> a skos:Concept ;
+  skos:prefLabel "Chine" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/15> a skos:Concept ;
+  skos:prefLabel "Choeur" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/21> a skos:Concept ;
+  skos:prefLabel "Choro" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/18> a skos:Concept ;
+  skos:prefLabel "Comedie Musicale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/19> a skos:Concept ;
+  skos:prefLabel "Commande Radio France " .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/17> a skos:Concept ;
+  skos:prefLabel "Conte Musical" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/22> a skos:Concept ;
+  skos:prefLabel "Corse" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/133> a skos:Concept ;
+  skos:prefLabel "Cote D'ivoire" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/20> a skos:Concept ;
+  skos:prefLabel "Country Music" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/16> a skos:Concept ;
+  skos:prefLabel "Cours D'interpretation" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/24> a skos:Concept ;
+  skos:prefLabel "Creation Radiophonique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/25> a skos:Concept ;
+  skos:prefLabel "Danse" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/26> a skos:Concept ;
+  skos:prefLabel "Dixtuor" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/27> a skos:Concept ;
+  skos:prefLabel "Duo" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/28> a skos:Concept ;
+  skos:prefLabel "Extrait (musique)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/29> a skos:Concept ;
+  skos:prefLabel "Fado" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/30> a skos:Concept ;
+  skos:prefLabel "Flamenco" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/31> a skos:Concept ;
+  skos:prefLabel "Folk" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/134> a skos:Concept ;
+  skos:prefLabel "France" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/32> a skos:Concept ;
+  skos:prefLabel "Funk" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/33> a skos:Concept ;
+  skos:prefLabel "Gospel" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/135> a skos:Concept ;
+  skos:prefLabel "Guinee" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/136> a skos:Concept ;
+  skos:prefLabel "Guinee Bissau" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/34> a skos:Concept ;
+  skos:prefLabel "Hip Hop" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/137> a skos:Concept ;
+  skos:prefLabel "Hongrie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/35> a skos:Concept ;
+  skos:prefLabel "Horspiel" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/37> a skos:Concept ;
+  skos:prefLabel "Image Sonore" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/36> a skos:Concept ;
+  skos:prefLabel "Improvisation" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/138> a skos:Concept ;
+  skos:prefLabel "Inde" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/38> a skos:Concept ;
+  skos:prefLabel "Iran" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/139> a skos:Concept ;
+  skos:prefLabel "Italie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/39> a skos:Concept ;
+  skos:prefLabel "Jazz" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/40> a skos:Concept ;
+  skos:prefLabel "Jazz Manouche" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/140> a skos:Concept ;
+  skos:prefLabel "Kurdistan" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/41> a skos:Concept ;
+  skos:prefLabel "Lied" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/141> a skos:Concept ;
+  skos:prefLabel "Limousin" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/144> a skos:Concept ;
+  skos:prefLabel "Madagascar (ile)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/80> a skos:Concept ;
+  skos:prefLabel "Madrigal" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/143> a skos:Concept ;
+  skos:prefLabel "Mali" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/87> a skos:Concept ;
+  skos:prefLabel "Maloya" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/146> a skos:Concept ;
+  skos:prefLabel "Mauritanie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/55> a skos:Concept ;
+  skos:prefLabel "Melodie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/42> a skos:Concept ;
+  skos:prefLabel "Messe" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/69> a skos:Concept ;
+  skos:prefLabel "Motet" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/145> a skos:Concept ;
+  skos:prefLabel "Mozambique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/43> a skos:Concept ;
+  skos:prefLabel "Musette" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/84> a skos:Concept ;
+  skos:prefLabel "Musique 16eme" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/82> a skos:Concept ;
+  skos:prefLabel "Musique 17eme" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/83> a skos:Concept ;
+  skos:prefLabel "Musique 18eme" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/85> a skos:Concept ;
+  skos:prefLabel "Musique 19eme" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/86> a skos:Concept ;
+  skos:prefLabel "Musique 20eme (1900-1944)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/61> a skos:Concept ;
+  skos:prefLabel "Musique 20eme (1945-2000)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/62> a skos:Concept ;
+  skos:prefLabel "Musique 21eme" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/45> a skos:Concept ;
+  skos:prefLabel "Musique Ancienne" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/44> a skos:Concept ;
+  skos:prefLabel "Musique Arabo Andalouse" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/47> a skos:Concept ;
+  skos:prefLabel "Musique Baroque" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/88> a skos:Concept ;
+  skos:prefLabel "Musique Carnatique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/48> a skos:Concept ;
+  skos:prefLabel "Musique Concertante" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/49> a skos:Concept ;
+  skos:prefLabel "Musique Concrete" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/50> a skos:Concept ;
+  skos:prefLabel "Musique Contemporaine" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/46> a skos:Concept ;
+  skos:prefLabel "Musique De Ballet" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/51> a skos:Concept ;
+  skos:prefLabel "Musique De Chambre" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/52> a skos:Concept ;
+  skos:prefLabel "Musique De Cour" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/57> a skos:Concept ;
+  skos:prefLabel "Musique De Film" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/58> a skos:Concept ;
+  skos:prefLabel "Musique De Genre" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/72> a skos:Concept ;
+  skos:prefLabel "Musique De Scene" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/59> a skos:Concept ;
+  skos:prefLabel "Musique D'harmonie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/53> a skos:Concept ;
+  skos:prefLabel "Musique Electroacoustique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/54> a skos:Concept ;
+  skos:prefLabel "Musique Electronique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/56> a skos:Concept ;
+  skos:prefLabel "Musique Experimentale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/147> a skos:Concept ;
+  skos:prefLabel "Musique Hindoustanie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/81> a skos:Concept ;
+  skos:prefLabel "Musique Instrumentale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/60> a skos:Concept ;
+  skos:prefLabel "Musique Klezmer" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/63> a skos:Concept ;
+  skos:prefLabel "Musique Legere" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/64> a skos:Concept ;
+  skos:prefLabel "Musique Lyrique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/142> a skos:Concept ;
+  skos:prefLabel "Musique Mandingue" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/65> a skos:Concept ;
+  skos:prefLabel "Musique Mecanique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/67> a skos:Concept ;
+  skos:prefLabel "Musique Metissee" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/66> a skos:Concept ;
+  skos:prefLabel "Musique Militaire" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/68> a skos:Concept ;
+  skos:prefLabel "Musique Mixte" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/71> a skos:Concept ;
+  skos:prefLabel "Musique Religieuse" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/70> a skos:Concept ;
+  skos:prefLabel "Musique Repetitive" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/78> a skos:Concept ;
+  skos:prefLabel "Musique Savante" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/73> a skos:Concept ;
+  skos:prefLabel "Musique Spectrale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/74> a skos:Concept ;
+  skos:prefLabel "Musique Symphonique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/75> a skos:Concept ;
+  skos:prefLabel "Musique Traditionnelle" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/79> a skos:Concept ;
+  skos:prefLabel "Musique Tzigane" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/76> a skos:Concept ;
+  skos:prefLabel "Musique Vocale" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/77> a skos:Concept ;
+  skos:prefLabel "Musiques Electroniques" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/91> a skos:Concept ;
+  skos:prefLabel "New Wave" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/89> a skos:Concept ;
+  skos:prefLabel "Noel" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/90> a skos:Concept ;
+  skos:prefLabel "Nonet" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/92> a skos:Concept ;
+  skos:prefLabel "Nouba" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/93> a skos:Concept ;
+  skos:prefLabel "Octuor" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/94> a skos:Concept ;
+  skos:prefLabel "Opera" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/95> a skos:Concept ;
+  skos:prefLabel "Opera-bouffe" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/96> a skos:Concept ;
+  skos:prefLabel "Opera-comique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/97> a skos:Concept ;
+  skos:prefLabel "Operette" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/98> a skos:Concept ;
+  skos:prefLabel "Oratorio" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/104> a skos:Concept ;
+  skos:prefLabel "Pays Basque" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/105> a skos:Concept ;
+  skos:prefLabel "Performance Artistique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/148> a skos:Concept ;
+  skos:prefLabel "Perou" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/99> a skos:Concept ;
+  skos:prefLabel "Piano A 4 Mains" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/100> a skos:Concept ;
+  skos:prefLabel "Poeme Symphonique" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/101> a skos:Concept ;
+  skos:prefLabel "Premiere Audition" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/103> a skos:Concept ;
+  skos:prefLabel "Psaume" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/102> a skos:Concept ;
+  skos:prefLabel "Punk" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/106> a skos:Concept ;
+  skos:prefLabel "Quatuor" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/107> a skos:Concept ;
+  skos:prefLabel "Quintette" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/113> a skos:Concept ;
+  skos:prefLabel "R&b" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/109> a skos:Concept ;
+  skos:prefLabel "Raggamuffin" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/110> a skos:Concept ;
+  skos:prefLabel "Rap" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/111> a skos:Concept ;
+  skos:prefLabel "Reggae" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/112> a skos:Concept ;
+  skos:prefLabel "Repetition (musique)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/149> a skos:Concept ;
+  skos:prefLabel "Republique Democratique Du Congo" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/114> a skos:Concept ;
+  skos:prefLabel "Rock " .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/150> a skos:Concept ;
+  skos:prefLabel "Rodrigues (ile)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/108> a skos:Concept ;
+  skos:prefLabel "Rythm And Blues" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/115> a skos:Concept ;
+  skos:prefLabel "Salsa" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/151> a skos:Concept ;
+  skos:prefLabel "Senegal" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/116> a skos:Concept ;
+  skos:prefLabel "Septuor" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/117> a skos:Concept ;
+  skos:prefLabel "Sextuor" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/121> a skos:Concept ;
+  skos:prefLabel "Sketch" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/120> a skos:Concept ;
+  skos:prefLabel "Slam" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/118> a skos:Concept ;
+  skos:prefLabel "Solo" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/119> a skos:Concept ;
+  skos:prefLabel "Soul" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/122> a skos:Concept ;
+  skos:prefLabel "Tango" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/123> a skos:Concept ;
+  skos:prefLabel "Techno" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/153> a skos:Concept ;
+  skos:prefLabel "Theatre Musical" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/124> a skos:Concept ;
+  skos:prefLabel "Transcription" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/125> a skos:Concept ;
+  skos:prefLabel "Trio" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/152> a skos:Concept ;
+  skos:prefLabel "Turquie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/126> a skos:Concept ;
+  skos:prefLabel "Varietes" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/127> a skos:Concept ;
+  skos:prefLabel "World Music" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/128> a skos:Concept ;
+  skos:prefLabel "Zouk" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10110> a skos:Concept ;
+  skos:prefLabel "Vietnam" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10010> a skos:Concept ;
+  skos:prefLabel "Espagne" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10020> a skos:Concept ;
+  skos:prefLabel "Forro" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10030> a skos:Concept ;
+  skos:prefLabel "Zarzuela" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10040> a skos:Concept ;
+  skos:prefLabel "Ragtime" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10050> a skos:Concept ;
+  skos:prefLabel "Maurice (ile)" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10051> a skos:Concept ;
+  skos:prefLabel "Melodrame" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10060> a skos:Concept ;
+  skos:prefLabel "Bulgarie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10061> a skos:Concept ;
+  skos:prefLabel "Occitanie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10062> a skos:Concept ;
+  skos:prefLabel "Portugal" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10063> a skos:Concept ;
+  skos:prefLabel "Roumanie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10070> a skos:Concept ;
+  skos:prefLabel "Coree" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10080> a skos:Concept ;
+  skos:prefLabel "Mongolie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10100> a skos:Concept ;
+  skos:prefLabel "Singspiel" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10001> a skos:Concept ;
+  skos:prefLabel "Armenie" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10002> a skos:Concept ;
+  skos:prefLabel "Egypte" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10011> a skos:Concept ;
+  skos:prefLabel "Catalogne" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10090> a skos:Concept ;
+  skos:prefLabel "Opera-ballet" .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10000> a skos:Concept ;
+  skos:prefLabel "Irak" .
