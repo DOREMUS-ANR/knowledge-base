@@ -1,7 +1,7 @@
 Inference
 ================
 
-Commands for set up the inference on the properties classes in the [DOREMUS Virtuoso Triplestore](http://data.doremus.org/sparql).
+Commands for set up basic OWL/RDF inferences in the [DOREMUS Virtuoso Triplestore](http://data.doremus.org/sparql). See also the [Virtuoso documentation](http://docs.openlinksw.com/virtuoso/fn_rdfs_rule_set/)
 
 
 ## Install
