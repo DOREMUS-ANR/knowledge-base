@@ -6,9 +6,9 @@ Commands for set up the inference on the properties classes in the [DOREMUS Virt
 
 ## Install
 
-I consider that the [ontology](/DOREMUS-ANR/doremus-ontology) has been loaded in the `<http://data.doremus.org/ontology>` graph.
+We consider that the 3 [ontologies](https://github.com/DOREMUS-ANR/doremus-ontology/) have been loaded in the `<http://data.doremus.org/ontology>` graph.
 
-I load in the `/data` folder all the ontologies I want to inference (i.e. [skos.rdf](https://www.w3.org/2009/08/skos-reference/skos.rdf)).
+We load in the `/data` folder all the ontologies we want to inference (i.e. [skos.rdf](https://www.w3.org/2009/08/skos-reference/skos.rdf)).
 
     docker exec -it virtuoso_doremus bash
     /usr/local/virtuoso-opensource/bin/isql-v
@@ -22,7 +22,7 @@ I load in the `/data` folder all the ontologies I want to inference (i.e. [skos.
 
 ## Use
 
-Querying the [SPARQL endpoint](http://data.doremus.org/sparql), it is required to add `DEFINE input:inference 'mus'` on top of your query.
+Querying the [SPARQL endpoint](http://data.doremus.org/sparql), it is required to add `DEFINE input:inference 'mus'` on top of the query.
 
 #### Examples
 
