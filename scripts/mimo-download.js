@@ -16,17 +16,12 @@ function onDownloaded(error, response, body) {
   if (error) return console.error(error);
   if (response.statusCode != 200)
     return console.error('Error: ' + response.statusCode, response);
-    
+
   // add the missing concept scheme on the first line
   body = '<http://www.mimo-db.eu/InstrumentsKeywords> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> .\n' + body;
 
-  
+
   writeTtl(body);
-  // console.log(`Formatting the rdf`);
-  // rdfTranslator(body, 'n3', 'n3', function(err, data) {
-  //   if (err) return console.error(err);
-  //   writeTtl(data);
-  // });
 }
 
 function writeTtl(str) {

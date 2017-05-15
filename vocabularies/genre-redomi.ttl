@@ -37,7 +37,7 @@
 <http://data.doremus.org/vocabulary/redomi/genre/afrobeat> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/genre_musical> ;
     skos:editorialNote """L'afrobeat est un mélange de musique traditionnelle nigériane, de jazz, de highlife, de funk, et de chant, accompagné de percussions et de styles vocaux, popularisé en Afrique dans les années 1970. Le genre est créé par le multi-instrumentaliste nigérien et leadeur Fela Kuti (dit Fela), qui lui en attribue le nom. C'est Kuti qui utilise pour la première fois le terme d'"afrobeat" à son retour d'une tournée américaine avec son groupe Nigeria '70 (anciennement Koola Lobitos).
-Grâce au charisme de son créateur Fela Kuti, au rythme nouveau créé par son batteur Tony Allen et à la qualité de ses compositions (textes engagés et satiriques), cette musique devient rapidement très populaire au Nigeria. 
+Grâce au charisme de son créateur Fela Kuti, au rythme nouveau créé par son batteur Tony Allen et à la qualité de ses compositions (textes engagés et satiriques), cette musique devient rapidement très populaire au Nigeria.
 L'émission "Sur Ecoute" (France-Culture) du 14/06/2014 est entièrement consacrée à ce genre musical et à ses adeptes (2014C21361E0091)."""@fr ;
     skos:prefLabel "afrobeat" .
 
@@ -1157,7 +1157,10 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
 
 <http://data.doremus.org/vocabulary/redomi/genre/> a skos:ConceptScheme ;
     rdfs:label "List of musical genres from REDOMI of Radio France"@en,
-        "Liste des genres de REDOMI de Radio France"@fr .
+        "Liste des genres de REDOMI de Radio France"@fr ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:created "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/berceuse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;

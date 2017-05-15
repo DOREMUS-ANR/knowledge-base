@@ -5,135 +5,139 @@
 
 
 <http://data.doremus.org/vocabulary/mode/> a skos:ConceptScheme ;
-	rdfs:label "List of modes"@en , "La liste des modes mélodiques"@fr , "Lista dei modi"@it ;
-	rdfs:comment "Mode generally refers to a type of scale, coupled with a set of characteristic melodic behaviours"@en , "Un mode est l'organisation des hauteurs d'une échelle autour d'une tonique, à l'origine dans un contexte mélodique"@fr , "Un modo è l'organizzazione delle altezze delle note di una scala attorno ad una tonica, in origine all'interno di un contesto melodico"@it .
+  rdfs:label "List of modes"@en , "La liste des modes mélodiques"@fr , "Lista dei modi"@it ;
+  rdfs:comment "Mode generally refers to a type of scale, coupled with a set of characteristic melodic behaviours"@en , "Un mode est l'organisation des hauteurs d'une échelle autour d'une tonique, à l'origine dans un contexte mélodique"@fr , "Un modo è l'organizzazione delle altezze delle note di una scala attorno ad una tonica, in origine all'interno di un contesto melodico"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+  dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
 
 <http://data.doremus.org/vocabulary/mode/western-church-modes> a skos:Concept ;
-	skos:narrower <http://data.doremus.org/vocabulary/mode/church-dorian> , <http://data.doremus.org/vocabulary/mode/church-hypodorian> , <http://data.doremus.org/vocabulary/mode/church-phrygian> , <http://data.doremus.org/vocabulary/mode/church-hypophrygian> , <http://data.doremus.org/vocabulary/mode/church-lydian> , <http://data.doremus.org/vocabulary/mode/church-hypolydian> , <http://data.doremus.org/vocabulary/mode/church-mixolydian> , <http://data.doremus.org/vocabulary/mode/church-hypomixolydian> , <http://data.doremus.org/vocabulary/mode/church-aeolian> , <http://data.doremus.org/vocabulary/mode/church-hypoaeolian> , <http://data.doremus.org/vocabulary/mode/church-ionian> , <http://data.doremus.org/vocabulary/mode/church-hypoionian> ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "modes ecclésiastiques"@fr , "western church modes"@en , "modi ecclesiastici"@it .
+  skos:narrower <http://data.doremus.org/vocabulary/mode/church-dorian> , <http://data.doremus.org/vocabulary/mode/church-hypodorian> , <http://data.doremus.org/vocabulary/mode/church-phrygian> , <http://data.doremus.org/vocabulary/mode/church-hypophrygian> , <http://data.doremus.org/vocabulary/mode/church-lydian> , <http://data.doremus.org/vocabulary/mode/church-hypolydian> , <http://data.doremus.org/vocabulary/mode/church-mixolydian> , <http://data.doremus.org/vocabulary/mode/church-hypomixolydian> , <http://data.doremus.org/vocabulary/mode/church-aeolian> , <http://data.doremus.org/vocabulary/mode/church-hypoaeolian> , <http://data.doremus.org/vocabulary/mode/church-ionian> , <http://data.doremus.org/vocabulary/mode/church-hypoionian> ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "modes ecclésiastiques"@fr , "western church modes"@en , "modi ecclesiastici"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-dorian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 01"@fr ;
-	skos:prefLabel "mode dorien"@fr , "dorian mode"@en , "Protus authente"@la , "modo dorico"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 01"@fr ;
+  skos:prefLabel "mode dorien"@fr , "dorian mode"@en , "Protus authente"@la , "modo dorico"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-hypodorian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 02"@fr ;
-	skos:prefLabel "mode hypodorien"@fr , "hypodorian mode"@en , "Protus plagal"@la , "modo ipodorico"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 02"@fr ;
+  skos:prefLabel "mode hypodorien"@fr , "hypodorian mode"@en , "Protus plagal"@la , "modo ipodorico"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-phrygian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 03"@fr ;
-	skos:prefLabel "mode phrygien"@fr , "phrygian mode"@en , "Deuterus authente"@la , "modo frigio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 03"@fr ;
+  skos:prefLabel "mode phrygien"@fr , "phrygian mode"@en , "Deuterus authente"@la , "modo frigio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-hypophrygian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 04"@fr ;
-	skos:prefLabel "mode hypophrygien"@fr , "hypophrygian mode"@en , "Deuterus plagal"@la , "modo ipofrigio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 04"@fr ;
+  skos:prefLabel "mode hypophrygien"@fr , "hypophrygian mode"@en , "Deuterus plagal"@la , "modo ipofrigio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-lydian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 05"@fr ;
-	skos:prefLabel "mode lydien"@fr , "lydian mode"@en , "Tritus authente"@la , "modo lidio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 05"@fr ;
+  skos:prefLabel "mode lydien"@fr , "lydian mode"@en , "Tritus authente"@la , "modo lidio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-hypolydian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 06"@fr ;
-	skos:prefLabel "mode hypolydien"@fr , "hypolydian mode"@en , "Tritus plagal"@la , "modo ipolidio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 06"@fr ;
+  skos:prefLabel "mode hypolydien"@fr , "hypolydian mode"@en , "Tritus plagal"@la , "modo ipolidio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-mixolydian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 07"@fr ;
-	skos:prefLabel "mode mixolydien"@fr , "mixolydian mode"@en , "Tetrardus authente"@la , "modo misolidio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 07"@fr ;
+  skos:prefLabel "mode mixolydien"@fr , "mixolydian mode"@en , "Tetrardus authente"@la , "modo misolidio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-hypomixolydian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 08"@fr ;
-	skos:prefLabel "mode hypomixolydien"@fr , "hypomixolydian mode"@en , "Tetrardus plagal"@la , "modo ipomisolidoio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 08"@fr ;
+  skos:prefLabel "mode hypomixolydien"@fr , "hypomixolydian mode"@en , "Tetrardus plagal"@la , "modo ipomisolidoio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-aeolian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 09"@fr ;
-	skos:prefLabel "mode éolien "@fr , "aeolian mode"@en , "modo eolio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 09"@fr ;
+  skos:prefLabel "mode éolien "@fr , "aeolian mode"@en , "modo eolio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-hypoaeolian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 10"@fr ;
-	skos:prefLabel "mode hypoéolien"@fr , "hypoaeolian mode"@en , "modo ipoeolio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 10"@fr ;
+  skos:prefLabel "mode hypoéolien"@fr , "hypoaeolian mode"@en , "modo ipoeolio"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-ionian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 11"@fr ;
-	skos:prefLabel "mode ionien"@fr , "ionian mode"@en , "modo ionico"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 11"@fr ;
+  skos:prefLabel "mode ionien"@fr , "ionian mode"@en , "modo ionico"@it .
 
 <http://data.doremus.org/vocabulary/mode/church-hypoionian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 12"@fr ;
-	skos:prefLabel "mode hypoionien"@fr , "hypoionian mode"@en , "modo ipoionico"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/western-church-modes> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 12"@fr ;
+  skos:prefLabel "mode hypoionien"@fr , "hypoionian mode"@en , "modo ipoionico"@it .
 
 <http://data.doremus.org/vocabulary/mode/peregrine-tone> a skos:Concept ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/mode/> ;
-	skos:editorialNote "unimarc: 13"@fr ;
-	skos:prefLabel "ton pérégrin"@fr , "peregrine tone"@en , "tonus peregrinus"@la ;
-	skos:altLabel "tonus peregrinus"@en .
+  skos:topConceptOf <http://data.doremus.org/vocabulary/mode/> ;
+  skos:editorialNote "unimarc: 13"@fr ;
+  skos:prefLabel "ton pérégrin"@fr , "peregrine tone"@en , "tonus peregrinus"@la ;
+  skos:altLabel "tonus peregrinus"@en .
 
 <http://data.doremus.org/vocabulary/mode/modern-musical-scales> a skos:Concept ;
-	skos:narrower <http://data.doremus.org/vocabulary/mode/modern-ionian> , <http://data.doremus.org/vocabulary/mode/modern-dorian> , <http://data.doremus.org/vocabulary/mode/modern-phrygyan> , <http://data.doremus.org/vocabulary/mode/modern-lydian> , <http://data.doremus.org/vocabulary/mode/modern-mixolydian> , <http://data.doremus.org/vocabulary/mode/modern-aeolyan> , <http://data.doremus.org/vocabulary/mode/modern-locrian> ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "modes diatoniques"@fr , "modern musical scales"@en , "modi diatonici"@it .
+  skos:narrower <http://data.doremus.org/vocabulary/mode/modern-ionian> , <http://data.doremus.org/vocabulary/mode/modern-dorian> , <http://data.doremus.org/vocabulary/mode/modern-phrygyan> , <http://data.doremus.org/vocabulary/mode/modern-lydian> , <http://data.doremus.org/vocabulary/mode/modern-mixolydian> , <http://data.doremus.org/vocabulary/mode/modern-aeolyan> , <http://data.doremus.org/vocabulary/mode/modern-locrian> ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "modes diatoniques"@fr , "modern musical scales"@en , "modi diatonici"@it .
 
 <http://data.doremus.org/vocabulary/mode/modern-ionian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode ionien"@fr , "ionian mode"@en , "modo ionico"@it ;
-	skos:altLabel "mode de do"@fr , "modo maggiore"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode ionien"@fr , "ionian mode"@en , "modo ionico"@it ;
+  skos:altLabel "mode de do"@fr , "modo maggiore"@it .
 
 <http://data.doremus.org/vocabulary/mode/modern-dorian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode dorien"@fr , "dorian mode"@en , "modo dorico"@it ;
-	skos:altLabel "mode de ré"@fr .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode dorien"@fr , "dorian mode"@en , "modo dorico"@it ;
+  skos:altLabel "mode de ré"@fr .
 
 <http://data.doremus.org/vocabulary/mode/modern-phrygyan> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode phrygien"@fr , "phrygyan mode"@en , "modo frigio"@it ;
-	skos:altLabel "mode de mi"@fr .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode phrygien"@fr , "phrygyan mode"@en , "modo frigio"@it ;
+  skos:altLabel "mode de mi"@fr .
 
 <http://data.doremus.org/vocabulary/mode/modern-lydian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode lydien"@fr , "lydian mode"@en , "modo lidio"@it ;
-	skos:altLabel "mode de fa"@fr , "modo napoletano maggiore"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode lydien"@fr , "lydian mode"@en , "modo lidio"@it ;
+  skos:altLabel "mode de fa"@fr , "modo napoletano maggiore"@it .
 
 <http://data.doremus.org/vocabulary/mode/modern-mixolydian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode mixolydien"@fr , "mixolydian mode"@en , "modo misolidio"@it ;
-	skos:altLabel "mode de sol"@fr .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode mixolydien"@fr , "mixolydian mode"@en , "modo misolidio"@it ;
+  skos:altLabel "mode de sol"@fr .
 
 <http://data.doremus.org/vocabulary/mode/modern-aeolyan> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode éolien "@fr , "aeolyan mode"@en , "modo eolio"@it ;
-	skos:altLabel "mode de la"@fr , "modo minore naturale"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode éolien "@fr , "aeolyan mode"@en , "modo eolio"@it ;
+  skos:altLabel "mode de la"@fr , "modo minore naturale"@it .
 
 <http://data.doremus.org/vocabulary/mode/modern-locrian> a skos:Concept ;
-	skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
-	skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
-	skos:prefLabel "mode locrien"@fr , "locrian mode"@en , "modo locrio"@it ;
-	skos:altLabel "mode de si"@fr , "modo ipofrigio"@it .
+  skos:broader <http://data.doremus.org/vocabulary/mode/modern-musical-scales> ;
+  skos:inScheme <http://data.doremus.org/vocabulary/mode/> ;
+  skos:prefLabel "mode locrien"@fr , "locrian mode"@en , "modo locrio"@it ;
+  skos:altLabel "mode de si"@fr , "modo ipofrigio"@it .

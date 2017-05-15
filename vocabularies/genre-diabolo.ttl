@@ -6,7 +6,11 @@
 
 <http://data.doremus.org/vocabulary/diabolo/genre/> a skos:ConceptScheme ;
     rdfs:label "List of musical genres from Diabolo of Radio France"@en,
-        "Liste des genres musicaux de Diabolo de Radio France"@fr .
+        "Liste des genres musicaux de Diabolo de Radio France"@fr ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:created "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
 
 <http://data.doremus.org/vocabulary/diabolo/genre/allemande> a skos:Concept ;
     skos:editorialNote "Nouveau terme"@fr ;
@@ -3684,4 +3688,3 @@
         <http://data.doremus.org/vocabulary/diabolo/genre/zouk> ;
     skos:prefLabel "musiques des antilles"@fr ;
     skos:related <http://data.doremus.org/vocabulary/diabolo/genre/parranda> .
-

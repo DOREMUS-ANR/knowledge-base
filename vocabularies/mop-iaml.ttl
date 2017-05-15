@@ -6930,7 +6930,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/> a skos:ConceptScheme ;
-    rdfs:comment "List of Media of Performances" ;
+    rdfs:comment "List of Media of Performances according to IAML."@en,
+        "Liste des médias des performances selon IAML."@fr,
+        "Lista dei Media of Performance secondo l'IAML"@it;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
     skos:hasTopConcept <http://data.doremus.org/vocabulary/iaml/mop/b>,
         <http://data.doremus.org/vocabulary/iaml/mop/c>,
         <http://data.doremus.org/vocabulary/iaml/mop/e>,
@@ -7004,4 +7009,3 @@
     skos:prefLabel "Percussion"@en,
         "Percussioni"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/mop/> .
-
