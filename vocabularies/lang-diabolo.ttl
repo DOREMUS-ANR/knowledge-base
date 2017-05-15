@@ -1,0 +1,2315 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://data.doremus.org/vocabulary/diabolo/lang/> a skos:ConceptScheme ;
+  rdfs:label "Liste des langues utilisées par Diabolo de Radio France"@fr , "List of languages used by Diabolo of Radio France"@en ;
+  dc:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dc:created "2017-05-15"^^xsd:date ;
+  dc:modified "2017-05-15"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/372> a skos:Concept ;
+  skos:prefLabel "Langue D'Oil" ;
+  skos:note "DESIGNATION COLLECTIVE DE L'ENSEMBLE DES DIALECTES DU FRANCAIS PARLES DANS LA MOITIE NORD DE LA FRANCE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/373> a skos:Concept ;
+  skos:prefLabel "Slavon Ancien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/374> a skos:Concept ;
+  skos:prefLabel "Kongo" ;
+  skos:note "ENSEMBLE DE LANGUES DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO. COMPREND LE KOONGO, LE LAARI ET LE KONGO DE SAN SALVADOR"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/376> a skos:Concept ;
+  skos:prefLabel "Paici" ;
+  skos:note "LANGUE DE NOUVELLE CALEDONIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/381> a skos:Concept ;
+  skos:prefLabel "Dialecte Egyptien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/382> a skos:Concept ;
+  skos:prefLabel "Inuktitut (canada)" ;
+  skos:note "GROUPE DE LANGUES INUIT DU CANADA. COMPREND L'INUKTITUT DE L'EST CANADIEN ET L'INUINNAQTUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/384> a skos:Concept ;
+  skos:prefLabel "Ganda" ;
+  skos:note "LANGUE DE L'OUGANDA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/385> a skos:Concept ;
+  skos:prefLabel "Langue Metissee" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/387> a skos:Concept ;
+  skos:prefLabel "Frioulan" ;
+  skos:note "LANGUE D'ITALIE (FRIOUL)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/388> a skos:Concept ;
+  skos:prefLabel "Malayalam" ;
+  skos:note "LANGUE D'INDE (KERALA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/390> a skos:Concept ;
+  skos:prefLabel "Calabrais" ;
+  skos:note "LE CALABRAIS EST DIVISE EN 2 DIALECTES DISTINCTS : LE CALABRAIS CENTRO-MERIDIONAL, VARIANTE DU SICILIEN, ET LE CALABRAIS SEPTENTRIONAL DE TYPE NAPOLITAIN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/391> a skos:Concept ;
+  skos:prefLabel "Sumerien" ;
+  skos:note "LANGUE PARLEE DANS LE SUD DE LA MESOPOTAMIE (SUMER) PENDANT LE IIIEME MILLENAIRE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/392> a skos:Concept ;
+  skos:prefLabel "Dagbani" ;
+  skos:note "LANGUE DU GHANA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/396> a skos:Concept ;
+  skos:prefLabel "Bernois" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/397> a skos:Concept ;
+  skos:prefLabel "Yemba" ;
+  skos:note "LANGUE DU CAMEROUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/398> a skos:Concept ;
+  skos:prefLabel "Dii" ;
+  skos:note "LANGUE DU CAMEROUN PARLEE DANS LE NORD DU PAYS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/399> a skos:Concept ;
+  skos:prefLabel "Baka (cameroun)" ;
+  skos:note "LANGUE DU CAMEROUN, PARLEE EGALEMENT AU GABON"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/400> a skos:Concept ;
+  skos:prefLabel "Valencien" ;
+  skos:note "DIALECTE DU CATALAN PARLE EN ESPAGNE DANS LA REGION DE VALENCIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/402> a skos:Concept ;
+  skos:prefLabel "Bourguignon" ;
+  skos:note "DIALECTE DU FRANCAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/403> a skos:Concept ;
+  skos:prefLabel "Dida" ;
+  skos:note "DESIGNE 2 LANGUES DE COTE D'IVOIRE : LE LAKOTA DIDA ET LE YOCOUBOUE DIDA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/404> a skos:Concept ;
+  skos:prefLabel "Guernesiais" ;
+  skos:note "DIALECTE DU NORMAND UTILISE SUR L'ILE ANGLO-NORMANDE DE GUERNESEY ; PARFOIS APPELE NORMAND DE GUERNESEY"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/406> a skos:Concept ;
+  skos:prefLabel "Samoan" ;
+  skos:note "LANGUE DES ILES SAMOA PARLEE EGALEMENT DANS LES ILES FIDJI ET TONGA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/407> a skos:Concept ;
+  skos:prefLabel "Ronga" ;
+  skos:note "LANGUE DU MOZAMBIQUE PARLEE AUSSI EN AFRIQUE DU SUD"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/408> a skos:Concept ;
+  skos:prefLabel "Frison" ;
+  skos:note "DESIGNE 3 LANGUES : LE FRISON D'EST, LANGUE D'ALLEMAGNE APPELEE AUSSI OSSTFRIESISH, LE FRISON DU NORD, LANGUE EGALEMENT D'ALLEMAGNE APPELEE AUSSI NORDFRIESISCH ET LE FRISON D'OUEST, LANGUE DES PAYS BAS APPELEE AUSSI FRIES OU FRYSK"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/409> a skos:Concept ;
+  skos:prefLabel "Etrusque" ;
+  skos:note "LANGUE DISPARUE, SANS PARENTE CONNUE, PARLEE EN ITALIE DANS L'ANTIQUITE PAR LES ETRUSQUES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/410> a skos:Concept ;
+  skos:prefLabel "Ayoreo" ;
+  skos:note "LANGUE DU PARAGUAY PARLEE EGALEMENT EN BOLIVIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/412> a skos:Concept ;
+  skos:prefLabel "Kusaal" ;
+  skos:note "LANGUE DU GHANA PARLEE EGALEMENT AU BURKINA FASO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/415> a skos:Concept ;
+  skos:prefLabel "Cornique" ;
+  skos:note "LANGUE DE CORNOUAILLES DISPARUE AU 18EME SIECLE ET REVIVIFIEE DE NOS JOURS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/416> a skos:Concept ;
+  skos:prefLabel "Sesotho" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/418> a skos:Concept ;
+  skos:prefLabel "Bete" ;
+  skos:note "DESIGNE 3 LANGUES PARLEES EN COTE D'IVOIRE : LE DALOA BETE, LE GAGNOA BETE ET LE GUIBEROUA BETE. ATTENTION, IL EXISTE AUSSI LE BENDI BETE, LANGUE DU NIGERIA."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/419> a skos:Concept ;
+  skos:prefLabel "Kalderash" ;
+  skos:note "DIALECTE DU VLAX, UNE DES LANGUES ROMANI"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/420> a skos:Concept ;
+  skos:prefLabel "Pedi" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/422> a skos:Concept ;
+  skos:prefLabel "Kassonke" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/425> a skos:Concept ;
+  skos:prefLabel "Niue" ;
+  skos:note "LANGUE NATIONALE DE L'ILE NIUE PARLEE EGALEMENT EN NOUVELLE ZELANDE ET DANS LES ILES TONGA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/426> a skos:Concept ;
+  skos:prefLabel "Somali" ;
+  skos:note "LANGUE NATIONALE DE SOMALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/427> a skos:Concept ;
+  skos:prefLabel "Iakoute" ;
+  skos:note "LANGUE DE RUSSIE (YAKOUTIE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/428> a skos:Concept ;
+  skos:prefLabel "Judeo-provencal" ;
+  skos:note "LANGUE MORTE DE LA FAMILLE DES LANGUES D'OC"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/430> a skos:Concept ;
+  skos:prefLabel "Igbo" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/431> a skos:Concept ;
+  skos:prefLabel "Kalabari" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/432> a skos:Concept ;
+  skos:prefLabel "Edo" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/433> a skos:Concept ;
+  skos:prefLabel "Isoko" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/434> a skos:Concept ;
+  skos:prefLabel "Ibibio" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/435> a skos:Concept ;
+  skos:prefLabel "Nuer" ;
+  skos:note "LANGUE DU SUD SOUDAN PARLEE EGALEMENT EN ETHIOPIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/436> a skos:Concept ;
+  skos:prefLabel "Dinka" ;
+  skos:note "GROUPE DE LANGUES DU SUD SOUDAN QUI COMPREND : LE DINKA DU NORD EST (APPELE AUSSI PADANG), LE DINKA DU NORD OUEST, LE DINKA DU CENTRE (APPELE AUSSI AGAR), LE DINKA DE L'EST (APPELE AUSSI BOR), ET LE DINKA DE L'OUEST (APPELE AUSSI REK)."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/214> a skos:Concept ;
+  skos:prefLabel "Pendjabi" ;
+  skos:note "DESIGNE UNE DES 3 LANGUES D'INDE SUIVANTES : LE PENJABI DE L'EST, LE PENJABI DE L'OUEST ET LE PENDJABI MIRPUR"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/441> a skos:Concept ;
+  skos:prefLabel "Dakota" ;
+  skos:note "LANGUE DES ETATS UNIS PARLEE EGALEMENT AU CANADA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/442> a skos:Concept ;
+  skos:prefLabel "Papiamento" ;
+  skos:note "LANGUE CREOLE DES ANTILLES NEERLANDAISES ET EN PARTICULIER DE CURACAO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/443> a skos:Concept ;
+  skos:prefLabel "Xipaya" ;
+  skos:note "LANGUE DU BRESIL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/447> a skos:Concept ;
+  skos:prefLabel "Gen" ;
+  skos:note "LANGUE DU TOGO PARLEE EGALEMENT AU BENIN. NE PAS CONFONDRE AVEC LE MINA DU CAMEROUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/448> a skos:Concept ;
+  skos:prefLabel "Dialecte Grec" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/451> a skos:Concept ;
+  skos:prefLabel "Scots" ;
+  skos:note "LANGUE ANGLO-SAXONNE DU ROYAUME UNI (ECOSSE ET IRLANDE DU NORD) PARLEE EGALEMENT EN REPUBLIQUE D'IRLANDE. NE PAS CONFONDRE AVE LA LANGUE CELTIQUE PARLEE EN ECOSSE : L'ECOSSAIS (GAELIQUE)."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/452> a skos:Concept ;
+  skos:prefLabel "Ouigour" ;
+  skos:note "LANGUE DE CHINE PARLEE EGALEMENT AU KAZAKHSTAN, EN MONGOLIE ET EN TURQUIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/1> a skos:Concept ;
+  skos:prefLabel "Acadien" ;
+  skos:note "DIALECTE FRANCAIS PARLE AU CANADA (PROVINCES MARITIMES)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/3> a skos:Concept ;
+  skos:prefLabel "Afrikaans" ;
+  skos:note "LANGUE NATIONALE D'AFRIQUE DU SUD PARLEE EGALEMENT AU BOTSWANA, AU LESOTHO ET EN NAMIBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/4> a skos:Concept ;
+  skos:prefLabel "Agob" ;
+  skos:note "LANGUE DE PAPOUASIE NOUVELLE GUINEE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/6> a skos:Concept ;
+  skos:prefLabel "Albanais" ;
+  skos:note "LANGUE D'ALBANIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/7> a skos:Concept ;
+  skos:prefLabel "Dialecte Alemanique" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/9> a skos:Concept ;
+  skos:prefLabel "Alsacien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/12> a skos:Concept ;
+  skos:prefLabel "Andalou" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/13> a skos:Concept ;
+  skos:prefLabel "Anglais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/18> a skos:Concept ;
+  skos:prefLabel "Arameen" ;
+  skos:note "LANGUE PARLEE PRINCIPALEMENT PENDANT L'ANTIQUITE DONT CERTAINS DIALECTES SONT TOUJOURS PARLES AU MOYEN ORIENT."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/19> a skos:Concept ;
+  skos:prefLabel "Argot" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/21> a skos:Concept ;
+  skos:prefLabel "Assyrien" ;
+  skos:note "LANGUE SEMITIQUE ; RAMEAU LINGUISTIQUE DE L'AKKADIEN ; PARLEE ET ECRITE EN ASSYRIE ANTIQUE."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/22> a skos:Concept ;
+  skos:prefLabel "Asturien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/25> a skos:Concept ;
+  skos:prefLabel "Aymara" ;
+  skos:note "GROUPE DE LANGUES DE BOLIVIE ET DU PEROU. COMPREND L'AYMARA DU CENTRE ET L'AYMARA DU SUD"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/29> a skos:Concept ;
+  skos:prefLabel "Langue Baga" ;
+  skos:note "FAMILLE DE 7 LANGUES DE GUINEE QUI COMPREND LE BAGA BINARI, LE BAGA KALOUM, LE BAGA KOGA, LE BAGA MANDURI, LE BAGA SITEMU, LE AGA SOBANE ET LE LANDOMA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/30> a skos:Concept ;
+  skos:prefLabel "Balinais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/32> a skos:Concept ;
+  skos:prefLabel "Langue Bamileke" ;
+  skos:note "FAMILLE DE 10 LANGUES DU CAMEROUN. COMPREND LES LANGUES FE'FE', GHOMALA, KWA, MENGAKA, NDA'NDA', NGIEMBOON, NGOMBA, NGOMBALE, NGWE ET YEMBA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/34> a skos:Concept ;
+  skos:prefLabel "Baoule" ;
+  skos:note "LANGUE DE COTE D'IVOIRE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/35> a skos:Concept ;
+  skos:prefLabel "Basque" ;
+  skos:note "LANGUE DU PAYS BASQUE QUE L'ON TROUVE PARLEE EGALEMENT EN AUSTRALIE, AU COSTA RICA, AU MEXIQUE, AUX PHILIPPINES ET AUX ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/36> a skos:Concept ;
+  skos:prefLabel "Basaa" ;
+  skos:note "LANGUE DU CAMEROUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/37> a skos:Concept ;
+  skos:prefLabel "Oniyan" ;
+  skos:note "LANGUE DU SENEGAL PARLEE EGALEMENT ET EN GAMBIE, EN GUINEE ET EN GUINEE BISSAU. DANS CES 3 PAYS ELLE EST APPELEE BASSARI"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/39> a skos:Concept ;
+  skos:prefLabel "Bearnais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/41> a skos:Concept ;
+  skos:prefLabel "Bemba" ;
+  skos:note "TERME UTILISE POUR DESIGNER 2 LANGUE : UNE DU CONGO ET UNE DE ZAMBIE PARLEE EGALEMENT AU CONGO (SON SYNONYME EST KINYABEMBA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/42> a skos:Concept ;
+  skos:prefLabel "Bengali" ;
+  skos:note "LANGUE DU BANGLADESH. DE L'INDE ET DU NEPAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/44> a skos:Concept ;
+  skos:prefLabel "Berrichon" ;
+  skos:note "DIALECTE DU FRANCAIS PARLE DANS LE BERRY"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/47> a skos:Concept ;
+  skos:prefLabel "Bozo" ;
+  skos:note "DESGINE 4 LANGUES DU MALI : LE JENAAMA BOZO, LE KELENGAXO BOZO, LE TIEMACEWE BOZO ET LE TIEYAXO BOZO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/48> a skos:Concept ;
+  skos:prefLabel "Breton" ;
+  skos:note "LANGUE DE BRETAGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/49> a skos:Concept ;
+  skos:prefLabel "Lubukusu" ;
+  skos:note "LANGUE DU KENYA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/50> a skos:Concept ;
+  skos:prefLabel "Bulgare" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/53> a skos:Concept ;
+  skos:prefLabel "Cantonais" ;
+  skos:note "LANGUE (OU ENSEMBLE DE DIALECTES) DE CHINE, PARLEE EGALEMENT EN MALAISIE ET AU VIETNAM"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/58> a skos:Concept ;
+  skos:prefLabel "Chaouia" ;
+  skos:note "LANGUE BERBERE D'ALGERIE PARLEE EGALEMENT AU MAROC ET EN TUNISIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/59> a skos:Concept ;
+  skos:prefLabel "Cherokee" ;
+  skos:note "LANGUE IROQUOIENNE DES CHEROKEE PARLEE DANS LE SUD EST DES ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/61> a skos:Concept ;
+  skos:prefLabel "Chinois" ;
+  skos:note "GROUPE DE LANGUES DE CHINE QUI COMPREND LE GAN, LE HAKKA, LE HUIZHOU, LE JINYU, LE MANDARIN, LE MIN BEI, LE MIN DONG, LE MIN NAN, LE MIN ZHONG, LE PU XIAN, LE WU, LE XIANG ET LE YUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/62> a skos:Concept ;
+  skos:prefLabel "Sena" ;
+  skos:note "LANGUE DU MOZAMBIQUE ET DU MALAWI"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/65> a skos:Concept ;
+  skos:prefLabel "Yao (malawi)" ;
+  skos:note "LANGUE DU MALAWI EGALEMENT PARLEE AU MOZAMBIQUE, EN TANZANIE ET EN ZAMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/66> a skos:Concept ;
+  skos:prefLabel "Tachelhit" ;
+  skos:note "LANGUE BERBERE DU MAROC PARLEE EGALEMENT EN ALGERIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/67> a skos:Concept ;
+  skos:prefLabel "Chtimi" ;
+  skos:note "APPELLATION DONNEE AU PICARD PARLE EN REGION NORD PAS DE CALAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/70> a skos:Concept ;
+  skos:prefLabel "Copte" ;
+  skos:note "ANCIENNE LANGUE D'EGYPTE QUI SUBSISTE COMME LANGUE LITURGIQUE DES COPTES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/72> a skos:Concept ;
+  skos:prefLabel "Corse" ;
+  skos:note "LANGUE DE CORSE COMPORTANT DES VARIETES DIALECTALES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/73> a skos:Concept ;
+  skos:prefLabel "Cree" ;
+  skos:note "GROUPE DE LANGUES DU CANADA PARLEES EGALEMENT AUX ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/76> a skos:Concept ;
+  skos:prefLabel "Creole-espagnol" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/77> a skos:Concept ;
+  skos:prefLabel "Creole-portugais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/79> a skos:Concept ;
+  skos:prefLabel "Danois" ;
+  skos:note "LANGUE DU DANEMARK"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/81> a skos:Concept ;
+  skos:prefLabel "Langue Aborigene D'australie" ;
+  skos:note "ENSEMBLE DES LANGUES PARLEES PAR LES ABORIGENES D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/82> a skos:Concept ;
+  skos:prefLabel "Dialecte Africain" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/84> a skos:Concept ;
+  skos:prefLabel "Kayapo" ;
+  skos:note "LANGUE DU BRESIL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/85> a skos:Concept ;
+  skos:prefLabel "Ligurien" ;
+  skos:note "LANGUE D'ITALIE PARLEE EGALEMENT EN FRANCE ET A MONACO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/87> a skos:Concept ;
+  skos:prefLabel "Dioula" ;
+  skos:note "LANGUE DU BURKINA FASO PARLEE EGALEMENT EN COTE D'IVOIRE ET AU MALI"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/88> a skos:Concept ;
+  skos:prefLabel "Douala" ;
+  skos:note "LANGUE DU CAMEROUN PARLEE DANS LE SUD OUEST DU PAYS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/90> a skos:Concept ;
+  skos:prefLabel "Lomwe" ;
+  skos:note "DESIGNE 2 LANGUES : UNE DU MALAWI ET UNE DU MOZAMBIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/91> a skos:Concept ;
+  skos:prefLabel "Espagnol" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/92> a skos:Concept ;
+  skos:prefLabel "Espagnol Amerique Latine" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/93> a skos:Concept ;
+  skos:prefLabel "Esperanto" ;
+  skos:note "LANGUE ARTIFICIELLE PARLEE DANS PLUS DE 100 PAYS."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/96> a skos:Concept ;
+  skos:prefLabel "Eton (cameroun)" ;
+  skos:note "LANGUE DU CAMEROUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/98> a skos:Concept ;
+  skos:prefLabel "Fante" ;
+  skos:note "LANGUE AKAN PARLEE AU GHANA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/99> a skos:Concept ;
+  skos:prefLabel "Feroien" ;
+  skos:note "LANGUE DU DANEMARK (ILES FEROE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/100> a skos:Concept ;
+  skos:prefLabel "Finnois" ;
+  skos:note "LANGUE NATIONALE DE FINLANDE PARLEE EGALEMENT EN SUEDE, EN NORVEGE ET EN RUSSIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/102> a skos:Concept ;
+  skos:prefLabel "Fon" ;
+  skos:note "LANGUE DU BENIN PARLEE EGALEMENT AU TOGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/104> a skos:Concept ;
+  skos:prefLabel "Francais-quebec" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/106> a skos:Concept ;
+  skos:prefLabel "Langue Galeique" ;
+  skos:note "FAMILLE DE 3 LANGUES : L'IRLANDAIS, L'ECOSSAIS ET LE MANNOIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/109> a skos:Concept ;
+  skos:prefLabel "Gallaico-portugais" ;
+  skos:note "LANGUE ANCIENNE ISSUE DU LATIN VULGAIRE DU NORD OUEST DE LA PENINSULE IBERIQUE QUI DONNA NAISSANCE AU PORTUGAIS ET AU GALICIEN."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/110> a skos:Concept ;
+  skos:prefLabel "Gallo" ;
+  skos:note "DIALECTE DU FRANCAIS PARLE EN HAUTE BRETAGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/112> a skos:Concept ;
+  skos:prefLabel "Garifuna" ;
+  skos:note "LANGUE DES GARIFUNAS DE LA COTE CARAIBE DE L'AMERIQUE CENTRALE (HONDURAS ET BELIZE PRINCIPALEMENT)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/113> a skos:Concept ;
+  skos:prefLabel "Gascon" ;
+  skos:note "DIALECTE DE L'OCCITAN PARLEE EN GASCOGNE, IL EST PARFOIS CONSIDERE COMME UNE LANGUE A PART. LE TERME GASCON A AUSSI SERVI A DESIGNER L'ENSEMBLE DE L'OCCITAN AU XVIIIEME SIECLE."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/115> a skos:Concept ;
+  skos:prefLabel "Georgien" ;
+  skos:note "LANGUE NATIONALE DE LA REPUBLIQUE DE GEORGIE PARLEE EGALEMENT EN IRAN, EN TURQUIE ET EN AZERBAIDJAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/116> a skos:Concept ;
+  skos:prefLabel "Gun" ;
+  skos:note "LANGUE DU BENIN PARLEE EGALEMENT AU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/117> a skos:Concept ;
+  skos:prefLabel "Grec" ;
+  skos:note "LANGUE NATIONALE DE GRECE ET DE CHYPRE PARLEE EGALEMENT, ENTRE AUTRES, EN ITALIE DU SUD O% IL EST APPELE GRIKO OU GRECO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/119> a skos:Concept ;
+  skos:prefLabel "Guarani" ;
+  skos:note "GROUPE DE LANGUES DU PARAGUAY ET DE BOLIVIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/120> a skos:Concept ;
+  skos:prefLabel "Haoussa" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/123> a skos:Concept ;
+  skos:prefLabel "Hebreu" ;
+  skos:note "LANGUE NATIONALE D'ISRAEL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/124> a skos:Concept ;
+  skos:prefLabel "Hindi" ;
+  skos:note "LANGUE NATIONALE D'INDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/125> a skos:Concept ;
+  skos:prefLabel "Hittite" ;
+  skos:note "LANGUE ETEINTE DES HITTITES. LANGUE ANATOLIENNE, C'EST-A-DIRE LANGUE INDO EUROPEENNE DE L'ASIE MINEURE ANTIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/127> a skos:Concept ;
+  skos:prefLabel "Huron" ;
+  skos:note "LANGUE DES ETATS UNIS PARLEE EGALEMENT AU CANADA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/128> a skos:Concept ;
+  skos:prefLabel "Indonesien" ;
+  skos:note "LANGUE NATIONALE D'INDONESIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/131> a skos:Concept ;
+  skos:prefLabel "Irlandais (gaelique)" ;
+  skos:note "LANGUE D'IRLANDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/134> a skos:Concept ;
+  skos:prefLabel "Italien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/136> a skos:Concept ;
+  skos:prefLabel "Javanais" ;
+  skos:note "LANGUE D'INDONESIE (JAVA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/137> a skos:Concept ;
+  skos:prefLabel "Judeo-arabe" ;
+  skos:note "GROUPE DE 5 LANGUES D'IRAK, DU MAROC, DE LYBIE, DE TUNISIE ET DU YEMEN,  PARLEES PAR LES JUIFS ARABOPHONES, PRINCIPALEMENT EN ISRAEL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/138> a skos:Concept ;
+  skos:prefLabel "Judeo-espagnol" ;
+  skos:note "ENSEMBLE DES PARLERS EMPLOYES PAR LES JUIFS EXPULSES D'ESPAGNE A LA FIN DU XVEME SIECLE ET PENDANT LE XVIEME SIECLE. PARLE AUJOURD'HUI EN ISRAEL ET EN TURQUIE. LE DJUEZMO EST LA FORME PARLEE DU JUDEO-ESPAGNOL, LE LADINO LA FORME ECRITE CALQUEE SUR L'HEBREU"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/139> a skos:Concept ;
+  skos:prefLabel "Kabyle" ;
+  skos:note "LANGUE BERBERE D'ALGERIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/141> a skos:Concept ;
+  skos:prefLabel "Kazakh" ;
+  skos:note "LANGUE DU KAZAKHSTAN PARLEE EGALEMENT AU TURKMENISTAN, EN OUZBEKISTAN ET EN CHINE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/142> a skos:Concept ;
+  skos:prefLabel "Khmer" ;
+  skos:note "DESIGNE 2 LANGUES : LE KHMER CENTRAL (LANGUE DU CAMBODGE PARLEE EGALEMENT AU LAOS ET AU VIETNAM DU SUD) ET LE KHMER DU NORD (LANGUE DE THAILANDE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/145> a skos:Concept ;
+  skos:prefLabel "Kimbundu" ;
+  skos:note "LANGUE D'ANGOLA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/147> a skos:Concept ;
+  skos:prefLabel "Kirghiz" ;
+  skos:note "LANGUE NATIONALE DU KIRGHIZISTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/148> a skos:Concept ;
+  skos:prefLabel "Kurde" ;
+  skos:note "GROUPE DE LANGUES PARLEES EN IRAK, EN TURQUIE ET EN IRAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/153> a skos:Concept ;
+  skos:prefLabel "Langue Indienne" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/154> a skos:Concept ;
+  skos:prefLabel "Langue Non Identifiee" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/156> a skos:Concept ;
+  skos:prefLabel "Toradja" ;
+  skos:note "LANGUE D'INDONESIE (CELEBES)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/159> a skos:Concept ;
+  skos:prefLabel "Laotien" ;
+  skos:note "LANGUE DU LAOS PARLEE AUSSI AU CAMBODGE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/161> a skos:Concept ;
+  skos:prefLabel "Latin" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/163> a skos:Concept ;
+  skos:prefLabel "Lingala" ;
+  skos:note "LANGUE DES CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/165> a skos:Concept ;
+  skos:prefLabel "Luo" ;
+  skos:note "LANGUE DU KENYA PARLEE EGALEMENT EN TANZANIE. NE PAS CONFONDRE AVEC LE LUO DU CAMEROUN, LANGUE ETEINTE."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/166> a skos:Concept ;
+  skos:prefLabel "Luxembourgeois" ;
+  skos:note "LANGUE NATIONALE DU LUXEMBOURG. LANGUE GERMANIQUE PARLEE EGALEMENT EN BELGIQUE, EN FRANCE ET EN ALLEMAGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/167> a skos:Concept ;
+  skos:prefLabel "Macedonien" ;
+  skos:note "LANGUE NATIONALE DE REPUBLIQUE DE MACEDOINE PARLEE EGALEMENT EN ALBANIE, EN BULGARIE ET EN GRECE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/168> a skos:Concept ;
+  skos:prefLabel "Maithili" ;
+  skos:note "LANGUE D'INDE PARLEE EGALEMENT AU NEPAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/170> a skos:Concept ;
+  skos:prefLabel "Mande" ;
+  skos:note "DESIGNE SOIT UNE FAMILLE DE LANGUES, SOIT UNE LANGUE DE GUINEE PARLEE EGALEMENT AU LIBERIA, AU MALI ET EN SIERRA LEONE (LE MANINKAKAN DE L'EST), SOIT UNE LANGUE DU SENEGAL PARLEE EGALEMENT EN GAMBIE ET EN GUINEE BISSAU (LE MANDINKA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/172> a skos:Concept ;
+  skos:prefLabel "Maori" ;
+  skos:note "LANGUE DE NOUVELLE ZELANDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/173> a skos:Concept ;
+  skos:prefLabel "Marquisien" ;
+  skos:note "DESIGNE 2 LANGUES DES MARQUISES : LE MARQUISIEN DES ILES DU NORD ET LE MARQUISIEN DES ILES DU SUD"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/175> a skos:Concept ;
+  skos:prefLabel "Langue Melanesienne" ;
+  skos:note "ENSEMBLE DE PLUSIEURS CENTAINES DE LANGUES PARLEES DANS LES ILES DE L'OCEAN PACIFIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/177> a skos:Concept ;
+  skos:prefLabel "Min Nan" ;
+  skos:note "LANGUE DE CHINE DU SUD PARLEE EGALEMENT A TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/179> a skos:Concept ;
+  skos:prefLabel "Montagnais" ;
+  skos:note "LANGUE DU CANADA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/183> a skos:Concept ;
+  skos:prefLabel "Langue Nahuatl" ;
+  skos:note "FAMILLE DE 28 LANGUES DU MEXIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/185> a skos:Concept ;
+  skos:prefLabel "Navajo" ;
+  skos:note "LANGUE DU SUD OUEST DES ETATS UNIS (ARIZONA, NOUVEAU MEXIQUE, UTAH ET COLORADO)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/186> a skos:Concept ;
+  skos:prefLabel "Ndebele" ;
+  skos:note "DESIGNE 2 LANGUES : LE NDEBELE D'AFRIQUE DU SUD PARLE EGALEMENT AU LESOTHO ET AU SWAZILAND, ET LE NDEBELE DU ZIMBABWE PARLE EGALEMENT AU BOTSWANA ET EN ZAMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/188> a skos:Concept ;
+  skos:prefLabel "Nepali" ;
+  skos:note "A LA FOIS GROUPE DE 2 LANGUES DU NEPAL ET LANGUE DE CE GROUPE PARLEE EGALEMENT AU BHOUTAN ET EN INDE, L'AUTRE LANGUE DU GROUPE ETANT LE DOTYALI"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/189> a skos:Concept ;
+  skos:prefLabel "Ngoni" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/191> a skos:Concept ;
+  skos:prefLabel "Vieux Norrois" ;
+  skos:note "LANGUE SCANDINAVE MEDIEVALE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/194> a skos:Concept ;
+  skos:prefLabel "Occitan" ;
+  skos:note "LANGUE PARLEE DANS LE SUD DE LA FRANCE ET DANS QUELQUES REGIONS D'ITALIE ET ESPAGNE, DIVISEE EN DE NOMBREUX DIALECTES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/195> a skos:Concept ;
+  skos:prefLabel "Wolof" ;
+  skos:note "LANGUE DU SENEGAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/197> a skos:Concept ;
+  skos:prefLabel "Pali" ;
+  skos:note "LANGUE D'INDE PARLEE EGALEMENT AU MYANMAR. LANGUE DES TEXTES SACRES BOUDDHISTES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/199> a skos:Concept ;
+  skos:prefLabel "Rapanui" ;
+  skos:note "LANGUE DE L'ILE DE PAQUES (CHILI)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/201> a skos:Concept ;
+  skos:prefLabel "Normand" ;
+  skos:note "DIALECTE DU FRANCAIS PARLE EN NORMANDIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/203> a skos:Concept ;
+  skos:prefLabel "Persan" ;
+  skos:note "DESIGNE SOIT UNE FAMILLE DE 9 LANGUES D'AFGHANISTAN, DU PAKISTAN, DU TADJIKISTAN, D'IRAN ET D'ISRAEL, SOIT UN GROUPE DE 2 LANGUES (LE DARI ET LE FARSI) SOIT LE FARSI LUI-MEME."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/204> a skos:Concept ;
+  skos:prefLabel "Peul" ;
+  skos:note "LANGUE DU SENEGAL PARLEE EGALEMENT EN GAMBIE, EN GUINEE, EN GUINEE BISSAU, AU MALI ET EN MAURITANIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/205> a skos:Concept ;
+  skos:prefLabel "Picard" ;
+  skos:note "LANGUE DE FRANCE (PICARDIE ET NORD PAS DE CALAIS) PARLEE EGALEMENT DANS L'OUEST DE LA BELGIQUE ROMAINE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/206> a skos:Concept ;
+  skos:prefLabel "Pidgin" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/208> a skos:Concept ;
+  skos:prefLabel "Polonais" ;
+  skos:note "LANGUE NATIONALE DE POLOGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/209> a skos:Concept ;
+  skos:prefLabel "Polynesien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/211> a skos:Concept ;
+  skos:prefLabel "Portugais-bresil" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/215> a skos:Concept ;
+  skos:prefLabel "Quechua" ;
+  skos:note "IMPORTANT GROUPE DE LANGUES DU PEROU"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/220> a skos:Concept ;
+  skos:prefLabel "Romanche" ;
+  skos:note "LANGUE DE SUISSE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/221> a skos:Concept ;
+  skos:prefLabel "Langue Tsigane" ;
+  skos:note "FAMILLE DE LANGUES PARLEES PAR LES POPULATIONS TSIGANES DANS TOUTE L'EUROPE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/223> a skos:Concept ;
+  skos:prefLabel "Russe" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/225> a skos:Concept ;
+  skos:prefLabel "Saho" ;
+  skos:note "LANGUE D'ERYTHREE PARLEE EGALEMENT EN ETHIOPIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/228> a skos:Concept ;
+  skos:prefLabel "Sanskrit" ;
+  skos:note "ANCIENNE LANGUE D'INDE ENCORE EMPLOYEE DANS LE CULTE ET L'ENSEIGNEMENT"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/230> a skos:Concept ;
+  skos:prefLabel "Sarde" ;
+  skos:note "GROUPE DE LANGUES DE SARDAIGNE QUI COMPREND LE LOGOUDORIEN (OU LOGOUDORAIS), LE CAMPIDANIEN (OU CAMPIDANAIS) ET AUSSI, SELON LES SOURCES,  LE GALLURAIS ET LE SASSARIEN (OU SASSARAIS)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/231> a skos:Concept ;
+  skos:prefLabel "Serbe" ;
+  skos:note "LANGUE NATIONALE DE SERBIE ET DU MONTENEGRO ; DU GROUPE SERBO-CROATE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/233> a skos:Concept ;
+  skos:prefLabel "Serere" ;
+  skos:note "LANGUE DU SENEGAL PARLEE EGALEMENT EN GAMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/234> a skos:Concept ;
+  skos:prefLabel "Shona" ;
+  skos:note "LANGUE DU ZIMBABWE PARLEE EGALEMENT AU BOTSWANA, AU MALAWI, EN AFRIQUE DU SUD ET EN ZAMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/237> a skos:Concept ;
+  skos:prefLabel "Cinghalais" ;
+  skos:note "LANGUE NATIONALE DU SRI LANKA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/238> a skos:Concept ;
+  skos:prefLabel "Siraiki" ;
+  skos:note "LANGUE DU PAKISTAN PARLEE EGALEMENT EN INDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/239> a skos:Concept ;
+  skos:prefLabel "Slavon" ;
+  skos:note "LANGUE LITURGIQUE ISSUE DU VIEUX SLAVE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/240> a skos:Concept ;
+  skos:prefLabel "Slovene" ;
+  skos:note "LANGUE NAITONALE DE SLOVENIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/242> a skos:Concept ;
+  skos:prefLabel "Songhai" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/244> a skos:Concept ;
+  skos:prefLabel "Sosso" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/246> a skos:Concept ;
+  skos:prefLabel "Sousou" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/250> a skos:Concept ;
+  skos:prefLabel "Swati" ;
+  skos:note "LANGUE NATIONALE DU SWAZILAND PARLEE EGALEMENT EN AFRIQUE DU SUD, AU MOZAMBIQUE ET AU LESOTHO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/251> a skos:Concept ;
+  skos:prefLabel "Syriaque" ;
+  skos:note "DIALECTE ARAMEEN D'EDESSE OU URFA (TURQUIE) CONSERVE COMME LANGUE LITURGIQUE DANS LES RITES SYRIEN, MARONITE ET CHALDEEN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/255> a skos:Concept ;
+  skos:prefLabel "Tahitien" ;
+  skos:note "LANGUE DE POLYNESIE FRANCAISE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/256> a skos:Concept ;
+  skos:prefLabel "Sranan" ;
+  skos:note "LANGUE DU SURINAM"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/258> a skos:Concept ;
+  skos:prefLabel "Tamoul" ;
+  skos:note "LANGUE D'INDE PARLEE EGALEMENT AU SRI LANKA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/259> a skos:Concept ;
+  skos:prefLabel "Tatar" ;
+  skos:note "LANGUE DE RUSSIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/262> a skos:Concept ;
+  skos:prefLabel "Tchouvache" ;
+  skos:note "LANGUE DE RUSSIE (TCHOUVACHIE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/264> a skos:Concept ;
+  skos:prefLabel "Telougou" ;
+  skos:note "DESIGNE UNE LANGUE D'INDE ET UN DIALECTE DE CETTE LANGUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/265> a skos:Concept ;
+  skos:prefLabel "Langue Tenda" ;
+  skos:note "FAMILLE DE LANGUES QUI COMPREND LE BADYARA (GUINEE), LE BIAFADA (GUINEE BISSAU), LE MENIK (SENEGAL), L'ONIYAN (SENEGAL) ET LE WARMEY (SENEGAL)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/267> a skos:Concept ;
+  skos:prefLabel "Thai" ;
+  skos:note "LANGUE NATIONALE DE THAILANDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/268> a skos:Concept ;
+  skos:prefLabel "Tibetain" ;
+  skos:note "DESIGNE 3 LANGUES DE CHINE (PRINCIPALEMENT DU TIBET) : LE TIBETAIN CENTRAL, LE KHAMS DU TIBET ET LE AMDO DU TIBET"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/270> a skos:Concept ;
+  skos:prefLabel "Tigrigna" ;
+  skos:note "LANGUE D'ETHIOPIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/273> a skos:Concept ;
+  skos:prefLabel "Touareg" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/274> a skos:Concept ;
+  skos:prefLabel "Langue Tupi Guarani" ;
+  skos:note "FAMILLE DE LANGUES DU BRESIL, DU PARAGUAY, DE BOLIVIE, DU PEROU ET DE GUYANE FRANCAISE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/276> a skos:Concept ;
+  skos:prefLabel "Turkmene" ;
+  skos:note "LANGUE NATIONALE DU TURKMENISTAN PARLEE EGALEMENT EN AFGHANISTAN ET EN IRAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/278> a skos:Concept ;
+  skos:prefLabel "Ukrainien" ;
+  skos:note "LANGUE NATIONALE D'UKRAINE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/280> a skos:Concept ;
+  skos:prefLabel "Ourdou" ;
+  skos:note "LANGUE DU PAKISTAN PARLEE EGALEMENT AU BENGLADESH, EN INDE, AU NEPAL, A L'ILE MAURICE ET EN AFRIQUE DU SUD"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/281> a skos:Concept ;
+  skos:prefLabel "Verlan" ;
+  skos:note "FORME D'ARGOT FRANCAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/283> a skos:Concept ;
+  skos:prefLabel "Vieil Anglais" ;
+  skos:note "DE 0450 A 1100"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/284> a skos:Concept ;
+  skos:prefLabel "Vieil Italien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/286> a skos:Concept ;
+  skos:prefLabel "Vieux Flamand" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/289> a skos:Concept ;
+  skos:prefLabel "Vieux Neerlandais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/290> a skos:Concept ;
+  skos:prefLabel "Vieux Toscan" ;
+  skos:note "AVANT 1500"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/291> a skos:Concept ;
+  skos:prefLabel "Wallon" ;
+  skos:note "LANGUE DE BELGIQUE "@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/292> a skos:Concept ;
+  skos:prefLabel "Wienerisch" ;
+  skos:note "DIALECTE DU BAVAROIS PARLE A VIENNE (AUTRICHE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/294> a skos:Concept ;
+  skos:prefLabel "Yiddish" ;
+  skos:note "GROUPE DE LANGUES DES JUIFS ASHKENAZES PARLEES AUX ETATS UNIS, EN ISRAEL ET DANS DIFFERENTS PAYS D'EUROPE ET D'AMERIQUE. COMPREND LE YIDDISH DE L'EST ET LE YIDDISH DE L'OUEST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/296> a skos:Concept ;
+  skos:prefLabel "Zoulou" ;
+  skos:note "LANGUE NATIONALE D'AFRIQUE DU SUD PARLEE EGALEMENT DANS PLUSIEURS PAYS D'AFRIQUE AUSTRALE (BOTSWANA, LESOTHO, MALAWI, MOZAMBIQUE ET SWAZILAND)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/300> a skos:Concept ;
+  skos:prefLabel "Malgache" ;
+  skos:note "GROUPE DE LANGUES DE MADAGASCAR"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/301> a skos:Concept ;
+  skos:prefLabel "Malinke" ;
+  skos:note "DESIGNE DIFFERENTES LANGUES D'AFRIQUE DE L'OUEST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/303> a skos:Concept ;
+  skos:prefLabel "Moore" ;
+  skos:note "LANGUE DU BURKINA FASO PARLEE EGALEMENT AU MALI, AU TOGO, AU BENIN, AU GHANA, EN COTE D'IVOIRE ET AU SENEGAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/305> a skos:Concept ;
+  skos:prefLabel "Tamazight" ;
+  skos:note "DESIGNE UNE DES 4 LANGUES SUIVANTES (LANGUES BERBERES DU MAROC OU DE L'ALGERIE) : LE TAMAZIGHT DE L'ATLAS CENTRAL (MAROC), LE TAMAZIGHT STANDARD MAROCAIN, LE TAMAZIGHT TIDIKELT (ALGERIE) ET LE TAMAZIGHT TEMACINE (ALGERIE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/43> a skos:Concept ;
+  skos:prefLabel "Langue Berbere" ;
+  skos:note "FAMILLE DE LANGUES DE LYBIE, D'EGYPTE, D'ALGERIE, DU MAROC, DE TUNISIE, DU NIGER, DU MALI, DE MAURITANIE ET D'ISRAEL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/218> a skos:Concept ;
+  skos:prefLabel "Rifain" ;
+  skos:note "LANGUE BERBERE DU NORD DU MAROC (RIF ORIENTAL)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/308> a skos:Concept ;
+  skos:prefLabel "Venitien" ;
+  skos:note "LANGUE D'ITALIE PARLEE EN VENETIE, DANS LES REGIONS VOISINES ET EGALEMENT EN CROATIE, AU BRESIL ET AU MEXIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/309> a skos:Concept ;
+  skos:prefLabel "Hopi" ;
+  skos:note "LANGUE DES HOPI DU SUD-OUEST DES ETATS-UNIS (ARIZONA, UTAH ET NOUVEAU MEXIQUE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/311> a skos:Concept ;
+  skos:prefLabel "Arabe Alepin" ;
+  skos:note "PARLER D'ALEP ISSU DE L'ARABE SYRIEN (ARABE DIALECTAL DU GROUPE DU LEVANT)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/313> a skos:Concept ;
+  skos:prefLabel "Kalasha" ;
+  skos:note "LANGUE DU PAKISTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/315> a skos:Concept ;
+  skos:prefLabel "Cokwe" ;
+  skos:note "LANGUE D'ANGOLA PARLEE EGALEMENT AU CONGO ET EN ZAMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/318> a skos:Concept ;
+  skos:prefLabel "Patois Francais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/321> a skos:Concept ;
+  skos:prefLabel "Medumba" ;
+  skos:note "LANGUE DU CAMEROUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/322> a skos:Concept ;
+  skos:prefLabel "Gogo" ;
+  skos:note "LANGUE DE TANZANIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/324> a skos:Concept ;
+  skos:prefLabel "Senoufo" ;
+  skos:note "LANGUE VOLTAIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/325> a skos:Concept ;
+  skos:prefLabel "Akan" ;
+  skos:note "GROUPE DE LANGUES DU GHANA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/326> a skos:Concept ;
+  skos:prefLabel "Slovaque" ;
+  skos:note "LANGUE NATIONALE DE SLOVAQUIE PARLEE EGALEMENT EN REPUBLIQUE TCHEQUE ET EN HONGRIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/329> a skos:Concept ;
+  skos:prefLabel "Kuanua" ;
+  skos:note "LANGUE DE PAPOUASIE NOUVELLE GUINEE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/330> a skos:Concept ;
+  skos:prefLabel "Gourague" ;
+  skos:note "LANGUE D'ETHIOPIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/334> a skos:Concept ;
+  skos:prefLabel "Luba" ;
+  skos:note "DESIGNE DIFFERENTES LANGUES DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/335> a skos:Concept ;
+  skos:prefLabel "Luba Katanga" ;
+  skos:note "LANGUE DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/249> a skos:Concept ;
+  skos:prefLabel "Swahili" ;
+  skos:note "LANGUE NATIONALE DE TANZANIE PARLEE EGALEMENT AU KENYA, AU MOZAMBIQUE ET EN SOMALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/336> a skos:Concept ;
+  skos:prefLabel "Mandarin" ;
+  skos:note "DESIGNE 2 LANGUES : LE MANDARIN STANDARD (OU CHINOIS STANDARD OU PUTONGHUA, LANGUE OFFICIELLE EN REPUBLIQUE POPULAIRE  DE CHINE ET UNE DES 4 LANGUES DE SINGAPOUR) ET LE MANDARIN (OU GUANHUA), C'EST-A-DIRE LES DIFFERENTS \"DIALECTES\" PARLES AU NORD, AU CENTRE ET AU SUD DE LA CHINE (LANGUE LA PLUS PARLEE AU MONDE)."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/340> a skos:Concept ;
+  skos:prefLabel "Chiquito" ;
+  skos:note "LANGUE DE BOLIVIE PARLEE EGALEMENT AU SUD DU BRESIL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/341> a skos:Concept ;
+  skos:prefLabel "Luri (iran)" ;
+  skos:note "TERME A UTILISER POUR DESIGNER UNE DES 2 LANGUES D'IRAN : LE LORI DU NORD ET LE LORI DU SUD. NE PAS CONFONDRE AVEC LA LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/342> a skos:Concept ;
+  skos:prefLabel "Laki" ;
+  skos:note "LANGUE D'IRAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/343> a skos:Concept ;
+  skos:prefLabel "Vieil Espagnol" ;
+  skos:note "AVANT 1500"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/346> a skos:Concept ;
+  skos:prefLabel "Carelien" ;
+  skos:note "LANGUE DE RUSSIE PARLEE EGALEMENT EN FINLANDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/355> a skos:Concept ;
+  skos:prefLabel "Vannetais" ;
+  skos:note "DIALECTE DU BRETON PARLE EN PAYS DE VANNES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/356> a skos:Concept ;
+  skos:prefLabel "Rushani" ;
+  skos:note "DIALECTE DU SHUGHNI, PARLE AU TAJIKISTAN ET EGALEMENT EN AFGHANISTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/357> a skos:Concept ;
+  skos:prefLabel "Shughni" ;
+  skos:note "LANGUE DU TADJIKISTAN PARLEE EGALEMENT EN AFGHANISTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/359> a skos:Concept ;
+  skos:prefLabel "Gueze" ;
+  skos:note "LANGUE DE L'EGLISE EGYPTIENNE, DEVENUE CELLE DE LA LITURGIE ORTHODOXE ETHIOPIENNE. A DONNE NAISSANCE A L'AMHARIQUE."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/361> a skos:Concept ;
+  skos:prefLabel "Campanien" ;
+  skos:note "DIALECTE DE L'ITALIEN, PARLE EN CAMPANIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/365> a skos:Concept ;
+  skos:prefLabel "Sindhi" ;
+  skos:note "LANGUE DU PAKISTAN PARLEE EGALEMENT EN INDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/366> a skos:Concept ;
+  skos:prefLabel "Newari" ;
+  skos:note "LANGUE DU NEPAL PARLEE EGALEMENT EN INDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/367> a skos:Concept ;
+  skos:prefLabel "Langue Amerindienne" ;
+  skos:note "ENSEMBLE DES LANGUES PARLEES PAR LES INDIENS D'AMERIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/368> a skos:Concept ;
+  skos:prefLabel "Baloutchi" ;
+  skos:note "GROUPE DE LANGUES DU PAKISTAN PARLEES EGALEMENT EN IRAN, EN AFGHANISTAN ET A OMAN ; COMPORTE PLUSIEURS GROUPES DE DIALECTES POUVANT CHACUN ETRE CONSIDERE COMME UNE LANGUE DISTINCTE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/369> a skos:Concept ;
+  skos:prefLabel "Bielorusse" ;
+  skos:note "LANGUE DE BIELORUSSIE PARLEE EGALEMENT EN EUROPE CENTRALE ET EN ASIE CENTRALE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/74> a skos:Concept ;
+  skos:prefLabel "Creole" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/86> a skos:Concept ;
+  skos:prefLabel "Diola" ;
+  skos:note "LANGUE DU SENEGAL EGALEMENT PARLEE EN GAMBIE ET EN GUINEE BISSAU"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/371> a skos:Concept ;
+  skos:prefLabel "Langue Inuit" ;
+  skos:note "FAMILLE DE LANGUES DU CANADA, DU GROENLAND ET DES ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/114> a skos:Concept ;
+  skos:prefLabel "Gbaya" ;
+  skos:note "GROUPE DE LANGUES DE REPUBLIQUE CENTRAFRICAINE QUI COMPREND : LE BOKOTO, LE GBAYA BOSSANGOA, LE GBAYA BOZOUM, LE GBAYA MBODOMO (PARLEE AU CAMEROUN) ET LES GBAYA DU NORD OUEST ET DU SUD OUEST."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/121> a skos:Concept ;
+  skos:prefLabel "Hassaniyya" ;
+  skos:note "LANGUE DE MAURITANIE PARLEE EGALEMENT AU MALI, AU MAROC, AU NIGER, AU SENEGAL ET AU SAHARA OCCIDENTAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/453> a skos:Concept ;
+  skos:prefLabel "Dialecte Allemand" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/454> a skos:Concept ;
+  skos:prefLabel "Ju'hoan" ;
+  skos:note "LANGUE DU BOTSWANA PARLEE EGALEMENT EN NAMIBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/455> a skos:Concept ;
+  skos:prefLabel "Kabre" ;
+  skos:note "LANGUE DU TOGO PARLEE EGALEMENT AU BENIN ET AU GHANA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/5> a skos:Concept ;
+  skos:prefLabel "Ainou" ;
+  skos:note "LANGUE DU JAPON ET DE RUSSIE, ISOLEE, PRESQUE ETEINTE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/8> a skos:Concept ;
+  skos:prefLabel "Allemand" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/11> a skos:Concept ;
+  skos:prefLabel "Amharique" ;
+  skos:note "LANGUE NATIONALE D'ETHIOPIE PARLEE EGALEMENT A DJIBOUTI ET EN ERYTHREE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/15> a skos:Concept ;
+  skos:prefLabel "Arabe" ;
+  skos:note "DESIGNE SOIT LA FAMILLE DE LANGUES ARABES SOIT L'ARABE STANDARD MODERNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/17> a skos:Concept ;
+  skos:prefLabel "Arabe Andalou" ;
+  skos:note "DIALECTE DE L'ARABE PARLE EN ESPAGNE MERIDIONALE DU VIIIEME SIELCE AU XVIEME SIECLE ET AU NORD DU XIEME AU XIIIEME SIECLE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/20> a skos:Concept ;
+  skos:prefLabel "Armenien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/24> a skos:Concept ;
+  skos:prefLabel "Auvergnat" ;
+  skos:note "DIALECTE DE L'OCCITAN PARLE EN AUVERGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/26> a skos:Concept ;
+  skos:prefLabel "Azeri" ;
+  skos:note "LANGUE D'AZERBAIDJAN ET D'IRAN PARLEE EGALEMENT DANS TOUTE LA REGION DE LA MER CASPIENNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/31> a skos:Concept ;
+  skos:prefLabel "Bambara" ;
+  skos:note "LANGUE DU MALI PARLEE EGALEMENT EN COTE D'IVOIRE, EN GAMBIE, EN MAURITANIE ET AU SENEGAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/33> a skos:Concept ;
+  skos:prefLabel "Bantou" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/46> a skos:Concept ;
+  skos:prefLabel "Birman" ;
+  skos:note "LANGUE DE BIRMANIE PARLEE AUSSI EN MALAISIE, EN THAILANDE ET AUX ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/51> a skos:Concept ;
+  skos:prefLabel "Cajun" ;
+  skos:note "PARLER ACADIEN DES ETATS UNIS (LOUISIANE) INFLUENCE PAR LE CREOLE LOUISIANAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/56> a skos:Concept ;
+  skos:prefLabel "Catalan" ;
+  skos:note "LANGUE D'ESPAGNE, DE FRANCE ET D'ANDORRE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/60> a skos:Concept ;
+  skos:prefLabel "Chewa" ;
+  skos:note "LANGUE DU MALAWI PARLEE EGALEMENT AU BOTSWANA, AU MOZAMBIQUE (OU ELLE PORTE LE NOM DE NYANJA), AU SWAZILAND, EN ZAMBIE (OU ELLE PORTE LE NOM DE CHICHEWA) ET AU ZIMBABWE (OU ELLE PORTE EGALEMENT LE NOM DE CHICHEWA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/64> a skos:Concept ;
+  skos:prefLabel "Tumbuka" ;
+  skos:note "LANGUE DU MALAWI PARLEE EGALEMENT EN ZAMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/69> a skos:Concept ;
+  skos:prefLabel "Comorien" ;
+  skos:note "DESIGNE UN GROUPE DE LANGUES PARLEES AU COMORES, A MAYOTTE ET A MADAGASCAR"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/71> a skos:Concept ;
+  skos:prefLabel "Coreen" ;
+  skos:note "LANGUE NATIONALE DE COREE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/75> a skos:Concept ;
+  skos:prefLabel "Creole-anglais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/78> a skos:Concept ;
+  skos:prefLabel "Croate" ;
+  skos:note "FORME CROATE DE LA LANGUE SERBO CROATE. LANGUE DE CROATIE PARLEE EGALEMENT EN BOSNIE HERZEGOVINE, EN SERBIE, EN AUTRICHE ET EN HONGRIE."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/80> a skos:Concept ;
+  skos:prefLabel "Jahanka" ;
+  skos:note "LANGUE DE GUINEE PARLEE EGALEMENT EN GUINEE BISSAU ET AU MALI. LE JAHANKA DE GAMBIE EST PROBABLEMENT LA MEME LANGUE OU UN DIALECTE DU MANINKAKAN DE L'OUEST. LE JAHANKA DU SENEGAL ET DE GUINEE BISSAU EST UN DIALECTE DU MANINKAKAN DE L'OUEST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/83> a skos:Concept ;
+  skos:prefLabel "Dialecte Italien" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/89> a skos:Concept ;
+  skos:prefLabel "Ecossais (gaelique)" ;
+  skos:note "LANGUE DE GRANDE BRETAGNE (ECOSSE). NE PAS CONFONDRE AVEC LE SCOTS, LANGUE ANGLO-SAXONNE DES LOWLANDS."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/95> a skos:Concept ;
+  skos:prefLabel "Estonien" ;
+  skos:note "GROUPE DE LANGUES D'ESTONIE QUI COMPREND L'ESTONIEN STANDARD ET LE VORO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/97> a skos:Concept ;
+  skos:prefLabel "Ewe" ;
+  skos:note "LANGUE DU GHANA PARLEE EGALEMENT AU TOGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/101> a skos:Concept ;
+  skos:prefLabel "Flamand" ;
+  skos:note "DESIGNE L'ENSEMBLE DES DIALECTES NEERLANDAIS PARLES EN BELGIQUE (FLANDRE), EN FRANCE (FLANDRE MARITIME) ET AU PAYS BAS (ZELANDE) ; PEUT EGALEMENT ETRE UTILISE EN TANT QUE SYNONYME DU NEERLANDAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/103> a skos:Concept ;
+  skos:prefLabel "Francais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/108> a skos:Concept ;
+  skos:prefLabel "Galicien" ;
+  skos:note "LANGUE D'ESPAGNE PARLEE EGALEMENT AU PORTUGAL. A NE CONFONDRE NI AVEC LE GALLAICO-PORTUGAIS NI AVEC LE GALLEGO-PORTUGAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/111> a skos:Concept ;
+  skos:prefLabel "Gallois" ;
+  skos:note "LANGUE DE GRANDE BRETAGNE (PAYS DE GALLES)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/118> a skos:Concept ;
+  skos:prefLabel "Grec Ancien" ;
+  skos:note "JUSQU'AU 6EME SIECLE DE NOTRE ERE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/122> a skos:Concept ;
+  skos:prefLabel "Hawaiien" ;
+  skos:note "LANGUE DES ILES HAWAII"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/126> a skos:Concept ;
+  skos:prefLabel "Hongrois" ;
+  skos:note "LANGUE NATIONALE (DE FAIT) DE HONGRIE."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/133> a skos:Concept ;
+  skos:prefLabel "Islandais" ;
+  skos:note "LANGUE NATIONALE (DE FAIT) D'ISLANDE PARLEE EGALEMENT AU CANADA, AU DANEMARK ET AUX ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/135> a skos:Concept ;
+  skos:prefLabel "Japonais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/140> a skos:Concept ;
+  skos:prefLabel "Kamba (kenya)" ;
+  skos:note "LANGUE DU KENYA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/144> a skos:Concept ;
+  skos:prefLabel "Kikuyu" ;
+  skos:note "LANGUE DU KENYA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/146> a skos:Concept ;
+  skos:prefLabel "Kinyarwanda" ;
+  skos:note "LANGUE DU RWANDA PARLEE EGALEMENT AU BURUNDI, EN REPUBLIQUE DEMOCRATIQUE DU CONGO ET EN OUGANDA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/149> a skos:Concept ;
+  skos:prefLabel "Lallans" ;
+  skos:note "DIALECTE DU SCOTS PRINCIPALEMENT LITTERAIRE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/152> a skos:Concept ;
+  skos:prefLabel "Langue Imaginaire" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/157> a skos:Concept ;
+  skos:prefLabel "Touva" ;
+  skos:note "LANGUE DE RUSSIE (SIBERIE, REPUBLIQUE DE TOUVA) PARLEE EGALEMENT EN CHINE ET EN MONGOLIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/160> a skos:Concept ;
+  skos:prefLabel "Langue Lapone" ;
+  skos:note "FAMILLE DE LANGUES DE SCANDINAVIE ET DE RUSSIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/162> a skos:Concept ;
+  skos:prefLabel "Letton" ;
+  skos:note "ENSEMBLE DE LANGUE PARLEES DE LETTONIE QUI COMPREND LE LATGALIAN ET LE LETTON STANDARD (LANGUE NATIONALE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/164> a skos:Concept ;
+  skos:prefLabel "Lituanien" ;
+  skos:note "LANGUE NATIONALE DE LITUANIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/169> a skos:Concept ;
+  skos:prefLabel "Malais" ;
+  skos:note "GRAND GROUPE DE LANGUES PARLEES EN MALAISIE, EN INDONESIE ET EN THAILANDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/171> a skos:Concept ;
+  skos:prefLabel "Langue Mandingue" ;
+  skos:note "FAMILLE DE LANGUES D'AFRIQUE DE L'OUEST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/174> a skos:Concept ;
+  skos:prefLabel "Langue Maya" ;
+  skos:note "FAMILLE DE LANGUES AMERINDIENNES D'AMERIQUE CENTRALE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/176> a skos:Concept ;
+  skos:prefLabel "Myene" ;
+  skos:note "LANGUE DU GABON"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/178> a skos:Concept ;
+  skos:prefLabel "Mongol" ;
+  skos:note "GROUPE DE LANGUES DE MONGOLIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/181> a skos:Concept ;
+  skos:prefLabel "Murrinh Patha" ;
+  skos:note "LANGUE D'AUSTRALIE (NORD)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/184> a skos:Concept ;
+  skos:prefLabel "Napolitain" ;
+  skos:note "DIALECTE PARLE A NAPLES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/187> a skos:Concept ;
+  skos:prefLabel "Neerlandais" ;
+  skos:note "LANGUE DES PAYS BAS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/190> a skos:Concept ;
+  skos:prefLabel "Nissart" ;
+  skos:note "PROVENCAL PARLE A NICE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/192> a skos:Concept ;
+  skos:prefLabel "Norvegien" ;
+  skos:note "LANGUE NATIONALE DE NORVEGE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/196> a skos:Concept ;
+  skos:prefLabel "Ouzbek" ;
+  skos:note "GROUPE DE LANGUE D'OUZBEKISTAN QUI COMPREND L'OUZBEK DU NORD, PARLE EN OUZBEKISTAN, AU TADJIKISTAN, AU TURKMENISTAN ET EN CHINE ET L'OUZBEK DU SUD PARLE EN AFGHANISTAN ET EN TURQUIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/207> a skos:Concept ;
+  skos:prefLabel "Poitevin" ;
+  skos:note "DIALECTE DU FRANCAIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/210> a skos:Concept ;
+  skos:prefLabel "Portugais" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/213> a skos:Concept ;
+  skos:prefLabel "Provencal" ;
+  skos:note "DIALECTE DE L'OCCITAN PARLE EN FRANCE (PROVENCE), EN ITALIE (PIEMONT) ET A MONACO. LE TERME PROVENCAL EST PARFOIS UTILISE COMME SYNONYME D'OCCITAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/217> a skos:Concept ;
+  skos:prefLabel "Rajasthani" ;
+  skos:note "ENSEMBLE DE LANGUES D'INDE. COMPREND LE BAGRI, LE GADE LOHAR, LE GUJARI, LE HAROTI, LE MALVI ET LE WAGDI"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/222> a skos:Concept ;
+  skos:prefLabel "Roumain" ;
+  skos:note "LANGUE DE ROUMANIE PARLEE EGALEMENT EN MOLDAVIE ET DANS D'AUTRES PAYS D'EUROPE DE L'EST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/224> a skos:Concept ;
+  skos:prefLabel "Sabir" ;
+  skos:note "LANGUE COMPOSITE MELEE D'ARABE, D'ITALIEN, D'ESPAGNOL ET DE FRANCAIS PARLEE EN AFRIQUE DU NORD PENDANT LA COLONISATION FRANCAISE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/227> a skos:Concept ;
+  skos:prefLabel "Sango" ;
+  skos:note "LANGUE NATIONALE DE LA REPUBLIQUE CENTRAFRICAINE PARLEE EGALEMENT AU TCHAD ET DANS LES CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/232> a skos:Concept ;
+  skos:prefLabel "Serbo-croate" ;
+  skos:note "GROUPE DE LANGUES DE SERBIE. COMPREND LE BOSNIAQUE, LE CROATE ET LE SERBE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/235> a skos:Concept ;
+  skos:prefLabel "Sicilien" ;
+  skos:note "LANGUE D'ITALIE (SICILE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/243> a skos:Concept ;
+  skos:prefLabel "Soninke" ;
+  skos:note "LANGUE DU MALI PARLEE DANS UNE GRANDE PARTIE DE L'AFRIQUE DE L'OUEST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/245> a skos:Concept ;
+  skos:prefLabel "Sotho" ;
+  skos:note "DESIGNE 2 LANGUES : LE SOTHO DU SUD, LANGUE NATIONALE DU LESOTHO PARLEE EGALEMENT AU BOTSWANA, EN AFRIQUE DU SUD ET AU SWAZILAND,  ET LE SOTHO DU NORD, LANGUE NATIONALE D'AFRIQUE DU SUD PARLEE EGALEMENT AU BOTSWANA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/248> a skos:Concept ;
+  skos:prefLabel "Suedois" ;
+  skos:note "LANGUE NATIONALE DE SUEDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/252> a skos:Concept ;
+  skos:prefLabel "Tadjik" ;
+  skos:note "LANGUE PERSANE PARLEE AU TADJIKISTAN ET EGALEMENT EN OUZBEKISTAN, AU KIRGHIZISTAN, AU KAZAKHSTAN, EN AFGHANISTAN ET EN CHINE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/254> a skos:Concept ;
+  skos:prefLabel "Tagalog" ;
+  skos:note "LANGUE DES PHILIPPINES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/257> a skos:Concept ;
+  skos:prefLabel "Tamaschek" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/260> a skos:Concept ;
+  skos:prefLabel "Tcheque" ;
+  skos:note "LANGUE NATIONALE DE LA REPUBLIQUE TCHEQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/263> a skos:Concept ;
+  skos:prefLabel "Teke" ;
+  skos:note "DESIGNE 5 FAMILLES DE LANGUES DU GABON, DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO ET DU KENYA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/266> a skos:Concept ;
+  skos:prefLabel "Tewa" ;
+  skos:note "LANGUE DES ETATS UNIS (NOUVEAU MEXIQUE ET ARIZONA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/269> a skos:Concept ;
+  skos:prefLabel "Tigre" ;
+  skos:note "LANGUE D'ERYTHREE PARLEE EGALEMENT AU SOUDAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/271> a skos:Concept ;
+  skos:prefLabel "Tongien" ;
+  skos:note "LANGUE NATIONALE, AVEC L'ANGLAIS, DES ILES TONGA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/272> a skos:Concept ;
+  skos:prefLabel "Toscan" ;
+  skos:note "DIALECTE DE L'ITALIEN, PARLE EN TOSCANE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/275> a skos:Concept ;
+  skos:prefLabel "Turc" ;
+  skos:note "LANGUE NATIONALE DE TURQUIE PARLEE EGALEMENT DANS PLUSIEURS PAYS DES BALKANS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/279> a skos:Concept ;
+  skos:prefLabel "Umbundu" ;
+  skos:note "LANGUE D'ANGOLA PARLEE EGALEMENT EN NAMIBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/282> a skos:Concept ;
+  skos:prefLabel "Vieil Allemand" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/285> a skos:Concept ;
+  skos:prefLabel "Vietnamien" ;
+  skos:note "LANGUE DU VIETNAM PARLEE EGALEMENT AU CAMBODGE ET EN CHINE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/288> a skos:Concept ;
+  skos:prefLabel "Vieux Francais" ;
+  skos:note "AVANT 1300"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/293> a skos:Concept ;
+  skos:prefLabel "Xhosa" ;
+  skos:note "LANGUE NATIONALE D'AFRIQUE DU SUD PARLEE EGALEMENT AU BOTSWANA ET AU LESOTHO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/295> a skos:Concept ;
+  skos:prefLabel "Yoruba" ;
+  skos:note "LANGUE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/297> a skos:Concept ;
+  skos:prefLabel "Zuni" ;
+  skos:note "LANGUE DES ETATS UNIS (NOUVEAU MEXIQUE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/456> a skos:Concept ;
+  skos:prefLabel "Tchetchene" ;
+  skos:note "LANGUE DE RUSSIE, PRINCIPALEMENT DE TCHETCHENIE ET DU DAGHESTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/458> a skos:Concept ;
+  skos:prefLabel "Aja (benin)" ;
+  skos:note "LANGUE DU BENIN PARLEE EGALEMENT AU TOGO. NE PAS CONFONDRE AVEC LA LANGUE AJA DU SOUDAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/459> a skos:Concept ;
+  skos:prefLabel "Genois" ;
+  skos:note "DIALECTE DU LIGURIEN PARLE A GENES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/461> a skos:Concept ;
+  skos:prefLabel "Akkadien" ;
+  skos:note "LANGUE UTILISEE EN MESOPOTAMIE ENTRE LE 3EME ET LE 1ER MILLENAIRE AVANT JC."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/462> a skos:Concept ;
+  skos:prefLabel "Ougaritique" ;
+  skos:note "LANGUE EMPLOYEE EN PHENICIE (XVEME - XIIEME SIECLE AV JC), CONNUE PAR DES TABLETTES CUNEIFORMES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/463> a skos:Concept ;
+  skos:prefLabel "Kissi" ;
+  skos:note "DESIGNE 2 LANGUES : LE KISSI DU NORD, LANGUE DE GUINEE PARLEE EGALEMENT EN SIERRA LEONE, ET LE KISI DU SUD, LANGUE DU LIBERIA PARLEE EGALEMENT EN SIERRA LEONE ; NE PAS CONFONDRE AVEC LE KISI, LANGUE DE TANZANIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/464> a skos:Concept ;
+  skos:prefLabel "Mende" ;
+  skos:note "LANGUE DU SIERRA LEONE PARLEE EGALEMENT AU LIBERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/465> a skos:Concept ;
+  skos:prefLabel "Walser" ;
+  skos:note "LANGUE ALEMANIQUE DE SUISSE PARLEE EGALEMENT EN AUTRICHE, EN ITALIE ET AU LIECHTENSTEIN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/467> a skos:Concept ;
+  skos:prefLabel "Zaza" ;
+  skos:note "GROUPE DE LANGUES DE TURQUIE. COMPREND LE ZAZAKI DU NORD ET LE ZAZAKI DU SUD"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/470> a skos:Concept ;
+  skos:prefLabel "Soureth" ;
+  skos:note "DIALECTE DE L'ARAMEEN PARLE PRINCIPALEMENT EN IRAK ET EN SYRIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/472> a skos:Concept ;
+  skos:prefLabel "Salampasu" ;
+  skos:note "LANGUE DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/473> a skos:Concept ;
+  skos:prefLabel "Dialecte Sarde" ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/475> a skos:Concept ;
+  skos:prefLabel "Pachto" ;
+  skos:note "DESIGNE 3 LANGUES : LE PACHTO CENTRAL LANGUE DU PAKISTAN, LE PACHTO DU NORD LANGUE DU PAKISTAN PARLEE EGALEMENT EN AFGHANISTAN ET LE PACHTO DU SUD LANGUE D'AFGHANISTAN PARLEE EGALEMENT AU PAKISTAN, EN IRAN, AU TADJIKISTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/476> a skos:Concept ;
+  skos:prefLabel "Dari" ;
+  skos:note "LANGUE PERSANE PARLEE EN AFGHANISTAN, EN IRAN ET AU PAKISTAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/477> a skos:Concept ;
+  skos:prefLabel "Palenquero" ;
+  skos:note "LANGUE DE COLOMBIE PARLEE DANS LE NORD DU PAYS PAR LES AFRO COLOMBIENS DE SAN BASILIO DE PALENQUE ET DE BARRANQUILLA. CREOLE ESPAGNOL METISSE DE KONGO."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/478> a skos:Concept ;
+  skos:prefLabel "Aja (soudan)" ;
+  skos:note "LANGUE DU SUD SOUDAN. NE PAS CONFONDRE AVEC LA LANGUE ADJA DU BENIN ET DU TOGO."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/479> a skos:Concept ;
+  skos:prefLabel "Eton (vanuatu)" ;
+  skos:note "LANGUE DU VANUATU"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/480> a skos:Concept ;
+  skos:prefLabel "Kamba (bresil)" ;
+  skos:note "LANGUE DU BRESIL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/482> a skos:Concept ;
+  skos:prefLabel "Kaansa" ;
+  skos:note "LANGUE DU BURKINA FASO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/483> a skos:Concept ;
+  skos:prefLabel "Guahibo" ;
+  skos:note "LANGUE DE COLOMBIE PARLEE EGALEMENT AU VENEZUELA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/484> a skos:Concept ;
+  skos:prefLabel "Piaroa" ;
+  skos:note "LANGUE DU VENEZUELA PARLEE EGALEMENT EN COLOMBIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/485> a skos:Concept ;
+  skos:prefLabel "Tzotzil" ;
+  skos:note "LANGUE DU MEXIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/486> a skos:Concept ;
+  skos:prefLabel "Mirandais" ;
+  skos:note "LANGUE DU PORTUGAL"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/487> a skos:Concept ;
+  skos:prefLabel "Valaisan" ;
+  skos:note "DIALECTE DE L'ARPITAN (OU FRANCOPROVENCAL) PARLE EN SUISSE (VALAIS)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/488> a skos:Concept ;
+  skos:prefLabel "Komi" ;
+  skos:note "GROUPE DE LANGUES DE RUSSIE QUI COMPREND LE KOMI-PERMYAK ET LE KOMI-ZYRIAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/489> a skos:Concept ;
+  skos:prefLabel "Mbosi" ;
+  skos:note "LANGUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/490> a skos:Concept ;
+  skos:prefLabel "Csango" ;
+  skos:note "DIALECTE DU HONGROIS PARLE EN ROUMANIE (MOLDAVIE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/491> a skos:Concept ;
+  skos:prefLabel "Haruku" ;
+  skos:note "LANGUE D'INDONESIE (MOLUQUES)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/492> a skos:Concept ;
+  skos:prefLabel "Marathi" ;
+  skos:note "LANGUE D'INDE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/493> a skos:Concept ;
+  skos:prefLabel "Yorta Yorta" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/494> a skos:Concept ;
+  skos:prefLabel "Bwamu" ;
+  skos:note "DESIGNE 2 LANGUES DU BURKINA FASO : LE BWAMU CWI ET LE BWAMU LAA LAA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/495> a skos:Concept ;
+  skos:prefLabel "Zarma" ;
+  skos:note "LANGUE DU NIGER PARLEE EGALEMENT AU BURKINA FASO, AU MALI ET AU NIGER"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/496> a skos:Concept ;
+  skos:prefLabel "Bedawiyet" ;
+  skos:note "LANGUE DU SOUDAN PARLEE EGALEMENT EN EGYPTE ET EN ERYTHREE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/497> a skos:Concept ;
+  skos:prefLabel "Pitjantjatjara" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/498> a skos:Concept ;
+  skos:prefLabel "Songo" ;
+  skos:note "DESIGNE 2 LANGUES POSSIBLEMENT IDENTIQUES, DE L'ANGOLA ET DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/499> a skos:Concept ;
+  skos:prefLabel "Kannada" ;
+  skos:note "LANGUE D'INDE (KARNATAKA, ANDHRA PRADESH, TAMIL NADU ET MAHARASHTRA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/500> a skos:Concept ;
+  skos:prefLabel "Gurung" ;
+  skos:note "DESIGNE 2 LANGUES DU NEPAL : LE GURUNG DE L'EST ET LE GURUNG DE L'OUEST"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/501> a skos:Concept ;
+  skos:prefLabel "Budu" ;
+  skos:note "LANGUE DE LA REPUBLIQUE DEMOCRATIQUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/502> a skos:Concept ;
+  skos:prefLabel "Nyoro" ;
+  skos:note "LANGUE D'OUGANDA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/503> a skos:Concept ;
+  skos:prefLabel "Nyankore" ;
+  skos:note "LANGUE D'OUGANDA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/504> a skos:Concept ;
+  skos:prefLabel "Zapoteque" ;
+  skos:note "TRES GRAND GROUPE DE LANGUES DU MEXIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/505> a skos:Concept ;
+  skos:prefLabel "Moksha" ;
+  skos:note "LANGUE DE RUSSIE (MORDOVIE ET TARTASTAN)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/506> a skos:Concept ;
+  skos:prefLabel "Erzya" ;
+  skos:note "LANGUE DE RUSSIE (MORDOVIE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/507> a skos:Concept ;
+  skos:prefLabel "Canichana" ;
+  skos:note "LANGUE DE BOLIVIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/508> a skos:Concept ;
+  skos:prefLabel "Nhengatu" ;
+  skos:note "LANGUE DU BRESIL PARLEE EGALEMENT EN COLOMBIE ET AU VENEZUELA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/509> a skos:Concept ;
+  skos:prefLabel "Shuar" ;
+  skos:note "LANGUE DE L'EQUATEUR"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/510> a skos:Concept ;
+  skos:prefLabel "Seneca" ;
+  skos:note "LANGUE DES ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/511> a skos:Concept ;
+  skos:prefLabel "Tswana" ;
+  skos:note "LANGUE DU BOTSWANA PARLEE EGALEMENT EN NAMIBIE, EN AFRIQUE DU SUD ET AU ZIMBABWE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/512> a skos:Concept ;
+  skos:prefLabel "Kota" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/513> a skos:Concept ;
+  skos:prefLabel "Toda" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/514> a skos:Concept ;
+  skos:prefLabel "Irula" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/515> a skos:Concept ;
+  skos:prefLabel "Betta Kurumba" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/516> a skos:Concept ;
+  skos:prefLabel "Alu Kurumba" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/517> a skos:Concept ;
+  skos:prefLabel "Farefare" ;
+  skos:note "LANGUE DU GHANA PARLEE EGALEMENT AU BURKINA FASO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/518> a skos:Concept ;
+  skos:prefLabel "Bichlamar" ;
+  skos:note "LANGUE DU VANUATU PARLEE EGALEMENT EN NOUVELLE CALEDONIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/519> a skos:Concept ;
+  skos:prefLabel "Nganassan" ;
+  skos:note "LANGUE DE RUSSIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/520> a skos:Concept ;
+  skos:prefLabel "Selkoup" ;
+  skos:note "LANGUE DE RUSSIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/521> a skos:Concept ;
+  skos:prefLabel "Nenets" ;
+  skos:note "LANGUE DE RUSSIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/522> a skos:Concept ;
+  skos:prefLabel "Mina (cameroun)" ;
+  skos:note "LANGUE DU CAMEROUN (NORD). NE PAS CONFONDRE AVEC LE GEN DU TOGO ET BENIN APPELE SOUVENT MINA."@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/523> a skos:Concept ;
+  skos:prefLabel "Drehu" ;
+  skos:note "LANGUE DE NOUVELLE CALEDONIE (LIFOU ET TIGA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/524> a skos:Concept ;
+  skos:prefLabel "Nengone" ;
+  skos:note "LANGUE DE NOUVELLE CALEDONIE (ILES MARE ET TIGA)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/525> a skos:Concept ;
+  skos:prefLabel "Arberisht" ;
+  skos:note "LANGUE DES ALBANAIS D'ITALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/526> a skos:Concept ;
+  skos:prefLabel "Salentin" ;
+  skos:note "DIALECTE DE L'ITALIEN (OU DU GREC SELON LES SOURCES) PARLE EN ITALIE DANS LA REGION DES POUILLES (PENINSULE SALENTINE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/527> a skos:Concept ;
+  skos:prefLabel "Piemontais" ;
+  skos:note "LANGUE D'ITALIE (PIEMONT)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/528> a skos:Concept ;
+  skos:prefLabel "Gallurien" ;
+  skos:note "LANGUE PARLEE EN GALLURA (NORD EST DE LA SARDAIGNE), CONSIDEREE SELON LES SOURCES, SOIT COMME APPARTENANT AU GROUPE SARDE, SOIT COMME ETANT UN PARLER ITALO-TOSCAN TRES PROCHE DE LA LANGUE CORSE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/529> a skos:Concept ;
+  skos:prefLabel "Tenga" ;
+  skos:note "DIALECTE DU SOGA PARLE EN OUGANDA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/530> a skos:Concept ;
+  skos:prefLabel "Totonaque" ;
+  skos:note "GROUPE DE 9 LANGUES DU MEXIQUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/531> a skos:Concept ;
+  skos:prefLabel "Camtho" ;
+  skos:note "LANGUE D'AFRIQUE DU SUD (SOWETHO, JOHANNESBOURG, QUARTIERS URBAINS)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/534> a skos:Concept ;
+  skos:prefLabel "Waray Waray" ;
+  skos:note "LANGUE DES PHILIPPINES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/535> a skos:Concept ;
+  skos:prefLabel "Naxi" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/537> a skos:Concept ;
+  skos:prefLabel "Grec Byzantin" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/538> a skos:Concept ;
+  skos:prefLabel "Dendi" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/539> a skos:Concept ;
+  skos:prefLabel "Bariba" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/540> a skos:Concept ;
+  skos:prefLabel "Tokelau" ;
+  skos:note "LANGUE DE L'ILE TOKELAU"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/541> a skos:Concept ;
+  skos:prefLabel "Amis" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/542> a skos:Concept ;
+  skos:prefLabel "Atayal" ;
+  skos:note "LANGUE DE TAWAIN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/543> a skos:Concept ;
+  skos:prefLabel "Bunun" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/544> a skos:Concept ;
+  skos:prefLabel "Paiwan" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/545> a skos:Concept ;
+  skos:prefLabel "Puyuma" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/546> a skos:Concept ;
+  skos:prefLabel "Rukai" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/547> a skos:Concept ;
+  skos:prefLabel "Taroko" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/548> a skos:Concept ;
+  skos:prefLabel "Tsou" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/549> a skos:Concept ;
+  skos:prefLabel "Yami" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/550> a skos:Concept ;
+  skos:prefLabel "Yabem" ;
+  skos:note "LANGUE DE PAPOUASIE NOUVELLE GUINEE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/551> a skos:Concept ;
+  skos:prefLabel "Saisiyat" ;
+  skos:note "LANGUE DE TAIWAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/552> a skos:Concept ;
+  skos:prefLabel "Gumatj" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/553> a skos:Concept ;
+  skos:prefLabel "Djambarrpuyngu" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/554> a skos:Concept ;
+  skos:prefLabel "Golpa" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/555> a skos:Concept ;
+  skos:prefLabel "Warlpiri" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/556> a skos:Concept ;
+  skos:prefLabel "Karadjeri" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/557> a skos:Concept ;
+  skos:prefLabel "Wik Ngathana" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/558> a skos:Concept ;
+  skos:prefLabel "Worrorra" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/559> a skos:Concept ;
+  skos:prefLabel "Anindilyakwa" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/560> a skos:Concept ;
+  skos:prefLabel "Dhuwal" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/561> a skos:Concept ;
+  skos:prefLabel "Djapu" ;
+  skos:note "DIALECTE DU DHUWAL (LANGUE D'AUSTRALIE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/562> a skos:Concept ;
+  skos:prefLabel "Olkol" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/563> a skos:Concept ;
+  skos:prefLabel "Kuuku Ya'u" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/564> a skos:Concept ;
+  skos:prefLabel "Kanju" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/565> a skos:Concept ;
+  skos:prefLabel "Umpila" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/566> a skos:Concept ;
+  skos:prefLabel "Thawa" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/568> a skos:Concept ;
+  skos:prefLabel "Kwini" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/569> a skos:Concept ;
+  skos:prefLabel "Nyulnyul" ;
+  skos:note "LANGUE D'AUSTRALIE (ETEINTE)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/570> a skos:Concept ;
+  skos:prefLabel "Yawuru" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/571> a skos:Concept ;
+  skos:prefLabel "Walmajarri" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/572> a skos:Concept ;
+  skos:prefLabel "Gooniyandi" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/573> a skos:Concept ;
+  skos:prefLabel "Nunggubuyu" ;
+  skos:note "LANGUE D'AUSTRALIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/574> a skos:Concept ;
+  skos:prefLabel "Campidanien" ;
+  skos:note "LANGUE DU GROUPE SARDE PARLEE DANS LE SUD DE LA SARDAIGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/575> a skos:Concept ;
+  skos:prefLabel "Logoudorien" ;
+  skos:note "LANGUE DU GROUPE SARDE PARLEE DANS LE CENTRE NORD DE LA SARDAIGNE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/576> a skos:Concept ;
+  skos:prefLabel "Sassarien" ;
+  skos:note "LANGUE PARLE EN SARDAIGNE (REGION DE SASSARI) CONSIDEREE SELON LES SOURCES SOIT COMME APPARTENANT AU GROUPE SARDE SOIT COMME ETANT UN PARLER ITALO-TOSCAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/577> a skos:Concept ;
+  skos:prefLabel "Mannois (gaelique)" ;
+  skos:note "LANGUE DU GROUPE GAELIQUE PARLEE SUR L'ILE DE MAN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/579> a skos:Concept ;
+  skos:prefLabel "Nawdm" ;
+  skos:note "LANGUE DU TOGO PARLEE EGALEMENT AU GHANA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/580> a skos:Concept ;
+  skos:prefLabel "Oneida" ;
+  skos:note "LANGUE DU CANADA PARLEE EGALEMENT AUX ETATS UNIS"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/581> a skos:Concept ;
+  skos:prefLabel "Anglo Normand" ;
+  skos:note "LANGUE D'OIL PARLEE EN NORMANDIE AU MOYEN AGE, PUIS EN ANGLETERRE APRES LA CONQUETE NORMANDE, A L'ORIGINE DES DIALECTES ACTUELS DES ILES ANGLO NORMANDES"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/582> a skos:Concept ;
+  skos:prefLabel "Banyumas" ;
+  skos:note "DIALECTE DU JAVANAIS (JAVA CENTRAL)"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/583> a skos:Concept ;
+  skos:prefLabel "Kaonde" ;
+  skos:note "LANGUE DE ZAMBIE PARLEE EGALEMENT EN REPUBLIQUE DEMOCRATIQUE DU CONGO"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/584> a skos:Concept ;
+  skos:prefLabel "Kalaallisut" ;
+  skos:note "LANGUE INUIT DU GROENLAND"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/585> a skos:Concept ;
+  skos:prefLabel "Monumbo" ;
+  skos:note "LANGUE DE PAPOUASIE NOUVELLE GUINEE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/586> a skos:Concept ;
+  skos:prefLabel "Luri (nigeria)" ;
+  skos:note "LANGUE ETEINTE DU NIGERIA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/587> a skos:Concept ;
+  skos:prefLabel "Fribourgeois" ;
+  skos:note "DIALECTE DU FRANCAIS PARLE DANS LA PARTIE ROMANDE DU CANTON DE FRIBOURG (SUISSE). IL EXISTE PLUSIEURS PARLERS FRIBOURGEOIS : LE GRUVERIN, LE PATOIS DE LA HAUTE GLANE, LE BROYARD ET LE KOUETSE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/588> a skos:Concept ;
+  skos:prefLabel "Mozarabe" ;
+  skos:note "DIALECTE ARCHAIQUE DE L'ESPAGNOL PARLE PAR LES CHRETIENS DANS LES PARTIES DE L'ESPAGNE SOUS DOMINATION ARABE ENTRE LE VIIIEME SIECLE ET LE XIIIEME SIECLE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/589> a skos:Concept ;
+  skos:prefLabel "Lakota" ;
+  skos:note "LANGUE SIOUX D'AMERIQUE PARLEE EGALEMENT AU CANADA"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/590> a skos:Concept ;
+  skos:prefLabel "Creek" ;
+  skos:note "LANGUE DES ETATS UNIS. LE MEME TERME DESIGNE UN DIALECTE DE CETTE LANGUE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/591> a skos:Concept ;
+  skos:prefLabel "Nda'nda'" ;
+  skos:note "LANGUE DU CAMEROUN"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/592> a skos:Concept ;
+  skos:prefLabel "Arabe Marocain" ;
+  skos:note "LANGUE ARABE MAGHREBINE PARLEE AU MAROC"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/593> a skos:Concept ;
+  skos:prefLabel "Manipravalam" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/594> a skos:Concept ;
+  skos:prefLabel "Arabe Algerien" ;
+  skos:note "LANGUE ARABE MAGHREBINE PARLEE EN ALGERIE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/595> a skos:Concept ;
+  skos:prefLabel "Kenzi" ;
+  skos:note "LANGUE D'EGYPTE"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/596> a skos:Concept ;
+  skos:prefLabel "Dialecte Autriche" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
+
+<http://data.doremus.org/vocabulary/diabolo/lang/597> a skos:Concept ;
+  skos:prefLabel "Oromo" ;
+  skos:note "Nouveau Terme"@fr ;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/lang/> .
