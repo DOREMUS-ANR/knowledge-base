@@ -3,11 +3,7 @@
  */
 
 const fs = require('fs'),
-    rdfTranslator = require('rdf-translator'),
-    $rdf = require('rdflib');
-
-const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
-    MODS = $rdf.Namespace("http://www.loc.gov/standards/mods/rdf/v1/#");
+    rdfTranslator = require('rdf-translator');
 
 var file = __dirname + '/../vocabularies/catalogue.ttl';
 
@@ -29,7 +25,7 @@ rdfData = rdfData.replace(correctionRegex, (match, $1, $2, $3, $4, $5, $6) => {
 console.log(`Formatting the rdf`);
 rdfTranslator(rdfData, 'n3', 'n3', function(err, data) {
     if (err) return console.error(err);
-    
+
     data = data.replace(/=/g, "owl:sameAs");
     writeTtl(data);
 });

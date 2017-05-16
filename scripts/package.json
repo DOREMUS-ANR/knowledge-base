@@ -22,12 +22,15 @@
     "esversion": 6
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.4.0",
     "csv-parser": "^1.11.0",
     "iso-language-converter": "^1.1.0",
     "rdf-translator": "0.0.0",
-    "rdflib": "^0.13.0",
+    "rdflib": "git+https://git@github.com/royludo/rdflib.js.git",
     "request": "^2.81.0",
-    "to-sentence-case": "^1.0.0"
+    "request-promise-native": "^1.0.4",
+    "sparql-client": "^0.2.0",
+    "to-sentence-case": "^1.0.0",
+    "xml2json": "^0.11.0"
   }
 }
