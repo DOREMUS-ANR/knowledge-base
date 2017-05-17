@@ -22,15 +22,21 @@ var DBP = $rdf.Namespace("http://dbpedia.org/property/");
 
 var store = $rdf.graph();
 
-var artists;
+var artists, art_len;
+var done = 0;
 getArtistsFromSparql().then((res) => {
   artists = res.map((r) => ({
     doremus_uri: r.s.value,
     isni_uri: r.isni.value,
     isni: r.isni.value.replace('http://isni.org/isni/', '')
   }));
+  art_len = artists.length;
+
+  console.log(`Start processing of ${art_len} artists.`);
+
 
   async.eachSeries(artists, (a, callback) => {
+    console.log(`Artist ${++done}/${art_len}`);
     getViafFromIsni(a).then(getInfoFromDBpedia)
       .then(a => {
         let art = $rdf.sym(a.doremus_uri);
@@ -108,9 +114,9 @@ function getInfoFromDBpedia(artist) {
       let data = res.results.bindings;
       let d0 = data[0];
 
-      if(!d0) return resolve(artist); // no data
+      if (!d0) return resolve(artist); // no data
 
-      if(d0.redirect) return followRedirect(artist, d0.redirect.value, resolve,reject);
+      if (d0.redirect) return followRedirect(artist, d0.redirect.value, resolve, reject);
 
       artist.dbpedia_uri = d0.dbpedia.value;
       artist.picture = d0.picture && d0.picture.value;
@@ -124,10 +130,10 @@ function getInfoFromDBpedia(artist) {
 }
 
 function followRedirect(artist, uri, resolve, reject) {
-    artist.dbpedia_uri = uri;
-    let endpoint = (artist.wikipedia_uri.includes('fr.wikipedia.org')) ? frDbpediaEndpoint : dbpediaEndpoint;
+  artist.dbpedia_uri = uri;
+  let endpoint = (artist.wikipedia_uri.includes('fr.wikipedia.org')) ? frDbpediaEndpoint : dbpediaEndpoint;
 
-    let query = `
+  let query = `
         PREFIX dbp: <http://dbpedia.org/property>
         PREFIX dbo: <http://dbpedia.org/ontology/>
         SELECT * WHERE {
@@ -137,20 +143,20 @@ function followRedirect(artist, uri, resolve, reject) {
         <${uri}> rdfs:comment ?comment
         }`;
 
-    console.log("REDIRECT: New query to DBpedia: " + query);
-    endpoint.query(query).execute((err, res) => {
-      if (err) return reject(err);
-      let data = res.results.bindings;
-      let d0 = data[0];
+  console.log("REDIRECT: New query to DBpedia: " + query);
+  endpoint.query(query).execute((err, res) => {
+    if (err) return reject(err);
+    let data = res.results.bindings;
+    let d0 = data[0];
 
-      if(!d0) return resolve(artist); // no data
+    if (!d0) return resolve(artist); // no data
 
-      artist.picture = d0.picture && d0.picture.value;
-      artist.birthPlace = d0.birthPlace && d0.birthPlace.value;
-      artist.deathPlace = d0.deathPlace && d0.deathPlace.value;
-      artist.comment = data.map(d => d.comment);
-      resolve(artist);
-    });
+    artist.picture = d0.picture && d0.picture.value;
+    artist.birthPlace = d0.birthPlace && d0.birthPlace.value;
+    artist.deathPlace = d0.deathPlace && d0.deathPlace.value;
+    artist.comment = data.map(d => d.comment);
+    resolve(artist);
+  });
 
 }
 
@@ -164,23 +170,26 @@ function getViafFromIsni(artist) {
           query: `pica.isn = "${artist.isni}"`
         }
       }).then(res => {
-        console.log(artist.isni);
+        console.log('ISNI: ' + artist.isni);
         // fs.writeFile('../artists-interlinking/' + artist.isni + '.xml', res, 'utf8');
 
         let data = JSON.parse(xml2json.toJson(res));
-        let fields = data['ZiNG:searchRetrieveResponse']['ZiNG:records']['ZiNG:record']['ZiNG:recordData'].collection.record.datafield;
+        let record = data['ZiNG:searchRetrieveResponse']['ZiNG:records']['ZiNG:record'];
+        artist.viaf = [];
+        artist.wikidata = [];
+        artist.musicbrainz = [];
+
+        if (!record) return resolve(artist);
+        if(Array.isArray(record)) record = record[0];
+
+        let fields = record['ZiNG:recordData'].collection.record.datafield;
         let ids = fields.filter(f => f.tag = '003Z');
         let viafIds = ids.filter(f => hasSubfield(f, 'l', 'VIAF'));
         let wikidataIds = ids.filter(f => hasSubfield(f, "2", 'WKP')).filter(f => hasSubfield(f, '0'));
         let musicBrainzIds = ids.filter(f => hasSubfield(f, "l", 'MUBZ'));
 
-        artist.viaf = [];
         viafIds.forEach(v => artist.viaf.push(getSubfield(v, "0")));
-
-        artist.wikidata = [];
         wikidataIds.forEach(w => artist.wikidata.push(getSubfield(w, "0")));
-
-        artist.musicbrainz = [];
         musicBrainzIds.forEach(w => artist.musicbrainz.push(getSubfield(w, "0")));
 
         let wikipediaCandidates = ids.filter(f => hasSubfield(f, "b", 'Wikipedia'));
@@ -219,7 +228,7 @@ function getArtistsFromSparql() {
     owl:sameAs ?isni
 
     FILTER contains(str(?isni), 'isni')
-  } limit 10`;
+  }`;
 
 
     console.log("Query to DOREMUS: " + query);
