@@ -84,6 +84,14 @@ getArtistsFromSparql().then((res) => {
     $rdf.serialize(undefined, store, 'http://example.org', 'text/turtle', (err, str) => {
       if (err) return console.error(err);
 
+      // workaround https://github.com/linkeddata/rdflib.js/issues/185
+      let linkUriRegex = /link:uri((?:\s+"(http.+)",?)+);/g;
+      str = str.replace(linkUriRegex, (match, p1) => {
+        let uris = p1.split(',').map(u => '<' + u.replace(/"/g, '').trim() + '>');
+        return 'owl:sameAs ' + uris.join(',\n        ') + ';';
+      });
+      // END workaround
+
       fs.writeFile('../data/artists.ttl', str, 'utf8');
     });
 
@@ -180,7 +188,7 @@ function getViafFromIsni(artist) {
         artist.musicbrainz = [];
 
         if (!record) return resolve(artist);
-        if(Array.isArray(record)) record = record[0];
+        if (Array.isArray(record)) record = record[0];
 
         let fields = record['ZiNG:recordData'].collection.record.datafield;
         let ids = fields.filter(f => f.tag = '003Z');
