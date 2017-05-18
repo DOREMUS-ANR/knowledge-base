@@ -21,7 +21,7 @@
     dct:issued "2017-01-24"^^xsd:date ;
     dct:language <http://id.loc.gov/vocabulary/iso639-1/en>,
         <http://id.loc.gov/vocabulary/iso639-1/fr> ;
-    dct:modified "2017-02-23"^^xsd:date ;
+    dct:modified "2017-05-18"^^xsd:date ;
     dct:title "Catalogue"@en,
         "Catalogue"@fr,
         "Catalogo"@it ;
@@ -192,6 +192,7 @@
     modsrdf:namePrincipal "Knape, Walter" ;
     modsrdf:publisher "W. Knape (Cuxhaven)" ;
     modsrdf:subjectName "ABEL, CARL FRIEDRICH (1723-1787)" ;
+    dct:subject <http://data.doremus.org/artist/1cb4406b-a3e7-3d47-bc00-1e20c88bcfa2> ;
     modsrdf:title "Knape, Abel"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43075778d/PUBLIC> .
 
@@ -202,6 +203,7 @@
     modsrdf:locationUrl <http://www.oxfordmusiconline.com/subscriber/article/grove/music/00391pg2> ;
     modsrdf:namePrincipal "Schauerte, Helga" ;
     modsrdf:subjectName "ALAIN, JEHAN (1911-1940)" ;
+    dct:subject <http://data.doremus.org/artist/ebce905b-3b3e-3fca-bd46-7141bbee9dc1> ;
     modsrdf:titlePrincipal "Schauerte, Helga. – Jehan Alain"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/003> a modsrdf:ModsResource ;
@@ -212,6 +214,7 @@
     modsrdf:locationUrl <http://www.jehanalain.com/> ;
     modsrdf:namePrincipal "Marie-Claire Alain" ;
     modsrdf:subjectName "ALAIN, JEHAN (1911-1940)" ;
+    dct:subject <http://data.doremus.org/artist/ebce905b-3b3e-3fca-bd46-7141bbee9dc1> ;
     modsrdf:titlePrincipal "Jehan Alain"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/004> a modsrdf:ModsResource ;
@@ -223,6 +226,7 @@
     modsrdf:namePrincipal "Schneider, Herbert" ;
     modsrdf:publisher "G. Olms (Hildesheim)" ;
     modsrdf:subjectName "AUBER, DANIEL-FRANCOIS-ESPRIT (1782-1871)" ;
+    dct:subject <http://data.doremus.org/artist/2804297e-1fa8-3fd9-863a-80358f878613> ;
     modsrdf:title "Schneider, Auber"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb357393466/PUBLIC> .
 
@@ -235,6 +239,7 @@
     modsrdf:namePrincipal "Helm, Eugene E." ;
     modsrdf:publisher "Yale University press (New-Haven ; London)" ;
     modsrdf:subjectName "BACH, CARL PHILIPP EMANUEL (1714-1788)" ;
+    dct:subject <http://data.doremus.org/artist/5500e650-4d41-31ab-b2ed-d93607613665> ;
     modsrdf:title "Helm, C.P.E. Bach"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb356796351/INTERMARC> .
 
@@ -248,6 +253,7 @@
     modsrdf:namePrincipal "Wotquenne, Alfred" ;
     modsrdf:publisher "Breitkopf & Härtel (Leipzig ; Brüssel ; London ; New York" ;
     modsrdf:subjectName "BACH, CARL PHILIPP EMANUEL (1714-1788)" ;
+    dct:subject <http://data.doremus.org/artist/5500e650-4d41-31ab-b2ed-d93607613665> ;
     modsrdf:title "Wotquenne, C.P.E. Bach"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43340930n/INTERMARC> .
 
@@ -265,6 +271,7 @@
     modsrdf:namePrincipal "Warburton, Ernest." ;
     modsrdf:publisher "Garland Publishing, Inc (New York ; London)" ;
     modsrdf:subjectName "BACH, JOHANN CHRISTIAN (1735-1782)" ;
+    dct:subject <http://data.doremus.org/artist/b2360e86-1c01-322d-a9a0-ffff6dfff68d> ;
     modsrdf:title "Warburton, J.C. Bach"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37661417p/INTERMARC> .
 
@@ -277,6 +284,7 @@
     modsrdf:namePrincipal "Terry, Charles Sanford" ;
     modsrdf:publisher "Oxford University Press (London)" ;
     modsrdf:subjectName "BACH, JOHANN CHRISTIAN (1735-1782)" ;
+    dct:subject <http://data.doremus.org/artist/b2360e86-1c01-322d-a9a0-ffff6dfff68d> ;
     modsrdf:title "Terry, Johann Christian Bach"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43296946b/PUBLIC> .
 
@@ -290,6 +298,7 @@
     modsrdf:namePrincipal "Schmieder, Wolfgang" ;
     modsrdf:publisher "Breitkopf & Härtel (Wiesbaden)" ;
     modsrdf:subjectName "BACH, JOHANN SEBASTIAN (1685-1750)" ;
+    dct:subject <http://data.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b> ;
     modsrdf:title "Schmieder"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35502307n/PUBLIC> .
 
@@ -304,6 +313,7 @@
         "Wollny, Peter" ;
     modsrdf:publisher "Carus (Stuttgart)" ;
     modsrdf:subjectName "BACH, WILHELM FRIEDEMANN (1710-1784)" ;
+    dct:subject <http://data.doremus.org/artist/60465f3f-1227-3994-930c-93b30837ac59> ;
     modsrdf:title "Wollny,  Wilhelm"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43526255f/PUBLIC> .
 
@@ -316,6 +326,7 @@
     modsrdf:namePrincipal "Falck, Martin" ;
     modsrdf:publisher "C.F. Kahnt Nachfolger (Leipzig)" ;
     modsrdf:subjectName "BACH, WILHELM FRIEDEMANN (1710-1784)" ;
+    dct:subject <http://data.doremus.org/artist/60465f3f-1227-3994-930c-93b30837ac59> ;
     modsrdf:title "Falck, Wilhelm Friedemann Bach"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb32090533v/PUBLIC> .
 
@@ -328,6 +339,7 @@
     modsrdf:namePrincipal "Somfai, László" ;
     modsrdf:publisher "University of California press (Berkeley ; London)" ;
     modsrdf:subjectName "BARTOK, BELA (1881-1945)" ;
+    dct:subject <http://data.doremus.org/artist/23df9200-a2a7-3ba8-ab11-ec16bf781c41> ;
     modsrdf:title "Somfai, Bartok"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb402045396/PUBLIC> .
 
@@ -339,6 +351,7 @@
     modsrdf:namePrincipal "Szabolcsi, Bence" ;
     modsrdf:publisher "Corvina (Budapest)" ;
     modsrdf:subjectName "BARTOK, BELA (1881-1945)" ;
+    dct:subject <http://data.doremus.org/artist/23df9200-a2a7-3ba8-ab11-ec16bf781c41> ;
     modsrdf:title "Szabolcsi, Bence"@fr ;
     modsrdf:titlePrincipal "Bartok : sa vie et son œuvre"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43347266d/PUBLIC> .
@@ -353,6 +366,7 @@
     modsrdf:namePrincipal "Kinsky, Georg. Halm, Hans" ;
     modsrdf:publisher "Henle Verlag (München)" ;
     modsrdf:subjectName "BEETHOVEN, LUDWIG VAN (1770-1827)" ;
+    dct:subject <http://data.doremus.org/artist/6963af5e-b126-3d40-a84b-97e0b78f5452> ;
     modsrdf:title "Kinsky"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb322183975/PUBLIC> .
 
@@ -367,6 +381,7 @@
     modsrdf:namePrincipal "Hess, Willy" ;
     modsrdf:publisher "Vance Brook Publishing (West Newbury (Vt.))" ;
     modsrdf:subjectName "BEETHOVEN, LUDWIG VAN (1770-1827)" ;
+    dct:subject <http://data.doremus.org/artist/6963af5e-b126-3d40-a84b-97e0b78f5452> ;
     modsrdf:title "The new Hess catalog of Beethoven's works, 2003"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb412916043/PUBLIC> .
 
@@ -379,6 +394,7 @@
     modsrdf:namePrincipal "Lee, Douglas A." ;
     modsrdf:publisher "Pendragon press (New York)" ;
     modsrdf:subjectName "BENDA, FRANZ (1709-1786)" ;
+    dct:subject <http://data.doremus.org/artist/06373273-f08a-306b-b5ba-1b6e4d66d035> ;
     modsrdf:title "Lee, Benda"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43103478t/PUBLIC> .
 
@@ -393,6 +409,7 @@
     modsrdf:namePrincipal "Holoman, D. Kern" ;
     modsrdf:publisher "Bärenreiter (Kassel ; Basel ; London)" ;
     modsrdf:subjectName "BERLIOZ, HECTOR (1803-1869)" ;
+    dct:subject <http://data.doremus.org/artist/69896139-4b18-30ff-bc65-7c14e18f1707> ;
     modsrdf:title "Holoman, Berlioz"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37396975j/PUBLIC> .
 
@@ -405,6 +422,7 @@
     modsrdf:locationUrl <http://digital.wustl.edu/bizet/> ;
     modsrdf:namePrincipal "Macdonald, Hugh" ;
     modsrdf:subjectName "BIZET, GEORGES (1838-1875)" ;
+    dct:subject <http://data.doremus.org/artist/e432aa13-207f-34f8-9792-d1d15fcd4711> ;
     modsrdf:title "Macdonald, Bizet : http://digital.wustl.edu/bizet (AAAAMMJJ)"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/019> a modsrdf:ModsResource ;
@@ -416,6 +434,7 @@
     modsrdf:namePrincipal "Foreman, Lewis" ;
     modsrdf:publisher "Novello (Sevenoaks)" ;
     modsrdf:subjectName "BLISS, ARTHUR (1891-1975)" ;
+    dct:subject <http://data.doremus.org/artist/59966b19-2871-31d8-9f6b-894ad27480d5> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb429921556/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/020> a modsrdf:ModsResource ;
@@ -427,6 +446,7 @@
     modsrdf:namePrincipal "Gérard, Yves" ;
     modsrdf:publisher "Oxford University press (London)" ;
     modsrdf:subjectName "BOCCHERINI, LUIGI (1743-1805)" ;
+    dct:subject <http://data.doremus.org/artist/ffb08009-c1b1-35b4-8729-1ecd03605049> ;
     modsrdf:title "Gérard, Boccherini"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35158704h/PUBLIC> .
 
@@ -439,6 +459,7 @@
     modsrdf:namePrincipal "McCorkle, Margit L." ;
     modsrdf:publisher "Henle (München)" ;
     modsrdf:subjectName "BRAHMS, JOHANNES (1833-1897)" ;
+    dct:subject <http://data.doremus.org/artist/f9a2ac39-a62d-3be2-8abb-e564de0ec96d> ;
     modsrdf:title "McCorkle, Brahms"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37420397g/PUBLIC> .
 
@@ -451,6 +472,7 @@
     modsrdf:locationUrl <http://www.brittenpears.org> ;
     modsrdf:namePrincipal "Britten-Pears Foundation" ;
     modsrdf:subjectName "BRITTEN, BENJAMIN (1913-1976)" ;
+    dct:subject <http://data.doremus.org/artist/c23f132e-5813-39f5-aeaa-106738ff9123> ;
     modsrdf:title "Britten-Pears Foundation, Britten :http://www.brittenpears.org(AAAAMMJJ)"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/023> a modsrdf:ModsResource ;
@@ -461,6 +483,7 @@
     modsrdf:namePrincipal "Banks, Paul (éd.)" ;
     modsrdf:publisher "The Britten-Pears Library for the Britten Estate limited (Aldeburgh)" ;
     modsrdf:subjectName "BRITTEN, BENJAMIN (1913-1976)" ;
+    dct:subject <http://data.doremus.org/artist/c23f132e-5813-39f5-aeaa-106738ff9123> ;
     modsrdf:title "Britten, Catalogue of published works"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb38912474c/PUBLIC> .
 
@@ -473,6 +496,7 @@
     modsrdf:publisher "Editions du Centre de musique baroque de Versailles (Versailles)",
         "Klincksieck (Paris)" ;
     modsrdf:subjectName "BROSSARD, SEBASTIEN DE (1655-1730)" ;
+    dct:subject <http://data.doremus.org/artist/625db290-d916-3244-a03f-60b20b322806> ;
     modsrdf:title "Duron, Brossard"@fr ;
     modsrdf:titlePrincipal "L'œuvre de Sébastien de Brossard (1655-1730) : catalogue thématique"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb358024272/PUBLIC> .
@@ -486,6 +510,7 @@
     modsrdf:namePrincipal "Grasberger, Renate" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "BRUCKNER, ANTON (1824-1896)" ;
+    dct:subject <http://data.doremus.org/artist/df30cc35-ef79-3449-bbdb-da2e0cf1ef27> ;
     modsrdf:title "Grasberger, Bruckner"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35135518h/PUBLIC> .
 
@@ -499,6 +524,7 @@
     modsrdf:namePrincipal "Kindermann, Jürgen" ;
     modsrdf:publisher "G. Bosse (Regensburg)" ;
     modsrdf:subjectName "BUSONI, FERRUCCIO (1866-1924)" ;
+    dct:subject <http://data.doremus.org/artist/813555dd-fb0a-3463-ae1e-d4df43d0e183> ;
     modsrdf:title "Kindermann, Busoni"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35644744f/PUBLIC> .
 
@@ -511,6 +537,7 @@
     modsrdf:namePrincipal "Karstädt, Georg" ;
     modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
     modsrdf:subjectName "BUXTEHUDE, DIETRICH (1637?-1707)" ;
+    dct:subject <http://data.doremus.org/artist/97b9bbd8-66cb-38bf-aeda-6260252d1416> ;
     modsrdf:title "Buxtehude Werke Verzeichnis"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35135494b/PUBLIC> .
 
@@ -523,6 +550,7 @@
     modsrdf:namePrincipal "Jones, Andrew V" ;
     modsrdf:publisher "UMI research press (Ann Arbor (Michigan))" ;
     modsrdf:subjectName "CARISSIMI, GIACOMO (1605-1674)" ;
+    dct:subject <http://data.doremus.org/artist/2b0ac4e7-2b03-31f9-ba95-379697af26f7> ;
     modsrdf:title "Jones, Carissimi"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/029> a modsrdf:ModsResource ;
@@ -533,6 +561,7 @@
     modsrdf:namePrincipal "Hitchkock, Hugh Wiley" ;
     modsrdf:publisher "Picard (Paris)" ;
     modsrdf:subjectName "CHARPENTIER, MARC-ANTOINE (1643-1704)" ;
+    dct:subject <http://data.doremus.org/artist/864b5428-cd34-3491-8434-3fb5e57f1030> ;
     modsrdf:title "Hitchcock, Charpentier"@fr ;
     modsrdf:titlePrincipal "Les œuvres de Marc-Antoine Charpentier, catalogue raisonné"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb347341480/PUBLIC> .
@@ -545,6 +574,7 @@
     modsrdf:namePrincipal "Torta, Mario" ;
     modsrdf:publisher "Libreria musicale italiana (Lucca)" ;
     modsrdf:subjectName "CARULLI, FERDINANDO (1770-1841)" ;
+    dct:subject <http://data.doremus.org/artist/ce05903d-0ea6-3c6c-a506-1606ceb413e5> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb357998982/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/031> a modsrdf:ModsResource ;
@@ -554,6 +584,7 @@
     modsrdf:namePrincipal "Gallois, Jean" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "CHAUSSON, ERNEST (1855-1899)" ;
+    dct:subject <http://data.doremus.org/artist/c15d6849-cfbc-368c-9c8b-3c564c3b8fcf> ;
     modsrdf:titlePrincipal "Ernest Chausson"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35680366h/PUBLIC> .
 
@@ -564,6 +595,7 @@
     modsrdf:languageOfResource "it"^^xsd:language ;
     modsrdf:publisher "Olschki (Firenze)" ;
     modsrdf:subjectName "CHERUBINI, LUIGI (1760-1842)" ;
+    dct:subject <http://data.doremus.org/artist/bec89695-ab2f-3d39-be41-2c4a9c38941b> ;
     modsrdf:title "Lesure, Sartori, Cat. Cherubini"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb331662006/PUBLIC> .
 
@@ -576,6 +608,7 @@
     modsrdf:publisher "PWM (Kraków)",
         "TiFC (Warszawa)" ;
     modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
+    dct:subject <http://data.doremus.org/artist/62348fad-974d-38db-a5a7-505f6a7a7db6> ;
     modsrdf:title "Chominski et Turlo"@fr ;
     modsrdf:titlePrincipal "Katalog dzieł Fryderyka Chopina"@pl ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35315970n/PUBLIC> .
@@ -589,6 +622,7 @@
     modsrdf:namePrincipal "Kobylanska, Krystyna" ;
     modsrdf:publisher "G. Henle (München)" ;
     modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
+    dct:subject <http://data.doremus.org/artist/62348fad-974d-38db-a5a7-505f6a7a7db6> ;
     modsrdf:title "Kobylanska, Chopin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35133599v/INTERMARC> .
 
@@ -602,6 +636,7 @@
     modsrdf:namePrincipal "Brown, Maurice J. E." ;
     modsrdf:publisher "Macmillan (London)" ;
     modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
+    dct:subject <http://data.doremus.org/artist/62348fad-974d-38db-a5a7-505f6a7a7db6> ;
     modsrdf:title "Brown, Chopin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42880090k/INTERMARC> .
 
@@ -613,6 +648,7 @@
     modsrdf:namePrincipal "Tyson, Alan" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "CLEMENTI, MUZIO (1752-1832)" ;
+    dct:subject <http://data.doremus.org/artist/95ce6e89-35ad-3933-b487-6d3604b0f00d> ;
     modsrdf:title "Tyson, Clementi"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb351354752/PUBLIC> .
 
@@ -624,6 +660,7 @@
     modsrdf:namePrincipal "Cessac, Catherine" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "CLERAMBAULT, NICOLAS (1676-1749)" ;
+    dct:subject <http://data.doremus.org/artist/49d632ad-06fc-3896-a8e6-d39dfe26e89f> ;
     modsrdf:title "Cessac, Clérambault"@fr ;
     modsrdf:titlePrincipal "Nicolas Clérambault"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb367123912/PUBLIC> .
@@ -638,7 +675,8 @@
     modsrdf:namePrincipal "Marx, Hans Joachim" ;
     modsrdf:publisher "A. Volk (Köln)",
         "H. Gerig (Köln)" ;
-    modsrdf:subjectName "CORELLI, ARCANGELLO (1653-1713)" ;
+    modsrdf:subjectName "CORELLI, ARCANGELO (1653-1713)" ;
+    dct:subject <http://data.doremus.org/artist/d71f6b74-f380-3af6-8e41-baedbf21c99a> ;
     modsrdf:title "Marx, Corelli"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43138752s/PUBLIC> .
 
@@ -650,6 +688,7 @@
     modsrdf:namePrincipal "Cauchie, Maurice" ;
     modsrdf:publisher "The Lyrebird press (Monaco)" ;
     modsrdf:subjectName "COUPERIN, FRANCOIS (1668-1733)" ;
+    dct:subject <http://data.doremus.org/artist/14970460-189f-3593-a550-7bceb778072e> ;
     modsrdf:title "Cauchie, Couperin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42896941h/PUBLIC> .
 
@@ -661,6 +700,7 @@
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Pendragon press (Stuyvesant)" ;
     modsrdf:subjectName "CRAMER, JOHANN BAPTIST (1771-1858)" ;
+    dct:subject <http://data.doremus.org/artist/67f504f4-a6d9-3754-8783-e6490ff6dada> ;
     modsrdf:title "Milligan et Graue, Cramer"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37447796b/PUBLIC> .
 
@@ -673,6 +713,7 @@
     modsrdf:namePrincipal "Threlfall, Robert" ;
     modsrdf:publisher "Delius Trust (London)" ;
     modsrdf:subjectName "DELIUS, FREDERICK (1862-1934)" ;
+    dct:subject <http://data.doremus.org/artist/f92bcc45-052e-342d-a00b-1b7cdbd89828> ;
     modsrdf:title "Threlfall, Delius"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb433003514/PUBLIC> .
 
@@ -684,7 +725,8 @@
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Krebs, Carl" ;
     modsrdf:publisher "Gebrüder Paetel (Berlin)" ;
-    modsrdf:subjectName "DITTERS VON DITTERSDORF, CARL (1739-1799)" ;
+    modsrdf:subjectName "DITTERS VON DITTERSDORF, KARL (1739-1799)" ;
+    dct:subject <http://data.doremus.org/artist/7f757261-e5d2-3716-9425-7d8999eb3c5a> ;
     modsrdf:title "Krebs, Ditters von Dittersdorf"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43079343m/PUBLIC> .
 
@@ -696,6 +738,7 @@
     modsrdf:namePrincipal "Allitt, John Stewart" ;
     modsrdf:publisher "Element (Shaftesbury (Dorset) ; Rockport (Mass.))" ;
     modsrdf:subjectName "DONIZETTI, GAETANO (1797-1848)" ;
+    dct:subject <http://data.doremus.org/artist/68e29620-4479-3e32-8961-53e614654d02> ;
     modsrdf:title "Allit, Donizetti"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35501976w/PUBLIC> .
 
@@ -707,7 +750,8 @@
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:namePrincipal "Craw, Howard Allen" ;
     modsrdf:publisher "University microfilms international (Ann Arbor)" ;
-    modsrdf:subjectName "DUSSEK, JAN LADILSLAV (1760-1812)" ;
+    modsrdf:subjectName "DUSSEK, JAN LADISLAV (1760-1812)" ;
+    dct:subject <http://data.doremus.org/artist/bc5a12db-5719-3161-9467-6ef07db4f47a> ;
     modsrdf:title "Craw, Dussek"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb429274026/PUBLIC> .
 
@@ -725,6 +769,7 @@
     modsrdf:publisher "Bärenreiter (Praha)",
         "Editio Supraphon (Praha)" ;
     modsrdf:subjectName "DVORAK, ANTONIN (1841-1904)" ;
+    dct:subject <http://data.doremus.org/artist/df6fc930-3a58-355d-8270-b2343b5f5b0a> ;
     modsrdf:title "Burghauser, Dvorak"@fr ;
     modsrdf:titlePrincipal "Antonin Dvorak : thematicky katalog"@cs ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36965627w/PUBLIC> .
@@ -736,6 +781,7 @@
     modsrdf:namePrincipal "Nectoux, Jean-Michel" ;
     modsrdf:publisher "Flammarion (Paris)" ;
     modsrdf:subjectName "FAURÉ, GABRIEL (1845-1924)" ;
+    dct:subject <http://data.doremus.org/artist/6447cde9-fbd7-3da3-a1bf-ff1176456cd7> ;
     modsrdf:title "Nectoux, Fauré"@fr ;
     modsrdf:titlePrincipal "Gabriel Fauré : les voix du clair-obscur"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb350667956/PUBLIC> .
@@ -749,6 +795,7 @@
     modsrdf:namePrincipal "Charteris, Richard" ;
     modsrdf:publisher "Pendragon press (New York)" ;
     modsrdf:subjectName "FERRABOSCO, ALFONSO (1543-1588)" ;
+    dct:subject <http://data.doremus.org/artist/08ac89f6-c433-3605-bef5-88facaf74c10> ;
     modsrdf:title "Charteris, Ferrabosco"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42903212k/PUBLIC> .
 
@@ -761,6 +808,7 @@
     modsrdf:namePrincipal "Hopkinson, Cecil" ;
     modsrdf:publisher "the author (London)" ;
     modsrdf:subjectName "FIELD, JOHN (1782-1837)" ;
+    dct:subject <http://data.doremus.org/artist/03a073dd-9e57-3bcd-a348-c3480252a92a> ;
     modsrdf:title "Hopkinson, Field"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430540795/PUBLIC> .
 
@@ -772,6 +820,7 @@
     modsrdf:namePrincipal "Fauquet, Joël-Marie" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "FRANCK, CESAR (1822-1890)" ;
+    dct:subject <http://data.doremus.org/artist/ce72d043-0acc-3cca-95ba-959903770bc8> ;
     modsrdf:title "Fauquet, Franck"@fr ;
     modsrdf:titlePrincipal "César Franck"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37097428c/PUBLIC> .
@@ -786,6 +835,7 @@
     modsrdf:namePrincipal "Mohr, Wilhelm" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "FRANCK, CESAR (1822-1890)" ;
+    dct:subject <http://data.doremus.org/artist/ce72d043-0acc-3cca-95ba-959903770bc8> ;
     modsrdf:title "Mohr, C. Franck"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43160337g/PUBLIC> .
 
@@ -798,6 +848,7 @@
     modsrdf:namePrincipal "Köchel, Ludwig Ritter von" ;
     modsrdf:publisher "A. Hölder (Wien)" ;
     modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" ;
+    dct:subject <http://data.doremus.org/artist/6e24c22e-b595-39aa-b4dc-79519d72c99f> ;
     modsrdf:title "Köchel, Fux"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb30688243t/PUBLIC> .
 
@@ -810,6 +861,7 @@
     modsrdf:namePrincipal "Liess, Andreas" ;
     modsrdf:publisher "L. Doblinger (Wien)" ;
     modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" ;
+    dct:subject <http://data.doremus.org/artist/6e24c22e-b595-39aa-b4dc-79519d72c99f> ;
     modsrdf:title "Liess, Fux"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb323851756/PUBLIC> .
 
@@ -819,6 +871,7 @@
     modsrdf:identifier "E" ;
     modsrdf:namePrincipal "Federhofer, Hellmut" ;
     modsrdf:subjectName "FUX, JOHANN JOSEPH (1660-1741)" ;
+    dct:subject <http://data.doremus.org/artist/6e24c22e-b595-39aa-b4dc-79519d72c99f> ;
     modsrdf:title "Federhofer, Fux"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/056> a modsrdf:ModsResource ;
@@ -831,6 +884,7 @@
     modsrdf:namePrincipal "Charteris, Richard" ;
     modsrdf:publisher "Pendragon press  (New York)" ;
     modsrdf:subjectName "GABRIELI, GIOVANNI (1555?-1612)" ;
+    dct:subject <http://data.doremus.org/artist/6056f157-3290-353d-9a7e-68b6d2b4ecac> ;
     modsrdf:title "Charteris, Gabrieli"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb369602147/PUBLIC> .
 
@@ -844,6 +898,7 @@
     modsrdf:namePrincipal "Hill, George R." ;
     modsrdf:publisher "Joseph Boonin (Hackensack (New Jersey)" ;
     modsrdf:subjectName "GASSMANN, FLORIAN LEOPOLD (1729-1774)" ;
+    dct:subject <http://data.doremus.org/artist/2e3f644b-a93c-31c4-9d44-4a90488bb5f6> ;
     modsrdf:title "Hill, Gassmann"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430505427/PUBLIC> .
 
@@ -855,6 +910,7 @@
     modsrdf:namePrincipal "Condé, Gérard" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "GOUNOD, CHARLES (1818-1893)" ;
+    dct:subject <http://data.doremus.org/artist/180755b4-2997-3fb4-8588-2ad68339ce6b> ;
     modsrdf:titlePrincipal "Charles Gounod"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb41491325k/PUBLIC> .
 
@@ -866,6 +922,7 @@
     modsrdf:namePrincipal "Hess, Carol A." ;
     modsrdf:publisher "Greenwood press (New York ; Westport (Con.) ; London)" ;
     modsrdf:subjectName "GRANADOS, ENRIQUE (1867-1916)" ;
+    dct:subject <http://data.doremus.org/artist/f482df1a-9990-3708-8950-674bad8c4289> ;
     modsrdf:title "Hess, Granados"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb369831201/PUBLIC> .
 
@@ -891,6 +948,7 @@
     modsrdf:namePrincipal "Tomasi, Margherita" ;
     modsrdf:publisher "Edizioni fondazione Levi (Venezia)" ;
     modsrdf:subjectName "GRAZIOLI, GIOVANNI BATTISTA (1746-1820)" ;
+    dct:subject <http://data.doremus.org/artist/dbb20a96-e68e-33b3-8175-1991695aa771> ;
     modsrdf:title "Tomasi, Grazioli"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb40145154w/PUBLIC> .
 
@@ -903,6 +961,7 @@
     modsrdf:namePrincipal "Wotquenne, Alfred" ;
     modsrdf:publisher "Breitkopf und Härtel (Leipzig ; Brüssel ; London ; New York)" ;
     modsrdf:subjectName "GLUCK, CHRISTOPH WILLIBALD VON (1714-1787)" ;
+    dct:subject <http://data.doremus.org/artist/45356ff6-c1a1-33e1-a4af-e005e6362351> ;
     modsrdf:title "Wotquenne, Gluck"@fr ;
     modsrdf:titlePrincipal "Catalogue thématique des œuvres de Chr. W. v. Gluck."@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37049122x/PUBLIC> .
@@ -916,6 +975,7 @@
     modsrdf:namePrincipal "Baselt, Bernd" ;
     modsrdf:publisher "Bärenreiter (Kassel)" ;
     modsrdf:subjectName "HÄNDEL, GEORG FRIEDRICH (1685-1759)" ;
+    dct:subject <http://data.doremus.org/artist/35ddad40-c793-312a-86ec-6a1310c030a1> ;
     modsrdf:title "Händel-Handbuch"@fr ;
     owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb35111282d%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb374021672%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb37402168d%2FPUBLIC> .
 
@@ -928,6 +988,7 @@
     modsrdf:namePrincipal "Hoboken, Anthony van" ;
     modsrdf:publisher "B. Schött's Söhne (Mainz)" ;
     modsrdf:subjectName "HAYDN, JOSEPH (1732-1809)" ;
+    dct:subject <http://data.doremus.org/artist/12fa21ff-cfa4-31d6-87d9-a22315193b04> ;
     modsrdf:title "Hoboken, Haydn"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34340671f/PUBLIC> .
 
@@ -940,6 +1001,7 @@
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Pendragon press (Stuyvesant (N.Y.))" ;
     modsrdf:subjectName "HAYDN, MICHAEL (1737-1806)" ;
+    dct:subject <http://data.doremus.org/artist/e7b8f724-5d7b-36ca-a26a-0bdc17f072aa> ;
     modsrdf:title "Sherman et Thomas"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35823703j/PUBLIC> .
 
@@ -951,6 +1013,7 @@
     modsrdf:namePrincipal "Halbreich, Harry" ;
     modsrdf:publisher "Champion (Paris)" ;
     modsrdf:subjectName "HONEGGER, ARTHUR (1892-1955)" ;
+    dct:subject <http://data.doremus.org/artist/e3f0fc72-7967-39a4-888b-823b46576174> ;
     modsrdf:title "Halbreich, Honegger"@fr ;
     modsrdf:titlePrincipal "L'œuvre d'Arthur Honegger"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35687805c/PUBLIC> .
@@ -962,7 +1025,8 @@
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Zimmerschied, Dieter" ;
     modsrdf:publisher "Hofmeister (Hofmein am Taunus)" ;
-    modsrdf:subjectName "HUMMEL, JOHANN NEPOMUK" ;
+    modsrdf:subjectName "HUMMEL, JOHANN NEPOMUK (1778-1837)" ;
+    dct:subject <http://data.doremus.org/artist/6bd8e5c3-e1e3-310f-aeb8-02adbd6bdf08> ;
     modsrdf:title "Zimmerschied, Hummel"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35159810z/PUBLIC> .
 
@@ -974,6 +1038,7 @@
     modsrdf:namePrincipal "Laederich, Alexandra" ;
     modsrdf:publisher "G. Olms (Hildesheim ; Zürich ; New York)" ;
     modsrdf:subjectName "IBERT, JACQUES (1890-1962)" ;
+    dct:subject <http://data.doremus.org/artist/fe285a82-eb65-35f6-9dfb-5fb426610091> ;
     modsrdf:titlePrincipal "Catalogue de l'œuvre de Jacques Ibert"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36970947b/PUBLIC> .
 
@@ -985,6 +1050,7 @@
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Clarendon press (Oxford)" ;
     modsrdf:subjectName "JANACEK, LEOS (1854-1928)" ;
+    dct:subject <http://data.doremus.org/artist/4385ce9c-1fe2-3b59-9df0-9ac506d9ab43> ;
     modsrdf:title "Simeone, Tyrrell et Nemcova, Janacek"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36968501n/PUBLIC> .
 
@@ -994,6 +1060,7 @@
     modsrdf:languageOfResource "fr"^^xsd:language ;
     modsrdf:publisher "M. Eschig (Paris)" ;
     modsrdf:subjectName "KOECHLIN, CHARLES (1867-1950)" ;
+    dct:subject <http://data.doremus.org/artist/d2eb9650-f76c-38ac-8c8f-98c277f9d920> ;
     modsrdf:titlePrincipal "L'œuvre de Charles Kœchlin : catalogue..."@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34557746r/PUBLIC> .
 
@@ -1005,6 +1072,7 @@
     modsrdf:namePrincipal "Fog, Dan" ;
     modsrdf:publisher "Dan Fog Musikverlag (Kopenhagen)" ;
     modsrdf:subjectName "KUHLAU, FRIEDRICH (1786-1832)" ;
+    dct:subject <http://data.doremus.org/artist/d2cd5aba-97f1-3fb8-a7a3-9293e129e925> ;
     modsrdf:title "Fog, Kuhlau"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35160404z/PUBLIC> .
 
@@ -1016,6 +1084,7 @@
     modsrdf:namePrincipal "Verdebout, Luc" ;
     modsrdf:publisher "Mardaga (Liège)" ;
     modsrdf:subjectName "LEKEU, GUILLAUME (1870-1894)" ;
+    dct:subject <http://data.doremus.org/artist/45a16e5c-c41e-3f58-ac93-aeaf4431bcff> ;
     modsrdf:title "Verdebout, Lekeu"@fr ;
     modsrdf:titlePrincipal "Correspondance, introd., chronologie et catalogue des œuvres"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb366696578/PUBLIC> .
@@ -1028,6 +1097,7 @@
     modsrdf:namePrincipal "Mongrédien, Jean" ;
     modsrdf:publisher "Pendragon (New York)" ;
     modsrdf:subjectName "LE SUEUR, JEAN-FRANCOIS (1760-1837)" ;
+    dct:subject <http://data.doremus.org/artist/250c3c9a-d212-3e1d-85ae-a611929a600a> ;
     modsrdf:title "Mongrédien, Le Sueur"@fr ;
     modsrdf:titlePrincipal "Catalogue thématique de l'œuvre complète du compositeur Jean-François Le Sueur (1760-1837)"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb356514025/PUBLIC> .
@@ -1040,6 +1110,7 @@
     modsrdf:namePrincipal "Michel, Pierre" ;
     modsrdf:publisher "Minerve (Paris)" ;
     modsrdf:subjectName "LIGETI, GYORGY (1923-2006)" ;
+    dct:subject <http://data.doremus.org/artist/f1fb6fa7-767a-3067-a55b-5b41de0f0367> ;
     modsrdf:titlePrincipal "György Ligeti"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb376188899/PUBLIC> .
 
@@ -1060,6 +1131,7 @@
     modsrdf:namePrincipal "Searle, Humphrey" ;
     modsrdf:publisher "Editions du Rocher (Paris)" ;
     modsrdf:subjectName "LISZT, FRANZ (1811-1886)" ;
+    dct:subject <http://data.doremus.org/artist/aabcd2ee-ac9b-30f2-8096-e9de8b3c7a81> ;
     modsrdf:title "Searle"@fr ;
     modsrdf:titlePrincipal "Franz Liszt"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43267717t/PUBLIC> .
@@ -1074,6 +1146,7 @@
     modsrdf:namePrincipal "Raabe, Peter" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "LISZT, FRANZ (1811-1886)" ;
+    dct:subject <http://data.doremus.org/artist/aabcd2ee-ac9b-30f2-8096-e9de8b3c7a81> ;
     modsrdf:title "Raabe, Liszt"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43220578z/PUBLIC> .
 
@@ -1085,7 +1158,8 @@
     modsrdf:languageOfResource "it"^^xsd:language ;
     modsrdf:namePrincipal "Dunning, A." ;
     modsrdf:publisher "Schott ( London ; Mainz ; Paris)" ;
-    modsrdf:subjectName "LOCATELLI, PIETRO ANTONIO ( 1695-1764)" ;
+    modsrdf:subjectName "LOCATELLI, PIETRO ANTONIO (1695-1764)" ;
+    dct:subject <http://data.doremus.org/artist/1fdf9de1-0697-3a3d-bb7c-0161488ce05b> ;
     modsrdf:title "Dunning, Locatelli"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37224026r/PUBLIC> .
 
@@ -1098,6 +1172,7 @@
     modsrdf:namePrincipal "Schneider, Herbert" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "LULLY, JEAN-BAPTISTE (1632-1687)" ;
+    dct:subject <http://data.doremus.org/artist/4e21ae31-5390-3843-9236-078f8d4b8c30> ;
     modsrdf:title "Schneider, Lully"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35660003c/PUBLIC> .
 
@@ -1108,6 +1183,7 @@
     modsrdf:namePrincipal "La Grange, Henri-Louis de" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "MAHLER, GUSTAV (1860-1911)" ;
+    dct:subject <http://data.doremus.org/artist/15871fdd-5523-3f09-beb2-82cdd26c2766> ;
     modsrdf:title "La Grange, Mahler"@fr ;
     modsrdf:titlePrincipal "Gustav Mahler"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34639084m/PUBLIC> .
@@ -1121,6 +1197,7 @@
     modsrdf:namePrincipal "Gustav Mahler" ;
     modsrdf:publisher "Atlantis Verlag ( Zürich)" ;
     modsrdf:subjectName "MARTINU, BOHUSLAV (1890-1959)" ;
+    dct:subject <http://data.doremus.org/artist/3ed4f326-18a2-3cc1-bc8b-3d5d41d0c1dd> ;
     modsrdf:title "Halbreich, Martinu"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/082> a modsrdf:ModsResource ;
@@ -1131,7 +1208,8 @@
     modsrdf:identifier "MVW" ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:publisher "Breitkopf und Härtel (Leipzig)" ;
-    modsrdf:subjectName "MENDELSSOHN, FELIX (1809-1847)" ;
+    modsrdf:subjectName "MENDELSSOHN Bartholdy, FELIX (1809-1847)" ;
+    dct:subject <http://data.doremus.org/artist/c02d29d9-0ab1-376e-a104-ae6184064092> ;
     modsrdf:title "Mendelssohn, Thematisches Verzeichnis"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43362417z/PUBLIC> .
 
@@ -1150,6 +1228,7 @@
     modsrdf:namePrincipal "Collaer, Paul" ;
     modsrdf:publisher "Slatkine (Genève ; Paris)" ;
     modsrdf:subjectName "MILHAUD, DARIUS (1892-1974)" ;
+    dct:subject <http://data.doremus.org/artist/bcfefeca-ab42-3e86-9ffa-0b0176319b29> ;
     modsrdf:title "Collaer, Milhaud, 1982"@fr ;
     modsrdf:titlePrincipal "Darius Milhaud"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb346709555/PUBLIC> .
@@ -1163,6 +1242,7 @@
     modsrdf:namePrincipal "Sigismund Neukomm" ;
     modsrdf:publisher "Muzikverlag Emil Katzbichler (München ; Salzburg)" ;
     modsrdf:subjectName "NEUKOMM, SIGISMUND (1778-1858)" ;
+    dct:subject <http://data.doremus.org/artist/de78212d-a3af-3095-a8a8-fdaf1199b81a> ;
     modsrdf:title "Angermüller, Neukomm"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35160410w/INTERMARC> .
 
@@ -1173,6 +1253,7 @@
     modsrdf:languageOfResource "dk"^^xsd:language ;
     modsrdf:publisher "Nyt Nordesk Forlag (Kobenhavn)" ;
     modsrdf:subjectName "NIELSEN, CARL (1865-1931)" ;
+    dct:subject <http://data.doremus.org/artist/6329cd86-d47a-3e0b-9a58-28d6d2d4b14e> ;
     modsrdf:title "Fog, Nielsen"@fr ;
     modsrdf:titlePrincipal "Carl Nielsen : Kompositioner"@dk ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42991069c/PUBLIC> .
@@ -1184,6 +1265,7 @@
     modsrdf:languageOfResource "fr"^^xsd:language ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "OHANA, MAURICE (1913-1992)" ;
+    dct:subject <http://data.doremus.org/artist/904d1388-55f9-3a97-b145-7b168d8f3877> ;
     modsrdf:titlePrincipal "Maurice Ohana"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39971243p/INTERMARC> .
 
@@ -1194,7 +1276,8 @@
     modsrdf:identifier "MS" ;
     modsrdf:languageOfResource "it"^^xsd:language ;
     modsrdf:publisher "Commune di Genova" ;
-    modsrdf:subjectName "PAGANINI, NICOLO (1782-1840)" ;
+    modsrdf:subjectName "PAGANINI, NICCOLO (1782-1840)" ;
+    dct:subject <http://data.doremus.org/artist/f89adb8b-f880-3fd5-950c-2089f020a137> ;
     modsrdf:title "Moretti et Sorrento"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43165226r/PUBLIC> .
 
@@ -1207,6 +1290,7 @@
     modsrdf:namePrincipal "Robinson, Michael F." ;
     modsrdf:publisher "Pendragon press (Stuyvesant, NY)" ;
     modsrdf:subjectName "PAISIELLO, GIOVANNI (1740-1816)" ;
+    dct:subject <http://data.doremus.org/artist/31b914b0-e6b4-3d02-8838-57a21bf9bca3> ;
     modsrdf:title "Robinson, Paisiello"@fr ;
     owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb354551902%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb357404277%2FPUBLIC> .
 
@@ -1219,6 +1303,7 @@
     modsrdf:namePrincipal "Paymer, Mervin E." ;
     modsrdf:publisher "Pendragon press (New York)" ;
     modsrdf:subjectName "PERGOLESI, GIOVANNI BATTISTA (1710-1736)" ;
+    dct:subject <http://data.doremus.org/artist/6bbf9ece-1902-30cf-b911-c973bc80f5ac> ;
     modsrdf:title "Paymer, Pergolesi"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb431926409/PUBLIC> .
 
@@ -1231,6 +1316,7 @@
     modsrdf:namePrincipal "Benton, Rita" ;
     modsrdf:publisher "Pendragon (New York)" ;
     modsrdf:subjectName "PLEYEL, IGNAZ (1757-1831)" ;
+    dct:subject <http://data.doremus.org/artist/47c41e2c-b868-3469-9242-71cde9f64d58> ;
     modsrdf:title "Benton, Pleyel"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35158923b/PUBLIC> .
 
@@ -1243,6 +1329,7 @@
     modsrdf:namePrincipal "Schmidt, Carl B." ;
     modsrdf:publisher "Clarendon press (Oxford)" ;
     modsrdf:subjectName "POULENC, FRANCIS (1899-1963)" ;
+    dct:subject <http://data.doremus.org/artist/b703908f-b682-36e1-9499-28e9268bf533> ;
     modsrdf:title "Schmidt, Poulenc"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35835023x/PUBLIC> .
 
@@ -1252,7 +1339,8 @@
     modsrdf:languageOfResource "fr"^^xsd:language ;
     modsrdf:namePrincipal "Dorigné, Michel" ;
     modsrdf:publisher "Fayard (Paris)" ;
-    modsrdf:subjectName "PROKOFIEV, SERGEI (1891-1953)" ;
+    modsrdf:subjectName "PROKOFIEV, SERGUEI (1891-1953)" ;
+    dct:subject <http://data.doremus.org/artist/fd06885a-227c-307d-a197-99b8e3d8c1be> ;
     modsrdf:titlePrincipal "Serge Prokofiev"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35735955v/PUBLIC> .
 
@@ -1266,6 +1354,7 @@
     modsrdf:publisher "Macmillan and co (London)",
         "St Martin's press (New York)" ;
     modsrdf:subjectName "PURCELL, HENRY (1659-1695)" ;
+    dct:subject <http://data.doremus.org/artist/16c2e858-d298-3584-9c5f-49e02cebdc44> ;
     modsrdf:title "Zimmerman, Purcell"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb33227479m/PUBLIC> .
 
@@ -1278,6 +1367,7 @@
     modsrdf:namePrincipal "Augsbach, Horst" ;
     modsrdf:publisher "Sächsische Landesbibliothek (Dresden)" ;
     modsrdf:subjectName "QUANTZ, JOHANN JOACHIM (1697-1773)" ;
+    dct:subject <http://data.doremus.org/artist/e4a2cde0-417c-3180-a6f4-14d6f09286b9> ;
     modsrdf:title "Augsbach, Quantz"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb428239075/PUBLIC> .
 
@@ -1289,6 +1379,7 @@
     modsrdf:namePrincipal "Marnat, Marcel" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "RAVEL, MAURICE (1875-1937)" ;
+    dct:subject <http://data.doremus.org/artist/1b1205f9-b99a-3bb8-ba77-256689af2e00> ;
     modsrdf:title "Marnat, Ravel"@fr ;
     modsrdf:titlePrincipal "Maurice Ravel"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb349014611/PUBLIC> .
@@ -1301,6 +1392,7 @@
     modsrdf:namePrincipal "Labelle, Nicole" ;
     modsrdf:publisher "Département d'archéologie et d'histoire de l'art de l'Université catholique (Louvain)" ;
     modsrdf:subjectName "ROUSSEL, ALBERT (1869-1937)" ;
+    dct:subject <http://data.doremus.org/artist/ab926ca9-5fe8-358c-a29e-33f8083596a8> ;
     modsrdf:title "Labelle, Roussel"@fr ;
     modsrdf:titlePrincipal "Catalogue raisonné de l'œuvre d'Albert Roussel"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35528127k/PUBLIC> .
@@ -1314,6 +1406,7 @@
     modsrdf:namePrincipal "Ratner, Sabina Teller" ;
     modsrdf:publisher "Oxford university press (Oxford)" ;
     modsrdf:subjectName "SAINT-SAENS, CAMILLE (1835-1921)" ;
+    dct:subject <http://data.doremus.org/artist/499c5737-529f-32a1-9284-7d99b73b1be3> ;
     modsrdf:title "Ratner, Saint-Saëns"@fr ;
     owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb388551727%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb426686040%2FPUBLIC> .
 
@@ -1325,6 +1418,7 @@
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Harvard University press (London)" ;
     modsrdf:subjectName "SAMMARTINI, GIOVANNI BATTISTA (1700?-1775)" ;
+    dct:subject <http://data.doremus.org/artist/be35c1a5-4f15-3de7-92fc-47191a4c3774> ;
     modsrdf:title "Jenkins and Churgin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb351608162/PUBLIC> .
 
@@ -1337,6 +1431,7 @@
     modsrdf:namePrincipal "Kirkpatrick, Ralph" ;
     modsrdf:publisher "J.-C. Lattès (Paris)" ;
     modsrdf:subjectName "SCARLATTI, DOMENICO (1685-1757)" ;
+    dct:subject <http://data.doremus.org/artist/5b6b876b-09ba-3856-8dd6-4208c0591621> ;
     modsrdf:title "Kirkpatrick, Scarlatti"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34689181w/PUBLIC> .
 
@@ -1346,6 +1441,7 @@
     modsrdf:languageOfResource "fr"^^xsd:language ;
     modsrdf:publisher "Séguier (Paris)" ;
     modsrdf:subjectName "SAUGUET, HENRI (1901-1989)" ;
+    dct:subject <http://data.doremus.org/artist/206a6cfe-2d82-341d-9dbf-01fb63dda672> ;
     modsrdf:titlePrincipal "Henri Sauguet, 1901-1989 : catalogue des œuvres"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb38807877b/PUBLIC> .
 
@@ -1358,6 +1454,7 @@
     modsrdf:namePrincipal "Rufer, Josef" ;
     modsrdf:publisher "Faber and Faber (London)" ;
     modsrdf:subjectName "SCHOENBERG, ARNOLD (1874-1951)" ;
+    dct:subject <http://data.doremus.org/artist/4f0d5849-995f-3b9a-99ca-d597d79ae095> ;
     modsrdf:title "Rufer, Schoenberg"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb33161448j/PUBLIC> .
 
@@ -1370,6 +1467,7 @@
     modsrdf:namePrincipal "Deutsch, Otto Erich" ;
     modsrdf:publisher "Bärenreiter ( Kassel ; Basel ; Tours)" ;
     modsrdf:subjectName "SCHUBERT, FRANZ (1797-1828)" ;
+    dct:subject <http://data.doremus.org/artist/03954109-0253-35d6-a70e-89ab27dea09c> ;
     modsrdf:title "Deutsch"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb351356717/PUBLIC> .
 
@@ -1381,6 +1479,7 @@
     modsrdf:namePrincipal "McCorkle, Margit L." ;
     modsrdf:publisher "Henle (München)" ;
     modsrdf:subjectName "SCHUMANN, ROBERT (1810-1856)" ;
+    dct:subject <http://data.doremus.org/artist/f753314d-87a7-32a9-9218-da98ae4f9812> ;
     modsrdf:title "McCorkle, Schumann"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb389986176/PUBLIC> .
 
@@ -1394,6 +1493,7 @@
     modsrdf:namePrincipal "Bittinger, Werner" ;
     modsrdf:publisher "Bärenreiter (Kassel ; Basel ; London)" ;
     modsrdf:subjectName "SCHÜTZ, HEINRICH (1585-1672)" ;
+    dct:subject <http://data.doremus.org/artist/35f762fc-78ef-3d48-bfe9-2d85076f6c53> ;
     modsrdf:title "Bittinger, Schütz"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb329255304/PUBLIC> .
 
@@ -1410,6 +1510,7 @@
     modsrdf:publisher "Bohn, Scheltema & Holkema (Utrecht ; Antwerp)",
         "Martinus Nijhoff (The Hague ; Boston)" ;
     modsrdf:subjectName "STAMITZ, JOHANN (1717-1757)" ;
+    dct:subject <http://data.doremus.org/artist/573d72aa-b64f-3477-bcf1-136c3d6bda82> ;
     modsrdf:title "Wolf, Stamitz"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43339880w/PUBLIC> .
 
@@ -1421,6 +1522,7 @@
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Pendragon (Stuyvesant, N.Y.)" ;
     modsrdf:subjectName "STRADELLA, ALESSANDRO (1639-1682)" ;
+    dct:subject <http://data.doremus.org/artist/3487e17c-5d9b-32e8-85a9-f5886f9fee22> ;
     modsrdf:title "Gianturco et McCrickard, Stradella"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/110> a modsrdf:ModsResource ;
@@ -1433,6 +1535,7 @@
     modsrdf:namePrincipal "Trenner, Franz" ;
     modsrdf:publisher "Verlag Dr Richard Strauss GmbH & Co KG (Wien)" ;
     modsrdf:subjectName "STRAUSS, RICHARD (1864-1949)" ;
+    dct:subject <http://data.doremus.org/artist/157157ef-1cb3-3fc7-a4f7-2531989fc942> ;
     modsrdf:title "Trenner, Strauss"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36981580h/PUBLIC> .
 
@@ -1445,6 +1548,7 @@
     modsrdf:namePrincipal "Mueller von Asow, Erich Hermann" ;
     modsrdf:publisher "L. Doblinger (Wien)" ;
     modsrdf:subjectName "STRAUSS, RICHARD (1864-1949)" ;
+    dct:subject <http://data.doremus.org/artist/157157ef-1cb3-3fc7-a4f7-2531989fc942> ;
     modsrdf:title "Mueller von Asow, Strauss"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43171381d/PUBLIC> .
 
@@ -1458,6 +1562,7 @@
     modsrdf:namePrincipal "White, Eric Walter" ;
     modsrdf:publisher "Flammarion (Paris)" ;
     modsrdf:subjectName "STRAVINSKY, IGOR (1882-1971)" ;
+    dct:subject <http://data.doremus.org/artist/1f1c9292-087a-3ac7-b854-84e213e69dc6> ;
     modsrdf:title "White, Stravinsky"@fr ;
     modsrdf:titlePrincipal "Stravinsky, le compositeur et son œuvre"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb347300400/PUBLIC> .
@@ -1471,6 +1576,7 @@
     modsrdf:namePrincipal "Duda, Erich" ;
     modsrdf:publisher "Bärenreiter (Basel ; Kassel ; London)" ;
     modsrdf:subjectName "SUSSMAYR, FRANZ XAVER (1766-1803)" ;
+    dct:subject <http://data.doremus.org/artist/d8a2e047-ca8b-3789-a56b-3a05d8d54fb7> ;
     modsrdf:title "Duda, Süssmayr"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/114> a modsrdf:ModsResource ;
@@ -1480,11 +1586,13 @@
     modsrdf:namePrincipal "Hugon, Gérald" ;
     modsrdf:publisher "M. Eschig (Paris)" ;
     modsrdf:subjectName "TANSMAN, ALEXANDRE (1897-1986)" ;
+    dct:subject <http://data.doremus.org/artist/a12d0c1e-1725-3641-9e57-b63556e85f26> ;
     modsrdf:titlePrincipal "Alexandre Tansman (1897-1986) : catalogue de l'œuvre"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb370748646/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/115> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
+    dct:subject <http://data.doremus.org/artist/a6302b4b-a8bf-3952-a8e2-0775068c3f5c> ;
     modsrdf:abstract "Thematic and bibliographical catalogue of P.I. Tchaikovsky's works"@en ;
     modsrdf:dateOfCopyright "2006" ;
     modsrdf:edition "2e éd."@fr ;
@@ -1500,6 +1608,7 @@
 
 <http://data.doremus.org/vocabulary/catalog/116> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
+    dct:subject <http://data.doremus.org/artist/a6302b4b-a8bf-3952-a8e2-0775068c3f5c> ;
     modsrdf:dateOfCopyright "1965" ;
     modsrdf:edition "réimpr. de l’éd. de 1897"@fr ;
     modsrdf:languageOfResource "fr"^^xsd:language ;
@@ -1519,6 +1628,7 @@
     modsrdf:namePrincipal "Hoffmann, Adolf" ;
     modsrdf:publisher "Möseler Verlag Wolfenbüttel (Zürich)" ;
     modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    dct:subject <http://data.doremus.org/artist/f1f96c56-82c9-3169-a157-dad497493f51> ;
     modsrdf:title "Hoffmann, Telemann"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43052718d/PUBLIC> .
 
@@ -1531,6 +1641,7 @@
     modsrdf:namePrincipal "Kross, Siegfried" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    dct:subject <http://data.doremus.org/artist/f1f96c56-82c9-3169-a157-dad497493f51> ;
     modsrdf:title "Kross, Telemann"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43080857q/PUBLIC> .
 
@@ -1544,6 +1655,7 @@
     modsrdf:namePrincipal "Menke, Werner" ;
     modsrdf:publisher "V. Klostermann (Frankfurt am Main)" ;
     modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    dct:subject <http://data.doremus.org/artist/f1f96c56-82c9-3169-a157-dad497493f51> ;
     modsrdf:title "Menke, Telemann"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43148648g/PUBLIC> .
 
@@ -1556,6 +1668,7 @@
     modsrdf:namePrincipal "Ruhnke, Martin" ;
     modsrdf:publisher "Bärenreiter ( Kassel ; Basel ; London)" ;
     modsrdf:subjectName "TELEMANN, GEORG PHILIPP (1681-1767)" ;
+    dct:subject <http://data.doremus.org/artist/f1f96c56-82c9-3169-a157-dad497493f51> ;
     modsrdf:title "Telemann-Werkverzeichnis"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb343365377/PUBLIC> .
 
@@ -1568,6 +1681,7 @@
     modsrdf:namePrincipal "Weinmann, Alexander" ;
     modsrdf:publisher "L. Krenn (Wien)" ;
     modsrdf:subjectName "VANHAL, JOHANN BAPTIST (1739-1813)" ;
+    dct:subject <http://data.doremus.org/artist/fec8d47c-b7d2-38a0-bc7e-001a8bc5e9fc> ;
     modsrdf:title "Weinmann, Vanhal"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb433350189/PUBLIC> .
 
@@ -1588,6 +1702,7 @@
     modsrdf:namePrincipal "Gavoty, Bernard" ;
     modsrdf:publisher "Buchet-Chastel (Paris)" ;
     modsrdf:subjectName "VIERNE, LOUIS (1870-1937)" ;
+    dct:subject <http://data.doremus.org/artist/0f86e87b-5784-3512-a778-83d372412eb5> ;
     modsrdf:titlePrincipal "Louis Vierne : la vie et l'œuvre"@fr .
 
 <http://data.doremus.org/vocabulary/catalog/124> a modsrdf:ModsResource ;
@@ -1600,6 +1715,7 @@
     modsrdf:namePrincipal "White, Chapell" ;
     modsrdf:publisher "Pendragon press (New York)" ;
     modsrdf:subjectName "VIOTTI, GIOVANNI-BATTISTA (1755-1824)" ;
+    dct:subject <http://data.doremus.org/artist/2ecacff9-9297-3430-b757-36613c41104e> ;
     modsrdf:title "White, Viotti"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43336514j/PUBLIC> .
 
@@ -1612,6 +1728,7 @@
     modsrdf:namePrincipal "Giazotto, Remo" ;
     modsrdf:publisher "Curci (Milano)" ;
     modsrdf:subjectName "VIOTTI, GIOVANNI-BATTISTA (1755-1824)" ;
+    dct:subject <http://data.doremus.org/artist/2ecacff9-9297-3430-b757-36613c41104e> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43013354k/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/126> a modsrdf:ModsResource ;
@@ -1624,6 +1741,7 @@
     modsrdf:namePrincipal "Ryom, Peter" ;
     modsrdf:publisher "VEB Deutscher Verlag für Musik (Leipzig)" ;
     modsrdf:subjectName "VIVALDI, ANTONIO (1678-1741)" ;
+    dct:subject <http://data.doremus.org/artist/b34f92ab-ad86-361b-a8b8-5c3a4db784d0> ;
     modsrdf:title "Ryom"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43249390v/PUBLIC> .
 
@@ -1635,6 +1753,7 @@
     modsrdf:namePrincipal "Pincherle, Marc" ;
     modsrdf:publisher "Librairie Floury (Paris)" ;
     modsrdf:subjectName "VIVALDI, ANTONIO (1678-1741)" ;
+    dct:subject <http://data.doremus.org/artist/b34f92ab-ad86-361b-a8b8-5c3a4db784d0> ;
     modsrdf:title "Pincherle, Vivaldi"@fr ;
     modsrdf:titlePrincipal "Antonio Vivaldi et la musique instrumentale : vol. 2 : \"Inventaire thématique\""@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43205762x/INTERMARC> .
@@ -1647,6 +1766,7 @@
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:publisher "Schott (Mainz ; London ; New York)" ;
     modsrdf:subjectName "WAGNER, RICHARD (1813-1883)" ;
+    dct:subject <http://data.doremus.org/artist/34943da5-d068-3ada-bd4d-3db0c66c8a7d> ;
     modsrdf:title "Deathridge, Geck et Voss, Wagner"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37404861d/PUBLIC> .
 
@@ -1659,6 +1779,7 @@
     modsrdf:namePrincipal "Jähns, Friedrich Wilhelm" ;
     modsrdf:publisher "Schlesinger (Berlin)" ;
     modsrdf:subjectName "WEBER, CARL MARIA VON (1786-1826)" ;
+    dct:subject <http://data.doremus.org/artist/8000025a-e885-3177-99b3-300707faaad7> ;
     modsrdf:title "Jähns, Weber"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb322767611/PUBLIC> .
 
@@ -1672,6 +1793,7 @@
     modsrdf:namePrincipal "Reich, Wolfgang" ;
     modsrdf:publisher "Sächsische Landesbibliothek (Dresden)" ;
     modsrdf:subjectName "ZELENKA, JAN DISMAS (1679-1745)" ;
+    dct:subject <http://data.doremus.org/artist/bee4cb9f-3231-32be-8771-4ffb509847fe> ;
     modsrdf:title "Reich, Zelenka"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb432270381/PUBLIC> .
 
@@ -1682,6 +1804,7 @@
     modsrdf:namePrincipal "Torres Mulas, Jacinto" ;
     modsrdf:publisher "Instituto de bibliografía musical (Madrid)" ;
     modsrdf:subjectName "ALBENIZ, ISAAC (1860-1909)" ;
+    dct:subject <http://data.doremus.org/artist/1f76d196-3e35-3bcc-bb34-86afba32c3a8> ;
     modsrdf:titlePrincipal "Catálogo sistemático descriptivo de las obras musicales de Isaac Albéniz"@es ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb389102285/PUBLIC> .
 
@@ -1692,7 +1815,8 @@
     modsrdf:dateOfCopyright "2000" ;
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Pendragon press (Hillsdale (New Jersey))" ;
-    modsrdf:subjectName "ADLGASSER, ANTON  CAJETAN (1729-1777)" ;
+    modsrdf:subjectName "ADLGASSER, ANTON CAJETAN (1729-1777)" ;
+    dct:subject <http://data.doremus.org/artist/c9baacf1-d4f9-30d0-9290-2af7b44a0f34> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37208130t/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/133> a modsrdf:ModsResource ;
@@ -1713,6 +1837,7 @@
     modsrdf:namePrincipal "Hindmarsh, Paul" ;
     modsrdf:publisher "Faber and Faber (London)" ;
     modsrdf:subjectName "BRIDGE, FRANK (1879-1941)" ;
+    dct:subject <http://data.doremus.org/artist/5ae7ea4a-1b28-3569-af2c-d08df8ca80d0> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb430512957/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/135> a modsrdf:ModsResource ;
@@ -1724,6 +1849,7 @@
     modsrdf:namePrincipal "Wagner, Günter" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "CORNELIUS, PETER (1824-1874)" ;
+    dct:subject <http://data.doremus.org/artist/feedb49e-60a1-3d09-9c85-8cac5cadd123> ;
     owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb433285186%2FPUBLIC%0A> .
 
 <http://data.doremus.org/vocabulary/catalog/136> a modsrdf:ModsResource ;
@@ -1734,6 +1860,7 @@
     modsrdf:namePrincipal "Pechstaedt, Volkmar von" ;
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "DANZI, FRANZ (1763-1826)" ;
+    dct:subject <http://data.doremus.org/artist/1bb9a6a9-55c5-3d13-bc70-65f5b825ad6d> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb37511618c/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/137> a modsrdf:ModsResource ;
@@ -1744,6 +1871,7 @@
     modsrdf:namePrincipal "Gallego, Antonio" ;
     modsrdf:publisher "Ministerio de Cultura (Madrid)" ;
     modsrdf:subjectName "FALLA, MANUEL DE (1876-1946)" ;
+    dct:subject <http://data.doremus.org/artist/baa2827e-6323-33fe-91bf-f2cf2d8bc543> ;
     modsrdf:titlePrincipal "Catalogo de obras de Manuel de Falla"@es ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35019706f/PUBLIC> .
 
@@ -1770,6 +1898,7 @@
     modsrdf:namePrincipal "Sirch, Licia" ;
     modsrdf:publisher "Edizioni Fondazione Levi (Venezia )" ;
     modsrdf:subjectName "GROSSI, CARLO (1634?-1688)" ;
+    dct:subject <http://data.doremus.org/artist/3eae01a6-bd8f-3e03-9283-5dbf3160619f> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb388299018/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/141> a modsrdf:ModsResource ;
@@ -1781,6 +1910,7 @@
     modsrdf:namePrincipal "Müller-Kersten, Ursula" ;
     modsrdf:publisher "P. Lang (Frankfurt am Main ; Bern ; New York)" ;
     modsrdf:subjectName "HELLER, STEPHEN (1813-1888)" ;
+    dct:subject <http://data.doremus.org/artist/810ba6db-e7b6-3c29-9dcd-be4c52eb7235> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43171430s/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/142> a modsrdf:ModsResource ;
@@ -1791,6 +1921,7 @@
     modsrdf:namePrincipal "Maurer, Annette" ;
     modsrdf:publisher "Furore (Kassel)" ;
     modsrdf:subjectName "HENSEL, FANNY (1805-1847)" ;
+    dct:subject <http://data.doremus.org/artist/9b3dbf3b-d8af-3f26-ab69-85f637c99c73> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb369680703/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/143> a modsrdf:ModsResource ;
@@ -1809,7 +1940,8 @@
     modsrdf:dateOfCopyright "1999" ;
     modsrdf:languageOfResource "en"^^xsd:language ;
     modsrdf:publisher "Katzbichler (München ; Salzburg)" ;
-    modsrdf:subjectName "MYSLIEVECEK, JOSEPH (1737-1781)" ;
+    modsrdf:subjectName "MYSLIVECEK, JOSEF (1737-1781)" ;
+    dct:subject <http://data.doremus.org/artist/06828f18-2768-346d-9b81-1b6112ce1bf0> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb370560255/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/145> a modsrdf:ModsResource ;
@@ -1830,6 +1962,7 @@
     modsrdf:namePrincipal "Austin, David L." ;
     modsrdf:publisher "Greenwood Press (New York ; London)" ;
     modsrdf:subjectName "SAUGUET, HENRI (1901-1989)" ;
+    dct:subject <http://data.doremus.org/artist/206a6cfe-2d82-341d-9dbf-01fb63dda672> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35691774p/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/147> a modsrdf:ModsResource ;
@@ -1840,6 +1973,7 @@
     modsrdf:namePrincipal "Föllmi, Beat A." ;
     modsrdf:publisher "Othmar Schœck-Gesellschaft (Zürich)" ;
     modsrdf:subjectName "SCHOECK, OTHMAR (1886-1957)" ;
+    dct:subject <http://data.doremus.org/artist/18ad1198-8d06-3c53-b518-26bab08b9a72> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36966908p/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/148> a modsrdf:ModsResource ;
@@ -1850,6 +1984,7 @@
     modsrdf:namePrincipal "Bosshard, Daniel" ;
     modsrdf:publisher "Ed. Trais Giats (Ardez)" ;
     modsrdf:subjectName "SCRIABINE, ALEXANDRE (1872-1915)" ;
+    dct:subject <http://data.doremus.org/artist/0607b9fe-c6fe-38c1-aa5a-c2cf957bee74> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39017060c/INTERMARC> .
 
 <http://data.doremus.org/vocabulary/catalog/149> a modsrdf:ModsResource ;
@@ -1860,6 +1995,7 @@
     modsrdf:namePrincipal "Timms, Colin" ;
     modsrdf:publisher "Oxford University Press (Oxford)" ;
     modsrdf:subjectName "STEFFANI, AGOSTINO (1654-1728)" ;
+    dct:subject <http://data.doremus.org/artist/6ffb7b6b-ac8e-3d25-8797-02d354b950bf> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb410411824/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/150> a modsrdf:ModsResource ;
@@ -1870,6 +2006,7 @@
     modsrdf:namePrincipal "Endler, Franz" ;
     modsrdf:publisher "Amalthea (Wien ; München )" ;
     modsrdf:subjectName "STRAUSS, JOHANN (1825-1899)" ;
+    dct:subject <http://data.doremus.org/artist/0fcfbd78-4865-3594-b869-6525f54d855f> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36975176x/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/151> a modsrdf:ModsResource ;
@@ -1881,6 +2018,7 @@
     modsrdf:namePrincipal "Kennedy, Michael" ;
     modsrdf:publisher "Oxford University Press (Oxford)" ;
     modsrdf:subjectName "VAUGHAN WILLIAMS, RALPH (1872-1958)" ;
+    dct:subject <http://data.doremus.org/artist/71ec171d-965b-3967-b87b-262c514c01bd> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35853116v/PUBLIC> .
 
 <http://data.doremus.org/vocabulary/catalog/041> a modsrdf:ModsResource ;
@@ -1893,6 +2031,7 @@
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/042> ;
     modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
+    dct:subject <http://data.doremus.org/artist/bcf39e82-e208-3049-b550-1feaae6071a6> ;
     modsrdf:title "Lesure, Debussy, 2003"@fr ;
     modsrdf:titlePrincipal "Claude Debussy : biographie critique ; suivie du Catalogue de l'œuvre"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb39005568t/PUBLIC> .
@@ -1906,6 +2045,7 @@
     modsrdf:publisher "Minkoff (Paris)" ;
     modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/041> ;
     modsrdf:subjectName "DEBUSSY, CLAUDE (1862-1918)" ;
+    dct:subject <http://data.doremus.org/artist/bcf39e82-e208-3049-b550-1feaae6071a6> ;
     modsrdf:titlePrincipal "Catalogue de l'œuvre de Claude Debussy"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb34703639j/PUBLIC> .
 
@@ -1921,6 +2061,7 @@
     modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
     modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/086> ;
     modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
+    dct:subject <http://data.doremus.org/artist/4802a043-23bb-3b8d-a443-4a3bd22ccc63> ;
     modsrdf:title "Köchel 8"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35794010d/PUBLIC> .
 
@@ -1936,5 +2077,5 @@
     modsrdf:publisher "Breitkopf und Härtel (Wiesbaden)" ;
     modsrdf:relatedVersion <http://data.doremus.org/vocabulary/catalog/085> ;
     modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
+    dct:subject <http://data.doremus.org/artist/4802a043-23bb-3b8d-a443-4a3bd22ccc63> ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43076262w/PUBLIC> .
-
