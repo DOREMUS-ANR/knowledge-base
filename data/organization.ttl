@@ -3,13 +3,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
-<http://data.doremus.org/organization/DOREMUS> a foaf:Project ;
+<http://data.doremus.org/organization/DOREMUS> a foaf:Project, prov:Agent ;
   rdfs:label "DOREMUS" ;
   foaf:homepage <http://www.doremus.org/> ;
   foaf:logo "http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png" ;
   rdfs:comment "Initiated in late 2014, DOREMUS is a research project based on the semantic web technologies, aiming to develop tools and methods to describe, publish, connect and contextualize music catalogues on the web of data. Its primary objective is to provide common knowledge models and shared multilingual controlled vocabularies." .
 
-<http://data.doremus.org/organization/Philharmonie_de_Paris> a foaf:Organization ;
+<http://data.doremus.org/organization/Philharmonie_de_Paris> a foaf:Organization, prov:Agent ;
   rdfs:label "Philharmonie de Paris" ;
   foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> ;
   owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb16651244g> ;
@@ -17,7 +17,7 @@
   owl:sameAs <http://dbpedia.org/resource/Philharmonie_de_Paris> ;
   owl:sameAs <http://www.wikidata.org/entity/Q3378907> .
 
-<http://data.doremus.org/organization/BnF> a foaf:Organization ;
+<http://data.doremus.org/organization/BnF> a foaf:Organization, prov:Agent ;
   rdfs:label "Bibliothèque Nationale de France" ;
   foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> ;
   owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb12381002j> ;
@@ -26,7 +26,7 @@
   owl:sameAs <http://dbpedia.org/resource/Bibliotheque_nationale_de_France> ;
   owl:sameAs <http://www.wikidata.org/entity/Q193563> .
 
-<http://data.doremus.org/organization/Radio_France> a foaf:Organization ;
+<http://data.doremus.org/organization/Radio_France> a foaf:Organization, prov:Agent ;
   rdfs:label "Radio France" ;
   foaf:topic_interest <http://data.doremus.org/organization/DOREMUS> ;
   owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb13889733p> ;
