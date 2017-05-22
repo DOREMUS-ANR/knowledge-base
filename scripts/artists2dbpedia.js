@@ -108,7 +108,7 @@ function getInfoFromDBpedia(artist) {
         PREFIX dbp: <http://dbpedia.org/property>
         PREFIX dbo: <http://dbpedia.org/ontology/>
         SELECT * WHERE {
-        ?dbpedia foaf:isPrimaryTopicOf <${artist.wikipedia_uri}>
+        ?dbpedia foaf:isPrimaryTopicOf <${artist.wikipedia_uri.replace(/"/g, '\u201c')}>
         OPTIONAL { ?dbpedia dbo:wikiPageRedirects ?redirect . }
         OPTIONAL { ?dbpedia foaf:depiction ?picture. }
         OPTIONAL { ?dbpedia dbo:birthPlace | dbp:birthPlace ?birthPlace. }
