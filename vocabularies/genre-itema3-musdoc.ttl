@@ -2,14 +2,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 
 <http://data.doremus.org/vocabulary/itema3/genre/musdoc/> a skos:ConceptScheme ;
   rdfs:label "List of musical types from ITEMA3 of Radio France"@en , "Liste des types musicaux de ITEMA3 de Radio France"@fr ;
-  dc:creator <http://data.doremus.org/organization/DOREMUS> ;
-  dc:created "2017-05-15"^^xsd:date ;
-  dc:modified "2017-05-15"^^xsd:date .
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:created "2017-05-15"^^xsd:date ;
+  dct:modified "2017-05-15"^^xsd:date .
 
 <http://data.doremus.org/vocabulary/itema3/genre/musdoc/1> a skos:Concept ;
   skos:prefLabel "A Cappella" ;

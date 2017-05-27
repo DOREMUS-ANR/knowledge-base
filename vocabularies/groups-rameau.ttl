@@ -2497,4 +2497,3 @@
         <http://data.bnf.fr/ark:/12148/cb16983802t>,
         <http://data.bnf.fr/ark:/12148/cb169914493> ;
     skos:prefLabel "Ethnic groups list from RAMEAU."@en .
-

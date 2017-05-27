@@ -15315,4 +15315,3 @@
     skos:scopeNote "Si le recueil contient de la musique pour un seul moyen d'expression, on établit une vedette-matière additionnelle à cette musique, par ex. : Guitare, Musique de"^^rdf:langString,
         "Sous cette vedette, on trouve les recueils de diverses musiques de danses. Les documents sur ces musiques se trouvent sous la vedette Musique de danse suivie de Histoire et critique ou de toute autre subdivision de sujet ou de forme appropriée"^^rdf:langString ;
     link:uri "http://stitch.cs.vu.nl/vocabularies/rameau/ark:/12148/cb12048235d" .
-
