@@ -85,10 +85,10 @@ getArtistsFromSparql().then((res) => {
       if (err) return console.error(err);
 
       // workaround https://github.com/linkeddata/rdflib.js/issues/185
-      let linkUriRegex = /link:uri((?:\s+"(http.+)",?)+);/g;
-      str = str.replace(linkUriRegex, (match, p1) => {
+      let linkUriRegex = /link:uri((?:\s+"(?:http.+)",?)+)([;.])/g;
+      str = str.replace(linkUriRegex, (match, p1, p2) => {
         let uris = p1.split(',').map(u => '<' + u.replace(/"/g, '').trim() + '>');
-        return 'owl:sameAs ' + uris.join(',\n        ') + ';';
+        return 'owl:sameAs ' + uris.join(',\n        ') + p2;
       });
       // END workaround
 
@@ -179,7 +179,7 @@ function getViafFromIsni(artist) {
         }
       }).then(res => {
         console.log('ISNI: ' + artist.isni);
-        // fs.writeFile('../artists-interlinking/' + artist.isni + '.xml', res, 'utf8');
+        // fs.writeFile('../data/' + artist.isni + '.xml', res, 'utf8');
 
         let data = JSON.parse(xml2json.toJson(res));
         let record = data['ZiNG:searchRetrieveResponse']['ZiNG:records']['ZiNG:record'];
@@ -197,7 +197,10 @@ function getViafFromIsni(artist) {
         let musicBrainzIds = ids.filter(f => hasSubfield(f, "l", 'MUBZ'));
 
         viafIds.forEach(v => artist.viaf.push(getSubfield(v, "0")));
-        wikidataIds.forEach(w => artist.wikidata.push(getSubfield(w, "0")));
+        wikidataIds.forEach(w => {
+          let val = getSubfield(w, "0");
+          if (val.match('Q\d+')) artist.wikidata.push(val);
+        });
         musicBrainzIds.forEach(w => artist.musicbrainz.push(getSubfield(w, "0")));
 
         let wikipediaCandidates = ids.filter(f => hasSubfield(f, "b", 'Wikipedia'));
@@ -235,7 +238,7 @@ function getArtistsFromSparql() {
     ?s a ecrm:E21_Person;
     owl:sameAs ?isni
 
-    FILTER contains(str(?isni), 'isni')
+    FILTER (contains(str(?isni), 'isni'))
   }`;
 
 
