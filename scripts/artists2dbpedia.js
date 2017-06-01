@@ -87,7 +87,8 @@ getArtistsFromSparql().then((res) => {
       // workaround https://github.com/linkeddata/rdflib.js/issues/185
       let linkUriRegex = /link:uri((?:\s+"(?:http.+)",?)+)([;.])/g;
       str = str.replace(linkUriRegex, (match, p1, p2) => {
-        let uris = p1.split(',').map(u => '<' + u.replace(/"/g, '').trim() + '>');
+        console.log(match);
+        let uris = p1.split('",').map(u => '<' + u.replace(/"/g, '').trim() + '>');
         return 'owl:sameAs ' + uris.join(',\n        ') + p2;
       });
       // END workaround
