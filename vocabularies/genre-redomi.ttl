@@ -3,6 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/gigue> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/danse> ;
@@ -1160,7 +1161,7 @@ Le style, bien qu'associé au rock psychédélique contemporain, se caractérise
         "Liste des genres de REDOMI de Radio France"@fr ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:created "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+    dct:modified "2017-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 <http://data.doremus.org/vocabulary/redomi/genre/berceuse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/genre/chanson> ;
