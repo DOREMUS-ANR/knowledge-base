@@ -9,21 +9,21 @@ footerHeight = 15rem
 
 *
   box-sizing: border-box;
-  
+
 body
   background linear-gradient(top, white, #efefef)
   min-height 100vh
   margin 0
-  font-family Roboto, Helvetica, Arial, sans-serif 
+  font-family Roboto, Helvetica, Arial, sans-serif
   +above('s')
     padding-bottom: footerHeight
   position: relative;
-  
+
 h1
 h2
   font-family Roboto Condensed, Helvetica, Arial, sans-serif
   color #fff
-  
+
 
 .cover
   height 23em
@@ -53,9 +53,9 @@ h2
     display: block;
     margin 2em 1em 0
     padding .3em .5em 0
-    font-size 4em 
+    font-size 4em
     text-align left
-    
+
     h2
       margin-top .7em
 
@@ -77,14 +77,18 @@ h2
     font-size 1.4em
     height: 6em
     line-height: 6em
-    &:nth-child(2)
-      background #B63088
-    &:nth-child(3)
+    &:nth-child(5n+2)
+      background #2196F3
+    &:nth-child(5n+5)
       background #C62C24
+    &:nth-child(5n+4)
+      background #52C652
+    &:nth-child(5n+3)
+      background #B63088
     +below('m')
       font-size 1em
-        
-        
+
+
 #appFooter
   margin-top: 2em
   +above('s')
