@@ -1,4 +1,4 @@
-# DOREMUS knowledge base data dumps 
+# DOREMUS knowledge base data dumps
 * diabolo ... la base "Discothèque" de Radio France
 * redomi ... la base "Bibliothèque Musicale" de Radio France
 * itema3 ... la base "Documentation Sonore" décrivant des concerts donnés à Radio France

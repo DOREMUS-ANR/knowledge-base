@@ -30,7 +30,7 @@ Mode
     node mode-post-script
 
 Diabolo mop and genre
-  
+
     node diabolo-post-script
 
 ### collections
@@ -44,9 +44,15 @@ RAMEAU Medium of performance
 RAMEAU Ethnic groups
 
     node rameau-groups-script
-    
+
 ### simple download
 
 MIMO
 
     node mimo-download
+
+### Others
+
+When artists are already in the [endpoint](http://data.doremus.org/sparql), use ISNI `sameAs` link for interrogate ISNI database and retrieve other sameAs and data from DBpedia.
+
+    node artists2dbpedia [--page 3] # `page` option is for restart from a certain position

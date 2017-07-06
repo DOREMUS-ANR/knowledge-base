@@ -5,7 +5,7 @@ const fs = require('fs');
 const xml2json = require('xml2json');
 const async = require('async');
 const $rdf = require('rdflib');
-
+const commandLineArgs = require('command-line-args');
 
 const doremusEndpoint = new SparqlClient('http://data.doremus.org/sparql');
 const dbpediaEndpoint = new SparqlClient('http://dbpedia.org/sparql');
@@ -24,6 +24,14 @@ var store = $rdf.graph();
 
 var artists, art_len;
 var done = 0;
+
+const optionDefinitions = [{
+  name: 'page',
+  type: Number
+}];
+const options = commandLineArgs(optionDefinitions);
+const chunksize = 500;
+
 getArtistsFromSparql().then((res) => {
   artists = res.map((r) => ({
     doremus_uri: r.s.value,
@@ -34,68 +42,70 @@ getArtistsFromSparql().then((res) => {
 
   console.log(`Start processing of ${art_len} artists.`);
 
+  async.eachOfSeries(chunk(artists, chunksize), (chunk, key, mainCallback) => {
+    let page = options.page + key;
+    async.eachSeries(chunk, (a, callback) => {
+      console.log(`Artist ${++done}/${art_len}`);
+      getViafFromIsni(a).then(getInfoFromDBpedia)
+        .then(a => {
+          let art = $rdf.sym(a.doremus_uri);
 
-  async.eachSeries(artists, (a, callback) => {
-    console.log(`Artist ${++done}/${art_len}`);
-    getViafFromIsni(a).then(getInfoFromDBpedia)
-      .then(a => {
-        let art = $rdf.sym(a.doremus_uri);
+          for (let viaf of a.viaf)
+            store.add(art, OWL('sameAs'), $rdf.sym(`http://viaf.org/viaf/${viaf}`));
 
-        for (let viaf of a.viaf)
-          store.add(art, OWL('sameAs'), $rdf.sym(`http://viaf.org/viaf/${viaf}`));
+          for (let wk of a.wikidata)
+            store.add(art, OWL('sameAs'), $rdf.sym(`http://www.wikidata.org/entity/${wk}`));
 
-        for (let wk of a.wikidata)
-          store.add(art, OWL('sameAs'), $rdf.sym(`http://www.wikidata.org/entity/${wk}`));
+          for (let mb of a.musicbrainz)
+            store.add(art, OWL('sameAs'), $rdf.sym(`https://musicbrainz.org/artist/${mb}`));
 
-        for (let mb of a.musicbrainz)
-          store.add(art, OWL('sameAs'), $rdf.sym(`https://musicbrainz.org/artist/${mb}`));
+          if (a.wikipedia_uri)
+            store.add(art, FOAF('isPrimaryTopicOf'), $rdf.sym(a.wikipedia_uri));
 
-        if (a.wikipedia_uri)
-          store.add(art, FOAF('isPrimaryTopicOf'), $rdf.sym(a.wikipedia_uri));
+          if (a.dbpedia_uri)
+            store.add(art, OWL('sameAs'), $rdf.sym(a.dbpedia_uri));
 
-        if (a.dbpedia_uri)
-          store.add(art, OWL('sameAs'), $rdf.sym(a.dbpedia_uri));
+          if (a.picture)
+            store.add(art, FOAF('depiction'), $rdf.sym(a.picture));
 
-        if (a.picture)
-          store.add(art, FOAF('depiction'), $rdf.sym(a.picture));
+          if (a.birthPlace)
+            store.add(art, DBP('birthPlace'), $rdf.sym(a.birthPlace));
 
-        if (a.birthPlace)
-          store.add(art, DBP('birthPlace'), $rdf.sym(a.birthPlace));
+          if (a.deathPlace)
+            store.add(art, DBP('deathPlace'), $rdf.sym(a.deathPlace));
 
-        if (a.deathPlace)
-          store.add(art, DBP('deathPlace'), $rdf.sym(a.deathPlace));
+          if (a.comment && a.comment[0]) {
+            for (let comment of a.comment)
+              store.add(art, RDFS('comment'), $rdf.literal(comment.value, comment['xml:lang']));
+          }
+          callback();
+        });
+    }, () => {
+      console.log('Serializing Turtle');
+      store.namespaces = {
+        'dbr': 'http://dbpedia.org/resource/',
+        'dbp': 'http://dbpedia.org/property/',
+        'foaf': 'http://xmlns.com/foaf/0.1/',
+        'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
+        'wd': 'http://www.wikidata.org/entity/',
+        'viaf': 'http://viaf.org/viaf/'
+      };
+      $rdf.serialize(undefined, store, 'http://example.org', 'text/turtle', (err, str) => {
+        if (err) return console.error(err);
 
-        if (a.comment && a.comment[0]) {
-          for (let comment of a.comment)
-            store.add(art, RDFS('comment'), $rdf.literal(comment.value, comment['xml:lang']));
-        }
-        callback();
+        // workaround https://github.com/linkeddata/rdflib.js/issues/185
+        let linkUriRegex = /link:uri((?:\s+"(?:http.+)",?)+)([;.])/g;
+        str = str.replace(linkUriRegex, (match, p1, p2) => {
+          console.log(match);
+          let uris = p1.split('",').map(u => '<' + u.replace(/"/g, '').trim() + '>');
+          return 'owl:sameAs ' + uris.join(',\n        ') + p2;
+        });
+        // END workaround
+
+        fs.writeFile(`../data/isni/artists_${page}.ttl`, str, 'utf8');
+        mainCallback();
       });
-  }, () => {
-    console.log('Serializing Turtle');
-    store.namespaces = {
-      'dbr': 'http://dbpedia.org/resource/',
-      'dbp': 'http://dbpedia.org/property/',
-      'foaf': 'http://xmlns.com/foaf/0.1/',
-      'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
-      'wd': 'http://www.wikidata.org/entity/',
-      'viaf': 'http://viaf.org/viaf/'
-    };
-    $rdf.serialize(undefined, store, 'http://example.org', 'text/turtle', (err, str) => {
-      if (err) return console.error(err);
-
-      // workaround https://github.com/linkeddata/rdflib.js/issues/185
-      let linkUriRegex = /link:uri((?:\s+"(?:http.+)",?)+)([;.])/g;
-      str = str.replace(linkUriRegex, (match, p1, p2) => {
-        console.log(match);
-        let uris = p1.split('",').map(u => '<' + u.replace(/"/g, '').trim() + '>');
-        return 'owl:sameAs ' + uris.join(',\n        ') + p2;
-      });
-      // END workaround
-
-      fs.writeFile('../data/artists.ttl', str, 'utf8');
     });
-
   });
 });
 
@@ -234,13 +244,15 @@ function getSubfield(f, code) {
 
 
 function getArtistsFromSparql() {
+  console.log(options);
+  let offset = options.page ? `LIMIT 100000 OFFSET ${options.page * chunksize}` : '';
   return new Promise(function(resolve, reject) {
     var query = `select * where {
     ?s a ecrm:E21_Person;
     owl:sameAs ?isni
 
     FILTER (contains(str(?isni), 'isni'))
-  }`;
+  } ${offset}`;
 
 
     console.log("Query to DOREMUS: " + query);
@@ -250,4 +262,9 @@ function getArtistsFromSparql() {
     });
 
   });
+}
+
+function chunk(list, chuckSize) {
+  // https://stackoverflow.com/a/44687374/1218213
+  return new Array(Math.ceil(list.length / chuckSize)).fill().map(_ => list.splice(0, chuckSize));
 }
