@@ -6272,9 +6272,9 @@
         "altra forma"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
-<http://data.doremus.org/vocabulary/iaml/genre/> a skos:ConceptScheme
+<http://data.doremus.org/vocabulary/iaml/genre/> a skos:ConceptScheme ;
     rdfs:label "List of musical genres according to IAML."@en,
-        "Liste des genres musicaux selon IAML."@fr ;
+        "Liste des genres musicaux selon IAML."@fr ,
         "Lista dei generi musicali secondo l'IAML."@it ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;

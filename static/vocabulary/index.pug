@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+  head
+    title DOREMUS Vocabularies
+    link(rel='stylesheet', href='styles.css')
+    meta(charset='UTF-8')
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+
+  body
+
+    section.cover
+      .inside
+        .description
+          h1 DOREMUS Vocabularies
+          p This page contains musical controlled vocabularies published by the DOREMUS project.
+          p We currently rely on #{total} vocabularies belonging to #{categories} categories, that follow the #[a(href="https://www.w3.org/2009/08/skos-reference/skos.html") SKOS] and #[a(href="https://www.loc.gov/standards/mods/modsrdf/") MODS] standards.
+          a.btn(href="https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies")
+            span See it on GitHub
+        .logo
+          img(src='img/doremus.logo.w.png')
+
+    div
+      each list, category in vocabularies
+        h1= category
+        section.card
+          ul.list
+            each v in list
+              li
+                if !v.isDoremus
+                  div
+                    h2= v.name
+                if v.description
+                  div
+                    span.content.description=  v.description
+                div
+                  span.label URI
+                  a.content(href=v.uri)= v.uri
+                div
+                  span.label N. of concepts
+                  span.content= v.concepts
+
+    footer#appFooter
+      .footerCont
+        div
+          p.descr
+            | The #[strong DOREMUS Vocabularies] live inside the
+            a(href='http://www.doremus.org', rel='external', target='_blank') DOREMUS project
+            | , for describing, publishing, connecting and contextualizing music catalogues on the web of data.
+            br
+            br
+            | Photo credit:
+            a(href='https://www.flickr.com/photos/lecates/438919948') lecates
+        .projLogoCont
+          a(href='http://www.doremus.org', rel='external', target='_blank')
+            img(src='http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png')
