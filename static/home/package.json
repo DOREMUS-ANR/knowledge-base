@@ -1,0 +1,15 @@
+{
+  "name": "data.doremus-landing",
+  "version": "1.0.0",
+  "description": "landing page for DOREMUS data",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pasquale.lisena@eurecom.fr",
+  "license": "ISC",
+  "dependencies": {
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2"
+  }
+}
