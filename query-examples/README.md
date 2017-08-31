@@ -1,3 +1,7 @@
+This folder contains query examples illustrating DOREMUS data available in the [DOREMUS SPARQL Endpoint](http://data.doremus.org/data). Those queries have been defined by end-users prior to the modeling of the DOREMUS data and serve as pseudo-evaluation of the [DOREMUS ontology](http://data.doremus.org/ontology) in terms of expressivity.
+
+Some queries have only a _partial_ answer or no answer at all since the modeling and the publication of data is still a work in progress.
+
 ## Table of Contents
 * [A. In the Wild](#in-the-wild)
 * [B. Works and Expressions](#works-expressions)
@@ -6,18 +10,14 @@
 * [E. Recordings](#recordings)
 * [F. Publications](#publications)
 
-This folder contains query examples illustrating DOREMUS data available in the [DOREMUS SPARQL Endpoint](http://data.doremus.org/data). Those queries have been defined by end-users prior to the modeling of the DOREMUS data and serve as pseudo-evaluation of the [DOREMUS ontology](http://data.doremus.org/ontology) in terms of expressivity.
-
-Some queries have only a _partial_ answer or no answer at all since the modeling and the publication of data is still a work in progress.
-
-<a name="in-the-wild"/>
 ## A. In the Wild
+<a name="in-the-wild"/>
 
 On the MLA mailing list, one asked the following question: [A professor at my university asked me today if I could find any music for flute and TWO bassoons – an interesting combo, to be sure](https://list.indiana.edu/sympa/arc/mla-l/2017-08/msg00248.html)
 [query](./mla.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Fcomposer%29+as+%3Fcomposer%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%2F+foaf%3Aname+%3Fcomposer+.%0D%0A%0D%0A++%3Fcasting+mus%3AU23_has_casting_detail+%3FallCastingDets+.%0D%0A%0D%0A++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1%2C+%3FcastingDet2+.%0D%0A++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fbassoon+%3B%0D%0A+++++++mus%3AU30_foresees_quantity_of_mop+2+.%0D%0A%0D%0A++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fflute+.%0D%0A%0D%0A++VALUES+%28%3Fbassoon%29+%7B+%28+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwba%3E+%29+%28%3Chttp%3A%2F%2Fwww.mimo-db.eu%2FInstrumentsKeywords%2F3795%3E%29+%7D%0D%0A++VALUES+%28%3Fflute%29+%7B+%28+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwfl%3E+%29+%28%3Chttp%3A%2F%2Fwww.mimo-db.eu%2FInstrumentsKeywords%2F3955%3E%29+%7D%0D%0A%0D%0A%7D%0D%0AGROUP+BY+%3Fexpression+%3Fcasting%0D%0AHAVING+%28COUNT%28%3FallCastingDets%29+%3E%3D+2%29%0D%0A%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
 
 <a name="works-expressions"/>
-## Works and Expressions
+## B. Works and Expressions
 
 1. **[en]** Which works have been composed by Mozart ?  
 **[fr]** Quelles oeuvres ont été composées par Mozart ?  
@@ -131,9 +131,10 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 
 1. **[en]** Give me all the works related to popular music  
 **[fr]** Donne-moi toutes les oeuvres liées à la musique populaire  
+<!-- END Works and Expressions -->
 
 <a name="artists"/>
-## Artists
+## C. Artists
 
 1. **[en]** Retrieve the works by artists that have been mutually lovers  
 **[fr]** donne-moi les oeuvres d’artistes qui étaient fiancés l’un à l’autre  
@@ -144,9 +145,10 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 
 1. **[en]** Give me the list of musicians of the Radio France Philharmonic Orchestra having a chamber music activity in concerts organized by Radio France  
 **[fr]** Donne-moi la liste des musiciens de l’Orchestre Philharmonique de Radio France ayant une activité de musique de chambre dans des concerts organisés par Radio France  
+<!-- END Artists -->
 
 <a name="performances"/>
-## Performances
+## D. Performances
 
 1. **[en]** Give me all the works with an alternative distribution  
 **[fr]** Donne-moi toutes les oeuvres ayant une distribution alternative  
@@ -181,11 +183,10 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 1. **[en]** Give me all the works interpreted on at least one mop different from the casting of the work  
 **[fr]** Donne-moi toutes les oeuvres interprétées sur au moins un mop différent du casting de l’oeuvre  
 [query](./30.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fexpression%2C+%3Fperformance%2C+%3Fmop%2C+group_concat%28DISTINCT+%3FmopWork%2C+%22%2C+%22%29+AS+%3FmopWork%0D%0AWHERE+%7B%0D%0A++%3Fperformance+a+mus%3AM42_Performed_Expression_Creation+%3B%0D%0A++++efrbroo%3AR25_performed+%2F+ecrm%3AP165_incorporates+%3Fexpression+%3B%0D%0A++++ecrm%3AP9_consists_of+%2F+mus%3AU1_used_medium_of_performance+%3Fmop+.%0D%0A%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3FmopWork+.%0D%0A%0D%0A++FILTER+NOT+EXISTS+%7B%0D%0A++++%3Fexpression+mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fmop+.%0D%0A++%7D%0D%0A%7D+LIMIT+300%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
-
 <!-- END Performances -->
 
 <a name="recordings"/>
-## Recordings
+## E. Recordings
 
 1. **[en]** Give me the artists that have been recorded more than 10 times by Radio France  
 **[fr]** donne-moi les artistes qui ont été enregistrés plus de 10 fois par Radio France  
@@ -219,11 +220,10 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 
 1. **[en]** Give me all the recordings of the air of the catalog (isolated air or in a recording of the opera)  
 **[fr]** Donne moi tous les enregistrements de l’air du catalogue (air isolé ou dans un enregistrement de l’opéra)  
-
 <!-- END Recordings -->
 
 <a name="publications"/>
-## Publications
+## F. Publications
 
 1. **[en]** Among concerts and CDs, which works are often played after < other work > ?  
 **[fr]** Dans les concerts et les cd, quelles oeuvres sont souvent jouées après < telle autre oeuvre > ?  
@@ -239,5 +239,4 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 
 1. **[en]** Give me all the recordings of opera aria whose library has no score  
 **[fr]** Donne moi tous les enregistrements d’airs d’opéra dont la bibliothèque ne dispose d’aucune partition  
-
 <!-- END Publications -->
