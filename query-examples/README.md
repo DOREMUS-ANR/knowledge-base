@@ -18,6 +18,7 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 [query](./mla.rq) - [results](http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Fcomposer%29+as+%3Fcomposer%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+%3Fcasting%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU13_has_casting+%3Fcasting+.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%2F+foaf%3Aname+%3Fcomposer+.%0D%0A%0D%0A++%3Fcasting+mus%3AU23_has_casting_detail+%3FallCastingDets+.%0D%0A%0D%0A++%3Fcasting+mus%3AU23_has_casting_detail+%3FcastingDet1%2C+%3FcastingDet2+.%0D%0A++%3FcastingDet1+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fbassoon+%3B%0D%0A+++++++mus%3AU30_foresees_quantity_of_mop+2+.%0D%0A%0D%0A++%3FcastingDet2+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fflute+.%0D%0A%0D%0A++VALUES+%28%3Fbassoon%29+%7B+%28+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwba%3E+%29+%28%3Chttp%3A%2F%2Fwww.mimo-db.eu%2FInstrumentsKeywords%2F3795%3E%29+%7D%0D%0A++VALUES+%28%3Fflute%29+%7B+%28+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fwfl%3E+%29+%28%3Chttp%3A%2F%2Fwww.mimo-db.eu%2FInstrumentsKeywords%2F3955%3E%29+%7D%0D%0A%0D%0A%7D%0D%0AGROUP+BY+%3Fexpression+%3Fcasting%0D%0AHAVING+%28COUNT%28%3FallCastingDets%29+%3E%3D+2%29%0D%0A%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
 
 <a name="works-expressions"/>
+
 ## B. Works and Expressions
 
 1. **[en]** Which works have been composed by Mozart ?  
@@ -135,6 +136,7 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 <!-- END Works and Expressions -->
 
 <a name="artists"/>
+
 ## C. Artists
 
 1. **[en]** Retrieve the works by artists that have been mutually lovers  
@@ -149,6 +151,7 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 <!-- END Artists -->
 
 <a name="performances"/>
+
 ## D. Performances
 
 1. **[en]** Give me all the works with an alternative distribution  
@@ -187,6 +190,7 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 <!-- END Performances -->
 
 <a name="recordings"/>
+
 ## E. Recordings
 
 1. **[en]** Give me the artists that have been recorded more than 10 times by Radio France  
@@ -224,6 +228,7 @@ On the MLA mailing list, one asked the following question: [A professor at my un
 <!-- END Recordings -->
 
 <a name="publications"/>
+
 ## F. Publications
 
 1. **[en]** Among concerts and CDs, which works are often played after < other work > ?  
