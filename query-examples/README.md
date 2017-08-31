@@ -1,4 +1,4 @@
-##### Table of Contents
+## Table of Contents
 [In the Wild](#in-the-wild)
 [Works and Expressions](#works-expressions)
 [Artists](#artists)
