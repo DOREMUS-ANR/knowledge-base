@@ -1,20 +1,22 @@
 DOREMUS controlled vocabularies
 ========
 
+http://data.doremus.org/vocabularies
+
 ### Stable vocabularies
 
-* Keys: http://data.doremus.org/vocabulary/key (French, English, Italian, Spanish, German)
-* Derivations: http://data.doremus.org/vocabulary/derivation (French, English, Italian, Spanish, German)
-* Modes: http://data.doremus.org/vocabulary/mode (French, English)
+* Keys: http://data.doremus.org/vocabulary/key/ (French, English, Italian, Spanish, German)
+* Derivations: http://data.doremus.org/vocabulary/derivation/ (French, English, Italian, Spanish, German)
+* Modes: http://data.doremus.org/vocabulary/mode/ (French, English)
 * Medium of Performances:
   * Rameau: http://data.bnf.fr/vocabulary/scheme/r166
-  * AIBM: http://data.doremus.org/vocabulary/iaml/mop
+  * AIBM: http://data.doremus.org/vocabulary/iaml/mop/
   * MIMO: http://www.mimo-db.eu/InstrumentsKeywords + [github](https://github.com/philharmoniedeparis/mimo)
   * Hornbostel & Sachs: http://www.mimo-db.eu/HornbostelAndSachs
   * Diabolo: http://data.doremus.org/vocabulary/diabolo/mop/
 * Musical Genres:
   * Rameau: http://data.bnf.fr/vocabulary/scheme/r166
-  * AIBM: http://data.doremus.org/vocabulary/iaml/genre
+  * AIBM: http://data.doremus.org/vocabulary/iaml/genre/
   * Diabolo: http://data.doremus.org/vocabulary/diabolo/genre/
 
 ### Work in progress vocabularies
