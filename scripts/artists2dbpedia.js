@@ -1,7 +1,8 @@
 const SparqlClient = require('sparql-client');
 const util = require('util');
 const request = require('request-promise-native');
-const fs = require('fs');
+const fs = require('fs-extra');
+
 const xml2json = require('xml2json');
 const async = require('async');
 const $rdf = require('rdflib');
@@ -12,25 +13,31 @@ const dbpediaEndpoint = new SparqlClient('http://dbpedia.org/sparql');
 const frDbpediaEndpoint = new SparqlClient('http://fr.dbpedia.org/sparql');
 const isniAPI = 'http://isni.oclc.nl/sru/';
 
-const wikiEn = 'http://en.wikipedia.org/wiki/';
-const doubleWikiEn = wikiEn + 'https://en.wikipedia.org/wiki/';
+const WIKI_EN_REGEX = /https?:\/\/en\.wikipedia\.org\/wiki\/(.+)/;
+const WIKI_FR_REGEX = /https?:\/\/fr\.wikipedia\.org\/wiki\/(.+)/;
 
 var RDFS = $rdf.Namespace("http://www.w3.org/2000/01/rdf-schema#");
 var OWL = $rdf.Namespace("http://www.w3.org/2002/07/owl#");
 var FOAF = $rdf.Namespace("http://xmlns.com/foaf/0.1/");
 var DBP = $rdf.Namespace("http://dbpedia.org/property/");
 
-var store = $rdf.graph();
-
 var artists, art_len;
 var done = 0;
 
 const optionDefinitions = [{
   name: 'page',
-  type: Number
+  type: Number,
+  defaultValue: 0
+}, {
+  name: 'limit',
+  type: Number,
+  defaultValue: 0
 }];
 const options = commandLineArgs(optionDefinitions);
-const chunksize = 500;
+const CHUNKSIZE = 500;
+
+const OUTPUT_FOLDER = '../data/isni';
+fs.ensureDirSync(OUTPUT_FOLDER);
 
 getArtistsFromSparql().then((res) => {
   artists = res.map((r) => ({
@@ -42,8 +49,10 @@ getArtistsFromSparql().then((res) => {
 
   console.log(`Start processing of ${art_len} artists.`);
 
-  async.eachOfSeries(chunk(artists, chunksize), (chunk, key, mainCallback) => {
+  async.eachOfSeries(chunk(artists, CHUNKSIZE), (chunk, key, mainCallback) => {
     let page = options.page + key;
+    let store = $rdf.graph();
+
     async.eachSeries(chunk, (a, callback) => {
       console.log(`Artist ${++done}/${art_len}`);
       getViafFromIsni(a).then(getInfoFromDBpedia)
@@ -88,7 +97,8 @@ getArtistsFromSparql().then((res) => {
         'foaf': 'http://xmlns.com/foaf/0.1/',
         'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
         'wd': 'http://www.wikidata.org/entity/',
-        'viaf': 'http://viaf.org/viaf/'
+        'viaf': 'http://viaf.org/viaf/',
+        'doremus_artist': 'http://data.doremus.org/artist/'
       };
       $rdf.serialize(undefined, store, 'http://example.org', 'text/turtle', (err, str) => {
         if (err) return console.error(err);
@@ -96,13 +106,12 @@ getArtistsFromSparql().then((res) => {
         // workaround https://github.com/linkeddata/rdflib.js/issues/185
         let linkUriRegex = /link:uri((?:\s+"(?:http.+)",?)+)([;.])/g;
         str = str.replace(linkUriRegex, (match, p1, p2) => {
-          console.log(match);
           let uris = p1.split('",').map(u => '<' + u.replace(/"/g, '').trim() + '>');
           return 'owl:sameAs ' + uris.join(',\n        ') + p2;
         });
         // END workaround
 
-        fs.writeFile(`../data/isni/artists_${page}.ttl`, str, 'utf8');
+        fs.writeFile(`${OUTPUT_FOLDER}/artists_${page}.ttl`, str, 'utf8');
         mainCallback();
       });
     });
@@ -113,7 +122,7 @@ function getInfoFromDBpedia(artist) {
   return new Promise(function(resolve, reject) {
     if (!artist.wikipedia_uri) return resolve(artist);
 
-    let endpoint = (artist.wikipedia_uri.includes('fr.wikipedia.org')) ? frDbpediaEndpoint : dbpediaEndpoint;
+    let endpoint = artist.wikipedia_uri.match(WIKI_FR_REGEX) ? frDbpediaEndpoint : dbpediaEndpoint;
 
     let query = `
         PREFIX dbp: <http://dbpedia.org/property>
@@ -127,7 +136,7 @@ function getInfoFromDBpedia(artist) {
         OPTIONAL { ?dbpedia rdfs:comment ?comment. }
     }`;
 
-    console.log("Query to DBpedia: " + query);
+    console.log(`Query to DBpedia`, query);
     endpoint.query(query).execute((err, res) => {
       if (err) return reject(err);
       let data = res.results.bindings;
@@ -150,7 +159,7 @@ function getInfoFromDBpedia(artist) {
 
 function followRedirect(artist, uri, resolve, reject) {
   artist.dbpedia_uri = uri;
-  let endpoint = (artist.wikipedia_uri.includes('fr.wikipedia.org')) ? frDbpediaEndpoint : dbpediaEndpoint;
+  let endpoint = artist.wikipedia_uri.match(WIKI_FR_REGEX) ? frDbpediaEndpoint : dbpediaEndpoint;
 
   let query = `
         PREFIX dbp: <http://dbpedia.org/property>
@@ -215,13 +224,10 @@ function getViafFromIsni(artist) {
         musicBrainzIds.forEach(w => artist.musicbrainz.push(getSubfield(w, "0")));
 
         let wikipediaCandidates = ids.filter(f => hasSubfield(f, "b", 'Wikipedia'));
-        let wikipedia = wikipediaCandidates.find(f => getSubfield(f, 'u').includes(doubleWikiEn)) ||
-          wikipediaCandidates.find(f => getSubfield(f, 'u').includes(wikiEn));
+        let wikipedia = wikipediaCandidates.find(f => getSubfield(f, 'u').match(WIKI_EN_REGEX)) ||
+          wikipediaCandidates.find(f => getSubfield(f, 'u').match(WIKI_FR_REGEX));
+        if (wikipedia) artist.wikipedia_uri = getSubfield(wikipedia, 'u').replace(/^https/, 'http');
 
-        if (wikipedia) {
-          artist.wikipedia_uri = getSubfield(wikipedia, 'u')
-            .replace(/http:\/\/en\.wikipedia\.org\/wiki\/https:\/\/([a-z]+)\.wikipedia\.org\/wiki\//g, 'http://$1.wikipedia.org/wiki/');
-        }
         resolve(artist);
       })
       .catch(reject);
@@ -245,15 +251,20 @@ function getSubfield(f, code) {
 
 function getArtistsFromSparql() {
   console.log(options);
-  let offset = options.page ? `LIMIT 100000 OFFSET ${options.page * chunksize}` : '';
+  let limit = options.limit ? options.limit : 100000;
+  let offset = options.page * CHUNKSIZE;
+  let offsetString = offset ? `OFFSET ${offset}` : '';
+
   return new Promise(function(resolve, reject) {
-    var query = `select * where {
+    var query = `select DISTINCT * where {
     ?s a ecrm:E21_Person;
     owl:sameAs ?isni
 
     FILTER (contains(str(?isni), 'isni'))
-  } ${offset}`;
+  } LIMIT ${limit}
+    ${offsetString}`;
 
+    // FILTER(str(?s) = 'http://data.doremus.org/artist/6963af5e-b126-3d40-a84b-97e0b78f5452')
 
     console.log("Query to DOREMUS: " + query);
     doremusEndpoint.query(query).execute((err, res) => {
