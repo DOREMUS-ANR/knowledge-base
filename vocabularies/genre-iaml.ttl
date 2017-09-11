@@ -32,14 +32,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/acl> a skos:Concept ;
-    skos:altLabel "Akklamation"@de,
+    skos:altLabel "akklamation"@de,
         "festosa acclamazione"@it,
         "laudes imperiales"@la,
         "laudes papales"@la,
         "laudes regiae"@la ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/acl> ;
-    skos:note "Use also for laudes regiae or similar"@la ;
+    skos:note "Use also for laudes regiae or similar"@en ;
     skos:prefLabel "acclamazione"@it,
         "acclamatio"@la ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -51,7 +51,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/agn> a skos:Concept ;
-    skos:altLabel "Agnus Dei (musique)"@fr ;
+    skos:altLabel "agnus dei (musique)"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/agn> ;
     skos:prefLabel "agnus dei"@la ;
@@ -59,7 +59,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/ai> a skos:Concept ;
     skos:altLabel "ayre"@en,
-        "Airs"@fr,
+        "airs"@fr,
         "air de ballet"@fr,
         "air de cour"@fr,
         "air à boire"@fr,
@@ -67,13 +67,13 @@
         "air à danser"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ai> ;
-    skos:note "Use also for ayre; for instrumental air prefer ain – air, instrumental"@fr ;
+    skos:note "Use also for ayre; for instrumental air prefer ain – air, instrumental"@en ;
     skos:prefLabel "ayr"@en,
         "air, vocal"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ain> a skos:Concept ;
-    skos:altLabel "Airs"@fr ;
+    skos:altLabel "airs"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ain> ;
     skos:prefLabel "air, instrumental"@fr ;
@@ -86,8 +86,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ala> a skos:Concept ;
-    skos:altLabel "Tagelied"@de,
-        "Chansons d'aubes"@fr,
+    skos:altLabel "tagelied"@de,
+        "chansons d'aubes"@fr,
         "aube"@fr,
         "alba"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
@@ -98,7 +98,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/alb> a skos:Concept ;
-    skos:altLabel "Albumblatt"@de,
+    skos:altLabel "albumblatt"@de,
         "feuille d'album"@fr,
         "feuillet d'album"@fr ;
     skos:editorialNote "English term is preferred globally." ;
@@ -108,7 +108,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/all> a skos:Concept ;
-    skos:altLabel "Alléluia (musique)"@fr,
+    skos:altLabel "alléluia (musique)"@fr,
         "hallelujah"@it,
         "alleluja"@la ;
     skos:editorialNote "Latin term is preferred globally." ;
@@ -117,10 +117,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/alm> a skos:Concept ;
-    skos:altLabel "Dantz"@de,
-        "Deutscher Tanz"@de,
-        "Allemandes"@fr,
-        "Allemandes (musique)"@fr,
+    skos:altLabel "dantz"@de,
+        "deutscher tanz"@de,
+        "allemandes"@fr,
+        "allemandes (musique)"@fr,
         "danse allemande"@fr,
         "alman"@it,
         "balletto allemanno"@it,
@@ -128,7 +128,7 @@
         "tedesco"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/alm> ;
-    skos:note "16th-18th cent."@it ;
+    skos:note "16th-18th cent."@en ;
     skos:prefLabel "allemande"@fr,
         "allemanda"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -137,14 +137,14 @@
     skos:altLabel "passeggiata"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ame> ;
-    skos:note "Use also for passeggiata"@fr ;
+    skos:note "Use also for passeggiata"@en ;
     skos:prefLabel "amener"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/an> a skos:Concept ;
     skos:altLabel "antem"@en,
         "antym"@en,
-        "Anthems"@fr ;
+        "anthems"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/an> ;
     skos:prefLabel "anthem"@en ;
@@ -164,7 +164,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/ant> a skos:Concept ;
     skos:altLabel "antiphony"@en,
-        "Antiennes"@fr,
+        "antiennes"@fr,
         "antienne"@fr,
         "antiphona"@it,
         "marianische antiphon"@it,
@@ -180,41 +180,41 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/app> a skos:Concept ;
-    skos:altLabel "Singgedicht"@de,
+    skos:altLabel "singgedicht"@de,
         "applauso festivo"@it,
         "applauso musicale"@it,
         "applausus musicus"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/app> ;
-    skos:note "Use also for Singgedicht"@it ;
+    skos:note "Use also for Singgedicht"@en ;
     skos:prefLabel "applauso"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ar> a skos:Concept ;
-    skos:altLabel "Arie"@de,
-        "Arias"@fr,
+    skos:altLabel "arie"@de,
+        "arias"@fr,
         "aria di sortita"@it,
         "aria drammatica"@it,
         "arietta"@it,
         "aer"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ar> ;
-    skos:note "For instrumental forms prefer arn – aria, instrumental"@it ;
+    skos:note "For instrumental forms prefer arn – aria, instrumental"@en ;
     skos:prefLabel "aria"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ara> a skos:Concept ;
-    skos:altLabel "Arabeske"@de,
+    skos:altLabel "arabeske"@de,
         "arabesque"@en,
-        "Arabesques"@fr,
-        "Arabesques (musique)"@fr ;
+        "arabesques"@fr,
+        "arabesques (musique)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ara> ;
     skos:prefLabel "arabesque"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ari> a skos:Concept ;
-    skos:altLabel "Ariettes"@fr ;
+    skos:altLabel "ariettes"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ari> ;
     skos:prefLabel "ariette"@it ;
@@ -230,12 +230,12 @@
         "sokatantza"@eu ;
     skos:editorialNote "Basque term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ark> ;
-    skos:note "Use also for baile real, desafio, eskudanza, and similar"@eu ;
+    skos:note "Use also for baile real, desafio, eskudanza, and similar"@en ;
     skos:prefLabel "aurresku"@eu ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/arn> a skos:Concept ;
-    skos:altLabel "Arias"@fr,
+    skos:altLabel "arias"@fr,
         "aria, strumentale"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/arn> ;
@@ -244,7 +244,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ars> a skos:Concept ;
-    skos:altLabel "Ariosos"@fr ;
+    skos:altLabel "ariosos"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ars> ;
     skos:prefLabel "arioso"@it ;
@@ -252,11 +252,11 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/aub> a skos:Concept ;
     skos:altLabel "alborada"@es,
-        "Aubades"@fr,
+        "aubades"@fr,
         "aube instrumentale"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/aub> ;
-    skos:note "Instrumental"@it ;
+    skos:note "Instrumental"@en ;
     skos:prefLabel "aubade"@fr,
         "alba"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -271,7 +271,7 @@
         "azione tragico comica musicale"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/azm> ;
-    skos:note "Use for 20th cent. works so designated; use also for azione lirica and similar"@it ;
+    skos:note "Use for 20th cent. works so designated; use also for azione lirica and similar"@en ;
     skos:prefLabel "azione musicale"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -284,7 +284,7 @@
         "actio sacra"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/azs> ;
-    skos:note "Mostly Viennese, 17th cent.; use also for trattenimento sacro"@it ;
+    skos:note "Mostly Viennese, 17th cent.; use also for trattenimento sacro"@en ;
     skos:prefLabel "azione sacra"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -317,13 +317,13 @@
     skos:altLabel "badinerie"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bad> ;
-    skos:note "Use also for badinerie"@fr ;
+    skos:note "Use also for badinerie"@en ;
     skos:prefLabel "badinage"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bag> a skos:Concept ;
-    skos:altLabel "Bagatelles"@fr,
-        "Bagatelles (musique)"@fr ;
+    skos:altLabel "bagatelles"@fr,
+        "bagatelles (musique)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bag> ;
     skos:prefLabel "bagatelle"@fr,
@@ -331,7 +331,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bai> a skos:Concept ;
-    skos:altLabel "Baiaos"@fr ;
+    skos:altLabel "baiaos"@fr ;
     skos:editorialNote "Portuguese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bai> ;
     skos:prefLabel "baião"@pt ;
@@ -347,14 +347,14 @@
         "idea de' balli pantomimi"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bal> ;
-    skos:note "Use for social gatherings and professional stage choreographies"@it ;
+    skos:note "Use for social gatherings and professional stage choreographies"@en ;
     skos:prefLabel "bal"@fr,
         "ballo"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bar> a skos:Concept ;
-    skos:altLabel "Barkarole"@de,
-        "Barcarolles"@fr,
+    skos:altLabel "barkarole"@de,
+        "barcarolles"@fr,
         "barcarolle"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bar> ;
@@ -372,7 +372,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/bbp> a skos:Concept ;
     skos:altLabel "bop"@en,
         "rebop"@en,
-        "Be-bop"@fr,
+        "be-bop"@fr,
         "bebop"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bbp> ;
@@ -380,15 +380,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bcs> a skos:Concept ;
-    skos:altLabel "Wiegenlied"@de,
+    skos:altLabel "wiegenlied"@de,
         "lullaby"@en,
-        "Berceuses"@fr,
-        "Berceuses (musique vocale)"@fr ;
+        "berceuses"@fr,
+        "berceuses (musique vocale)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bcs> ;
     skos:note "Art form"@en,
-        "Use for art form lullaby, Wiegenlied, etc."@fr,
-        "Art form"@it ;
+        "Use for art form lullaby, Wiegenlied, etc."@en;
     skos:prefLabel "berceuse"@fr,
         "ninna nanna"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -403,22 +402,22 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bde> a skos:Concept ;
-    skos:altLabel "Ballades (musique vocale)"@fr,
+    skos:altLabel "ballades (musique vocale)"@fr,
         "ballade vocale"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bde> ;
-    skos:note "14th-15th cent."@fr ;
+    skos:note "14th-15th cent."@en ;
     skos:prefLabel "ballade, vocal"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bdi> a skos:Concept ;
-    skos:altLabel "Ballades"@fr,
-        "Ballades (musique instrumentale)"@fr,
+    skos:altLabel "ballades"@fr,
+        "ballades (musique instrumentale)"@fr,
         "ballade instrumentale"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bdi> ;
-    skos:note "19th-20th cent."@fr,
-        "Instrumental, 19th-20th cent."@it ;
+    skos:note "19th-20th cent."@en,
+        "Instrumental"@en ;
     skos:prefLabel "ballade, instrumental"@fr,
         "ballata"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -431,14 +430,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/beg> a skos:Concept ;
-    skos:altLabel "Biguines"@fr ;
+    skos:altLabel "biguines"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/beg> ;
     skos:prefLabel "béguine"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ben> a skos:Concept ;
-    skos:altLabel "Benedictus (musique)"@fr ;
+    skos:altLabel "benedictus (musique)"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ben> ;
     skos:prefLabel "benedictus"@la ;
@@ -453,25 +452,25 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bg> a skos:Concept ;
-    skos:altLabel "Bluegrass"@fr ;
+    skos:altLabel "bluegrass"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bg> ;
     skos:prefLabel "bluegrass"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bgk> a skos:Concept ;
-    skos:altLabel "Gagaku"@fr,
+    skos:altLabel "gagaku"@fr,
         "gaguku"@ja ;
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bgk> ;
-    skos:note "Use also for gagaku"@ja ;
+    skos:note "Use also for gagaku"@en ;
     skos:prefLabel "bugaku"@ja ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bhn> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bhn> ;
-    skos:prefLabel "Bergreihen"@de ;
+    skos:prefLabel "bergreihen"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bic> a skos:Concept ;
@@ -489,22 +488,22 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bkg> a skos:Concept ;
-    skos:altLabel "Moritat"@de ;
+    skos:altLabel "moritat"@de ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bkg> ;
-    skos:note "Use also for Moritat"@de ;
-    skos:prefLabel "Bänkelgesang"@de ;
+    skos:note "Use also for Moritat"@en ;
+    skos:prefLabel "bänkelgesang"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bkm> a skos:Concept ;
-    skos:altLabel "Musique noire américaine"@fr ;
+    skos:altLabel "musique noire américaine"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bkm> ;
     skos:prefLabel "black music"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bl> a skos:Concept ;
-    skos:altLabel "Blues"@fr,
+    skos:altLabel "blues"@fr,
         "blues"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bl> ;
@@ -522,14 +521,14 @@
     skos:altLabel "canzone a ballo"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bll> ;
-    skos:note "13th-15th cent."@it ;
+    skos:note "13th-15th cent."@en ;
     skos:prefLabel "ballata"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/blo> a skos:Concept ;
-    skos:altLabel "Bettleroper"@de,
+    skos:altLabel "bettleroper"@de,
         "ballad farce"@en,
-        "Ballad operas"@fr ;
+        "ballad operas"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/blo> ;
     skos:prefLabel "ballad opera"@en ;
@@ -543,8 +542,8 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/bol> a skos:Concept ;
     skos:altLabel "bolero"@en,
-        "Boléros"@fr,
-        "Boléros (musique)"@fr,
+        "boléros"@fr,
+        "boléros (musique)"@fr,
         "bolero"@it ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bol> ;
@@ -555,7 +554,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/bou> a skos:Concept ;
     skos:altLabel "borre"@en,
         "borry"@en,
-        "Bourrées"@fr,
+        "bourrées"@fr,
         "borea"@it,
         "buora"@it ;
     skos:editorialNote "French term is preferred globally." ;
@@ -564,7 +563,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bra> a skos:Concept ;
-    skos:altLabel "Branles"@fr,
+    skos:altLabel "branles"@fr,
         "bransle"@fr,
         "brando"@it ;
     skos:editorialNote "French term is preferred globally." ;
@@ -575,7 +574,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/brg> a skos:Concept ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/brg> ;
-    skos:prefLabel "Bergamasker Tanz"@de,
+    skos:prefLabel "bergamasker Tanz"@de,
         "bergamasque dance"@en,
         "bergamasque"@fr,
         "bergamasca"@it ;
@@ -594,7 +593,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bru> a skos:Concept ;
-    skos:altLabel "Brunettes (musique vocale)"@fr ;
+    skos:altLabel "brunettes (musique vocale)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bru> ;
     skos:prefLabel "brunette"@fr ;
@@ -609,7 +608,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/bst> a skos:Concept ;
     skos:altLabel "three step"@en,
-        "Bostons"@fr,
+        "bostons"@fr,
         "valse boston"@fr,
         "boston figurato"@it,
         "doppio boston"@it ;
@@ -620,12 +619,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bt> a skos:Concept ;
-    skos:altLabel "Marchenballet"@de,
-        "Militärballett"@de,
-        "Ross-Ballet"@de,
-        "Singballet"@de,
-        "Turnier-Ballet"@de,
-        "Musique de ballet"@fr,
+    skos:altLabel "marchenballet"@de,
+        "militärballett"@de,
+        "ross-ballet"@de,
+        "singballet"@de,
+        "turnier-ballet"@de,
+        "musique de ballet"@fr,
         "ballet"@fr,
         "ballet blanc"@fr,
         "ballet d'action"@fr,
@@ -648,7 +647,7 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bt> ;
     skos:note "Use for theatrical exhibitions of dance and pantomimic action, ballet de cour and similar"@en,
         "Usare per le esecuzioni teatrali di danza e pantomima, ballo di corte e simili"@it ;
-    skos:prefLabel "Ballett"@de,
+    skos:prefLabel "ballett"@de,
         "ballet"@en,
         "balletto"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -660,25 +659,25 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bto> a skos:Concept ;
-    skos:altLabel "Ballett"@de,
+    skos:altLabel "ballett"@de,
         "ballet"@en,
         "ballo"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bto> ;
-    skos:note "Use for vocal / instrumental forms of the 16th-17th cent."@it ;
+    skos:note "Use for vocal / instrumental forms of the 16th-17th cent."@en ;
     skos:prefLabel "balletto"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/btq> a skos:Concept ;
     skos:altLabel "batucada"@es,
-        "Batuques"@fr ;
+        "batuques"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/btq> ;
     skos:prefLabel "batuque"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/bur> a skos:Concept ;
-    skos:altLabel "Burleske"@de,
+    skos:altLabel "burleske"@de,
         "bourlesca"@it,
         "burla"@it,
         "burletta, instrumental"@it ;
@@ -690,7 +689,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/bwg> a skos:Concept ;
     skos:altLabel "boogie"@en,
         "boogie woogie"@en,
-        "Boogie-woogie"@fr ;
+        "boogie-woogie"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/bwg> ;
     skos:prefLabel "boogie-woogie"@en,
@@ -707,7 +706,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cab> a skos:Concept ;
-    skos:altLabel "Cavalette"@de ;
+    skos:altLabel "cavalette"@de ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cab> ;
     skos:prefLabel "cabaletta"@it ;
@@ -720,7 +719,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cad> a skos:Concept ;
-    skos:altLabel "Cadences"@fr ;
+    skos:altLabel "cadences"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cad> ;
     skos:prefLabel "cadence"@fr,
@@ -744,8 +743,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cav> a skos:Concept ;
-    skos:altLabel "Kavatine"@de,
-        "Cavatines"@fr ;
+    skos:altLabel "kavatine"@de,
+        "cavatines"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cav> ;
     skos:prefLabel "cavatine"@fr,
@@ -762,8 +761,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cc> a skos:Concept ;
-    skos:altLabel "Choral Gregorianischer"@de,
-        "Choralgesang"@de,
+    skos:altLabel "choral Gregorianischer"@de,
+        "choralgesang"@de,
         "chant, ambrosian"@en,
         "chant, gallican"@en,
         "chant, gregorian"@en,
@@ -772,7 +771,7 @@
         "plain-chant"@en,
         "plainsong"@en,
         "canto llano"@es,
-        "Chants grégoriens"@fr,
+        "chants grégoriens"@fr,
         "chant grégorien"@fr,
         "canto gregoriano"@it,
         "canto piano"@it,
@@ -790,7 +789,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ccl> a skos:Concept ;
-    skos:altLabel "Cantiques"@fr,
+    skos:altLabel "cantiques"@fr,
         "canticum"@la,
         "magnificat"@la,
         "nunc dimittis"@la ;
@@ -814,7 +813,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cdo> a skos:Concept ;
-    skos:altLabel "Opéras pour la jeunesse"@fr ;
+    skos:altLabel "opéras pour la jeunesse"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cdo> ;
     skos:prefLabel "children opera"@en,
@@ -823,7 +822,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cdt> a skos:Concept ;
-    skos:altLabel "Chansons de toile"@fr ;
+    skos:altLabel "chansons de toile"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cdt> ;
     skos:prefLabel "chanson de toile"@fr ;
@@ -837,7 +836,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cg> a skos:Concept ;
-    skos:altLabel "Concertos grossos"@fr ;
+    skos:altLabel "concertos grossos"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cg> ;
     skos:prefLabel "concerto grosso"@it ;
@@ -851,24 +850,24 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ch> a skos:Concept ;
-    skos:altLabel "Choralbearbeitung"@de,
-        "Kantionalsatz"@de,
-        "Kirchenlied"@de,
-        "Chorals"@fr,
+    skos:altLabel "choralbearbeitung"@de,
+        "kantionalsatz"@de,
+        "kirchenlied"@de,
+        "chorals"@fr,
         "choral"@fr,
         "choral chanté"@fr,
         "cantique"@it ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ch> ;
-    skos:note "Vocal"@de ;
-    skos:prefLabel "Choral"@de,
+    skos:note "Vocal"@en ;
+    skos:prefLabel "choral"@de,
         "chorale"@en,
         "corale"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cha> a skos:Concept ;
     skos:altLabel "cha-cha"@en,
-        "Cha-cha-chas"@fr ;
+        "cha-cha-chas"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cha> ;
     skos:prefLabel "cha-cha-cha"@en,
@@ -878,8 +877,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/chc> a skos:Concept ;
     skos:altLabel "chacota"@es,
-        "Chaconnes"@fr,
-        "Chaconnes "@fr,
+        "chaconnes"@fr,
         "chacona"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/chc> ;
@@ -899,7 +897,7 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/chn> ;
     skos:note "Use also for spirù"@en,
-        "Proposed new term, not yet accepted."@fr ;
+        "The frech 'spirou' is a proposed new term, not yet accepted."@en ;
     skos:prefLabel "charleston"@en,
         "charleston"@fr,
         "charleston"@it ;
@@ -908,15 +906,15 @@
 <http://data.doremus.org/vocabulary/iaml/genre/cho> a skos:Concept ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cho> ;
-    skos:prefLabel "Kammeroper"@de,
+    skos:prefLabel "kammeroper"@de,
         "chamber opera"@en,
         "opéra de chambre"@fr,
         "opera da camera"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/chp> a skos:Concept ;
-    skos:altLabel "Charakterstück"@de,
-        "Genrestück"@de,
+    skos:altLabel "charakterstück"@de,
+        "genrestück"@de,
         "esquisse"@fr,
         "morceau caractéristique"@fr,
         "pensée"@fr,
@@ -946,18 +944,18 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/chp> ;
     skos:note "Includes bozzetto, esquisse, leggenda, pensée, souvenir and similar"@en,
-        "19th-20th cent."@fr,
-        "19th cent."@it ;
+        "French term: 19th-20th cent."@en,
+        "Italian term: 19th cent."@en ;
     skos:prefLabel "character piece"@en,
         "pièce de caractère"@fr,
         "pezzo caratteristico"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/chr> a skos:Concept ;
-    skos:altLabel "Chor"@de,
-        "Soldatengesang"@de,
-        "Chœurs "@fr,
-        "Chœurs (musique)"@fr,
+    skos:altLabel "chor"@de,
+        "soldatengesang"@de,
+        "chœurs"@fr,
+        "chœurs (musique)"@fr,
         "choeur"@fr,
         "coro di soldati"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -967,8 +965,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/chs> a skos:Concept ;
-    skos:altLabel "Kinderlied"@de,
-        "Chansons enfantines"@fr,
+    skos:altLabel "kinderlied"@de,
+        "chansons enfantines"@fr,
         "chanson pour enfants"@fr,
         "canzonetta per bambini"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -979,12 +977,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cht> a skos:Concept ;
-    skos:altLabel "Spruch"@de,
-        "Spruchlied"@de,
+    skos:altLabel "spruch"@de,
+        "spruchlied"@de,
         "dit"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cht> ;
-    skos:note "Use also for dit, Spruch"@fr ;
+    skos:note "Use also for dit, Spruch"@en ;
     skos:prefLabel "chanson sentencieuse"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -998,17 +996,17 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ckw> a skos:Concept ;
-    skos:altLabel "Cake-walk (musique)"@fr ;
+    skos:altLabel "cake-walk (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ckw> ;
     skos:prefLabel "cakewalk"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cl> a skos:Concept ;
-    skos:altLabel "Choralbearbeitung"@de,
-        "Choralvorspiel"@de,
-        "Orgelchoral"@de,
-        "Préludes de chorals"@fr,
+    skos:altLabel "choralbearbeitung"@de,
+        "choralvorspiel"@de,
+        "orgelchoral"@de,
+        "préludes de chorals"@fr,
         "prélude de choral"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cl> ;
@@ -1018,18 +1016,18 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cld> a skos:Concept ;
-    skos:altLabel "Noëls roumains"@fr,
+    skos:altLabel "noëls roumains"@fr,
         "colind"@ro,
         "colindă"@ro,
         "corind"@ro ;
     skos:editorialNote "Romanian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cld> ;
-    skos:prefLabel "Colinde"@de,
+    skos:prefLabel "colinde"@de,
         "colinda"@ro ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cli> a skos:Concept ;
-    skos:altLabel "Chorals"@fr ;
+    skos:altLabel "chorals"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cli> ;
     skos:prefLabel "choral, instrumental"@en,
@@ -1045,8 +1043,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/clu> a skos:Concept ;
-    skos:altLabel "Klausel"@de,
-        "Clausules (polyphonies sacrées)"@fr,
+    skos:altLabel "klausel"@de,
+        "clausules (polyphonies sacrées)"@fr,
         "clausule"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/clu> ;
@@ -1055,7 +1053,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cly> a skos:Concept ;
-    skos:altLabel "Calypso (musique)"@fr,
+    skos:altLabel "calypso (musique)"@fr,
         "calipso"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cly> ;
@@ -1095,19 +1093,19 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cn> a skos:Concept ;
-    skos:altLabel "Canons"@fr,
-        "Canons (musique)"@fr ;
+    skos:altLabel "canons"@fr,
+        "canons (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cn> ;
     skos:note "Compositions employing strict imitation throughout; for vocal rounds prefer rde - rondeau"@en ;
-    skos:prefLabel "Kanon"@de,
+    skos:prefLabel "kanon"@de,
         "canon"@en,
         "canon"@fr,
         "canone"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cnd> a skos:Concept ;
-    skos:altLabel "Conduits (musique)"@fr,
+    skos:altLabel "conduits (musique)"@fr,
         "conduit"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cnd> ;
@@ -1115,8 +1113,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cnl> a skos:Concept ;
-    skos:altLabel "Kantilene"@de,
-        "Kantilenensatz"@de,
+    skos:altLabel "kantilene"@de,
+        "kantilenensatz"@de,
         "cantilène"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cnl> ;
@@ -1131,41 +1129,41 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cns> a skos:Concept ;
-    skos:altLabel "Cansos"@fr ;
+    skos:altLabel "cansos"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cns> ;
     skos:prefLabel "canso"@la ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/co> a skos:Concept ;
-    skos:altLabel "Concert"@de,
-        "Doppelkonzert"@de,
-        "Klavierkonzert"@de,
-        "Quadrupelkonzert"@de,
-        "Tripelkonzert"@de,
-        "Violinkonzert"@de,
+    skos:altLabel "concert"@de,
+        "doppelkonzert"@de,
+        "klavierkonzert"@de,
+        "quadrupelkonzert"@de,
+        "tripelkonzert"@de,
+        "violinkonzert"@de,
         "concert"@en,
-        "Concertos"@fr,
+        "concertos"@fr,
         "concertino"@it,
         "conzerto"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/co> ;
-    skos:prefLabel "Konzert"@de,
+    skos:prefLabel "konzert"@de,
         "concerto"@en,
         "concerto"@fr,
         "concerto"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cob> a skos:Concept ;
-    skos:altLabel "Musique de comédie-ballet"@fr ;
+    skos:altLabel "musique de comédie-ballet"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cob> ;
     skos:prefLabel "comédie-ballet"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cop> a skos:Concept ;
-    skos:altLabel "Concertstück"@de,
-        "Konzertstück"@de,
+    skos:altLabel "concertstück"@de,
+        "konzertstück"@de,
         "pièce de concert"@fr,
         "brano da concerto"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -1193,7 +1191,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cp> a skos:Concept ;
-    skos:altLabel "Chansons polyphoniques"@fr,
+    skos:altLabel "chansons polyphoniques"@fr,
         "chanson courtoise"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cp> ;
@@ -1203,7 +1201,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cpl> a skos:Concept ;
-    skos:altLabel "Coplas"@fr ;
+    skos:altLabel "coplas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cpl> ;
     skos:prefLabel "copla"@es ;
@@ -1242,13 +1240,13 @@
         "tragicommedia"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cpm> ;
-    skos:note "18th-19th cent."@it ;
+    skos:note "18th-19th cent."@en ;
     skos:prefLabel "commedia per musica"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cpr> a skos:Concept ;
-    skos:altLabel "Caprices "@fr,
-        "Caprices (musique)"@fr ;
+    skos:altLabel "caprices"@fr,
+        "caprices (musique)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cpr> ;
     skos:prefLabel "caprice"@fr,
@@ -1256,7 +1254,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cr> a skos:Concept ;
-    skos:altLabel "Noëls anglais"@fr ;
+    skos:altLabel "noëls anglais"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cr> ;
     skos:prefLabel "carol"@en ;
@@ -1271,7 +1269,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cre> a skos:Concept ;
-    skos:altLabel "Credo (musique)"@fr ;
+    skos:altLabel "credo (musique)"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cre> ;
     skos:prefLabel "credo"@la ;
@@ -1286,17 +1284,17 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/crr> a skos:Concept ;
     skos:altLabel "coplas"@es,
-        "Corridos"@fr ;
+        "corridos"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/crr> ;
-    skos:note "Latin America"@es ;
+    skos:note "Latin America"@en ;
     skos:prefLabel "corrido"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/crt> a skos:Concept ;
     skos:altLabel "coranta"@es,
         "coranto"@es,
-        "Courantes"@fr,
+        "courantes"@fr,
         "allemande courante"@fr,
         "bransle courans"@fr,
         "courante"@fr,
@@ -1310,7 +1308,6 @@
 <http://data.doremus.org/vocabulary/iaml/genre/cs> a skos:Concept ;
     skos:altLabel "aleatoric music"@en,
         "chance composition"@en,
-        "Musique aléatoire "@fr,
         "musique aléatoire"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cs> ;
@@ -1319,7 +1316,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/csa> a skos:Concept ;
-    skos:altLabel "Csárdás"@fr,
+    skos:altLabel "csárdás"@fr,
         "friss"@hu,
         "friszka"@hu ;
     skos:editorialNote "Hungarian term is preferred globally." ;
@@ -1335,7 +1332,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/csg> a skos:Concept ;
-    skos:altLabel "Chansons de carnaval"@fr ;
+    skos:altLabel "chansons de carnaval"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/csg> ;
     skos:prefLabel "carnival song"@en,
@@ -1360,8 +1357,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cst> a skos:Concept ;
-    skos:altLabel "Kassation"@de,
-        "Cassations"@fr ;
+    skos:altLabel "kassation"@de,
+        "cassations"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cst> ;
     skos:prefLabel "cassation"@en,
@@ -1370,25 +1367,25 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/csy> a skos:Concept ;
-    skos:altLabel "Cammersymphonie"@de ;
+    skos:altLabel "cammersymphonie"@de ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/csy> ;
-    skos:prefLabel "Kammersymphonie"@de,
+    skos:prefLabel "kammersymphonie"@de,
         "chamber symphony"@en,
         "symphonie de chambre"@fr,
         "sinfonia da camera"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ct> a skos:Concept ;
-    skos:altLabel "Cantate"@de,
-        "Hochzeitskantate"@de,
-        "Ratswechselkantate"@de,
-        "Solokantate"@de,
-        "Trauerkantate"@de,
-        "Trauungskantate"@de,
-        "Weltliche Kantate"@de,
-        "Cantates"@fr,
-        "Cantates profanes"@fr,
+    skos:altLabel "cantate"@de,
+        "hochzeitskantate"@de,
+        "ratswechselkantate"@de,
+        "solokantate"@de,
+        "trauerkantate"@de,
+        "trauungskantate"@de,
+        "weltliche kantate"@de,
+        "cantates"@fr,
+        "cantates profanes"@fr,
         "cantata accademica"@it,
         "cantata drammatica"@it,
         "cantata epitalamica"@it,
@@ -1403,8 +1400,8 @@
         "triumphale canticum"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ct> ;
-    skos:note "French, German"@fr ;
-    skos:prefLabel "Kantate"@de,
+    skos:note "French, German"@en ;
+    skos:prefLabel "kantate"@de,
         "cantata"@en,
         "cantate"@fr,
         "cantata"@it ;
@@ -1418,9 +1415,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ctd> a skos:Concept ;
-    skos:altLabel "Contretanz"@de,
-        "Kontertanz"@de,
-        "Contredanses"@fr,
+    skos:altLabel "contretanz"@de,
+        "kontertanz"@de,
+        "contredanses"@fr,
         "anglaise"@fr,
         "contradanza"@it,
         "inglesa"@it ;
@@ -1432,14 +1429,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ctf> a skos:Concept ;
-    skos:altLabel "Kontrafaktum"@de,
-        "Kontrafaktur"@de,
-        "Parodie (musique)"@fr,
+    skos:altLabel "kontrafaktum"@de,
+        "kontrafaktur"@de,
+        "parodie (musique)"@fr,
         "contraffattura"@it,
         "travestimento spirituale"@it ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ctf> ;
-    skos:note "Use also for travestimento spirituale"@la ;
+    skos:note "Use also for travestimento spirituale"@en ;
     skos:prefLabel "contrafactum"@la ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -1475,7 +1472,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ctp> a skos:Concept ;
-    skos:altLabel "Kontrapunkt"@de,
+    skos:altLabel "kontrapunkt"@de,
         "contrepoint"@fr,
         "contrapunctum"@la ;
     skos:editorialNote "English term is preferred globally." ;
@@ -1492,7 +1489,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/cy> a skos:Concept ;
-    skos:altLabel "Country"@fr ;
+    skos:altLabel "country"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cy> ;
     skos:prefLabel "country music"@en,
@@ -1511,59 +1508,58 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/cz> a skos:Concept ;
     skos:altLabel "canzonas"@en,
-        "Canzones (musique instrumentale)"@fr,
+        "canzones (musique instrumentale)"@fr,
         "chanson instrumentale"@fr,
         "canzon francese"@it,
         "canzone"@it,
         "canzone alla francese"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/cz> ;
-    skos:note "Instrumental"@it,
-        "Instrumental music so designated"@it ;
+    skos:note "Instrumental"@en ;
     skos:prefLabel "canzona"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/czn> a skos:Concept ;
-    skos:altLabel "Canzones"@fr ;
+    skos:altLabel "canzones"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/czn> ;
-    skos:note "Use for the works of the Italian songs so defined during the 19th-20th centuries. For earlier periods use more specific terms"@it ;
+    skos:note "Use for the works of the Italian songs so defined during the 19th-20th centuries. For earlier periods use more specific terms"@en ;
     skos:prefLabel "canzone"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/czp> a skos:Concept ;
-    skos:altLabel "Kanzone"@de,
-        "Weltliches Lied"@de,
+    skos:altLabel "kanzone"@de,
+        "weltliches lied"@de,
         "canzon"@it,
         "canzona"@it,
         "canzone"@it,
         "canzone profana"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/czp> ;
-    skos:note "16th cent.; except where an individual code has been assigned to a specific form"@it,
-        "Vocal"@it ;
+    skos:note "16th cent.; except where an individual code has been assigned to a specific form"@en ,
+        "Vocal"@en ;
     skos:prefLabel "canzone, polyphonic"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/czs> a skos:Concept ;
-    skos:altLabel "Geistliches Lied"@de,
+    skos:altLabel "geistliches lied"@de,
         "canzona spirituale"@it,
         "canzone spirituale"@it,
         "cantio sacra"@la,
         "sacrae cantiones"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/czs> ;
-    skos:note "16th-17th cent."@it ;
+    skos:note "16th-17th cent."@en ;
     skos:prefLabel "canzonetta spirituale"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/czt> a skos:Concept ;
-    skos:altLabel "Kanzonette"@de,
-        "Canzonettas"@fr,
-        "Canzonettes"@fr ;
+    skos:altLabel "kanzonette"@de,
+        "canzonettas"@fr,
+        "canzonettes"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/czt> ;
-    skos:note "16th-19th cent."@it ;
+    skos:note "16th-19th cent."@en ;
     skos:prefLabel "canzonetta"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -1574,8 +1570,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dec> a skos:Concept ;
-    skos:altLabel "Dezett"@de,
-        "Dixtuors"@fr,
+    skos:altLabel "dezett"@de,
+        "dixtuors"@fr,
         "dixtuor"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dec> ;
@@ -1595,9 +1591,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/df> a skos:Concept ;
-    skos:altLabel "Tanzmusik"@de,
+    skos:altLabel "tanzmusik"@de,
         "dance"@en,
-        "Musique de danse"@fr,
+        "musique de danse"@fr,
         "danse de salon"@fr,
         "tánc"@hu,
         "danza moderna"@it,
@@ -1605,15 +1601,15 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/df> ;
     skos:note "Except where an individual code has been assigned to a specific form"@en ;
-    skos:prefLabel "Tanz"@de,
+    skos:prefLabel "tanz"@de,
         "dance form"@en,
         "danse"@fr,
         "danza"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dia> a skos:Concept ;
-    skos:altLabel "Dialog"@de,
-        "Dialogues (musique)"@fr,
+    skos:altLabel "dialog"@de,
+        "dialogues (musique)"@fr,
         "dialoghetto con armonia"@it,
         "dialogo in maschera"@it,
         "dialogo melodrammatico"@it,
@@ -1631,7 +1627,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dim> a skos:Concept ;
-    skos:altLabel "Disco (musique)"@fr ;
+    skos:altLabel "disco (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dim> ;
     skos:prefLabel "disco music"@en ;
@@ -1656,7 +1652,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dix> a skos:Concept ;
-    skos:altLabel "Dixieland"@fr ;
+    skos:altLabel "dixieland"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dix> ;
     skos:prefLabel "dixieland"@en ;
@@ -1669,7 +1665,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dod> a skos:Concept ;
-    skos:altLabel "Totentanz"@de,
+    skos:altLabel "totentanz"@de,
         "danse macabre"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dod> ;
@@ -1688,17 +1684,17 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/drh> a skos:Concept ;
-    skos:altLabel "Drehtanz"@de ;
+    skos:altLabel "drehtanz"@de ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/drh> ;
-    skos:prefLabel "Dreher"@de ;
+    skos:prefLabel "dreher"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/drs> a skos:Concept ;
-    skos:altLabel "Trinklied"@de,
+    skos:altLabel "trinklied"@de,
         "bacchanalian song"@en,
         "canción báquica"@es,
-        "Chansons à boire"@fr,
+        "chansons à boire"@fr,
         "air à boire"@fr,
         "chanson pour boire"@fr,
         "chanson à boire"@fr ;
@@ -1716,7 +1712,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dtr> a skos:Concept ;
-    skos:altLabel "Dithyrambes"@fr,
+    skos:altLabel "dithyrambes"@fr,
         "dithyrambus"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dtr> ;
@@ -1746,9 +1742,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/due> a skos:Concept ;
-    skos:altLabel "Duett"@de,
+    skos:altLabel "duett"@de,
         "duo"@en,
-        "Duos vocaux"@fr,
+        "duos vocaux"@fr,
         "duo"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/due> ;
@@ -1762,33 +1758,30 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dui> a skos:Concept ;
-    skos:altLabel "Duett"@de,
+    skos:altLabel "duett"@de,
         "duet"@en,
-        "Duos"@fr,
+        "duos"@fr,
         "duo"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dui> ;
-    skos:note "Instrumental"@de,
-        "Instrumental"@en,
-        "Instrumental"@fr,
-        "Instrumental"@it ;
+    skos:note "Instrumental"@en ;
     skos:prefLabel "duo"@en,
         "duo instrumental"@fr,
         "duetto"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/dv> a skos:Concept ;
-    skos:altLabel "Divertimenti"@fr,
-        "Divertissements"@fr,
+    skos:altLabel "divertimenti"@fr,
+        "divertissements"@fr,
         "divertissement"@fr,
         "divertimento"@it,
         "divertissemente"@it,
         "trattenimento"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/dv> ;
-    skos:note "Instrumental"@it,
-        "Instrumental music so designated; includes divertissements of the 18th century; for serenades and cassations prefer specific codes"@it,
-        "Instrumental, 18th-19th cent."@it ;
+    skos:note "Instrumental"@en,
+        "Instrumental music so designated; includes divertissements of the 18th century; for serenades and cassations prefer specific codes"@en,
+        "18th-19th cent."@en ;
     skos:prefLabel "divertimento"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -1802,7 +1795,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/egl> a skos:Concept ;
-    skos:altLabel "Ekloge"@de,
+    skos:altLabel "ekloge"@de,
         "Églogues"@fr,
         "éclogue"@fr,
         "ecloga"@it,
@@ -1829,29 +1822,28 @@
     skos:altLabel "computer music"@en,
         "electronic music"@en,
         "tape music"@en,
-        "Musique électroacoustique"@fr,
         "musique par ordinateur"@fr,
         "musique pour bande magnétique"@fr,
         "musique électronique"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/elm> ;
-    skos:note "Covers tape music, electronic music and computer music"@en ;
+    skos:note "covers tape music, electronic music and computer music"@en ;
     skos:prefLabel "electroacoustic music"@en,
         "musique électroacoustique"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/elx> a skos:Concept ;
-    skos:altLabel "Musique electroacoustique mixte"@fr ;
+    skos:altLabel "musique electroacoustique mixte"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/elx> ;
-    skos:note "Covers electroacoustic devices mixed with acoustic instruments live"@en ;
+    skos:note "covers electroacoustic devices mixed with acoustic instruments live"@en ;
     skos:prefLabel "electroacoustic mixed music"@en,
         "musique électroacoustique mixte"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ely> a skos:Concept ;
-    skos:altLabel "Elegie"@de,
-        "Élégies"@fr ;
+    skos:altLabel "elegie"@de,
+        "élégies"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ely> ;
     skos:prefLabel "elegy"@en,
@@ -1860,7 +1852,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ens> a skos:Concept ;
-    skos:altLabel "Ensaladas"@fr ;
+    skos:altLabel "ensaladas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ens> ;
     skos:prefLabel "ensalada"@es ;
@@ -1895,7 +1887,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/est> a skos:Concept ;
     skos:altLabel "estampida"@es,
-        "Estampies"@fr,
+        "estampies"@fr,
         "stantipes"@fr,
         "stempenie"@fr,
         "ductia"@la,
@@ -1903,7 +1895,7 @@
         "istampita"@ru ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/est> ;
-    skos:note "Use also for ductia"@fr ;
+    skos:note "Use also for ductia"@en ;
     skos:prefLabel "estampie"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -1914,7 +1906,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fad> a skos:Concept ;
-    skos:altLabel "Fados"@fr,
+    skos:altLabel "fados"@fr,
         "fadinho"@pt ;
     skos:editorialNote "Portuguese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fad> ;
@@ -1922,14 +1914,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/faf> a skos:Concept ;
-    skos:altLabel "Signal"@de,
-        "Trompetenstoss"@de,
-        "Tusch"@de,
-        "Fanfares (compositions musicales)"@fr,
+    skos:altLabel "signal"@de,
+        "trompetenstoss"@de,
+        "tusch"@de,
+        "fanfares (compositions musicales)"@fr,
         "signale"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/faf> ;
-    skos:prefLabel "Fanfare"@de,
+    skos:prefLabel "fanfare"@de,
         "fanfare"@en,
         "fanfare"@fr,
         "fanfara"@it ;
@@ -1946,14 +1938,14 @@
         "farzetta"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/far> ;
-    skos:prefLabel "Farce"@de,
+    skos:prefLabel "farce"@de,
         "farce"@en,
         "farce"@fr,
         "farsa"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fax> a skos:Concept ;
-    skos:altLabel "Faux-bourdon (musique)"@fr ;
+    skos:altLabel "faux-bourdon (musique)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fax> ;
     skos:prefLabel "faux-bourdon"@fr,
@@ -1961,7 +1953,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fea> a skos:Concept ;
-    skos:altLabel "Festmusik"@de,
+    skos:altLabel "festmusik"@de,
         "festa a cavallo"@it,
         "festa allegorica"@it,
         "festa boschereccia"@it,
@@ -1990,26 +1982,26 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fg> a skos:Concept ;
-    skos:altLabel "Doppelfuge"@de,
-        "Gegenfuge"@de,
-        "Permutationsfuge"@de,
-        "Quadrupelfuge"@de,
-        "Spielfuge"@de,
-        "Tripelfuge"@de,
-        "Fugues"@fr,
-        "Fugues (musique)"@fr,
+    skos:altLabel "doppelfuge"@de,
+        "gegenfuge"@de,
+        "permutationsfuge"@de,
+        "quadrupelfuge"@de,
+        "spielfuge"@de,
+        "tripelfuge"@de,
+        "fugues"@fr,
+        "fugues (musique)"@fr,
         "fughetta"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fg> ;
     skos:note "Instrumental music from the 17th century and later so designated; contrapuntal compositions built on a subject which is introduced at the beginning in imitation and recurs throughout interspersed with other contrapuntal materials, from the 17th century and later"@en ;
-    skos:prefLabel "Fuge"@de,
+    skos:prefLabel "fuge"@de,
         "fugue"@en,
         "fugue"@fr,
         "fuga"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fin> a skos:Concept ;
-    skos:altLabel "Finales (musique)"@fr ;
+    skos:altLabel "finales (musique)"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fin> ;
     skos:prefLabel "finale"@it ;
@@ -2030,15 +2022,15 @@
         "solea"@es,
         "solearilla"@es,
         "tanguillo"@es,
-        "Flamenco (musique)"@fr ;
+        "flamenco (musique)"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fla> ;
-    skos:note "Includes cante chico, cante hondo, seguiriya and similar"@es ;
+    skos:note "Includes cante chico, cante hondo, seguiriya and similar"@en ;
     skos:prefLabel "flamenco"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fls> a skos:Concept ;
-    skos:altLabel "Geisslerlieder"@de ;
+    skos:altLabel "geisslerlieder"@de ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fls> ;
     skos:note "Use also for Geisslerlied"@en ;
@@ -2046,9 +2038,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fm> a skos:Concept ;
-    skos:altLabel "Volksgesang"@de,
+    skos:altLabel "volksgesang"@de,
         "popular melody"@en,
-        "Musique traditionnelle"@fr,
+        "musique traditionnelle"@fr,
         "musique populaire"@fr,
         "canto folclorico"@it,
         "canto popolare"@it,
@@ -2063,8 +2055,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fmm> a skos:Concept ;
-    skos:altLabel "Freimaurermusik"@de,
-        "Musique maçonnique"@fr ;
+    skos:altLabel "freimaurermusik"@de,
+        "musique maçonnique"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fmm> ;
     skos:prefLabel "masonic music"@en,
@@ -2076,16 +2068,16 @@
     skos:altLabel "murciana"@es,
         "rodena"@es,
         "rondeña"@es,
-        "Fandangos"@fr,
+        "fandangos"@fr,
         "granadina"@it ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fnd> ;
-    skos:note "Includes granadina, rondeña and similar"@es ;
+    skos:note "Includes granadina, rondeña and similar"@en ;
     skos:prefLabel "fandango"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fnk> a skos:Concept ;
-    skos:altLabel "Funk"@fr ;
+    skos:altLabel "funk"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fnk> ;
     skos:prefLabel "funk"@en,
@@ -2093,7 +2085,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fns> a skos:Concept ;
-    skos:altLabel "Chants funèbres"@fr ;
+    skos:altLabel "chants funèbres"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fns> ;
     skos:prefLabel "funeral song"@en,
@@ -2113,8 +2105,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/for> a skos:Concept ;
-    skos:altLabel "Friauler"@de,
-        "Forlanes"@fr,
+    skos:altLabel "friauler"@de,
+        "forlanes"@fr,
         "ballo forlana"@it,
         "friulana"@it,
         "frulana"@it,
@@ -2127,12 +2119,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fox> a skos:Concept ;
-    skos:altLabel "Foxtrott"@de,
+    skos:altLabel "foxtrott"@de,
         "fox trot"@en,
         "fox-trot"@en,
         "quickstep"@en,
         "slowfox"@en,
-        "Fox-trots"@fr ;
+        "fox-trots"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fox> ;
     skos:note "Use also for quickstep and slowfox"@en ;
@@ -2141,33 +2133,31 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/frd> a skos:Concept ;
-    skos:altLabel "barandello"@fr,
-        "farandonlo"@fr,
+    skos:altLabel "barandello"@fro,
+        "farandonlo"@pro,
         "farandoule"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/frd> ;
-    skos:note "Old French"@fr,
-        "Provençal"@fr ;
     skos:prefLabel "farandole"@en,
         "farandole"@fr,
         "farandola"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/frj> a skos:Concept ;
-    skos:altLabel "Free jazz"@fr ;
+    skos:altLabel "free jazz"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/frj> ;
     skos:prefLabel "free jazz"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fro> a skos:Concept ;
-    skos:altLabel "Frottole (musique)"@fr,
+    skos:altLabel "frottole (musique)"@fr,
         "barzelletta"@it,
         "capitolo"@it,
         "capitulo"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fro> ;
-    skos:note "Use also for barzelletta, capitolo and similar"@it ;
+    skos:note "Use also for barzelletta, capitolo and similar"@en ;
     skos:prefLabel "frottola"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2175,7 +2165,7 @@
     skos:altLabel "medley"@en ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/frs> ;
-    skos:note "Use also for medley"@fr ;
+    skos:note "Use also for medley"@en ;
     skos:prefLabel "fricassée"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2187,15 +2177,15 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ft> a skos:Concept ;
-    skos:altLabel "Fantasie"@de,
-        "Opernfantasie"@de,
+    skos:altLabel "fantasie"@de,
+        "opernfantasie"@de,
         "fancy"@en,
         "fansy"@en,
         "fantasy"@en,
         "phancy"@en,
         "phantasy"@en,
-        "Fantaisies"@fr,
-        "Fantaisies (musique)"@fr,
+        "fantaisies"@fr,
+        "fantaisies (musique)"@fr,
         "fantaisie"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ft> ;
@@ -2218,7 +2208,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/fus> a skos:Concept ;
-    skos:altLabel "Jazz-rock"@fr ;
+    skos:altLabel "jazz-rock"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fus> ;
     skos:prefLabel "fusion"@en ;
@@ -2248,8 +2238,8 @@
         "satira"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/fvm> ;
-    skos:note "16th -17th cent."@it,
-        "17th cent."@it ;
+    skos:note "16th -17th cent."@en,
+        "17th cent."@en ;
     skos:prefLabel "favola per musica"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2258,7 +2248,7 @@
         "sinco-pass"@en,
         "sink-a-pace"@en,
         "sinque-pace"@en,
-        "Gaillardes"@fr,
+        "gaillardes"@fr,
         "gaillarde"@fr,
         "galliarde"@fr,
         "gallarda"@it ;
@@ -2270,16 +2260,16 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/gal> a skos:Concept ;
-    skos:altLabel "Galoppwaltzer"@de,
-        "Rutscher"@de,
-        "Schnell-Polka"@de,
-        "Galops"@fr,
-        "Galops (musique)"@fr,
+    skos:altLabel "galoppwaltzer"@de,
+        "rutscher"@de,
+        "schnell-polka"@de,
+        "galops"@fr,
+        "galops (musique)"@fr,
         "galopade"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gal> ;
     skos:note "Use also for Rutscher and Schnell-Polka"@en ;
-    skos:prefLabel "Galopp"@de,
+    skos:prefLabel "galopp"@de,
         "galop"@en,
         "galop"@fr,
         "galop"@it ;
@@ -2288,12 +2278,12 @@
 <http://data.doremus.org/vocabulary/iaml/genre/gas> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gas> ;
-    skos:prefLabel "Gassenhauer"@de ;
+    skos:prefLabel "gassenhauer"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/gav> a skos:Concept ;
     skos:altLabel "gavot"@en,
-        "Gavottes"@fr,
+        "gavottes"@fr,
         "gavota"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gav> ;
@@ -2308,7 +2298,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/gig> a skos:Concept ;
-    skos:altLabel "Gigues"@fr ;
+    skos:altLabel "gigues"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gig> ;
     skos:prefLabel "gigue"@fr,
@@ -2316,14 +2306,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/gle> a skos:Concept ;
-    skos:altLabel "Glees"@fr ;
+    skos:altLabel "glees"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gle> ;
     skos:prefLabel "glee"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/glo> a skos:Concept ;
-    skos:altLabel "Gloria in excelsis Deo (musique)"@fr,
+    skos:altLabel "gloria in excelsis Deo (musique)"@fr,
         "gloria"@it,
         "gloria in excelsis"@la ;
     skos:editorialNote "Latin term is preferred globally." ;
@@ -2335,7 +2325,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/gm> a skos:Concept ;
     skos:altLabel "gospel"@en,
         "gospel song"@en,
-        "Gospel"@fr ;
+        "gospel"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gm> ;
     skos:prefLabel "gospel music"@en ;
@@ -2345,16 +2335,16 @@
     skos:altLabel "hopak"@ru ;
     skos:editorialNote "Russian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gop> ;
-    skos:note "Use also for hopak"@ru ;
+    skos:note "Use also for hopak"@en ;
     skos:prefLabel "gopak"@ru ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/gos> a skos:Concept ;
-    skos:altLabel "Studentenlied"@de,
-        "Vagantenlied"@de,
+    skos:altLabel "studentenlied"@de,
+        "vagantenlied"@de,
         "student song"@en,
         "cancion estudiantil"@es,
-        "Chansons d'étudiants"@fr,
+        "chansons d'étudiants"@fr,
         "chanson d'étudiant"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/gos> ;
@@ -2363,7 +2353,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/gra> a skos:Concept ;
-    skos:altLabel "Graduels (musique)"@fr,
+    skos:altLabel "graduels (musique)"@fr,
         "graduel"@fr,
         "gradualis"@la ;
     skos:editorialNote "English term is preferred globally." ;
@@ -2402,7 +2392,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/hab> a skos:Concept ;
-    skos:altLabel "Habaneras"@fr,
+    skos:altLabel "habaneras"@fr,
         "abanera"@it ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hab> ;
@@ -2422,7 +2412,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/hem> a skos:Concept ;
-    skos:altLabel "Heavy metal"@fr ;
+    skos:altLabel "heavy metal"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hem> ;
     skos:prefLabel "heavy metal"@en ;
@@ -2438,14 +2428,14 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hit> ;
     skos:note "Use for commercial popular songs, canzonetta leggera, Schlager, etc."@en,
-        "20th cent."@it ;
+        "20th cent."@en ;
     skos:prefLabel "hit"@en,
         "chanson à succès"@fr,
         "canzone leggera"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/hoq> a skos:Concept ;
-    skos:altLabel "Schlager"@de,
+    skos:altLabel "schlager"@de,
         "hoquet"@fr,
         "canzonetta leggera"@it,
         "ochetto"@it,
@@ -2453,7 +2443,7 @@
         "ochetus"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hoq> ;
-    skos:note "20th cent."@it ;
+    skos:note "20th cent."@en ;
     skos:prefLabel "hoquetus"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2465,15 +2455,15 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/hrk> a skos:Concept ;
-    skos:altLabel "Hard rock"@fr ;
+    skos:altLabel "hard rock"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hrk> ;
     skos:prefLabel "hard rock"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/hum> a skos:Concept ;
-    skos:altLabel "Humoreske"@de,
-        "Humoresques"@fr ;
+    skos:altLabel "humoreske"@de,
+        "humoresques"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hum> ;
     skos:prefLabel "humoresque"@fr,
@@ -2482,7 +2472,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/hy> a skos:Concept ;
     skos:altLabel "hymnos"@el,
-        "Hymnes"@fr,
+        "hymnes"@fr,
         "hymne"@fr,
         "himno"@it,
         "hinno"@it,
@@ -2492,7 +2482,7 @@
         "te deum"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/hy> ;
-    skos:note "Pour hymne national, utiliser nat"@fr ;
+    skos:note "Pour hymne national, utiliser nat"@en ;
     skos:prefLabel "hymn"@en,
         "inno"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -2509,7 +2499,7 @@
     skos:altLabel "idylle"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/idy> ;
-    skos:note "19th-20th cent."@it ;
+    skos:note "19th-20th cent."@en ;
     skos:prefLabel "idyll"@en,
         "idillio"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -2532,17 +2522,17 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/imu> a skos:Concept ;
-    skos:altLabel "Impromptus"@fr,
-        "Impromptus (musique)"@fr ;
+    skos:altLabel "impromptus"@fr,
+        "impromptus (musique)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/imu> ;
-    skos:note "Use also for improvviso"@fr ;
+    skos:note "Use also for improvviso"@en ;
     skos:prefLabel "impromptu"@fr,
         "improvviso"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/in> a skos:Concept ;
-    skos:altLabel "Musicalisches Zwischen-Spiel"@de,
+    skos:altLabel "musicalisches zwischen-spiel"@de,
         "entremès"@es,
         "entr'acte"@fr,
         "intermède"@fr,
@@ -2556,12 +2546,11 @@
         "intermezzo scenico"@it,
         "intermezzo spirituale"@it,
         "intramezzo"@it,
-        "ntramiezze pe mmuseca"@it,
+        "ntramiezze pe mmuseca"@nap,
         "intermedium"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/in> ;
-    skos:note "After the 1st half 17th cent."@it,
-        "Neapolitan"@it ;
+    skos:note "After the 1st half 17th cent."@en;
     skos:prefLabel "intermezzo"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2590,9 +2579,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/inm> a skos:Concept ;
-    skos:altLabel "Bühnenmusik"@de,
+    skos:altLabel "bühnenmusik"@de,
         "theater music"@en,
-        "Musique de scène"@fr,
         "musique de scène"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/inm> ;
@@ -2601,13 +2589,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/int> a skos:Concept ;
-    skos:altLabel "Eingang"@de,
-        "Einleitung"@de ;
+    skos:altLabel "eingang"@de,
+        "einleitung"@de ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/int> ;
     skos:note "Chiefly associated with instrumental music of the classical period including instrumental music of operatic genre; for introductions including voices use din – dramatic introduction"@en,
-        "Instrumentale"@fr,
-        "Instrumental"@it ;
+        "Instrumental"@en ;
     skos:prefLabel "introduction"@en,
         "introduction"@fr,
         "introduzione"@it ;
@@ -2630,7 +2617,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ipp> a skos:Concept ;
-    skos:altLabel "Improperien"@de,
+    skos:altLabel "improperien"@de,
         "improperii"@it ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ipp> ;
@@ -2639,12 +2626,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/iru> a skos:Concept ;
-    skos:altLabel "Interludes"@fr,
+    skos:altLabel "interludes"@fr,
         "interludio"@it,
         "interludium"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/iru> ;
-    skos:prefLabel "Zwischenspiel"@de,
+    skos:prefLabel "zwischenspiel"@de,
         "interlude"@en,
         "interlude"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -2652,7 +2639,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/itd> a skos:Concept ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/itd> ;
-    skos:note "To the 1st half 17th cent"@it ;
+    skos:note "To the 1st half 17th cent"@en ;
     skos:prefLabel "intermedio"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2665,12 +2652,11 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/itt> a skos:Concept ;
-    skos:altLabel "Introïts (musique)"@fr,
+    skos:altLabel "introïts (musique)"@fr,
         "introitus"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/itt> ;
-    skos:note "New variant term."@de ;
-    skos:prefLabel "Introitus"@de,
+    skos:prefLabel "introitus"@de,
         "introit"@en,
         "introït"@fr,
         "introito"@it ;
@@ -2684,7 +2670,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/jep> a skos:Concept ;
-    skos:altLabel "Jeux-partis"@fr ;
+    skos:altLabel "jeux-partis"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/jep> ;
     skos:prefLabel "jeu parti"@fr ;
@@ -2697,7 +2683,7 @@
         "jygge"@en ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/jgg> ;
-    skos:note "Stage entertainement"@en ;
+    skos:note "stage entertainement"@en ;
     skos:prefLabel "jigg"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2707,12 +2693,12 @@
         "jigg"@en ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/jig> ;
-    skos:note "Dance"@en ;
+    skos:note "dance"@en ;
     skos:prefLabel "jig"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/jot> a skos:Concept ;
-    skos:altLabel "Jotas"@fr ;
+    skos:altLabel "jotas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/jot> ;
     skos:prefLabel "jota"@es ;
@@ -2736,11 +2722,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/jz> a skos:Concept ;
-    skos:altLabel "Jazz"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/jz> ;
     skos:note "Except where an individual code has been assigned to a specific form"@en ;
-    skos:prefLabel "Jazz"@de,
+    skos:prefLabel "jazz"@de,
         "jazz"@en,
         "jazz"@fr,
         "jazz"@it ;
@@ -2762,7 +2747,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/kra> a skos:Concept ;
-    skos:altLabel "Polnischer Tanz"@de,
+    skos:altLabel "polnischer tanz"@de,
         "cracovienne"@fr,
         "chorea polonica"@la,
         "volta polonica"@la,
@@ -2771,7 +2756,7 @@
         "wyóczek"@pl ;
     skos:editorialNote "Polish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/kra> ;
-    skos:note "Use also for cracovienne, flisak, volta polonica and similar"@pl ;
+    skos:note "Use also for cracovienne, flisak, volta polonica and similar"@en ;
     skos:prefLabel "krakowiak"@pl ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2782,14 +2767,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/kyr> a skos:Concept ;
-    skos:altLabel "Kyrie eleison (musique)"@fr ;
+    skos:altLabel "kyrie eleison (musique)"@fr ;
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/kyr> ;
     skos:prefLabel "kyrie"@el ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lai> a skos:Concept ;
-    skos:altLabel "Lais (musique)"@fr,
+    skos:altLabel "lais (musique)"@fr,
         "laich"@fr,
         "leich"@fr ;
     skos:editorialNote "French term is preferred globally." ;
@@ -2810,7 +2795,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lau> a skos:Concept ;
-    skos:altLabel "Laude"@fr,
+    skos:altLabel "laude"@fr,
         "laude"@it,
         "laude spirituali"@it,
         "laudi"@it,
@@ -2821,15 +2806,14 @@
         "laudes"@la ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lau> ;
-    skos:note "Non liturgical"@it,
-        "Non liturgical"@la ;
+    skos:note "Non liturgical"@en;
     skos:prefLabel "lauda"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lby> a skos:Concept ;
     skos:altLabel "cradle song"@en,
         "lullaby (forma popolare)"@en,
-        "Berceuses (musique vocale)"@fr,
+        "berceuses (musique vocale)"@fr,
         "berceuse (populaire)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lby> ;
@@ -2841,12 +2825,12 @@
 <http://data.doremus.org/vocabulary/iaml/genre/lds> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lds> ;
-    skos:prefLabel "Liederspiel"@de ;
+    skos:prefLabel "liederspiel"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ldy> a skos:Concept ;
-    skos:altLabel "Jiterburg"@de,
-        "Jitterburg"@de,
+    skos:altLabel "jiterburg"@de,
+        "jitterburg"@de,
         "breakaway"@en,
         "lindberg-hop"@en,
         "lindy-hop"@en,
@@ -2867,47 +2851,47 @@
 <http://data.doremus.org/vocabulary/iaml/genre/les> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/les> ;
-    skos:prefLabel "Leise"@de ;
+    skos:prefLabel "leise"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lgu> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lgu> ;
-    skos:prefLabel "Langaus"@de ;
+    skos:prefLabel "langaus"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/li> a skos:Concept ;
-    skos:altLabel "Chorallied"@de,
-        "Generalbasslied"@de,
-        "Kunstlied"@de,
-        "Massenlied"@de,
-        "Meistersang"@de,
-        "Minnelied"@de,
-        "Minnesang"@de,
-        "Tenorlied"@de,
-        "Volkslied"@de,
-        "Lieder"@fr ;
+    skos:altLabel "chorallied"@de,
+        "generalbasslied"@de,
+        "kunstlied"@de,
+        "massenlied"@de,
+        "meistersang"@de,
+        "minnelied"@de,
+        "minnesang"@de,
+        "tenorlied"@de,
+        "volkslied"@de,
+        "lieder"@fr ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/li> ;
-    skos:prefLabel "Lied"@de ;
+    skos:prefLabel "lied"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lic> a skos:Concept ;
-    skos:altLabel "Epilog"@de,
+    skos:altLabel "epilog"@de,
         "epilogue"@en,
         "epilogo"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lic> ;
-    skos:note "Use also for epilogue and similar"@it ;
+    skos:note "Use also for epilogue and similar"@en ;
     skos:prefLabel "licenza"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lid> a skos:Concept ;
-    skos:altLabel "Liturgisches Drama"@de,
-        "Liturgisches Spiel"@de,
-        "Mysterienspiel"@de,
-        "Osterspiel"@de,
-        "Drames liturgiques"@fr,
+    skos:altLabel "liturgisches drama"@de,
+        "liturgisches spiel"@de,
+        "mysterienspiel"@de,
+        "osterspiel"@de,
+        "drames liturgiques"@fr,
         "drame liturgique"@fr,
         "dramma liturgico"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -2918,7 +2902,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/lir> a skos:Concept ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lir> ;
-    skos:note "Work mainly for solo voice and piano"@it ;
+    skos:note "Work mainly for solo voice and piano"@en ;
     skos:prefLabel "lirica"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -2931,9 +2915,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lmz> a skos:Concept ;
-    skos:altLabel "Klagelied"@de,
-        "Lamentationen"@de,
-        "Lamentations de Jérémie (musique)"@fr,
+    skos:altLabel "klagelied"@de,
+        "lamentationen"@de,
+        "lamentations de Jérémie (musique)"@fr,
         "lamentations de jérémie"@fr,
         "lezioni di geremia"@it,
         "lectio hieremie"@la ;
@@ -2945,29 +2929,28 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lnd> a skos:Concept ;
-    skos:altLabel "Bayerischer"@de,
-        "Böhmerwaldler"@de,
-        "Egerländer"@de,
-        "Oberländer"@de,
-        "Siebenbürger"@de,
-        "Steirer"@de,
-        "Südmärische"@de,
-        "Tiroler"@de,
-        "Ländler"@fr,
+    skos:altLabel "bayerischer"@de,
+        "böhmerwaldler"@de,
+        "egerländer"@de,
+        "oberländer"@de,
+        "siebenbürger"@de,
+        "steirer"@de,
+        "südmärische"@de,
+        "tiroler"@de,
+        "ländler"@fr,
         "tyrolienne"@fr,
         "tirolese"@it ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lnd> ;
     skos:note "Includes Bayrischer, tyrolienne and similar"@de ;
-    skos:prefLabel "Ländler"@de ;
+    skos:prefLabel "ländler"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lod> a skos:Concept ;
     skos:altLabel "laudes"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lod> ;
-    skos:note "Liturgical"@it,
-        "Liturgical"@la ;
+    skos:note "liturgical"@en ;
     skos:prefLabel "lauds"@en,
         "laudes"@fr,
         "lodi"@it ;
@@ -2980,8 +2963,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lty> a skos:Concept ;
-    skos:altLabel "Litanei"@de,
-        "Litanies (musique)"@fr,
+    skos:altLabel "litanei"@de,
+        "litanies (musique)"@fr,
         "litanie"@fr,
         "litania"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -2996,7 +2979,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/lyh> a skos:Concept ;
-    skos:altLabel "Office divin (musique)"@fr,
+    skos:altLabel "office divin (musique)"@fr,
         "heures canoniales"@fr,
         "office canonial"@fr,
         "ora media"@it,
@@ -3010,14 +2993,14 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/lyh> ;
     skos:note "Use also for Officium, divine office, etc."@en,
-        "Liturgical"@it ;
+        "Liturgical"@en ;
     skos:prefLabel "liturgy of the hours"@en,
         "heures liturgiques"@fr,
         "liturgia delle ore"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mat> a skos:Concept ;
-    skos:altLabel "Matines (musique)"@fr ;
+    skos:altLabel "matines (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mat> ;
     skos:prefLabel "matins"@en,
@@ -3033,7 +3016,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mbm> a skos:Concept ;
-    skos:altLabel "Mambos"@fr ;
+    skos:altLabel "mambos"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mbm> ;
     skos:prefLabel "mambo"@en,
@@ -3051,14 +3034,13 @@
         "musical romance"@en,
         "musical show"@en,
         "musical trifle"@en,
-        "Comédies musicales"@fr,
+        "comédies musicales"@fr,
         "comédie musicale"@fr,
         "folie musicale"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mc> ;
     skos:note "20th cent."@en,
-        "For musical revue prefer rev – revue"@en,
-        "20th cent."@it ;
+        "For musical revue prefer rev – revue"@en ;
     skos:prefLabel "musical revue and comedy"@en,
         "commedia musicale"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -3070,35 +3052,35 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/md> a skos:Concept ;
-    skos:altLabel "Madrigaux"@fr,
-        "Madrigaux (musique)"@fr,
+    skos:altLabel "madrigaux"@fr,
+        "madrigaux (musique)"@fr,
         "madrigale"@it,
         "madrigale passeggiato"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/md> ;
-    skos:prefLabel "Madrigal"@de,
+    skos:prefLabel "madrigal"@de,
         "madrigal"@en,
         "madrigal"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mda> a skos:Concept ;
-    skos:altLabel "Duodrama"@de,
-        "Melodrama"@de,
-        "Melodramm"@de,
-        "Monodram"@de,
-        "Mélodrames (musique)"@fr,
+    skos:altLabel "duodrama"@de,
+        "melodrama"@de,
+        "melodramm"@de,
+        "monodram"@de,
+        "mélodrames (musique)"@fr,
         "mélodrame"@fr,
         "monodramma"@it,
         "monodramma lirico"@it ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mda> ;
-    skos:note "Use for monodrama, melologo and similar"@de ;
-    skos:prefLabel "Melodrama"@de,
+    skos:note "Use for monodrama, melologo and similar"@en ;
+    skos:prefLabel "melodrama"@de,
         "melologo"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mdc> a skos:Concept ;
-    skos:altLabel "Madrigalkomödie"@de,
+    skos:altLabel "madrigalkomödie"@de,
         "madrigale drammatico"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mdc> ;
@@ -3135,8 +3117,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mi> a skos:Concept ;
-    skos:altLabel "Menuett"@de,
-        "Menuets"@fr,
+    skos:altLabel "menuett"@de,
+        "menuets"@fr,
         "menuet"@fr,
         "minué"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -3147,13 +3129,13 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/mim> a skos:Concept ;
     skos:altLabel "Armeemarsch"@de,
-        "Deployermarsch"@de,
-        "Geschwindmarsch"@de,
-        "Parademarsch"@de,
-        "Präsentiermarsch"@de,
-        "Quickmarsch"@de,
-        "Sturmmarsch"@de,
-        "Truppenmarsch"@de,
+        "deployermarsch"@de,
+        "geschwindmarsch"@de,
+        "parademarsch"@de,
+        "präsentiermarsch"@de,
+        "quickmarsch"@de,
+        "sturmmarsch"@de,
+        "truppenmarsch"@de,
         "marcia di parata"@it,
         "marcia di trasferimento"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -3164,7 +3146,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mld> a skos:Concept ;
-    skos:altLabel "Mélodies"@fr ;
+    skos:altLabel "mélodies"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mld> ;
     skos:note "French vocal form, from mid-19th cent."@fr ;
@@ -3211,24 +3193,24 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mng> a skos:Concept ;
-    skos:altLabel "Milongas"@fr ;
+    skos:altLabel "milongas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mng> ;
     skos:prefLabel "milonga"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mnh> a skos:Concept ;
-    skos:altLabel "Modinhas"@fr ;
+    skos:altLabel "modinhas"@fr ;
     skos:editorialNote "Portuguese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mnh> ;
     skos:prefLabel "modinha"@pt ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mo> a skos:Concept ;
-    skos:altLabel "Doppelmotette"@de,
-        "Motette"@de,
+    skos:altLabel "doppelmotette"@de,
+        "motette"@de,
         "motete"@es,
-        "Motets"@fr,
+        "motets"@fr,
         "concerto ecclesiastico"@it,
         "concerto sacro"@it,
         "concerto spirituale"@it,
@@ -3239,8 +3221,8 @@
         "motetus"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mo> ;
-    skos:note "17th cent."@it,
-        "Vocal"@it ;
+    skos:note "17th cent."@en,
+        "Vocal"@en ;
     skos:prefLabel "motet"@en,
         "motet"@fr,
         "mottetto"@it ;
@@ -3260,7 +3242,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mor> a skos:Concept ;
-    skos:altLabel "Moralität"@de,
+    skos:altLabel "moralität"@de,
         "moralidad"@es,
         "moralité"@fr ;
     skos:editorialNote "English term is preferred globally." ;
@@ -3270,9 +3252,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mp> a skos:Concept ;
-    skos:altLabel "Film Musik"@de,
+    skos:altLabel "film musik"@de,
         "soundtrack"@en,
-        "Musique de film"@fr,
         "colonna sonora"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mp> ;
@@ -3283,8 +3264,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mph> a skos:Concept ;
-    skos:altLabel "Metamorphosen"@de,
-        "Métamorphoses"@fr,
+    skos:altLabel "metamorphosen"@de,
+        "métamorphoses"@fr,
         "métamorphose"@fr ;
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mph> ;
@@ -3293,8 +3274,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mqu> a skos:Concept ;
-    skos:altLabel "Mask"@de,
-        "Musique de masque"@fr,
+    skos:altLabel "mask"@de,
+        "musique de masque"@fr,
         "entremets"@fr,
         "maschara"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -3303,9 +3284,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mr> a skos:Concept ;
-    skos:altLabel "Marsch"@de,
-        "Marches"@fr,
-        "Marches (musique)"@fr,
+    skos:altLabel "marsch"@de,
+        "marches"@fr,
+        "marches (musique)"@fr,
         "marche"@fr,
         "pas de charge"@fr ;
     skos:editorialNote "English term is preferred globally." ;
@@ -3315,12 +3296,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ms> a skos:Concept ;
-    skos:altLabel "Choralmesse"@de,
-        "Mehrstimmige Messe"@de,
+    skos:altLabel "choralmesse"@de,
+        "mehrstimmige messe"@de,
         "kyrie"@el,
         "misa"@es,
-        "Messes"@fr,
-        "Messes (musique)"@fr,
+        "messes"@fr,
+        "messes (musique)"@fr,
         "gloria"@it,
         "agnus dei"@la,
         "benedictus"@la,
@@ -3329,7 +3310,7 @@
         "sanctus"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ms> ;
-    skos:prefLabel "Messe"@de,
+    skos:prefLabel "messe"@de,
         "mass"@en,
         "messe"@fr,
         "messa"@it,
@@ -3367,7 +3348,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mtb> a skos:Concept ;
-    skos:altLabel "Schwerttanz"@de,
+    skos:altLabel "schwerttanz"@de,
         "air de bouffons"@fr,
         "bouffons"@fr,
         "danse des bouffons"@fr,
@@ -3381,8 +3362,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mth> a skos:Concept ;
-    skos:altLabel "Lehrbuch"@de,
-        "Schule"@de,
+    skos:altLabel "lehrbuch"@de,
+        "schule"@de,
         "tutor"@en,
         "méthode"@fr,
         "scuola"@it,
@@ -3432,7 +3413,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mus> a skos:Concept ;
-    skos:altLabel "Musettes"@fr,
+    skos:altLabel "musettes"@fr,
         "musetta"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mus> ;
@@ -3440,7 +3421,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mut> a skos:Concept ;
-    skos:altLabel "Théâtre musical"@fr ;
+    skos:altLabel "théâtre musical"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mut> ;
     skos:prefLabel "musical theatre"@en,
@@ -3448,7 +3429,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mxx> a skos:Concept ;
-    skos:altLabel "Maxixes"@fr,
+    skos:altLabel "maxixes"@fr,
         "machiche"@pt,
         "matchiche"@pt ;
     skos:editorialNote "Portuguese term is preferred globally." ;
@@ -3457,7 +3438,6 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mym> a skos:Concept ;
-    skos:altLabel "Musique militaire"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mym> ;
     skos:prefLabel "military music"@en,
@@ -3466,7 +3446,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/mz> a skos:Concept ;
-    skos:altLabel "Mazurkas"@fr,
+    skos:altLabel "mazurkas"@fr,
         "mazurca"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/mz> ;
@@ -3477,10 +3457,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/nat> a skos:Concept ;
-    skos:altLabel "Nationalhymne"@de,
+    skos:altLabel "nationalhymne"@de,
         "yankee doodle"@en,
         "himno nacional"@es,
-        "Hymnes nationaux"@fr,
+        "hymnes nationaux"@fr,
         "hymne national"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/nat> ;
@@ -3501,10 +3481,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/nc> a skos:Concept ;
-    skos:altLabel "Nachtstück"@de,
-        "Nokturne"@de,
-        "Nocturnes"@fr,
-        "Nocturnes (musique)"@fr ;
+    skos:altLabel "nachtstück"@de,
+        "nokturne"@de,
+        "nocturnes"@fr,
+        "nocturnes (musique)"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/nc> ;
     skos:prefLabel "nocturne"@fr,
@@ -3518,14 +3498,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/noe> a skos:Concept ;
-    skos:altLabel "Weihnachtslied"@de,
-        "Noëls"@fr,
+    skos:altLabel "weihnachtslied"@de,
+        "noëls"@fr,
         "chant de noël"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/noe> ;
-    skos:note "New variant term."@de,
-        "New variant term."@en ;
-    skos:prefLabel "Weihnachtsmusik"@de,
+    skos:prefLabel "weihnachtsmusik"@de,
         "christmas music"@en,
         "noël"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -3538,10 +3516,10 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/non> a skos:Concept ;
     skos:altLabel "noneto"@es,
-        "Nonets"@fr ;
+        "nonets"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/non> ;
-    skos:prefLabel "Nonett"@de,
+    skos:prefLabel "nonett"@de,
         "nonet"@en,
         "nonette"@fr,
         "nonetto"@it ;
@@ -3551,7 +3529,7 @@
     skos:altLabel "novellette"@en ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/nov> ;
-    skos:prefLabel "Novellette"@de,
+    skos:prefLabel "novellette"@de,
         "novelette"@en,
         "novelette"@fr,
         "novelletta"@it ;
@@ -3566,23 +3544,23 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ntz> a skos:Concept ;
-    skos:altLabel "Proportz"@de,
+    skos:altLabel "proportz"@de,
         "dance-pair"@en,
         "tripla"@it ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ntz> ;
-    skos:prefLabel "Nachtanz"@de ;
+    skos:prefLabel "nachtanz"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/nwa> a skos:Concept ;
-    skos:altLabel "Musique New Age"@fr ;
+    skos:altLabel "musique New Age"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/nwa> ;
     skos:prefLabel "new age"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/nww> a skos:Concept ;
-    skos:altLabel "New wave (musique)"@fr ;
+    skos:altLabel "new wave (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/nww> ;
     skos:prefLabel "new wave"@en ;
@@ -3596,9 +3574,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/oct> a skos:Concept ;
-    skos:altLabel "Oktett"@de,
+    skos:altLabel "oktett"@de,
         "octeto"@es,
-        "Octuors"@fr,
+        "octuors"@fr,
         "octuor"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/oct> ;
@@ -3607,7 +3585,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ode> a skos:Concept ;
-    skos:altLabel "Odenkomposition"@de,
+    skos:altLabel "odenkomposition"@de,
         "oda"@it,
         "ode melodrammatica"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -3626,7 +3604,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/off> a skos:Concept ;
-    skos:altLabel "Offertoires (musique)"@fr ;
+    skos:altLabel "offertoires (musique)"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/off> ;
     skos:prefLabel "offertory"@en,
@@ -3636,7 +3614,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ogm> a skos:Concept ;
-    skos:altLabel "Organa"@fr,
+    skos:altLabel "organa"@fr,
         "diaphonia"@la ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ogm> ;
@@ -3652,7 +3630,7 @@
         "judy walk"@en,
         "one-step"@en,
         "turkey trot"@en,
-        "One-steps"@fr,
+        "one-steps"@fr,
         "pas du dindon"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ons> ;
@@ -3661,13 +3639,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/op> a skos:Concept ;
-    skos:altLabel "Musicalische Opera"@de,
-        "Musikdrama"@de,
-        "Traur-Spiel"@de,
+    skos:altLabel "musicalische opera"@de,
+        "musikdrama"@de,
+        "traur-spiel"@de,
         "lyric drama"@en,
         "ópera"@es,
-        "Opéras"@fr,
-        "Opéras "@fr,
+        "opéras"@fr,
         "drame lyrique"@fr,
         "azione melodrammatica"@it,
         "azione tragica"@it,
@@ -3693,35 +3670,35 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/op> ;
     skos:note "Includes melodramma, drame-lyrique and similar, and where an individual code has not been assigned to a specific form"@en,
         "Include melodramma, drame-lyrique e simili, e quando un codice individuale non è stato assegnato a una forma specifica"@it ;
-    skos:prefLabel "Oper"@de,
+    skos:prefLabel "oper"@de,
         "opera"@en,
         "opéra"@fr,
         "opera"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/opb> a skos:Concept ;
-    skos:altLabel "Ballettoper"@de,
-        "Opéras-ballets"@fr ;
+    skos:altLabel "ballettoper"@de,
+        "opéras-ballets"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/opb> ;
     skos:prefLabel "opéra-ballet"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/opc> a skos:Concept ;
-    skos:altLabel "Opéras-comiques"@fr,
+    skos:altLabel "opéras-comiques"@fr,
         "comédie mêlée d'ariettes"@fr,
         "opéra comique"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/opc> ;
-    skos:note "Use also for comédie mêlée d’ariettes"@fr ;
+    skos:note "Use also for comédie mêlée d’ariettes"@en ;
     skos:prefLabel "opéra-comique"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/opf> a skos:Concept ;
-    skos:altLabel "Opéras bouffes"@fr ;
+    skos:altLabel "opéras bouffes"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/opf> ;
-    skos:note "French late 19th cent. humorous and satiric form"@fr ;
+    skos:note "French late 19th cent. humorous and satiric form"@en ;
     skos:prefLabel "opéra bouffe"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -3735,20 +3712,20 @@
         "opera serioridicola"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/opm> ;
-    skos:note "Includes dramma semiserio and similar"@it ;
+    skos:note "Includes dramma semiserio and similar"@en ;
     skos:prefLabel "opera semiseria"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ops> a skos:Concept ;
-    skos:altLabel "Musicalisches Schau-Spiel"@de,
-        "Musikalisches Drama"@de,
-        "Schauspiel"@de,
+    skos:altLabel "musicalisches schau-spiel"@de,
+        "musikalisches drama"@de,
+        "schauspiel"@de,
         "musical drama"@en,
         "serious opera"@en,
         "drama en musica"@es,
         "drama para musica"@es,
         "dramma en musica"@es,
-        "Opéras seria"@fr,
+        "opéras seria"@fr,
         "arcidramma musicale"@it,
         "componimento drammatico"@it,
         "drama"@it,
@@ -3792,31 +3769,31 @@
         "trattenimento scenico"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ops> ;
-    skos:note "18th cent."@it,
-        "Includes dramma per musica, melodramma tragico and similar"@it ;
+    skos:note "18th cent."@en,
+        "Includes dramma per musica, melodramma tragico and similar"@en ;
     skos:prefLabel "opera seria"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/opt> a skos:Concept ;
-    skos:altLabel "Opérettes"@fr,
+    skos:altLabel "opérettes"@fr,
         "musiquette"@fr,
         "operetta"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/opt> ;
-    skos:note "19th-20th cent."@it ;
+    skos:note "19th-20th cent."@en ;
     skos:prefLabel "opérette"@fr,
         "operetta"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/opu> a skos:Concept ;
-    skos:altLabel "Freudenspiel"@de,
-        "Komische Oper"@de,
-        "Musicalisches Lust-Spiel"@de,
+    skos:altLabel "freudenspiel"@de,
+        "komische oper"@de,
+        "musicalisches lust-spiel"@de,
         "comi-drama"@en,
         "comic drama"@en,
         "comic opera"@en,
         "tragic-comic opera"@en,
-        "Opéras buffa"@fr,
+        "opéras buffa"@fr,
         "opéra bouffon"@fr,
         "opéra héroicomique"@fr,
         "opéra-bouffon"@fr,
@@ -3860,17 +3837,14 @@
         "theatrale divertimento"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/opu> ;
-    skos:note "English"@en,
-        "If translated from Italian"@fr,
-        "English"@it,
-        "Includes dramma giocoso, opéra-bouffon, azione comica and similar"@it ;
+    skos:note "Includes dramma giocoso, opéra-bouffon, azione comica and similar"@en ;
     skos:prefLabel "opera buffa"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/or> a skos:Concept ;
-    skos:altLabel "Passionsoratorium"@de,
+    skos:altLabel "passionsoratorium"@de,
         "passion oratorio"@en,
-        "Oratorios"@fr,
+        "oratorios"@fr,
         "dramma musicale nell'oratorio"@it,
         "dramma per oratorio in musica"@it,
         "historia sacra cantata"@it,
@@ -3915,8 +3889,7 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/or> ;
     skos:note "Includes melodramma sacro, opera spirituale and similar"@en,
         "Include melodramma sacro, opera spirituale e simili"@it,
-        "Latin"@it,
-        "With Latin text"@it ;
+        "With Latin text"@en ;
     skos:prefLabel "oratorio"@en,
         "oratorio"@fr,
         "oratorio"@it ;
@@ -3931,17 +3904,17 @@
 <http://data.doremus.org/vocabulary/iaml/genre/orm> a skos:Concept ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/orm> ;
-    skos:prefLabel "Orgelmesse"@de,
+    skos:prefLabel "orgelmesse"@de,
         "organ mass"@en,
         "messe pour orgue"@fr,
         "messa per organo"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ov> a skos:Concept ;
-    skos:altLabel "Französische Ouverture"@de,
+    skos:altLabel "französische ouverture"@de,
         "obertura"@es,
-        "Ouvertures"@fr,
-        "Ouvertures (musique)"@fr,
+        "ouvertures"@fr,
+        "ouvertures (musique)"@fr,
         "ouverture"@fr,
         "ouverture à la française"@fr,
         "ouvertura"@it,
@@ -3952,11 +3925,11 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pad> a skos:Concept ;
-    skos:altLabel "Heroisches Schafer-Spiel"@de,
-        "Schäfergedicht"@de,
-        "Schüffergedicht"@de,
+    skos:altLabel "heroisches schafer-spiel"@de,
+        "schäfergedicht"@de,
+        "schüffergedicht"@de,
         "pastoral opera"@en,
-        "Pastorales (musique vocale)"@fr,
+        "pastorales (musique vocale)"@fr,
         "drame pastoral"@fr,
         "azione pastorale"@it,
         "commedia pastorale"@it,
@@ -3987,8 +3960,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pae> a skos:Concept ;
-    skos:altLabel "Päan"@de,
-        "Péans"@fr ;
+    skos:altLabel "päan"@de,
+        "péans"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pae> ;
     skos:prefLabel "paean"@en,
@@ -4035,7 +4008,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pdy> a skos:Concept ;
-    skos:altLabel "Parodie (musique)"@fr ;
+    skos:altLabel "parodie (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pdy> ;
     skos:prefLabel "parody"@en,
@@ -4052,14 +4025,14 @@
 <http://data.doremus.org/vocabulary/iaml/genre/pf> a skos:Concept ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pf> ;
-    skos:prefLabel "Präludium Und Fuge"@de,
+    skos:prefLabel "präludium Und Fuge"@de,
         "prelude and fugue"@en,
         "prélude et fugue"@fr,
         "preludio e fuga"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pg> a skos:Concept ;
-    skos:altLabel "Musique à programme"@fr ;
+    skos:altLabel "musique à programme"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pg> ;
     skos:prefLabel "programme music"@en,
@@ -4074,7 +4047,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/phy> a skos:Concept ;
-    skos:altLabel "Chants patriotiques"@fr,
+    skos:altLabel "chants patriotiques"@fr,
         "chant patriotique"@fr,
         "chant révolutionnaire"@fr,
         "hymne révolutionnaire"@fr,
@@ -4093,7 +4066,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/plc> a skos:Concept ;
-    skos:altLabel "Planctus"@fr ;
+    skos:altLabel "planctus"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/plc> ;
     skos:prefLabel "planctus"@la ;
@@ -4106,15 +4079,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/plk> a skos:Concept ;
-    skos:altLabel "Kreuzpolka"@de,
-        "Schottische Bohème"@de,
+    skos:altLabel "kreuzpolka"@de,
+        "schottische bohème"@de,
         "barn dance"@en,
-        "Polkas"@fr,
-        "Polkas "@fr,
+        "polkas"@fr,
         "polca"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/plk> ;
-    skos:prefLabel "Polka"@de,
+    skos:prefLabel "polka"@de,
         "polka"@en,
         "polka"@fr,
         "polka"@it ;
@@ -4147,7 +4119,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/plt> a skos:Concept ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/plt> ;
-    skos:note "instrumental music, 17th-18th c."@fr ;
+    skos:note "Instrumental"@en, "17th-18th c."@en ;
     skos:prefLabel "plainte"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -4155,33 +4127,33 @@
     skos:altLabel "postludium"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/plu> ;
-    skos:prefLabel "Nachspiel"@de,
+    skos:prefLabel "nachspiel"@de,
         "postlude"@en,
         "postlude"@fr,
         "postludio"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pm> a skos:Concept ;
-    skos:altLabel "Choralpassion"@de,
-        "Oratorische Passion"@de,
+    skos:altLabel "choralpassion"@de,
+        "oratorische Passion"@de,
         "passion"@en,
-        "Musique de la Passion"@fr,
+        "musique de la Passion"@fr,
         "turba"@it,
         "turba del passio"@it,
         "passio"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pm> ;
-    skos:prefLabel "Passion"@de,
+    skos:prefLabel "passion"@de,
         "passion music"@en,
         "passion"@fr,
         "passione"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pmk> a skos:Concept ;
-    skos:altLabel "Polkas-mazurkas"@fr ;
+    skos:altLabel "polkas-mazurkas"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pmk> ;
-    skos:prefLabel "Polka Mazurka"@de,
+    skos:prefLabel "polka mazurka"@de,
         "polka mazurka"@en,
         "polka mazurka"@fr,
         "polka mazurka"@it ;
@@ -4197,22 +4169,22 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pnk> a skos:Concept ;
-    skos:altLabel "Punk rock"@fr ;
+    skos:altLabel "punk rock"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pnk> ;
     skos:prefLabel "punk"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/po> a skos:Concept ;
-    skos:altLabel "Polonäise"@de,
-        "Polonaises"@fr,
-        "Polonaises (musique)"@fr,
+    skos:altLabel "polonäise"@de,
+        "polonaises"@fr,
+        "polonaises (musique)"@fr,
         "polonesa"@it,
         "chodzony"@pl,
         "pieszy"@pl ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/po> ;
-    skos:prefLabel "Polonäse"@de,
+    skos:prefLabel "polonäse"@de,
         "polonaise"@en,
         "polonaise"@fr,
         "polacca"@it,
@@ -4226,8 +4198,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pot> a skos:Concept ;
-    skos:altLabel "Pots-pourris"@fr,
-        "Pots-pourris (musique) "@fr,
+    skos:altLabel "pots-pourris"@fr,
+        "pots-pourris (musique)"@fr,
         "pot pourri"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pot> ;
@@ -4237,7 +4209,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/pp> a skos:Concept ;
     skos:altLabel "pop"@en,
-        "Pop music"@fr,
+        "pop music"@fr,
         "musica pop"@it,
         "pop"@it ;
     skos:editorialNote "English term is preferred globally." ;
@@ -4248,10 +4220,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pph> a skos:Concept ;
-    skos:altLabel "Paraphrases"@fr ;
+    skos:altLabel "paraphrases"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pph> ;
-    skos:prefLabel "Paraphrase"@de,
+    skos:prefLabel "paraphrase"@de,
         "paraphrase"@en,
         "paraphrase"@fr,
         "parafrasi"@it ;
@@ -4266,20 +4238,20 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/prd> a skos:Concept ;
-    skos:altLabel "Praeambel"@de,
-        "Praeludium"@de,
-        "Priamel"@de,
-        "Präambulum"@de,
-        "Vorspiel"@de,
-        "Préludes"@fr,
-        "Préludes (musique)"@fr,
+    skos:altLabel "praeambel"@de,
+        "praeludium"@de,
+        "priamel"@de,
+        "präambulum"@de,
+        "vorspiel"@de,
+        "préludes"@fr,
+        "préludes (musique)"@fr,
         "anabole"@it,
         "praeambulum"@la,
         "preambulum"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/prd> ;
     skos:note "Use also for praeambulum and similar"@en ;
-    skos:prefLabel "Präludium"@de,
+    skos:prefLabel "präludium"@de,
         "prelude"@en,
         "prélude"@fr,
         "preludio"@it,
@@ -4291,9 +4263,9 @@
         "prece"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pre> ;
-    skos:note "In opera, aria in one movement consisting of a prayer"@it,
-        "Non liturgical"@it ;
-    skos:prefLabel "Gebet"@de,
+    skos:note "In opera, aria in one movement consisting of a prayer"@en,
+        "Non liturgical"@en ;
+    skos:prefLabel "gebet"@de,
         "prayer"@en,
         "prière"@fr,
         "preghiera"@it ;
@@ -4318,7 +4290,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/prl> a skos:Concept ;
-    skos:altLabel "Prolog"@de,
+    skos:altLabel "prolog"@de,
         "protasi in musica"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/prl> ;
@@ -4344,7 +4316,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/prt> a skos:Concept ;
-    skos:altLabel "Partimenti"@fr ;
+    skos:altLabel "partimenti"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/prt> ;
     skos:prefLabel "partimento"@it ;
@@ -4357,7 +4329,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ps> a skos:Concept ;
-    skos:altLabel "Passacailles"@fr,
+    skos:altLabel "passacailles"@fr,
         "passacaille"@fr,
         "pasacalle"@it,
         "passacaglio"@it,
@@ -4370,9 +4342,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/psa> a skos:Concept ;
-    skos:altLabel "Bussalm"@de,
-        "Psaumes"@fr,
-        "Psaumes (musique)"@fr,
+    skos:altLabel "bussalm"@de,
+        "psaumes"@fr,
+        "psaumes (musique)"@fr,
         "psaume"@fr,
         "psalmo"@it,
         "salmo penitenziale"@it,
@@ -4385,7 +4357,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/psd> a skos:Concept ;
-    skos:altLabel "Paso doble (musique)"@fr,
+    skos:altLabel "paso doble (musique)"@fr,
         "passo doppio"@it ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/psd> ;
@@ -4393,7 +4365,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/psl> a skos:Concept ;
-    skos:altLabel "Pastourelles"@fr,
+    skos:altLabel "pastourelles"@fr,
         "pastorelle"@fr,
         "pastorela"@it ;
     skos:editorialNote "French term is preferred globally." ;
@@ -4403,24 +4375,24 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/psp> a skos:Concept ;
     skos:altLabel "paspy"@en,
-        "Passepieds"@fr ;
+        "passepieds"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/psp> ;
     skos:prefLabel "passepied"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/psr> a skos:Concept ;
-    skos:altLabel "Pas redoublés"@fr ;
+    skos:altLabel "pas redoublés"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/psr> ;
     skos:prefLabel "pas redoublé"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pst> a skos:Concept ;
-    skos:altLabel "Hirtenspiel"@de,
-        "Hirtenstück"@de,
-        "Schafenspiel"@de,
-        "Pastorales (musique instrumentale)"@fr ;
+    skos:altLabel "hirtenspiel"@de,
+        "hirtenstück"@de,
+        "schafenspiel"@de,
+        "pastorales (musique instrumentale)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pst> ;
     skos:note "Use for the non-dramatic forms"@en ;
@@ -4436,29 +4408,29 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ptn> a skos:Concept ;
-    skos:altLabel "Notre Père (musique)"@fr ;
+    skos:altLabel "notre Père (musique)"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ptn> ;
     skos:prefLabel "pater noster"@la ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ptt> a skos:Concept ;
-    skos:altLabel "Parthia"@de,
-        "Parthie"@de,
-        "Partitas"@fr ;
+    skos:altLabel "parthia"@de,
+        "parthie"@de,
+        "partitas"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ptt> ;
     skos:prefLabel "partita"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/pv> a skos:Concept ;
-    skos:altLabel "Pavanes"@fr,
+    skos:altLabel "pavanes"@fr,
         "paven"@fr,
         "pavenne"@fr,
         "pavin"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/pv> ;
-    skos:prefLabel "Pavane"@de,
+    skos:prefLabel "pavane"@de,
         "pavan"@en,
         "pavane"@fr,
         "pavana"@it ;
@@ -4475,8 +4447,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/qav> a skos:Concept ;
-    skos:altLabel "Quatuors"@fr,
-        "Quatuors vocaux"@fr ;
+    skos:altLabel "quatuors"@fr,
+        "quatuors vocaux"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/qav> ;
     skos:prefLabel "quartet, vocal"@en,
@@ -4485,13 +4457,13 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/qdl> a skos:Concept ;
     skos:altLabel "cuadrilla"@es,
-        "Quadrilles"@fr,
+        "quadrilles"@fr,
         "quadrille à la cour"@fr,
         "quadrille-mignon"@fr,
         "valzer-quadrille"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/qdl> ;
-    skos:prefLabel "Walzerquadrille"@de,
+    skos:prefLabel "walzerquadrille"@de,
         "quadrille"@en,
         "quadrille"@fr,
         "quadriglia"@it ;
@@ -4504,35 +4476,35 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/qua> a skos:Concept ;
-    skos:altLabel "Bläserquartett"@de,
-        "Klavierquartett"@de,
-        "Quadro"@de,
-        "Streichquartett"@de,
+    skos:altLabel "bläserquartett"@de,
+        "klavierquartett"@de,
+        "quadro"@de,
+        "streichquartett"@de,
         "cuarteto"@es,
-        "Quatuors"@fr,
+        "quatuors"@fr,
         "divertimento a quattro"@it,
         "sonata a quattro"@it,
         "квартет"@ru,
         "kvartett"@sv ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/qua> ;
-    skos:note "18th-19th cent."@it,
-        "2nd half 18th cent."@it ;
-    skos:prefLabel "Quartett"@de,
+    skos:note "18th-19th cent."@en,
+        "2nd half 18th cent."@en ;
+    skos:prefLabel "quartett"@de,
         "quartet"@en,
         "quatuor instrumental"@fr,
         "quartetto"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/qui> a skos:Concept ;
-    skos:altLabel "Quintette"@de,
-        "Quintettes"@fr,
+    skos:altLabel "quintette"@de,
+        "quintettes"@fr,
         "quintette"@fr,
         "quintuor"@fr,
         "quinteto"@pt ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/qui> ;
-    skos:prefLabel "Quintett"@de,
+    skos:prefLabel "quintett"@de,
         "quintet"@en,
         "quintette instrumental"@fr,
         "quintetto"@it ;
@@ -4550,12 +4522,12 @@
 <http://data.doremus.org/vocabulary/iaml/genre/rad> a skos:Concept ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rad> ;
-    skos:note "Haiti"@fr ;
+    skos:note "haiti"@fr ;
     skos:prefLabel "rada"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ram> a skos:Concept ;
-    skos:altLabel "Musique radiophonique"@fr ;
+    skos:altLabel "musique radiophonique"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ram> ;
     skos:prefLabel "radio music"@en,
@@ -4563,7 +4535,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rao> a skos:Concept ;
-    skos:altLabel "Funkoper"@de,
+    skos:altLabel "funkoper"@de,
         "radio-opera"@en,
         "opéra radiophonique"@fr ;
     skos:editorialNote "English term is preferred globally." ;
@@ -4573,7 +4545,6 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rap> a skos:Concept ;
-    skos:altLabel "Rap"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rap> ;
     skos:prefLabel "rap"@de,
@@ -4583,7 +4554,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rc> a skos:Concept ;
-    skos:altLabel "Rock (musique)"@fr ;
+    skos:altLabel "rock (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rc> ;
     skos:prefLabel "rock music"@en,
@@ -4597,18 +4568,18 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rd> a skos:Concept ;
-    skos:altLabel "Rondos"@fr,
+    skos:altLabel "rondos"@fr,
         "rondo instrumental"@fr,
         "rondino"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rd> ;
-    skos:note "Includes instrumental rondeau"@it ;
+    skos:note "Includes instrumental rondeau"@en ;
     skos:prefLabel "rondo"@it,
         "rondò"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rde> a skos:Concept ;
-    skos:altLabel "Reigen"@de,
+    skos:altLabel "reigen"@de,
         "round"@en,
         "rundela"@es,
         "redondel"@fr,
@@ -4629,31 +4600,31 @@
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rde> ;
     skos:note "Vocal"@en,
-        "Use for medieval vocal forms; use also for rondellus, round, and similar"@fr ;
+        "Use for medieval vocal forms; use also for rondellus, round, and similar"@en ;
     skos:prefLabel "rondeau"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rdv> a skos:Concept ;
-    skos:altLabel "Kuhreigen"@de,
-        "Kuhreihen"@de,
-        "Ranz des vaches"@fr ;
+    skos:altLabel "kuhreigen"@de,
+        "kuhreihen"@de,
+        "ranz des vaches"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rdv> ;
-    skos:note "Use also for Kuhreigen and similar"@fr ;
+    skos:note "Use also for Kuhreigen and similar"@en ;
     skos:prefLabel "ranz des vaches"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rdw> a skos:Concept ;
-    skos:altLabel "Redowas"@fr ;
+    skos:altLabel "redowas"@fr ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rdw> ;
-    skos:prefLabel "Redowa"@de ;
+    skos:prefLabel "redowa"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rec> a skos:Concept ;
-    skos:altLabel "Rezitativ"@de,
+    skos:altLabel "rezitativ"@de,
         "recitado"@es,
-        "Récitatifs"@fr,
+        "récitatifs"@fr,
         "récitatif"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rec> ;
@@ -4662,7 +4633,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ree> a skos:Concept ;
-    skos:altLabel "Reels"@fr ;
+    skos:altLabel "reels"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ree> ;
     skos:prefLabel "reel"@en ;
@@ -4675,7 +4646,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rem> a skos:Concept ;
-    skos:altLabel "Réminiscences"@fr,
+    skos:altLabel "réminiscences"@fr,
         "ricordo"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rem> ;
@@ -4684,7 +4655,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rer> a skos:Concept ;
-    skos:altLabel "Rêveries"@fr ;
+    skos:altLabel "rêveries"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rer> ;
     skos:prefLabel "rêverie"@fr ;
@@ -4692,7 +4663,6 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/res> a skos:Concept ;
     skos:altLabel "responsory"@en,
-        "Répons"@fr,
         "respond"@fr,
         "respons"@fr,
         "response"@fr,
@@ -4719,14 +4689,14 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/rg> a skos:Concept ;
     skos:altLabel "rag"@en,
-        "Ragtime"@fr ;
+        "ragtime"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rg> ;
     skos:prefLabel "ragtime"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rgg> a skos:Concept ;
-    skos:altLabel "Reggae"@fr ;
+    skos:altLabel "reggae"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rgg> ;
     skos:prefLabel "reggae"@en ;
@@ -4735,7 +4705,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/rgl> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rgl> ;
-    skos:prefLabel "Reigenlied"@de ;
+    skos:prefLabel "reigenlied"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rgr> a skos:Concept ;
@@ -4745,29 +4715,29 @@
         "ruggier"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rgr> ;
-    skos:note "Form of basso ostinato"@it ;
+    skos:note "Form of basso ostinato"@en ;
     skos:prefLabel "ruggiero"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rhb> a skos:Concept ;
-    skos:altLabel "Rhythm and blues"@fr ;
+    skos:altLabel "rhythm and blues"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rhb> ;
     skos:prefLabel "rhythm and blues"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rhl> a skos:Concept ;
-    skos:altLabel "Bayerische Polka"@de,
-        "Jägerschottisch"@de ;
+    skos:altLabel "bayerische Polka"@de,
+        "jägerschottisch"@de ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rhl> ;
-    skos:note "Use also for Bayerische Polka and similar"@de ;
-    skos:prefLabel "Rheinländer"@de ;
+    skos:note "Use also for Bayerische Polka and similar"@en ;
+    skos:prefLabel "rheinländer"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ri> a skos:Concept ;
     skos:altLabel "tiento"@es,
-        "Ricercari"@fr,
+        "ricercari"@fr,
         "recercar"@it,
         "recercata"@it,
         "recerchar"@it,
@@ -4775,13 +4745,13 @@
         "ricercata"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ri> ;
-    skos:note "Nonfugal ricercars of the 16th and 17th centuries are coded as fantasias"@it ;
+    skos:note "Nonfugal ricercars of the 16th and 17th centuries are coded as fantasias"@en ;
     skos:prefLabel "ricercare"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rig> a skos:Concept ;
     skos:altLabel "rigadoon"@en,
-        "Rigaudons"@fr,
+        "rigaudons"@fr,
         "rigodon"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rig> ;
@@ -4795,7 +4765,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rit> a skos:Concept ;
-    skos:altLabel "Ritournelles"@fr,
+    skos:altLabel "ritournelles"@fr,
         "refrain"@fr,
         "reprise"@fr,
         "ritournelle"@fr,
@@ -4805,7 +4775,7 @@
         "ritornello"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rit> ;
-    skos:note "Uae also for refrain, reprise and similar"@it ;
+    skos:note "Use also for refrain, reprise and similar"@en ;
     skos:prefLabel "ritornello"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -4819,15 +4789,15 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rmc> a skos:Concept ;
-    skos:altLabel "Romanze"@de,
-        "Romances "@fr,
-        "Romances (musique instrumentale)"@fr,
+    skos:altLabel "romanze"@de,
+        "romances"@fr,
+        "romances (musique instrumentale)"@fr,
         "romance instrumentale"@fr,
         "románc"@hu,
         "romanice"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rmc> ;
-    skos:note "Instrumental"@de ;
+    skos:note "Instrumental"@en ;
     skos:prefLabel "romance (instrumental)"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -4839,30 +4809,30 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rmz> a skos:Concept ;
-    skos:altLabel "Romances (musique vocale)"@fr ;
+    skos:altLabel "romances (musique vocale)"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rmz> ;
     skos:note "Gesang"@de,
-        "Vocal"@it ;
-    skos:prefLabel "Romanze"@de,
+        "Vocal"@en ;
+    skos:prefLabel "romanze"@de,
         "romance (vocal)"@en,
         "romance chantée"@fr,
         "romanza"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rot> a skos:Concept ;
-    skos:altLabel "Radel"@de,
+    skos:altLabel "radel"@de,
         "rode"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rot> ;
-    skos:note "Italian dance form, 14th cent.; for the canon form use rde – rondeau"@it ;
+    skos:note "Italian dance form, 14th cent.; for the canon form use rde – rondeau"@en ;
     skos:prefLabel "rota"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rp> a skos:Concept ;
-    skos:altLabel "Rhapsodie"@de,
-        "Rapsodies"@fr,
-        "Rhapsodies"@fr ;
+    skos:altLabel "rhapsodie"@de,
+        "rapsodies"@fr,
+        "rhapsodies"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rp> ;
     skos:prefLabel "rhapsody"@en,
@@ -4871,10 +4841,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rq> a skos:Concept ;
-    skos:altLabel "Totenmesse"@de,
+    skos:altLabel "totenmesse"@de,
         "mass for the dead"@en,
         "misa de difuntos"@es,
-        "Requiem"@fr,
+        "requiem"@fr,
         "messe des morts"@fr,
         "messe funèbre"@fr,
         "messa da morto"@it,
@@ -4934,15 +4904,15 @@
         "ruggin"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rug> ;
-    skos:note "Italian folk dance"@it ;
+    skos:note "Italian folk dance"@en ;
     skos:prefLabel "ruggero"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/rum> a skos:Concept ;
-    skos:altLabel "Rhumba"@de,
+    skos:altLabel "rhumba"@de,
         "canson rumba"@es,
         "son cubano"@es,
-        "Rumbas"@fr ;
+        "rumbas"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/rum> ;
     skos:prefLabel "rumba"@en,
@@ -4951,8 +4921,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sad> a skos:Concept ;
-    skos:altLabel "Geistliches Drama"@de,
-        "Drames liturgiques"@fr,
+    skos:altLabel "geistliches drama"@de,
+        "drames liturgiques"@fr,
         "drame sacré"@fr,
         "componimento drammatico (da cantarsi in chiesa)"@it,
         "componimento sacro drammatico"@it,
@@ -4983,13 +4953,13 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sad> ;
     skos:note "Use for the works so designated"@en,
-        "Sacred"@la ;
+        "Sacred"@en ;
     skos:prefLabel "sacred drama"@en,
         "dramma sacro"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sae> a skos:Concept ;
-    skos:altLabel "Saetas"@fr ;
+    skos:altLabel "saetas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sae> ;
     skos:prefLabel "saeta"@es ;
@@ -5002,7 +4972,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/san> a skos:Concept ;
-    skos:altLabel "Sanctus (musique)"@fr ;
+    skos:altLabel "sanctus (musique)"@fr ;
     skos:editorialNote "Latin term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/san> ;
     skos:prefLabel "sanctus"@la ;
@@ -5014,16 +4984,16 @@
         "rappresentazione sacra"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sar> ;
-    skos:note "Renaissance form; includes mistero, auto sacramental and similar"@it ;
+    skos:note "Renaissance form; includes mistero, auto sacramental and similar"@en ;
     skos:prefLabel "représentation sacrée"@fr,
         "sacra rappresentazione"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/scc> a skos:Concept ;
-    skos:altLabel "Kirchenkantate"@de,
-        "Kirchenmusik"@de,
-        "Kirchenstück"@de,
-        "Cantates sacrées"@fr,
+    skos:altLabel "kirchenkantate"@de,
+        "kirchenmusik"@de,
+        "kirchenstück"@de,
+        "cantates sacrées"@fr,
         "cantate d'église"@fr,
         "cantata morale"@it,
         "cantata per la passione"@it,
@@ -5037,8 +5007,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/scd> a skos:Concept ;
-    skos:altLabel "Schuldrama"@de,
-        "Schuloper"@de,
+    skos:altLabel "schuldrama"@de,
+        "schuloper"@de,
         "school opera"@en,
         "ludus scholasticus"@la ;
     skos:editorialNote "English term is preferred globally." ;
@@ -5049,7 +5019,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sce> a skos:Concept ;
-    skos:altLabel "Ombra-Szene"@de,
+    skos:altLabel "ombra-Szene"@de,
         "scena lirica"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sce> ;
@@ -5059,7 +5029,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sch> a skos:Concept ;
-    skos:altLabel "Scherzos"@fr ;
+    skos:altLabel "scherzos"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sch> ;
     skos:prefLabel "scherzo"@it ;
@@ -5068,7 +5038,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/scp> a skos:Concept ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/scp> ;
-    skos:prefLabel "Schuhplattler"@de ;
+    skos:prefLabel "schuhplattler"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/scs> a skos:Concept ;
@@ -5081,38 +5051,37 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/scs> ;
     skos:note "Non liturgical"@en,
-        "18e-20e s., non liturgique"@fr,
-        "18th-20th cent."@it,
-        "Non liturgical"@it ;
+        "18e-20e s."@fr, "non liturgique"@fr,
+        "18th-20th cent."@en ;
     skos:prefLabel "sacred song"@en,
         "chant religieux"@fr,
         "canto sacro"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sct> a skos:Concept ;
-    skos:altLabel "Scat"@fr ;
+    skos:altLabel "scat"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sct> ;
     skos:prefLabel "scat"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sdh> a skos:Concept ;
-    skos:altLabel "Gsangl"@de,
-        "Gstanzl"@de,
-        "Runda"@de,
-        "Schnaderhüpfl"@de,
+    skos:altLabel "gsangl"@de,
+        "gstanzl"@de,
+        "runda"@de,
+        "schnaderhüpfl"@de,
         "stev"@no,
         "låtar"@sv ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sdh> ;
-    skos:note "Use also for Gstanzl, låtar and similar"@de ;
-    skos:prefLabel "Schnadahüpfl"@de ;
+    skos:note "Use also for Gstanzl, låtar and similar"@en ;
+    skos:prefLabel "schnadahüpfl"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sdr> a skos:Concept ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sdr> ;
-    skos:note "Use for the works so designated"@it ;
+    skos:note "Use for the works so designated"@en ;
     skos:prefLabel "scherzo drammatico"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -5123,9 +5092,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/seq> a skos:Concept ;
-    skos:altLabel "Sequenz"@de,
+    skos:altLabel "sequenz"@de,
         "prose"@en,
-        "Séquences (musique)"@fr,
+        "séquences (musique)"@fr,
         "prosa"@it,
         "dies irae"@la,
         "lauda sion"@la,
@@ -5142,16 +5111,16 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sev> a skos:Concept ;
-    skos:altLabel "Sevillanas"@fr ;
+    skos:altLabel "sevillanas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sev> ;
     skos:prefLabel "sevillana"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sex> a skos:Concept ;
-    skos:altLabel "Sextett"@de,
+    skos:altLabel "sextett"@de,
         "sexteto"@es,
-        "Sextuors"@fr,
+        "sextuors"@fr,
         "sextuor"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sex> ;
@@ -5160,14 +5129,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sft> a skos:Concept ;
-    skos:altLabel "Sinfoniettas"@fr ;
+    skos:altLabel "sinfoniettas"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sft> ;
     skos:prefLabel "sinfonietta"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sg> a skos:Concept ;
-    skos:altLabel "Chansons"@fr ;
+    skos:altLabel "chansons"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sg> ;
     skos:note "Except where an individual code has been assigned to a specific form"@en ;
@@ -5176,7 +5145,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sgl> a skos:Concept ;
-    skos:altLabel "Seguidillas"@fr ;
+    skos:altLabel "seguidillas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sgl> ;
     skos:prefLabel "seguidilla"@es ;
@@ -5197,7 +5166,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/si> a skos:Concept ;
-    skos:altLabel "Sinfonias"@fr,
+    skos:altLabel "sinfonias"@fr,
         "sinfonia"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/si> ;
@@ -5207,8 +5176,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sic> a skos:Concept ;
-    skos:altLabel "Siciliennes"@fr,
-        "Siciliennes (musique)"@fr,
+    skos:altLabel "siciliennes"@fr,
+        "siciliennes (musique)"@fr,
         "sicilienne"@fr,
         "ciciliana"@it,
         "siciliano"@it ;
@@ -5218,7 +5187,6 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ska> a skos:Concept ;
-    skos:altLabel "Ska"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ska> ;
     skos:prefLabel "ska"@de,
@@ -5250,10 +5218,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sls> a skos:Concept ;
-    skos:altLabel "Salsas"@fr ;
+    skos:altLabel "salsas"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sls> ;
-    skos:prefLabel "Salsa"@de,
+    skos:prefLabel "salsa"@de,
         "salsa"@en,
         "salsa"@es,
         "salsa"@fr,
@@ -5261,19 +5229,19 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/slt> a skos:Concept ;
-    skos:altLabel "Hupfauf"@de,
-        "Saltarelles"@fr,
+    skos:altLabel "hupfauf"@de,
+        "saltarelles"@fr,
         "bréban"@fr,
         "pas de brabant"@fr,
         "alta danza"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/slt> ;
-    skos:note "Use also for pas de Brabant and similar"@it ;
+    skos:note "Use also for pas de Brabant and similar"@en ;
     skos:prefLabel "saltarello"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/smb> a skos:Concept ;
-    skos:altLabel "Sambas"@fr,
+    skos:altLabel "sambas"@fr,
         "cae cae"@pt ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/smb> ;
@@ -5291,13 +5259,13 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sn> a skos:Concept ;
-    skos:altLabel "Kammersonate"@de,
-        "Klaviersonate"@de,
-        "Solosonate"@de,
-        "Sonatensatz"@de,
-        "Sonatine"@de,
+    skos:altLabel "kammersonate"@de,
+        "klaviersonate"@de,
+        "solosonate"@de,
+        "sonatensatz"@de,
+        "sonatine"@de,
         "sonatina"@en,
-        "Sonates"@fr,
+        "sonates"@fr,
         "sonate d'église"@fr,
         "sonatine"@fr,
         "canzona da sonar"@it,
@@ -5309,7 +5277,7 @@
         "suonata"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sn> ;
-    skos:prefLabel "Sonate"@de,
+    skos:prefLabel "sonate"@de,
         "sonata"@en,
         "sonata"@es,
         "sonate"@fr,
@@ -5317,17 +5285,17 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/snd> a skos:Concept ;
-    skos:altLabel "Nachtmusik"@de,
-        "Ständchen"@de,
+    skos:altLabel "nachtmusik"@de,
+        "ständchen"@de,
         "serenade"@en,
-        "Sérénades"@fr,
-        "Sérénades (musique instrumentale)"@fr,
+        "sérénades"@fr,
+        "sérénades (musique instrumentale)"@fr,
         "sérénade"@fr,
         "serenata maritima notturna"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/snd> ;
     skos:note "English"@en,
-        "Instrumental form, use also for Nachtmusik, Ständchen and similar"@en ;
+        "Instrumental"@en, "Use also for Nachtmusik, Ständchen and similar"@en ;
     skos:prefLabel "serenade"@en,
         "serenata"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -5335,12 +5303,12 @@
 <http://data.doremus.org/vocabulary/iaml/genre/snt> a skos:Concept ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/snt> ;
-    skos:note "Vocal"@it ;
+    skos:note "Vocal"@en ;
     skos:prefLabel "serenata"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sol> a skos:Concept ;
-    skos:altLabel "Solfeggien"@de,
+    skos:altLabel "solfeggien"@de,
         "sol-fa"@en,
         "solfège"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
@@ -5349,17 +5317,17 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sou> a skos:Concept ;
-    skos:altLabel "Soul music"@fr ;
+    skos:altLabel "soul music"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/sou> ;
     skos:prefLabel "soul"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sp> a skos:Concept ;
-    skos:altLabel "Symphonische Dichtung"@de,
-        "Tondichtung"@de,
+    skos:altLabel "symphonische Dichtung"@de,
+        "tondichtung"@de,
         "tone poem"@en,
-        "Poèmes symphoniques"@fr,
+        "poèmes symphoniques"@fr,
         "poème symphonique"@fr,
         "symphonie à programme"@fr,
         "sinfonia a programma"@it ;
@@ -5379,7 +5347,7 @@
         "shout"@en,
         "shouting"@en,
         "white spiritual"@en,
-        "Negro spirituals"@fr ;
+        "negro spirituals"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/spi> ;
     skos:prefLabel "spiritual"@en,
@@ -5387,7 +5355,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sps> a skos:Concept ;
-    skos:altLabel "Chansons politiques"@fr,
+    skos:altLabel "chansons politiques"@fr,
         "chant d\\'émigrants"@fr,
         "chant de prisonniers"@fr,
         "chant de travail"@fr ;
@@ -5399,8 +5367,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/spt> a skos:Concept ;
-    skos:altLabel "Septett"@de,
-        "Septuors"@fr,
+    skos:altLabel "septett"@de,
+        "septuors"@fr,
         "septuor"@fr,
         "septimino"@it,
         "settimetto"@it,
@@ -5419,7 +5387,7 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/srb> a skos:Concept ;
     skos:altLabel "zarabanda"@es,
-        "Sarabandes"@fr ;
+        "sarabandes"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/srb> ;
     skos:prefLabel "sarabande"@fr,
@@ -5427,7 +5395,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/srd> a skos:Concept ;
-    skos:altLabel "Sardanes"@fr ;
+    skos:altLabel "sardanes"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/srd> ;
     skos:prefLabel "sardana"@it ;
@@ -5442,7 +5410,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/srv> a skos:Concept ;
-    skos:altLabel "Serventois"@fr,
+    skos:altLabel "serventois"@fr,
         "serventois"@fr,
         "serventese"@it,
         "sirventesca"@it,
@@ -5453,12 +5421,12 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ssp> a skos:Concept ;
-    skos:altLabel "Sing-Spiel"@de,
-        "Singe-Spiel"@de,
-        "Singspiele"@fr ;
+    skos:altLabel "sing-spiel"@de,
+        "singe-spiel"@de,
+        "singspiele"@fr ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ssp> ;
-    skos:prefLabel "Singspiel"@de ;
+    skos:prefLabel "singspiel"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sss> a skos:Concept ;
@@ -5468,10 +5436,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/st> a skos:Concept ;
-    skos:altLabel "Etüde"@de,
-        "Handstück"@de,
-        "Klavierübung"@de,
-        "Konzert-Etude"@de,
+    skos:altLabel "etüde"@de,
+        "handstück"@de,
+        "klavierübung"@de,
+        "konzert-Etude"@de,
         "Übung"@de,
         "Übungsstück"@de,
         "etude"@en,
@@ -5495,20 +5463,20 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ste> a skos:Concept ;
-    skos:altLabel "Ecossaise Walzer"@de,
-        "Ecossaisenvalzer"@de,
-        "Hacken-Schottisch"@de,
-        "Schottisch"@de,
-        "Schottischer Walzer"@de,
-        "Scottisch"@de,
+    skos:altLabel "ecossaise Walzer"@de,
+        "ecossaisenvalzer"@de,
+        "hacken-Schottisch"@de,
+        "schottisch"@de,
+        "schottischer Walzer"@de,
+        "scottisch"@de,
         "four-step schottisch"@en,
         "german polka"@en,
         "scotis"@en,
-        "Scottishs"@fr ;
+        "scottishs"@fr ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ste> ;
-    skos:note "Use also for German polka, Ecossaise valzer and similar"@de ;
-    skos:prefLabel "Schottische"@de ;
+    skos:note "Use also for German polka, Ecossaise valzer and similar"@en ;
+    skos:prefLabel "schottische"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sth> a skos:Concept ;
@@ -5550,11 +5518,11 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/su> a skos:Concept ;
-    skos:altLabel "Ballett-Suite"@de,
-        "Cembalo Suite"@de,
-        "Orchestersuite"@de,
-        "Suites"@fr,
-        "Suites (musique)"@fr,
+    skos:altLabel "ballett-Suite"@de,
+        "cembalo Suite"@de,
+        "orchestersuite"@de,
+        "suites"@fr,
+        "suites (musique)"@fr,
         "ordre"@fr,
         "suite de ballet"@fr,
         "suite de pièces"@fr ;
@@ -5562,22 +5530,22 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/su> ;
     skos:note "Use also for ordre"@en,
         "16e-18e s."@fr ;
-    skos:prefLabel "Suite"@de,
+    skos:prefLabel "suite"@de,
         "suite"@en,
         "suite"@fr,
         "suite"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/swi> a skos:Concept ;
-    skos:altLabel "Swing (jazz)"@fr ;
+    skos:altLabel "swing (jazz)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/swi> ;
     skos:prefLabel "swing"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sww> a skos:Concept ;
-    skos:altLabel "Lied Ohne Worte"@de,
-        "Romances sans paroles"@fr,
+    skos:altLabel "lied Ohne Worte"@de,
+        "romances sans paroles"@fr,
         "chanson sans paroles"@fr,
         "chant sans paroles"@fr ;
     skos:editorialNote "English term is preferred globally." ;
@@ -5588,7 +5556,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/sy> a skos:Concept ;
-    skos:altLabel "Symphonies"@fr,
+    skos:altLabel "symphonies"@fr,
         "symphonie périodique"@fr,
         "prologo sinfonico"@it,
         "sinfonia avanti l'opera"@it,
@@ -5603,9 +5571,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/syc> a skos:Concept ;
-    skos:altLabel "Konzertante"@de,
-        "Konzertante Symphonie"@de,
-        "Symphonies concertantes"@fr,
+    skos:altLabel "konzertante"@de,
+        "konzertante Symphonie"@de,
+        "symphonies concertantes"@fr,
         "symphonie concertante"@fr,
         "concertante"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
@@ -5618,7 +5586,7 @@
         "sinfonia drammatica"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/syd> ;
-    skos:note "Use for the works so designated, use also for drame symphonique"@fr ;
+    skos:note "Use for the works so designated, use also for drame symphonique"@en ;
     skos:prefLabel "symphonie dramatique"@fr,
         "dramma sinfonico"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -5632,14 +5600,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/syo> a skos:Concept ;
-    skos:altLabel "Shōmyō "@fr ;
+    skos:altLabel "shōmyō"@fr ;
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/syo> ;
     skos:prefLabel "syomyo"@ja ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tar> a skos:Concept ;
-    skos:altLabel "Tarentelles"@fr ;
+    skos:altLabel "tarentelles"@fr ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tar> ;
     skos:prefLabel "tarentelle"@fr,
@@ -5647,14 +5615,14 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tc> a skos:Concept ;
-    skos:altLabel "Tokkate"@de,
+    skos:altLabel "tokkate"@de,
         "tocada"@es,
-        "Toccatas"@fr,
+        "toccatas"@fr,
         "elevazione (per organo)"@it,
         "tocatta"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tc> ;
-    skos:note "Instrumental music so designated"@it ;
+    skos:note "Instrumental music so designated"@en ;
     skos:prefLabel "toccata"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -5665,7 +5633,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tct> a skos:Concept ;
-    skos:altLabel "Tricotets"@fr ;
+    skos:altLabel "tricotets"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tct> ;
     skos:prefLabel "tricotet"@fr ;
@@ -5678,7 +5646,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tem> a skos:Concept ;
-    skos:altLabel "Techno (musique)"@fr ;
+    skos:altLabel "techno (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tem> ;
     skos:prefLabel "techno music"@en,
@@ -5694,8 +5662,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ter> a skos:Concept ;
-    skos:altLabel "Terzett"@de,
-        "Trios vocaux"@fr,
+    skos:altLabel "terzett"@de,
+        "trios vocaux"@fr,
         "trio"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ter> ;
@@ -5717,7 +5685,7 @@
         "musica da tavola"@it ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tfm> ;
-    skos:prefLabel "Tafelmusik"@de ;
+    skos:prefLabel "tafelmusik"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/thr> a skos:Concept ;
@@ -5728,7 +5696,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ths> a skos:Concept ;
-    skos:altLabel "Third stream (musique)"@fr ;
+    skos:altLabel "third stream (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ths> ;
     skos:prefLabel "third stream"@en ;
@@ -5754,10 +5722,10 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/tng> a skos:Concept ;
     skos:altLabel "canson tango"@es,
-        "Tangos"@fr ;
+        "tangos"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tng> ;
-    skos:prefLabel "Tango"@de,
+    skos:prefLabel "tango"@de,
         "tango"@en,
         "tango"@es,
         "tango"@fr,
@@ -5765,7 +5733,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tod> a skos:Concept ;
-    skos:altLabel "Fackeltanz"@de ;
+    skos:altLabel "fackeltanz"@de ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tod> ;
     skos:prefLabel "torch dance"@en,
@@ -5779,7 +5747,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ton> a skos:Concept ;
-    skos:altLabel "Tonadillas"@fr ;
+    skos:altLabel "tonadillas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ton> ;
     skos:prefLabel "tonadilla"@es ;
@@ -5827,22 +5795,20 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tri> a skos:Concept ;
-    skos:altLabel "Trios"@fr,
+    skos:altLabel "trios"@fr,
         "terzetto"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tri> ;
     skos:note "Instrumental"@en,
-        "Instrumental"@fr,
-        "Instrumental"@it,
         "Strumentale"@it ;
-    skos:prefLabel "Trio"@de,
+    skos:prefLabel "trio"@de,
         "trio"@en,
         "trio"@fr,
         "trio"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/trl> a skos:Concept ;
-    skos:altLabel "Tragédies lyriques"@fr,
+    skos:altLabel "tragédies lyriques"@fr,
         "tragédie en musique"@fr,
         "tragédie-ballet"@fr ;
     skos:editorialNote "French term is preferred globally." ;
@@ -5858,11 +5824,11 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/tro> a skos:Concept ;
     skos:altLabel "troparion"@el,
-        "Tropes (musique)"@fr,
+        "tropes (musique)"@fr,
         "tropus"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tro> ;
-    skos:prefLabel "Trope"@de,
+    skos:prefLabel "trope"@de,
         "trope"@en,
         "trope"@fr,
         "tropo"@it ;
@@ -5878,8 +5844,8 @@
 
 <http://data.doremus.org/vocabulary/iaml/genre/trs> a skos:Concept ;
     skos:altLabel "Anweisung"@de,
-        "Handbuch"@de,
-        "Traktat"@de,
+        "handbuch"@de,
+        "traktat"@de,
         "Überlieferung"@de,
         "dissertation"@en,
         "manual"@en,
@@ -5913,8 +5879,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ts> a skos:Concept ;
-    skos:altLabel "Triosonate"@de,
-        "Sonates en trio"@fr,
+    skos:altLabel "triosonate"@de,
+        "sonates en trio"@fr,
         "sonate en trio"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/ts> ;
@@ -5923,8 +5889,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/ttt> a skos:Concept ;
-    skos:altLabel "Zapfenschlag"@de,
-        "Zapfenstreich"@de,
+    skos:altLabel "zapfenschlag"@de,
+        "zapfenstreich"@de,
         "last post"@en,
         "retreat"@en,
         "retreta"@es,
@@ -5941,12 +5907,12 @@
         "tumba francesa"@es ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tum> ;
-    skos:note "Use also for contradanza criolla"@es ;
+    skos:note "Use also for contradanza criolla"@en ;
     skos:prefLabel "tumba"@es ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/tvo> a skos:Concept ;
-    skos:altLabel "Fernsehoper"@de,
+    skos:altLabel "fernsehoper"@de,
         "video opera"@en ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/tvo> ;
@@ -5981,12 +5947,11 @@
 <http://data.doremus.org/vocabulary/iaml/genre/vil> a skos:Concept ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vil> ;
-    skos:note "New code."@fr ;
     skos:prefLabel "villanelle"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vir> a skos:Concept ;
-    skos:altLabel "Virelais"@fr,
+    skos:altLabel "virelais"@fr,
         "virela"@fr,
         "vireli"@fr ;
     skos:editorialNote "French term is preferred globally." ;
@@ -5997,7 +5962,7 @@
 <http://data.doremus.org/vocabulary/iaml/genre/vlc> a skos:Concept ;
     skos:altLabel "estrebillo"@es,
         "estribillo"@es,
-        "Villancicos (musique)"@fr,
+        "villancicos (musique)"@fr,
         "estreviglio"@it ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vlc> ;
@@ -6005,7 +5970,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vln> a skos:Concept ;
-    skos:altLabel "Villanelles (musique)"@fr,
+    skos:altLabel "villanelles (musique)"@fr,
         "aria alla napolitana"@it,
         "canzone alla napolitana"@it,
         "canzone villanesca"@it,
@@ -6017,7 +5982,7 @@
         "villotta alla napolitana"@it ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vln> ;
-    skos:note "Use also for canzone alla napoletana and similar"@it ;
+    skos:note "Use also for canzone alla napoletana and similar"@en ;
     skos:prefLabel "villanella"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
@@ -6042,7 +6007,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/voc> a skos:Concept ;
-    skos:altLabel "Vocalises"@fr ;
+    skos:altLabel "vocalises"@fr ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/voc> ;
     skos:prefLabel "vocalise"@en,
@@ -6051,31 +6016,31 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vol> a skos:Concept ;
-    skos:altLabel "Volta"@de,
-        "Wolte"@de,
+    skos:altLabel "volta"@de,
+        "wolte"@de,
         "lavolta"@en,
         "levolto"@en ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vol> ;
-    skos:prefLabel "Volte"@de,
+    skos:prefLabel "volte"@de,
         "volta"@en,
         "volte"@fr,
         "volta"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vr> a skos:Concept ;
-    skos:altLabel "Choralvariation"@de,
-        "Ostinatovariationen"@de,
-        "Variationen"@de,
-        "Variationen-Suite"@de,
-        "Variationsthema"@de,
-        "Veränderung"@de,
+    skos:altLabel "choralvariation"@de,
+        "ostinatovariationen"@de,
+        "variationen"@de,
+        "variationen-Suite"@de,
+        "variationsthema"@de,
+        "veränderung"@de,
         "division"@en,
         "ground"@en,
         "diferencia"@es,
         "variacion"@es,
-        "Variations"@fr,
-        "Variations (musique)"@fr,
+        "variations"@fr,
+        "variations (musique)"@fr,
         "choral varié"@fr,
         "thème de variation"@fr,
         "melodia variata"@it,
@@ -6085,7 +6050,7 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vr> ;
     skos:note "Includes division, ground and similar"@en ;
-    skos:prefLabel "Variation"@de,
+    skos:prefLabel "variation"@de,
         "variation"@en,
         "variation"@fr,
         "variazione"@it ;
@@ -6119,7 +6084,7 @@
     skos:altLabel "versiculum"@la ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vrl> ;
-    skos:note "Liturgical"@la ;
+    skos:note "Liturgical"@en ;
     skos:prefLabel "versicle"@en,
         "versicolo"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
@@ -6133,9 +6098,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vrs> a skos:Concept ;
-    skos:altLabel "Versetl"@de,
-        "Versett"@de,
-        "Verst"@de,
+    skos:altLabel "versetl"@de,
+        "versett"@de,
+        "verst"@de,
         "versillo"@es,
         "versetto concertato"@it,
         "verso"@it,
@@ -6149,7 +6114,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vsp> a skos:Concept ;
-    skos:altLabel "Vêpres (musique)"@fr ;
+    skos:altLabel "vêpres (musique)"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vsp> ;
     skos:prefLabel "vespers"@en,
@@ -6158,7 +6123,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/vvn> a skos:Concept ;
-    skos:altLabel "Varsoviennes (musique)"@fr,
+    skos:altLabel "varsoviennes (musique)"@fr,
         "varsoviana"@it ;
     skos:editorialNote "French term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/vvn> ;
@@ -6174,7 +6139,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/wom> a skos:Concept ;
-    skos:altLabel "World music"@fr ;
+    skos:altLabel "world music"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/wom> ;
     skos:prefLabel "world music"@en,
@@ -6182,7 +6147,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/wsg> a skos:Concept ;
-    skos:altLabel "Chants de guerre"@fr ;
+    skos:altLabel "chants de guerre"@fr ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/wsg> ;
     skos:prefLabel "war song"@en,
@@ -6191,9 +6156,9 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/wz> a skos:Concept ;
-    skos:altLabel "Waltzer"@de,
-        "Wiener Walzer"@de,
-        "Valses"@fr,
+    skos:altLabel "waltzer"@de,
+        "wiener walzer"@de,
+        "valses"@fr,
         "valse chantée"@fr,
         "valser"@it,
         "valtzer"@it,
@@ -6201,7 +6166,7 @@
         "waltzer"@it ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/wz> ;
-    skos:prefLabel "Walzer"@de,
+    skos:prefLabel "walzer"@de,
         "waltz"@en,
         "vals"@es,
         "valse"@fr,
@@ -6231,7 +6196,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/zar> a skos:Concept ;
-    skos:altLabel "Zarzuelas"@fr ;
+    skos:altLabel "zarzuelas"@fr ;
     skos:editorialNote "Spanish term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/zar> ;
     skos:prefLabel "zarzuela"@es ;
@@ -6251,17 +6216,17 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/zor> a skos:Concept ;
-    skos:altLabel "Zortzikos"@fr ;
+    skos:altLabel "zortzikos"@fr ;
     skos:editorialNote "Basque term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/zor> ;
     skos:prefLabel "zortziko"@eu ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/zwi> a skos:Concept ;
-    skos:altLabel "Doppelter"@de ;
+    skos:altLabel "doppelter"@de ;
     skos:editorialNote "German term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/fom/zwi> ;
-    skos:prefLabel "Zwiefacher"@de ;
+    skos:prefLabel "zwiefacher"@de ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/iaml/genre/> .
 
 <http://data.doremus.org/vocabulary/iaml/genre/zz> a skos:Concept ;
@@ -6278,4 +6243,4 @@
         "Lista dei generi musicali secondo l'IAML."@it ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+    dct:modified "2017-09-15"^^<http://www.w3.org/2001/XMLSchema#date> .
