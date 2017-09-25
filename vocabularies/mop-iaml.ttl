@@ -5266,7 +5266,7 @@
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vctf> a skos:Concept ;
-    skos:altLabel "contratenor bassus"@la ;
+    skos:prefLabel "contratenor bassus"@la ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/vct> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/vctf> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> .
