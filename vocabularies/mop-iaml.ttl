@@ -5260,7 +5260,7 @@ skos:prefLabel "bass trombone"@en,
         "soprano - criança"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vctc> a skos:Concept ;
-    skos:altLabel "contratenor altus"@la ;
+    skos:prefLabel "contratenor altus"@la ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/vct> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/vctc> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> .
