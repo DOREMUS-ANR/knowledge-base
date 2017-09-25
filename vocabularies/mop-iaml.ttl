@@ -590,7 +590,7 @@
         "usar o sufixo na posição 5: btug"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/bun__y> a skos:Concept ;
-    skos:altLabel "Blechbläser - ethnisch"@de,
+    skos:prefLabel "Blechbläser - ethnisch"@de,
         "brass - ethnic"@en,
         "metales - étrnico"@es,
         "cuivre - ethnique"@fr,
@@ -813,7 +813,7 @@
         "coro falado"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/cun__y> a skos:Concept ;
-    skos:altLabel "Chor - ethnisch"@de,
+    skos:prefLabel "Chor - ethnisch"@de,
         "choir - ethnic"@en,
         "coro - étnico"@es,
         "choeur - ethnique"@fr,
@@ -1378,14 +1378,14 @@
         "melopiano"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kor__r> a skos:Concept ;
-    skos:altLabel "electric organ"@en,
-        "hammond organ"@en,
-        "orgue hammond"@fr,
+    skos:prefLabel "electric organ"@en,
         "orgue électrique"@fr,
         "organo elettrico"@it,
+        "órgão elétrico"@pt ;
+    skos:altLabel "hammond organ"@en,
+        "orgue hammond"@fr,
         "organo hammond"@it,
         "órgão eletrónico"@pt,
-        "órgão elétrico"@pt,
         "órgão hammond"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/kor> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/kor__r> ;
@@ -1396,8 +1396,8 @@
         "usar o sufixo na posição 7: kor..r"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kor__s> a skos:Concept ;
+    skos:prefLabel "electronic organ"@en;
     skos:altLabel "electrone"@en,
-        "electronic organ"@en,
         "electone"@fr,
         "casiotone"@it,
         "organo bontempi"@it ;
@@ -1410,14 +1410,14 @@
         "use suffix in position 7: kor..s"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kpf__r> a skos:Concept ;
+    skos:prefLabel "electric piano"@en,
+        "pianoforte elettrico"@it,
+        "piano électrique"@fr,
+        "piano elétrico"@pt ;
     skos:altLabel "Neo-Bechstein-Flügel"@de,
         "electone"@en,
-        "electric piano"@en,
         "pianotron"@en,
-        "piano électrique"@fr,
-        "piano elettrico"@it,
-        "pianoforte elettrico"@it,
-        "piano elétrico"@pt ;
+        "piano elettrico"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/kpf> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/kpf__r> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
@@ -1428,13 +1428,13 @@
         "usar o sufixo na posição 7: kpf..r"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kpf__s> a skos:Concept ;
-    skos:altLabel "Digital Piano"@de,
-        "E-Piano"@de,
-        "elektronisches KIavier"@de,
-        "electronic piano"@en,
+    skos:prefLabel "electronic piano"@en,
         "piano électronique"@fr,
         "piano elettronico"@it,
         "piano eletrónico"@pt ;
+    skos:altLabel "digital piano"@de,
+        "E-Piano"@de,
+        "elektronisches klavier"@de ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/kpf> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/kpf__s> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
@@ -1532,7 +1532,7 @@
         "espineta"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kun__y> a skos:Concept ;
-    skos:altLabel "Tastenistrument - ethnisch"@de,
+    skos:prefLabel "tastenistrument - ethnisch"@de,
         "keyboard - ethnic"@en,
         "teclado - étnico"@es,
         "clavier - ethnique"@fr,
@@ -2117,7 +2117,7 @@
         "diapasão"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/mui__y> a skos:Concept ;
-    skos:altLabel "Instrument - ethnisch"@de,
+    skos:prefLabel "instrument - ethnisch"@de,
         "instrument - ethnic"@en,
         "instrumento - étnico"@es,
         "instrument - ethnique"@fr ;
@@ -2368,7 +2368,7 @@
         "orquestra de cordas"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/oun__y> a skos:Concept ;
-    skos:altLabel "Orchester - ethnisch"@de,
+    skos:prefLabel "orchester - ethnisch"@de,
         "orchestra - ethnic"@en,
         "orquesta - étnico"@es,
         "orchestre - ethnique"@fr,
@@ -3805,9 +3805,9 @@
 
 <http://data.doremus.org/vocabulary/iaml/mop/pun__s> a skos:Concept ;
     skos:altLabel "drum machine"@en,
-        "electronic percussion"@en,
         "rhythm machine"@en,
-        "side man"@en,
+        "side man"@en ;
+    sks:prefLabel "electronic percussion"@en,
         "percusión electrónica"@es,
         "percussion électronique"@fr,
         "percussione elettronica"@it,
@@ -3822,7 +3822,7 @@
         "usar o sufixo na posição 7: pun..s"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pun__y> a skos:Concept ;
-    skos:altLabel "Perkussion - ethnisch"@de,
+    skos:prefLabel "perkussion - ethnisch"@de,
         "percussion - ethnic"@en,
         "percusión - étnico"@es,
         "percussions - ethnique"@fr,
@@ -4399,7 +4399,7 @@
         "trombeta marinha"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/sun__y> a skos:Concept ;
-    skos:altLabel "strings, bowed - ethnic"@en,
+    skos:prefLabel "strings, bowed - ethnic"@en,
         "instrumento de cuerda frotada - étnico"@es,
         "cordes frottées - ethnique"@fr,
         "archi - etnico"@it,
@@ -4765,7 +4765,7 @@
         "cobza"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tgu__r> a skos:Concept ;
-    skos:altLabel "electric guitar"@en,
+    skos:prefLabel "electric guitar"@en,
         "guitarra eléctrica"@es,
         "guitare électrique"@fr,
         "chitarra elettrica"@it ;
@@ -5111,7 +5111,7 @@
         "cavaquinho"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tun__y> a skos:Concept ;
-    skos:altLabel "strings, plucked - ethnic"@en,
+    skos:prefLabel "strings, plucked - ethnic"@en,
         "instrumento de cuerda punteada - étnico"@es,
         "cordes pincées - ethnique"@fr,
         "pizzicati - etnico"@it,
@@ -5404,7 +5404,7 @@
         "tenor"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vun__w> a skos:Concept ;
-    skos:altLabel "recorded voice"@en,
+    skos:prefLabel "recorded voice"@en,
         "voz grabada"@en,
         "voix enregistrée"@fr,
         "voce registrata"@it,
@@ -5418,7 +5418,7 @@
         "usar o sufixo na posição 7: vun..w"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vun__y> a skos:Concept ;
-    skos:altLabel "Stimme - ethnisch"@de,
+    skos:prefLabel "stimme - ethnisch"@de,
         "voice - ethnic"@en,
         "voix - ethnique"@fr,
         "voce - etnica"@it,
@@ -6225,7 +6225,7 @@
         "sordun"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wun__y> a skos:Concept ;
-    skos:altLabel "Holzbläser - ethnisch"@de,
+    skos:prefLabel "holzbläser - ethnisch"@de,
         "woodwind - ethnic"@en,
         "instrumento de viento madera - étnico"@es,
         "bois - ethnique"@fr,
