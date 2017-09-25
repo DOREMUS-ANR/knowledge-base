@@ -392,10 +392,10 @@
         "olifante"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/bopg> a skos:Concept ;
-    skos:altLabel "Kontrastbombardon"@de,
-        "contrabass ophicleide"@en,
-        "oficleide-monstre"@fr,
+    skos:prefLabel "contrabass ophicleide"@en,
         "oficleide contrabaixo"@pt ;
+    skos:altLabel "kontrastbombardon"@de,
+        "oficleide-monstre"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/bop> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/bopg> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
