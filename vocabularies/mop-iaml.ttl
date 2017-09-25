@@ -5835,7 +5835,7 @@
         "pífaro"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wflf> a skos:Concept ;
-    skos:prefLabel: "bass flute"@en,
+    skos:prefLabel "bass flute"@en,
         "flûte basse"@fr,
         "flauto basso"@it,
         "flauta baixo"@pt ;
