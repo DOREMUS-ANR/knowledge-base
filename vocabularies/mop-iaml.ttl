@@ -5959,7 +5959,7 @@
         "nay"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/woa> a skos:Concept ;
-    skos:altLabel "Liebesoboe"@de,
+    skos:altLabel "liebesoboe"@de,
         "oboe de amor"@es ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "Italian term is preferred globally." ;
@@ -5973,10 +5973,10 @@
         "oboé de amor"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wobd> a skos:Concept ;
-    skos:altLabel "tenor oboe"@en,
-        "haute-contre de hautbois"@fr,
+    skos:prefLabel "tenor oboe"@en,
+        "oboe tenore"@it;
+    skos:altLabel "haute-contre de hautbois"@fr,
         "taille de hautbois"@fr,
-        "oboe tenore"@it,
         "tenor oboe"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wob> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wobd> ;
@@ -5987,7 +5987,7 @@
         "usar o sufixo na posição 5: wobd"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wobe> a skos:Concept ;
-    skos:altLabel "Heckelphon"@de,
+    skos:altLabel "heckelphon"@de,
         "heckelphone"@en,
         "heckelfón"@es,
         "heckelphone"@fr,
@@ -6004,14 +6004,14 @@
         "usar o sufixo na posição 5: wobe"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/woh> a skos:Concept ;
-    skos:altLabel "Jagdoboe"@de,
-        "Wald Hautbois"@de,
+    skos:altLabel "jagdoboe"@de,
+        "2ald hautbois"@de,
         "hautbois de chasse"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "Italian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/woh> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "Jagd-Hautboy"@de,
+    skos:prefLabel "jagd-hautboy"@de,
         "oboe da caccia"@en,
         "oboe de caza"@es,
         "oboe da caccia"@it,
@@ -6036,8 +6036,8 @@
         "flautim"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wpod> a skos:Concept ;
-    skos:altLabel "tenora"@es,
-        "tiple"@es,
+    skos:prefLabel "tenora"@es ;
+     skos:altLabel "tiple"@es,
         "tenora"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wpo> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
@@ -6631,7 +6631,7 @@
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wun> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "Holzbläser"@de,
+    skos:prefLabel "holzbläser"@de,
         "woodwind"@en,
         "instrumento de viento madera"@es,
         "bois"@fr,
