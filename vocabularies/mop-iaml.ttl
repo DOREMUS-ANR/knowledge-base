@@ -4778,11 +4778,12 @@ skos:prefLabel "bass trombone"@en,
         "usare il suffisso in posizione 7: tgu..r"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tguf_r> a skos:Concept ;
-    skos:altLabel "electric bass guitar"@en,
-        "fender bass"@en,
-        "gitare électrique basse"@fr,
+    skos:prefLabel "electric bass guitar"@en,
         "basso elettrico"@it,
+        "gitare électrique basse"@fr,
         "baixo elétrico"@pt ;
+    skos:altLabel
+        "fender bass"@en ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/tgu> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "use suffix in positions 5, 7: tguf.r"@en,
