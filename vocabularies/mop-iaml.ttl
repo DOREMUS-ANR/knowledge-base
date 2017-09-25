@@ -705,7 +705,7 @@ skos:prefLabel "bass trombone"@en,
         "usar o sufixo na posição 5: bvbd"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/bvbg> a skos:Concept ;
-    skos:altLabel "flicorno contrabasso in sib"@it;
+    skos:prefLabel "flicorno contrabasso in sib"@it;
     skos:altLabel "basso in sib"@it,
         "elicon contrabbasso"@it,
         "helicon contrabbasso"@it,
