@@ -5432,7 +5432,7 @@ skos:prefLabel "bass trombone"@en,
         "usar o sufixo na posição 7: vun..y"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vunj> a skos:Concept ;
-    skos:altLabel "hohe Stimme"@de,
+    skos:prefLabel "hohe stimme"@de,
         "high voice"@en,
         "voz alta"@es,
         "voix haute"@fr,
@@ -5449,7 +5449,7 @@ skos:prefLabel "bass trombone"@en,
         "usar o sufixo na posição 5: vunj"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vunk> a skos:Concept ;
-    skos:altLabel "medium voice"@en,
+    skos:prefLabel "medium voice"@en,
         "voz media"@es,
         "voix moyenne"@fr,
         "voce media"@it,
@@ -5464,7 +5464,7 @@ skos:prefLabel "bass trombone"@en,
         "usar o sufixo na posição 5: vunk"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vunl> a skos:Concept ;
-    skos:altLabel "tiefe Stimme"@de,
+    skos:prefLabel "tiefe stimme"@de,
         "low voice"@en,
         "voz baja"@es,
         "voix grave"@fr,
@@ -5526,14 +5526,14 @@ skos:prefLabel "bass trombone"@en,
         "aulos"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wbaj> a skos:Concept ;
+    skos:prefLabel "fagottino"@it,
+        "tenoroon"@en ;
     skos:altLabel "Quintfagott"@de,
         "Tenorfagott"@de,
-        "tenoroon"@en,
         "basson quinte"@fr,
         "caledonica"@it,
         "fagotti-octavo"@it,
         "fagotti-quarto"@it,
-        "fagottino"@it,
         "fagotino"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wba> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wbaj> ;
@@ -5551,7 +5551,7 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wbh> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "Bassetthorn"@de,
+    skos:prefLabel "bassetthorn"@de,
         "basset-horn"@en,
         "corno di bassetto"@es,
         "cor de basset"@fr,
@@ -5617,13 +5617,14 @@ skos:prefLabel "bass trombone"@en,
         "charamela"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wclf> a skos:Concept ;
-    skos:altLabel "bass clarinet"@en,
+    skos:prefLabel "clarinette basse"@fr,
+        "bass clarinet"@en,
+        "clarinetto basso"@it,
+        "clarinete baixo"@pt ;
+    skos:altLabel
         "basse-guerrière"@fr,
         "basse-orgue"@fr,
-        "clarinette basse"@fr,
-        "clarinetto basso"@it,
-        "clarone"@it,
-        "clarinete baixo"@pt ;
+        "clarone"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wcl> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wclf> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
@@ -5633,16 +5634,18 @@ skos:prefLabel "bass trombone"@en,
         "usar o sufixo na posição 5: wclf"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wclg> a skos:Concept ;
-    skos:altLabel "bathyphone"@fr,
-        "batyphone"@fr,
+    skos:prefLabel "bathyphone"@fr,
         "bathyphone"@pt ;
+    skos:altLabel "batyphone"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wcl> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "utiliser le suffixe en position 5: wclg"@fr .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wclj> a skos:Concept ;
-    skos:altLabel "piccolo clarinet"@en,
-        "clarinette piccolo"@fr,
+    skos:prefLabel "piccolo clarinet"@en,
+        "clarinette piccolo"@it,
+        "clarinetto piccolo"@fr ;
+    skos:altLabel
         "clarinetto in lab"@it,
         "clarinetto in mib"@it,
         "quartino"@it,
