@@ -3807,7 +3807,7 @@
     skos:altLabel "drum machine"@en,
         "rhythm machine"@en,
         "side man"@en ;
-    sks:prefLabel "electronic percussion"@en,
+    skos:prefLabel "electronic percussion"@en,
         "percusión electrónica"@es,
         "percussion électronique"@fr,
         "percussione elettronica"@it,
