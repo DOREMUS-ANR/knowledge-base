@@ -578,10 +578,10 @@
         "usar o sufixo na posição 5: btuf"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/btug> a skos:Concept ;
-    skos:altLabel "BBb bass"@en,
-        "contrabass tuba"@en,
-        "soubassophone"@fr,
+    skos:prefLabel "contrabass tuba"@en,
         "tuba contrabaixo"@pt ;
+    skos:altLabel "BBb bass"@en,
+        "soubassophone"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/btu> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/btug> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
