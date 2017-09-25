@@ -526,10 +526,10 @@
         "tuba"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/btbf> a skos:Concept ;
-    skos:altLabel "Quartposaune"@de,
-        "Quintposaune"@de,
-        "bass trombone"@en,
+skos:prefLabel "bass trombone"@en,
         "trombone baixo"@pt ;
+    skos:altLabel "quartposaune"@de,
+        "quintposaune"@de ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/btb> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/btbf> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
@@ -538,10 +538,10 @@
         "usar o sufixo na posição 5: btbf"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/btbg> a skos:Concept ;
-    skos:altLabel "Doppelposaune"@de,
-        "Oktavposaune"@de,
-        "contrabass trombone"@en,
+    skos:prefLabel "contrabass trombone"@en,
         "trombone contrabaixo"@pt ;
+    skos:altLabel "doppelposaune"@de,
+        "oktavposaune"@de ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/btb> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/btbg> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
@@ -550,7 +550,7 @@
         "usar o sufixo na posição 5: btbg"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/btrj> a skos:Concept ;
-    skos:altLabel "Clarintrompete"@de,
+    skos:prefLabel "clarintrompete"@de,
         "high trumpet"@en,
         "trompete aguda"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/btr> ;
@@ -561,8 +561,8 @@
         "usar o sufixo na posição 5: btrj"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/btuf> a skos:Concept ;
-    skos:altLabel "Basstuba"@de,
-        "bass tuba"@en,
+    skos:prefLabel "basstuba"@de,
+    skos:altLabel "bass tuba"@en,
         "tuba"@en,
         "basso tuba"@it,
         "tuba in sib"@it,
@@ -571,10 +571,10 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/btuf> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "benutzen Suffix in Position 5: btuf"@de,
-        "19th-20th cent., use suffix in position 5: btuf"@en,
+        "19th-20th cent."@en,
         "use suffix in position 5: btuf"@en,
-        "20. sec., usare il suffisso in posizione 5: btuf"@it,
-        "si bemolle, usare il suffisso in posizione 5: btuf"@it,
+        "20. sec."@it,
+        "si bemolle"@it, "usare il suffisso in posizione 5: btuf"@it,
         "usar o sufixo na posição 5: btuf"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/btug> a skos:Concept ;
@@ -6707,7 +6707,7 @@
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/kor> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "10.-19. sec."@it ;
-    skos:prefLabel "Orgel"@de,
+    skos:prefLabel "orgel"@de,
         "organ"@en,
         "órgano"@es,
         "orgue"@fr,
