@@ -5837,8 +5837,8 @@
 <http://data.doremus.org/vocabulary/iaml/mop/wflf> a skos:Concept ;
     skos:prefLabel: "bass flute"@en,
         "flûte basse"@fr,
-        "flauto basso"@it ;
-        "flauta baixo"@pt .
+        "flauto basso"@it,
+        "flauta baixo"@pt ;
     skos:altLabel "albisiphon"@en,
         "albisifono"@it,
         "flauto albisi"@it,
