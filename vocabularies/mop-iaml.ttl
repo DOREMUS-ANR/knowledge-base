@@ -5999,13 +5999,13 @@ skos:prefLabel "bass trombone"@en,
         "usar o sufixo na posição 5: wobd"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wobe> a skos:Concept ;
-    skos:altLabel "heckelphon"@de,
+    skos:prefLabel "heckelphon"@de,
         "heckelphone"@en,
         "heckelfón"@es,
         "heckelphone"@fr,
         "heckelfono"@it,
-        "heckelphon"@it,
         "heckelfone"@pt ;
+    skos:altLabel "heckelphon"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/wob> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wobe> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
