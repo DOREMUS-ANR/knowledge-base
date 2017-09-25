@@ -4488,14 +4488,14 @@ skos:prefLabel "bass trombone"@en,
         "contrabaixo de viola"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/svgf> a skos:Concept ;
-    skos:altLabel "basse de viole"@fr ;
+    skos:prefLabel "basse de viole"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/svg> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/svgf> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "utiliser le suffixe en position 5: svgf"@fr .
 
 <http://data.doremus.org/vocabulary/iaml/mop/svlj> a skos:Concept ;
-    skos:altLabel "Quartgeige"@de ;
+    skos:prefLabel "quartgeige"@de ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/svl> ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/svlj> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
