@@ -24,9 +24,7 @@ WHERE {
   { ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type / skos:broader ?orchestra  }
 
   ?expCreation efrbroo:R17_created ?expression ;
-          ecrm:P4_has_time-span / ecrm:P79_beginning_is_qualified_by ?start .
+          ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?start .
 
   FILTER ( ?start > "1900"^^xsd:gYear )
 } ORDER BY ?start
-
-# FIXME see https://github.com/DOREMUS-ANR/marc2rdf/issues/52

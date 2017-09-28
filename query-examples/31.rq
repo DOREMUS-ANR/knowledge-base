@@ -18,7 +18,7 @@ WHERE {
 
   ?reductionExpression mus:U70_has_title ?reductionTitle .
   ?redCreation efrbroo:R17_created ?reductionExpression ;
-      ecrm:P4_has_time-span / ecrm:P80_end_is_qualified_by ?compositionDate .
+      ecrm:P4_has_time-span / time:hasEnd / time:inXSDDate ?compositionDate .
 
   FILTER ( ?compositionDate >= "1900"^^xsd:gYear AND ?compositionDate < "2000"^^xsd:gYear )
 } ORDER BY ?compositionDate

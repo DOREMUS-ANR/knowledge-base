@@ -22,7 +22,7 @@ WHERE {
   }
   
   ?expCreation efrbroo:R17_created ?expression ;
-          ecrm:P4_has_time-span / ecrm:P80_end_is_qualified_by ?end .
+          ecrm:P4_has_time-span / time:hasEnd / time:inXSDDate ?end .
           
   OPTIONAL { ?expCreation ecrm:P7_took_place_at ?place }
 

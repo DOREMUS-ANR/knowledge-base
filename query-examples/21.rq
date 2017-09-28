@@ -15,8 +15,8 @@ WHERE {
 
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span ?ts.
-  ?ts ecrm:P80_end_is_qualified_by ?end ;
-                ecrm:P79_beginning_is_qualified_by ?start .
+  ?ts time:hasEnd / time:inXSDDate ?end ;
+                time:hasBeginning / time:inXSDDate ?start .
 
   FILTER ( ?start >= "1900"^^xsd:gYear AND ?end < "2000"^^xsd:gYear )
 } ORDER BY ?start

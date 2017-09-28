@@ -18,8 +18,8 @@ WHERE {
           
   ?composer foaf:name ?composerName .
   
-  ?ts ecrm:P80_end_is_qualified_by ?end ;
-                ecrm:P79_beginning_is_qualified_by ?start .
+  ?ts time:hasEnd / time:inXSDDate ?end ;
+                time:hasBeginning / time:inXSDDate ?start .
 
   ?performance a efrbroo:F31_Performance ;
     efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;

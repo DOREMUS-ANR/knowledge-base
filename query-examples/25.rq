@@ -12,13 +12,10 @@ WHERE {
           mus:U70_has_title ?title .
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer ;
-          ecrm:P4_has_time-span / ecrm:P79_beginning_is_qualified_by ?compositionDate .
+          ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?compositionDate .
 
   ?composer foaf:name "Wolfgang Amadeus Mozart" ;
-          ecrm:P100i_died_in ?death .
-  
+          schema:deathDate ?death .
+
   FILTER ( year(?compositionDate) - year(?death) <= 5 )
 } ORDER BY ?compositionDate
-
-
-# BUG see https://github.com/DOREMUS-ANR/marc2rdf/issues/47
