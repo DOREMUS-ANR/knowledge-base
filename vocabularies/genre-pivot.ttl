@@ -43,7 +43,10 @@
         <http://data.doremus.org/vocabulary/iaml/genre/tri> ;
     skos:prefLabel "instrumental music"@en,
         "musique instrumentale"@fr,
-        "musica strumentale"@it .
+        "musica strumentale"@it ;
+    skos:altLabel "instrumental"@en,
+        "instrumentale"@fr,
+        "strumentale"@it .
 
 <http://data.doremus.org/vocabulary/iaml/genre/v> a skos:Concept ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/genre/> ;
@@ -60,4 +63,7 @@
         <http://data.doremus.org/vocabulary/iaml/genre/ter> ;
     skos:prefLabel "vocal music"@en,
         "musique vocale"@fr,
-        "musica vocale"@it .
+        "musica vocale"@it ;
+    skos:prefLabel "vocal"@en,
+        "vocale"@fr,
+        "vocale"@it .
