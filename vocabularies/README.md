@@ -40,4 +40,4 @@ Collection of vocabularies for the description of music. http://data.doremus.org
 
 Unless differently specified, all the vocabularies are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
-The copyrighted of MIMO, Hornbostel & Sachs and Rameau is managed by the respective owners.
+The copyright of MIMO, Hornbostel & Sachs and Rameau is managed by the respective owners.
