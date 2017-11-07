@@ -9,8 +9,9 @@
     rdfs:label "List of instrument from REDOMI of Radio France"@en,
         "Liste des instruments de REDOMI de Radio France"@fr ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:created "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dct:modified "2017-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+    dct:modified "2017-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/arpegina> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;

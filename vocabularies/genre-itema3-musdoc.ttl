@@ -8,8 +8,9 @@
 <http://data.doremus.org/vocabulary/itema3/genre/musdoc/> a skos:ConceptScheme ;
   rdfs:label "List of musical types from ITEMA3 of Radio France"@en , "Liste des types musicaux de ITEMA3 de Radio France"@fr ;
   dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   dct:created "2017-05-15"^^xsd:date ;
-  dct:modified "2017-05-15"^^xsd:date .
+  dct:modified "2017-11-07"^^xsd:date .
 
 <http://data.doremus.org/vocabulary/itema3/genre/musdoc/1> a skos:Concept ;
   skos:prefLabel "A Cappella" ;

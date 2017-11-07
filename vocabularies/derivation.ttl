@@ -14,8 +14,9 @@
         "Liste des liens de dérivations entre deux oeuvres"@fr,
         "Lista delle relazioni di derivazione tra due opere"@it ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+    dct:modified "2017-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 
 <http://data.doremus.org/vocabulary/derivation/arrangement> a skos:Concept ;

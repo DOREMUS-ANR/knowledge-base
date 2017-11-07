@@ -6241,6 +6241,7 @@
     rdfs:label "List of musical genres according to IAML."@en,
         "Liste des genres musicaux selon IAML."@fr ,
         "Lista dei generi musicali secondo l'IAML."@it ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dct:modified "2017-09-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+    dct:modified "2017-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .

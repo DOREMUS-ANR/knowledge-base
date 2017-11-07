@@ -20,10 +20,11 @@
     dct:issued "2017-01-24"^^xsd:date ;
     dct:language <http://id.loc.gov/vocabulary/iso639-1/en>,
         <http://id.loc.gov/vocabulary/iso639-1/fr> ;
-    dct:modified "2017-05-18"^^xsd:date ;
+    dct:modified "2017-11-07"^^xsd:date ;
     dct:title "Catalogue"@en,
         "Catalogue"@fr,
         "Catalogo"@it ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcat:record <http://data.doremus.org/vocabulary/catalog/001>,
         <http://data.doremus.org/vocabulary/catalog/002>,
         <http://data.doremus.org/vocabulary/catalog/003>,

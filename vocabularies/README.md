@@ -1,7 +1,10 @@
 DOREMUS controlled vocabularies
 ========
 
-http://data.doremus.org/vocabularies
+Collection of vocabularies for the description of music. http://data.doremus.org/vocabularies
+
+
+## Contents
 
 ### Stable vocabularies
 
@@ -30,3 +33,11 @@ http://data.doremus.org/vocabularies
 ### Useful resources
 
 * Types de sujets RAMEAU: http://data.bnf.fr/vocabulary/scheme/
+
+## License
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+Unless differently specified, all the vocabularies are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+
+The copyrighted of MIMO, Hornbostel & Sachs and Rameau is managed by the respective owners.

@@ -8,8 +8,9 @@
 <http://data.doremus.org/vocabulary/diabolo/lang/> a skos:ConceptScheme ;
   rdfs:label "Liste des langues utilisées par Diabolo de Radio France"@fr , "List of languages used by Diabolo of Radio France"@en ;
   dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   dct:created "2017-05-15"^^xsd:date ;
-  dct:modified "2017-05-15"^^xsd:date .
+  dct:modified "2017-11-07"^^xsd:date .
 
 <http://data.doremus.org/vocabulary/diabolo/lang/372> a skos:Concept ;
   skos:prefLabel "Langue D'Oil" ;

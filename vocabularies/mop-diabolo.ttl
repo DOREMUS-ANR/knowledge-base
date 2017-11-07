@@ -10537,5 +10537,6 @@
     rdfs:label "List of instrument from Diabolo of Radio France"@en,
         "Liste des instruments de Diabolo de Radio France"@fr ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:created "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+    dct:modified "2017-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .

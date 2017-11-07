@@ -8,8 +8,9 @@
   rdfs:label "List of modes"@en , "La liste des modes mélodiques"@fr , "Lista dei modi"@it ;
   rdfs:comment "Mode generally refers to a type of scale, coupled with a set of characteristic melodic behaviours"@en , "Un mode est l'organisation des hauteurs d'une échelle autour d'une tonique, à l'origine dans un contexte mélodique"@fr , "Un modo è l'organizzazione delle altezze delle note di una scala attorno ad una tonica, in origine all'interno di un contesto melodico"@it ;
   dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   dct:created "2016-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
-  dct:modified "2017-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  dct:modified "2017-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 
 <http://data.doremus.org/vocabulary/mode/western-church-modes> a skos:Concept ;
