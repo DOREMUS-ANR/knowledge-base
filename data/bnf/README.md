@@ -4,7 +4,7 @@ Loaded in GRAPH `<http://data.doremus.org/bnf>`.
 
 | File               | Content     | Num         |
 |--------------------|-------------|-------------|
-| bnf.persons.tar.gz | Persons     | 57 200 [1]  |
+| bnf.persons.tar.gz | Persons     | 56 539 [1]  |
 | bnf.works.tar.gz   | TUM         | 134 719 [1] |
 
 
@@ -22,4 +22,4 @@ FROM <http://data.doremus.org/bnf>
 WHERE { ?work a efrbroo:F15_Complex_Work }
 ```
 
-[1]: data updated on 03/03/2017. 
+[1]: data updated on 03/03/2017.

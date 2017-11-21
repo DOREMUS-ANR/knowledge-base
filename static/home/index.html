@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>DOREMUS | SPARQL endpoint</title>
-        <meta name="description" content="The access point to the data of the DOREMUS project">
-        <meta name="keywords" content="music, linked data, sparql endpoint, doremus">
 
-        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' type='text/css'>
-        <link rel="stylesheet" href="style/style.css" type="text/css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DOREMUS dataset</title>
+  <meta name="description" content="The access point to the data of the DOREMUS project">
+  <meta name="keywords" content="music, linked data, sparql endpoint, doremus">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="/img/icons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="/img/icons/manifest.json">
-        <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#c62c24">
-        <link rel="shortcut icon" href="/img/icons/favicon.ico">
-        <meta name="apple-mobile-web-app-title" content="DOREMUS | SPARQL endpoint">
-        <meta name="application-name" content="DOREMUS | SPARQL endpoint">
-        <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-    </head>
-    <body>
+  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' type='text/css'>
+  <link rel="stylesheet" href="style/style.css" type="text/css">
 
-        <section class="cover">
-            <h1>data.doremus.org</h1>
-            <h2>The access point to the data of the DOREMUS project</h2>
-        </section>
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/img/icons/manifest.json">
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#c62c24">
+  <link rel="shortcut icon" href="/img/icons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="DOREMUS | SPARQL endpoint">
+  <meta name="application-name" content="DOREMUS | SPARQL endpoint">
+  <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
 
-        <section class="link-blocks">
-            <a href="http://data.doremus.org/ontology">
-                Ontology
-            </a>
-            <a href="http://data.doremus.org/vocabularies">
-                Controlled Vocabularies
-            </a>
-            <a href="http://data.doremus.org/sparql">
-                SPARQL Endpoint
-            </a>
-            <a href="http://data.doremus.org/fct">
-                Facet Browser
-            </a>
-            <a href="http://overture.doremus.org">
-                OVERTURE
-            </a>
-        </section>
+<body>
+  <section class="cover">
+    <h1>data.doremus.org</h1>
+    <h2>The access point to the data of the DOREMUS project</h2>
+  </section>
 
-        <footer id="appFooter">
-            <div class="footerCont">
-                <div>
-                    <p class="descr">data.doremus.org lives inside the
-                        <a href="http://www.doremus.org" rel="external" target="_blank">DOREMUS project</a>, for describing, publishing, connecting and contextualizing music catalogues on the web of data.</p>
-                </div>
-                <div class="projLogoCont">
-                    <a href="http://www.doremus.org" rel="external" target="_blank"><img src="/img/doremus.logo.png"></a>
-                </div>
-            </div>
-        </footer>
-    </body>
+  <section class="content">
+
+    <h1 id="data">Musical data</h1>
+    <p>
+      The metadata about works, performances, publications, recordings ...
+    </p>
+    <div class="link-blocks">
+      <a class="green" href="http://data.doremus.org/sparql">SPARQL Endpoint</a>
+      <a class="purple" href="http://data.doremus.org/fct">Facet Browser</a>
+      <a class="red" href="http://overture.doremus.org">OVERTURE</a>
+    </div>
+
+    <h1 id="model">The model</h1>
+    <p>
+      The DOREMUS Ontology and the Vocabularies.
+    </p>
+
+    <div class="link-blocks">
+      <a href="http://data.doremus.org/ontology">Ontology</a>
+      <a class="blue" href="http://data.doremus.org/vocabularies">Controlled Vocabularies</a>
+    </div>
+
+    <h1 id="model">Documentation</h1>
+    <p>
+      How to use the model and useful queries.
+    </p>
+
+    <div class="link-blocks">
+      <!-- <a href="http://data.doremus.org/ontology">Ontology</a> -->
+      <a class="blue" href="./queries.html">Example queries</a>
+    </div>
+  </section>
+
+  <footer id="appFooter">
+    <div class="footerCont">
+      <div>
+        <p class="descr">The <strong>DOREMUS dataset</strong> lives inside the
+          <a href="http://www.doremus.org" rel="external" target="_blank">DOREMUS project</a>, for describing, publishing, connecting and contextualizing music catalogues on the web of data.
+        </p>
+        <br>
+        <a class="licenseBadge" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>This work is licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+      <div class="projLogoCont">
+        <a href="http://www.doremus.org" rel="external" target="_blank"><img src="/img/doremus.logo.png"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

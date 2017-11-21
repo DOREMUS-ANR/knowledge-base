@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DOREMUS dataset</title>
+  <meta name="description" content="The access point to the data of the DOREMUS project">
+  <meta name="keywords" content="music, linked data, sparql endpoint, doremus">
+
+  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' type='text/css'>
+  <link rel="stylesheet" href="style/style.css" type="text/css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/img/icons/manifest.json">
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#c62c24">
+  <link rel="shortcut icon" href="/img/icons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="DOREMUS | SPARQL endpoint">
+  <meta name="application-name" content="DOREMUS | SPARQL endpoint">
+  <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <section class="cover">
+    <h1>data.doremus.org</h1>
+    <h2>The access point to the data of the DOREMUS project</h2>
+  </section>
+
+  <section class="content">
+
+    <h1 id="data">Example queries</h1>
+    <p>
+      All the queries suppose this set of prefixes:
+    </p>
+    <pre><code class="sql">
+    PREFIX mus: &lt;http://data.doremus.org/ontology#&gt;
+    PREFIX ecrm: &lt;http://erlangen-crm.org/current/&gt;
+    PREFIX efrbroo: &lt;http://erlangen-crm.org/efrbroo/&gt;
+    PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+    </code></pre>
+
+    <h2 id="1">#1: Work listing</h2>
+    <p>
+      Which works have been composed by Mozart? - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+%3Fexpression+SAMPLE%28%3Ftitle%29+as+%3Ftitle%0D%0A++++WHERE+%7B%0D%0A++++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++++++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++++++%3Fcomposer+foaf%3Aname+%22Wolfgang+Amadeus+Mozart%22%0D%0A++++%7D+ORDER+BY+%3Ftitle%0D%0A&format=text%2Fhtml&timeout=0&debug=on)">results</a>
+    </p>
+    <pre><code class="sql">
+    SELECT DISTINCT ?expression SAMPLE(?title) as ?title
+    WHERE {
+      ?expression a efrbroo:F22_Self-Contained_Expression ;
+              mus:U70_has_title ?title .
+      ?expCreation efrbroo:R17_created ?expression ;
+              ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
+      ?composer foaf:name "Wolfgang Amadeus Mozart"
+    } ORDER BY ?title
+    </code></pre>
+
+    <p>
+      Which symphonies have been composed in 19th century? - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+SAMPLE%28%3FcomposerName%29+as+%3FcomposerName%2C+%3Fdate%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU12_has_genre+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fsy%3E.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Fdate+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++%3Fcomposer+foaf%3Aname+%3FcomposerName%0D%0A%0D%0A++FILTER+%28%3Fdate+%3E%3D+%221800%22%5E%5Exsd%3AgYear+AND+%3Fdate+%3C+%221900%22%5E%5Exsd%3AgYear%29%0D%0A%7D+ORDER+BY+%3Fdate%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, SAMPLE(?composerName) as ?composerName, ?date
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          mus:U70_has_title ?title ;
+          mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/sy>.
+
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?date ;
+          ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
+  ?composer foaf:name ?composerName
+
+  FILTER (?date >= "1800"^^xsd:gYear AND ?date < "1900"^^xsd:gYear)
+} ORDER BY ?date
+</code></pre>
+
+    <h2 id="2">#2: Work detail</h2>
+    <p>
+      Retrieve all the information about <a href="http://data.doremus.org/expression/614925f2-1da7-39c1-8fb7-4866b1d39fc7">Beethoven’s Sonata for Cello and Piano</a>  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+*%0D%0AWHERE+%7B%0D%0A++++VALUES+%3Fexpression+%7B+%3Chttp%3A%2F%2Fdata.doremus.org%2Fexpression%2F614925f2-1da7-39c1-8fb7-4866b1d39fc7%3E+%7D%0D%0A++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++mus%3AU70_has_title+%7C+ecrm%3AP102_has_title+%3Ftitle+.%0D%0A++++OPTIONAL%7B%3Fexpression+ecrm%3AP3_has_note+%3Fnote+.%7D%0D%0A++++OPTIONAL+%7B%0D%0A++++++%3Fexpression+mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fmop+.%0D%0A++++%7D%0D%0A++++OPTIONAL%7B%0D%0A++++++%3Fexpression+mus%3AU12_has_genre+%3Fgenre+.%0D%0A++++%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU17_has_opus_statement+%2F+ecrm%3AP3_has_note+%3Fopus%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU10_has_order_number+%3Forder+.%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU11_has_key+%3Fkey+.+%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU16_has_catalogue_statement+%2F+rdfs%3Alabel+%3Fcatalogue+%7D%0D%0A++++OPTIONAL%7B%0D%0A++++++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+.%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3FexpCreation+ecrm%3AP9_consists_of+%3Factivity+%3B%0D%0A+++++++++++++++++++++ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3FcreationStart+.%0D%0A++++++++%3Factivity+ecrm%3AP14_carried_out_by++%3FcomposerUri+%3B%0D%0A++++++++++++++++++mus%3AU31_had_function_of_type+%22compositeur%22%40fr+.%0D%0A++++++%7D%0D%0A++++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+SELECT DISTINCT *
+WHERE {
+    VALUES ?expression { &lt;http://data.doremus.org/expression/614925f2-1da7-39c1-8fb7-4866b1d39fc7&gt; }
+    ?expression a efrbroo:F22_Self-Contained_Expression ;
+            mus:U70_has_title | ecrm:P102_has_title ?title .
+    OPTIONAL{?expression ecrm:P3_has_note ?note .}
+    OPTIONAL {
+      ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type ?mop .
+    }
+    OPTIONAL{
+      ?expression mus:U12_has_genre ?genre .
+    }
+    OPTIONAL{?expression mus:U17_has_opus_statement / ecrm:P3_has_note ?opus}
+    OPTIONAL{?expression mus:U10_has_order_number ?order .}
+    OPTIONAL{?expression mus:U11_has_key ?key . }
+    OPTIONAL{?expression mus:U16_has_catalogue_statement / rdfs:label ?catalogue }
+    OPTIONAL{
+      ?expCreation efrbroo:R17_created ?expression .
+      OPTIONAL {
+        ?expCreation ecrm:P9_consists_of ?activity ;
+                     ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?creationStart .
+        ?activity ecrm:P14_carried_out_by  ?composerUri ;
+                  mus:U31_had_function_of_type "compositeur"@fr .
+      }
+    }
+}
+    </code></pre>
+
+    <h2 id="3">#3: Artist listing</h2>
+    <p>
+      List all composers  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++++SELECT+DISTINCT+%3Fartist+SAMPLE%28%3Fname%29+as+%3Fname%0D%0A++++++WHERE+%7B%0D%0A++++++++++%5B%5D+mus%3AU31_had_function_of_type+%22compositeur%22%40fr+%3B%0D%0A++++++++++++++ecrm%3AP14_carried_out_by+%3Fartist+.%0D%0A++++++++++%3Fartist+foaf%3Aname+%3Fname%0D%0A++++++%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+      SELECT DISTINCT ?artist SAMPLE(?name) as ?name
+      WHERE {
+          [] mus:U31_had_function_of_type "compositeur"@fr ;
+              ecrm:P14_carried_out_by ?artist .
+          ?artist foaf:name ?name
+      }
+    </code></pre>
+
+    <p>
+      List all performers  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+%3Fartist+SAMPLE%28%3Fname%29+as+%3Fname%0D%0A++++WHERE+%7B%0D%0A++++++++%5B%5D+a+mus%3AM28_Individual_Performance%3B%0D%0A++++++++++++ecrm%3AP14_carried_out_by+%3Fartist+.%0D%0A++++++++%3Fartist+foaf%3Aname+%3Fname%0D%0A++++%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+    SELECT DISTINCT ?artist SAMPLE(?name) as ?name
+    WHERE {
+        [] a mus:M28_Individual_Performance;
+            ecrm:P14_carried_out_by ?artist .
+        ?artist foaf:name ?name
+    }
+    </code></pre>
+
+    <p>
+      List all singers  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fartist%2C+SAMPLE%28%3Fname%29+as+%3Fname%2C+%3Fmop%0D%0A++++WHERE+%7B%0D%0A++++++++%5B%5D+a+mus%3AM28_Individual_Performance%3B%0D%0A++++++++++++mus%3AU1_used_medium_of_performance+%3Fmop%3B%0D%0A++++++++++++ecrm%3AP14_carried_out_by+%3Fartist+.%0D%0A++++++++%3Fartist+foaf%3Aname+%3Fname.%0D%0A%0D%0A++++++++%3Fmop+skos%3Abroader+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fmop%2Fv%3E%0D%0A++++%7D&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+    SELECT DISTINCT ?artist, SAMPLE(?name) as ?name, ?mop
+    WHERE {
+        [] a mus:M28_Individual_Performance;
+            mus:U1_used_medium_of_performance ?mop;
+            ecrm:P14_carried_out_by ?artist .
+        ?artist foaf:name ?name.
+
+        ?mop skos:broader <http://data.doremus.org/vocabulary/iaml/mop/v>
+    }
+    </code></pre>
+
+    <h2 id="4">#4: Performances</h2>
+    <p>
+      List all performance of <i>Carmen</i>  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+*%0D%0A++++WHERE+%7B%0D%0A++++++++%3Fexpression+mus%3AU70_has_title+%7C+ecrm%3AP102_has_title+%22Carmen%22+.%0D%0A++++++++%3Fperformance+efrbroo%3AR66_included_performed_version_of++%3Fexpression+.%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Ftime+%7D%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP7_took_place_at+%3Fplace+%7D%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+mus%3AU70_has_title+%7C+ecrm%3AP102_has_title+%3Ftitle+%7D%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP3_has_note+%3Fnote+%7D%0D%0A++++%7D&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+    SELECT DISTINCT *
+    WHERE {
+        ?expression mus:U70_has_title | ecrm:P102_has_title "Carmen" .
+        ?performance efrbroo:R66_included_performed_version_of  ?expression .
+        OPTIONAL { ?performance ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?time }
+        OPTIONAL { ?performance ecrm:P7_took_place_at ?place }
+        OPTIONAL { ?performance mus:U70_has_title | ecrm:P102_has_title ?title }
+        OPTIONAL { ?performance ecrm:P3_has_note ?note }
+    }
+    </code></pre>
+    <p>
+      List all  the concerts at <a href="http://data.doremus.org/place/687896c9-0db7-31cf-8b20-5fa73dc268d6">Maison de la Radio</a>  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+*%0D%0A++++WHERE+%7B%0D%0A++++++++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++++++++++++++ecrm%3AP7_took_place_at+%3Chttp%3A%2F%2Fdata.doremus.org%2Fplace%2F687896c9-0db7-31cf-8b20-5fa73dc268d6%3E%0D%0A++++%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+    </p>
+    <pre><code class="sql">
+    SELECT DISTINCT *
+    WHERE {
+        ?performance a efrbroo:F31_Performance ;
+                ecrm:P7_took_place_at &lt;http://data.doremus.org/place/687896c9-0db7-31cf-8b20-5fa73dc268d6&gt;
+    }
+    </code></pre>
+
+    <h2 id="5">#5: Foreseen Events</h2>
+
+    <p>
+      List all the performances forseen at the <a href="http://data.doremus.org/place/9e051b68-16bd-3371-8ee5-ab5c5ebc8455">Philharmonie de Paris</a> on January 2017  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+*%0D%0AWHERE+%7B%0D%0A++%3Fevent+a+mus%3AM26_Foreseen_Performance+%3B%0D%0A+++++++++rdfs%3Alabel+%3Ftitle+%3B%0D%0A+++++++++mus%3AU7_foresees_place_at+%3Chttp%3A%2F%2Fdata.doremus.org%2Fplace%2F9e051b68-16bd-3371-8ee5-ab5c5ebc8455%3E+%3B%0D%0A+++++++++mus%3AU8_foresees_time_span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Fdate+.%0D%0A%0D%0A+++FILTER%28year%28%3Fdate%29+%3D+2017+AND+month%28%3Fdate%29+%3D+1%29%0D%0A%7D+ORDER+BY+%3Fdate%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+
+    <pre><code class="sql">
+    SELECT DISTINCT *
+    WHERE {
+      ?event a mus:M26_Foreseen_Performance ;
+             rdfs:label ?title ;
+             mus:U7_foresees_place_at &lt;http://data.doremus.org/place/9e051b68-16bd-3371-8ee5-ab5c5ebc8455&gt; ;
+             mus:U8_foresees_time_span / time:hasBeginning / time:inXSDDate ?date .
+
+       FILTER(year(?date) = 2017 AND month(?date) = 1)
+    } ORDER BY ?date
+    </code></pre>
+
+
+  </section>
+
+  <footer id="appFooter">
+    <div class="footerCont">
+      <div>
+        <p class="descr">The <strong>DOREMUS dateset</strong> lives inside the
+          <a href="http://www.doremus.org" rel="external" target="_blank">DOREMUS project</a>, for describing, publishing, connecting and contextualizing music catalogues on the web of data.
+        </p>
+        <br>
+        <a class="licenseBadge" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>This work is licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+      <div class="projLogoCont">
+        <a href="http://www.doremus.org" rel="external" target="_blank"><img src="/img/doremus.logo.png"></a>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+
+</body>
+
+</html>
