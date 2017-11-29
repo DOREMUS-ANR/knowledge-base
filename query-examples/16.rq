@@ -19,7 +19,7 @@ WHERE {
   ?composer foaf:name ?composerName .
 
   ?performance a mus:M42_Performed_Expression_Creation ;
-    efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
+    efrbroo:R17_created / mus:U54_is_performed_expression_of ?expression ;
     ecrm:P9_consists_of ?activity.
 
   ?activity ecrm:P14_carried_out_by ?composer ;
