@@ -21,6 +21,8 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:CFlat ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/abm> ;
+  skos:related <http://data.doremus.org/vocabulary/key/b> ;
   owl:sameAs keys:CFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#cb> .
 
@@ -32,6 +34,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:C ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/am> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/cm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/f>, <http://data.doremus.org/vocabulary/key/g>, <http://data.doremus.org/vocabulary/key/dm>, <http://data.doremus.org/vocabulary/key/em> ;
   owl:sameAs keys:CMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#c> .
 
@@ -43,6 +48,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:C ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/fm>, <http://data.doremus.org/vocabulary/key/gm>, <http://data.doremus.org/vocabulary/key/ab>, <http://data.doremus.org/vocabulary/key/bb> ;
   owl:sameAs keys:CMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#cm> .
 
@@ -54,6 +60,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:CSharp ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/axm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/cxm> ;
+  skos:related <http://data.doremus.org/vocabulary/key/db> ;
   owl:sameAs keys:CSharpMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#cx> .
 
@@ -65,6 +74,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:CSharp ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/a>, <http://data.doremus.org/vocabulary/key/b>, <http://data.doremus.org/vocabulary/key/fx>, <http://data.doremus.org/vocabulary/key/gx> ;
   owl:sameAs keys:CSharpMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#cxm> .
 
@@ -75,6 +85,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:DFlat ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/bbm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/dbm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/ebm>, <http://data.doremus.org/vocabulary/key/fm>, <http://data.doremus.org/vocabulary/key/gb>, <http://data.doremus.org/vocabulary/key/ab> ;
   owl:sameAs keys:DFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#db> .
 
@@ -85,6 +98,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:D ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/bm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/dm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/em>, <http://data.doremus.org/vocabulary/key/fxm>, <http://data.doremus.org/vocabulary/key/g>, <http://data.doremus.org/vocabulary/key/a> ;
   owl:sameAs keys:DMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#d> .
 
@@ -95,6 +111,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:D ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/gm>, <http://data.doremus.org/vocabulary/key/am>, <http://data.doremus.org/vocabulary/key/bb>, <http://data.doremus.org/vocabulary/key/c> ;
   owl:sameAs keys:DMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#dm> .
 
@@ -105,6 +122,8 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:DSharp ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/gxm>, <http://data.doremus.org/vocabulary/key/axm>, <http://data.doremus.org/vocabulary/key/b>, <http://data.doremus.org/vocabulary/key/cx> ;
+  skos:related <http://data.doremus.org/vocabulary/key/ebm> ;
   owl:sameAs keys:DSharpMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#dxm> .
 
@@ -115,6 +134,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:EFlat ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/cm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/ebm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/fm>, <http://data.doremus.org/vocabulary/key/gm>, <http://data.doremus.org/vocabulary/key/ab>, <http://data.doremus.org/vocabulary/key/bb> ;
   owl:sameAs keys:EFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#eb> .
 
@@ -125,6 +147,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:EFlat ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/abm>, <http://data.doremus.org/vocabulary/key/bbm>, <http://data.doremus.org/vocabulary/key/cb>, <http://data.doremus.org/vocabulary/key/db> ;
   owl:sameAs keys:EFlatMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#ebm> .
 
@@ -135,6 +158,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:E ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/cxm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/em> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/fxm>, <http://data.doremus.org/vocabulary/key/gxm>, <http://data.doremus.org/vocabulary/key/a>, <http://data.doremus.org/vocabulary/key/b> ;
   owl:sameAs keys:EMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#e> .
 
@@ -145,6 +171,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:E ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/am>, <http://data.doremus.org/vocabulary/key/bm>, <http://data.doremus.org/vocabulary/key/c>, <http://data.doremus.org/vocabulary/key/d> ;
   owl:sameAs keys:EMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#em> .
 
@@ -155,6 +182,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:F ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/dm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/fm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/gm>, <http://data.doremus.org/vocabulary/key/am>, <http://data.doremus.org/vocabulary/key/bb>, <http://data.doremus.org/vocabulary/key/d> ;
   owl:sameAs keys:FMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#f> .
 
@@ -166,6 +196,7 @@
   keys:mode "minor" ;
   keys:tonic keys:F ;
   owl:sameAs keys:FMinor ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/bbm>, <http://data.doremus.org/vocabulary/key/cm>, <http://data.doremus.org/vocabulary/key/db>, <http://data.doremus.org/vocabulary/key/eb> ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#fm> .
 
 <http://data.doremus.org/vocabulary/key/fx> a skos:Concept, keys:Key ;
@@ -175,6 +206,10 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:FSharp ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/dxm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/fxm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/gxm>, <http://data.doremus.org/vocabulary/key/axm>, <http://data.doremus.org/vocabulary/key/b>, <http://data.doremus.org/vocabulary/key/cx> ;
+  skos:related <http://data.doremus.org/vocabulary/key/gb> ;
   owl:sameAs keys:FSharpMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#fx> .
 
@@ -185,7 +220,8 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:FSharp ;
-  owl:sameAs keys:FSharpMinor ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/bm>, <http://data.doremus.org/vocabulary/key/cxm>, <http://data.doremus.org/vocabulary/key/d>, <http://data.doremus.org/vocabulary/key/e> ;
+  skos:related <http://data.doremus.org/vocabulary/key/gb> ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#fxm> .
 
 <http://data.doremus.org/vocabulary/key/gb> a skos:Concept, keys:Key ;
@@ -195,18 +231,24 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:GFlat ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/ebm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/gbm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/abm>, <http://data.doremus.org/vocabulary/key/bbm>, <http://data.doremus.org/vocabulary/key/cb>, <http://data.doremus.org/vocabulary/key/db> ;
   owl:sameAs keys:GFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#gb> .
 
-<http://data.doremus.org/vocabulary/key/gx> a skos:Concept, keys:Key ;
+<http://data.doremus.org/vocabulary/key/g> a skos:Concept, keys:Key ;
   skos:prefLabel "Sol majeur"@fr ;
-  skos:editorialNote "unimarc: gx" ;
+  skos:editorialNote "unimarc: g" ;
   skos:prefLabel "G Major"@en , "Sol maggiore"@it , "Sol mayor"@es , "G Dur"@de ;
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:G ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/em> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/gm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/am>, <http://data.doremus.org/vocabulary/key/bm>, <http://data.doremus.org/vocabulary/key/c>, <http://data.doremus.org/vocabulary/key/d> ;
   owl:sameAs keys:GMajor ;
-  skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#gx> .
+  skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#g> .
 
 <http://data.doremus.org/vocabulary/key/gm> a skos:Concept, keys:Key ;
   skos:prefLabel "Sol mineur"@fr ;
@@ -215,6 +257,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:G ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/cm>, <http://data.doremus.org/vocabulary/key/dm>, <http://data.doremus.org/vocabulary/key/eb>, <http://data.doremus.org/vocabulary/key/f> ;
   owl:sameAs keys:GMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#gm> .
 
@@ -226,6 +269,8 @@
   keys:mode "minor" ;
   keys:tonic keys:GSharp ;
   owl:sameAs keys:GSharpMinor ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/cxm>, <http://data.doremus.org/vocabulary/key/dxm>, <http://data.doremus.org/vocabulary/key/e>, <http://data.doremus.org/vocabulary/key/fx> ;
+  skos:related <http://data.doremus.org/vocabulary/key/abm>;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#gxm> .
 
 <http://data.doremus.org/vocabulary/key/ab> a skos:Concept, keys:Key ;
@@ -235,6 +280,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:AFlat ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/fm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/abm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/bbm>, <http://data.doremus.org/vocabulary/key/cm>, <http://data.doremus.org/vocabulary/key/db>, <http://data.doremus.org/vocabulary/key/eb> ;
   owl:sameAs keys:AFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#ab> .
 
@@ -255,6 +303,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:A ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/fxm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/am> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/bm>, <http://data.doremus.org/vocabulary/key/cxm>, <http://data.doremus.org/vocabulary/key/d>, <http://data.doremus.org/vocabulary/key/e> ;
   owl:sameAs keys:AMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#a> .
 
@@ -265,6 +316,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:A ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/f>, <http://data.doremus.org/vocabulary/key/g>, <http://data.doremus.org/vocabulary/key/dm>, <http://data.doremus.org/vocabulary/key/em> ;
   owl:sameAs keys:AMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#am> .
 
@@ -275,6 +327,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:ASharp ;
+  skos:related <http://data.doremus.org/vocabulary/key/bbm> ;
   owl:sameAs keys:ASharpMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#axm> .
 
@@ -285,6 +338,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:BFlat ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/gm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/bbm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/cm>, <http://data.doremus.org/vocabulary/key/dm>, <http://data.doremus.org/vocabulary/key/eb>, <http://data.doremus.org/vocabulary/key/f> ;
   owl:sameAs keys:BFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#bb> .
 
@@ -295,6 +351,7 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:BFlat ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/ebm>, <http://data.doremus.org/vocabulary/key/fm>, <http://data.doremus.org/vocabulary/key/gb>, <http://data.doremus.org/vocabulary/key/ab> ;
   owl:sameAs keys:BFlatMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#bbm> .
 
@@ -305,6 +362,9 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "major" ;
   keys:tonic keys:B ;
+  mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/gxm> ;
+  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/bm> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/cxm>, <http://data.doremus.org/vocabulary/key/dxm>, <http://data.doremus.org/vocabulary/key/e>, <http://data.doremus.org/vocabulary/key/fx> ;
   owl:sameAs keys:BMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#b> .
 
@@ -315,5 +375,6 @@
   skos:topConceptOf <http://data.doremus.org/vocabulary/key/> ;
   keys:mode "minor" ;
   keys:tonic keys:B ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/em>, <http://data.doremus.org/vocabulary/key/fxm>, <http://data.doremus.org/vocabulary/key/g>, <http://data.doremus.org/vocabulary/key/a> ;
   owl:sameAs keys:BMinor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#bm> .
