@@ -1,0 +1,474 @@
+@prefix : <file:///#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix n0: <https://creativecommons.org/licenses/by/4.0/> .
+@prefix org: <http://data.doremus.org/organization/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/function/19> a skos:Concept ;
+    skos:prefLabel "chargé de réalisation"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/22> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/choral_director> ;
+    skos:prefLabel "chef de maîtrise"@fr .
+
+<http://data.doremus.org/vocabulary/function/5> a skos:Concept ;
+    skos:prefLabel "attaché de production (radio)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/61> a skos:Concept ;
+    skos:prefLabel "éclairagiste"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/72> a skos:Concept ;
+    skos:prefLabel "musicien metteur en ondes"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/89> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/sound_engineer> ;
+    skos:prefLabel "preneur de son"@fr .
+
+<http://data.doremus.org/vocabulary/function/Composer_of_basso_continuo> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
+    skos:prefLabel "Composer of basso continuo"@en,
+        "réalisateur de la basse continue"@fr .
+
+<http://data.doremus.org/vocabulary/function/acrobat> a skos:Concept ;
+    skos:prefLabel "acrobat"@en,
+        "acrobate"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/adapter> a skos:Concept ;
+    skos:prefLabel "adapter"@en,
+        "adaptateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/addressee> a skos:Concept ;
+    skos:prefLabel "addressee"@en,
+        "destinataire"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/artistic_adviser> a skos:Concept ;
+    skos:prefLabel "artistic adviser"@en,
+        "conseiller artistique"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/artistic_director> a skos:Concept ;
+    skos:prefLabel "artistic director"@en,
+        "directeur artistique"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/audio_producer> a skos:Concept ;
+    skos:prefLabel "audio producer"@en,
+        "producteur (enregistrement phonographique)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/auhor_of_annotations> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "auhor of annotations"@en,
+        "auteur des notes"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_afterword> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "author of afterword"@en,
+        "auteur de la postface"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_argument> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "author of argument"@en,
+        "auteur de l’argument"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_dialogue> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "author of dialogue"@en,
+        "auteur de dialogues"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_foreword> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "author of foreword"@en,
+        "auteur de l'avant-propos"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_introduction> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "author of introduction"@en,
+        "auteur de l'introduction"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_preface> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "author of preface"@en,
+        "auteur de la préface"@fr .
+
+<http://data.doremus.org/vocabulary/function/child_actor> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:prefLabel "child actor"@en,
+        "acteur enfant"@fr .
+
+<http://data.doremus.org/vocabulary/function/choreographer> a skos:Concept ;
+    skos:prefLabel "choreographer"@en,
+        "chorégraphe"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/collector_of_field_material> a skos:Concept ;
+    skos:prefLabel "collector of field material"@en,
+        "collecteur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/compiler> a skos:Concept ;
+    skos:prefLabel "compiler"@en,
+        "compilateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/composer_of_cadenza> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
+    skos:prefLabel "composer of cadenza"@en,
+        "compositeur de la cadence"@fr .
+
+<http://data.doremus.org/vocabulary/function/conductor> a skos:Concept ;
+    skos:prefLabel "conductor"@en,
+        "chef d'orchestre"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/contributor> a skos:Concept ;
+    skos:prefLabel "contributor"@en,
+        "contributeur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/costume_designer> a skos:Concept ;
+    skos:prefLabel "costume designer"@en,
+        "costumier"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/creator> a skos:Concept ;
+    skos:prefLabel "creator"@en,
+        "créateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/creator_of_a_continuation_of_a_work> a skos:Concept ;
+    skos:prefLabel "creator of a continuation of a work"@en,
+        "continuateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_fantasy> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical fantasy"@en,
+        "créateur de la fantaisie musicale"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_medley> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical medley"@en,
+        "créateur du pot-pourri musical"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_paraphrase> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical paraphrase"@en,
+        "créateur  de la paraphrase musicale"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_reconstruction> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical reconstruction"@en,
+        "reconstructeur"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_reduction> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical reduction"@en,
+        "créateur de la réduction musicale"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_reminiscence> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical reminiscence"@en,
+        "créateur de la réminiscence musicale"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_revision> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical revision"@en,
+        "réviseur (musique)"@fr .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_variation> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "creator of musical variation"@en,
+        "créateur  de la variation musicale"@fr .
+
+<http://data.doremus.org/vocabulary/function/dance_notator> a skos:Concept ;
+    skos:prefLabel "dance notator"@en,
+        "notateur du mouvement"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/dancer> a skos:Concept ;
+    skos:prefLabel "dancer"@en,
+        "danseur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/decorator> a skos:Concept ;
+    skos:prefLabel "decorator"@en,
+        "décorateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/disc_jockey> a skos:Concept ;
+    skos:prefLabel "disc jockey"@en,
+        "disc jockey"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/drawer> a skos:Concept ;
+    skos:prefLabel "drawer"@en,
+        "dessinateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/editor_(moving_image_work> a skos:Concept ;
+    skos:prefLabel "editor (moving image work"@en,
+        "monteur (mages animées)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/editor_of_fingerings> a skos:Concept ;
+    skos:prefLabel "editor of fingerings"@en,
+        "concepteur des doigtés"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/editor_of_pedal_markings> a skos:Concept ;
+    skos:prefLabel "editor of pedal markings"@en,
+        "concepteur des indications pédales"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks> a skos:Concept ;
+    skos:prefLabel "editor of the bowing marks"@en,
+        "concepteur des coups d'archet"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/exrta> a skos:Concept ;
+    skos:prefLabel "exrta"@en,
+        "figurant"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/film_director> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/director> ;
+    skos:prefLabel "film director"@en,
+        "réalisateur de films"@fr .
+
+<http://data.doremus.org/vocabulary/function/harmonizer> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "harmonizer"@en,
+        "harmonisateur"@fr .
+
+<http://data.doremus.org/vocabulary/function/imitator> a skos:Concept ;
+    skos:prefLabel "imitator"@en,
+        "imitateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/juggler> a skos:Concept ;
+    skos:prefLabel "juggler"@en,
+        "jongleur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/librettist> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "librettist"@en,
+        "librettiste"@fr .
+
+<http://data.doremus.org/vocabulary/function/literary_advisor> a skos:Concept ;
+    skos:prefLabel "literary advisor"@en,
+        "conseiller littéraire"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/live_electronic_conductor> a skos:Concept ;
+    skos:prefLabel "live electronic conductor"@en,
+        "chef du dispositif électronique en direct"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/lyricist> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "lyricist"@en,
+        "parolier"@fr .
+
+<http://data.doremus.org/vocabulary/function/mime_artist> a skos:Concept ;
+    skos:prefLabel "mime artist"@en,
+        "mime"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/mixing> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/sound_engineer> ;
+    skos:prefLabel "mixing"@en,
+        "mixage"@fr .
+
+<http://data.doremus.org/vocabulary/function/narrator> a skos:Concept ;
+    skos:prefLabel "narrator"@en,
+        "narrateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/orchestrator> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "orchestrator"@en,
+        "orchestrateur"@fr .
+
+<http://data.doremus.org/vocabulary/function/painter> a skos:Concept ;
+    skos:prefLabel "painter"@en,
+        "peintre"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/parodist> a skos:Concept ;
+    skos:prefLabel "parodist"@en,
+        "parodiste"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/performer> a skos:Concept ;
+    skos:prefLabel "performer"@en,
+        "interprète"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/photographer> a skos:Concept ;
+    skos:prefLabel "photographer"@en,
+        "photographe"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/presenter> a skos:Concept ;
+    skos:prefLabel "presenter"@en,
+        "présentateur dans un spectacle"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/producer_(sound)> a skos:Concept ;
+    skos:prefLabel "producer (sound)"@en,
+        "directeur artistique (son)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/radio_director> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/director> ;
+    skos:prefLabel "radio director"@en,
+        "réalisateur d'émissions de radio"@fr .
+
+<http://data.doremus.org/vocabulary/function/radio_producer> a skos:Concept ;
+    skos:prefLabel "radio producer"@en,
+        "producteur (radio)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/recording_engineer> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/sound_engineer> ;
+    skos:prefLabel "recording engineer"@en,
+        "ingénieur du son"@fr .
+
+<http://data.doremus.org/vocabulary/function/remixer> a skos:Concept ;
+    skos:prefLabel "remixer"@en,
+        "remixeur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/screenwriter> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:prefLabel "screenwriter"@en,
+        "scénariste"@fr .
+
+<http://data.doremus.org/vocabulary/function/set_designer> a skos:Concept ;
+    skos:prefLabel "set designer"@en,
+        "scénographe"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/show_producer> a skos:Concept ;
+    skos:prefLabel "show producer"@en,
+        "producteur (spectacle)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/silent_actor> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/sound-effects_engineer> ;
+    skos:prefLabel "silent actor"@en,
+        "acteur muet"@fr .
+
+<http://data.doremus.org/vocabulary/function/sound_designer> a skos:Concept ;
+    skos:prefLabel "sound designer"@en,
+        "sonorisateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/sponsor> a skos:Concept ;
+    skos:prefLabel "sponsor"@en,
+        "commanditaire"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/stage_director> a skos:Concept ;
+    skos:prefLabel "stage director"@en,
+        "metteur en scène"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/storyteller> a skos:Concept ;
+    skos:prefLabel "storyteller"@en,
+        "conteur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/transcriber> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "transcriber"@en,
+        "transcripteur"@fr .
+
+<http://data.doremus.org/vocabulary/function/translator> a skos:Concept ;
+    skos:prefLabel "translator"@en,
+        "traducteur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/transposer> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:prefLabel "transposer"@en,
+        "notateur de la transposition"@fr .
+
+<http://data.doremus.org/vocabulary/function/video_producer> a skos:Concept ;
+    skos:prefLabel "video producer"@en,
+        "producteur (enregistrement vidéographique)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/videographer> a skos:Concept ;
+    skos:prefLabel "videographer"@en,
+        "vidéaste"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/actor> a skos:Concept ;
+    skos:prefLabel "actor"@en,
+        "acteur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/choral_director> a skos:Concept ;
+    skos:prefLabel "choral director"@en,
+        "chef de choeur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/sound-effects_engineer> a skos:Concept ;
+    skos:prefLabel "sound-effects engineer"@en,
+        "bruiteur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/composer> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
+    skos:prefLabel "composer"@en,
+        "compositeur"@fr .
+
+<http://data.doremus.org/vocabulary/function/director> a skos:Concept ;
+    skos:prefLabel "director"@en,
+        "réalisateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/musician_(creator)> a skos:Concept ;
+    skos:prefLabel "musician (creator)"@en,
+        "musicien (créateur)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/sound_engineer> a skos:Concept ;
+    skos:prefLabel "sound engineer"@en,
+        "technicien du son"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/author> a skos:Concept ;
+    skos:prefLabel "author"@en,
+        "auteur du texte"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/arranger> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
+    skos:prefLabel "arranger"@en,
+        "music arranger"@en,
+        "arrangeur"@fr .
+
+<http://data.doremus.org/vocabulary/function/> a skos:conceptScheme ;
+    rdfs:label "List of functions"@en,
+        "Liste des fonctionnes"@fr ;
+    dct:created "2018-01-10" ;
+    dct:creator org:DOREMUS ;
+    dct:license n0: ;
+    dct:modified "2018-01-12" .
+
