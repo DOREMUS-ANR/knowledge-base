@@ -4,6 +4,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix keys: <http://purl.org/NET/c4dm/keys.owl#> .
+@prefix mus: <http://data.doremus.org/ontology#> .
 
 <http://data.doremus.org/vocabulary/key/> a skos:ConceptScheme ;
   rdfs:comment "Caractère des tons et des modes, caractère des morceaux écrits dans ces tons et ces modes"@fr , "The sum of relations, melodic and harmonic, existing between the tones of a scale or musical system"@en , "La somma delle relazioni, melodiche e armoniche, che intercorrono tra le note di una scala o di un sistema musicale"@it ;
