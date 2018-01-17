@@ -1,7 +1,7 @@
 This folder contains the final expert validated version of the alignments of the MOP vocabularies.
 
 
-All alignments contained in the SKOS folder are old version and should not be taken into consideration. This folder contains alignments of MoP vocabulaires produced on September 20, 2016 in SKOS (simple triples) format.
+All alignments contained in the "SKOS-format" folder are old versions (should not be taken into consideration). This folder contains alignments of MoP vocabulaires produced on September 20, 2016 in SKOS (simple triples) format.
 
 The used versions of the vocabularies (as of 20 septembre 2016) are: 
 
