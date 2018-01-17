@@ -23,9 +23,9 @@ store.setPrefixForURI('xsd', 'http://www.w3.org/2001/XMLSchema#');
 
 var baseUrl = 'http://data.doremus.org/vocabulary/function/';
 var conceptScheme = $rdf.sym(baseUrl);
-store.add(conceptScheme, RDF('type'), SKOS('conceptScheme'));
+store.add(conceptScheme, RDF('type'), SKOS('ConceptScheme'));
 store.add(conceptScheme, RDFS('label'), $rdf.literal('List of functions', 'en'));
-store.add(conceptScheme, RDFS('label'), $rdf.literal('Liste des fonctionnes', 'fr'));
+store.add(conceptScheme, RDFS('label'), $rdf.literal('Liste des fonctions', 'fr'));
 store.add(conceptScheme, DCT('creator'), $rdf.sym('http://data.doremus.org/organization/DOREMUS'));
 store.add(conceptScheme, DCT('license'), $rdf.sym('https://creativecommons.org/licenses/by/4.0/'));
 store.add(conceptScheme, DCT('created'), $rdf.literal('2018-01-10', null, XSD('date')));

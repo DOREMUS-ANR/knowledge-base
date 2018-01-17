@@ -464,11 +464,10 @@
         "music arranger"@en,
         "arrangeur"@fr .
 
-<http://data.doremus.org/vocabulary/function/> a skos:conceptScheme ;
+<http://data.doremus.org/vocabulary/function/> a skos:ConceptScheme ;
     rdfs:label "List of functions"@en,
-        "Liste des fonctionnes"@fr ;
+        "Liste des fonctions"@fr ;
     dct:created "2018-01-10" ;
     dct:creator org:DOREMUS ;
     dct:license n0: ;
     dct:modified "2018-01-12" .
-
