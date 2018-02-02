@@ -87,7 +87,6 @@
   keys:mode "major" ;
   keys:tonic keys:DFlat ;
   mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/bbm> ;
-  mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/dbm> ;
   mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/ebm>, <http://data.doremus.org/vocabulary/key/fm>, <http://data.doremus.org/vocabulary/key/gb>, <http://data.doremus.org/vocabulary/key/ab> ;
   owl:sameAs keys:DFlatMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#db> .
