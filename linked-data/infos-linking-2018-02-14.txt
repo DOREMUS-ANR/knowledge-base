@@ -1,0 +1,310 @@
+Description of the linking process and statistics 
+
+14/02/2018
+
+
+
+1. Erreur dans les URIs des catalogues
+
+   Exemples: 
+
+	16217839.ttl (ligne 13)
+	13934249.ttl
+	13961076.ttl
+	13989866.ttl
+	13927433.ttl
+	13985521.ttl
+	13961102.ttl
+	15618155.ttl
+	13909649.ttl
+	14820484.ttl
+	13909714.ttl
+	13909700.ttl
+	13961079.ttl
+	13909473.ttl
+	15618363.ttl
+	13961080.ttl
+	14026489.ttl
+	13856895.ttl
+	13909407.ttl
+	13985523.ttl
+	13958431.ttl
+	13927435.ttl
+	13909469.ttl
+	13961099.ttl
+	13930866.ttl
+	13909697.ttl
+	13961073.ttl
+	16217827.ttl
+	14005995.ttl
+	13909422.ttl
+	14043252.ttl
+	13909421.ttl
+	16217817.ttl
+	------------
+	14026489.ttl
+
+2. Téléchargement des données: Commits on Jan 17, 2018
+
+	Lien: https://github.com/DOREMUS-ANR/knowledge-base/tree/master/data
+
+	BNF: bnf.works.tar.gz	TUM: 134719 
+	PP: pp.works.tar.gz	    TUM + Work Records:	12355
+	RF: itema3.item.tar.gz	Concerts + Tracks: 2296
+	
+3. Data Linking	: Le processus se fait en 2 temps:
+	
+	- Lier les ressources en comparant par "compositeur" + "catalogue"
+	- Exécuter Legato sur les ressources qui n'ont pas été liées
+
+4. Data Linking : PP - RF	
+	
+	Source dataset : 5368 resources
+	Target dataset : 12603 resources
+
+	Le nombre de compositeurs du dataset source = 779
+	Le nombre de compositeurs du dataset target = 3461
+	
+	Note : RF - Il n'y a aucune expression F22 qui a un catalogue (e-mail envoyé à Pasquale -> pourquoi ?)
+	
+	A. Uniquement la deuxième étape du processus de liaison a été exécutée (Legato)
+	
+		Résultats:
+	
+			4.1. Results_threshold.rdf: Le nombre de liens générés > threshold (0.12) = 3994
+			4.2. Results_1N.rdf: Le nombre de liens générés > threshold (0.12) où une ressource peut avoir plusieurs liens sameAs avec la même valeur de similarité = 3994
+			Note: Chaque ressource a au plus une seule ressource équivalente
+		
+			Distribution de similarité entre les ressources
+				1:n --> sim<=0.2: 2950
+				1:n --> sim<=0.25: 3509
+				1:n --> sim<=0.3: 3773
+				1:n --> sim<=0.35: 3887
+				1:n --> sim<=0.4: 3926
+				1:n --> sim> 0.4: 68
+				
+		Conclusion: La plupart des liens ont une valeur de similarité < 0.2 car les expressions F22 d'itema3 sont très peu décrites (la plupart du temps elles sont décrites qu'avec le compositeur + titre et des fois le genre. Pas de key, casting, catalogue, ni d'opus). L'interconnexion se fera alors en comparant les expressions par leur compositeur et leurs titres (exécuter que la première étape du processus d'interconnexion -- pas de Legato).
+		
+	B. 	Uniquement la première étape du processus de liaison a été exécutée (Lier les ressources en comparant par "compositeur" + "titre")
+	
+		Note = Obligé de comparer les compositeurs par leur URI car dans Itema3 (contrairement à la PP) il n'y a pas de description (nom, prenom, date de naissance etc).
+		
+		PP : 5368 resources (/5368)
+		RF : 12442 resources (/12603)
+
+		Note = RF - 160 expressions qui n'ont pas de compositeur dans leur F28
+		
+				http://data.doremus.org/expression/056d2c2a-9b2a-30d4-b90f-5b3c92997f98
+				http://data.doremus.org/expression/2f2da1b3-1b60-3cbf-b6eb-f942f9aada2a
+				http://data.doremus.org/expression/24f34fcb-4c1e-34e8-9c01-1bf909d607d3
+				http://data.doremus.org/expression/461ab460-5615-305c-b6c9-bdec751bd9dd
+				http://data.doremus.org/expression/ad519c16-ff6c-35c5-90c3-bf85a4f8f244
+				http://data.doremus.org/expression/c7d5cbf0-09b8-36a3-90aa-7f6470c6d280
+				http://data.doremus.org/expression/82084ffc-2738-3708-95b8-502331bd86b4
+				http://data.doremus.org/expression/2c7e64aa-6f00-3829-b373-3deb3ea186af
+				http://data.doremus.org/expression/67b4df80-b46d-398f-9f91-b008ce5b8397
+				http://data.doremus.org/expression/a76e96d9-32e9-37d2-bb61-7df36cc2be15
+				http://data.doremus.org/expression/2f4f631a-9513-37fa-aac8-8fbb3dec3990
+				http://data.doremus.org/expression/ecaa0688-f617-3465-a6a6-a8775bfb2425
+				http://data.doremus.org/expression/2bc1f350-9d1c-3c3c-855b-bceeff0b4fcb
+				http://data.doremus.org/expression/da3b44a5-2522-3431-87f2-2b69491bd77c
+				http://data.doremus.org/expression/7a82803f-e9c6-3b2e-a045-04b6ecbc9f05
+				http://data.doremus.org/expression/268516b8-1b85-3cbb-927c-5461fd79b282
+				http://data.doremus.org/expression/6cd9791f-61c8-3417-9166-454c914dbae4
+				http://data.doremus.org/expression/1fbd86e7-5e18-3307-bea6-38b631f88ded
+				http://data.doremus.org/expression/4f82588a-92a2-3267-adf6-c28c95813e12
+				http://data.doremus.org/expression/1bd0549a-48b6-31b8-a5c1-b168810b24e6
+				http://data.doremus.org/expression/91fcc437-098d-3c8c-8255-fe3ee9528bfc
+				http://data.doremus.org/expression/c7b49fcf-643a-30a3-a1ec-aba93ca63f9f
+				http://data.doremus.org/expression/0b0e6332-d604-3df7-9db3-48369d9bb2ca
+				http://data.doremus.org/expression/6fbdb926-7f50-3f92-9f9c-ad11ab9cf27d
+				http://data.doremus.org/expression/fe5f4d01-e153-3653-8730-2aa278c776c4
+				http://data.doremus.org/expression/e66fbda8-99b6-3181-b993-562eac54deb5
+				http://data.doremus.org/expression/98788ff9-6400-3df0-95ec-02b8178f6b85
+				http://data.doremus.org/expression/dce5f3d0-1094-3893-906d-d11be06859df
+				http://data.doremus.org/expression/8ca37265-e333-3bb2-8a7e-9bd64c8c21ba
+				http://data.doremus.org/expression/8207bb0e-92dc-3256-8c33-7a3e9d9ed82e
+				http://data.doremus.org/expression/28bc84d5-a916-3bcb-a9e9-b2d8d0934d45
+				http://data.doremus.org/expression/b1b78206-b2e7-368a-a691-f7661316ae23
+				http://data.doremus.org/expression/9e4df304-a6e6-3356-9961-7c6cf31d9c5c
+				http://data.doremus.org/expression/ee4e0b60-8487-3695-bccb-7fbc93cdef67
+				http://data.doremus.org/expression/b80c2429-cc39-3874-bfb9-29440e625593
+				http://data.doremus.org/expression/ac5bda36-abe2-38d2-aba5-22ecbfd3ac97
+				http://data.doremus.org/expression/edbe8ced-bb04-3b29-bfbb-e5d4264abb1f
+				http://data.doremus.org/expression/78af2256-aeca-3b24-bd70-2b8db50f8d77
+				http://data.doremus.org/expression/cfb04ea0-d8c4-313d-9764-3fe88416d3ce
+				http://data.doremus.org/expression/6aed74ff-2fdb-3b08-8398-a79e542086d8
+				http://data.doremus.org/expression/6dedff58-901f-3870-9671-aa4394031fb9
+				http://data.doremus.org/expression/2a3f1389-9774-3f10-92eb-1d2c7c5c27a0
+				http://data.doremus.org/expression/fd2059ad-8adc-3860-9704-29dc8e53500c
+				http://data.doremus.org/expression/f2f5613c-73dd-32b1-8cc0-0d7444ba07ac
+				http://data.doremus.org/expression/a26cbde3-27eb-3b51-9247-c70bf759e864
+				http://data.doremus.org/expression/c183f33d-20f6-38e7-8a1a-08eeb8b535ff
+				http://data.doremus.org/expression/dba65289-48fc-3901-8276-9c0e02d40aab
+				http://data.doremus.org/expression/2adfd7e8-fb2d-3d4e-bc66-6c30414c30c9
+				http://data.doremus.org/expression/5dd821ea-b1d3-3d29-8b9c-e534f8214951
+				http://data.doremus.org/expression/3a97797f-8d60-36bd-8d4f-f4c25522a0bd
+				http://data.doremus.org/expression/aa601f2f-06ca-3522-a205-d06e731c6583
+				http://data.doremus.org/expression/f715bbb9-674d-3b07-a0b3-97a1a5356b14
+				http://data.doremus.org/expression/76057daf-2d37-30a8-a48f-b3f83de54ceb
+				http://data.doremus.org/expression/b34d7d58-b224-3472-8eaf-ab4ea1de3f65
+				http://data.doremus.org/expression/48818b4e-8f8a-3714-8bdc-28c70213688d
+				http://data.doremus.org/expression/525f1e0e-7a0e-31a8-a552-6806b17705b3
+				http://data.doremus.org/expression/6dd25366-4422-3c5f-aa32-031079cbd237
+				http://data.doremus.org/expression/e5911a7b-4eb8-370d-91b6-0e87ebb99fbb
+				http://data.doremus.org/expression/a4b90a65-0e46-3bce-8a4c-8adcb47afebc
+				http://data.doremus.org/expression/7907c145-8364-36f8-bf35-119f610ab59e
+				http://data.doremus.org/expression/a3bb8a1e-cd11-3c11-a0a3-50defd1105e9
+				http://data.doremus.org/expression/72feeb58-8680-30aa-96ab-0587ebac2616
+				http://data.doremus.org/expression/ad2b80bf-8648-38d0-b7db-769474692136
+				http://data.doremus.org/expression/9c7cada3-8212-3b82-8f30-5ce2b947a0c0
+				http://data.doremus.org/expression/a7bd8c44-e911-3a6c-b9df-f28c244f1820
+				http://data.doremus.org/expression/50ab83b8-b34a-3a1b-86ac-324ca832e10d
+				http://data.doremus.org/expression/30137df4-fdc7-3fe4-8299-7c930e4d315a
+				http://data.doremus.org/expression/3c4fcc2c-e765-374a-9a26-be8d3761a44c
+				http://data.doremus.org/expression/85ac6611-899c-3695-9a8a-53b95f7c8206
+				http://data.doremus.org/expression/88ddd08f-96a1-3ca8-813d-315c7b31b1ff
+				http://data.doremus.org/expression/3e955783-309b-3bf7-b953-6fd16e3b08a6
+				http://data.doremus.org/expression/0f293da4-a5ee-3d5f-9eaf-dac0342a40a8
+				http://data.doremus.org/expression/1cd32c88-8eb0-3ff8-a216-12a5381503ee
+				http://data.doremus.org/expression/45ca3416-8f0d-3d7c-9321-32868ba19286
+				http://data.doremus.org/expression/d54b3ace-d38f-384a-950e-053e84df74e0
+				http://data.doremus.org/expression/537ca874-11c6-3bc5-ba4e-f29ac0de78df
+				http://data.doremus.org/expression/78e88413-21be-3079-a5cf-e4a3ff84b45d
+				http://data.doremus.org/expression/1d27b7d4-7026-3e07-b5e5-1e0be8953697
+				http://data.doremus.org/expression/60a4b0f3-a0d5-3d1c-9ec2-9a75ef85b741
+				http://data.doremus.org/expression/63f54a79-342e-31cb-8de7-dcfa92c679b0
+				http://data.doremus.org/expression/86944103-5c52-3958-bf21-df71dc96328a
+				http://data.doremus.org/expression/6809bb03-781a-36b7-b692-8d6f51b87e5f
+				http://data.doremus.org/expression/66003126-3eac-32d4-b1f6-e57be74e6722
+				http://data.doremus.org/expression/85f135c6-083a-3f8a-afce-dcf4efe97aa5
+				http://data.doremus.org/expression/5eae825e-cb4a-3ede-bfa6-0946929f4918
+				http://data.doremus.org/expression/d17f6edd-ec28-3a49-a3a9-e07beb22d7a2
+				http://data.doremus.org/expression/95e0ff1d-7f3d-3fd4-97b7-b9b7a498e2fb
+				http://data.doremus.org/expression/ca352ba3-5dec-3006-bc15-2842184f3832
+				http://data.doremus.org/expression/a77a017e-2fff-3031-8324-fbed3838a1c7
+				http://data.doremus.org/expression/a8e6d6c5-3907-3e55-b17c-98ea840be3a3
+				http://data.doremus.org/expression/d4e66388-db0b-3906-9172-767d2c768fa5
+				http://data.doremus.org/expression/5d9f7113-f66c-3438-8f67-1c3dc1fd0b98
+				http://data.doremus.org/expression/ac847fca-7a03-3b60-a8e6-462632738cda
+				http://data.doremus.org/expression/ba9f7d77-f436-3171-8d7d-67bf73fceb39
+				http://data.doremus.org/expression/d17a24b2-8506-37f5-8c12-0edd4f7ce562
+				http://data.doremus.org/expression/f041c4d7-c3fc-31e1-9f82-83dee1a6d2c5
+				http://data.doremus.org/expression/1141b436-f636-3833-a7f6-8df2667013d9
+				http://data.doremus.org/expression/7e68c3af-4878-3b01-adec-639213da7f2d
+				http://data.doremus.org/expression/cb5e7030-e100-3cdb-8c74-4b763ee3a5e0
+				http://data.doremus.org/expression/be8ddda4-6e6b-36d9-a992-8b6acf3e8e4d
+				http://data.doremus.org/expression/290f5c91-9638-39d4-930b-ba777ec45aaf
+				http://data.doremus.org/expression/a72965df-706d-3066-b398-9453565f69a1
+				http://data.doremus.org/expression/1f5d21a0-c052-39eb-9d3d-2d64b24a92c0
+				http://data.doremus.org/expression/1dabed5b-c1a7-3791-81de-1225ce6fc60a
+				http://data.doremus.org/expression/1f8c4659-c668-326d-871c-1646a6b966bb
+				http://data.doremus.org/expression/56f25d44-a5c3-3890-947f-b3b6449fdb4a
+				http://data.doremus.org/expression/6cc8f4d1-0c08-3519-bfbb-40fd51c65c31
+				http://data.doremus.org/expression/9a6378e7-b691-3ced-b4e1-c876d90d791c
+				http://data.doremus.org/expression/41d687c2-aa74-343d-9a82-0fda044f9a6c
+				http://data.doremus.org/expression/2cdf01fc-1ac4-350a-9f1e-b57211d76e40
+				http://data.doremus.org/expression/ad9cffb1-ee30-37a7-9d12-d8306e6c4753
+				http://data.doremus.org/expression/965bc419-5958-3d0f-aeaf-269846a16f27
+				http://data.doremus.org/expression/32bdbc84-833b-3d6f-9c58-56766889821d
+				http://data.doremus.org/expression/ca155ddc-768d-38f2-8238-bd0d18a66e87
+				http://data.doremus.org/expression/291dcf78-4313-3c2d-847b-b55ac37064b5
+				http://data.doremus.org/expression/15bb2699-88df-3352-845d-5c617f143729
+				http://data.doremus.org/expression/344ecb8a-79f8-3a49-bc28-adcf914d1326
+				http://data.doremus.org/expression/cb0fdc3f-7479-3fe2-b249-32a09d37f5f5
+				http://data.doremus.org/expression/38c54476-92b2-391e-acaf-56bb87cbd50f
+				http://data.doremus.org/expression/8c77af63-7a1b-36e2-bf09-a845c437f40b
+				http://data.doremus.org/expression/51d98c3e-f3f3-3b7d-8603-952adc7e52c5
+				http://data.doremus.org/expression/44736a16-61f9-3835-9369-dfd7f13284d1
+				http://data.doremus.org/expression/df4dfc16-ec00-343f-9a7b-89320e4c621e
+				http://data.doremus.org/expression/1afade56-f0f6-39cf-8133-43fc81339771
+				http://data.doremus.org/expression/d7c10258-aa8a-36f6-b934-9c4cc7c7f8b2
+				http://data.doremus.org/expression/7eace239-422e-3038-9768-52c0a8aefa8e
+				http://data.doremus.org/expression/9a7af7fe-779d-3f3b-872a-ef451a0ae097
+				http://data.doremus.org/expression/5443fa4e-20c8-3819-b475-14c8e4c0bd6f
+				http://data.doremus.org/expression/d6857b35-d2a0-335e-93a3-7af10010cbda
+				http://data.doremus.org/expression/6581ce96-a59f-3e0c-aaec-a249e8cf020e
+				http://data.doremus.org/expression/e14a5e07-dbb1-3e96-88b2-3a7f816782ca
+				http://data.doremus.org/expression/248cbbd4-ef22-382a-b40c-ebb0d305947a
+				http://data.doremus.org/expression/25863a3a-1fae-3695-a6b8-79c5feb0db74
+				http://data.doremus.org/expression/7062ab3c-9892-3a6a-a3c4-1a66eb2b09bd
+				http://data.doremus.org/expression/07e6832b-0b64-3598-9898-085b57787b28
+				http://data.doremus.org/expression/717a61b0-52ac-365b-8752-49dec4709df6
+				http://data.doremus.org/expression/344db7ce-8801-3b73-bb27-294a7120ccf2
+				http://data.doremus.org/expression/0e46de16-76b6-3007-b2a4-859aef0fc962
+				http://data.doremus.org/expression/8cbc0ebe-a68d-3b17-91b1-28a56ed4cdd5
+				http://data.doremus.org/expression/5f6f9539-e190-3536-95a5-1d4b49943f02
+				http://data.doremus.org/expression/98885e88-ac00-3354-b738-cfbe9eea4a15
+				http://data.doremus.org/expression/e78a8465-2868-3254-b084-0164dc03616c
+				http://data.doremus.org/expression/9493e21a-3a71-30e7-aac8-1975bc4744e8
+				http://data.doremus.org/expression/cbc8b3ff-0361-31d9-9fb8-e39fd6caa8be
+				http://data.doremus.org/expression/20ca1020-a44a-38b3-ae03-02d7399f1946
+				http://data.doremus.org/expression/1a18af5b-dd67-3781-8ed3-385b2ce8b72b
+				http://data.doremus.org/expression/9a0214c0-79a9-3e23-a5bf-2b533d2962dc
+				http://data.doremus.org/expression/48b9c649-520a-3c65-bf38-7286984f9d43
+				http://data.doremus.org/expression/392136de-bd4b-3253-b23d-0246883e2bd0
+				http://data.doremus.org/expression/14035bda-f6a7-36f7-a081-7e15f469c69e
+				http://data.doremus.org/expression/20aa2443-9561-3cd7-be84-0b18bd43694e
+				http://data.doremus.org/expression/f6bb3360-9b2b-3255-835b-6d21814fc5eb
+				http://data.doremus.org/expression/af158713-b9ce-3373-8565-0240800caa6f
+				http://data.doremus.org/expression/996845b1-a20d-3f02-906b-e154281a7409
+				http://data.doremus.org/expression/c5125f67-dc58-3b0c-861e-2b227153caf8
+				http://data.doremus.org/expression/56381f93-5b9f-3180-b3af-dcc19fa8d1d5
+				http://data.doremus.org/expression/30f5d41d-232e-3d16-894a-21aba671a6b7
+				http://data.doremus.org/expression/143995d5-6a4e-33b2-a8fe-cb80de4a24d8
+				http://data.doremus.org/expression/c49ba751-7cce-32d9-b95d-d504e2d22174
+				http://data.doremus.org/expression/ccf81077-6fb1-3a29-8508-e6e5e19909d1
+				http://data.doremus.org/expression/3178c545-107c-358f-b154-2ca5bf62f2b7	
+
+		Attention: La PP et RF (Itema3) n'utilisent pas la même propriété pour décrire le titre (mus:U70_has_title et ecrm:P102_has_title, respectivement)
+		
+		1. Results_threshold.rdf: Le nombre de liens générés > threshold (0.5) = 2701
+		2. Results_1N.rdf: Le nombre de liens générés > threshold (0.5) où une ressource peut avoir plusieurs liens sameAs avec la même valeur de similarité = 2701
+		
+		Note: Chaque ressource a au plus une seule ressource équivalente
+		
+		Distribution de similarité entre les ressources
+			1:n --> sim>=0.55: 2343
+			1:n --> sim>=0.6: 1882
+			1:n --> sim>=0.65: 1500
+			1:n --> sim>=0.7: 1157
+			1:n --> sim>=0.75: 834
+			1:n --> sim>= 0.8: 554
+			1:n --> sim>= 0.85: 400
+			1:n --> sim>= 0.9: 271
+			1:n --> sim>= 0.95: 173
+			1:n --> sim=1: 88
+
+5. Data Linking : PP - BNF	
+
+	Source dataset : 5368 resources
+	Target dataset : 135818 resources
+	
+	Le nombre de compositeurs du dataset source = 779
+	Le nombre de compositeurs du dataset target = 18014		
+	
+	Le nombre de liens découverts en comparant le compositeur et le catalogue = 1220
+	
+	Le nombre total de liens découverts = 3591
+	
+6. 	Data Linking : BNF - RF
+	
+	Uniquement la première étape du processus de liaison a été exécutée (Lier les ressources en comparant par "compositeur" + "titre")
+	
+	Le nombre de compositeurs du dataset source = 18014
+	Le nombre de compositeurs du dataset target = 3461
+	
+	Le nombre de liens découverts en comparant le compositeur et le titre = 747
+	
+	Le nombre total de liens découverts = 747
+	1:n --> 740
+	
+7. Graphe pivot
+
+	sure links = 2887
+	links to validate = 293
+	created links = 68886
+	plusieurs liens = 2174
+	
+
+	
