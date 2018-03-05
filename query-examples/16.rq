@@ -6,8 +6,6 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 # [en] Give me all the performances in which a composer directs one of his works
 # [fr] Donne-moi tous les performance dans lesquels un compositeur dirige une de ses oeuvres
 
-
-
 SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?composerName, ?performance
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
