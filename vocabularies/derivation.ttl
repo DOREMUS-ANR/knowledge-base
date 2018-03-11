@@ -24,8 +24,7 @@
         "adaptation"@fr,
         "adattamento"@it ;
     skos:definition """Adaptation d’un morceau original par orchestration, par changement d’instrumentation, par ajout de mélodies ou de parties secondaires, par transposition, etc. L’arrangement s’étend d’une simple adaptation, voire une simplification, à une véritable composition étoffée à partir d’un morceau simple.
-(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002.)
-"""@fr ;
+(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002.)"""@fr ;
     skos:prefLabel "bearbeitung"@de,
         "arrangement"@en,
         "arreglo"@es,
@@ -38,8 +37,7 @@
     skos:definition """Morceau de forme libre, parfois très proche de l’improvisation, dans laquelle le compositeur donne libre cours à son imagination.
 (Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002.)"""@fr,
   """Au siècle dernier, -notamment en ce qui concerne les œuvres pour piano- œuvre écrite soit à partir de thèmes originaux, soit d’après des mélodies populaires ou des thèmes tirés de compositions ou œuvres théâtrales d’autres auteurs […].
-(Encyclopédie de la musique, Paris, Librairie générale française, 1992)
-"""@fr ;
+(Encyclopédie de la musique, Paris, Librairie générale française, 1992)"""@fr ;
     skos:prefLabel "fantasie"@de,
         "fantasy"@en,
         "fantasía"@es,
@@ -186,7 +184,7 @@
 <http://data.doremus.org/vocabulary/derivation/variation> a skos:Concept ;
     skos:definition """Procédé fondamental du langage musical consistant à transformer un élément thématique de base, à l’aide d’artifices variés. Considérée au sens large comme le développement d’une composition, la variation utilise de multiples procédés qui peuvent, selon leur nature, concerner la mélodie (ornements, inversions, rétrogradations, etc.), le rythme (diminution, augmentation, ornementation, modifications métriques, de tempo, etc.), l’harmonie (altérations, modulations tonales ou modales, élargissement du matériau original harmonique, etc.), le timbre (modification de la couleur instrumentale, du registre, etc.) ou peuvent être de nature agogique ou dynamique […].
 (Encyclopédie de la musique, Paris, Librairie générale française, 1992)"""@fr,
-  """Modification […] importante par rapport à l'œuvre initiale qui n'est plus présente que par un ou plusieurs thèmes.
+    """Modification […] importante par rapport à l'œuvre initiale qui n'est plus présente que par un ou plusieurs thèmes.
 (Norme NF Z 44-079)"""@fr ;
     skos:prefLabel "variation"@de,
         "variation"@en,
