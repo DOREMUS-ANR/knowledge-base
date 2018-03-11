@@ -1,5 +1,5 @@
 DOREMUS controlled vocabularies
-========
+===============================
 
 Collection of vocabularies for the description of music. http://data.doremus.org/vocabularies
 
@@ -8,27 +8,31 @@ Collection of vocabularies for the description of music. http://data.doremus.org
 
 ### Stable vocabularies
 
-* Keys: http://data.doremus.org/vocabulary/key/ (French, English, Italian, Spanish, German)
+* Musical keys: http://data.doremus.org/vocabulary/key/ (French, English, Italian, Spanish, German)
 * Derivations: http://data.doremus.org/vocabulary/derivation/ (French, English, Italian, Spanish, German)
 * Modes: http://data.doremus.org/vocabulary/mode/ (French, English)
+* Catalogues: http://data.doremus.org/vocabulary/catalog/ 
 * Medium of Performances:
-  * Rameau: http://data.bnf.fr/vocabulary/scheme/r166
-  * AIBM: http://data.doremus.org/vocabulary/iaml/mop/
   * MIMO: http://www.mimo-db.eu/InstrumentsKeywords + [github](https://github.com/philharmoniedeparis/mimo)
-  * Hornbostel & Sachs: http://www.mimo-db.eu/HornbostelAndSachs
-  * Diabolo: http://data.doremus.org/vocabulary/diabolo/mop/
-* Musical Genres:
+  * IAML: http://data.doremus.org/vocabulary/iaml/mop/
   * Rameau: http://data.bnf.fr/vocabulary/scheme/r166
-  * AIBM: http://data.doremus.org/vocabulary/iaml/genre/
+  <!-- * Hornbostel & Sachs: http://www.mimo-db.eu/HornbostelAndSachs -->
+  * Diabolo: http://data.doremus.org/vocabulary/diabolo/mop/
+  * Redomi: http://data.doremus.org/vocabulary/redomi/mop/
+  * Itema3: http://data.doremus.org/vocabulary/itema3/mop/
+* Musical Genres:
+  * IAML: http://data.doremus.org/vocabulary/iaml/genre/
+  * Rameau: http://data.bnf.fr/vocabulary/scheme/r166
   * Diabolo: http://data.doremus.org/vocabulary/diabolo/genre/
+  * Redomi: http://data.doremus.org/vocabulary/redomi/genre/
+  * Itema3: http://data.doremus.org/vocabulary/itema3/genre/
+  * Itema3 Musical Documentation: http://data.doremus.org/vocabulary/itema3/genre/musdoc
 
 ### Work in progress vocabularies
 
-* Persons and Corporate bodies
-* Functions
-* Ethnic groups
-* Geographical Places
-* Historical Periods
+* Functions http://data.doremus.org/vocabulary/function/
+* Responsibilities
+* Vocal techniques
 
 ### Useful resources
 
@@ -40,4 +44,6 @@ Collection of vocabularies for the description of music. http://data.doremus.org
 
 Unless differently specified, all the vocabularies are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
-The copyright of MIMO, Hornbostel & Sachs and Rameau is managed by the respective owners.
+The copyright of MIMO
+<!-- , Hornbostel & Sachs -->
+and Rameau belongs to the respective owners.
