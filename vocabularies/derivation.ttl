@@ -56,7 +56,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/derivation/> .
 
 <http://data.doremus.org/vocabulary/derivation/medley> a skos:Concept ;
-    skos:altLabel "pot-pourri"@en, "potpourri"""@en ;
+    skos:altLabel "pot-pourri"@en, "potpourri"@en ;
     skos:definition """Pièce composée d’une succession de mélodies, entières ou fragmentées, qui ne sont pas habituellement destinées à être jouées ensemble et qui sont souvent reliées par passages modulants. Le pot-pourri était particulièrement en vogue au XIXe s. (musique pour piano, arrangements pour formations de chambre ou fanfares).
 (Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002.)"""@fr ;
     skos:prefLabel "potpourri"@de,

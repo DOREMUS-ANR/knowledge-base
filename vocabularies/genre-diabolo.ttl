@@ -3440,7 +3440,8 @@
     skos:inScheme <http://data.doremus.org/vocabulary/diabolo/genre/> ;
     skos:narrower <http://data.doremus.org/vocabulary/diabolo/genre/jazz_afro-cubain>,
         <http://data.doremus.org/vocabulary/diabolo/genre/jazz_bresilien> ;
-    skos:prefLabel "latin jazz"@fr ;
+    skos:altLabel "jazz latin"@fr;
+    skos:prefLabel "latin jazz"@en;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/genre/> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/litterature> a skos:Concept ;
