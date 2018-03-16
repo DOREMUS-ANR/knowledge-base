@@ -1,0 +1,223 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <https://www.w3.org/TR/owl-time/#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd1: <https://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/period/french_revolution> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "French Revolution"@en,
+        "Révolution française"@fr,
+        "Rivoluzione francese"@it ;
+    ecrm:P1_is_identified_by "French Revolution"@en,
+        "Révolution française"@fr,
+        "Rivoluzione Francese"@it ;
+    rdfs:comment "The French Revolution was a period of far-reaching social and political upheaval in France and its colonies that lasted from 1789 until 1799."@en ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1789-05-05"^^xsd1:date ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1799-11-09"^^xsd1:date ] ;
+    time:intervalIn <http://data.doremus.org/period/18_century> .
+
+<http://data.doremus.org/period/renaissance> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "Renaissance"@en,
+        "Renaissance"@fr,
+        "Rinascimento"@it ;
+    ecrm:P1_is_identified_by "Renaissance"@en,
+        "Renaissance"@fr,
+        "Rinascimento"@it ;
+    rdfs:comment "Consensus among music historians has been to start the era around 1400, with the end of the medieval era, and to close it around 1600, with the beginning of the Baroque period"@en ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1400"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1600"^^xsd1:gYear ] .
+
+<http://data.doremus.org/period/12_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "12th century"@en,
+        "12e siècle"@fr,
+        "XII secolo"@it ;
+    ecrm:P1_is_identified_by "12th century"@en,
+        "12e siècle"@fr,
+        "XII secolo"@it ;
+    skos:altLabel "12ème siècle"@fr,
+        "12º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1101"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1200"^^xsd1:gYear ] ;
+    time:intervalBefore <http://data.doremus.org/period/13_century> .
+
+<http://data.doremus.org/period/16_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "16th century"@en,
+        "16e siècle"@fr,
+        "XVI secolo"@it ;
+    ecrm:P1_is_identified_by "16th century"@en,
+        "16e siècle"@fr,
+        "XVI secolo"@it ;
+    skos:altLabel "16ème siècle"@fr,
+        "16º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1501"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1600"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/15_century> ;
+    time:intervalBefore <http://data.doremus.org/period/17_century> .
+
+<http://data.doremus.org/period/21_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "21st century"@en,
+        "21e siècle"@fr,
+        "XXI secolo"@it ;
+    ecrm:P1_is_identified_by "21st century"@en,
+        "21e siècle"@fr,
+        "XXI secolo"@it ;
+    skos:altLabel "21ème siècle"@fr,
+        "21º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "2001"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "2100"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/20_century_2> .
+
+<http://data.doremus.org/period/13_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "13th century"@en,
+        "13e siècle"@fr,
+        "XIII secolo"@it ;
+    ecrm:P1_is_identified_by "13th century"@en,
+        "13e siècle"@fr,
+        "XIII secolo"@it ;
+    skos:altLabel "13ème siècle"@fr,
+        "13º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1201"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1300"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/12_century> ;
+    time:intervalBefore <http://data.doremus.org/period/14_century> .
+
+<http://data.doremus.org/period/14_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "14th century"@en,
+        "14e siècle"@fr,
+        "XIV secolo"@it ;
+    ecrm:P1_is_identified_by "14th century"@en,
+        "14e siècle"@fr,
+        "XIV secolo"@it ;
+    skos:altLabel "14ème siècle"@fr,
+        "14º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1301"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1400"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/13_century> ;
+    time:intervalBefore <http://data.doremus.org/period/15_century> .
+
+<http://data.doremus.org/period/17_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "17th century"@en,
+        "17e siècle"@fr,
+        "XVII secolo"@it ;
+    ecrm:P1_is_identified_by "17th century"@en,
+        "17e siècle"@fr,
+        "XVII secolo"@it ;
+    skos:altLabel "17ème siècle"@fr,
+        "17º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1601"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1700"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/16_century> ;
+    time:intervalBefore <http://data.doremus.org/period/18_century> .
+
+<http://data.doremus.org/period/19_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "19th century"@en,
+        "19e siècle"@fr,
+        "XIX secolo"@it ;
+    ecrm:P1_is_identified_by "19th century"@en,
+        "19e siècle"@fr,
+        "XIX secolo"@it ;
+    skos:altLabel "19ème siècle"@fr,
+        "19º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1801"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1900"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/18_century> ;
+    time:intervalBefore <http://data.doremus.org/period/20_century_1> .
+
+<http://data.doremus.org/period/20_century_1> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "20th century - 1st half"@en,
+        "20e siècle - 1re moitié"@fr,
+        "XX secolo - I metà"@it ;
+    ecrm:P1_is_identified_by "20th century - 1st half"@en,
+        "20e siècle - 1re moitié"@fr,
+        "XX secolo - I metà"@it ;
+    skos:altLabel "20ème siècle - 1ère moitié"@fr,
+        "20º secolo - 1ª metà"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1901"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1950"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/19_century> ;
+    time:intervalBefore <http://data.doremus.org/period/20_century_2> .
+
+<http://data.doremus.org/period/20_century_2> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "20th century - 2nd half"@en,
+        "20e siècle - 2e moitié"@fr,
+        "XX secolo - II metà"@it ;
+    ecrm:P1_is_identified_by "20th century - 2nd half"@en,
+        "20e siècle - 2e moitié"@fr,
+        "XX secolo - II metà"@it ;
+    skos:altLabel "20ème siècle - 2ème moitié"@fr,
+        "20º secolo - 2ª metà"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1951"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "2000"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/20_century_1> ;
+    time:intervalBefore <http://data.doremus.org/period/21_century> .
+
+<http://data.doremus.org/period/15_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "15th century"@en,
+        "15e siècle"@fr,
+        "XV secolo"@it ;
+    ecrm:P1_is_identified_by "15th century"@en,
+        "15e siècle"@fr,
+        "XV secolo"@it ;
+    skos:altLabel "15ème siècle"@fr,
+        "15º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1401"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1500"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/14_century> ;
+    time:intervalBefore <http://data.doremus.org/period/15_century> .
+
+<http://data.doremus.org/period/18_century> a ecrm:E4_Period,
+        time:ProperInterval ;
+    rdfs:label "18th century"@en,
+        "18e siècle"@fr,
+        "XVIII secolo"@it ;
+    ecrm:P1_is_identified_by "18th century"@en,
+        "18e siècle"@fr,
+        "XVIII secolo"@it ;
+    skos:altLabel "18ème siècle"@fr,
+        "18º secolo"@it ;
+    time:hasBeginning [ a time:Instant ;
+            time:inXSDDate "1701"^^xsd1:gYear ] ;
+    time:hasEnd [ a time:Instant ;
+            time:inXSDDate "1800"^^xsd1:gYear ] ;
+    time:intervalAfter <http://data.doremus.org/period/17_century> ;
+    time:intervalBefore <http://data.doremus.org/period/19_century> .
