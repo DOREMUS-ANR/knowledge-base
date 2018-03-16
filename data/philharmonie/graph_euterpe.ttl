@@ -1,0 +1,23 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/euterpe> a dcat:Dataset ;
+    rdfs:label "List of musical Foreseen Performances of Euterpe";
+    rdfs:comment "Result of the conversion of XML records in RDF following the DOREMUS ontology coming from the Euterpe database of the Philharmonie de Paris";
+    dct:accrualPeriodicity <http://dublincore.org/groups/collections/frequency/#freqirregular> ;
+    dct:created "2016-07-01"^^xsd:date ;
+    dct:issued "2016-07-01"^^xsd:date ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:distribution <http://data.doremus.org/bnf/distribution/ttl> .
+
+<http://data.doremus.org/euterpe/distribution/ttl> a dcat:Distribution ;
+    dcat:accessURL <https://github.com/DOREMUS-ANR/knowledge-base/tree/master/data/philharmonie> ;
+    rdfs:label "Turtle distribution of the Euterpe dataset" ;
+    dcat:mediaType "text/turtle" .
+
+<http://data.doremus.org/doremus> dcat:dataset <http://data.doremus.org/euterpe> .

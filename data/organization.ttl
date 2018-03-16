@@ -35,3 +35,7 @@
   owl:sameAs <http://www.isni.org/isni/0000000122649140> ;
   owl:sameAs <http://dbpedia.org/resource/Radio_France> ;
   owl:sameAs <https://www.wikidata.org/entity/Q2120364> .
+
+
+<http://data.doremus.org/doremus> a dcat:Catalog ;
+    rdfs:label "DOREMUS dataset" .
