@@ -2294,7 +2294,7 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/oie> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "Instrumentalensemble"@de,
+    skos:prefLabel "instrumentalensemble"@de,
         "instrumental ensemble"@en,
         "conjunto instrumental"@es,
         "ensemble instrumental"@fr,
@@ -2306,9 +2306,10 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/oiv> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "Vokal- und Instrumentalensemble"@de,
+    skos:prefLabel "vokal- und instrumentalensemble"@de,
         "vocal and instrumental ensemble"@en,
         "conjunto vocal y instrumental"@es,
+        "ensemble vocal et instrumental"@fr,
         "complesso vocale e strumentale"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/oja> a skos:Concept ;
@@ -2389,7 +2390,7 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/owi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "ohne Schlagzeug"@de ;
-    skos:prefLabel "Blasorchester"@de,
+    skos:prefLabel "blasorchester"@de,
         "wind orchestra"@en,
         "orquesta de vientos"@es,
         "orchestre de vents"@fr,
@@ -2401,7 +2402,7 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/ozz> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "Orchester - andere"@de,
+    skos:prefLabel "orchester - andere"@de,
         "orchestra - other"@en,
         "orquesta - otro"@es,
         "orchestre - autre"@fr,
@@ -2486,7 +2487,7 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pag> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "agogo",
-        "Agogô"@de,
+        "agogô"@de,
         "agogo"@en,
         "agogó"@es,
         "agogô"@fr,
@@ -2497,8 +2498,8 @@ skos:prefLabel "bass trombone"@en,
     skos:altLabel "bigornia",
         "yunke",
         "yunque",
-        "Amboss"@de,
-        "Ambosse"@de,
+        "amboss"@de,
+        "ambosse"@de,
         "yunque"@es ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "English term is preferred globally." ;
@@ -2510,7 +2511,7 @@ skos:prefLabel "bass trombone"@en,
         "bigorna"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pbb> a skos:Concept ;
-    skos:altLabel "Boobamstrommel"@de,
+    skos:altLabel "boobamstrommel"@de,
         "boo-bams"@en ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "English term is preferred globally." ;
@@ -2520,7 +2521,7 @@ skos:prefLabel "bass trombone"@en,
         "boo-bams"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pbd> a skos:Concept ;
-    skos:altLabel "Mammoth"@de,
+    skos:altLabel "mammoth"@de,
         "einfellige grosse Trommel"@de,
         "grosse Trommel"@de,
         "big drum"@en,
