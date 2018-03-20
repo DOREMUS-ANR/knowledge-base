@@ -1,0 +1,2349 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/brit_pop'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/electro_pop'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/popmusic'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fso'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lai'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/syc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/symphonie'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lam'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/complainte'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cn'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tfm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_cirque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bic'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/bicinium'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/off'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sct'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/scat'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cre'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cri'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/samba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bol'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/toccata'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ctl'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/contredanse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ste'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/polka'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_comique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bde'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ballade'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bdi'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ballade'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hit'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cst'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cassation'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rhl'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/polka'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ara'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/drs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/trl'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opb'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_ballet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sww'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cdo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cdo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/df'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/danse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bar'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/barcarolle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fad'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/fado'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rao'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_populaire'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/folk'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/vsp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rondo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lnd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/tyrolienne'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/snd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/serenade'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ctp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/contrepoint'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/imu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/impromptu'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cpr'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/capriccio'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mym'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_militaire'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ccl'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cantique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chant_gregorien'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/plain_chant'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mdc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/madrigal'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opf'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mr'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ari'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ariette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/wsg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chant_de_marin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elx'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_mixte'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elx'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/inm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_cirque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/inm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_scene'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bag'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/bagatelle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gav'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/gavotte'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/passion'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/histoire_de_la_musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rapsodie'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_assistee_par_ordinateur'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_acousmatique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musiques_electroniques'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/elm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_electronique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/vr'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ground'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/vr'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/variations'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sps'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/prd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/prelude'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mus'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fus'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/jazz_fusion'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fus'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/fusion'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fus'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/jazz_rock'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lty'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/concerto_grosso'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/gospel'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pdy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gig'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/gigue'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/san'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/zar'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/zarzuela'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cnd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/mazurka'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/wom'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/world_music'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rmc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/romance'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/czn'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#relatedMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dv'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/divertissement'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/lby'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/berceuse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mat'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/analyse_musicale'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/forme_musicale'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/pratique_musicale'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/theorie_musicale'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/comedie_musicale'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/genre_musical'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/echelle_musicale'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sic'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tng'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/tango'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dts'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/scherzo'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/poeme_symphonique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/csy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_de_chambre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/csy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_chambre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/noe'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chant_de_marin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/noe'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/noel'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tvo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gyp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ballade'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/chr'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/choro'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mmo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rmz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/romance'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mqu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_cirque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mqu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_scene'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mqu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_chambre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mqu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_cour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mqu'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_rue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/syd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/symphonie'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/co'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/concerto'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_aleatoire'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/all'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pad'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/chc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chaconne'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dia'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cli'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/choral'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/nc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/nocturne'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ri'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/tiento'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ri'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ricercar'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_comique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/motet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fnk'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/funk'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/or'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/oratorio'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/or'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/latin_jazz'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/st'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/st'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/etude'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bsd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/danse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/wz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/valse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cdt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_de_rue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rap'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rap'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bl'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/blues'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ely'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/elegie'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/plk'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/polka'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bto'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_ballet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/smb'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/samba'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/csn'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/swi'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/swing'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ben'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bou'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/bourree'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rq'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/requiem'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mut'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/theatre_musical'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cyd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ground'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/can'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/french_cancan'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ch'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/choral'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ch'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cantique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ms'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ov'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ouverture'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/seq'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ctf'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ops'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/operette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ops'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_seria'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/srd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/sardane'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/czs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_ballet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/hymne'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rhb'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rythm_and_blues'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/blo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/brt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/bergerette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/md'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/madrigal'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/si'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/sinfonia'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fla'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/flamenco'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cop'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/concerto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/inv'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/invention'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jot'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/jota'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cho'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dim'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/disco'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bcs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/berceuse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/fugue'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/chs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ram'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ram'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_symphonique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ram'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/illustration_musicale_radio'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cly'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/calypso'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bra'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/branle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ai'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_cour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cl'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/prelude'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cav'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cavatine'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_polyphonique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mbm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/mambo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/alm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/danse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pmk'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/polka'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bst'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/valse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/spi'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/negro_spiritual'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/scc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cantate'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mda'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/frj'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/free_jazz'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/phy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_patriotique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/phy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chant_revolutionnaire'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/psa'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/psaume'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/su'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/suite'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sou'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/soul'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bwg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/boogie_woogie'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fin'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sdr'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/scherzo'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/csg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_de_rue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ptt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/partita'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/itt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ct'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cantate'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gal'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/polka'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/beg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/biguine'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/nat'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/hymne'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sha'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/plain_chant'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sha'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chant_epique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rgg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/reggae'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/pg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_a_programme'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/gra'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mme'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bbp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/hard_bop'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bbp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/be_bop'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_film'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/symphonie'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hrk'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/hard_rock'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/czp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mgs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/madrigal'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tar'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/tarentelle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/hem'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/heavy_metal'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bru'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/brunette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/css'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ssp'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/singspiel'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fea'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_de_cirque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/li'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/lied'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cht'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/po'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ps'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/passacaille'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fmm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fmm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique_maconnique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.84</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sls'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/salsa'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/eco'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/scs'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/vln'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/dod'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/danse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rock_music'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/operette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rum'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rumba'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/czt'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzonette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cad'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/cadence'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rde'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ground'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/maz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/mazurka'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/scd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mi'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/menuet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sn'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/sonate'/>
+      <relation>http://www.w3.org/2002/07/owl#sameAs</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sn'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/sonatine'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fvm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/capriccio'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/byc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/canzone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/vlc'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/villancico'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tro'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/fro'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/frottole'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/vvn'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/tem'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/techno'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ppo'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ar'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ariette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/country_music'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/bgk'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/gagaku'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/mdy'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/melodie'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rig'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/rigaudon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ragtime'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/rg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/raga'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sch'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/scherzo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/op'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/op'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ctd'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/contredanse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/opm'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/opera_seria'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/nww'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/new_wave'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ft'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/fantaisie'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.97</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/jazz_manouche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/acid_jazz'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/jazz'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/jz'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/jazz_cool'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/ska'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/ska'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_grivoise'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_historique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_engagee'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_satirique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_militaire'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_realiste'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/sg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_francaise'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/cdg'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/chanson_de_rue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/genre/nau'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/genre/nouba'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>
