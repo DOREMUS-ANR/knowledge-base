@@ -1,0 +1,806 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/bergerette">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/brt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/su">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/suite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/gm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/gospel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ctp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/contrepoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musette">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/country_music">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/complainte">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/lam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_aleatoire">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/noe">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/noel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fnk">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/funk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/chanson">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mi">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/menuet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mut">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/theatre_musical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rigaudon">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rock_music"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/opt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/operette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_a_programme">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/pg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/opera_seria">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ops"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/poeme_symphonique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/oratorio">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/or"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/concerto_grosso">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/mazurka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/boogie_woogie">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bwg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/pp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/popmusic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ram">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/illustration_musicale_radio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/ballade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/be_bop">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bbp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/prd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/prelude"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/opc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/opera_comique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ssp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/singspiel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/jazz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/jz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/new_wave">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/nww"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/tango">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/tng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/operette">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/opt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rondo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cdo">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mus">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/concerto">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ops">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/opera_seria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mbm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/mambo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ely">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/elegie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/toccata">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/tc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bwg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/boogie_woogie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sls">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/salsa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/concerto_grosso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/hrk">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/hard_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/canon">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/divertissement">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/dv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/cassation">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/opb">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/opera_ballet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/illustration_musicale_radio">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/wom">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/world_music"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/chaconne">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/chc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/heavy_metal">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/hem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/trl">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/tarentelle">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/tar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/li">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/lied"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rythm_and_blues">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rhb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ska">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/ska"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/elx">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_mixte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ccl">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/cantique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/swi">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/swing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/cavatine">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cav"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/chanson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rgg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/reggae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/ragtime">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/lam">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/complainte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/swing">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/swi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ch">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/choral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/op">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/opera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/brunette">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bru"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cy">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/country_music"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/zarzuela">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/zar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/sonate">
+    <owl:sameAs rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/hard_rock">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/hrk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/salsa">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/partita">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ptt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ps">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/passacaille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/frottole">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/scherzo">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sy">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/symphonie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fmm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_maconnique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/can">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/french_cancan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/passacaille">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ps"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/inv">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/invention"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/si">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/sinfonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/ragtime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/opf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/tem">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/techno"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/or">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/oratorio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/trl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/fado">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/elm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fad">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/fado"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/free_jazz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/frj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/opera">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/op"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/variations">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/vr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bra">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/branle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/disco">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/dim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/jot">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/jota"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/menuet">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/czn">
+    <skos:relatedMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/canzone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/serenade">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/snd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/ska">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ska"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sou">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/soul"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mo">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/motet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/choral">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rap">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/popmusic">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/pp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/jota">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/jot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/opf">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/beg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/biguine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/gavotte">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/gav"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/jz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/jazz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ri">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/ricercar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/plk">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/polka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/theatre_musical">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/nww">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/new_wave"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rap">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rumba">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/ouverture">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bcs">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/berceuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_de_film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/ariette">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ari"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mym">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_militaire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/reggae">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rgg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/opera_ballet">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/opb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/bicinium">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/passion">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/pm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/drs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/valse">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/wz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/vr">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/variations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/snd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/serenade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/smb">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/samba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bbp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/be_bop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/mazurka">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/contredanse">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ctd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/czt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/canzonette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/pg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_a_programme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/bagatelle">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/nc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/nocturne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_maconnique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fmm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rondo">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ari">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/ariette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ft">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/fantaisie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bl">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/blues"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cn">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/canon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sch">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/scherzo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/frj">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/free_jazz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/polka">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/plk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/jazz_rock">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ov">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/ouverture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/opera_comique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/opc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/gav">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/gavotte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sn">
+    <owl:sameAs rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/sonate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rig">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rigaudon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/impromptu">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/imu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/danse">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/df"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/symphonie">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/nouba">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/nau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/sardane">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/srd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/tar">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/tarentelle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/berceuse">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bcs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/co">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/concerto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/elm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/world_music">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/wom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/psaume">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/psa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/branle">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bic">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/bicinium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/dim">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/disco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cst">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/cassation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/cadence">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bru">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/brunette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/nocturne">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/nc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/funk">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fnk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/french_cancan">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/can"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/comedie_musicale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_militaire">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mym"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/chanson_polyphonique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cdo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/ricercar">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/gospel">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/gm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/brt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/bergerette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/zar">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/zarzuela"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/vlc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/villancico"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/poeme_symphonique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/singspiel">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ssp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/imu">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/impromptu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/md">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/madrigal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/bourree">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/fugue">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/techno">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/tem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/scat">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bar">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/barcarolle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ctd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/contredanse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/capriccio">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cpr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/flamenco">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/fugue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bou">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/bourree"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fro">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/frottole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/contrepoint">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ctp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/biguine">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/beg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sct">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/scat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/lied">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cav">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/cavatine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rock_music">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/tc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/toccata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/calypso">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/wz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/valse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/chc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/chaconne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/gigue">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/gig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/mambo">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mbm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/sinfonia">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/si"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/nau">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/nouba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/rapsodie">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/cantique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ccl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/tng">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/tango"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rapsodie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/inm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_de_scene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/canzonette">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/czt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/chs">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/prelude">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/prd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cs">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/musique_aleatoire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ptt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/partita"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/chanson_polyphonique">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/suite">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/su"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/noel">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/noe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/elegie">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ely"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/comedie_musicale">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/villancico">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/vlc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/madrigal">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/md"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/invention">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/inv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_mixte">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/elx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/psa">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/psaume"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fla">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/flamenco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bag">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/bagatelle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cad">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/cadence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rq">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/requiem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fso">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rhb">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rythm_and_blues"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cpr">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/capriccio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/drs">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_de_film">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/pm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/passion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fus">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/jazz_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/fantaisie">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/hem">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/heavy_metal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ct">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/cantate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/dv">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/divertissement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/chs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/barcarolle">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/df">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/danse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/samba">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/smb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/motet">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/soul">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/musique_de_scene">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/inm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/gig">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/gigue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/cantate">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rum">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/rumba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/blues">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cly">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/calypso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/srd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/genre/sardane"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/requiem">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/genre/ballade">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bd"/>
+  </rdf:Description>
+</rdf:RDF>
