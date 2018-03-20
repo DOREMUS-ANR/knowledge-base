@@ -1,6 +1,5 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix n0: <https://creativecommons.org/licenses/by/4.0/> .
 @prefix org: <http://data.doremus.org/organization/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -202,6 +201,7 @@
 
 <http://data.doremus.org/vocabulary/function/24> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/choral_director> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "chef de maîtrise"@fr ;
     skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
 
@@ -228,6 +228,7 @@
 <http://data.doremus.org/vocabulary/function/auhor_of_annotations> a skos:Concept ;
     skos:altLabel "annotateur"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "auhor of annotations"@en,
         "auteur des notes"@fr,
         "autore delle annotazioni"@it ;
@@ -236,6 +237,7 @@
 <http://data.doremus.org/vocabulary/function/author_of_afterword> a skos:Concept ;
     skos:altLabel "postfacier"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of afterword"@en,
         "auteur de la postface"@fr,
         "autore della postfazione"@it ;
@@ -243,6 +245,7 @@
 
 <http://data.doremus.org/vocabulary/function/author_of_argument> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of argument"@en,
         "auteur de l’argument"@fr,
         "autore dell'argomento"@it ;
@@ -252,6 +255,7 @@
     skos:altLabel "auteur du script"@fr,
         "dialoguiste"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of dialogue"@en,
         "auteur de dialogues"@fr,
         "autore dei dialoghi"@it ;
@@ -259,6 +263,7 @@
 
 <http://data.doremus.org/vocabulary/function/author_of_foreword> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of foreword"@en,
         "auteur de l'avant-propos"@fr,
         "autore dell'antefatto"@it ;
@@ -266,6 +271,7 @@
 
 <http://data.doremus.org/vocabulary/function/author_of_introduction> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of introduction"@en,
         "auteur de l'introduction"@fr,
         "autore dell'introduzione"@it ;
@@ -274,6 +280,7 @@
 <http://data.doremus.org/vocabulary/function/author_of_preface> a skos:Concept ;
     skos:altLabel "préfacier"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of preface"@en,
         "auteur de la préface"@fr,
         "autore della prefazione"@it ;
@@ -282,6 +289,7 @@
 <http://data.doremus.org/vocabulary/function/chief_conductor> a skos:Concept ;
     skos:altLabel "music director"@en ;
     skos:broader <http://data.doremus.org/vocabulary/function/conductor> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "chief conductor"@en,
         "chef d'orchestre"@fr,
         "direttore d'orchestra"@it ;
@@ -304,6 +312,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_fantasy> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical fantasy"@en,
         "créateur de la fantaisie musicale"@fr,
         "autore della fantasia musicale"@it ;
@@ -311,6 +320,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_medley> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical medley"@en,
         "créateur du pot-pourri musical"@fr,
         "autore del medley"@it ;
@@ -318,6 +328,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_paraphrase> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical paraphrase"@en,
         "créateur  de la paraphrase musicale"@fr,
         "autore della parafrasi musicale"@it ;
@@ -325,6 +336,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reconstruction> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reconstruction"@en,
         "reconstructeur"@fr,
         "autore della ricostruzione artistica"@it ;
@@ -332,6 +344,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reduction> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reduction"@en,
         "créateur de la réduction musicale"@fr,
         "curatore della riduzione musicale"@it ;
@@ -339,6 +352,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reminiscence> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reminiscence"@en,
         "créateur de la réminiscence musicale"@fr,
         "autore della riminiscenza musicale"@it ;
@@ -346,6 +360,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_revision> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical revision"@en,
         "réviseur (musique)"@fr,
         "autore della revisione artistica"@it ;
@@ -353,6 +368,7 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_variation> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical variation"@en,
         "créateur  de la variation musicale"@fr,
         "autore della variazione musicale"@it ;
@@ -376,6 +392,7 @@
 
 <http://data.doremus.org/vocabulary/function/harmonizer> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "harmonizer"@en,
         "harmonisateur"@fr,
         "autore dell'armonizzazione"@it ;
@@ -404,6 +421,7 @@
 
 <http://data.doremus.org/vocabulary/function/orchestrator> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "orchestrator"@en,
         "orchestrateur"@fr,
         "orchestratore"@it ;
@@ -449,6 +467,7 @@
 
 <http://data.doremus.org/vocabulary/function/screenwriter> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "screenwriter"@en,
         "scénariste"@fr,
         "sceneggiatore"@it ;
@@ -464,6 +483,7 @@
 
 <http://data.doremus.org/vocabulary/function/sound_designer> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "sound designer"@en,
         "sonorisateur"@fr ;
     skos:scopeNote "Contexte d'utilisation: F31"@fr .
@@ -484,6 +504,7 @@
 
 <http://data.doremus.org/vocabulary/function/transcriber> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "transcriber"@en,
         "transcripteur"@fr,
         "autore della trascrizione"@it ;
@@ -498,6 +519,7 @@
 
 <http://data.doremus.org/vocabulary/function/transposer> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "transposer"@en,
         "notateur de la transposition"@fr,
         "autore della trasposizione"@it ;
@@ -539,6 +561,7 @@
 
 <http://data.doremus.org/vocabulary/function/child_actor> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "child actor"@en,
         "acteur enfant"@fr,
         "attore bambino"@it ;
@@ -550,6 +573,7 @@
         "directeur de chorale"@fr,
         "maestro del coro"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/conductor> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "choral director"@en,
         "chef de choeur"@fr,
         "direttore di coro"@it ;
@@ -564,6 +588,7 @@
 
 <http://data.doremus.org/vocabulary/function/composer_of_basso_continuo> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer of basso continuo"@en,
         "réalisateur de la basse continue"@fr,
         "autore del basso continuo"@it ;
@@ -572,6 +597,7 @@
 
 <http://data.doremus.org/vocabulary/function/composer_of_cadenza> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer of cadenza"@en,
         "compositeur de la cadence"@fr,
         "compositore della cadenza"@it ;
@@ -641,6 +667,7 @@
     skos:altLabel "background actor"@en,
         "comparsa"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "extra"@en,
         "figurant"@fr,
         "figurante"@it ;
@@ -662,6 +689,7 @@
 
 <http://data.doremus.org/vocabulary/function/librettist> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "librettist"@en,
         "librettiste"@fr,
         "librettista"@it ;
@@ -672,6 +700,7 @@
         "auteur parolier"@fr,
         "lyriciste"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "lyricist"@en,
         "parolier"@fr,
         "paroliere"@it ;
@@ -688,6 +717,7 @@
     skos:altLabel "mixeur"@fr,
         "mixaggio"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "mixing"@en,
         "mixage"@fr,
         "missaggio"@it ;
@@ -718,6 +748,7 @@
 
 <http://data.doremus.org/vocabulary/function/silent_actor> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "silent actor"@en,
         "acteur muet"@fr,
         "attore muto"@it ;
@@ -733,6 +764,7 @@
 <http://data.doremus.org/vocabulary/function/sound_operator> a skos:Concept ;
     skos:altLabel "prise de son"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "sound operator"@en,
         "preneur de son"@fr,
         "fonico"@it ;
@@ -795,6 +827,7 @@
 
 <http://data.doremus.org/vocabulary/function/film_director> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/director> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "film director"@en,
         "réalisateur de films"@fr,
         "regista cinematografico"@it ;
@@ -831,6 +864,7 @@
 
 <http://data.doremus.org/vocabulary/function/radio_director> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/director> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "radio director"@en,
         "réalisateur d'émissions de radio"@fr,
         "regista radiofonico"@it ;
@@ -849,6 +883,7 @@
     skos:altLabel "chef opérateur"@fr,
         "directeur du son"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "sound engineer"@en,
         "ingénieur du son"@fr,
         "ingegnere del suono"@it ;
@@ -865,6 +900,7 @@
 
 <http://data.doremus.org/vocabulary/function/composer> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer"@en,
         "compositeur"@fr,
         "compositore"@it ;
@@ -920,6 +956,7 @@
 
 <http://data.doremus.org/vocabulary/function/arranger> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "arranger"@en,
         "arrangeur"@fr,
         "arrangiatore"@it ;
@@ -941,5 +978,5 @@
         "Liste des fonctions"@fr ;
     dct:created "2018-01-10" ;
     dct:creator org:DOREMUS ;
-    dct:license n0: ;
-    dct:modified "2018-03-07" .
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2018-03-20" .

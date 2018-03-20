@@ -81,8 +81,10 @@ fs.createReadStream(file)
 
     if (level === 0)
       store.add(concept, SKOS('topConceptOf'), conceptScheme);
-    else
+    else {
       store.add(concept, SKOS('broader'), curConcept[level - 1]);
+      store.add(concept, SKOS('inScheme'), conceptScheme);
+    }
 
     for (let ctx of data[CONTEXT].split(DIVIDER)) {
       ctx = ctx.trim();
