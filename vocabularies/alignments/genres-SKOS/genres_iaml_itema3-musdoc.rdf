@@ -1,0 +1,340 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/gm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/116">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/spt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10040">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/noe">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fnk">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/13">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mut">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/153"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/25">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/df"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/93">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/oct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/opt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/97"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/41">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/53">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/elm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bl">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/89">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/noe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/127">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/wom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/115">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/103">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/psa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10051">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/prd">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ssp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/14">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/26">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/dec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mda">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mus">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/94">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/op"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/30">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/42">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/66">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mym"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sls">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/102">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/pnk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ms">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/wom">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/114">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mdy">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/li">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/15">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/chr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/elx">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/pnk">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/39">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/jz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rgg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/43">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/55">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mdy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/spt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/116"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/op">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/94"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/153">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/zar">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/68">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/elx"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/hip">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cy">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/md">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/20">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/32">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fnk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/100">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/dec">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/57">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/69">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/97">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/opt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sex">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/117"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/29">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/tem">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/skt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/33">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/gm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/or">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/123">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/tem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/111">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rgg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10100">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ssp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/elm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/nau">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/92"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/90">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/non"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fad">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/tng">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/122"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/46">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/98">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/or"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/18">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/108">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rhb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/34">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/hip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/sou">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mo">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/122">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/tng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/110">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fla">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/psa">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rap">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/110"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/91">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/nww"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/10030">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/zar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rhb">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/35">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/prd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/jz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/chr">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ct">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/nww">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/91"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/119">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/75">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/121">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/skt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/117">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/sex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mym">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/df">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/80">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/md"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/oct">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/92">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/nau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/non">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/musdoc/90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/9">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/musdoc/12">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ct"/>
+  </rdf:Description>
+</rdf:RDF>

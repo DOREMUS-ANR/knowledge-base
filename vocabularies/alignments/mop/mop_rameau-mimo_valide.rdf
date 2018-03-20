@@ -213,7 +213,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16927357f'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3088'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -229,7 +229,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169484639'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2205'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
     </Cell>
   </map>
@@ -421,7 +421,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb124210610'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3142'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -445,7 +445,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16541303s'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3142'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -749,7 +749,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981445t'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3729'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -797,7 +797,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169026193'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3088'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -1141,7 +1141,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16912208j'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3429'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -1165,7 +1165,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12331135r'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3330'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -1461,7 +1461,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169218999'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4810'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -1573,7 +1573,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb167203055'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3706'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -2861,7 +2861,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb11981835m'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3730'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
     </Cell>
   </map>
@@ -3541,7 +3541,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16688872p'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2205'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
     </Cell>
   </map>
@@ -3565,7 +3565,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb12270885n'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2205'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
     </Cell>
   </map>
@@ -3581,7 +3581,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb166877756'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2423'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -3589,7 +3589,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb165077176'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3729'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -3605,7 +3605,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16743564c'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3695'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
     </Cell>
   </map>
@@ -3637,7 +3637,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16912777r'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3429'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -3725,7 +3725,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16672645k'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3101'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
     </Cell>
   </map>
@@ -3805,7 +3805,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16682229f'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -3837,7 +3837,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb169270041'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6540'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
     </Cell>
   </map>
@@ -3869,7 +3869,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb13330821w'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2205'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
     </Cell>
   </map>
@@ -4165,7 +4165,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb122697960'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2205'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
     </Cell>
   </map>
@@ -4765,7 +4765,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16902098k'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5254'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
     </Cell>
   </map>
@@ -4957,7 +4957,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16930825q'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5254'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
     </Cell>
   </map>
@@ -5485,7 +5485,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.bnf.fr/ark:/12148/cb16720409t'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3363'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
     </Cell>
   </map>

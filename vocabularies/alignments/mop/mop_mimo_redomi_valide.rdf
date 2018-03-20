@@ -1,0 +1,4461 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+  <onto1>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="c">
+      <location>c</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4320'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6400'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4372'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor_des_alpes'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3730'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3730'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3102'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cistre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2306'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4101'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sifflet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3305'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3933'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2224'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4493'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue_mecanique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.88</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2276'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/claviharpe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4356'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5015'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/koto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6285'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4713'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flabiol'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2208'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2208'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3684'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/qin'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4055'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/shakuhachi'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2617'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2321'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/synthetiseur'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4258'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bombarde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4176'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3668'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/koto'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3660'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/kantele'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4327'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2738'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tabla'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2730'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano_prepare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pianoforte'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2299'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4039'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_a_bec'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3737'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3101'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3441'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sarod'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2933'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/likembe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3932'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3493'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lyre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4788'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.88</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3079'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/marimba'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3510'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4492'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2275'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4229'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/nay'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3274'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4342'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3834'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2887'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/timbales'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3395'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lyre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4205'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3886'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_alto'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6625'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4463'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bombarde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3955'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_indienne'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3955'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3955'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2246'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6543'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonica'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4175'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3818'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clairon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4326'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3245'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3379'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2298'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3585'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4378'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3736'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3108'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3440'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4296'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ophicleide'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6036'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3788'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4447'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tuba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4787'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6527'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/concertina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3229'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/banjo'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3569'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3561'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5498'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3978'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3970'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/galoubet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4349'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saxophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6717'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pianoforte'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4341'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saxophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3833'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2752'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tam_tam'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3394'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4832'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2821'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4462'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6542'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/virginal'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2585'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4325'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3872'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2297'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3584'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3107'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3735'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/concertina'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3313'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2517'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4295'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ophicleide'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3787'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6035'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4446'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3804'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasson'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2284'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pianoforte'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/7034'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ngoni'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3516'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/monocorde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6526'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/concertina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4024'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_de_pan'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4364'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3228'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3568'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon_electrique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2978'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/steel_drum'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3486'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lyre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3198'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/rabab'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5717'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2268'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue_positif'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3689'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/santur'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2260'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano_mecanique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.88</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4197'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor_anglais'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2419'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2759'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tapan'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3909'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4129'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2820'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2381'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2532'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4461'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3380'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2244'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavicetherium'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3871'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6618'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/synthetiseur'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2993'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/percussions'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2231'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavicorde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4294'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ophicleide'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2283'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3515'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5853'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/percussions'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3063'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/balafon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2267'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4347'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saxophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3266'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4838'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/scie_musicale'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2676'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mridangam'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5686'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4128'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3826'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4468'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tuba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2879'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/timbales'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3538'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/arc_musical'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3099'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/xylophone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4959'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3878'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6617'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2230'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6669'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4362'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6299'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sitar'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5512'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/zarb'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3501'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lyre'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3062'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/xylophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5770'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2266'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6714'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6141'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3265'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5685'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5702'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/batterie'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2253'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2387'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/carillon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4182'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2404'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3825'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4467'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tuba'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4824'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2319'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3795'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3318'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/balalaika'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4454'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3658'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6534'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3236'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4029'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piccolo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2289'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.87</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2281'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano_electrique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3576'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/arpeggione'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4369'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4800'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6298'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3439'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2358'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2849'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tam_tam'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5141'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6148'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2471'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cymbales'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6140'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6631'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2252'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6683'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4181'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bombarde'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6700'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2743'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tam_tam'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4672'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3591'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3876'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3794'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3945'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pipa'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3945'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/fifre'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2864'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guimbarde'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4165'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alboka'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3863'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3235'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare_basse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3575'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violoncelle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2985'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vibraphone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5233'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pipa'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4355'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ophicleide'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6284'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3559'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4067'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6147'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5639'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cymbales'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4136'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.98</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3960'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5700'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3332'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/charango'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4188'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornemuse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2251'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4967'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4339'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3258'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/kora'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3598'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2320'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6337'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3604'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3793'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2235'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4164'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6118'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4370'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3862'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3574'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4233'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2493'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3286'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6653'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3643'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4285'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4302'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tuba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5723'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3355'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/dotar'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3506'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/rabab'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2274'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6722'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piccolo'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3558'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2916'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/likembe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6352'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3476'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/oud'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4897'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/epinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4475'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2886'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/timbales'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2250'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6555'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4338'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3597'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4829'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sifflet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6624'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2818'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/zarb'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2371'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4459'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tuba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3521'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/arc_musical'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3869'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6117'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4377'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2780'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3573'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon_prepare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3573'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4232'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3930'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2273'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pianoforte'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6578'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3694'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sitar'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2915'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/likembe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2205'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.88</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6691'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3832'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3204'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sarangi'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6842'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/rabab'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2257'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/virginal'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6554'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3747'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/biniou'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6623'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/percussions'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4118'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2296'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3868'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3106'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cistre'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6116'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3786'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6525'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4936'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4497'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6720'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2349'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3839'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2462'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cymbales'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6139'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3883'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3255'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4391'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/djiridoo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3461'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tampura'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3612'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6622'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/carillon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4882'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2531'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4460'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bombarde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6962'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sarangi'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2243'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3664'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6674'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2734'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3242'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3582'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violoncelle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3733'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bandoneon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3867'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4087'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2937'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/marimba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2364'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3308'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3514'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3226'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/banjo'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2279'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3566'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2636'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gwo_ka'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3429'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/rabab'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5715'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3347'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tam_tam'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6508'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4346'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saxophone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3838'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3399'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandole'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5767'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2900'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tabla'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2612'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3882'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2952'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lithophone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6629'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pianoforte'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4171'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4322'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3249'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3241'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5178'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2311'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3732'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2991'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/percussions'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6660'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2226'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trautonium'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3853'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3225'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4361'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4224'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3277'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4142'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2687'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6356'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2265'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2416'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6713'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3837'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5766'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/celesta'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5684'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4126'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6055'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3610'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6968'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2249'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2241'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4170'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2318'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue_electrique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2310'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3731'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4299'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ophicleide'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4291'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/zourna'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3808'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sarrussophone'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3512'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandole'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4020'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ocarina'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4368'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4360'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3224'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3564'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5493'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tabla'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3142'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viele'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3633'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cymbalum'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3194'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/monocorde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2264'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3836'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4344'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saxophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6273'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2958'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/qin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3823'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4177'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bombarde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4328'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3247'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lyre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3875'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3807'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cervelas'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2287'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3519'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette_marine'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3859'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4367'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trombone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4850'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sitar'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3489'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/beganna'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2899'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tabla'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4343'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saxophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3413'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/pipa'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3753'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cabrette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4124'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3822'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clairon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3822'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5463'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3874'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2316'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/synthetiseur'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3586'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4873'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4111'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonica'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2807'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/gong'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2368'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/scie_musicale'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4297'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ophicleide'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3233'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3518'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/monocorde'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2286'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lyre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe_indienne'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2777'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tombak'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4284'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bombarde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5516'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3708'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3897'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_basse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3700'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6924'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2967'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4419'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2408'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cloche'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3678'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/qanun'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4389'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/conque'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3873'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3111'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3451'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/shamisen'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4093'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4093'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2370'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/percussions'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4110'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonica'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3791'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2233'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6538'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piccolo'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2861'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guimbarde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3860'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2285'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2302'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6311'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/accordeon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2217'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/ondes_martenot'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5855'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2423'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/castagnettes'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4486'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/serinette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2475'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cymbales'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3134'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/erhu'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6635'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harmonium'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2256'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/epinette'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3828'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3820'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3746'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornemuse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2451'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cymbales'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4388'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavicorde'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2799'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/zarb'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2942'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sanza'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3609'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.92</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4879'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4117'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3790'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5530'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2232'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavicorde'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6537'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4169'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3239'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2301'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5659'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/percussions'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2504'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6809'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4282'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4351'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5690'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3473'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/theorbe'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4894'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3202'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/rebec'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3827'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clarinette'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4335'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2746'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3254'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/kora'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6264'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3594'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3745'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornemuse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6621'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3457'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sitar'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2949'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/lithophone'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3608'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4116'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cor'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3797'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4456'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2239'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/clavecin'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6536'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4796'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3866'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cornet'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.86</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3230'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare_basse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2308'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3570'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/violon'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3729'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/cithare'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4289'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/hautbois'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5727'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4018'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2278'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5703'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/batterie'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2254'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/virginal'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3881'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3456'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/sitar'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3813'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/basson'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4321'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/alto'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4455'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tuba'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.89</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6401'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/contrebasse'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2293'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3237'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/guitare'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3443'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/saz'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4236'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/viole_damour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3495'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/crouth'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2225'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/theremin'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3646'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vina'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4154'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/orgue_a_bouche'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6807'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4494'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/5726'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/piano'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3509'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandoline'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4017'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/flute'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4357'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2420'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/castagnettes'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3276'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/harpe'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2760'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2209'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3471'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/luth'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/4138'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3397'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/mandole'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/6558'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/tambour'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3880'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bugle'/>
+      <relation>notvalid</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3252'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/vihuela'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3743'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/melodeon'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3329'/>
+      <entity2 rdf:resource='http://data.doremus.org/vocabulary/redomi/mop/bouzouki'/>
+      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

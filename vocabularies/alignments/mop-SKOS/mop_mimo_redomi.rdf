@@ -1,0 +1,958 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2276">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/claviharpe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/alto">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3561"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2208"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/harpe">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/scie_musicale">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2368"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3111">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/contrebasse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3746">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cornemuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/clarinette">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3836"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/percussions">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/vihuela">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3252"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3451">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/shamisen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/pipa">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3413"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/theorbe">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3473"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/lyre">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3501"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/hautbois">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/virginal">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2257"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2208">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4467">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tuba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4346">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/saxophone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/ngoni">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/7034"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/clairon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/sifflet">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2471">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cymbales"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/trombone">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4369"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3733">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/bandoneon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/tambour">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2899">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tabla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2318">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue_electrique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2887">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/timbales"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cervelas">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4454">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trompette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4357"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4713">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flabiol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4369">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trombone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4357">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cor_anglais">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/banjo">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4029">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piccolo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/basson">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3795"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3834"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3308">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3538">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/arc_musical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/ondes_martenot">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2217"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3732">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/accordeon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4291">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/zourna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/shakuhachi">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/oud">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/castagnettes">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2423"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3473">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/theorbe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/gong">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2820"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3461">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tampura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3582">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/violoncelle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2799">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/zarb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/saxophone">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4346"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/sanza">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2942"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4138">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/viole">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3597"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2299">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2251">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clavecin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3808">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sarrussophone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/djiridoo">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4391"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/concertina">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3735"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3134">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/erhu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3743">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/melodeon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4475"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3501">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/lyre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4181">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/bombarde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/bugle">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3881"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flute_alto">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3886"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/trautonium">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/sitar">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/orgue_mecanique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4101">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sifflet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/erhu">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/sarangi">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/mandoline">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3807">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cervelas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/rebec">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3202"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2260">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piano_mecanique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2381">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cloche"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cymbalum">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3318">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/balalaika"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/celesta">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5766"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/orgue_a_bouche">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4154"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3633">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cymbalum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/shamisen">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3451"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5702">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/batterie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cabrette">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3753"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3730">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3495">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/crouth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4475">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2676">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/mridangam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/biniou">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3747"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4039">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flute_a_bec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/violon_electrique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3568"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/viele">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/xylophone">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/likembe">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2933"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2285">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2370">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/percussions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3329">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/bouzouki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/clavicorde">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/harmonica">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3668">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/koto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3305">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/vibraphone">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2985"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3886">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flute_alto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/guitare">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3753">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cabrette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3397">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/mandole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3252">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/vihuela"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4111">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harmonica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cistre">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/qanun">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3678"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4232">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/hautbois"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4486">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/serinette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4389">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/conque"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2423">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/castagnettes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2217">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/ondes_martenot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/bombarde">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3708">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/vina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/orgue">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2266"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/sarod">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3441"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3897">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flute_basse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3413">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/pipa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3510">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/mandoline"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3970">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/galoubet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4093">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3305"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/arpeggione">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3576"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/timbales">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2887"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/zourna">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3308"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2226">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trautonium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2933">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/likembe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/theremin">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/ophicleide">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/conque">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4389"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/gwo_ka">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2636"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/contrebasson">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3804"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/orgue_electrique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2318"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3142">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viele"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flabiol">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4713"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3804">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/contrebasson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3678">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/qanun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/koto">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3860">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cornet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3286">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2319"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4024">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flute_de_pan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flute_basse">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3897"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2321">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/synthetiseur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/tampura">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/claviharpe">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2276"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/sarrussophone">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3689">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/santur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3568">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/violon_electrique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/synthetiseur">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/piano_mecanique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2260"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/tapan">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2759"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3285">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harpe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flute_a_bec">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4039"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3394">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/luth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/zarb">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/fifre">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3945"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2358"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3729">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cithare"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3608">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viole_damour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/batterie">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5702"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/crouth">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3495"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2281">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/piano_electrique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3079">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/marimba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/balalaika">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3318"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3204">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sarangi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/monocorde">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3518"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4494">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/kantele">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3660"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cithare">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3729"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2358">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2225">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/theremin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cymbales">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2471"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/viole_damour">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3608"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/vina">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3708"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/piano_electrique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2281"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2585">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tambour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/alboka">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/balafon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3063"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/orgue_positif">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2268"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/serinette">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/7034">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/ngoni"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4372">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cor_des_alpes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3881">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/bugle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4493">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue_mecanique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2820">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/gong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4299">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/ophicleide"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4154">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue_a_bouche"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2759">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tapan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3604"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2235">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harmonium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4138"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3836">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clarinette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/piccolo">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3945">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/fifre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/mridangam">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2676"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3226">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/banjo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3795">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/basson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3202">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/rebec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3106">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cistre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3456">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sitar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/clavecin">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2251"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4020">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/ocarina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/nay">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4229"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2942">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sanza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4165">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/alboka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2368">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/scie_musicale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3286"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/saz">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3443"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2978">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/steel_drum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2244">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clavicetherium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2232">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clavicorde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4326">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2268">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue_positif"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cornemuse">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2256">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/epinette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4229">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/nay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/contrebasse">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/accordeon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3732"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5766">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/celesta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3237">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/guitare"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3576">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/arpeggione"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3443">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/saz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/guimbarde">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2864"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/charango">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/kora">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2636">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/gwo_ka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/marimba">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3079"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cloche">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2381"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4055">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/shakuhachi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/santur">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3689"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cor">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4118"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/carillon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/bandoneon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cor_des_alpes">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4372"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2257">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/virginal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/harmonium">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3063">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/balafon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3519">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/trompette_marine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3604">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/qin">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3684"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3099">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/xylophone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/epinette">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3834">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3822">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/clairon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3955">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/flute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3236">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/lithophone">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3684">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/qin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3660">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/kantele"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2364"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/trompette">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4454"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/arc_musical">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3538"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/violon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2952">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/lithophone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4326"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2746">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2266">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2387">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/carillon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/beganna">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3489"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4118">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2230">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3518">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/monocorde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3506">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/rabab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flute">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3955"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/violoncelle">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3101">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/ocarina">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/cornet">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3860"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3489">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/beganna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3235">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/guitare_basse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3332">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/charango"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3441">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/sarod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2864">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/guimbarde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/guitare_basse">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2319">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/flute_de_pan">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2985">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/vibraphone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2364">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/trompette_marine">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3519"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/piano">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/tabla">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2899"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3747">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/biniou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/rabab">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3506"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/melodeon">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/clavicetherium">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2244"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/tuba">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4467"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3735">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/concertina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/steel_drum">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2978"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3258">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/kora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3355">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/dotar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3597">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/viole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/luth">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/bouzouki">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3329"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3476">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/oud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3561">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/alto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/mandole">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3397"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4391">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/djiridoo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3573">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/violon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/dotar">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3355"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4197">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/redomi/mop/cor_anglais"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/redomi/mop/galoubet">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3970"/>
+  </rdf:Description>
+</rdf:RDF>

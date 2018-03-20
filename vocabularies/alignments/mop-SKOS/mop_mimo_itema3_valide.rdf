@@ -1,0 +1,1450 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/184">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/6538"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2018">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3368"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2006">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2244"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/172">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2899"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3111">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1594">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/726">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3269">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1315"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3475">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3451">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2042"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/62">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4342"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/50">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2266"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4443">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4576">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4467">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/86">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4346">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/74">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3705"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/195">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3318"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2471">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6538">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2017">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2864"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/183">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/846">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3983"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1146">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3753"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5228">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1470"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3232">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/51">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2268"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4454">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/99">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2358"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/87">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4333">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/786"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/75">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2985"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4369">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/71"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4357">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4103">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/144"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4236">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/63">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4029">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/89">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5766"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2004">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4326"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/170">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2598"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2371">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2028">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/194">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3828"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2016">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3577"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5530">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2028"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3145">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/566"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1471">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3661"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3169">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/726"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/966">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4391"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3267">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3473">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3594">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3461">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3582">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/40">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4126">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4465">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/365"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/76">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3252"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4017">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4138">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4344">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/64">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4368">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2299">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2015">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2251">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/181">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3079"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2027">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3512"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3808">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1470">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3134">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/806"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/626">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3609"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3230">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/3">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3561"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4101">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2002">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3267"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4343">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/77">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3597"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/65">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/41">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4258">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/180">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2676"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/192">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3143">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1550">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3732"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2729">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/746">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3884"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3471">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/766"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3362">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1006">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3404"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/4">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3316"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/82">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3933"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4463">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/70">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2887"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4342">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4378">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/83"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4039">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/191">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3806">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/116"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2370">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1670">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3518"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/406">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3568"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2609">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1595"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3252">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4111">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/95">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3838"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/83">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4378"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3591">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/71">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4369"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4232">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/866">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3735"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2008">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2554"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3708">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/607"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1246">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3660"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/84">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3881"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/72">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4454"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4485">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/386"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/60">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4364">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4497">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2034"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4267">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2703">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2032"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2007">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3828">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/194"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3142">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/199"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3154">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3804">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/245"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1450">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4361"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1595">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2609"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1596">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2865"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3286">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3250">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/588"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/73">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4467"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/61">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4346"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4024">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/7">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3795"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/646">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/97">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2423"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4157">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/85">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2729"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/59">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4364"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/47">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/35">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2968"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/23">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3839">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2058">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3706"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3609">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/626"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3706">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2058"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2292">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2033"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1186">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3900">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3285">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/807">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4267"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3394">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2033">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4362">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2057">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/386">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4485"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2045">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/144">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/265">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3441"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/10">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/8">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5703"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/168">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/48">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/36">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/24">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3860"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/385">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3604"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3729">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3031">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/158"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3838">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2281">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/178"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3705">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3079">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/9">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2508">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/110"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/806">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4361">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1450"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2032">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2703"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4927">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2056">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4368"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4276">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2968">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2020">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3286"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2714">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2037"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/25">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/13">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3729"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/142">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3970"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/49">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2217"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2055">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2043">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2820">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4299">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4154">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/466"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2529">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/201"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/166">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/178">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2281"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/26">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3594"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/14">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3836"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/165">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3154"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/38">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3836">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3945">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3186">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3198">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2036"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3933">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2942">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2038"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2054">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/177">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3413"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/189">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2524"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2042">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3451"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2030">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/164">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3615"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/285">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/79">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/176">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3689"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/67">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2026">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3501"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3183">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/173"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2038">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2942"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/827">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/706">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3576"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2515">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2013">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2001">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3538"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4055">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/66">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4349"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/54">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/42">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/30">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4039"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/151">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/175">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3249"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/68">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3591"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2037">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2714"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2025">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3063">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/137"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3604">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/385"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3099">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3834">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/202"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3822">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3955">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/826">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2024">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2012">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3945"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2952">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1594"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/199">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/43">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2746">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2045"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/69">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3473"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/174">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/57">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/186">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/45">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/198">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2048">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4276"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2036">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/150">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/6314"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1370">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4762"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3518">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3615">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3930">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/946">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3768"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/607">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3708"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2011">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4463"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2864">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2035">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3678"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2985">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4813">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2046"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/32">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3897"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2404">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/200"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/20">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4118"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/173">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/58">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3677"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/185">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/46">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2208"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/34">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2059">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3305"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2047">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2760"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1490">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4157"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3747">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/426"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3868">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3832">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1066">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5759"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3735">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/866"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/727">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4391">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/966"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2022">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3984"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2865">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1596"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2010">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4197">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2046">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4813"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2034">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4497"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/21">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/19">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3746">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/159"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4184">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/116">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3806"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/104">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2208">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2061">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2257"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/201">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2529"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2426">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/206"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/588">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3250"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3733">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4171">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/113"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2899">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/172"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/466">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4154"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/587">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2368"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2887">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/127">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3886"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4098">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1313"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/200">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2404"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4713">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2524">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/103">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2471"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4701">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/345"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2536">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/345">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4701"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3538">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3732">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3768">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4194">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2799">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/646"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2533">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/211">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/102">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/5180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3404">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3501">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4181">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5703">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4072">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/137">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3063"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/113">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4171"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/15">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3832"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/39">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3318">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3512">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2027"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3633">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3984">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2676">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/112">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/221">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2222"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/100">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4927"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2579">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/92"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/245">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3804"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2041">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3444"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/136">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2536"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2520">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/86"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/28">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/16">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3839"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3329">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/105"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3668">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2025"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3305">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2059"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3886">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3753">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3983">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/846"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/159">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/486">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4138"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2040">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3443"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2423">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/97"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/111">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/123">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/365">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4465"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2217">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/135">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4733">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2052">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/6540"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/147">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4072"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/110">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2508"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/29">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3955"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/17">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2251"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2892">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/727"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3316">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3897">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3413">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3510">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3970">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4093">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/906">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/134">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3358"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/158">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2554">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/121">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3930"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2760">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2047"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3678">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2035"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3860">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5759">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1066"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3884">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/133">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4194"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6540">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2052"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/2050">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3475"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2321">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5180">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3689">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/176"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3677">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/58"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3568">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1313">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4098"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/90">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/209">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/766">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3471"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3204">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3325">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2358">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/426">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3747"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2225">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2222">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/221"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2585">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/107"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2246">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/826"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1311">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4443"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/80">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3881">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/92">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2579"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/546">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3202"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2235">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2598">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1430">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3489"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1551">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4357"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3226">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3444">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2041"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3795">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3202">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/546"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3106">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3456">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/174"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3577">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2016"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/109">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6314">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/206">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2426"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2368">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/587"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2244">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2232">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4326">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2268">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4762">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2256">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4229">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3249">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/5766">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3237">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3358">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3576">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/706"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3443">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2040"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3661">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1471"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/786">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4333"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4349">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2257">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2061"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3236">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3660">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/204">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4126"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/325">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4229"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/107">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/446">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2820"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4446">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2057"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2266">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2387">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4118">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2230">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3368">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2018"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3489">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/1430"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3235">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3332">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3441">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/265"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/1315">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3269"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/203">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/215">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4576"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/566">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3145"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2364">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/686"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4129">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/203"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3005">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2054"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3258">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/2024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3597">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3476">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3561">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/3573">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/105">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3329"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/686">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2364"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/129">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4713"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/589">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4347">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/mop/65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/mop/202">
+    <skos:exactMatch rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3834"/>
+  </rdf:Description>
+</rdf:RDF>

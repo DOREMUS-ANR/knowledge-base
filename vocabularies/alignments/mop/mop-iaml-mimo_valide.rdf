@@ -653,7 +653,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/mop/tha'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/3285'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -1197,7 +1197,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/mop/kpf__s'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2281'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>
@@ -2293,7 +2293,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/mop/kun'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2230'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.99</measure>
     </Cell>
   </map>
@@ -2861,7 +2861,7 @@
     <Cell>
       <entity1 rdf:resource='http://data.doremus.org/vocabulary/iaml/mop/mmi'/>
       <entity2 rdf:resource='http://www.mimo-db.eu/InstrumentsKeywords/2348'/>
-      <relation>http://www.w3.org/2004/02/skos/core#exactMatch</relation>
+      <relation>notvalid</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
     </Cell>
   </map>

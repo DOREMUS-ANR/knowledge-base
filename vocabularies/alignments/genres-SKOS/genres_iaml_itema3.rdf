@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/fm">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/18">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/op"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/wom">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mld">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/122"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/li">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/jz">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/3">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/ch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/rgg">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/24">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/16">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/fm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/141">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/or"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/26">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/skt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/121">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/5">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/cy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/skt">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/bl">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/12">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/wom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/22">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/hip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/or">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/mp">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/ch">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/op">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/17">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/nwa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/opc">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/hip">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/2">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/bl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/cy">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/8">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/jz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/142">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/opc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/4">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/122">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mld"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/23">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/rgg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/iaml/genre/nwa">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/itema3/genre/17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.doremus.org/vocabulary/itema3/genre/11">
+    <skos:exactMatch rdf:resource="http://data.doremus.org/vocabulary/iaml/genre/mp"/>
+  </rdf:Description>
+</rdf:RDF>
