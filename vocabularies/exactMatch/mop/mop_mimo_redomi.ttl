@@ -1,0 +1,642 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/accordeon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3732> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/alboka> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4165> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/alto> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3561> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/arc_musical> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3538> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/arpeggione> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3576> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/balafon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3063> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/balalaika> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3318> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/bandoneon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3733> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/banjo> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3226> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4326> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/basson> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3795> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/batterie> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5702> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/beganna> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3489> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/biniou> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3747> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4494> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/bombarde> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4181> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/bouzouki> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3329> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/bugle> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3881> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cabrette> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3753> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/carillon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2387> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/castagnettes> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2423> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/celesta> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5766> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cervelas> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3807> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/charango> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3332> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cistre> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3106> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cithare> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3729> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/clairon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3822> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/clarinette> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3836> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/clavecin> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2251> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/clavicetherium> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2244> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/clavicorde> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2232> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/claviharpe> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2276> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cloche> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2381> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/concertina> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3735> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/conque> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4389> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/contrebasse> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3111> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/contrebasson> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3804> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cor> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4118> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cor_anglais> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4197> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3834> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cor_des_alpes> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4372> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cornemuse> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3746> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cornet> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3860> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2358> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/crouth> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3495> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cymbales> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2471> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/cymbalum> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3633> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/djiridoo> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4391> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/dotar> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3355> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/epinette> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2256> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/erhu> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3134> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/fifre> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3945> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flabiol> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4713> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flute> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3955> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flute_a_bec> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4039> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flute_alto> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3886> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flute_basse> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3897> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flute_de_pan> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4024> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4093> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/galoubet> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3970> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/gong> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2820> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/guimbarde> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2864> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/guitare> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3237> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/guitare_basse> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3235> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3236> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/gwo_ka> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2636> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/harmonica> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4111> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2364> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/harmonium> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2235> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/harpe> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3285> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3286> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/hautbois> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4232> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2230> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3101> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3730> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2208> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4475> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/kantele> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3660> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/kora> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3258> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/koto> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3668> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/likembe> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2933> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/lithophone> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2952> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/luth> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3394> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/lyre> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3501> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/mandole> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3397> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/mandoline> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3510> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/marimba> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3079> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/melodeon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3743> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/monocorde> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3518> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/mridangam> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2676> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/nay> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4229> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/ngoni> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/7034> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/ocarina> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4020> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/ondes_martenot> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2217> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/ophicleide> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4299> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/orgue> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2266> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/orgue_a_bouche> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4154> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/orgue_electrique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2318> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2319> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/orgue_mecanique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4493> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/orgue_positif> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2268> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/oud> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3476> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/percussions> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2370> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/piano> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2299> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/piano_electrique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2281> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2285> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/piano_mecanique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2260> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/piccolo> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4029> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/pipa> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3413> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/qanun> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3678> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/qin> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3684> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/rabab> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3506> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/rebec> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3202> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/santur> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3689> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/sanza> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2942> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/sarangi> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3204> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/sarod> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3441> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/sarrussophone> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3808> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/saxophone> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4346> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/saz> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3443> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/scie_musicale> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2368> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/serinette> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4486> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4357> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/shakuhachi> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4055> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/shamisen> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3451> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/sifflet> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4101> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/sitar> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3456> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/steel_drum> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2978> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/synthetiseur> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2321> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/tabla> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2899> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/tambour> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2585> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2746> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/tampura> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3461> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/tapan> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2759> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/theorbe> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3473> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/theremin> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2225> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/timbales> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2887> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/trautonium> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2226> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/trombone> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4369> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4138> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/trompette> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4454> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/trompette_marine> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3519> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/tuba> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4467> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/vibraphone> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2985> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/viele> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3142> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3305> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3308> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/vihuela> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3252> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/vina> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3708> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/viole> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3597> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/viole_damour> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3608> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3604> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/violon> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3573> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/violon_electrique> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3568> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/violoncelle> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3582> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/virginal> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2257> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/xylophone> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3099> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/zarb> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2799> .
+
+<http://data.doremus.org/vocabulary/redomi/mop/zourna> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4291> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2208> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2217> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/ondes_martenot> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2225> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/theremin> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2226> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/trautonium> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2230> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2232> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/clavicorde> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2235> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/harmonium> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2244> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/clavicetherium> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2251> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/clavecin> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2256> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/epinette> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2257> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/virginal> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2260> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/piano_mecanique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2266> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/orgue> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2268> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/orgue_positif> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2276> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/claviharpe> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2281> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/piano_electrique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2285> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2299> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/piano> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2318> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/orgue_electrique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2319> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2321> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/synthetiseur> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2358> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2364> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2368> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/scie_musicale> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2370> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/percussions> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2381> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cloche> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2387> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/carillon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2423> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/castagnettes> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2471> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cymbales> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2585> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/tambour> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2636> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/gwo_ka> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2676> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/mridangam> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2746> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2759> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/tapan> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2799> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/zarb> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2820> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/gong> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2864> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/guimbarde> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2887> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/timbales> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2899> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/tabla> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2933> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/likembe> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2942> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/sanza> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2952> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/lithophone> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2978> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/steel_drum> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2985> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/vibraphone> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3063> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/balafon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3079> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/marimba> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3099> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/xylophone> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3101> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3106> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cistre> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3111> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/contrebasse> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3134> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/erhu> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3142> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/viele> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3202> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/rebec> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3204> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/sarangi> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3226> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/banjo> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3235> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/guitare_basse> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3236> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3237> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/guitare> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3252> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/vihuela> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3258> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/kora> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3285> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/harpe> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3286> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3305> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3308> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3318> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/balalaika> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3329> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/bouzouki> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3332> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/charango> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3355> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/dotar> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3394> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/luth> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3397> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/mandole> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3413> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/pipa> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3441> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/sarod> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3443> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/saz> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3451> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/shamisen> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3456> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/sitar> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3461> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/tampura> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3473> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/theorbe> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3476> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/oud> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3489> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/beganna> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3495> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/crouth> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3501> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/lyre> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3506> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/rabab> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3510> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/mandoline> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3518> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/monocorde> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3519> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/trompette_marine> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3538> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/arc_musical> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3561> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/alto> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3568> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/violon_electrique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3573> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/violon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3576> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/arpeggione> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3582> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/violoncelle> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3597> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/viole> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3604> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3608> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/viole_damour> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3633> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cymbalum> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3660> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/kantele> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3668> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/koto> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3678> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/qanun> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3684> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/qin> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3689> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/santur> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3708> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/vina> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3729> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cithare> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3730> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3732> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/accordeon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3733> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/bandoneon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3735> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/concertina> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3743> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/melodeon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3746> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cornemuse> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3747> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/biniou> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3753> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cabrette> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3795> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/basson> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3804> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/contrebasson> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3807> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cervelas> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3808> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/sarrussophone> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3822> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/clairon> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3834> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3836> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/clarinette> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3860> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cornet> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3881> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/bugle> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3886> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flute_alto> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3897> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flute_basse> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3945> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/fifre> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3955> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flute> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3970> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/galoubet> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4020> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/ocarina> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4024> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flute_de_pan> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4029> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/piccolo> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4039> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flute_a_bec> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4055> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/shakuhachi> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4093> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4101> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/sifflet> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4111> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/harmonica> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4118> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cor> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4138> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4154> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/orgue_a_bouche> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4165> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/alboka> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4181> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/bombarde> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4197> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cor_anglais> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4229> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/nay> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4232> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/hautbois> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4291> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/zourna> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4299> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/ophicleide> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4326> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4346> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/saxophone> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4357> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4369> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/trombone> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4372> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/cor_des_alpes> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4389> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/conque> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4391> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/djiridoo> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4454> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/trompette> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4467> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/tuba> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4475> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4486> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/serinette> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4493> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/orgue_mecanique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4494> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4713> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/flabiol> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5702> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/batterie> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5766> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/celesta> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/7034> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/mop/ngoni> .
+

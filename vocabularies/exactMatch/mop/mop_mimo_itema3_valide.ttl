@@ -1,0 +1,970 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3204> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/10> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4184> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/100> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4927> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1006> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3404> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/102> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5180> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/103> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2471> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/104> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3226> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/105> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3329> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1066> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5759> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/107> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2585> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/109> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3235> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/110> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2508> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/111> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3325> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/112> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4181> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/113> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4171> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1146> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3753> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/116> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3806> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1186> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3232> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/121> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3930> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/123> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4024> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1246> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3660> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/127> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3886> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/129> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4713> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/13> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3729> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1311> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4443> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1313> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4098> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1315> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3269> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/133> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4194> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/134> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3358> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/135> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3099> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/136> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2536> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/137> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3063> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1370> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4762> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/14> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3836> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/142> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3970> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1430> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3489> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/144> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4103> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1450> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4361> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/147> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4072> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1470> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5228> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1471> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3661> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1490> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4157> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/15> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3832> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/150> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6314> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/151> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3186> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1550> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3732> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1551> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4357> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/158> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3031> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/159> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3746> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1594> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2952> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1595> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2609> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1596> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2865> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/16> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3839> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/164> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3615> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/165> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3154> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/166> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4055> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/1670> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3518> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/168> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3461> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/17> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2251> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/170> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2598> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/172> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2899> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/173> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3183> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/174> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3456> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/175> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3249> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/176> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3689> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/177> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3413> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/178> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2281> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/180> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2676> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/181> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3079> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/183> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2232> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/184> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6538> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/185> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3733> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/186> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3332> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/189> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2524> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/19> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3111> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/191> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3106> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/192> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3822> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/194> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3828> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/195> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3318> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/198> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2371> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/199> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3142> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/20> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4118> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/200> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2404> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2001> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3538> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2002> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3267> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2004> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4326> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2006> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2244> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2007> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2533> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2008> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2554> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/201> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2529> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2010> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3362> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2011> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4463> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2012> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3945> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2013> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3900> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2015> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3143> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2016> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3577> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2017> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2864> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2018> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3368> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/202> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3834> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2020> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3286> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2022> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3984> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2024> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3258> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2025> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3668> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2026> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3501> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2027> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3512> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2028> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5530> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/203> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4129> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2030> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4299> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2032> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2703> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2033> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2292> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2034> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4497> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2035> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3678> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2036> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3198> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2037> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2714> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2038> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2942> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/204> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4126> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2040> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3443> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2041> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3444> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2042> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3451> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2043> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4101> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2045> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2746> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2046> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4813> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2047> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2760> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2048> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4276> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2050> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3475> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2052> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6540> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2054> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3005> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2055> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4362> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2056> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4368> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2057> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4446> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2058> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3706> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2059> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3305> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/206> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2426> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/2061> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2257> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/209> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2370> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/21> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4197> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/211> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2230> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/215> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4576> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/221> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2222> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/23> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3868> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/24> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3860> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/245> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3804> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/25> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3633> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/26> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3594> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/265> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3441> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/28> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2256> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/285> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3476> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/29> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3955> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/3> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3561> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/30> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4039> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/32> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3897> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/325> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4229> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/34> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4093> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/345> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4701> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/35> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2968> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/36> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3237> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/365> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4465> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/38> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3230> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/385> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3604> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/386> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4485> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/39> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3236> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/4> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3316> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/40> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4111> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/406> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3568> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/41> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2235> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/42> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3285> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/426> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3747> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/43> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4232> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/446> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2820> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/45> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4236> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/46> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2208> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/466> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4154> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/47> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3394> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/48> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3510> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/486> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4138> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/49> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2217> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/50> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2266> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/51> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2268> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/54> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2299> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/546> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3202> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/566> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3145> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/57> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4029> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/58> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3677> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/587> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2368> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/588> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3250> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/589> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4017> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/59> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4364> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/60> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3808> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/607> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3708> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/61> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4346> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/62> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4342> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/626> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3609> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/63> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4343> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/64> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4344> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/646> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2799> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/65> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4347> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/66> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4349> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/67> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2321> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/68> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3591> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/686> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2364> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/69> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3473> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/7> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3795> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/70> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2887> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/706> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3576> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/71> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4369> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/72> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4454> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/726> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3169> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/727> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2892> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/73> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4467> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/74> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3705> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/746> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3884> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/75> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2985> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/76> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3252> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/766> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3471> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/77> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3597> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/786> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4333> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/79> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3573> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/8> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5703> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/80> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3582> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/806> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3134> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/807> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4267> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/82> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3933> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/826> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2246> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/827> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4733> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/83> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4378> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/84> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3881> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/846> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3983> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/85> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2729> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/86> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2520> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/866> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3735> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/87> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2387> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/89> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5766> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/9> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4258> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/90> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2515> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/906> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2225> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/92> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2579> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/946> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3768> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/95> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3838> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/966> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4391> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/97> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2423> .
+
+<http://data.doremus.org/vocabulary/itema3/mop/99> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2358> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2208> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/46> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2217> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/49> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2222> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/221> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2225> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/906> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2230> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/211> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2232> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/183> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2235> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/41> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2244> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2006> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2246> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/826> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2251> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/17> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2256> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/28> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2257> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2061> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2266> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/50> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2268> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/51> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2281> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/178> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2292> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2033> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2299> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/54> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2321> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/67> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2358> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/99> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2364> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/686> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2368> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/587> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2370> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/209> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2371> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/198> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2387> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/87> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2404> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/200> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2423> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/97> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2426> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/206> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2471> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/103> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2508> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/110> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2515> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/90> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2520> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/86> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2524> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/189> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2529> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/201> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2533> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2007> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2536> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/136> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2554> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2008> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2579> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/92> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2585> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/107> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2598> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/170> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2609> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1595> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2676> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/180> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2703> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2032> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2714> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2037> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2729> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/85> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2746> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2045> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2760> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2047> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2799> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/646> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2820> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/446> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2864> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2017> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2865> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1596> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2887> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/70> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2892> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/727> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2899> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/172> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2942> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2038> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2952> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1594> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2968> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/35> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2985> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/75> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3005> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2054> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3031> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/158> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3063> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/137> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3079> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/181> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3099> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/135> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3106> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/191> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3111> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/19> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3134> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/806> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3142> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/199> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3143> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2015> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3145> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/566> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3154> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/165> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3169> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/726> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3183> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/173> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3186> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/151> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3198> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2036> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3202> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/546> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3204> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3226> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/104> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3230> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/38> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3232> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1186> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3235> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/109> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3236> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/39> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3237> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/36> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3249> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/175> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3250> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/588> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3252> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/76> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3258> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2024> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3267> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2002> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3269> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1315> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3285> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/42> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3286> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2020> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3305> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2059> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3316> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/4> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3318> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/195> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3325> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/111> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3329> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/105> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3332> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/186> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3358> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/134> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3362> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2010> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3368> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2018> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3394> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/47> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3404> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1006> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3413> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/177> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3441> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/265> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3443> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2040> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3444> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2041> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3451> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2042> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3456> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/174> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3461> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/168> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3471> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/766> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3473> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/69> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3475> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2050> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3476> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/285> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3489> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1430> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3501> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2026> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3510> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/48> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3512> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2027> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3518> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1670> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3538> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2001> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3561> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/3> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3568> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/406> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3573> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/79> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3576> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/706> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3577> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2016> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3582> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/80> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3591> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/68> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3594> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/26> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3597> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/77> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3604> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/385> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3609> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/626> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3615> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/164> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3633> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/25> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3660> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1246> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3661> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1471> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3668> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2025> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3677> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/58> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3678> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2035> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3689> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/176> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3705> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/74> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3706> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2058> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3708> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/607> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3729> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/13> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3732> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1550> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3733> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/185> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3735> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/866> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3746> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/159> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3747> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/426> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3753> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1146> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3768> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/946> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3795> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/7> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3804> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/245> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3806> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/116> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3808> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/60> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3822> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/192> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3828> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/194> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3832> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/15> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3834> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/202> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3836> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/14> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3838> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/95> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3839> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/16> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3860> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/24> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3868> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/23> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3881> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/84> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3884> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/746> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3886> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/127> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3897> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/32> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3900> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2013> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3930> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/121> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3933> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/82> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3945> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2012> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3955> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/29> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3970> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/142> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3983> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/846> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3984> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2022> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4017> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/589> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4024> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/123> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4029> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/57> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4039> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/30> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4055> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/166> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4072> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/147> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4093> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/34> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4098> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1313> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4101> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2043> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4103> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/144> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4111> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/40> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4118> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/20> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4126> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/204> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4129> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/203> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4138> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/486> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4154> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/466> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4157> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1490> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4171> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/113> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4181> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/112> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4184> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/10> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4194> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/133> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4197> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/21> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4229> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/325> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4232> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/43> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4236> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/45> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4258> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/9> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4267> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/807> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4276> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2048> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4299> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2030> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4326> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2004> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4333> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/786> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4342> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/62> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4343> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/63> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4344> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/64> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4346> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/61> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4347> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/65> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4349> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/66> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4357> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1551> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4361> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1450> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4362> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2055> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4364> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/59> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4368> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2056> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4369> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/71> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4378> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/83> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4391> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/966> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4443> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1311> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4446> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2057> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4454> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/72> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4463> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2011> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4465> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/365> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4467> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/73> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4485> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/386> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4497> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2034> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4576> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/215> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4701> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/345> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4713> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/129> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4733> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/827> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4762> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1370> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4813> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2046> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4927> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/100> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5180> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/102> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5228> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1470> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5530> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2028> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5703> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/8> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5759> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/1066> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5766> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/89> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6314> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/150> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6538> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/184> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6540> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/mop/2052> .
+

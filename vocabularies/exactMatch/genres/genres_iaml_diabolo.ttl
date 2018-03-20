@@ -1,0 +1,608 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/spi> skos:narrowMatch <http://data.doremus.org/vocabulary/diabolo/genre/spiritual> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/allemande> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/alm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/anthem> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/an> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/baiao> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bai> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/bande_originale_de_film> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mp> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/batuque> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/btq> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/be-bop> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bbp> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/berceuse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bcs> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/biguine> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/beg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/bluegrass> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/blues> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bl> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/bolero> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bol> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/boogie_woogie> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bwg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/boston_(danse)> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bst> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/bourree> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bou> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/branle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bra> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/cake_walk> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ckw> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/calypso> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cly> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/can-can> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/can> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/cantate> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ct> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/cantique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ccl> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/canzone> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cz> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/cha_cha_cha> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cha> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/chanson> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/chanson_a_boire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/drs> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/chanson_de_geste> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cdg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/chanson_detudiant> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gos> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/chanson_patriotique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/phy> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/charleston> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/chn> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/choral> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ch> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/comedie_ballet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cob> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/comedie_musicale> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mc> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/conga_(danse)> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cga> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/contredanse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ctd> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/country> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cy> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/csardas> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/csa> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/cueca> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cue> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/danse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/df> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/disco> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/dim> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/dixieland> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/dix> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/drame_liturgique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/lid> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/fado> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fad> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/fandango> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fnd> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/farandole> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/frd> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/flamenco> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fla> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/folksong> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fso> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/foxtrot> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fox> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/free_jazz> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/frj> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/frottole> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fro> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/funk> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fnk> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/gaillarde> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gai> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/galop> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gal> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/gavotte> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gav> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/gigue> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gig> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/gospel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/habanera> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hab> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/hard_rock> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hrk> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/heavy_metal> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hem> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/hip_hop> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hip> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/hornpipe> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hpp> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/intermede> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/in> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/jazz> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/jz> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/jazz_rock> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fus> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/jota> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/jot> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/laude> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/lau> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/lied> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/li> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/liederspiel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/lds> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/madrigal> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/md> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/malaguena> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mlg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/mambo> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mbm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/marche_(danse)> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mr> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/marche_militaire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mim> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/masque> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mqu> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/maxixe> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mxx> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/mazurka> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mz> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/melodrame> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mda> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/messe> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ms> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/milonga> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mng> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/modinha> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mnh> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/moresca> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/msc> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/motet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mo> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/muineira> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mun> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musette_(genre)> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mus> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musique_de_ballet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bt> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musique_de_scene> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/inm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musique_electroacoustique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/elm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musique_militaire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mym> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musique_mixte> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/elx> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/musiques_du_monde> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/wom> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/new_age> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nwa> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/new_wave> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nww> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/nouba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nau> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/one_step> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ons> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/opera> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/op> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/opera-ballet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opb> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/opera-bouffe> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opf> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/opera_comique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opc> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/opera_de_chambre> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cho> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/operette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opt> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/oratorio> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/or> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/pantomime> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pmm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/paso_doble> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/psd> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/passion> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pm> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/pasticcio> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pch> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/pastiche> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pdy> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/pavane> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pv> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/piva> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/piv> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/polka> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/plk> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/polka-mazurka> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pmk> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/pop> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pp> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/priere> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pre> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/psaume> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/psa> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/punk> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pnk> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/quadrille> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/qdl> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/ragtime> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/redowa> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rdw> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/reel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ree> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/reggae> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rgg> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/revue_musicale> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rev> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/rhythm_and_blues> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rhb> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/rigaudon> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rig> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/rock_music> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rc> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/rumba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rum> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/salsa> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sls> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/saltarelle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/slt> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/samba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/smb> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/sardane> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/srd> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/scottish> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ste> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/seguidilla> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sgl> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/sevillane> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sev> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/singspiel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ssp> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/ska> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ska> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/sketche> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/skt> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/soul> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sou> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/square_dance> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sq> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/strambotto> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/str> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/strathspey> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sts> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/swing> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/swi> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/tango> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tng> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/tarentelle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tar> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/techno> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tem> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/tex_mex> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tex> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/theatre_musical> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mut> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/tonadilla> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ton> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/trescone> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/trz> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/tumba_(danse)> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tum> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/two-step> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/two> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/valse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/wz> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/villancico> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/vlc> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/zamba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/zmb> .
+
+<http://data.doremus.org/vocabulary/diabolo/genre/zarzuela> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/zar> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/alm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/allemande> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/an> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/anthem> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bai> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/baiao> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bbp> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/be-bop> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bcs> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/berceuse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/beg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/biguine> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/bluegrass> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bl> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/blues> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bol> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/bolero> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bou> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/bourree> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bra> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/branle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bst> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/boston_(danse)> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bt> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musique_de_ballet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/btq> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/batuque> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bwg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/boogie_woogie> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/can> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/can-can> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ccl> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/cantique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cdg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/chanson_de_geste> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cga> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/conga_(danse)> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ch> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/choral> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cha> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/cha_cha_cha> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chn> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/charleston> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cho> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/opera_de_chambre> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ckw> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/cake_walk> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cly> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/calypso> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cob> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/comedie_ballet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/csa> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/csardas> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ct> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/cantate> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ctd> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/contredanse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cue> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/cueca> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cy> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/country> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cz> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/canzone> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/df> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/danse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dim> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/disco> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dix> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/dixieland> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/drs> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/chanson_a_boire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musique_electroacoustique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elx> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musique_mixte> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fad> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/fado> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fla> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/flamenco> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fnd> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/fandango> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fnk> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/funk> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fox> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/foxtrot> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/frd> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/farandole> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/frj> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/free_jazz> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fro> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/frottole> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fso> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/folksong> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fus> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/jazz_rock> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gai> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/gaillarde> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gal> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/galop> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gav> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/gavotte> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gig> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/gigue> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/gospel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gos> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/chanson_detudiant> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hab> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/habanera> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hem> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/heavy_metal> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hip> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/hip_hop> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hpp> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/hornpipe> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hrk> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/hard_rock> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/in> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/intermede> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/inm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musique_de_scene> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jot> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/jota> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jz> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/jazz> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lau> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/laude> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lds> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/liederspiel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/li> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/lied> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lid> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/drame_liturgique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mbm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/mambo> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mc> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/comedie_musicale> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/md> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/madrigal> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mda> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/melodrame> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mim> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/marche_militaire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mlg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/malaguena> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mng> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/milonga> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mnh> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/modinha> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mo> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/motet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mp> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/bande_originale_de_film> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mqu> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/masque> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mr> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/marche_(danse)> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ms> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/messe> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/msc> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/moresca> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mun> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/muineira> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mus> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musette_(genre)> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mut> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/theatre_musical> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mxx> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/maxixe> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mym> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musique_militaire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mz> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/mazurka> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nau> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/nouba> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nwa> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/new_age> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nww> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/new_wave> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ons> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/one_step> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/op> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/opera> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opb> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/opera-ballet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opc> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/opera_comique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opf> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/opera-bouffe> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opt> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/operette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/or> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/oratorio> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pch> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/pasticcio> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pdy> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/pastiche> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/phy> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/chanson_patriotique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/piv> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/piva> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/plk> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/polka> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/passion> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pmk> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/polka-mazurka> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pmm> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/pantomime> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pnk> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/punk> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pp> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/pop> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pre> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/priere> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psa> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/psaume> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psd> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/paso_doble> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pv> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/pavane> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/qdl> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/quadrille> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rc> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/rock_music> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rdw> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/redowa> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ree> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/reel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rev> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/revue_musicale> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/ragtime> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rgg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/reggae> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rhb> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/rhythm_and_blues> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rig> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/rigaudon> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rum> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/rumba> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sev> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/sevillane> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sg> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/chanson> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sgl> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/seguidilla> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ska> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/ska> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/skt> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/sketche> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sls> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/salsa> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/slt> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/saltarelle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/smb> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/samba> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sou> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/soul> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sq> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/square_dance> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/srd> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/sardane> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ssp> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/singspiel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ste> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/scottish> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/str> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/strambotto> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sts> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/strathspey> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/swi> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/swing> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tar> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/tarentelle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tem> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/techno> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tex> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/tex_mex> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tng> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/tango> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ton> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/tonadilla> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/trz> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/trescone> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tum> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/tumba_(danse)> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/two> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/two-step> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vlc> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/villancico> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wom> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/musiques_du_monde> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wz> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/valse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/zar> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/zarzuela> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/zmb> skos:exactMatch <http://data.doremus.org/vocabulary/diabolo/genre/zamba> .
+

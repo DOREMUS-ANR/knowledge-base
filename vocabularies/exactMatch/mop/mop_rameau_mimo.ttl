@@ -1,0 +1,1510 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb11932125k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2230> .
+
+<http://data.bnf.fr/ark:/12148/cb11932126x> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2208> .
+
+<http://data.bnf.fr/ark:/12148/cb11932961n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2299> .
+
+<http://data.bnf.fr/ark:/12148/cb119353920> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2266> .
+
+<http://data.bnf.fr/ark:/12148/cb11938184j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3237> .
+
+<http://data.bnf.fr/ark:/12148/cb119389226> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2370> .
+
+<http://data.bnf.fr/ark:/12148/cb11940904j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4475> .
+
+<http://data.bnf.fr/ark:/12148/cb119454031> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2251> .
+
+<http://data.bnf.fr/ark:/12148/cb11946205d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2318> .
+
+<http://data.bnf.fr/ark:/12148/cb11948112w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3285> .
+
+<http://data.bnf.fr/ark:/12148/cb11950982j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3305> .
+
+<http://data.bnf.fr/ark:/12148/cb119600781> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3111> .
+
+<http://data.bnf.fr/ark:/12148/cb119601351> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4164> .
+
+<http://data.bnf.fr/ark:/12148/cb11960149q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3730> .
+
+<http://data.bnf.fr/ark:/12148/cb11961430c> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3236> .
+
+<http://data.bnf.fr/ark:/12148/cb119615252> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3649> .
+
+<http://data.bnf.fr/ark:/12148/cb119656228> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4039> .
+
+<http://data.bnf.fr/ark:/12148/cb11965960n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3836> .
+
+<http://data.bnf.fr/ark:/12148/cb119667563> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2321> .
+
+<http://data.bnf.fr/ark:/12148/cb119687406> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4040> .
+
+<http://data.bnf.fr/ark:/12148/cb11969158v> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3573> .
+
+<http://data.bnf.fr/ark:/12148/cb119710774> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6648> .
+
+<http://data.bnf.fr/ark:/12148/cb11974996m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3394> .
+
+<http://data.bnf.fr/ark:/12148/cb11976117r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2387> .
+
+<http://data.bnf.fr/ark:/12148/cb11978172c> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2232> .
+
+<http://data.bnf.fr/ark:/12148/cb11979055r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3252> .
+
+<http://data.bnf.fr/ark:/12148/cb11981325x> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3101> .
+
+<http://data.bnf.fr/ark:/12148/cb119818348> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3970> .
+
+<http://data.bnf.fr/ark:/12148/cb119827436> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4055> .
+
+<http://data.bnf.fr/ark:/12148/cb11987678s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3732> .
+
+<http://data.bnf.fr/ark:/12148/cb119983474> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3582> .
+
+<http://data.bnf.fr/ark:/12148/cb120047877> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3309> .
+
+<http://data.bnf.fr/ark:/12148/cb12015450h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4067> .
+
+<http://data.bnf.fr/ark:/12148/cb12016351t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3230> .
+
+<http://data.bnf.fr/ark:/12148/cb120627421> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4485> .
+
+<http://data.bnf.fr/ark:/12148/cb121466236> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3602> .
+
+<http://data.bnf.fr/ark:/12148/cb121756060> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3316> .
+
+<http://data.bnf.fr/ark:/12148/cb12175608p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3473> .
+
+<http://data.bnf.fr/ark:/12148/cb12188366z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2364> .
+
+<http://data.bnf.fr/ark:/12148/cb121969174> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3724> .
+
+<http://data.bnf.fr/ark:/12148/cb12202452m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2235> .
+
+<http://data.bnf.fr/ark:/12148/cb12211154f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3226> .
+
+<http://data.bnf.fr/ark:/12148/cb12227829t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3608> .
+
+<http://data.bnf.fr/ark:/12148/cb12269056t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3795> .
+
+<http://data.bnf.fr/ark:/12148/cb122697871> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3010> .
+
+<http://data.bnf.fr/ark:/12148/cb122697949> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3099> .
+
+<http://data.bnf.fr/ark:/12148/cb12269798p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2968> .
+
+<http://data.bnf.fr/ark:/12148/cb122697991> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2807> .
+
+<http://data.bnf.fr/ark:/12148/cb12270245r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3804> .
+
+<http://data.bnf.fr/ark:/12148/cb12270247f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3806> .
+
+<http://data.bnf.fr/ark:/12148/cb122705029> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3945> .
+
+<http://data.bnf.fr/ark:/12148/cb122705238> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3834> .
+
+<http://data.bnf.fr/ark:/12148/cb12270527n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4276> .
+
+<http://data.bnf.fr/ark:/12148/cb12270534x> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3832> .
+
+<http://data.bnf.fr/ark:/12148/cb12270536m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3839> .
+
+<http://data.bnf.fr/ark:/12148/cb122705389> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3837> .
+
+<http://data.bnf.fr/ark:/12148/cb12270542j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4236> .
+
+<http://data.bnf.fr/ark:/12148/cb12270545k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4214> .
+
+<http://data.bnf.fr/ark:/12148/cb122705687> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4189> .
+
+<http://data.bnf.fr/ark:/12148/cb12270573t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3807> .
+
+<http://data.bnf.fr/ark:/12148/cb12270578j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4194> .
+
+<http://data.bnf.fr/ark:/12148/cb12270588v> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4020> .
+
+<http://data.bnf.fr/ark:/12148/cb122705923> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4029> .
+
+<http://data.bnf.fr/ark:/12148/cb122706048> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4143> .
+
+<http://data.bnf.fr/ark:/12148/cb12270608n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4111> .
+
+<http://data.bnf.fr/ark:/12148/cb12270846r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3822> .
+
+<http://data.bnf.fr/ark:/12148/cb122708593> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4372> .
+
+<http://data.bnf.fr/ark:/12148/cb122708651> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3860> .
+
+<http://data.bnf.fr/ark:/12148/cb12270867q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3869> .
+
+<http://data.bnf.fr/ark:/12148/cb12270871z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4463> .
+
+<http://data.bnf.fr/ark:/12148/cb12270879q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4333> .
+
+<http://data.bnf.fr/ark:/12148/cb122708891> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4299> .
+
+<http://data.bnf.fr/ark:/12148/cb12270894m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4364> .
+
+<http://data.bnf.fr/ark:/12148/cb12270897n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4362> .
+
+<http://data.bnf.fr/ark:/12148/cb12271127s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2985> .
+
+<http://data.bnf.fr/ark:/12148/cb12271130p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2937> .
+
+<http://data.bnf.fr/ark:/12148/cb12271135d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3063> .
+
+<http://data.bnf.fr/ark:/12148/cb122711493> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2276> .
+
+<http://data.bnf.fr/ark:/12148/cb122711582> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2244> .
+
+<http://data.bnf.fr/ark:/12148/cb12271265m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6621> .
+
+<http://data.bnf.fr/ark:/12148/cb122712679> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5770> .
+
+<http://data.bnf.fr/ark:/12148/cb12271473s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2217> .
+
+<http://data.bnf.fr/ark:/12148/cb122714744> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2226> .
+
+<http://data.bnf.fr/ark:/12148/cb12271557t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3633> .
+
+<http://data.bnf.fr/ark:/12148/cb122715612> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3501> .
+
+<http://data.bnf.fr/ark:/12148/cb122715674> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3495> .
+
+<http://data.bnf.fr/ark:/12148/cb122715763> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3106> .
+
+<http://data.bnf.fr/ark:/12148/cb122716186> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3512> .
+
+<http://data.bnf.fr/ark:/12148/cb12271668r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3318> .
+
+<http://data.bnf.fr/ark:/12148/cb12271762z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6353> .
+
+<http://data.bnf.fr/ark:/12148/cb12271764n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3322> .
+
+<http://data.bnf.fr/ark:/12148/cb122717968> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3286> .
+
+<http://data.bnf.fr/ark:/12148/cb122717999> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3612> .
+
+<http://data.bnf.fr/ark:/12148/cb122719108> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3580> .
+
+<http://data.bnf.fr/ark:/12148/cb122719139> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3576> .
+
+<http://data.bnf.fr/ark:/12148/cb122719437> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3204> .
+
+<http://data.bnf.fr/ark:/12148/cb12274777q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3733> .
+
+<http://data.bnf.fr/ark:/12148/cb12275075b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3519> .
+
+<http://data.bnf.fr/ark:/12148/cb122904671> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4493> .
+
+<http://data.bnf.fr/ark:/12148/cb12293256j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6262> .
+
+<http://data.bnf.fr/ark:/12148/cb12294217w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3242> .
+
+<http://data.bnf.fr/ark:/12148/cb12294382m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3255> .
+
+<http://data.bnf.fr/ark:/12148/cb123055623> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2676> .
+
+<http://data.bnf.fr/ark:/12148/cb123073474> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3689> .
+
+<http://data.bnf.fr/ark:/12148/cb123074044> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3668> .
+
+<http://data.bnf.fr/ark:/12148/cb12307414f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3325> .
+
+<http://data.bnf.fr/ark:/12148/cb12307418t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4159> .
+
+<http://data.bnf.fr/ark:/12148/cb12307427s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3451> .
+
+<http://data.bnf.fr/ark:/12148/cb12307470x> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3440> .
+
+<http://data.bnf.fr/ark:/12148/cb123075977> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4245> .
+
+<http://data.bnf.fr/ark:/12148/cb12307615b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3441> .
+
+<http://data.bnf.fr/ark:/12148/cb12307635z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3660> .
+
+<http://data.bnf.fr/ark:/12148/cb12307712k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3169> .
+
+<http://data.bnf.fr/ark:/12148/cb12307760f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2989> .
+
+<http://data.bnf.fr/ark:/12148/cb123173898> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3666> .
+
+<http://data.bnf.fr/ark:/12148/cb12325925d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3154> .
+
+<http://data.bnf.fr/ark:/12148/cb124086988> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3538> .
+
+<http://data.bnf.fr/ark:/12148/cb12471053d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2423> .
+
+<http://data.bnf.fr/ark:/12148/cb12471054r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2515> .
+
+<http://data.bnf.fr/ark:/12148/cb12490326h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4173> .
+
+<http://data.bnf.fr/ark:/12148/cb124934046> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2730> .
+
+<http://data.bnf.fr/ark:/12148/cb125014537> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2243> .
+
+<http://data.bnf.fr/ark:/12148/cb125026740> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3984> .
+
+<http://data.bnf.fr/ark:/12148/cb12502847n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3332> .
+
+<http://data.bnf.fr/ark:/12148/cb125064554> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2978> .
+
+<http://data.bnf.fr/ark:/12148/cb12508468z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3181> .
+
+<http://data.bnf.fr/ark:/12148/cb125277021> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2368> .
+
+<http://data.bnf.fr/ark:/12148/cb12536903w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3753> .
+
+<http://data.bnf.fr/ark:/12148/cb12540473f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3025> .
+
+<http://data.bnf.fr/ark:/12148/cb12540647f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3749> .
+
+<http://data.bnf.fr/ark:/12148/cb12541614q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3274> .
+
+<http://data.bnf.fr/ark:/12148/cb12542247t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3006> .
+
+<http://data.bnf.fr/ark:/12148/cb12546784c> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3735> .
+
+<http://data.bnf.fr/ark:/12148/cb12571708p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4419> .
+
+<http://data.bnf.fr/ark:/12148/cb12572179s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2579> .
+
+<http://data.bnf.fr/ark:/12148/cb126990951> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2554> .
+
+<http://data.bnf.fr/ark:/12148/cb13196465r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2471> .
+
+<http://data.bnf.fr/ark:/12148/cb131964721> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3060> .
+
+<http://data.bnf.fr/ark:/12148/cb13337394d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3202> .
+
+<http://data.bnf.fr/ark:/12148/cb133376916> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4148> .
+
+<http://data.bnf.fr/ark:/12148/cb13340075t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4391> .
+
+<http://data.bnf.fr/ark:/12148/cb135068452> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2224> .
+
+<http://data.bnf.fr/ark:/12148/cb135076401> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3706> .
+
+<http://data.bnf.fr/ark:/12148/cb135079687> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3489> .
+
+<http://data.bnf.fr/ark:/12148/cb13508271f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3656> .
+
+<http://data.bnf.fr/ark:/12148/cb13510670g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3525> .
+
+<http://data.bnf.fr/ark:/12148/cb13511156s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3330> .
+
+<http://data.bnf.fr/ark:/12148/cb13558230w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2729> .
+
+<http://data.bnf.fr/ark:/12148/cb135644958> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3845> .
+
+<http://data.bnf.fr/ark:/12148/cb135777413> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2506> .
+
+<http://data.bnf.fr/ark:/12148/cb13619784s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3588> .
+
+<http://data.bnf.fr/ark:/12148/cb13619840f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3586> .
+
+<http://data.bnf.fr/ark:/12148/cb136198633> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2358> .
+
+<http://data.bnf.fr/ark:/12148/cb14405710v> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4165> .
+
+<http://data.bnf.fr/ark:/12148/cb14417642w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3768> .
+
+<http://data.bnf.fr/ark:/12148/cb14420427z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3406> .
+
+<http://data.bnf.fr/ark:/12148/cb144240165> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6318> .
+
+<http://data.bnf.fr/ark:/12148/cb144805593> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2225> .
+
+<http://data.bnf.fr/ark:/12148/cb145708007> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5330> .
+
+<http://data.bnf.fr/ark:/12148/cb145708603> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3134> .
+
+<http://data.bnf.fr/ark:/12148/cb145721839> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3080> .
+
+<http://data.bnf.fr/ark:/12148/cb14575110t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4258> .
+
+<http://data.bnf.fr/ark:/12148/cb14632592q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2257> .
+
+<http://data.bnf.fr/ark:/12148/cb15043349k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6292> .
+
+<http://data.bnf.fr/ark:/12148/cb15065852r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4127> .
+
+<http://data.bnf.fr/ark:/12148/cb151095953> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3568> .
+
+<http://data.bnf.fr/ark:/12148/cb155012564> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3381> .
+
+<http://data.bnf.fr/ark:/12148/cb15501270p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3177> .
+
+<http://data.bnf.fr/ark:/12148/cb15521596m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2682> .
+
+<http://data.bnf.fr/ark:/12148/cb15587573n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2760> .
+
+<http://data.bnf.fr/ark:/12148/cb15974682n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4226> .
+
+<http://data.bnf.fr/ark:/12148/cb16158010f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3897> .
+
+<http://data.bnf.fr/ark:/12148/cb16170319v> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2520> .
+
+<http://data.bnf.fr/ark:/12148/cb16226614j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3661> .
+
+<http://data.bnf.fr/ark:/12148/cb162586557> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6540> .
+
+<http://data.bnf.fr/ark:/12148/cb162712237> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2821> .
+
+<http://data.bnf.fr/ark:/12148/cb16271576n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2585> .
+
+<http://data.bnf.fr/ark:/12148/cb162715879> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2517> .
+
+<http://data.bnf.fr/ark:/12148/cb162719742> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2636> .
+
+<http://data.bnf.fr/ark:/12148/cb16278835k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3613> .
+
+<http://data.bnf.fr/ark:/12148/cb16552616d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2269> .
+
+<http://data.bnf.fr/ark:/12148/cb16569260p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6709> .
+
+<http://data.bnf.fr/ark:/12148/cb16589015q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3336> .
+
+<http://data.bnf.fr/ark:/12148/cb165890282> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3983> .
+
+<http://data.bnf.fr/ark:/12148/cb166171753> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4068> .
+
+<http://data.bnf.fr/ark:/12148/cb16670550d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4393> .
+
+<http://data.bnf.fr/ark:/12148/cb16686765n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6787> .
+
+<http://data.bnf.fr/ark:/12148/cb16687554p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4838> .
+
+<http://data.bnf.fr/ark:/12148/cb166877578> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4836> .
+
+<http://data.bnf.fr/ark:/12148/cb16687900v> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2965> .
+
+<http://data.bnf.fr/ark:/12148/cb166880149> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2490> .
+
+<http://data.bnf.fr/ark:/12148/cb166881257> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5720> .
+
+<http://data.bnf.fr/ark:/12148/cb16688637m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3042> .
+
+<http://data.bnf.fr/ark:/12148/cb16690553v> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2599> .
+
+<http://data.bnf.fr/ark:/12148/cb166906596> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3747> .
+
+<http://data.bnf.fr/ark:/12148/cb16691918p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3052> .
+
+<http://data.bnf.fr/ark:/12148/cb166951816> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4612> .
+
+<http://data.bnf.fr/ark:/12148/cb16696827k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3688> .
+
+<http://data.bnf.fr/ark:/12148/cb16711243g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3529> .
+
+<http://data.bnf.fr/ark:/12148/cb16711273d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3534> .
+
+<http://data.bnf.fr/ark:/12148/cb16711436r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3541> .
+
+<http://data.bnf.fr/ark:/12148/cb167117117> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3301> .
+
+<http://data.bnf.fr/ark:/12148/cb16711725x> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3296> .
+
+<http://data.bnf.fr/ark:/12148/cb16711902t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4138> .
+
+<http://data.bnf.fr/ark:/12148/cb167128859> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5392> .
+
+<http://data.bnf.fr/ark:/12148/cb16713813p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3267> .
+
+<http://data.bnf.fr/ark:/12148/cb16713862w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3269> .
+
+<http://data.bnf.fr/ark:/12148/cb16713901z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6616> .
+
+<http://data.bnf.fr/ark:/12148/cb16714337j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3261> .
+
+<http://data.bnf.fr/ark:/12148/cb16714376f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3626> .
+
+<http://data.bnf.fr/ark:/12148/cb167144203> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6815> .
+
+<http://data.bnf.fr/ark:/12148/cb167144323> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5515> .
+
+<http://data.bnf.fr/ark:/12148/cb16714792s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3721> .
+
+<http://data.bnf.fr/ark:/12148/cb16715012m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3658> .
+
+<http://data.bnf.fr/ark:/12148/cb16715219k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6355> .
+
+<http://data.bnf.fr/ark:/12148/cb16717212n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6680> .
+
+<http://data.bnf.fr/ark:/12148/cb16719695r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3331> .
+
+<http://data.bnf.fr/ark:/12148/cb16719910c> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3143> .
+
+<http://data.bnf.fr/ark:/12148/cb16720069k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3363> .
+
+<http://data.bnf.fr/ark:/12148/cb167200834> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3238> .
+
+<http://data.bnf.fr/ark:/12148/cb16720129m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5344> .
+
+<http://data.bnf.fr/ark:/12148/cb16720136w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3382> .
+
+<http://data.bnf.fr/ark:/12148/cb167202961> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3186> .
+
+<http://data.bnf.fr/ark:/12148/cb16720369d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3402> .
+
+<http://data.bnf.fr/ark:/12148/cb167204508> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3434> .
+
+<http://data.bnf.fr/ark:/12148/cb167205031> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3436> .
+
+<http://data.bnf.fr/ark:/12148/cb16720715k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3450> .
+
+<http://data.bnf.fr/ark:/12148/cb167208077> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3695> .
+
+<http://data.bnf.fr/ark:/12148/cb16720856f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3475> .
+
+<http://data.bnf.fr/ark:/12148/cb16720899q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5463> .
+
+<http://data.bnf.fr/ark:/12148/cb167210047> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3713> .
+
+<http://data.bnf.fr/ark:/12148/cb16730658s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3314> .
+
+<http://data.bnf.fr/ark:/12148/cb16732638n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4978> .
+
+<http://data.bnf.fr/ark:/12148/cb167356580> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2246> .
+
+<http://data.bnf.fr/ark:/12148/cb167362402> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3115> .
+
+<http://data.bnf.fr/ark:/12148/cb16736259g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3139> .
+
+<http://data.bnf.fr/ark:/12148/cb16736293n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3151> .
+
+<http://data.bnf.fr/ark:/12148/cb167364518> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3132> .
+
+<http://data.bnf.fr/ark:/12148/cb167364591> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3145> .
+
+<http://data.bnf.fr/ark:/12148/cb16736521m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4934> .
+
+<http://data.bnf.fr/ark:/12148/cb167365479> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3166> .
+
+<http://data.bnf.fr/ark:/12148/cb16737556h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3158> .
+
+<http://data.bnf.fr/ark:/12148/cb167375675> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6896> .
+
+<http://data.bnf.fr/ark:/12148/cb167376125> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3188> .
+
+<http://data.bnf.fr/ark:/12148/cb16737634g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5759> .
+
+<http://data.bnf.fr/ark:/12148/cb16737653r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3200> .
+
+<http://data.bnf.fr/ark:/12148/cb167376632> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4962> .
+
+<http://data.bnf.fr/ark:/12148/cb167426810> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4011> .
+
+<http://data.bnf.fr/ark:/12148/cb167429678> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2567> .
+
+<http://data.bnf.fr/ark:/12148/cb167429798> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2572> .
+
+<http://data.bnf.fr/ark:/12148/cb167429914> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2573> .
+
+<http://data.bnf.fr/ark:/12148/cb16743581z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2865> .
+
+<http://data.bnf.fr/ark:/12148/cb16743868k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2892> .
+
+<http://data.bnf.fr/ark:/12148/cb167439336> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2703> .
+
+<http://data.bnf.fr/ark:/12148/cb16747908z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2653> .
+
+<http://data.bnf.fr/ark:/12148/cb16747973d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6037> .
+
+<http://data.bnf.fr/ark:/12148/cb16748080f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2478> .
+
+<http://data.bnf.fr/ark:/12148/cb16748333r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4047> .
+
+<http://data.bnf.fr/ark:/12148/cb167513698> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3469> .
+
+<http://data.bnf.fr/ark:/12148/cb16762014m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4026> .
+
+<http://data.bnf.fr/ark:/12148/cb167632419> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3175> .
+
+<http://data.bnf.fr/ark:/12148/cb16763313b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3185> .
+
+<http://data.bnf.fr/ark:/12148/cb16763332m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3193> .
+
+<http://data.bnf.fr/ark:/12148/cb16763390s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3502> .
+
+<http://data.bnf.fr/ark:/12148/cb167634964> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3162> .
+
+<http://data.bnf.fr/ark:/12148/cb167635503> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3216> .
+
+<http://data.bnf.fr/ark:/12148/cb16763588s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3218> .
+
+<http://data.bnf.fr/ark:/12148/cb16763848c> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6759> .
+
+<http://data.bnf.fr/ark:/12148/cb16764004s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3497> .
+
+<http://data.bnf.fr/ark:/12148/cb167661663> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3308> .
+
+<http://data.bnf.fr/ark:/12148/cb167665964> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4036> .
+
+<http://data.bnf.fr/ark:/12148/cb16901902z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2462> .
+
+<http://data.bnf.fr/ark:/12148/cb169020439> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3986> .
+
+<http://data.bnf.fr/ark:/12148/cb169024960> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3288> .
+
+<http://data.bnf.fr/ark:/12148/cb16902700z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5389> .
+
+<http://data.bnf.fr/ark:/12148/cb16902717p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2724> .
+
+<http://data.bnf.fr/ark:/12148/cb16902880q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4046> .
+
+<http://data.bnf.fr/ark:/12148/cb16902889t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4264> .
+
+<http://data.bnf.fr/ark:/12148/cb16903085g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2780> .
+
+<http://data.bnf.fr/ark:/12148/cb169124579> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6839> .
+
+<http://data.bnf.fr/ark:/12148/cb16918147m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4060> .
+
+<http://data.bnf.fr/ark:/12148/cb169181824> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2700> .
+
+<http://data.bnf.fr/ark:/12148/cb169195260> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2661> .
+
+<http://data.bnf.fr/ark:/12148/cb16920173f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4161> .
+
+<http://data.bnf.fr/ark:/12148/cb16920263d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4152> .
+
+<http://data.bnf.fr/ark:/12148/cb169203165> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4145> .
+
+<http://data.bnf.fr/ark:/12148/cb169213977> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3825> .
+
+<http://data.bnf.fr/ark:/12148/cb169217302> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6293> .
+
+<http://data.bnf.fr/ark:/12148/cb169219340> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4810> .
+
+<http://data.bnf.fr/ark:/12148/cb169271180> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2756> .
+
+<http://data.bnf.fr/ark:/12148/cb169277953> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6840> .
+
+<http://data.bnf.fr/ark:/12148/cb16928062f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5223> .
+
+<http://data.bnf.fr/ark:/12148/cb169285933> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3340> .
+
+<http://data.bnf.fr/ark:/12148/cb16928619z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3343> .
+
+<http://data.bnf.fr/ark:/12148/cb16930922z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4022> .
+
+<http://data.bnf.fr/ark:/12148/cb16931829b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3347> .
+
+<http://data.bnf.fr/ark:/12148/cb169320897> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2835> .
+
+<http://data.bnf.fr/ark:/12148/cb16932665w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2679> .
+
+<http://data.bnf.fr/ark:/12148/cb16932716z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4951> .
+
+<http://data.bnf.fr/ark:/12148/cb16932868g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6528> .
+
+<http://data.bnf.fr/ark:/12148/cb16933381j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3784> .
+
+<http://data.bnf.fr/ark:/12148/cb169333926> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4658> .
+
+<http://data.bnf.fr/ark:/12148/cb16940728p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3838> .
+
+<http://data.bnf.fr/ark:/12148/cb16940794g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5685> .
+
+<http://data.bnf.fr/ark:/12148/cb16940861s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3829> .
+
+<http://data.bnf.fr/ark:/12148/cb169409345> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4155> .
+
+<http://data.bnf.fr/ark:/12148/cb16941454n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3848> .
+
+<http://data.bnf.fr/ark:/12148/cb16941529q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4666> .
+
+<http://data.bnf.fr/ark:/12148/cb16941972z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3841> .
+
+<http://data.bnf.fr/ark:/12148/cb16942342m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4193> .
+
+<http://data.bnf.fr/ark:/12148/cb169431471> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/7028> .
+
+<http://data.bnf.fr/ark:/12148/cb169435621> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4648> .
+
+<http://data.bnf.fr/ark:/12148/cb16945824s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3853> .
+
+<http://data.bnf.fr/ark:/12148/cb16946832n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4186> .
+
+<http://data.bnf.fr/ark:/12148/cb16947062m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4168> .
+
+<http://data.bnf.fr/ark:/12148/cb16947089n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4215> .
+
+<http://data.bnf.fr/ark:/12148/cb16947161j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4242> .
+
+<http://data.bnf.fr/ark:/12148/cb16947561n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4219> .
+
+<http://data.bnf.fr/ark:/12148/cb16947840h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4218> .
+
+<http://data.bnf.fr/ark:/12148/cb169479236> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4240> .
+
+<http://data.bnf.fr/ark:/12148/cb16952666n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4131> .
+
+<http://data.bnf.fr/ark:/12148/cb16952699m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2640> .
+
+<http://data.bnf.fr/ark:/12148/cb16952765k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4413> .
+
+<http://data.bnf.fr/ark:/12148/cb16952907z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2782> .
+
+<http://data.bnf.fr/ark:/12148/cb16953235h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4103> .
+
+<http://data.bnf.fr/ark:/12148/cb169533631> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5222> .
+
+<http://data.bnf.fr/ark:/12148/cb169534383> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4429> .
+
+<http://data.bnf.fr/ark:/12148/cb16953458q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4402> .
+
+<http://data.bnf.fr/ark:/12148/cb16954171b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4635> .
+
+<http://data.bnf.fr/ark:/12148/cb169542332> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4437> .
+
+<http://data.bnf.fr/ark:/12148/cb169542781> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2734> .
+
+<http://data.bnf.fr/ark:/12148/cb16954505n> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3968> .
+
+<http://data.bnf.fr/ark:/12148/cb169545180> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4729> .
+
+<http://data.bnf.fr/ark:/12148/cb16954563t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4444> .
+
+<http://data.bnf.fr/ark:/12148/cb169545703> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4914> .
+
+<http://data.bnf.fr/ark:/12148/cb169546157> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4405> .
+
+<http://data.bnf.fr/ark:/12148/cb16961302j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4573> .
+
+<http://data.bnf.fr/ark:/12148/cb16961308m> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4611> .
+
+<http://data.bnf.fr/ark:/12148/cb16961378s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4608> .
+
+<http://data.bnf.fr/ark:/12148/cb169618038> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4708> .
+
+<http://data.bnf.fr/ark:/12148/cb169618398> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3990> .
+
+<http://data.bnf.fr/ark:/12148/cb16961895r> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4016> .
+
+<http://data.bnf.fr/ark:/12148/cb16962188s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4012> .
+
+<http://data.bnf.fr/ark:/12148/cb169622611> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4085> .
+
+<http://data.bnf.fr/ark:/12148/cb16963220p> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4045> .
+
+<http://data.bnf.fr/ark:/12148/cb16965147x> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4250> .
+
+<http://data.bnf.fr/ark:/12148/cb16965696h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4257> .
+
+<http://data.bnf.fr/ark:/12148/cb169663858> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6820> .
+
+<http://data.bnf.fr/ark:/12148/cb16967069f> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4099> .
+
+<http://data.bnf.fr/ark:/12148/cb16972458w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4703> .
+
+<http://data.bnf.fr/ark:/12148/cb169724833> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3926> .
+
+<http://data.bnf.fr/ark:/12148/cb16972533t> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4073> .
+
+<http://data.bnf.fr/ark:/12148/cb16972730b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6284> .
+
+<http://data.bnf.fr/ark:/12148/cb16973105q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2430> .
+
+<http://data.bnf.fr/ark:/12148/cb16974795d> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4582> .
+
+<http://data.bnf.fr/ark:/12148/cb16977749z> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2844> .
+
+<http://data.bnf.fr/ark:/12148/cb16977787h> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2436> .
+
+<http://data.bnf.fr/ark:/12148/cb169796731> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2813> .
+
+<http://data.bnf.fr/ark:/12148/cb169796882> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2373> .
+
+<http://data.bnf.fr/ark:/12148/cb16980067g> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6294> .
+
+<http://data.bnf.fr/ark:/12148/cb16980151c> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6331> .
+
+<http://data.bnf.fr/ark:/12148/cb16980591q> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2609> .
+
+<http://data.bnf.fr/ark:/12148/cb16980615w> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2361> .
+
+<http://data.bnf.fr/ark:/12148/cb169806701> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5513> .
+
+<http://data.bnf.fr/ark:/12148/cb16980747s> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2484> .
+
+<http://data.bnf.fr/ark:/12148/cb169807662> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5489> .
+
+<http://data.bnf.fr/ark:/12148/cb16981640b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3013> .
+
+<http://data.bnf.fr/ark:/12148/cb169816572> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/6270> .
+
+<http://data.bnf.fr/ark:/12148/cb169817173> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/4906> .
+
+<http://data.bnf.fr/ark:/12148/cb169817758> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5332> .
+
+<http://data.bnf.fr/ark:/12148/cb16981875j> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5251> .
+
+<http://data.bnf.fr/ark:/12148/cb16981878k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2827> .
+
+<http://data.bnf.fr/ark:/12148/cb16981919b> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5274> .
+
+<http://data.bnf.fr/ark:/12148/cb169819525> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/5167> .
+
+<http://data.bnf.fr/ark:/12148/cb169819587> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/3031> .
+
+<http://data.bnf.fr/ark:/12148/cb16982306k> skos:exactMatch <http://www.mimo-db.eu/InstrumentsKeywords/2856> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2208> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11932126x> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2217> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271473s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2224> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135068452> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2225> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb144805593> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2226> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122714744> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2230> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11932125k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2232> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11978172c> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2235> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12202452m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2243> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125014537> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2244> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122711582> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2246> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167356580> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2251> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119454031> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2257> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14632592q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2266> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119353920> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2269> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16552616d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2276> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122711493> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2299> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11932961n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2318> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11946205d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2321> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119667563> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2358> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb136198633> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2361> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16980615w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2364> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12188366z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2368> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125277021> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2370> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119389226> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2373> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169796882> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2387> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11976117r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2423> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12471053d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2430> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16973105q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2436> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16977787h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2462> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16901902z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2471> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13196465r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2478> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16748080f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2484> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16980747s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2490> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166880149> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2506> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135777413> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2515> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12471054r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2517> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb162715879> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2520> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16170319v> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2554> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb126990951> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2567> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167429678> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2572> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167429798> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2573> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167429914> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2579> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12572179s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2585> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16271576n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2599> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16690553v> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2609> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16980591q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2636> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb162719742> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2640> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16952699m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2653> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16747908z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2661> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169195260> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2676> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123055623> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2679> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16932665w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2682> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15521596m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2700> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169181824> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2703> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167439336> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2724> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16902717p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2729> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13558230w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2730> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124934046> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2734> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169542781> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2756> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169271180> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2760> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15587573n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2780> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16903085g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2782> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16952907z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2807> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122697991> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2813> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169796731> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2821> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb162712237> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2827> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16981878k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2835> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169320897> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2844> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16977749z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2856> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16982306k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2865> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16743581z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2892> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16743868k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2937> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271130p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2965> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16687900v> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2968> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12269798p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2978> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125064554> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2985> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271127s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/2989> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307760f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3006> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12542247t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3010> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122697871> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3013> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16981640b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3025> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12540473f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3031> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169819587> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3042> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16688637m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3052> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16691918p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3060> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb131964721> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3063> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271135d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3080> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb145721839> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3099> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122697949> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3101> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11981325x> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3106> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122715763> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3111> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119600781> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3115> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167362402> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3132> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167364518> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3134> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb145708603> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3139> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16736259g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3143> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16719910c> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3145> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167364591> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3151> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16736293n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3154> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12325925d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3158> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16737556h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3162> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167634964> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3166> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167365479> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3169> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307712k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3175> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167632419> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3177> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15501270p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3181> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12508468z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3185> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16763313b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3186> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167202961> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3188> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167376125> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3193> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16763332m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3200> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16737653r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3202> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13337394d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3204> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122719437> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3216> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167635503> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3218> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16763588s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3226> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12211154f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3230> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12016351t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3236> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11961430c> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3237> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11938184j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3238> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167200834> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3242> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12294217w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3252> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11979055r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3255> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12294382m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3261> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16714337j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3267> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16713813p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3269> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16713862w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3274> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12541614q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3285> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11948112w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3286> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122717968> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3288> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169024960> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3296> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16711725x> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3301> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167117117> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3305> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11950982j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3308> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167661663> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3309> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb120047877> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3314> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16730658s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3316> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121756060> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3318> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271668r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3322> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271764n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3325> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307414f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3330> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13511156s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3331> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16719695r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3332> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12502847n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3336> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16589015q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3340> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169285933> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3343> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16928619z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3347> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16931829b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3363> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720069k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3381> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb155012564> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3382> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720136w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3394> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11974996m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3402> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720369d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3406> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14420427z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3434> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167204508> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3436> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167205031> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3440> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307470x> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3441> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307615b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3450> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720715k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3451> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307427s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3469> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167513698> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3473> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12175608p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3475> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720856f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3489> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135079687> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3495> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122715674> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3497> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16764004s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3501> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122715612> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3502> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16763390s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3512> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122716186> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3519> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12275075b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3525> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13510670g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3529> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16711243g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3534> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16711273d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3538> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb124086988> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3541> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16711436r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3568> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb151095953> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3573> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11969158v> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3576> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122719139> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3580> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122719108> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3582> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119983474> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3586> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13619840f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3588> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13619784s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3602> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121466236> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3608> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12227829t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3612> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122717999> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3613> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16278835k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3626> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16714376f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3633> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271557t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3649> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119615252> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3656> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13508271f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3658> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16715012m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3660> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307635z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3661> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16226614j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3666> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123173898> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3668> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123074044> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3688> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16696827k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3689> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123073474> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3695> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167208077> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3706> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135076401> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3713> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167210047> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3721> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16714792s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3724> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb121969174> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3730> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11960149q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3732> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11987678s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3733> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12274777q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3735> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12546784c> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3747> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166906596> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3749> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12540647f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3753> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12536903w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3768> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14417642w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3784> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16933381j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3795> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12269056t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3804> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270245r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3806> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270247f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3807> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270573t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3822> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270846r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3825> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169213977> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3829> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16940861s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3832> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270534x> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3834> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122705238> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3836> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11965960n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3837> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122705389> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3838> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16940728p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3839> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270536m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3841> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16941972z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3845> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb135644958> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3848> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16941454n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3853> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16945824s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3860> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122708651> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3869> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270867q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3897> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16158010f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3926> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169724833> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3945> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122705029> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3968> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16954505n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3970> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119818348> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3983> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb165890282> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3984> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb125026740> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3986> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169020439> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/3990> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169618398> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4011> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167426810> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4012> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16962188s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4016> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16961895r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4020> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270588v> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4022> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16930922z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4026> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16762014m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4029> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122705923> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4036> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167665964> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4039> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119656228> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4040> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119687406> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4045> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16963220p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4046> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16902880q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4047> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16748333r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4055> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119827436> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4060> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16918147m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4067> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12015450h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4068> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166171753> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4073> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16972533t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4085> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169622611> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4099> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16967069f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4103> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16953235h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4111> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270608n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4127> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15065852r> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4131> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16952666n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4138> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16711902t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4143> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122706048> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4145> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169203165> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4148> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb133376916> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4152> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16920263d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4155> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169409345> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4159> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12307418t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4161> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16920173f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4164> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119601351> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4165> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14405710v> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4168> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16947062m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4173> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12490326h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4186> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16946832n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4189> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122705687> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4193> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16942342m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4194> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270578j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4214> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270545k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4215> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16947089n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4218> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16947840h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4219> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16947561n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4226> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15974682n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4236> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270542j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4240> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169479236> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4242> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16947161j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4245> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb123075977> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4250> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16965147x> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4257> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16965696h> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4258> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb14575110t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4264> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16902889t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4276> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270527n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4299> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122708891> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4333> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270879q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4362> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270897n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4364> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270894m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4372> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122708593> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4391> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb13340075t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4393> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16670550d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4402> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16953458q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4405> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169546157> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4413> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16952765k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4419> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12571708p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4429> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169534383> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4437> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169542332> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4444> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16954563t> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4463> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12270871z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4475> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb11940904j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4485> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb120627421> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4493> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122904671> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4573> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16961302j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4582> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16974795d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4608> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16961378s> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4611> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16961308m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4612> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166951816> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4635> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16954171b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4648> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169435621> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4658> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169333926> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4666> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16941529q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4703> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16972458w> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4708> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169618038> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4729> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169545180> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4810> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169219340> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4836> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166877578> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4838> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16687554p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4906> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169817173> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4914> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169545703> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4934> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16736521m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4951> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16932716z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4962> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167376632> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/4978> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16732638n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5167> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169819525> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5222> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169533631> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5223> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16928062f> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5251> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16981875j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5274> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16981919b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5330> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb145708007> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5332> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169817758> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5344> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720129m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5389> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16902700z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5392> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167128859> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5463> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16720899q> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5489> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169807662> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5513> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169806701> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5515> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167144323> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5685> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16940794g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5720> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb166881257> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5759> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16737634g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/5770> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb122712679> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6037> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16747973d> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6262> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12293256j> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6270> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169816572> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6284> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16972730b> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6292> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb15043349k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6293> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169217302> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6294> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16980067g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6318> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb144240165> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6331> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16980151c> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6353> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271762z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6355> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16715219k> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6528> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16932868g> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6540> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb162586557> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6616> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16713901z> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6621> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb12271265m> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6648> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb119710774> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6680> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16717212n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6709> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16569260p> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6759> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16763848c> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6787> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb16686765n> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6815> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167144203> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6820> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169663858> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6839> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169124579> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6840> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169277953> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/6896> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb167375675> .
+
+<http://www.mimo-db.eu/InstrumentsKeywords/7028> skos:exactMatch <http://data.bnf.fr/ark:/12148/cb169431471> .
+

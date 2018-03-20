@@ -1,0 +1,541 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/czn> skos:relatedMatch <http://data.doremus.org/vocabulary/redomi/genre/canzone> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ari> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/ariette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bag> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/bagatelle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bar> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/barcarolle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bbp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/be_bop> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bcs> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/berceuse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bd> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/ballade> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/beg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/biguine> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bic> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/bicinium> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bl> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/blues> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bou> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/bourree> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bra> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/branle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/brt> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/bergerette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bru> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/brunette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bwg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/boogie_woogie> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cad> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/cadence> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/can> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/french_cancan> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cav> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/cavatine> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ccl> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/cantique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cdo> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/concerto_grosso> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ch> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/choral> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/chaconne> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chs> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cly> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/calypso> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cn> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/canon> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/co> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/concerto> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/chanson_polyphonique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cpr> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/capriccio> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cs> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_aleatoire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cst> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/cassation> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ct> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/cantate> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ctd> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/contredanse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ctp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/contrepoint> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cy> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/country_music> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/czt> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/canzonette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/df> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/danse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dim> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/disco> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/drs> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dv> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/divertissement> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elx> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_mixte> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ely> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/elegie> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fad> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/fado> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/fugue> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fla> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/flamenco> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fmm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_maconnique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fnk> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/funk> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/frj> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/free_jazz> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fro> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/frottole> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fso> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ft> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/fantaisie> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fus> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/jazz_rock> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gav> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/gavotte> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gig> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/gigue> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/gospel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hem> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/heavy_metal> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hrk> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/hard_rock> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/imu> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/impromptu> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/inm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_de_scene> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/inv> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/invention> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jot> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/jota> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jz> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/jazz> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lam> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/complainte> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/li> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/lied> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mbm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/mambo> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/comedie_musicale> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/md> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/madrigal> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mi> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/menuet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mo> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/motet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_de_film> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mus> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mut> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/theatre_musical> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mym> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_militaire> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mz> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/mazurka> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nau> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/nouba> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/nocturne> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/noe> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/noel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nww> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/new_wave> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/op> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/opera> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opb> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/opera_ballet> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/opera_comique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opf> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ops> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/opera_seria> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opt> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/operette> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/or> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/oratorio> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ov> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/ouverture> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/musique_a_programme> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/plk> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/polka> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pm> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/passion> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/popmusic> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/prd> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/prelude> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ps> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/passacaille> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psa> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/psaume> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ptt> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/partita> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ram> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/illustration_musicale_radio> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rap> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rap> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rock_music> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rd> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rondo> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/ragtime> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rgg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/reggae> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rhb> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rythm_and_blues> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ri> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/ricercar> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rig> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rigaudon> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rapsodie> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rq> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/requiem> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rum> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/rumba> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sch> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/scherzo> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sct> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/scat> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sg> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/chanson> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/si> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/sinfonia> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ska> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/ska> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sls> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/salsa> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/smb> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/samba> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sn> = <http://data.doremus.org/vocabulary/redomi/genre/sonate> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/snd> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/serenade> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sou> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/soul> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/poeme_symphonique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/srd> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/sardane> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ssp> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/singspiel> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/su> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/suite> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/swi> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/swing> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sy> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/symphonie> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tar> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/tarentelle> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/toccata> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tem> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/techno> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tng> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/tango> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/trl> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vlc> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/villancico> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/vr> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/variations> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wom> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/world_music> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wz> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/valse> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/zar> skos:exactMatch <http://data.doremus.org/vocabulary/redomi/genre/zarzuela> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ariette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ari> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/bagatelle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bag> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ballade> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bd> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/barcarolle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bar> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/be_bop> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bbp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/berceuse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bcs> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/bergerette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/brt> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/bicinium> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bic> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/biguine> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/beg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/blues> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bl> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/boogie_woogie> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bwg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/bourree> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bou> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/branle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bra> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/brunette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bru> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/cadence> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cad> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/calypso> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cly> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/canon> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cn> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/cantate> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ct> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/cantique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ccl> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/canzonette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/czt> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/capriccio> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cpr> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/cassation> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cst> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/cavatine> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cav> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chaconne> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/chc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chanson> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chanson_a_boire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/drs> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chanson_enfantine> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/chs> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chanson_polyphonique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/chanson_populaire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fso> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/choral> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ch> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/comedie_musicale> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/complainte> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/lam> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/concerto> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/co> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/concerto_grosso> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/contredanse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ctd> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/contrepoint> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ctp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/country_music> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cy> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/danse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/df> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/disco> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/dim> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/divertissement> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/dv> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/elegie> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ely> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/fado> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fad> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/fantaisie> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ft> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/flamenco> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fla> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/free_jazz> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/frj> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/french_cancan> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/can> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/frottole> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fro> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/fugue> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/funk> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fnk> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/gavotte> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gav> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/gigue> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gig> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/gospel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/hard_rock> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hrk> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/heavy_metal> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hem> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/illustration_musicale_radio> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ram> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/impromptu> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/imu> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/invention> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/inv> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/jazz> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/jz> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/jazz_rock> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fus> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/jota> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/jot> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/lied> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/li> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/madrigal> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/md> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/mambo> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mbm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/mazurka> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mz> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/menuet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mi> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/motet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mo> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mus> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_a_programme> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_aleatoire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cs> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_de_film> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_de_scene> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/inm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_electroacoustique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/elm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_maconnique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fmm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_militaire> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mym> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_mixte> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/elx> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/musique_traditionnelle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/new_wave> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nww> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/nocturne> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/noel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/noe> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/nouba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nau> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/opera> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/op> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/opera_ballet> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opb> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/opera_bouffe> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opf> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/opera_comique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/opera_pour_enfants> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cdo> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/opera_seria> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ops> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/operette> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opt> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/oratorio> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/or> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ouverture> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ov> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/partita> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ptt> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/passacaille> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ps> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/passion> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pm> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/poeme_symphonique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/polka> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/plk> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/popmusic> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/prelude> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/prd> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/psaume> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/psa> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ragtime> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rap> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rap> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rapsodie> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/reggae> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rgg> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/requiem> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rq> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ricercar> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ri> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rigaudon> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rig> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rock_music> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rondo> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rd> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rumba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rum> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/rythm_and_blues> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rhb> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/salsa> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sls> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/samba> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/smb> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/sardane> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/srd> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/scat> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sct> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/scherzo> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sch> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/serenade> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/snd> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/sinfonia> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/si> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/singspiel> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ssp> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/ska> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ska> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/sonate> = <http://data.doremus.org/vocabulary/iaml/genre/sn> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/soul> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sou> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/suite> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/su> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/swing> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/swi> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/symphonie> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sy> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/tango> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tng> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/tarentelle> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tar> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/techno> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tem> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/theatre_musical> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mut> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/toccata> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/tragedie_lyrique> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/trl> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/valse> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/wz> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/variations> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/vr> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/villancico> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/vlc> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/world_music> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/wom> .
+
+<http://data.doremus.org/vocabulary/redomi/genre/zarzuela> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/zar> .
+

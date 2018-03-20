@@ -1,0 +1,230 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bl> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/9> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/bt> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/46> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cc> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/14> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/chr> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/15> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ct> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/12> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/cy> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/20> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/dec> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/26> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/df> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/25> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elm> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/53> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/elx> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/68> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fad> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/29> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fla> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/30> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fm> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/75> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/fnk> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/32> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/gm> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/33> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/hip> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/34> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/jz> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/39> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/li> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/41> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mc> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/18> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/md> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/80> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mda> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/10051> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mdy> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/55> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mo> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/69> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mp> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/57> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ms> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/42> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mus> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/43> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mut> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/153> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/mym> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/66> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nau> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/92> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/noe> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/89> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/non> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/90> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/nww> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/91> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/oct> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/93> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/op> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/94> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/opt> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/97> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/or> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/98> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/pnk> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/102> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/prd> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/35> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/psa> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/103> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rap> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/110> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rc> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/114> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rg> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/10040> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rgg> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/111> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/rhb> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/108> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sex> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/117> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sg> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/13> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/skt> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/121> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sls> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/115> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sou> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/119> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/sp> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/100> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/spt> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/116> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/ssp> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/10100> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tem> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/123> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/tng> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/122> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/wom> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/127> .
+
+<http://data.doremus.org/vocabulary/iaml/genre/zar> skos:exactMatch <http://data.doremus.org/vocabulary/itema3/genre/musdoc/10030> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/100> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sp> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10030> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/zar> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10040> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rg> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10051> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mda> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/10100> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ssp> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/102> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/pnk> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/103> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/psa> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/108> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rhb> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/110> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rap> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/111> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rgg> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/114> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/rc> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/115> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sls> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/116> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/spt> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/117> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sex> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/119> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sou> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/12> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ct> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/121> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/skt> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/122> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tng> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/123> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/tem> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/127> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/wom> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/13> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/sg> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/14> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cc> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/15> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/chr> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/153> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mut> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/18> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mc> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/20> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/cy> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/25> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/df> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/26> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/dec> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/29> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fad> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/30> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fla> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/32> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fnk> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/33> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/gm> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/34> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/hip> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/35> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/prd> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/39> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/jz> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/41> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/li> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/42> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/ms> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/43> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mus> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/46> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bt> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/53> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/elm> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/55> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mdy> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/57> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mp> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/66> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mym> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/68> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/elx> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/69> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/mo> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/75> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/fm> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/80> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/md> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/89> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/noe> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/9> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/bl> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/90> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/non> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/91> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nww> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/92> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/nau> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/93> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/oct> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/94> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/op> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/97> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/opt> .
+
+<http://data.doremus.org/vocabulary/itema3/genre/musdoc/98> skos:exactMatch <http://data.doremus.org/vocabulary/iaml/genre/or> .
+
