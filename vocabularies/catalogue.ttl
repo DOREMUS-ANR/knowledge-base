@@ -339,7 +339,7 @@
     modsrdf:namePrincipal "Somfai, László" ;
     modsrdf:publisher "University of California press (Berkeley ; London)" ;
     modsrdf:subjectName "BARTOK, BELA (1881-1945)" ;
-    dct:subject <http://data.doremus.org/artist/23df9200-a2a7-3ba8-ab11-ec16bf781c41> ;
+    dct:subject <http://data.doremus.org/artist/a742accd-f881-3a98-b631-932924ad7c42> ;
     modsrdf:title "Somfai, Bartok"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb402045396/PUBLIC> .
 
@@ -351,7 +351,7 @@
     modsrdf:namePrincipal "Szabolcsi, Bence" ;
     modsrdf:publisher "Corvina (Budapest)" ;
     modsrdf:subjectName "BARTOK, BELA (1881-1945)" ;
-    dct:subject <http://data.doremus.org/artist/23df9200-a2a7-3ba8-ab11-ec16bf781c41> ;
+    dct:subject <http://data.doremus.org/artist/a742accd-f881-3a98-b631-932924ad7c42> ;
     modsrdf:title "Szabolcsi, Bence"@fr ;
     modsrdf:titlePrincipal "Bartok : sa vie et son œuvre"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb43347266d/PUBLIC> .
@@ -496,7 +496,7 @@
     modsrdf:publisher "Editions du Centre de musique baroque de Versailles (Versailles)",
         "Klincksieck (Paris)" ;
     modsrdf:subjectName "BROSSARD, SEBASTIEN DE (1655-1730)" ;
-    dct:subject <http://data.doremus.org/artist/625db290-d916-3244-a03f-60b20b322806> ;
+    dct:subject <http://data.doremus.org/artist/ce26d751-ac3c-341e-9171-ff1e07e50e1c> ;
     modsrdf:title "Duron, Brossard"@fr ;
     modsrdf:titlePrincipal "L'œuvre de Sébastien de Brossard (1655-1730) : catalogue thématique"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb358024272/PUBLIC> .
@@ -608,7 +608,7 @@
     modsrdf:publisher "PWM (Kraków)",
         "TiFC (Warszawa)" ;
     modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
-    dct:subject <http://data.doremus.org/artist/62348fad-974d-38db-a5a7-505f6a7a7db6> ;
+    dct:subject <http://data.doremus.org/artist/00f6e16d-7cd8-3d52-ad65-5f5e85e42123> ;
     modsrdf:title "Chominski et Turlo"@fr ;
     modsrdf:titlePrincipal "Katalog dzieł Fryderyka Chopina"@pl ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35315970n/PUBLIC> .
@@ -622,7 +622,7 @@
     modsrdf:namePrincipal "Kobylanska, Krystyna" ;
     modsrdf:publisher "G. Henle (München)" ;
     modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
-    dct:subject <http://data.doremus.org/artist/62348fad-974d-38db-a5a7-505f6a7a7db6> ;
+    dct:subject <http://data.doremus.org/artist/00f6e16d-7cd8-3d52-ad65-5f5e85e42123> ;
     modsrdf:title "Kobylanska, Chopin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35133599v/INTERMARC> .
 
@@ -636,7 +636,7 @@
     modsrdf:namePrincipal "Brown, Maurice J. E." ;
     modsrdf:publisher "Macmillan (London)" ;
     modsrdf:subjectName "CHOPIN, FREDERIC (1810-1849)" ;
-    dct:subject <http://data.doremus.org/artist/62348fad-974d-38db-a5a7-505f6a7a7db6> ;
+    dct:subject <http://data.doremus.org/artist/00f6e16d-7cd8-3d52-ad65-5f5e85e42123> ;
     modsrdf:title "Brown, Chopin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42880090k/INTERMARC> .
 
@@ -688,7 +688,7 @@
     modsrdf:namePrincipal "Cauchie, Maurice" ;
     modsrdf:publisher "The Lyrebird press (Monaco)" ;
     modsrdf:subjectName "COUPERIN, FRANCOIS (1668-1733)" ;
-    dct:subject <http://data.doremus.org/artist/14970460-189f-3593-a550-7bceb778072e> ;
+    dct:subject <http://data.doremus.org/artist/473716cf-671b-3b7a-b6cc-d22325f1e835> ;
     modsrdf:title "Cauchie, Couperin"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb42896941h/PUBLIC> .
 
@@ -769,7 +769,7 @@
     modsrdf:publisher "Bärenreiter (Praha)",
         "Editio Supraphon (Praha)" ;
     modsrdf:subjectName "DVORAK, ANTONIN (1841-1904)" ;
-    dct:subject <http://data.doremus.org/artist/df6fc930-3a58-355d-8270-b2343b5f5b0a> ;
+    dct:subject <http://data.doremus.org/artist/4b43a26b-1a44-3d19-b257-758661f4859c> ;
     modsrdf:title "Burghauser, Dvorak"@fr ;
     modsrdf:titlePrincipal "Antonin Dvorak : thematicky katalog"@cs ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb36965627w/PUBLIC> .
@@ -781,7 +781,7 @@
     modsrdf:namePrincipal "Nectoux, Jean-Michel" ;
     modsrdf:publisher "Flammarion (Paris)" ;
     modsrdf:subjectName "FAURÉ, GABRIEL (1845-1924)" ;
-    dct:subject <http://data.doremus.org/artist/6447cde9-fbd7-3da3-a1bf-ff1176456cd7> ;
+    dct:subject <http://data.doremus.org/artist/c2e25a07-7a54-335a-9a9e-e20a47713a7d> ;
     modsrdf:title "Nectoux, Fauré"@fr ;
     modsrdf:titlePrincipal "Gabriel Fauré : les voix du clair-obscur"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb350667956/PUBLIC> .
@@ -1110,7 +1110,7 @@
     modsrdf:namePrincipal "Michel, Pierre" ;
     modsrdf:publisher "Minerve (Paris)" ;
     modsrdf:subjectName "LIGETI, GYORGY (1923-2006)" ;
-    dct:subject <http://data.doremus.org/artist/f1fb6fa7-767a-3067-a55b-5b41de0f0367> ;
+    dct:subject <http://data.doremus.org/artist/06362f05-8225-3431-ad18-32075bcf5d73> ;
     modsrdf:titlePrincipal "György Ligeti"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb376188899/PUBLIC> .
 
@@ -1340,7 +1340,7 @@
     modsrdf:namePrincipal "Dorigné, Michel" ;
     modsrdf:publisher "Fayard (Paris)" ;
     modsrdf:subjectName "PROKOFIEV, SERGUEI (1891-1953)" ;
-    dct:subject <http://data.doremus.org/artist/fd06885a-227c-307d-a197-99b8e3d8c1be> ;
+    dct:subject <http://data.doremus.org/artist/ccd96d60-d076-3e57-b332-33d0e60c5df0> ;
     modsrdf:titlePrincipal "Serge Prokofiev"@fr ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35735955v/PUBLIC> .
 
@@ -1406,7 +1406,7 @@
     modsrdf:namePrincipal "Ratner, Sabina Teller" ;
     modsrdf:publisher "Oxford university press (Oxford)" ;
     modsrdf:subjectName "SAINT-SAENS, CAMILLE (1835-1921)" ;
-    dct:subject <http://data.doremus.org/artist/499c5737-529f-32a1-9284-7d99b73b1be3> ;
+    dct:subject <http://data.doremus.org/artist/a4e8f64d-3411-3eb4-8e09-59e24bc26bf3> ;
     modsrdf:title "Ratner, Saint-Saëns"@fr ;
     owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb388551727%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb426686040%2FPUBLIC> .
 
@@ -1592,7 +1592,7 @@
 
 <http://data.doremus.org/vocabulary/catalog/115> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
-    dct:subject <http://data.doremus.org/artist/a6302b4b-a8bf-3952-a8e2-0775068c3f5c> ;
+    dct:subject <http://data.doremus.org/artist/0b9d963c-bfd7-337d-b6c3-c874f5e62125> ;
     modsrdf:abstract "Thematic and bibliographical catalogue of P.I. Tchaikovsky's works"@en ;
     modsrdf:dateOfCopyright "2006" ;
     modsrdf:edition "2e éd."@fr ;
@@ -1608,7 +1608,7 @@
 
 <http://data.doremus.org/vocabulary/catalog/116> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
-    dct:subject <http://data.doremus.org/artist/a6302b4b-a8bf-3952-a8e2-0775068c3f5c> ;
+    dct:subject <http://data.doremus.org/artist/0b9d963c-bfd7-337d-b6c3-c874f5e62125> ;
     modsrdf:dateOfCopyright "1965" ;
     modsrdf:edition "réimpr. de l’éd. de 1897"@fr ;
     modsrdf:languageOfResource "fr"^^xsd:language ;
@@ -1804,7 +1804,7 @@
     modsrdf:namePrincipal "Torres Mulas, Jacinto" ;
     modsrdf:publisher "Instituto de bibliografía musical (Madrid)" ;
     modsrdf:subjectName "ALBENIZ, ISAAC (1860-1909)" ;
-    dct:subject <http://data.doremus.org/artist/1f76d196-3e35-3bcc-bb34-86afba32c3a8> ;
+    dct:subject <http://data.doremus.org/artist/1d6e7231-f178-322c-aecc-3b3a8d80e8aa> ;
     modsrdf:titlePrincipal "Catálogo sistemático descriptivo de las obras musicales de Isaac Albéniz"@es ;
     owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb389102285/PUBLIC> .
 

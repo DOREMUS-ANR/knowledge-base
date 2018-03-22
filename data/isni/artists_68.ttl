@@ -1156,7 +1156,7 @@ doremus_artist:61eebd86-c97c-3014-8369-0846cb6b0959
     foaf:isPrimaryTopicOf wiki:Raymond_Asso.
 doremus_artist:61faeccf-0c52-38ea-bd46-eb8c6cb4bce6
 owl:sameAs viaf:12556096; owl:sameAs <http://viaf.org/viaf/12556096>.
-doremus_artist:625db290-d916-3244-a03f-60b20b322806
+doremus_artist:ce26d751-ac3c-341e-9171-ff1e07e50e1c
     dbp:birthPlace <http://dbpedia.org/resource/Dompierre,_Orne>;
     dbp:deathPlace dbr:Meaux;
     rdfs:comment

@@ -557,7 +557,7 @@ doremus_artist:1efa44f0-1e67-314d-b78c-e2263b111040
         <http://viaf.org/viaf/24836384>,
         <https://musicbrainz.org/artist/dd3c27db-7089-44cc-a5e8-6f4c435270bd>;
     foaf:isPrimaryTopicOf wik:Somei_Satoh.
-doremus_artist:1f76d196-3e35-3bcc-bb34-86afba32c3a8
+doremus_artist:1d6e7231-f178-322c-aecc-3b3a8d80e8aa
     dbp:birthPlace dbr:Camprodon;
     dbp:deathPlace dbr:Cambo-les-Bains;
     rdfs:comment

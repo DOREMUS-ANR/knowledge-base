@@ -785,7 +785,7 @@ doremus_artist:36b10122-ef50-3df3-8bfe-61bb79ddec4f
     foaf:depiction
     <http://commons.wikimedia.org/wiki/Special:FilePath/Astor_Piazzolla.jpg>;
     foaf:isPrimaryTopicOf wiki:Astor_Piazzolla.
-doremus_artist:3709d8d6-017b-3d06-a420-db89640472d7
+doremus_artist:8f64dc68-0fd0-3b45-9b09-9a9663c9969f
     dbp:birthPlace dbr:Moscow;
     dbp:deathPlace dbr:Moscow;
     rdfs:comment

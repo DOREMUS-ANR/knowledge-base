@@ -648,7 +648,7 @@ doremus_artist:4913bcc6-2d9e-3a0f-b9c1-e26c5c54c2f4
     owl:sameAs <http://dbpedia.org/resource/Robert_Cambert>,
         <http://viaf.org/viaf/79091819>;
     foaf:isPrimaryTopicOf wiki:Robert_Cambert.
-doremus_artist:499c5737-529f-32a1-9284-7d99b73b1be3
+doremus_artist:a4e8f64d-3411-3eb4-8e09-59e24bc26bf3
     owl:sameAs viaf:7575200;
     owl:sameAs <http://viaf.org/viaf/7575200>,
         <https://musicbrainz.org/artist/4137c070-15b2-4d00-a9f0-3517d02a9ba8>.

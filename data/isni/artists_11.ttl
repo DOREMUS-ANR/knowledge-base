@@ -3226,7 +3226,7 @@ doremus_artist:f0280ebe-f14e-3363-bfd0-1f3050c30803
 owl:sameAs viaf:95338479; owl:sameAs <http://viaf.org/viaf/95338479>.
 doremus_artist:f1cf85c1-37eb-3883-aa12-7ea056c823b9
 owl:sameAs viaf:19254023; owl:sameAs <http://viaf.org/viaf/19254023>.
-doremus_artist:f1fb6fa7-767a-3067-a55b-5b41de0f0367
+doremus_artist:06362f05-8225-3431-ad18-32075bcf5d73
     dbp:birthPlace dbr:Târnăveni;
     dbp:deathPlace dbr:Vienna;
     rdfs:comment

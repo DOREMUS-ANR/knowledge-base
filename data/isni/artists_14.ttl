@@ -1159,7 +1159,7 @@ doremus_artist:62abd5e8-5d28-3509-9af1-7ca1c898fed7
     foaf:isPrimaryTopicOf wiki:Anthony_Coleman.
 doremus_artist:62f875ec-4e1d-3021-b11f-34d27f88135e
 owl:sameAs viaf:71584563; owl:sameAs <http://viaf.org/viaf/71584563>.
-doremus_artist:6447cde9-fbd7-3da3-a1bf-ff1176456cd7
+doremus_artist:c2e25a07-7a54-335a-9a9e-e20a47713a7d
     dbp:birthPlace dbr:Pamiers;
     dbp:deathPlace dbr:Paris;
     rdfs:comment
@@ -1538,9 +1538,9 @@ doremus_artist:97b9bbd8-66cb-38bf-aeda-6260252d1416
         "Dieterich Buxtehude (German pronunciation: [\u02c8di\u02d0t\u0259\u0281\u026a\u00e7 b\u028akst\u0259\u02c8hu\u02d0d\u0259]; Danish: Diderich, pronounced [\u02c8di\u00f0\u0259\u0281\u026ak buksd\u0259\u02c8hu\u02d0\u00f0\u0259]; c. 1637/39 \u2013 9 May 1707) was a Danish-German organist and composer of the Baroque period. His organ works represent a central part of the standard organ repertoire and are frequently performed at recitals and in church services. He composed in a wide variety of vocal and instrumental idioms, and his style strongly influenced many composers, including Johann Sebastian Bach. Today, Buxtehude is considered one of the most important composers in Germany of the mid-Baroque."@en,
         "Dieterich Buxtehude (provavelmente em Helsingborg, 1637 \u2014 L\u00fcbeck, 9 de maio de 1707) foi um compositor e organista teuto-dinamarqu\u00eas do per\u00edodo barroco. Apesar de nascido na cidade de Helsingborg, na \u00e9poca pertencente \u00e0 Dinamarca (hoje territ\u00f3rio alem\u00e3o), Buxtehude era de ascend\u00eancia alem\u00e3 e \u00e9 considerado um dos representantes mais importantes do per\u00edodo barroco alem\u00e3o. Seu pai, organista e mestre de escola em Bad Oldesloe, mudou-se para H\u00e4lsingburg, na Su\u00e9cia, quando Buxtehude tinha um ano de idade. Seu pai, tamb\u00e9m seu \u00fanico professor de m\u00fasica por toda a vida, depois mudou-se para Helsingor, na Dinamarca, onde morreu em 1674. Esta foi a cidade na qual Buxtehude cursou a Lateinschule."@pt,
         "Dieterich Buxtehude /\u02c8di\u02d0t\u0281\u026a\u00e7 buksd\u01dd\u02c8hu\u02d0\u00f0\u01dd/ est n\u00e9 vers 1637 \u00e0 Helsingborg ou Buxtehude ou Oldesloe  - mort le 9 mai 1707 \u00e0 L\u00fcbeck. C'est un musicien, organiste et compositeur allemand d'ascendance danoise. \u00c9tabli \u00e0 L\u00fcbeck, l'une des villes les plus actives sur le plan musical en son temps, il compose pour la liturgie, mais aussi pour des concerts spirituels ou profanes plaisant au public local, notamment les Abendmusiken, veill\u00e9es musicales de l'Avent dont il fait une institution qui se perp\u00e9tue jusqu'au XIXe si\u00e8cle."@fr,
-        """Dietrich Buxtehude (ook Dieterich, Diderich of Diderik gespeld) (Helsingborg of Oldesloe, ca. 1637 \u2013 L\u00fcbeck, 9 mei 1707) was een Deense-Duitse componist, klavecinist, organist, muziekpedagoog en muziekorganisator van wie de exacte geboortedatum niet bekend is. Hij werd geboren tijdens de Dertigjarige Oorlog en er is slechts een vermoeden waar hij geboren is. De volgende steden komen in aanmerking als geboorteplaats (in volgorde van afnemende waarschijnlijkheid): 
-*  Helsingborg (toen Denemarken, nu Zweden) 
-*  Oldesloe in Holstein (Duitsland) 
+        """Dietrich Buxtehude (ook Dieterich, Diderich of Diderik gespeld) (Helsingborg of Oldesloe, ca. 1637 \u2013 L\u00fcbeck, 9 mei 1707) was een Deense-Duitse componist, klavecinist, organist, muziekpedagoog en muziekorganisator van wie de exacte geboortedatum niet bekend is. Hij werd geboren tijdens de Dertigjarige Oorlog en er is slechts een vermoeden waar hij geboren is. De volgende steden komen in aanmerking als geboorteplaats (in volgorde van afnemende waarschijnlijkheid):
+*  Helsingborg (toen Denemarken, nu Zweden)
+*  Oldesloe in Holstein (Duitsland)
 *  Helsing\u00f8r (Denemarken)"""@nl,
         "Dietrich Buxtehude (ur. ok. 1637 prawdopodobnie w Oldesloe (Szlezwik-Holsztyn), zm. 9 maja 1707 w Lubece) \u2013 du\u0144ski lub niemiecki kompozytor i organista okresu baroku."@pl,
         "Dietrich Buxtehude /\u02c8di\u02d0t\u0281\u026a\u00e7 buksd\u01dd\u02c8hu\u02d0\u00f0\u01dd/ (1637 - L\u00fcbeck, 9 de mayo de 1707) fue un compositor y organista germano-dan\u00e9s de m\u00fasica acad\u00e9mica europea del barroco.Sus obras para \u00f3rgano forman parte del repertorio habitual para este instrumento y frecuentemente se interpretan en recitales y misas. Fue uno de los organistas m\u00e1s c\u00e9lebres de la escuela alemana de \u00f3rgano barroco, durante la mayor parte de su vida fue organista en la Iglesia de Santa Mar\u00eda (Marienkirche) de L\u00fcbeck.Como compositor produjo una amplia variedad de piezas vocales e instrumentales, y su estilo influy\u00f3 enormemente a muchos compositores, incluido Johann Sebastian Bach.Hoy en d\u00eda es considerado el m\u00e1s destacado compositor germano de su tiempo, entre Heinrich Sch\u00fctz y Bach."@es,
@@ -1560,9 +1560,9 @@ owl:sameAs viaf:39574648; owl:sameAs <http://viaf.org/viaf/39574648>.
 doremus_artist:9a926f6f-2d25-3ac0-be74-7cd737c1a50f
     dbp:birthPlace dbr:Milan;
     rdfs:comment
-        """25\u0628\u0643 \u0627\u0644\u0645\u062d\u062a\u0648\u0649 \u0647\u0646\u0627 \u064a\u0646\u0642\u0635\u0647 \u0627\u0644\u0627\u0633\u062a\u0634\u0647\u0627\u062f \u0628\u0645\u0635\u0627\u062f\u0631. \u064a\u0631\u062c\u0649 \u0625\u064a\u0631\u0627\u062f \u0645\u0635\u0627\u062f\u0631 \u0645\u0648\u062b\u0648\u0642 \u0628\u0647\u0627. \u0623\u064a \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u063a\u064a\u0631 \u0645\u0648\u062b\u0642\u0629 \u064a\u0645\u0643\u0646 \u0627\u0644\u062a\u0634\u0643\u064a\u0643 \u0628\u0647\u0627 \u0648\u0625\u0632\u0627\u0644\u062a\u0647\u0627. (\u0645\u0627\u0631\u0633 2016) \u0645\u0627\u0648\u0631\u064a\u062a\u0633\u064a\u0648 \u0628\u0648\u0644\u064a\u0646\u064a (\u0628\u0627\u0644\u0625\u064a\u0637\u0627\u0644\u064a\u0629: Maurizio Pollini) (\u0648\u0644\u062f \u0641\u064a 5 \u064a\u0646\u0627\u064a\u0631 1942) \u0647\u0648 \u0639\u0627\u0632\u0641 \u0628\u064a\u0627\u0646\u0648 \u0625\u064a\u0637\u0627\u0644\u064a \u0643\u0644\u0627\u0633\u064a\u0643\u064a. \u0648\u0644\u062f \u0628\u0648\u0644\u064a\u0646\u064a \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648 \u0641\u064a \u0625\u064a\u0637\u0627\u0644\u064a\u0627. \u0645\u0634\u0627\u0631\u064a\u0639 \u0634\u0642\u064a\u0642\u0629 \u0641\u064a \u0643\u0648\u0645\u0646\u0632 \u0635\u0648\u0631 \u0648\u0645\u0644\u0641\u0627\u062a \u0639\u0646: \u0645\u0627\u0648\u0631\u064a\u062a\u0633\u064a\u0648 \u0628\u0648\u0644\u064a\u0646\u064a 
-* 32x\u0628\u0648\u0627\u0628\u0629 \u0625\u064a\u0637\u0627\u0644\u064a\u0627 
-* 32x\u0628\u0648\u0627\u0628\u0629 \u0623\u0639\u0644\u0627\u0645 
+        """25\u0628\u0643 \u0627\u0644\u0645\u062d\u062a\u0648\u0649 \u0647\u0646\u0627 \u064a\u0646\u0642\u0635\u0647 \u0627\u0644\u0627\u0633\u062a\u0634\u0647\u0627\u062f \u0628\u0645\u0635\u0627\u062f\u0631. \u064a\u0631\u062c\u0649 \u0625\u064a\u0631\u0627\u062f \u0645\u0635\u0627\u062f\u0631 \u0645\u0648\u062b\u0648\u0642 \u0628\u0647\u0627. \u0623\u064a \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u063a\u064a\u0631 \u0645\u0648\u062b\u0642\u0629 \u064a\u0645\u0643\u0646 \u0627\u0644\u062a\u0634\u0643\u064a\u0643 \u0628\u0647\u0627 \u0648\u0625\u0632\u0627\u0644\u062a\u0647\u0627. (\u0645\u0627\u0631\u0633 2016) \u0645\u0627\u0648\u0631\u064a\u062a\u0633\u064a\u0648 \u0628\u0648\u0644\u064a\u0646\u064a (\u0628\u0627\u0644\u0625\u064a\u0637\u0627\u0644\u064a\u0629: Maurizio Pollini) (\u0648\u0644\u062f \u0641\u064a 5 \u064a\u0646\u0627\u064a\u0631 1942) \u0647\u0648 \u0639\u0627\u0632\u0641 \u0628\u064a\u0627\u0646\u0648 \u0625\u064a\u0637\u0627\u0644\u064a \u0643\u0644\u0627\u0633\u064a\u0643\u064a. \u0648\u0644\u062f \u0628\u0648\u0644\u064a\u0646\u064a \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648 \u0641\u064a \u0625\u064a\u0637\u0627\u0644\u064a\u0627. \u0645\u0634\u0627\u0631\u064a\u0639 \u0634\u0642\u064a\u0642\u0629 \u0641\u064a \u0643\u0648\u0645\u0646\u0632 \u0635\u0648\u0631 \u0648\u0645\u0644\u0641\u0627\u062a \u0639\u0646: \u0645\u0627\u0648\u0631\u064a\u062a\u0633\u064a\u0648 \u0628\u0648\u0644\u064a\u0646\u064a
+* 32x\u0628\u0648\u0627\u0628\u0629 \u0625\u064a\u0637\u0627\u0644\u064a\u0627
+* 32x\u0628\u0648\u0627\u0628\u0629 \u0623\u0639\u0644\u0627\u0645
 * 32x\u0628\u0648\u0627\u0628\u0629 \u0645\u0648\u0633\u064a\u0642\u064925\u0628\u0643 \u0647\u0630\u0647 \u0628\u0630\u0631\u0629 \u0645\u0642\u0627\u0644\u0629 \u0639\u0646 \u062d\u064a\u0627\u0629 \u0634\u062e\u0635\u064a\u0629 \u0625\u064a\u0637\u0627\u0644\u064a\u0629 \u0628\u062d\u0627\u062c\u0629 \u0644\u0644\u062a\u0648\u0633\u064a\u0639. \u0634\u0627\u0631\u0643 \u0641\u064a \u062a\u062d\u0631\u064a\u0631\u0647\u0627."""@ar,
         "Maurizio Pollini (* 5. Januar 1942 in Mailand) ist ein italienischer Pianist und Dirigent."@de,
         "Maurizio Pollini (Milaan, 5 januari 1942) is een Italiaanse pianist en dirigent."@nl,
@@ -1666,7 +1666,11 @@ doremus_artist:a46b8518-c32c-38d3-a303-d29d3a9d8049
     owl:sameAs <http://viaf.org/viaf/11926892>,
         <https://musicbrainz.org/artist/b788c1cc-af1c-44f0-9db8-35990c364faf>;
     foaf:isPrimaryTopicOf wiki:Marta_Kubiová.
-doremus_artist:a6302b4b-a8bf-3952-a8e2-0775068c3f5c
+doremus_artist:0b9d963c-bfd7-337d-b6c3-c874f5e62125
+    foaf:name "Peter Ilich Tchaikovsky", "Piotr Ilitch Tchaïkovski", "Piotr Ilitch Tchaikovski", "Петр Ильич Чайковский"@ru;
+    rdfs:label "Петр Ильич Чайковский"@ru;
+    foaf:firstName "Peter Ilich", "Piotr Ilitch", "Петр Ильич"@ru;
+    foaf:surname "Tchaikovsky", "Tchaïkovski", "Чайковский"@ru;
     owl:sameAs viaf:99258155;
     owl:sameAs <http://viaf.org/viaf/99258155>,
         <https://musicbrainz.org/artist/9ddd7abc-9e1b-471d-8031-583bc6bc8be9>.
@@ -2118,7 +2122,7 @@ doremus_artist:de082327-d5fa-306b-a406-e753b4d968dd
     foaf:depiction
         <http://commons.wikimedia.org/wiki/Special:FilePath/Agnès_Jaoui_Cannes_2015.jpg>;
     foaf:isPrimaryTopicOf wiki:Agnès_Jaoui.
-doremus_artist:df6fc930-3a58-355d-8270-b2343b5f5b0a
+doremus_artist:4b43a26b-1a44-3d19-b257-758661f4859c
     dbp:birthPlace dbr:Nelahozeves;
     dbp:deathPlace dbr:Prague;
     rdfs:comment

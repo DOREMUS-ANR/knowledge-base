@@ -2348,7 +2348,8 @@
     skos:editorialNote "Chanson de cuba, du venezuela et de panama. Au venezuela et au panama, sorte de ballade avec un texte religieux a l'origine. A cuba, on parle de punto guajiro, chanson paysanne de l'ouest et du centre de l'ile. Il en exite plusieurs en fonction du type de composition strophique et de la region (punto libre, fijo, espirituano, cruzado)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/diabolo/genre/> ;
     skos:prefLabel "punto"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/musiques_damerique_du_nord_et_centrale$musiques_damerique_du_sud> ;
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/musiques_damerique_du_nord_et_centrale>,
+      <http://data.doremus.org/vocabulary/diabolo/genre/musiques_damerique_du_sud> ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/genre/> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/qasida> a skos:Concept ;
@@ -3457,7 +3458,8 @@
     skos:editorialNote "Musique des emigrants juifs ashkenazes arrives d'europe centrale au debut du xxeme siecle. Evoluera grace aux echanges entre les pays d'origine et les etats unis. Connaitra une renaissance dans les annees 1970"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/diabolo/genre/> ;
     skos:prefLabel "musique klezmer"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/doina$hora> .
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/doina>,
+      <http://data.doremus.org/vocabulary/diabolo/genre/hora> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/musique_militaire> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/diabolo/genre/musiques_fonctionnelles> ;
@@ -3496,7 +3498,8 @@
     skos:editorialNote "Chanson du peuple garifuna du belize, du honduras et du guatemala jadis liee a des ceremonies. Depuis le xixeme siecle, chanson sociale populaire exprimant les histoires de la communaute inspiree par les musiques latines. Au venezuela : genre de chant afro-venezuelien chante sur rythmes de percussions (golpes de tambores). Les paroles peuvent etre engagees, louer les heros populaires ou les esclaves en fuite. On retrouve des parrandas egalement dans les repertoires colombien, mexicain. A cuba,  la parranda appartient au systeme des puntos et ressemble au son. En espagne, la parranda est une danse de murcie."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/diabolo/genre/> ;
     skos:prefLabel "parranda"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/musiques_des_antilles$musiques_de_la_mediterranee> .
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/musiques_des_antilles>,
+      <http://data.doremus.org/vocabulary/diabolo/genre/musiques_de_la_mediterranee> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/pratique_religieuse> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/diabolo/genre/domaine_religieux> ;
@@ -3715,7 +3718,11 @@
     skos:broader <http://data.doremus.org/vocabulary/diabolo/genre/musique_religieuse> ;
     skos:inScheme <http://data.doremus.org/vocabulary/diabolo/genre/> ;
     skos:prefLabel "plain-chant"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/chant_ambrosien$chant_gregorien$chant_beneventain$chant_gallican$chant_mozarabe> .
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/chant_ambrosien>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/chant_gregorien>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/chant_beneventain>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/chant_gallican>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/chant_mozarabe> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/musiques_de_lorient_arabe> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/diabolo/genre/musiques_du_monde> ;
@@ -4108,7 +4115,8 @@
         <http://data.doremus.org/vocabulary/diabolo/genre/scottish>,
         <http://data.doremus.org/vocabulary/diabolo/genre/strathspey> ;
     skos:prefLabel "musiques d'europe de l'ouest"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/folk$modinha> ;
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/folk>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/modinha> ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/genre/> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/flamenco> a skos:Concept ;
@@ -4132,7 +4140,9 @@
         <http://data.doremus.org/vocabulary/diabolo/genre/tiento>,
         <http://data.doremus.org/vocabulary/diabolo/genre/zambra> ;
     skos:prefLabel "flamenco"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/fandango$guajira$milonga> ;
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/fandango>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/guajira>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/milonga> ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/genre/> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/musiques_du_monde> a skos:Concept ;
@@ -4178,7 +4188,16 @@
         <http://data.doremus.org/vocabulary/diabolo/genre/tamborito>,
         <http://data.doremus.org/vocabulary/diabolo/genre/western_swing> ;
     skos:prefLabel "musiques d'amerique du nord et centrale"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/bachata$cumbia$gigue$hornpipe$mambo$pachanga$punto$reel$salsa$strathspey> ;
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/bachata>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/cumbia>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/gigue>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/hornpipe>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/mambo>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/pachanga>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/punto>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/reel>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/salsa>,
+  <http://data.doremus.org/vocabulary/diabolo/genre/strathspey> ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/genre/> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/rock_music> a skos:Concept ;
@@ -4354,7 +4373,8 @@
         <http://data.doremus.org/vocabulary/diabolo/genre/vidala>,
         <http://data.doremus.org/vocabulary/diabolo/genre/zamba> ;
     skos:prefLabel "musiques d'amerique du sud"@fr ;
-    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/batuque$punto> ;
+    skos:related <http://data.doremus.org/vocabulary/diabolo/genre/batuque>,
+          <http://data.doremus.org/vocabulary/diabolo/genre/punto> ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/genre/> .
 
 <http://data.doremus.org/vocabulary/diabolo/genre/musiques_des_antilles> a skos:Concept ;

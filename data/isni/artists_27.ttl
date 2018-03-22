@@ -386,7 +386,7 @@ doremus_artist:1455e7a5-3655-3632-9bae-928b6e7f7dcc
         <http://viaf.org/viaf/25022779>,
         <https://musicbrainz.org/artist/65032a1b-4c30-4aa9-aece-58566b826873>;
     foaf:isPrimaryTopicOf wiki:Noah_Creshevsky.
-doremus_artist:14970460-189f-3593-a550-7bceb778072e
+doremus_artist:473716cf-671b-3b7a-b6cc-d22325f1e835
     dbp:birthPlace dbr:Paris;
     dbp:deathPlace dbr:Paris;
     rdfs:comment
@@ -573,7 +573,7 @@ doremus_artist:2310e03b-5462-36e0-80d2-325ba56673d7
     owl:sameAs <http://fr.dbpedia.org/resource/Jean_Deroyer>,
         <http://viaf.org/viaf/39681654>;
     foaf:isPrimaryTopicOf wik:Jean_Deroyer.
-doremus_artist:23df9200-a2a7-3ba8-ab11-ec16bf781c41
+doremus_artist:a742accd-f881-3a98-b631-932924ad7c42
     dbp:birthPlace dbr:Sânnicolau_Mare;
     dbp:deathPlace dbr:New_York_City;
     rdfs:comment
