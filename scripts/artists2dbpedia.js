@@ -55,7 +55,8 @@ getArtistsFromSparql().then((res) => {
 
     async.eachSeries(chunk, (a, callback) => {
       console.log(`Artist ${++done}/${art_len}`);
-      getViafFromIsni(a).then(getInfoFromDBpedia)
+      getViafFromIsni(a)
+        .then(getInfoFromDBpedia)
         .then(a => {
           let art = $rdf.sym(a.doremus_uri);
 
@@ -77,18 +78,24 @@ getArtistsFromSparql().then((res) => {
           if (a.picture)
             store.add(art, FOAF('depiction'), $rdf.sym(a.picture));
 
-          if (a.birthPlace)
-            store.add(art, DBP('birthPlace'), $rdf.sym(a.birthPlace));
+          if (a.birthPlace) {
+            let bp = $rdf.sym(a.birthPlace);
+            store.add(art, DBP('birthPlace'), bp);
+            store.add(bp, RDFS('label'), a.birthPlaceName);
+          }
 
-          if (a.deathPlace)
-            store.add(art, DBP('deathPlace'), $rdf.sym(a.deathPlace));
+          if (a.deathPlace) {
+            let dp = $rdf.sym(a.deathPlace);
+            store.add(art, DBP('deathPlace'), dp);
+            store.add(dp, RDFS('label'), a.deathPlaceName);
+          }
 
           if (a.comment && a.comment[0]) {
             for (let comment of a.comment)
               store.add(art, RDFS('comment'), $rdf.literal(comment.value, comment['xml:lang']));
           }
           callback();
-        });
+        }).catch(e => console.error(e));
     }, () => {
       console.log('Serializing Turtle');
       store.namespaces = {
@@ -131,8 +138,16 @@ function getInfoFromDBpedia(artist) {
         ?dbpedia foaf:isPrimaryTopicOf <${artist.wikipedia_uri.replace(/"/g, '\u201c')}>
         OPTIONAL { ?dbpedia dbo:wikiPageRedirects ?redirect . }
         OPTIONAL { ?dbpedia foaf:depiction ?picture. }
-        OPTIONAL { ?dbpedia dbo:birthPlace | dbp:birthPlace ?birthPlace. }
-        OPTIONAL { ?dbpedia dbo:deathPlace | dbp:deathPlace ?deathPlace. }
+        OPTIONAL {
+          ?dbpedia dbo:birthPlace | dbp:birthPlace ?birthPlace.
+          { SELECT ?birthPlace, sql:BEST_LANGMATCH(?birthPlaceLabel, 'en;q=1.0, en-gb;q=0.8, *;q=0.1', 'en') as ?birthPlaceLabel
+          WHERE { ?birthPlace rdfs:label ?birthPlaceLabel } }
+        }
+        OPTIONAL {
+          ?dbpedia dbo:deathPlace | dbp:deathPlace ?deathPlace.
+          { SELECT ?deathPlace, sql:BEST_LANGMATCH(?deathPlaceLabel, 'en;q=1.0, en-gb;q=0.8, *;q=0.1', 'en') as ?deathPlaceLabel
+          WHERE { ?deathPlace rdfs:label ?deathPlaceLabel } }
+        }
         OPTIONAL { ?dbpedia rdfs:comment ?comment. }
     }`;
 
@@ -149,7 +164,9 @@ function getInfoFromDBpedia(artist) {
       artist.dbpedia_uri = d0.dbpedia.value;
       artist.picture = d0.picture && d0.picture.value;
       artist.birthPlace = d0.birthPlace && d0.birthPlace.value;
+      artist.birthPlaceName = d0.birthPlaceLabel && d0.birthPlaceLabel.value;
       artist.deathPlace = d0.deathPlace && d0.deathPlace.value;
+      artist.deathPlaceName = d0.deathPlaceLabel && d0.deathPlaceLabel.value;
       artist.comment = data.map(d => d.comment);
       resolve(artist);
     });
@@ -166,8 +183,14 @@ function followRedirect(artist, uri, resolve, reject) {
         PREFIX dbo: <http://dbpedia.org/ontology/>
         SELECT * WHERE {
         OPTIONAL { <${uri}> foaf:depiction ?picture. }
-        OPTIONAL { <${uri}> dbo:birthPlace ?birthPlace. }
-        OPTIONAL { <${uri}> dbo:deathPlace ?deathPlace. }
+        OPTIONAL { <${uri}> dbo:birthPlace ?birthPlace
+          { SELECT ?birthPlace, sql:BEST_LANGMATCH(?birthPlaceLabel, 'en;q=1.0, en-gb;q=0.8, *;q=0.1', 'en') as ?birthPlaceLabel
+          WHERE { ?birthPlace rdfs:label ?birthPlaceLabel } }
+        }
+        OPTIONAL { <${uri}> dbo:deathPlace ?deathPlace.
+          { SELECT ?deathPlace, sql:BEST_LANGMATCH(?deathPlaceLabel, 'en;q=1.0, en-gb;q=0.8, *;q=0.1', 'en') as ?deathPlaceLabel
+          WHERE { ?deathPlace rdfs:label ?deathPlaceLabel } }
+       }
         <${uri}> rdfs:comment ?comment
         }`;
 
@@ -182,6 +205,9 @@ function followRedirect(artist, uri, resolve, reject) {
     artist.picture = d0.picture && d0.picture.value;
     artist.birthPlace = d0.birthPlace && d0.birthPlace.value;
     artist.deathPlace = d0.deathPlace && d0.deathPlace.value;
+    artist.birthPlaceName = d0.birthPlaceLabel && d0.birthPlaceLabel.value;
+    artist.deathPlaceName = d0.deathPlaceLabel && d0.deathPlaceLabel.value;
+
     artist.comment = data.map(d => d.comment);
     resolve(artist);
   });
