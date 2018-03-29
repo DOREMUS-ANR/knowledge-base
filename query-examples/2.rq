@@ -7,13 +7,21 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 # [fr] Quelles oeuvres ont été composées en 1836 ?
 
 
-SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?start, ?end
+SELECT DISTINCT ?expression, sql:BEST_LANGMATCH(?title, 'en, en-gb;q=0.8, fr=0.6; *;q=0.1', 'en') as ?title, ?start, ?end
+FROM <http://data.doremus.org/philharmonie>
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title .
+          rdfs:label ?title .
+
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span ?ts.
   ?ts time:hasEnd / time:inXSDDate ?end ;
-          time:hasBeginning / time:inXSDDate ?start .
+      time:hasBeginning / time:inXSDDate ?start .
+
   FILTER ( ?start <= "1836"^^xsd:gYear AND ?end >= "1836"^^xsd:gYear )
-} ORDER BY ?start
+}
+ORDER BY ?start
+
+
+# note: I restricted the query to 1 graph (http://data.doremus.org/philharmonie) because it is very slow.
+# Comment the FROM for the full answer
