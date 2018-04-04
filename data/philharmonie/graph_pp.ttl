@@ -13,7 +13,7 @@
     dct:issued "2016-07-01"^^xsd:date ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dct:distribution <http://data.doremus.org/bnf/distribution/ttl> .
+    dct:distribution <http://data.doremus.org/philharmonie/distribution/ttl> .
 
 <http://data.doremus.org/philharmonie/distribution/ttl> a dcat:Distribution ;
     dcat:accessURL <https://github.com/DOREMUS-ANR/knowledge-base/tree/master/data/philharmonie> ;
