@@ -664,3 +664,151 @@ NULL,
 2,
 0,
 '');
+DB.DBA.VHOST_REMOVE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/bnf'
+);
+
+DB.DBA.VHOST_DEFINE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/bnf',
+ppath=>'/DAV/',
+is_dav=>1,
+is_brws=>0,
+def_page=>'',
+vsp_user=>'dba',
+ses_vars=>0,
+opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_19'),
+is_default_host=>0);
+
+DB.DBA.URLREWRITE_CREATE_RULELIST (
+'http_rule_list_19',
+1,
+vector ('http_rule_19'));
+
+DB.DBA.URLREWRITE_CREATE_REGEX_RULE (
+'http_rule_19',
+1,
+'/bnf(/.*)',
+vector ('par_19'),
+1,
+'/fct/rdfdesc/description.vsp?g=http://data.doremus.org/bnf%U',
+vector ('par_19'),
+NULL,
+NULL,
+2,
+0,
+'');
+DB.DBA.VHOST_REMOVE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/philharmonie'
+);
+
+DB.DBA.VHOST_DEFINE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/philharmonie',
+ppath=>'/DAV/',
+is_dav=>1,
+is_brws=>0,
+def_page=>'',
+vsp_user=>'dba',
+ses_vars=>0,
+opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_20'),
+is_default_host=>0);
+
+DB.DBA.URLREWRITE_CREATE_RULELIST (
+'http_rule_list_20',
+1,
+vector ('http_rule_20'));
+
+DB.DBA.URLREWRITE_CREATE_REGEX_RULE (
+'http_rule_20',
+1,
+'/philharmonie/(.*)',
+vector ('par_20'),
+1,
+'/fct/rdfdesc/description.vsp?g=http://data.doremus.org/philharmonie/%U',
+vector ('par_20'),
+NULL,
+NULL,
+2,
+0,
+'');
+DB.DBA.VHOST_REMOVE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/itema3'
+);
+
+DB.DBA.VHOST_DEFINE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/itema3',
+ppath=>'/DAV/',
+is_dav=>1,
+is_brws=>0,
+def_page=>'',
+vsp_user=>'dba',
+ses_vars=>0,
+opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_21'),
+is_default_host=>0);
+
+DB.DBA.URLREWRITE_CREATE_RULELIST (
+'http_rule_list_21',
+1,
+vector ('http_rule_21'));
+
+DB.DBA.URLREWRITE_CREATE_REGEX_RULE (
+'http_rule_21',
+1,
+'/itema3/(.*)',
+vector ('par_21'),
+1,
+'/fct/rdfdesc/description.vsp?g=http://data.doremus.org/itema3/%U',
+vector ('par_21'),
+NULL,
+NULL,
+2,
+0,
+'');
+DB.DBA.VHOST_REMOVE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/euterpe'
+);
+
+DB.DBA.VHOST_DEFINE (
+lhost=>'*ini*',
+vhost=>'*ini*',
+lpath=>'/euterpe',
+ppath=>'/DAV/',
+is_dav=>1,
+is_brws=>0,
+def_page=>'',
+vsp_user=>'dba',
+ses_vars=>0,
+opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_22'),
+is_default_host=>0);
+
+DB.DBA.URLREWRITE_CREATE_RULELIST (
+'http_rule_list_22',
+1,
+vector ('http_rule_22'));
+
+DB.DBA.URLREWRITE_CREATE_REGEX_RULE (
+'http_rule_22',
+1,
+'/euterpe/(.*)',
+vector ('par_22'),
+1,
+'/fct/rdfdesc/description.vsp?g=http://data.doremus.org/euterpe/%U',
+vector ('par_22'),
+NULL,
+NULL,
+2,
+0,
+'');

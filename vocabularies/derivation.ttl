@@ -93,7 +93,7 @@
 <http://data.doremus.org/vocabulary/derivation/parody> a skos:Concept ;
     skos:definition """Imitation burlesque (d’une œuvre sérieuse). Contrefaçon ridicule.
 (Le Petit Robert, 2003.)"""@fr ;
-    skos:editoralNote: "Ne pas confondre avec “messe parodie”."@fr,
+    skos:editoralNote "Ne pas confondre avec “messe parodie”."@fr,
     "Da non confondere con “messa parodia”."@fr,
     "not to be confused with “parody mass”."@fr;
     skos:prefLabel "parodie"@de,
