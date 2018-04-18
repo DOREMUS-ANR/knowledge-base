@@ -975,9 +975,11 @@
     modsrdf:namePrincipal "Baselt, Bernd" ;
     modsrdf:publisher "Bärenreiter (Kassel)" ;
     modsrdf:subjectName "HÄNDEL, GEORG FRIEDRICH (1685-1759)" ;
-    dct:subject <http://data.doremus.org/artist/35ddad40-c793-312a-86ec-6a1310c030a1> ;
+    dct:subject <http://data.doremus.org/artist/ed7eb4d4-1e91-3a02-8e07-cbf857031127> ;
     modsrdf:title "Händel-Handbuch"@fr ;
-    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb35111282d%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb374021672%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb37402168d%2FPUBLIC> .
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb35111282d> ,
+               <http://catalogue.bnf.fr/ark:/12148/cb374021672> ,
+               <http://catalogue.bnf.fr/ark:/12148/cb37402168d> .
 
 <http://data.doremus.org/vocabulary/catalog/064> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
@@ -1292,7 +1294,8 @@
     modsrdf:subjectName "PAISIELLO, GIOVANNI (1740-1816)" ;
     dct:subject <http://data.doremus.org/artist/31b914b0-e6b4-3d02-8838-57a21bf9bca3> ;
     modsrdf:title "Robinson, Paisiello"@fr ;
-    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb354551902%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb357404277%2FPUBLIC> .
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb354551902> ,
+               <http://catalogue.bnf.fr/ark:/12148/cb357404277> .
 
 <http://data.doremus.org/vocabulary/catalog/092> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
@@ -1408,7 +1411,8 @@
     modsrdf:subjectName "SAINT-SAENS, CAMILLE (1835-1921)" ;
     dct:subject <http://data.doremus.org/artist/a4e8f64d-3411-3eb4-8e09-59e24bc26bf3> ;
     modsrdf:title "Ratner, Saint-Saëns"@fr ;
-    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb388551727%2FPUBLIC%0Ahttp%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb426686040%2FPUBLIC> .
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb388551727> ,
+               <http://catalogue.bnf.fr/ark:/12148/cb426686040> .
 
 <http://data.doremus.org/vocabulary/catalog/101> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
@@ -1850,7 +1854,7 @@
     modsrdf:publisher "H. Schneider (Tutzing)" ;
     modsrdf:subjectName "CORNELIUS, PETER (1824-1874)" ;
     dct:subject <http://data.doremus.org/artist/feedb49e-60a1-3d09-9c85-8cac5cadd123> ;
-    owl:sameAs <http://data.doremus.org/vocabulary/catalog/http%3A%2F%2Fcatalogue.bnf.fr%2Fark%3A%2F12148%2Fcb433285186%2FPUBLIC%0A> .
+    owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb433285186> .
 
 <http://data.doremus.org/vocabulary/catalog/136> a modsrdf:ModsResource ;
     dct:description "Catalogue thématique"@fr ;
@@ -2025,7 +2029,7 @@
     dct:description "Catalogue d’œuvre"@fr ;
     modsrdf:dateOfCopyright "2003" ;
     modsrdf:edition "2e éd., 2003 (nouvelle numérotation)"@fr ;
-    modsrdf:identifier "FL" ;
+    modsrdf:identifier "FL", "L" ;
     modsrdf:languageOfResource "fr"^^xsd:language ;
     modsrdf:namePrincipal "Lesure, François" ;
     modsrdf:publisher "Fayard (Paris)" ;
