@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.1",
     "nib": "^1.1.2",
-    "pug": "^2.0.0-rc.2",
-    "rdflib": "^0.15.0",
-    "rupture": "^0.6.2"
+    "pug": "^2.0.3",
+    "rdflib": "^0.16.9",
+    "rupture": "^0.7.1"
   },
   "jshintConfig": {
     "esversion": 6
