@@ -970,7 +970,7 @@
     dct:description "Catalogue thématique"@fr ;
     modsrdf:abstract "Händel-Handbuc : thematisch-systematisches Verzeichnis"@de ;
     modsrdf:dateOfCopyright "1978-1985" ;
-    modsrdf:identifier "HMW" ;
+    modsrdf:identifier "HWV" ;
     modsrdf:languageOfResource "de"^^xsd:language ;
     modsrdf:namePrincipal "Baselt, Bernd" ;
     modsrdf:publisher "Bärenreiter (Kassel)" ;
@@ -2083,3 +2083,18 @@
     modsrdf:subjectName "MOZART, WOLFGANG AMADEUS (1756-1791)" ;
     dct:subject <http://data.doremus.org/artist/4802a043-23bb-3b8d-a443-4a3bd22ccc63> ;
     owl:sameAs <http://data.bnf.fr/ark:/12148/cb43076262w> .
+
+
+<http://data.doremus.org/vocabulary/catalog/152> a modsrdf:ModsResource ;
+    dct:description "Catalogue thématique"@fr ;
+    rdfs:label "Stattkus-Verzeichnis"@de ;
+    modsrdf:dateOfCopyright "1985"^^xsd:gYear ;
+    modsrdf:identifier "SV";
+    modsrdf:languageOfResource "en"^^xsd:language ;
+    modsrdf:namePrincipal "Stattkus, Manfred H." ;
+    modsrdf:publisher "Bergkamen : Musikverlag Stattkus" ;
+    modsrdf:subjectName "Monteverdi, Claudio (1567-1643)" ;
+    modsrdf:title "Stattkus, Monteverdi" ;
+    modsrdf:titlePrincipal "Claudio Monteverdi, Verzeichnis der erhaltenen Werke (SV)"@de ;
+    dct:subject <http://data.doremus.org/artist/b0ae695c-4198-39f2-a615-9098899d59b3> ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb432828744> .
