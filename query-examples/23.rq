@@ -10,7 +10,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?dedicatee, ?performance
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title ;
+          rdfs:label ?title ;
           mus:U44_has_dedication_statement / ecrm:P67_refers_to ?dedicatee.
 
   ?performance a efrbroo:F31_Performance ;
@@ -23,7 +23,7 @@ WHERE {
 # SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?dedication, ?dedicatee, ?performanceNote, ?performance
 # WHERE {
 #   ?expression a efrbroo:F22_Self-Contained_Expression ;
-#           mus:U70_has_title ?title .
+#           rdfs:label ?title .
 #   OPTIONAL {?expression mus:U44_has_dedication_statement / ecrm:P3_has_note ?dedication }
 # 
 #   ?performance a efrbroo:F31_Performance ;

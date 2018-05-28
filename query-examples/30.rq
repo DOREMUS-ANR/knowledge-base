@@ -13,10 +13,10 @@ WHERE {
     ecrm:P9_consists_of / mus:U1_used_medium_of_performance ?mop .
 
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-        mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type ?mopWork .
+        mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?mopWork .
 
   FILTER NOT EXISTS {
-    ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type ?mop .
+    ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?mop .
   }
 } LIMIT 300
 

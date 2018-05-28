@@ -9,7 +9,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?expression, SAMPLE(?composer) as ?composer, SAMPLE(?title) as ?title, ?casting
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title ;
+          rdfs:label ?title ;
           mus:U13_has_casting ?casting .
 
   ?expCreation efrbroo:R17_created ?expression ;
@@ -18,10 +18,10 @@ WHERE {
   ?casting mus:U23_has_casting_detail ?allCastingDets .
 
   ?casting mus:U23_has_casting_detail ?castingDet1, ?castingDet2 .
-  ?castingDet1 mus:U2_foresees_use_of_medium_of_performance_of_type ?bassoon ;
+  ?castingDet1 mus:U2_foresees_use_of_medium_of_performance ?bassoon ;
        mus:U30_foresees_quantity_of_mop 2 .
 
-  ?castingDet2 mus:U2_foresees_use_of_medium_of_performance_of_type ?flute .
+  ?castingDet2 mus:U2_foresees_use_of_medium_of_performance ?flute .
 
   VALUES (?bassoon) { ( <http://data.doremus.org/vocabulary/iaml/mop/wba> ) (<http://www.mimo-db.eu/InstrumentsKeywords/3795>) }
   VALUES (?flute) { ( <http://data.doremus.org/vocabulary/iaml/mop/wfl> ) (<http://www.mimo-db.eu/InstrumentsKeywords/3955>) }

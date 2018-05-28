@@ -9,7 +9,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?expression, SAMPLE(?title) AS ?title, ?casting1, count(DISTINCT ?cDet1) AS ?n1, ?casting2, count(DISTINCT ?cDet2) as ?n2
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title ;
+          rdfs:label ?title ;
           mus:U13_has_casting ?casting1, ?casting2 .
   
   ?casting1 mus:U23_has_casting_detail ?cDet1 .

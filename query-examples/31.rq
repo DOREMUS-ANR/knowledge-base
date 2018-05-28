@@ -13,10 +13,10 @@ WHERE {
         efrbroo:R2_is_derivative_of / mus:U38_has_descriptive_expression ?expression .
 
   ?expCreation efrbroo:R17_created ?expression ;
-      efrbroo:R17_created / mus:U70_has_title ?expressionTitle ;
+      efrbroo:R17_created / rdfs:label ?expressionTitle ;
       ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/artist/34943da5-d068-3ada-bd4d-3db0c66c8a7d> .
 
-  ?reductionExpression mus:U70_has_title ?reductionTitle .
+  ?reductionExpression rdfs:label ?reductionTitle .
   ?redCreation efrbroo:R17_created ?reductionExpression ;
       ecrm:P4_has_time-span / time:hasEnd / time:inXSDDate ?compositionDate .
 

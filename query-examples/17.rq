@@ -23,10 +23,10 @@ WHERE {
 
 
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title ;
+          rdfs:label ?title ;
           mus:U13_has_casting / mus:U23_has_casting_detail ?castingDet .
 
-  ?castingDet mus:U2_foresees_use_of_medium_of_performance_of_type ?mop;
+  ?castingDet mus:U2_foresees_use_of_medium_of_performance ?mop;
               mus:U36_foresees_responsibility_of_type "soloist"@fr .
 
   FILTER ( contains(lcase(str(?orchestra)), "orchestre national de france") )

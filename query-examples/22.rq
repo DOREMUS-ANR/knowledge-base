@@ -9,7 +9,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?composerName, SAMPLE(?genre) AS ?genre
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title ;
+          rdfs:label ?title ;
           mus:U12_has_genre / skos:prefLabel ?genre.
 
   ?expCreation efrbroo:R17_created ?expression ;

@@ -12,7 +12,7 @@ WHERE {
         ecrm:P148_has_component ?movements;
         efrbroo:R9_is_realised_in ?expression.
   
-  ?expression mus:U70_has_title ?title ;
+  ?expression rdfs:label ?title ;
             mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/sy> .
 
 } GROUP BY ?work
