@@ -7,31 +7,22 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 # [fr] Donne-moi la liste des concerts de l'Orchestre National de France dans lesquels le chef d'orchestre est également soliste instrumental (dans le même concert)
 
 
-SELECT DISTINCT ?performance, ?conductor
+SELECT DISTINCT ?concert ?conductor
 WHERE {
-  ?performance a mus:M42_Performed_Expression_Creation ;
-    efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
-    ecrm:P9_consists_of ?activityDir ;
-    ecrm:P9_consists_of ?activityMus ;
-    ecrm:P9_consists_of / ecrm:P14_carried_out_by ?orchestra.
+  ?concert ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityDir ;
+      ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityMus ;
+      ecrm:P9_consists_of / ecrm:P9_consists_of* / ecrm:P14_carried_out_by / rdfs:label ?orchestra.
 
   ?activityDir ecrm:P14_carried_out_by ?conductor ;
-    mus:U35_foresees_function_of_type "conducteur"@fr .
+    mus:U31_had_function / skos:broader* <http://data.doremus.org/vocabulary/function/conductor> .
 
   ?activityMus ecrm:P14_carried_out_by ?conductor ;
-    mus:U1_used_medium_of_performance ?mop .
-
-
-  ?expression a efrbroo:F22_Self-Contained_Expression ;
-          rdfs:label ?title ;
-          mus:U13_has_casting / mus:U23_has_casting_detail ?castingDet .
-
-  ?castingDet mus:U2_foresees_use_of_medium_of_performance ?mop;
-              mus:U36_foresees_responsibility_of_type "soloist"@fr .
+    mus:U1_used_medium_of_performance ?mop ;
+    mus:U32_had_responsibility "soloist"@fr .
 
   FILTER ( contains(lcase(str(?orchestra)), "orchestre national de france") )
 }
 
 # Note: there are no data about it
 
-# Note: this query will be improved by the creation of the controlled vocabulary of functions
+# Note: this query will be improved by the creation of the controlled vocabulary of resposibilities

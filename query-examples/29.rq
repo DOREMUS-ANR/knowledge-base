@@ -12,24 +12,22 @@ WHERE {
 
   ?work a efrbroo:F14_Individual_Work;
         efrbroo:R9_is_realised_in ?expression .
-  
+
   ?expression rdfs:label ?title ;
         mus:U13_has_casting ?casting .
-        
+
   { SELECT ?casting
     WHERE {
-    ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance <http://data.doremus.org/vocabulary/iaml/mop/kpf> ;
+    ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* <http://data.doremus.org/vocabulary/iaml/mop/kpf> ;
           mus:U23_has_casting_detail ?cDet .
     } GROUP BY ?casting
     HAVING (COUNT(?cDet) = 1)
-  }  
-    
+  }
+
   ?work2 a efrbroo:F14_Individual_Work;
         efrbroo:R9_is_realised_in / rdfs:label ?title2 .
-} 
+}
 ORDER BY ?title
 LIMIT 500
 
 # Note: so far, we have in the database only link of type ecrm:P148_has_component
-
-#TODO add MIMO

@@ -8,17 +8,15 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT DISTINCT ?performance, SAMPLE(?perfTitle) AS ?perfTitle, SAMPLE(?expTitle) AS ?expTitle, ?expression
 WHERE {
-  ?performance a mus:M42_Performed_Expression_Creation ;
-    efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
-    ecrm:P102_has_title ?perfTitle .
+  ?performance a mus:M43_Performed_Expression ;
+    mus:U54_is_performed_expression_of ?expression ;
+    rdfs:label ?perfTitle .
 
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          rdfs:label ?expTitle .
+    rdfs:label ?expTitle .
 
-  MINUS {
-  ?performance a mus:M42_Performed_Expression_Creation ;
-    efrbroo:R25_performed / ecrm:P165_incorporates / rdfs:label ?perfTitle ;
-    ecrm:P102_has_title ?perfTitle .
+  FILTER NOT EXISTS {
+    ?performance mus:U54_is_performed_expression_of / rdfs:label ?perfTitle .
   }
 }
 

@@ -45,13 +45,13 @@
 
     <h2 id="1">#1: Work listing</h2>
     <p>
-      Which works have been composed by Mozart? - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+%3Fexpression+SAMPLE%28%3Ftitle%29+as+%3Ftitle%0D%0A++++WHERE+%7B%0D%0A++++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++++mus%3AU70_has_title+%3Ftitle+.%0D%0A++++++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++++++%3Fcomposer+foaf%3Aname+%22Wolfgang+Amadeus+Mozart%22%0D%0A++++%7D+ORDER+BY+%3Ftitle%0D%0A&format=text%2Fhtml&timeout=0&debug=on)">results</a>
+      Which works have been composed by Mozart? - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+%3Fexpression+SAMPLE%28%3Ftitle%29+as+%3Ftitle%0D%0A++++WHERE+%7B%0D%0A++++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++++rdfs%3Alabel+%3Ftitle+.%0D%0A++++++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++++++%3Fcomposer+foaf%3Aname+%22Wolfgang+Amadeus+Mozart%22%0D%0A++++%7D+ORDER+BY+%3Ftitle%0D%0A&format=text%2Fhtml&timeout=0&debug=on)">results</a>
     </p>
     <pre><code class="sql">
     SELECT DISTINCT ?expression SAMPLE(?title) as ?title
     WHERE {
       ?expression a efrbroo:F22_Self-Contained_Expression ;
-              mus:U70_has_title ?title .
+              rdfs:label ?title .
       ?expCreation efrbroo:R17_created ?expression ;
               ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
       ?composer foaf:name "Wolfgang Amadeus Mozart"
@@ -59,14 +59,14 @@
     </code></pre>
 
     <p>
-      Which symphonies have been composed in 19th century? - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+SAMPLE%28%3FcomposerName%29+as+%3FcomposerName%2C+%3Fdate%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++mus%3AU70_has_title+%3Ftitle+%3B%0D%0A++++++++++mus%3AU12_has_genre+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fsy%3E.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Fdate+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++%3Fcomposer+foaf%3Aname+%3FcomposerName%0D%0A%0D%0A++FILTER+%28%3Fdate+%3E%3D+%221800%22%5E%5Exsd%3AgYear+AND+%3Fdate+%3C+%221900%22%5E%5Exsd%3AgYear%29%0D%0A%7D+ORDER+BY+%3Fdate%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+      Which symphonies have been composed in 19th century? - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fexpression%2C+SAMPLE%28%3Ftitle%29+as+%3Ftitle%2C+SAMPLE%28%3FcomposerName%29+as+%3FcomposerName%2C+%3Fdate%0D%0AWHERE+%7B%0D%0A++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++rdfs%3Alabel+%3Ftitle+%3B%0D%0A++++++++++mus%3AU12_has_genre+%2F+skos%3AexactMatch*+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fiaml%2Fgenre%2Fsy%3E.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++++++ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Fdate+%3B%0D%0A++++++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Fcomposer+.%0D%0A++%3Fcomposer+foaf%3Aname+%3FcomposerName%0D%0A%0D%0A++FILTER+%28%3Fdate+%3E%3D+%221800%22%5E%5Exsd%3AgYear+AND+%3Fdate+%3C+%221900%22%5E%5Exsd%3AgYear%29%0D%0A%7D+ORDER+BY+%3Fdate&format=text%2Fhtml&timeout=0&debug=on">results</a>
     </p>
     <pre><code class="sql">
 SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, SAMPLE(?composerName) as ?composerName, ?date
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          mus:U70_has_title ?title ;
-          mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/sy>.
+          rdfs:label ?title ;
+          mus:U12_has_genre / skos:exactMatch* <http://data.doremus.org/vocabulary/iaml/genre/sy>.
 
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?date ;
@@ -79,17 +79,17 @@ WHERE {
 
     <h2 id="2">#2: Work detail</h2>
     <p>
-      Retrieve all the information about <a href="http://data.doremus.org/expression/614925f2-1da7-39c1-8fb7-4866b1d39fc7">Beethoven’s Sonata for Cello and Piano</a>  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+*%0D%0AWHERE+%7B%0D%0A++++VALUES+%3Fexpression+%7B+%3Chttp%3A%2F%2Fdata.doremus.org%2Fexpression%2F614925f2-1da7-39c1-8fb7-4866b1d39fc7%3E+%7D%0D%0A++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++mus%3AU70_has_title+%7C+ecrm%3AP102_has_title+%3Ftitle+.%0D%0A++++OPTIONAL%7B%3Fexpression+ecrm%3AP3_has_note+%3Fnote+.%7D%0D%0A++++OPTIONAL+%7B%0D%0A++++++%3Fexpression+mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance_of_type+%3Fmop+.%0D%0A++++%7D%0D%0A++++OPTIONAL%7B%0D%0A++++++%3Fexpression+mus%3AU12_has_genre+%3Fgenre+.%0D%0A++++%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU17_has_opus_statement+%2F+ecrm%3AP3_has_note+%3Fopus%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU10_has_order_number+%3Forder+.%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU11_has_key+%3Fkey+.+%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU16_has_catalogue_statement+%2F+rdfs%3Alabel+%3Fcatalogue+%7D%0D%0A++++OPTIONAL%7B%0D%0A++++++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+.%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3FexpCreation+ecrm%3AP9_consists_of+%3Factivity+%3B%0D%0A+++++++++++++++++++++ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3FcreationStart+.%0D%0A++++++++%3Factivity+ecrm%3AP14_carried_out_by++%3FcomposerUri+%3B%0D%0A++++++++++++++++++mus%3AU31_had_function_of_type+%22compositeur%22%40fr+.%0D%0A++++++%7D%0D%0A++++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+      Retrieve all the information about <a href="http://data.doremus.org/expression/614925f2-1da7-39c1-8fb7-4866b1d39fc7">Beethoven’s Sonata for Cello and Piano</a>  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+*%0D%0AWHERE+%7B%0D%0A++++VALUES+%3Fexpression+%7B+%3Chttp%3A%2F%2Fdata.doremus.org%2Fexpression%2F614925f2-1da7-39c1-8fb7-4866b1d39fc7%3E+%7D%0D%0A++++%3Fexpression+a+efrbroo%3AF22_Self-Contained_Expression+%3B%0D%0A++++++++++++rdfs%3Alabel+%3Ftitle+.%0D%0A++++OPTIONAL%7B%3Fexpression+ecrm%3AP3_has_note+%3Fnote+.%7D%0D%0A++++OPTIONAL+%7B%0D%0A++++++%3Fexpression+mus%3AU13_has_casting+%2F+mus%3AU23_has_casting_detail+%2F+mus%3AU2_foresees_use_of_medium_of_performance+%3Fmop+.%0D%0A++++%7D%0D%0A++++OPTIONAL%7B%0D%0A++++++%3Fexpression+mus%3AU12_has_genre+%3Fgenre+.%0D%0A++++%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU17_has_opus_statement+%2F+ecrm%3AP3_has_note+%3Fopus%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU10_has_order_number+%3Forder+.%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU11_has_key+%3Fkey+.+%7D%0D%0A++++OPTIONAL%7B%3Fexpression+mus%3AU16_has_catalogue_statement+%2F+rdfs%3Alabel+%3Fcatalogue+%7D%0D%0A++++OPTIONAL%7B%0D%0A++++++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+.%0D%0A++++++OPTIONAL+%7B%0D%0A++++++++%3FexpCreation+ecrm%3AP9_consists_of+%3Factivity+%3B%0D%0A+++++++++++++++++++++ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3FcreationStart+.%0D%0A++++++++%3Factivity+ecrm%3AP14_carried_out_by++%3FcomposerUri+%3B%0D%0A++++++++++++++++++mus%3AU31_had_function+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Ffunction%2Fcomposer%3E+.%0D%0A++++++%7D%0D%0A++++%7D%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on">results</a>
     </p>
     <pre><code class="sql">
 SELECT DISTINCT *
 WHERE {
     VALUES ?expression { &lt;http://data.doremus.org/expression/614925f2-1da7-39c1-8fb7-4866b1d39fc7&gt; }
     ?expression a efrbroo:F22_Self-Contained_Expression ;
-            mus:U70_has_title | ecrm:P102_has_title ?title .
+            rdfs:label ?title .
     OPTIONAL{?expression ecrm:P3_has_note ?note .}
     OPTIONAL {
-      ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance_of_type ?mop .
+      ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?mop .
     }
     OPTIONAL{
       ?expression mus:U12_has_genre ?genre .
@@ -103,8 +103,8 @@ WHERE {
       OPTIONAL {
         ?expCreation ecrm:P9_consists_of ?activity ;
                      ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?creationStart .
-        ?activity ecrm:P14_carried_out_by  ?composerUri ;
-                  mus:U31_had_function_of_type "compositeur"@fr .
+        ?activity ecrm:P14_carried_out_by ?composerUri ;
+                  mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer> .
       }
     }
 }
@@ -112,12 +112,12 @@ WHERE {
 
     <h2 id="3">#3: Artist listing</h2>
     <p>
-      List all composers  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++++SELECT+DISTINCT+%3Fartist+SAMPLE%28%3Fname%29+as+%3Fname%0D%0A++++++WHERE+%7B%0D%0A++++++++++%5B%5D+mus%3AU31_had_function_of_type+%22compositeur%22%40fr+%3B%0D%0A++++++++++++++ecrm%3AP14_carried_out_by+%3Fartist+.%0D%0A++++++++++%3Fartist+foaf%3Aname+%3Fname%0D%0A++++++%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
+      List all composers  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fartist+SAMPLE%28%3Fname%29+as+%3Fname%0D%0A++++++WHERE+%7B%0D%0A++++++++++%5B%5D+mus%3AU31_had_function+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Ffunction%2Fcomposer%3E+%3B%0D%0A++++++++++++++ecrm%3AP14_carried_out_by+%3Fartist+.%0D%0A++++++++++%3Fartist+foaf%3Aname+%3Fname%0D%0A++++++%7D&format=text%2Fhtml&timeout=0&debug=on">results</a>
     </p>
     <pre><code class="sql">
       SELECT DISTINCT ?artist SAMPLE(?name) as ?name
       WHERE {
-          [] mus:U31_had_function_of_type "compositeur"@fr ;
+          [] mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer> ;
               ecrm:P14_carried_out_by ?artist .
           ?artist foaf:name ?name
       }
@@ -152,22 +152,18 @@ WHERE {
 
     <h2 id="4">#4: Performances</h2>
     <p>
-      List all performance of Donizzetti's <i>Don Pasquale</i> - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+*%0D%0A++++WHERE+%7B%0D%0A++++++++GRAPH+%3FsourceGraph+%7B%0D%0A++++++++%3Fexpression+rdfs%3Alabel+%3Ftitle.%0D%0A++++++++%3Fperformance+efrbroo%3AR66_included_performed_version_of+%3Fexpression+.%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Ftime+%7D%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP7_took_place_at+%2F+%28rdfs%3Alabel+%7C+geonames%3Aname%29+%3Fplace+%7D%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+mus%3AU70_has_title+%7C+ecrm%3AP102_has_title+%3Ftitle+%7D%0D%0A++++++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP3_has_note+%3Fnote+%7D%0D%0A+++++%0D%0A++++++++FILTER+contains%28%3Ftitle%2C%22Don+Pasquale%22%29++%0D%0A++++++++%7D%0D%0A++++%7D&format=text%2Fhtml&timeout=0&debug=on">results</a>
+      List all performance of Bizet's <i>Carmen</i> - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=%0D%0ASELECT+DISTINCT+*%0D%0AWHERE+%7B%0D%0A++++%3Fperformance+efrbroo%3AR66_included_performed_version_of+%3Chttp%3A%2F%2Fdata.doremus.org%2Fexpression%2F4d4fed5f-e383-3560-9aa3-bf6496e1c335%3E+.%0D%0A%0D%0A++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP4_has_time-span+%2F+time%3AhasBeginning+%2F+time%3AinXSDDate+%3Ftime+%7D%0D%0A++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP7_took_place_at+%2F+%28rdfs%3Alabel+%7C+geonames%3Aname%29+%3Fplace+%7D%0D%0A++++OPTIONAL+%7B+%3Fperformance+ecrm%3AP3_has_note+%3Fnote+%7D%0D%0A%0D%0A+%7D%0D%0A&format=text%2Fhtml">results</a>
     </p>
     <pre><code class="sql">
     SELECT DISTINCT *
     WHERE {
-        GRAPH ?sourceGraph {
-          ?expression rdfs:label ?title.
-          ?performance efrbroo:R66_included_performed_version_of ?expression .
-          OPTIONAL { ?performance ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?time }
-          OPTIONAL { ?performance ecrm:P7_took_place_at / (rdfs:label | geonames:name) ?place }
-          OPTIONAL { ?performance mus:U70_has_title | ecrm:P102_has_title ?title }
-          OPTIONAL { ?performance ecrm:P3_has_note ?note }
+        ?performance efrbroo:R66_included_performed_version_of <http://data.doremus.org/expression/4d4fed5f-e383-3560-9aa3-bf6496e1c335> .
 
-          FILTER contains(?title,"Don Pasquale")
-        }
-    }
+        OPTIONAL { ?performance ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?time }
+        OPTIONAL { ?performance ecrm:P7_took_place_at / (rdfs:label | geonames:name) ?place }
+        OPTIONAL { ?performance ecrm:P3_has_note ?note }
+
+     }
     </code></pre>
     <p>
       List all  the concerts at <a href="http://data.doremus.org/place/687896c9-0db7-31cf-8b20-5fa73dc268d6">Maison de la Radio</a>  - <a href="http://data.doremus.org/sparql?default-graph-uri=&query=++++SELECT+DISTINCT+*%0D%0A++++WHERE+%7B%0D%0A++++++++%3Fperformance+a+efrbroo%3AF31_Performance+%3B%0D%0A++++++++++++++++ecrm%3AP7_took_place_at+%3Chttp%3A%2F%2Fdata.doremus.org%2Fplace%2F687896c9-0db7-31cf-8b20-5fa73dc268d6%3E%0D%0A++++%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on">results</a>
