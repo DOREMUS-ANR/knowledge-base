@@ -1,6 +1,8 @@
 # DOREMUS knowledge base data dumps
-* diabolo ... la base "Discothèque" de Radio France
-* redomi ... la base "Bibliothèque Musicale" de Radio France
-* itema3 ... la base "Documentation Sonore" décrivant des concerts donnés à Radio France
-* philharmonie ... la base décrivant le fond et les concerts données à la Philharmonie de Paris
-* bnf ... la base décrivant une partie du fond d'archive de la BnF
+
+* `bnf` Dataset describing the musical part of BnF archives
+* `diabolo` _(soon available)_ Dataset "DiscothÃ¨que" of Radio France
+* `isni` Interlinking (through `owl:sameAs` links) of artists between DOREMUS and linked data sources (isni, viaf, dbpedia, musicbrainz, ...)
+* `itema3` Dataset "Documentation Sonore" describing concerts located at Radio France
+* `redomi` _(soon available)_ Dataset "BibliothÃ¨que Musicale" of Radio France
+* `philharmonie` Dataset describing works and concerts located at the Philharmonie de Paris
