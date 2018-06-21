@@ -1,0 +1,69 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/genre/> a skos:ConceptScheme ;
+    rdfs:label "List of musical genres"@en,
+        "Liste des genres musicaux"@fr,
+        "Lista dei generi musicali"@it ;
+    dct:created "2017-10-06"^^xsd:date ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:modified "2017-10-06"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/iaml/genre/lit> skos:narrower <http://data.doremus.org/vocabulary/iaml/genre/lid>,
+        <http://data.doremus.org/vocabulary/iaml/genre/lod>,
+        <http://data.doremus.org/vocabulary/iaml/genre/lyh>,
+        <http://data.doremus.org/vocabulary/iaml/genre/vrl> .
+
+<http://data.doremus.org/vocabulary/genre/i> a skos:Concept ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/genre/> ;
+    owl:sameAs <http://data.doremus.org/vocabulary/diabolo/genre/musique_instrumentale>,
+        <http://data.doremus.org/vocabulary/itema3/genre/84>,
+        <http://data.doremus.org/vocabulary/itema3/genre/musdoc/81> ;
+    skos:narrower <http://data.doremus.org/vocabulary/iaml/genre/aub>,
+        <http://data.doremus.org/vocabulary/iaml/genre/bdi>,
+        <http://data.doremus.org/vocabulary/iaml/genre/cl>,
+        <http://data.doremus.org/vocabulary/iaml/genre/cyd>,
+        <http://data.doremus.org/vocabulary/iaml/genre/cz>,
+        <http://data.doremus.org/vocabulary/iaml/genre/dui>,
+        <http://data.doremus.org/vocabulary/iaml/genre/dv>,
+        <http://data.doremus.org/vocabulary/iaml/genre/fg>,
+        <http://data.doremus.org/vocabulary/iaml/genre/ft>,
+        <http://data.doremus.org/vocabulary/iaml/genre/int>,
+        <http://data.doremus.org/vocabulary/iaml/genre/plt>,
+        <http://data.doremus.org/vocabulary/iaml/genre/ps>,
+        <http://data.doremus.org/vocabulary/iaml/genre/rmc>,
+        <http://data.doremus.org/vocabulary/iaml/genre/snd>,
+        <http://data.doremus.org/vocabulary/iaml/genre/tc>,
+        <http://data.doremus.org/vocabulary/iaml/genre/tri> ;
+    skos:prefLabel "instrumental music"@en,
+        "musique instrumentale"@fr,
+        "musica strumentale"@it ;
+    skos:altLabel "instrumental"@en,
+        "instrumentale"@fr,
+        "strumentale"@it .
+
+<http://data.doremus.org/vocabulary/iaml/genre/v> a skos:Concept ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/genre/> ;
+    owl:sameAs <http://data.doremus.org/vocabulary/diabolo/genre/musique_vocale>,
+        <http://data.doremus.org/vocabulary/itema3/genre/musdoc/76> ;
+    skos:narrower <http://data.doremus.org/vocabulary/iaml/genre/ala>,
+        <http://data.doremus.org/vocabulary/iaml/genre/ch>,
+        <http://data.doremus.org/vocabulary/iaml/genre/czp>,
+        <http://data.doremus.org/vocabulary/iaml/genre/due>,
+        <http://data.doremus.org/vocabulary/iaml/genre/mo>,
+        <http://data.doremus.org/vocabulary/iaml/genre/rde>,
+        <http://data.doremus.org/vocabulary/iaml/genre/rmz>,
+        <http://data.doremus.org/vocabulary/iaml/genre/snt>,
+        <http://data.doremus.org/vocabulary/iaml/genre/ter> ;
+    skos:prefLabel "vocal music"@en,
+        "musique vocale"@fr,
+        "musica vocale"@it ;
+    skos:prefLabel "vocal"@en,
+        "vocale"@fr,
+        "vocale"@it .
