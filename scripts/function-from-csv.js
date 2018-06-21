@@ -14,11 +14,11 @@ const DIVIDER_REGEX = /\\n/g;
 const COLLECTION_LIST = ['performance', 'casting', 'musical_work', 'creative_work', 'recording', 'publication', 'performance_plan', 'editing'];
 const BASE_URL = 'http://data.doremus.org/vocabulary/function/';
 
-const RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
-const SKOS = $rdf.Namespace("http://www.w3.org/2004/02/skos/core#");
-const RDFS = $rdf.Namespace("http://www.w3.org/2000/01/rdf-schema#");
-const DCT = $rdf.Namespace("http://purl.org/dc/terms/");
-const XSD = $rdf.Namespace("http://www.w3.org/2001/XMLSchema#");
+const RDF = $rdf.Namespace('http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+const SKOS = $rdf.Namespace('http://www.w3.org/2004/02/skos/core#');
+const RDFS = $rdf.Namespace('http://www.w3.org/2000/01/rdf-schema#');
+const DCT = $rdf.Namespace('http://purl.org/dc/terms/');
+const XSD = $rdf.Namespace('http://www.w3.org/2001/XMLSchema#');
 
 var file = __dirname + '/../vocabularies/raw-data/functions.csv';
 var output = __dirname + '/../vocabularies/function.ttl';
@@ -33,12 +33,17 @@ store.setPrefixForURI('xsd', 'http://www.w3.org/2001/XMLSchema#');
 COLLECTION_LIST.forEach(c => {
   var collection = $rdf.sym(BASE_URL + c);
   store.add(collection, RDF('type'), SKOS('Collection'));
+  store.add(collection, RDFS('label'), c.replace(/_/g, ' '));
 });
 
 var conceptScheme = $rdf.sym(BASE_URL);
 store.add(conceptScheme, RDF('type'), SKOS('ConceptScheme'));
-store.add(conceptScheme, RDFS('label'), $rdf.literal('List of functions', 'en'));
-store.add(conceptScheme, RDFS('label'), $rdf.literal('Liste des fonctions', 'fr'));
+store.add(conceptScheme, RDFS('label'), $rdf.literal('Relationship designators for agents', 'en'));
+store.add(conceptScheme, RDFS('label'), $rdf.literal('Fonctions', 'fr'));
+store.add(conceptScheme, RDFS('label'), $rdf.literal('Funzioni per attività musicali', 'it'));
+store.add(conceptScheme, RDFS('comment'), $rdf.literal('Type de relation entre un agent et une oeuvre, une expression, une manifestation ou un évènement', 'fr'));
+store.add(conceptScheme, RDFS('comment'), $rdf.literal('Relationship designators to specify the relationship between  an agent and a work, an expression, a manifestation or an event', 'en'));
+store.add(conceptScheme, RDFS('comment'), $rdf.literal('Tipo di relazione tra una persona (artista, tecnico, etc.) e un\'opera, un\'espressione, una manifestazione o un evento', 'it'));
 store.add(conceptScheme, DCT('creator'), $rdf.sym('http://data.doremus.org/organization/DOREMUS'));
 store.add(conceptScheme, DCT('license'), $rdf.sym('https://creativecommons.org/licenses/by/4.0/'));
 store.add(conceptScheme, DCT('created'), $rdf.literal('2018-01-10', null, XSD('date')));
@@ -49,12 +54,11 @@ var curConcept = {}; // for saving the current concepts at different levels
 
 fs.createReadStream(file)
   .pipe(csv({
-    separator: ';', // specify optional cell separator
-    newline: '\n' // specify a newline character
+    separator: ',',
+    newline: '\n'
   }))
   .on('data', (data) => {
     ++i;
-    // console.log(Object.keys(data));
 
     let labelEn = (data['prefLabel@en'] || '').trim();
     let labelFr = data['prefLabel@fr'].trim();
@@ -86,17 +90,13 @@ fs.createReadStream(file)
       store.add(concept, SKOS('inScheme'), conceptScheme);
     }
 
-    for (let ctx of data[CONTEXT].split(DIVIDER)) {
-      ctx = ctx.trim();
-      if (!ctx) continue;
-      store.add(concept, SKOS('scopeNote'),
-        $rdf.literal("Contexte d'utilisation: " + ctx.trim(), 'fr'));
-    }
+    addProperty(concept, SKOS('scopeNote'), data['skos:scopeNote@fr'], 'fr');
+    addProperty(concept, SKOS('definition'), data['description@fr'], 'fr');
 
     for (let ctx of data[SKOS_CONTEXT].split(DIVIDER)) {
       ctx = ctx.trim();
       if (!ctx) continue;
-      store.add($rdf.sym(BASE_URL + ctx),
+      store.add($rdf.sym(BASE_URL + ctx.replace(/ /g, '_')),
         SKOS('member'), concept);
     }
   })
@@ -120,7 +120,7 @@ function writeTtl(str) {
   fs.writeFile(output, str, 'utf8', function(err) {
     if (err) return console.error(err);
 
-    console.log("The file was saved!");
+    console.log('The file was saved!');
   });
 }
 
@@ -146,4 +146,12 @@ function addLabel(store, concept, label = '', lang = null, type = 'pref') {
 
   let literal = lang ? $rdf.literal(label, lang) : label;
   store.add(concept, SKOS(`${type}Label`), literal);
+}
+
+function addProperty(concept, prop, value, lang) {
+  if (!value) return;
+  value = value.trim();
+  if (!value) return;
+
+  store.add(concept, prop, $rdf.literal(value, lang));
 }

@@ -1,5 +1,7 @@
+@prefix : <file:///#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix n0: <https://creativecommons.org/licenses/by/4.0/> .
 @prefix org: <http://data.doremus.org/organization/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -7,17 +9,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.doremus.org/vocabulary/function/97> a skos:Concept ;
-    skos:prefLabel "directeur de publication"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/98> a skos:Concept ;
-    skos:prefLabel "éditeur scientifique"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/Performance> skos:member <http://data.doremus.org/vocabulary/function/producer_(show)> .
-
 <http://data.doremus.org/vocabulary/function/casting> a skos:Collection ;
+    rdfs:label "casting" ;
     skos:member <http://data.doremus.org/vocabulary/function/acrobat>,
         <http://data.doremus.org/vocabulary/function/actor>,
         <http://data.doremus.org/vocabulary/function/child_actor>,
@@ -31,14 +24,16 @@
         <http://data.doremus.org/vocabulary/function/narrator>,
         <http://data.doremus.org/vocabulary/function/painter>,
         <http://data.doremus.org/vocabulary/function/photographer>,
-        <http://data.doremus.org/vocabulary/function/programmer_(music_computing_)>,
+        <http://data.doremus.org/vocabulary/function/programmer_(music_computing)>,
         <http://data.doremus.org/vocabulary/function/silent_actor>,
         <http://data.doremus.org/vocabulary/function/sound-effects_engineer>,
         <http://data.doremus.org/vocabulary/function/storyteller>,
         <http://data.doremus.org/vocabulary/function/video_designer> .
 
 <http://data.doremus.org/vocabulary/function/creative_work> a skos:Collection ;
-    skos:member <http://data.doremus.org/vocabulary/function/20>,
+    rdfs:label "creative work" ;
+    skos:member <http://data.doremus.org/vocabulary/function/100>,
+        <http://data.doremus.org/vocabulary/function/20>,
         <http://data.doremus.org/vocabulary/function/7>,
         <http://data.doremus.org/vocabulary/function/adapter>,
         <http://data.doremus.org/vocabulary/function/addressee>,
@@ -53,13 +48,14 @@
         <http://data.doremus.org/vocabulary/function/choreographer>,
         <http://data.doremus.org/vocabulary/function/collector_of_field_material>,
         <http://data.doremus.org/vocabulary/function/compiler>,
+        <http://data.doremus.org/vocabulary/function/continuator>,
         <http://data.doremus.org/vocabulary/function/contributor>,
         <http://data.doremus.org/vocabulary/function/costume_designer>,
         <http://data.doremus.org/vocabulary/function/creator>,
-        <http://data.doremus.org/vocabulary/function/creator_of_a_continuation_of_a_work>,
         <http://data.doremus.org/vocabulary/function/dance_notator>,
         <http://data.doremus.org/vocabulary/function/director>,
         <http://data.doremus.org/vocabulary/function/drawer>,
+        <http://data.doremus.org/vocabulary/function/editor>,
         <http://data.doremus.org/vocabulary/function/film_director>,
         <http://data.doremus.org/vocabulary/function/librettist>,
         <http://data.doremus.org/vocabulary/function/lighting_designer>,
@@ -68,6 +64,7 @@
         <http://data.doremus.org/vocabulary/function/painter>,
         <http://data.doremus.org/vocabulary/function/parodist>,
         <http://data.doremus.org/vocabulary/function/photographer>,
+        <http://data.doremus.org/vocabulary/function/publishing_director>,
         <http://data.doremus.org/vocabulary/function/radio_director>,
         <http://data.doremus.org/vocabulary/function/radio_producer>,
         <http://data.doremus.org/vocabulary/function/scenographer>,
@@ -79,10 +76,10 @@
         <http://data.doremus.org/vocabulary/function/video_designer> .
 
 <http://data.doremus.org/vocabulary/function/editing> a skos:Collection ;
+    rdfs:label "editing" ;
     skos:member <http://data.doremus.org/vocabulary/function/20>,
-        <http://data.doremus.org/vocabulary/function/73>,
+        <http://data.doremus.org/vocabulary/function/74>,
         <http://data.doremus.org/vocabulary/function/audio_producer>,
-        <http://data.doremus.org/vocabulary/function/contributor>,
         <http://data.doremus.org/vocabulary/function/director>,
         <http://data.doremus.org/vocabulary/function/film_director>,
         <http://data.doremus.org/vocabulary/function/film_editor>,
@@ -90,12 +87,14 @@
         <http://data.doremus.org/vocabulary/function/producer_(sound)>,
         <http://data.doremus.org/vocabulary/function/radio_director>,
         <http://data.doremus.org/vocabulary/function/radio_producer>,
+        <http://data.doremus.org/vocabulary/function/remixer>,
         <http://data.doremus.org/vocabulary/function/sound_editor>,
         <http://data.doremus.org/vocabulary/function/sound_engineer>,
         <http://data.doremus.org/vocabulary/function/sound_technician>,
         <http://data.doremus.org/vocabulary/function/video_producer> .
 
 <http://data.doremus.org/vocabulary/function/musical_work> a skos:Collection ;
+    rdfs:label "musical work" ;
     skos:member <http://data.doremus.org/vocabulary/function/adapter>,
         <http://data.doremus.org/vocabulary/function/addressee>,
         <http://data.doremus.org/vocabulary/function/arranger>,
@@ -105,31 +104,32 @@
         <http://data.doremus.org/vocabulary/function/composer>,
         <http://data.doremus.org/vocabulary/function/composer_of_basso_continuo>,
         <http://data.doremus.org/vocabulary/function/composer_of_cadenza>,
+        <http://data.doremus.org/vocabulary/function/continuator>,
         <http://data.doremus.org/vocabulary/function/contributor>,
         <http://data.doremus.org/vocabulary/function/creator>,
-        <http://data.doremus.org/vocabulary/function/creator_of_a_continuation_of_a_work>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_fantasy>,
+        <http://data.doremus.org/vocabulary/function/creator_of_musical_harmonization>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_medley>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_paraphrase>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_reconstruction>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_reduction>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_reminiscence>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_revision>,
+        <http://data.doremus.org/vocabulary/function/creator_of_musical_transposition>,
         <http://data.doremus.org/vocabulary/function/creator_of_musical_variation>,
         <http://data.doremus.org/vocabulary/function/disc_jockey>,
-        <http://data.doremus.org/vocabulary/function/harmonizer>,
         <http://data.doremus.org/vocabulary/function/librettist>,
         <http://data.doremus.org/vocabulary/function/lyricist>,
         <http://data.doremus.org/vocabulary/function/musician_(creator)>,
         <http://data.doremus.org/vocabulary/function/orchestrator>,
         <http://data.doremus.org/vocabulary/function/parodist>,
-        <http://data.doremus.org/vocabulary/function/programmer_(music_computing_)>,
+        <http://data.doremus.org/vocabulary/function/programmer_(music_computing)>,
         <http://data.doremus.org/vocabulary/function/remixer>,
         <http://data.doremus.org/vocabulary/function/sponsor>,
-        <http://data.doremus.org/vocabulary/function/transcriber>,
-        <http://data.doremus.org/vocabulary/function/transposer> .
+        <http://data.doremus.org/vocabulary/function/transcriber> .
 
 <http://data.doremus.org/vocabulary/function/performance> a skos:Collection ;
+    rdfs:label "performance" ;
     skos:member <http://data.doremus.org/vocabulary/function/24>,
         <http://data.doremus.org/vocabulary/function/acrobat>,
         <http://data.doremus.org/vocabulary/function/actor>,
@@ -150,6 +150,7 @@
         <http://data.doremus.org/vocabulary/function/juggler>,
         <http://data.doremus.org/vocabulary/function/live_electronic_conductor>,
         <http://data.doremus.org/vocabulary/function/mime>,
+        <http://data.doremus.org/vocabulary/function/mixing>,
         <http://data.doremus.org/vocabulary/function/musician_(creator)>,
         <http://data.doremus.org/vocabulary/function/musician_(performer)>,
         <http://data.doremus.org/vocabulary/function/narrator>,
@@ -157,415 +158,470 @@
         <http://data.doremus.org/vocabulary/function/performer>,
         <http://data.doremus.org/vocabulary/function/photographer>,
         <http://data.doremus.org/vocabulary/function/presenter>,
+        <http://data.doremus.org/vocabulary/function/producer_(show)>,
         <http://data.doremus.org/vocabulary/function/producer_(sound)>,
-        <http://data.doremus.org/vocabulary/function/programmer_(music_computing_)>,
+        <http://data.doremus.org/vocabulary/function/programmer_(music_computing)>,
         <http://data.doremus.org/vocabulary/function/silent_actor>,
         <http://data.doremus.org/vocabulary/function/sound-effects_engineer>,
-        <http://data.doremus.org/vocabulary/function/sound_designer>,
         <http://data.doremus.org/vocabulary/function/sound_engineer>,
+        <http://data.doremus.org/vocabulary/function/sound_engineering_technician>,
         <http://data.doremus.org/vocabulary/function/sound_operator>,
         <http://data.doremus.org/vocabulary/function/sound_technician>,
         <http://data.doremus.org/vocabulary/function/storyteller>,
         <http://data.doremus.org/vocabulary/function/video_designer> .
 
 <http://data.doremus.org/vocabulary/function/performance_plan> a skos:Collection ;
+    rdfs:label "performance plan" ;
     skos:member <http://data.doremus.org/vocabulary/function/art_director>,
         <http://data.doremus.org/vocabulary/function/artistic_adviser>,
         <http://data.doremus.org/vocabulary/function/contributor>,
         <http://data.doremus.org/vocabulary/function/editor_of_fingerings>,
         <http://data.doremus.org/vocabulary/function/editor_of_pedal_markings>,
-        <http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks> .
+        <http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks>,
+        <http://data.doremus.org/vocabulary/function/sound_engineering_technician> .
+
+<http://data.doremus.org/vocabulary/function/programming_work> skos:member <http://data.doremus.org/vocabulary/function/100> .
 
 <http://data.doremus.org/vocabulary/function/publication> a skos:Collection ;
-    skos:member <http://data.doremus.org/vocabulary/function/contributor>,
+    rdfs:label "publication" ;
+    skos:member <http://data.doremus.org/vocabulary/function/auhor_of_annotations>,
+        <http://data.doremus.org/vocabulary/function/author_of_afterword>,
+        <http://data.doremus.org/vocabulary/function/author_of_foreword>,
+        <http://data.doremus.org/vocabulary/function/author_of_introduction>,
+        <http://data.doremus.org/vocabulary/function/author_of_preface>,
+        <http://data.doremus.org/vocabulary/function/compiler>,
+        <http://data.doremus.org/vocabulary/function/creator>,
+        <http://data.doremus.org/vocabulary/function/editor>,
         <http://data.doremus.org/vocabulary/function/editor_of_fingerings>,
         <http://data.doremus.org/vocabulary/function/editor_of_pedal_markings>,
-        <http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks> .
+        <http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks>,
+        <http://data.doremus.org/vocabulary/function/illustrator>,
+        <http://data.doremus.org/vocabulary/function/manufacturer>,
+        <http://data.doremus.org/vocabulary/function/printer>,
+        <http://data.doremus.org/vocabulary/function/publisher>,
+        <http://data.doremus.org/vocabulary/function/publishing_director>,
+        <http://data.doremus.org/vocabulary/function/sponsor> .
 
 <http://data.doremus.org/vocabulary/function/recording> a skos:Collection ;
+    rdfs:label "recording" ;
     skos:member <http://data.doremus.org/vocabulary/function/20>,
-        <http://data.doremus.org/vocabulary/function/73>,
+        <http://data.doremus.org/vocabulary/function/74>,
+        <http://data.doremus.org/vocabulary/function/artistic_adviser>,
         <http://data.doremus.org/vocabulary/function/audio_producer>,
         <http://data.doremus.org/vocabulary/function/collector_of_field_material>,
-        <http://data.doremus.org/vocabulary/function/contributor>,
         <http://data.doremus.org/vocabulary/function/director>,
         <http://data.doremus.org/vocabulary/function/film_director>,
         <http://data.doremus.org/vocabulary/function/mixing>,
         <http://data.doremus.org/vocabulary/function/producer_(sound)>,
         <http://data.doremus.org/vocabulary/function/radio_director>,
         <http://data.doremus.org/vocabulary/function/radio_producer>,
+        <http://data.doremus.org/vocabulary/function/remixer>,
         <http://data.doremus.org/vocabulary/function/sound_engineer>,
         <http://data.doremus.org/vocabulary/function/sound_operator>,
         <http://data.doremus.org/vocabulary/function/sound_technician>,
         <http://data.doremus.org/vocabulary/function/video_producer> .
 
 <http://data.doremus.org/vocabulary/function/24> a skos:Concept ;
+    skos:altLabel "director of choir school"@en ;
     skos:broader <http://data.doremus.org/vocabulary/function/choral_director> ;
+    skos:definition "Agent qui dirige des chanteurs faisant partie d'une maîtrise (école où l'on forme des enfants au chant)."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "chef de maîtrise"@fr ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
+    skos:prefLabel "chef de maîtrise"@fr .
 
 <http://data.doremus.org/vocabulary/function/7> a skos:Concept ;
+    skos:definition "Agent chargé d’assister le producteur, l’animateur ou le journaliste dans certaines activités liées à l’élaboration d'une émission radiophonique (assistance au metteur en onde de l’émission et montage d’éléments, documentation, constitution de plateaux d'invités, alimentation du site web de l'émission). (Radio France, modifié)\\n"@fr ;
     skos:prefLabel "attaché de production (radio)"@fr,
         "assistente di produzione (radio)"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 Expression Creation (liée à la F22 de l'émission radiophonique)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/art_director> a skos:Concept ;
+    skos:definition "Agent responsable de l'aspect visuel et artistique d'un projet multimédia, d'une production audiovisuelle ou d'une création contemporaine (Wikipédia, modifié)."@fr ;
     skos:prefLabel "art director"@en,
         "directeur artistique"@fr,
         "direttore artistico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié au F25 Performance Plan)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/artistic_adviser> a skos:Concept ;
-    skos:prefLabel "artistic adviser"@en,
-        "conseiller artistique"@fr,
-        "consulente artistico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié au F25 Performance Plan)"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/auhor_of_annotations> a skos:Concept ;
-    skos:altLabel "annotateur"@fr ;
-    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "auhor of annotations"@en,
-        "auteur des notes"@fr,
-        "autore delle annotazioni"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
-
-<http://data.doremus.org/vocabulary/function/author_of_afterword> a skos:Concept ;
-    skos:altLabel "postfacier"@fr ;
-    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "author of afterword"@en,
-        "auteur de la postface"@fr,
-        "autore della postfazione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
 
 <http://data.doremus.org/vocabulary/function/author_of_argument> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur de l’action dramatique servant de trame à une autre œuvre (ballet, poème symphonique, etc.)."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of argument"@en,
         "auteur de l’argument"@fr,
         "autore dell'argomento"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
+    skos:scopeNote "A associer à l'œuvre textuelle utilisée pour la création de la nouvelle œuvre."@fr .
 
 <http://data.doremus.org/vocabulary/function/author_of_dialogue> a skos:Concept ;
     skos:altLabel "auteur du script"@fr,
         "dialoguiste"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur des dialogues ou des commentaires oraux pour un scénario ou un enregistrement sonore."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "author of dialogue"@en,
         "auteur de dialogues"@fr,
         "autore dei dialoghi"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
-
-<http://data.doremus.org/vocabulary/function/author_of_foreword> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "author of foreword"@en,
-        "auteur de l'avant-propos"@fr,
-        "autore dell'antefatto"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
-
-<http://data.doremus.org/vocabulary/function/author_of_introduction> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "author of introduction"@en,
-        "auteur de l'introduction"@fr,
-        "autore dell'introduzione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
-
-<http://data.doremus.org/vocabulary/function/author_of_preface> a skos:Concept ;
-    skos:altLabel "préfacier"@fr ;
-    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "author of preface"@en,
-        "auteur de la préface"@fr,
-        "autore della prefazione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans l'œuvre musicale. Ne pas confondre avec le librettiste et le parolier."@fr .
 
 <http://data.doremus.org/vocabulary/function/chief_conductor> a skos:Concept ;
     skos:altLabel "music director"@en ;
     skos:broader <http://data.doremus.org/vocabulary/function/conductor> ;
+    skos:definition "Agent qui dirige un ensemble instrumental exécutant une œuvre musicale.\\n(UNIMARC, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "chief conductor"@en,
         "chef d'orchestre"@fr,
-        "direttore d'orchestra"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
+        "direttore d'orchestra"@it .
 
 <http://data.doremus.org/vocabulary/function/choreographer> a skos:Concept ;
+    skos:definition "Agent responsable de la création d'une oeuvre chorégraphique ou de mouvement (RDA, modifié)."@fr ;
     skos:prefLabel "choreographer"@en,
         "chorégraphe"@fr,
         "coreografo"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 du type \"oeuvre chorégraphique\")"@fr ;
+    skos:scopeNote "A associer à l'œuvre chorégraphique incorporée dans le Performance Plan (F25)."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/costume_designer> a skos:Concept ;
     skos:altLabel "créateur des costumes"@fr ;
+    skos:definition "Agent qui fait, vend ou loue des costumes de scène, qui s'occupe des costumes d'une représentation.\\n(Petit Robert 1, modifié)"@fr ;
     skos:prefLabel "costume designer"@en,
         "costumier"@fr,
         "costumista"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 de type \"costume\")"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_fantasy> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui crée une fantaisie musicale, morceau de forme libre, parfois très proche de l'improvisation, dans laquelle le créateur donne libre cours à son imagination\\n(Siron, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical fantasy"@en,
         "créateur de la fantaisie musicale"@fr,
-        "autore della fantasia musicale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore della fantasia musicale"@it .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_harmonization> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui réalise l’adjonction d’accords ou de parties harmoniques à une mélodie.\\n(Norme NF Z 44-079, modifiée)"@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "creator of musical harmonization"@en,
+        "harmonisateur"@fr,
+        "autore dell'armonizzazione"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_medley> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui crée un pot-pourri, pièce composée d'une succession de mélodies, entières ou fragmentées, qui ne sont pas habituellement destinées à être jouées ensemble et qui sont souvent reliées par des passages modulants.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical medley"@en,
         "créateur du pot-pourri musical"@fr,
-        "autore del medley"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore del medley"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_paraphrase> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui crée une paraphrase musicale, composition libre à partir d'un texte musical préexistant.\\n(Encyclopédie de la musique, Paris, Librairie générale française, 1992, modifiée)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical paraphrase"@en,
         "créateur  de la paraphrase musicale"@fr,
-        "autore della parafrasi musicale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore della parafrasi musicale"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reconstruction> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui reconstruit une œuvre perdue ou inachevée."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reconstruction"@en,
         "reconstructeur"@fr,
-        "autore della ricostruzione artistica"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore della ricostruzione artistica"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reduction> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui réalise la contraction d’une oeuvre musicale conçue pour plusieurs instruments ou voix, à un plus petit nombre de parties.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modiifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reduction"@en,
         "créateur de la réduction musicale"@fr,
-        "curatore della riduzione musicale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "curatore della riduzione musicale"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reminiscence> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui crée une réminiscence, partie d'une oeuvre qui évoque plus ou moins un autre morceau, sans être du plagiat.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002 modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reminiscence"@en,
         "créateur de la réminiscence musicale"@fr,
-        "autore della riminiscenza musicale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore della riminiscenza musicale"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_revision> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui adapte une partition ancienne aux conventions modernes.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical revision"@en,
         "réviseur (musique)"@fr,
-        "autore della revisione artistica"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore della revisione artistica"@it .
+
+<http://data.doremus.org/vocabulary/function/creator_of_musical_transposition> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui modifie l'ensemble des hauteurs d'une oeuvre musicale en les déplaçant, vers le haut ou vers le bas, par addition ou soustraction d'un intervalle constant.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "creator of musical transposition"@en,
+        "notateur de la transposition"@fr,
+        "autore della trasposizione"@it .
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_variation> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui crée une variation musicale, c'est-à-dire qui transforme un élément thématique de base à l'aide de procédés variés.\\n(Encyclopédie de la musique. Paris, Librairie générale française, 1992, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical variation"@en,
         "créateur  de la variation musicale"@fr,
-        "autore della variazione musicale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "autore della variazione musicale"@it .
 
 <http://data.doremus.org/vocabulary/function/dance_notator> a skos:Concept ;
     skos:altLabel "choréologue"@fr,
         "coreologo"@it ;
+    skos:definition "Agent qui retranscrit à l'aide d'un système \\nconventionnel les pas, les mouvements et les figures d'une œuvre \\nchorégraphique. \\n(Office québécois de la langue française, modifié)"@fr ;
     skos:prefLabel "dance notator"@en,
         "notateur du mouvement"@fr,
         "annotatore del movimento"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/film_editor> a skos:Concept ;
+    skos:definition "Agent responsable de l’assemblage, de l’organisation et du découpage de films, de vidéos ou d’autres formats d’images animées, aspects visuels et sonores compris. (RDA, modifié)"@fr ;
     skos:prefLabel "film editor"@en,
         "monteur (images animées)"@fr,
         "montatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: M29 Editing"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/harmonizer> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "harmonizer"@en,
-        "harmonisateur"@fr,
-        "autore dell'armonizzazione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+<http://data.doremus.org/vocabulary/function/illustrator> a skos:Concept ;
+    skos:definition "Agent spécialisé dans l’illustration, c’est-à-dire la représentation graphique (dessin, figure, image, photographie) généralement exécutée pour accompagner un texte afin de le rendre plus compréhensible, plus attrayant et de compléter l’information qu’il apporte. (CNRTL, modifié)"@fr ;
+    skos:prefLabel "illustrator"@en,
+        "illustrateur"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/lighting_designer> a skos:Concept ;
+    skos:definition "Agent qui crée une atmosphère lumineuse pour un spectacle."@fr ;
     skos:prefLabel "lighting designer"@en,
         "éclairagiste"@fr,
         "progettista dell'illuminazione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 du type \"éclairage\")"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/literary_advisor> a skos:Concept ;
+    skos:definition "Agent qui aide l'auteur à trouver des pistes de travail à la lumière des défauts et des qualités de son oeuvre, en vue de son édition."@fr ;
     skos:prefLabel "literary advisor"@en,
         "conseiller littéraire"@fr,
         "consulente letterario"@it ;
-    skos:scopeNote "Contexte d'utilisation: F22"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/live_electronic_conductor> a skos:Concept ;
+    skos:definition "Agent qui dirige une représentation musicale utilisant des sons ou des instruments électroniques joués en direct, généralement en situation de concert, par opposition à la musique électronique enregistrée.\\n(Wikipédia, modifié)"@fr ;
     skos:prefLabel "live electronic conductor"@en,
         "chef du dispositif électronique en direct"@fr,
-        "direttore del dispositivo elettronico in diretta"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+        "direttore di live electronic"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/manufacturer> a skos:Concept ;
+    skos:definition "Agent responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource. (RDA-FR, modifié)."@fr ;
+    skos:prefLabel "manufacturer"@en,
+        "fabricant"@fr,
+        "fabbricante"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/orchestrator> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui réalise une transcription pour orchestre d’une œuvre non écrite originalement pour celui-ci.\\n(Norme NF Z 44-079, modifiée)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "orchestrator"@en,
         "orchestrateur"@fr,
-        "orchestratore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "orchestratore"@it .
 
 <http://data.doremus.org/vocabulary/function/performer> a skos:Concept ;
+    skos:definition "Agent contribuant à une interprétation d'une oeuvre en exécutant de la musique, en jouant, en dansant, en parlant, etc. souvent dans une représentation musicale ou dramatique, etc. (RDA, modifié)"@fr ;
     skos:prefLabel "performer"@en,
         "interprète"@fr,
         "interprete"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:scopeNote "Ne pas utilser dans la distribution : préférer une fonction ou un M14 Medium of Performance plus spécifique."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/presenter> a skos:Concept ;
     skos:altLabel "animateur"@fr,
         "conduttore"@it ;
+    skos:definition "Agent apparaissant dans un spectacle pour fournir de l’information contextuelle ou complémentaire."@fr ;
     skos:prefLabel "presenter"@en,
         "présentateur dans un spectacle"@fr,
         "presentatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/printer> a skos:Concept ;
+    skos:definition "Agent responsable de l'impression d'une ressource."@fr ;
+    skos:prefLabel "printer"@en,
+        "imprimeur"@fr,
+        "tipografo"@it ;
+    skos:scopeNote "S'applique notamment aux ressources textuelles, de musique notée ou d'image fixe."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/producer_(show)> a skos:Concept ;
+    skos:definition "Agent responsable de la majeure partie des aspects financiers, techniques et artistiques de la production d'un spectacle, d'un concert, etc. Le producteur est généralement responsable d'assurer le financement, de gérer la production, de recruter le personnel clé, d'organiser la distribution, etc.(RDA, modifié)"@fr ;
     skos:prefLabel "producer (show)"@en,
         "producteur (spectacle)"@fr,
         "produttore (spettacolo)"@it ;
-    skos:scopeNote "Contexte d'utilisation: F31 Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/remixer> a skos:Concept ;
-    skos:altLabel "curatore del mixaggio"@it ;
-    skos:prefLabel "remixer"@en,
-        "remixeur"@fr,
-        "curatore del missaggio"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 de type \"Musique\")"@fr ;
+<http://data.doremus.org/vocabulary/function/publisher> a skos:Concept ;
+    skos:definition "Agent responsable de la publication, de la mise à disposition ou de l’émission d’une ressource. (RDA-FR, modifié)."@fr ;
+    skos:prefLabel "publisher"@en,
+        "éditeur"@fr,
+        "editore"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/scenographer> a skos:Concept ;
+    skos:definition "Agent qui conçoit les esquisses et les maquettes qui serviront à la \\ncréation des décors et de l'espace scénique, elle collabore avec le \\nconcepteur de costumes et fait les recherches nécessaires pour recréer \\nune époque ou l'ambiance souhaitée par le metteur en scène. (Office québécois de la langue française, modifié) \\n"@fr ;
     skos:prefLabel "scenographer"@en,
         "scénographe"@fr,
         "scenografo"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 de type \"Mise en scène\")"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/screenwriter> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur d’un scénario, d’un script ou d’une scène d'une œuvre cinématographique."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "screenwriter"@en,
         "scénariste"@fr,
         "sceneggiatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans le Performance Plan (F25)."@fr .
 
 <http://data.doremus.org/vocabulary/function/set_designer> a skos:Concept ;
     skos:altLabel "Ensemblier"@fr ;
+    skos:definition "Agent responsable de la conception de l'aspect visuel global d'un spectacle ou d'une production d'images animées (RDA, modifié)"@fr ;
     skos:prefLabel "set designer"@en,
         "décorateur"@fr,
         "decoratore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 de type \"décor\")"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/sound_designer> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "sound designer"@en,
-        "sonorisateur"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F31"@fr .
-
 <http://data.doremus.org/vocabulary/function/sound_editor> a skos:Concept ;
+    skos:definition "Agent responsable de l'organisation d'éléments sonores."@fr ;
     skos:prefLabel "sound editor"@en,
         "monteur (son)"@fr,
         "montatore audio"@it ;
-    skos:scopeNote "Contexte d'utilisation: M29 Editing"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/stage_director> a skos:Concept ;
+    skos:definition "Agent qui dirige la mise en scène d’une œuvre dramatique (théâtre, opéra).\\n(Z 44-065 Catalogage des vidéogrammes, septembre 1998)\\n\\n"@fr ;
     skos:prefLabel "stage director"@en,
         "metteur en scène"@fr,
         "regista teatrale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 de type \"mise en scène\""@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/transcriber> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
+    skos:definition "Agent qui arrange une œuvre musicale pour un autre instrument ou voix."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "transcriber"@en,
         "transcripteur"@fr,
         "autore della trascrizione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+    skos:scopeNote "Pour les transcriptions qui réduisent le nombre d'instruments, préférer la fonction réducteur.\\nPour les transcriptions pour orchestre, préférer la fonction orchestrateur."@fr .
 
 <http://data.doremus.org/vocabulary/function/translator> a skos:Concept ;
-    skos:altLabel "traduttore"@it ;
+    skos:definition "Agent qui traduit d’une langue dans une autre, ou d’un état ancien d’une langue vers son état moderne, en suivant de plus ou moins près l’original. (UNIMARC, modifié)"@fr ;
     skos:prefLabel "translator"@en,
-        "traducteur"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à F22)"@fr ;
+        "traducteur"@fr,
+        "traduttore"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/transposer> a skos:Concept ;
-    skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "transposer"@en,
-        "notateur de la transposition"@fr,
-        "autore della trasposizione"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+<http://data.doremus.org/vocabulary/function/100> a skos:Concept ;
+    skos:altLabel "artists and repertoire coordinator"@en ;
+    skos:definition "Agent qui définit les caractéristiques artistiques, choisit, construit et coordonne l’ensemble de l’offre culturelle pour une programmation artistique (festival, cycle ponctuel d'évènements, saison artistique d'une salle de spectacle, etc.) . (Apec, modifié)"@fr ;
+    skos:prefLabel "programmateur artistique"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/73> a skos:Concept ;
+<http://data.doremus.org/vocabulary/function/74> a skos:Concept ;
+    skos:definition "Agent chargé de la direction artistique des productions musicales enregistrées, en accord avec le chef d'orchestre et les musiciens et en lien avec l'équipe technique, que ce soit pour des concerts diffusés à la radio ou pour des enregistrements discographiques. (Radio France, modifié)"@fr ;
     skos:prefLabel "musicien metteur en ondes"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event (+ M29 Editing Event)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/acrobat> a skos:Concept ;
+    skos:definition "Agent dont la souplesse et la force sont artistiquement mises en valeur au cirque et dans les spectacles. (Larousse, modifié)"@fr ;
     skos:prefLabel "acrobat"@en,
         "acrobate"@fr,
         "acrobata"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:scopeNote "Dans la distribution, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à une oeuvre musicale."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/adapter> a skos:Concept ;
+    skos:definition "Agent qui transpose une œuvre dans un autre genre artistique, ou pour un autre public (par exemple: adaptation pour enfants)."@fr ;
     skos:prefLabel "adapter"@en,
         "adaptateur"@fr,
         "adattatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr ;
+    skos:scopeNote "Entre oeuvres musicales on utilisera plutôt arrangeur. On garde la fonction adaptateur pour les modifications apportées à un texte littéraire pour en faire un texte mis en musique."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/addressee> a skos:Concept ;
+    skos:definition "Agent à qui une oeuvre ou une partie d'oeuvre est adressée \\n(RDA, modifié)"@fr ;
     skos:prefLabel "addressee"@en,
         "destinataire"@fr,
         "destinatario"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/artistic_adviser> a skos:Concept ;
+    skos:definition "Agent qui apporte ses conseils pour la réalisation d'une oeuvre (spectacle, enregistrement, etc.)"@fr ;
+    skos:prefLabel "artistic adviser"@en,
+        "conseiller artistique"@fr,
+        "consulente artistico"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/audio_producer> a skos:Concept ;
     skos:altLabel "Producteur de phonogramme"@fr ;
+    skos:definition "Agent qui, le premier, fixe les sons provenant d'une exécution ou d'autres sons. (Convention de Rome (article 3c) et Convention de Genève (article 1b), modifié)"@fr ;
     skos:prefLabel "audio producer"@en,
         "producteur (enregistrement phonographique)"@fr,
         "produttore (registrazione audio)"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event (+ M29 Editing Event)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/auhor_of_annotations> a skos:Concept ;
+    skos:altLabel "annotateur"@fr ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur d'une œuvre textuelle utilisée comme apparat critique lors de la publication d'une autre œuvre."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "auhor of annotations"@en,
+        "auteur des notes"@fr,
+        "autore delle annotazioni"@it ;
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans la publication (F24 Publication Expression)."@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_afterword> a skos:Concept ;
+    skos:altLabel "postfacier"@fr ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur d'une œuvre textuelle utilisée comme postface lors de la publication d'une autre œuvre."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "author of afterword"@en,
+        "auteur de la postface"@fr,
+        "autore della postfazione"@it ;
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans la publication (F24 Publication Expression)."@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_foreword> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur d'une œuvre textuelle utilisée comme avant-propos lors de la publication d'une autre œuvre."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "author of foreword"@en,
+        "auteur de l'avant-propos"@fr,
+        "autore dell'antefatto"@it ;
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans la publication (F24 Publication Expression)"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_introduction> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur d'une œuvre textuelle utilisée comme introduction lors de la publication d'une autre œuvre."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "author of introduction"@en,
+        "auteur de l'introduction"@fr,
+        "autore dell'introduzione"@it ;
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans la publication (F24 Publication Expression)"@fr .
+
+<http://data.doremus.org/vocabulary/function/author_of_preface> a skos:Concept ;
+    skos:altLabel "préfacier"@fr ;
+    skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur d'une œuvre textuelle utilisée comme préface lors de la publication d'une autre œuvre."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "author of preface"@en,
+        "auteur de la préface"@fr,
+        "autore della prefazione"@it ;
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans la publication (F24 Publication Expression)."@fr .
 
 <http://data.doremus.org/vocabulary/function/child_actor> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:definition "Enfant contribuant à l'interprétation d'une oeuvre en agissant à titre de membre d'une distribution artistique ou de comédien dans une représentation musicale ou dramatique etc. (RDA, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "child actor"@en,
         "acteur enfant"@fr,
         "attore bambino"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
+    skos:scopeNote "Dans la distribution, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à une oeuvre musicale."@fr .
 
 <http://data.doremus.org/vocabulary/function/choral_director> a skos:Concept ;
     skos:altLabel "choirmaster"@en,
@@ -573,410 +629,427 @@
         "directeur de chorale"@fr,
         "maestro del coro"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/conductor> ;
+    skos:definition "Agent qui dirige tous les chanteurs qui constituent un choeur.\\n(UNIMARC, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "choral director"@en,
         "chef de choeur"@fr,
-        "direttore di coro"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
-
-<http://data.doremus.org/vocabulary/function/compiler> a skos:Concept ;
-    skos:prefLabel "compiler"@en,
-        "compilateur"@fr,
-        "complilatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+        "direttore di coro"@it .
 
 <http://data.doremus.org/vocabulary/function/composer_of_basso_continuo> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
+    skos:definition "Agent qui réalise un développement d’une partie de basse continue, chiffrée ou non.\\n"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer of basso continuo"@en,
         "réalisateur de la basse continue"@fr,
-        "autore del basso continuo"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr,
-        "Contexte d'utilisation: M28 Individual Performance"@fr .
+        "autore del basso continuo"@it .
 
 <http://data.doremus.org/vocabulary/function/composer_of_cadenza> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
+    skos:definition "Agent qui écrit, à l'emplacement prévu par le compositeur, un passage de bravoure pendant lequel un soliste joue ou chante seul."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer of cadenza"@en,
         "compositeur de la cadence"@fr,
-        "compositore della cadenza"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr,
-        "Contexte d'utilisation: M28 Individual Performance"@fr .
+        "compositore della cadenza"@it .
 
-<http://data.doremus.org/vocabulary/function/creator> a skos:Concept ;
-    skos:prefLabel "creator"@en,
-        "créateur"@fr,
-        "creatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à F22 ou F25)"@fr,
-        "Contexte d'utilisation: F30 liée à F24"@fr,
-        "Contexte d'utilisation: ou"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/creator_of_a_continuation_of_a_work> a skos:Concept ;
-    skos:prefLabel "creator of a continuation of a work"@en,
+<http://data.doremus.org/vocabulary/function/continuator> a skos:Concept ;
+    skos:definition "Agent qui donne une suite à l'œuvre d'un autre créateur."@fr ;
+    skos:prefLabel "continuator"@en,
         "continuateur"@fr,
         "continuatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr ;
+    skos:scopeNote "Le type d'œuvre résultant de la F28 (Expression creation) effectuée par le continuateur  indique la nature de la continuation."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/dancer> a skos:Concept ;
+    skos:definition "Agent qui déploie essentiellement des compétences relevant de l'art chorégraphique au cours d'une représentation ou autre manifestation musicale ou théâtrale. (UNIMARC, modifié)"@fr ;
     skos:prefLabel "dancer"@en,
         "danseur"@fr,
         "ballerino"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr,
-        "Contexte d'utilisation: casting"@fr ;
+    skos:scopeNote "Si elle est incorporée au casting d'une oeuvre musicale, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à l'oeuvre musicale"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/drawer> a skos:Concept ;
+    skos:definition "Agent qui conçoit un dessin original \\n(Unimarc, modifié)"@fr ;
     skos:prefLabel "drawer"@en,
         "dessinateur"@fr,
         "disegnatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 de type \"oeuvre graphique\")"@fr,
-        "Contexte d'utilisation: M28 Individual Performance (en cas d'improvisation)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/editor> a skos:Concept ;
+    skos:altLabel "éditeur intellectuel"@fr ;
+    skos:definition "Agent qui prépare la publication d’une œuvre dont il n’est pas l’auteur. Le travail éditorial peut être d’ordre purement technique ou intellectuel. (UNIMARC, modifié)."@fr ;
+    skos:prefLabel "editor"@en,
+        "éditeur scientifique"@fr,
+        "curatore editoriale"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/editor_of_fingerings> a skos:Concept ;
+    skos:definition "Agent qui indique par des annotations chiffrées sur la partition, une manière de placer les doigts sur l'instrument. (Larousse, modifié)"@fr ;
     skos:prefLabel "editor of fingerings"@en,
         "concepteur des doigtés"@fr,
         "annotatore della diteggiatura"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié au F25 Performance Plan)"@fr,
-        "Contexte d'utilisation: F30 (lié à la F24)"@fr,
-        "Contexte d'utilisation: ou"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/editor_of_pedal_markings> a skos:Concept ;
+    skos:definition "Agent qui indique par des annotations sur la partition, quand utiliser les pédales du piano dans l'exécution d'une oeuvre."@fr ;
     skos:prefLabel "editor of pedal markings"@en,
         "concepteur des indications pédales"@fr,
         "annotatore delle indicazioni di pedale"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié au F25 Performance Plan)"@fr,
-        "Contexte d'utilisation: F30 (lié à la F24)"@fr,
-        "Contexte d'utilisation: ou"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks> a skos:Concept ;
+    skos:definition "Agent qui indique, dans le jeu des instruments à cordes frottées, les différentes manières de mouvoir l'archet sur la corde, à l'endroit correct, dans la direction et à la vitesse prescrites, et avec la pression nécessaire.  \\n(d'après Larousse « Dictionnaire de la musique »)"@fr ;
     skos:prefLabel "editor of the bowing marks"@en,
         "concepteur des coups d'archet"@fr,
         "annotatore delle arcate"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié au F25 Performance Plan)"@fr,
-        "Contexte d'utilisation: F30 (lié à la F24)"@fr,
-        "Contexte d'utilisation: ou"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/extra> a skos:Concept ;
     skos:altLabel "background actor"@en,
         "comparsa"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:definition "Acteur à qui l'on ne demande que\\nla présence dans une pièce de théâtre, \\nun film, un ballet, etc. \\n(Larousse) \\n"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "extra"@en,
         "figurant"@fr,
         "figurante"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
+    skos:scopeNote "Dans la distribution, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à une oeuvre musicale."@fr .
 
 <http://data.doremus.org/vocabulary/function/imitator> a skos:Concept ;
+    skos:definition "Agent qui imite le comportement, les \\ngestes, les paroles d'autrui dans le cadre d'un spectacle. \\n(Centre National de Ressources Textuelles \\net Lexicales CNRTL, modifié)"@fr ;
     skos:prefLabel "imitator"@en,
         "imitateur"@fr,
         "imitatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/juggler> a skos:Concept ;
+    skos:definition "Agent qui lance en l'air divers objets qu'il reçoit et relance alternativement en entrecroisant leur trajectoire. \\n(Le Petit Robert, modifié)"@fr ;
     skos:prefLabel "juggler"@en,
         "jongleur"@fr,
         "giocoliere"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/librettist> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur des paroles d’un opéra, d’un oratorio, ou d’une autre œuvre lyrique, à l'exception de la comédie musicale."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "librettist"@en,
         "librettiste"@fr,
         "librettista"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans l'œuvre musicale."@fr .
 
 <http://data.doremus.org/vocabulary/function/lyricist> a skos:Concept ;
     skos:altLabel "auteur des lyrics"@fr,
         "auteur parolier"@fr,
         "lyriciste"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/author> ;
+    skos:definition "Auteur des paroles d’une chanson ou d’une comédie musicale."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "lyricist"@en,
         "parolier"@fr,
         "paroliere"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr .
+    skos:scopeNote "A associer à l'œuvre textuelle incorporée dans l'œuvre musicale."@fr .
 
 <http://data.doremus.org/vocabulary/function/mime> a skos:Concept ;
+    skos:definition "Agent qui s'exprime par le geste, la danse, la mimique, sans recourir à la parole."@fr ;
     skos:prefLabel "mime"@en,
         "mime"@fr,
         "mimo"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/mixing> a skos:Concept ;
-    skos:altLabel "mixeur"@fr,
-        "mixaggio"@it ;
-    skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
-    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
-    skos:prefLabel "mixing"@en,
-        "mixage"@fr,
-        "missaggio"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event"@fr,
-        "Contexte d'utilisation: M29 Editing Event)"@fr .
-
 <http://data.doremus.org/vocabulary/function/musician_(performer)> a skos:Concept ;
+    skos:definition "Agent qui exécute ou dirige de la musique."@fr ;
     skos:prefLabel "musician (performer)"@en,
         "musicien (interprète)"@fr,
         "musicista (interprete)"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/narrator> a skos:Concept ;
     skos:altLabel "lecteur"@fr ;
+    skos:definition "Agent lisant à voix haute ou\\nrendant compte d’une action, d’une situation, du déroulement des événements, etc. (RDA, modifié)"@fr ;
     skos:prefLabel "narrator"@en,
         "narrateur"@fr,
         "narratore"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:scopeNote "Si elle est incorporée à la distribution d'une oeuvre musicale, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant dont l'expression ainsi créée est incorporée à l'expression exécutée de l'oeuvre musicale"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/parodist> a skos:Concept ;
+    skos:definition "Agent qui compose ou écrit une parodie \\n(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)"@fr ;
     skos:prefLabel "parodist"@en,
         "parodiste"@fr,
         "parodista"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22)"@fr ;
+    skos:scopeNote "Pour les agents interprétant une parodie, leur donner la fonction d'interprète."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/publishing_director> a skos:Concept ;
+    skos:altLabel "editorial director"@en ;
+    skos:definition "Agent qui préside à l'élaboration d'une oeuvre collective (le plus souvent une oeuvre agrégative) pour en assurer la cohérence ou la continuité. (Norme Z 44-059, modifiée)."@fr ;
+    skos:prefLabel "publishing director"@en,
+        "directeur de publication"@fr,
+        "direttore editoriale"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/silent_actor> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
+    skos:definition "Acteur qui n'a pas de texte à dire. (Larousse, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "silent actor"@en,
         "acteur muet"@fr,
         "attore muto"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr .
+    skos:scopeNote "Dans la distribution, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à une oeuvre musicale."@fr .
 
 <http://data.doremus.org/vocabulary/function/sound-effects_engineer> a skos:Concept ;
+    skos:altLabel "foley artist"@en ;
+    skos:definition "Agent chargé d'imiter, par divers procédés, les bruits de la vie quotidienne, souvent pour accompagner une émission ou un spectacle.\\n(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)\\n\\n"@fr ;
     skos:prefLabel "sound-effects engineer"@en,
         "bruiteur"@fr,
         "rumorista"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/sound_engineering_technician> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:definition "Agent qui prépare, en étroite collaboration avec le régisseur son, l'installation du matériel et l'acoustique de la salle."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "sound engineering technician"@en,
+        "sonorisateur"@fr .
 
 <http://data.doremus.org/vocabulary/function/sound_operator> a skos:Concept ;
     skos:altLabel "prise de son"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:definition "Agent chargé de l'ensemble des procédés et des réglages destinés à capter des sources sonores disposées dans l'espace à l'aide d'appareils électroacoustiques (choix et placement des microphones, consoles de mixage, etc.) que ce soit dans le cadre d’une représentation/exécution comme dans celui d’un enregistrement (Dictionnaire des mots de la musique, Jacques Siron, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "sound operator"@en,
         "preneur de son"@fr,
-        "fonico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event"@fr,
-        "Contexte d'utilisation: F31"@fr .
-
-<http://data.doremus.org/vocabulary/function/sponsor> a skos:Concept ;
-    skos:altLabel "parraineur"@fr,
-        "finanziatore"@it ;
-    skos:prefLabel "sponsor"@en,
-        "commanditaire"@fr,
-        "sponsor"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+        "fonico"@it .
 
 <http://data.doremus.org/vocabulary/function/storyteller> a skos:Concept ;
+    skos:definition "Agent qui dit, récite des contes devant un public (Dictionnaire de l'Académie française, modifié)\\n"@fr ;
     skos:prefLabel "storyteller"@en,
         "conteur"@fr,
         "cantastorie"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:scopeNote "Le créateur d'un conte doit être mentionné comme \"auteur du texte\" d'une oeuvre textuelle. Dans la distribution, la mention de conteur est un raccourci pour l'exécution d'une oeuvre textuelle (conte) incorporée à une oeuvre musicale."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/video_producer> a skos:Concept ;
     skos:altLabel "producteur de vidéogramme"@fr ;
+    skos:definition "Agent qui a l'initiative et la responsabilité de la première fixation d'une \\nséquence d'images sonorisée ou non. (Légifrance, modifié) \\n"@fr ;
     skos:prefLabel "video producer"@en,
         "producteur (enregistrement vidéographique)"@fr,
         "produttore (registrazione video)"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event (+ M29 Editing Event)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/20> a skos:Concept ;
+    skos:definition "Agent responsable de la forme artistique d'une émission de radio (script de l'enregistrement, montage, choix des séquences, choix des éléments sonores, supervision du mixage, choix des prises et coordination entre les différents intervenants à l'enregistrement et à la diffusion dans le cas des concerts).\\n(Radio France, modifié)"@fr ;
     skos:prefLabel "chargé de réalisation"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 émission radiophonique)"@fr,
-        "Contexte d'utilisation: F29 Recording Event"@fr,
-        "Contexte d'utilisation: M29 Editing"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/collector_of_field_material> a skos:Concept ;
+    skos:definition "Agent collectant sur le terrain des éléments du patrimoine musical, oral ou naturel d'un territoire géographique, d'une population ou d'une espèce donnée, par transcription ou par enregistrement sonore ou audiovisuel. (UNIMARC, modifié)"@fr ;
     skos:prefLabel "collector of field material"@en,
         "collecteur"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 du type \"Musique\" ou autre)"@fr,
-        "Contexte d'utilisation: F29 Recording Event"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/compiler> a skos:Concept ;
+    skos:definition "Agent responsable de la création d’une nouvelle œuvre par la sélection, l'organisation, le regroupement ou l'édition d'œuvres ou de parties d'œuvres existantes (RDA, modifié)"@fr ;
+    skos:prefLabel "compiler"@en,
+        "compilateur"@fr,
+        "complilatore"@it ;
+    skos:scopeNote "A associer à l'œuvre agrégative (F17)."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/conductor> a skos:Concept ;
+    skos:definition "Agent qui dirige un ensemble instrumental et / ou vocal.  S'applique à tous les types d'ensemble, quelle que soit leur taille ou leur composition (instruments, voix, etc.)"@fr ;
     skos:prefLabel "conductor"@en,
         "direction d'ensemble"@fr,
         "direttore"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/creator> a skos:Concept ;
+    skos:definition "Agent qui exerce une responsabilité principale dans la création du contenu intellectuel ou artistique d’une œuvre."@fr ;
+    skos:prefLabel "creator"@en,
+        "créateur"@fr,
+        "creatore"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/disc_jockey> a skos:Concept ;
     skos:altLabel "DJ"@en,
         "DJ"@fr ;
+    skos:definition "Agent qui produit une œuvre originale en sélectionnant, diffusant et mixant des matériaux musicaux enregistrés. (Wikipédia, modifié)"@fr ;
     skos:prefLabel "disc jockey"@en,
         "disc jockey"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 de type \"Musique\")"@fr,
-        "Contexte d'utilisation: M28 Individual Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/film_director> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/director> ;
+    skos:definition "Réalisateur responsable de la gestion et de la supervision générales d'une prestation filmée (RDA)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "film director"@en,
         "réalisateur de films"@fr,
-        "regista cinematografico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 du type \"oeuvre cinématographique\")"@fr .
+        "regista cinematografico"@it .
+
+<http://data.doremus.org/vocabulary/function/mixing> a skos:Concept ;
+    skos:altLabel "mixeur"@fr,
+        "mixaggio"@it ;
+    skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:definition "Agent qui effectue l’opération technique et artistique par laquelle un certain nombre de sources sonores sont mélangées afin de parvenir à un équilibre cohérent, en intervenant sur le niveau, l'égaliseur, la dynamique et la spatialisation. Le mixage se réalise en studio pour le film et la musique enregistrée, et en régie pour un événement en direct tel un concert. (Wikipédia, modifié)"@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
+    skos:prefLabel "mixing"@en,
+        "mixage"@fr,
+        "missaggio"@it .
 
 <http://data.doremus.org/vocabulary/function/painter> a skos:Concept ;
+    skos:definition "Agent responsable de la création d'une oeuvre picturale."@fr ;
     skos:prefLabel "painter"@en,
         "peintre"@fr,
         "pittore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 du type \"oeuvre graphique\")"@fr,
-        "Contexte d'utilisation: M28 (dans le cadre d'une improvisation)"@fr ;
+    skos:scopeNote "Si elle est incorporée à la distribution d'une oeuvre musicale, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre picturale dont l'expression ainsi créée est incorporée à l'expression exécutée de l'oeuvre musicale."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/photographer> a skos:Concept ;
+    skos:definition "Agent responsable de la création d’une oeuvre photographique"@fr ;
     skos:prefLabel "photographer"@en,
         "photographe"@fr,
         "fotografo"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à une F22 du type \"oeuvre graphique\")"@fr,
-        "Contexte d'utilisation: M28 (dans le cadre d'une improvisation)"@fr ;
+    skos:scopeNote "Si elle est incorporée à la distribution d'une oeuvre musicale, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre photographique dont l'expression ainsi créée est incorporée à l'expression exécutée de  l'oeuvre musicale"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/producer_(sound)> a skos:Concept ;
     skos:altLabel "réalisateur artistique (son)"@fr ;
+    skos:definition "Agent dont le rôle consiste à contrôler les sessions d'enregistrement, à accompagner et guider les artistes dans leur interprétation et à superviser les enregistrements, le mixage audio et le mastering.\\nIl est souvent confondu, à cause de l'anglicisme \"record producer\" avec le producteur de musique, qui est chargé de la partie économique et marketing dans l'industrie musicale \\n(wikipedia, modifié)."@fr ;
     skos:prefLabel "producer (sound)"@en,
         "directeur artistique (son)"@fr,
         "produttore discografico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event (+ M29 Editing Event)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
-<http://data.doremus.org/vocabulary/function/programmer_(music_computing_)> a skos:Concept ;
-    skos:prefLabel "programmer (music computing )"@en,
+<http://data.doremus.org/vocabulary/function/programmer_(music_computing)> a skos:Concept ;
+    skos:definition "Agent qui a une fonction de création sonore par le biais de la programmation d'un dispositif  électronique ou informatique (boîte à rythme, sampler, etc.)"@fr ;
+    skos:prefLabel "programmer (music computing)"@en,
         "programmeur (informatique musicale)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/radio_director> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/director> ;
+    skos:definition "Réalisateur responsable de la gestion et de la supervision générales d'une émission de radio (RDA)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "radio director"@en,
         "réalisateur d'émissions de radio"@fr,
-        "regista radiofonico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 du type \"émission de radio\")"@fr,
-        "Contexte d'utilisation: MV le 02/02/18 : + F29 Recording Event + M29 Editing"@fr .
+        "regista radiofonico"@it .
 
 <http://data.doremus.org/vocabulary/function/radio_producer> a skos:Concept ;
+    skos:definition "Agent qui conçoit une émission de radio, supervise et accompagne généralement sa réalisation. \\n"@fr ;
     skos:prefLabel "radio producer"@en,
         "producteur (radio)"@fr,
         "produttore radiofonico"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (liée à la F22 décrivant l'émission de radio)"@fr,
-        "Contexte d'utilisation: MV le 02/02/18 :+  F29 Recording Event + M29 Editing Event)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
+
+<http://data.doremus.org/vocabulary/function/remixer> a skos:Concept ;
+    skos:altLabel "curatore del mixaggio"@it ;
+    skos:definition "Agent qui utilise le mixage audio pour réaliser un autre enregistrement d’un morceau de musique, par addition ou soustraction d’éléments, ou par simple changement de l’égalisation, de la dynamique, de la vitesse, du tempo, de la durée ou de quasiment toute autre composante musicale. \\n(Wikipédia, modifié)"@fr ;
+    skos:prefLabel "remixer"@en,
+        "remixeur"@fr,
+        "curatore del missaggio"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/sound_engineer> a skos:Concept ;
     skos:altLabel "chef opérateur"@fr,
         "directeur du son"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
+    skos:definition "Agent chargé de la qualité du son produit pour une réalisation audiovisuelle, un album de musique, un concert ou un spectacle (ONISEP, modifié)\\n\\n \\n"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "sound engineer"@en,
         "ingénieur du son"@fr,
-        "ingegnere del suono"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event"@fr,
-        "Contexte d'utilisation: F31"@fr,
-        "Contexte d'utilisation: M29 Editing Event"@fr .
+        "ingegnere del suono"@it .
+
+<http://data.doremus.org/vocabulary/function/sponsor> a skos:Concept ;
+    skos:altLabel "parraineur"@fr,
+        "finanziatore"@it ;
+    skos:definition "Agent qui commande et/ou finance la création ou la publication d’une œuvre ou d’un ensemble d'œuvres dont elle détermine l’objectif et parfois le contenu."@fr ;
+    skos:prefLabel "sponsor"@en,
+        "commanditaire"@fr,
+        "sponsor"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/video_designer> a skos:Concept ;
+    skos:definition "Agent qui exerce une activité créatrice ou technique en rapport avec la vidéo. \\n(Le Petit Robert, 2003. Modifié)"@fr ;
     skos:prefLabel "video designer"@en,
         "vidéaste"@fr ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22 de type \"oeuvre audiovisuelle\")"@fr,
-        "Contexte d'utilisation: M28 (dans le cas d'une performance)"@fr ;
+    skos:scopeNote "Si elle est incorporée à la distribution d'une oeuvre musicale, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre audiovisuelle dont l'expression ainsi créée est incorporée à l'expression exécutée de l'oeuvre musicale"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/composer> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
+    skos:definition "Agent qui crée une œuvre musicale originale."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer"@en,
         "compositeur"@fr,
-        "compositore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr,
-        "Contexte d'utilisation: M28 Individual Performance"@fr .
+        "compositore"@it .
+
+<http://data.doremus.org/vocabulary/function/contributor> a skos:Concept ;
+    skos:definition "Agent qui a réalisé des contributions significatives mais secondaires au contenu intellectuel ou artistique d'une oeuvre ou de sa réalisation."@fr ;
+    skos:prefLabel "contributor"@en,
+        "contributeur"@fr,
+        "contributore"@it ;
+    skos:scopeNote "A n'utiliser que lorsque l'on ne dispose pas d'une fonction plus précise."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/musician_(creator)> a skos:Concept ;
+    skos:definition "Agent qui compose ou arrange une oeuvre musicale."@fr ;
     skos:prefLabel "musician (creator)"@en,
         "musicien (créateur)"@fr,
         "musicista (autore)"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr,
-        "Contexte d'utilisation: M28 Individual Performance"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/actor> a skos:Concept ;
     skos:altLabel "actrice"@fr,
         "comédien"@fr ;
+    skos:definition "Agent contribuant à l'interprétation d'une oeuvre en agissant à titre de membre d'une distribution artistique ou de comédien dans une représentation musicale ou dramatique etc. (RDA, modifié)"@fr ;
     skos:prefLabel "actor"@en,
         "acteur"@fr,
         "attore"@it ;
-    skos:scopeNote "Contexte d'utilisation: M28 Individual Performance"@fr ;
+    skos:scopeNote "Dans la distribution, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à une oeuvre musicale."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/director> a skos:Concept ;
+    skos:definition "Agent responsable de la gestion et de la supervision générales d'une prestation filmée, d'une émission de radio ou de télévision, etc. (RDA, modifié)"@fr ;
     skos:prefLabel "director"@en,
         "réalisateur"@fr,
         "regista"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à une F22)"@fr,
-        "Contexte d'utilisation: MV le 02/02/18 : + F29 Recording Event + M29 Editing"@fr ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/contributor> a skos:Concept ;
-    skos:prefLabel "contributor"@en,
-        "contributeur"@fr,
-        "contributore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28 (lié à F22 ou F25)"@fr,
-        "Contexte d'utilisation: F29 Recording Event"@fr,
-        "Contexte d'utilisation: F30 liée à F24"@fr,
-        "Contexte d'utilisation: F31 Performance"@fr,
-        "Contexte d'utilisation: M29 Editing"@fr,
-        "Contexte d'utilisation: M42"@fr,
-        "Contexte d'utilisation: ou"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/sound_technician> a skos:Concept ;
+    skos:definition "Tout agent prenant part à la mise en place d'un dispositif technique dédié au son."@fr ;
     skos:prefLabel "sound technician"@en,
         "technicien du son"@fr,
         "tecnico del suono"@it ;
-    skos:scopeNote "Contexte d'utilisation: F29 Recording Event"@fr,
-        "Contexte d'utilisation: F31"@fr,
-        "Contexte d'utilisation: M29 Editing Event"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/arranger> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
+    skos:definition "Agent responsable de la version d’une œuvre musicale par additions, suppressions, ou changements dans l’écriture. Les transpositions d'une tonalité à une autre doivent être considérées comme des arrangements.\\n(Z 44-079, complétée)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "arranger"@en,
         "arrangeur"@fr,
-        "arrangiatore"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22 du type\" Musique\""@fr .
+        "arrangiatore"@it .
 
 <http://data.doremus.org/vocabulary/function/author> a skos:Concept ;
     skos:altLabel "auteur"@fr,
         "coauteur"@fr,
         "écrivain"@fr ;
+    skos:definition "Agent exerçant la responsabilité principale dans la création du contenu intellectuel ou artistique d’une œuvre textuelle (Unimarc, modifié)"@fr ;
     skos:prefLabel "author"@en,
         "auteur du texte"@fr,
         "autore del testo"@it ;
-    skos:scopeNote "Contexte d'utilisation: F28  (lié à une F22)"@fr,
-        "Contexte d'utilisation: M28 Individual Performance (dans le cas d'une improvisation)"@fr ;
+    skos:scopeNote "A utiliser aussi dans le contexte d'une représentation/exécution lorsque du texte est créé par improvisation (slam, etc.)."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/> a skos:ConceptScheme ;
-    rdfs:label "List of functions"@en,
-        "Liste des fonctions"@fr ;
+    rdfs:label "Relationship designators for agents"@en,
+        "Fonctions"@fr,
+        "Funzioni per attività musicali"@it ;
     dct:created "2018-01-10" ;
     dct:creator org:DOREMUS ;
-    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dct:modified "2018-03-20" .
+    dct:license n0: ;
+    dct:modified "2018-06-21" ;
+    rdfs:comment "Relationship designators to specify the relationship between  an agent and a work, an expression, a manifestation or an event"@en,
+        "Type de relation entre un agent et une oeuvre, une expression, une manifestation ou un évènement"@fr,
+        "Tipo di relazione tra una persona (artista, tecnico, etc.) e un'opera, un'espressione, una manifestazione o un evento"@it .
+
