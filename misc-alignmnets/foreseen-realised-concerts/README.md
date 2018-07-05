@@ -28,9 +28,13 @@ l'URI de l'événement + le nom du fichier source + le titre de la performance t
 On distingue 4 groupes d'alignemnets:
 
 **EMTD** :  Evenements avec même DATE et même TITRE
+
 **EMTrD** :  Evenements avec même DATE et titre légèrement différent.
+
 **EMD**   :  Evenements avec même DATE et titre complétement différent.
+
 **EMT**   :  Evenements avec même TITRE et date différente.
+
 
 Nous allons maintenant exploiter les fichiers euterpe.txt et pp.txt pour génerer les résultats d'alignement suivants :
 Nous effectuons la chaque ligne (exemple ci dessus), du coup nous auront dans la mémoire du terminal le titre et la date d'événement EUTERPE d'un côté, et ceux de PP de l'autre, nous comparerons chaque élément avec l'autre (titre1>titre2) et (date1>date2) à l'aide
@@ -55,9 +59,13 @@ elif levenshteinN(titre1,titre2) == 1.0 and jaro(titre1,titre2) == 1.0:  #titres
 
 Nous avons calculé les pourcentages sur un total de 3553 concerts EUTERPE, si nous prenons par contre les calcul par rapport
 aux fichiers PP, nous disposons de 7320 fichiers dont seulement 732 sont désignés avec la classe d'intérêt  F31, ça nous 
-donnera du coup :  
+donnera :  
+                 
                   - EMTD : 110/732  = 15.05% __
+                  
                   - EMTrD : 119/732 = 16.25% __|
+                  
                   - EMD : 308/732   = 42.05% __| :  un total de 537 / 732 = 73.35% .
+                  
                   - EMT : 320/732    = 43.70%__| : ces alignements ne servent pas à grande chose je suppose.
   
