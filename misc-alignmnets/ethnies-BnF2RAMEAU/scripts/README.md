@@ -11,7 +11,7 @@ Structuration des informations dans les deux nouveaus fichiers : ID~STRING
   - newRameau_utf-8.txt : contenant des informations sur le peuple et/ou sa géographie.
   - newBNF_utf-8.txt : contenant les informations sur l'éthnie et/ou sa géographie.
  
- - ** ETAPE 02 **
+ - **ETAPE 02**
  
  - tache2_Alignement_BNF_RAMEAU_jaro.py:    
  
@@ -40,6 +40,6 @@ Pour plus de détails, veuillez consulter le corps du code PYTHON en question co
 les étapes dans le détail.
 
 
-NB: Nous n'avons traité que les termes BNF disposant d'un $e ou d'un $m$e (1244 termes)
+**NB**: Nous n'avons traité que les termes BNF disposant d'un $e ou d'un $m$e (1244 termes)
     Nous avons traité les termes RAMEAU disposant d'un $a ou d'un $a$g (2513 termes)
     
