@@ -2,9 +2,9 @@
 
 Loaded in GRAPH `<http://data.doremus.org/itema3>`.
 
-| File                       | Content                 | Num          |
+| File                       | Content                 | Count        |
 |----------------------------|-------------------------| -------------|
-| itema3.item.tar.gz         | Concerts + Tracks       | 2296         |
+| itema3.item.tar.gz         | Concerts + Tracks (F31) | 2296         |
 | itema3.organization.tar.gz | Organizations           | 4618         |
 | itema3.person.tar.gz       | Artists                 | 86026        |
 | itema3.place.tar.gz        | Places + GeoNames Links | 3148 (+2505) |
