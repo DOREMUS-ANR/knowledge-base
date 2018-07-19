@@ -1,0 +1,1244 @@
+41346752~musulmans
+42741611~juifs
+40234827~musulmans
+43828169~juifs
+41079335~musulmans
+38559024~arabes
+42753758-002~juifs
+42753758-004~juifs
+42753758-005~juifs
+42753758-006~soufis
+42753758-009~soufis
+42753758-010~juifs
+42753758-012~juifs
+42753758-013~juifs
+41347665~musulmans
+43828157~juifs
+40234824~musulmans
+40234831~musulmans
+41347704~musulmans
+38479308~juifs
+43828208~juifs
+41346750~musulmans
+41346740~musulmans
+43828224~juifs
+43828218~juifs
+41347728~musulmans
+41347714~musulmans
+40230717~musulmans
+40230703~musulmans
+41346755~musulmans
+39245180~juifs
+41347717~musulmans
+40234837~musulmans
+43828193~juifs
+41347702~musulmans
+41347676~musulmans
+43827459~juifs
+41079278~musulmans
+39244512~juifs
+41079287~musulmans
+40235151~musulmans
+40216165~bouddhistes tibetains
+41079155~musulmans
+42223957~musulmans
+41079169~musulmans
+40234851~musulmans
+41086382~musulmans
+41347638~musulmans
+44271597~juifs
+41007918~musulmans
+41086553~musulmans
+41086551~musulmans
+41086586~musulmans
+41079195~musulmans
+38510874~juifs
+41086380~musulmans
+41033248~bouddhistes tibetains
+40216167~bouddhistes tibetains
+41347773~musulmans
+41086593~musulmans
+41347818~musulmans
+41079190~musulmans
+38437969~tibetains
+39139326~juifs
+41079224~musulmans
+41086580~musulmans
+41347827~musulmans
+40230825~musulmans
+41079178~musulmans
+41007897~musulmans
+41007883~musulmans
+41347588~musulmans
+40216161~bouddhistes tibetains
+41347832~musulmans
+41007921~musulmans
+41079216~musulmans
+38560037~lusophones
+41347817~musulmans
+41347793~musulmans
+41086605~musulmans
+41079174~musulmans
+41007859~musulmans
+41347584~musulmans
+41347779~musulmans
+41347802~musulmans
+41079203~musulmans
+38373749~arabes
+41086564~musulmans
+41347814~musulmans
+40230619~musulmans
+41086410~musulmans
+41079349~musulmans
+41086377~musulmans
+41079200~musulmans
+41007916~musulmans
+38563538~juifs
+38423685~tziganes
+41079365~musulmans
+41007863~musulmans
+38399584~gitans
+41347582~musulmans
+42191404-001~juifs sefarades
+42191404-002~juifs sefarades
+42191404-004~juifs sefarades
+42191404-006~juifs sefarades
+42191404-008~juifs sefarades
+42191404-009~juifs sefarades
+42191404-010~juifs sefarades
+42223965~musulmans
+41099044~juifs
+41079211~musulmans
+42229131~musulmans
+38535219~tziganes
+41086562~musulmans
+38430349~juifs
+38389144~france$mvallee ossau
+41079207~musulmans
+41347580~musulmans
+40234849~musulmans
+41007848~musulmans
+38519862~juifs
+41007900~musulmans
+42615399-002~juifs sefarades
+42615399-003~juifs ashkénazes
+41086577~musulmans
+41347690~musulmans
+40235098~musulmans
+41079300~musulmans
+40234230~musulmans
+38475664~tziganes
+38517022~sufi
+40230726~musulmans
+43828228~juifs
+41347724~musulmans
+41347730~musulmans
+38562250~arabes
+41079316~musulmans
+41347719~musulmans
+41052347~juifs
+43828215~juifs
+38563563~arabes
+38475113~juifs
+41346761~musulmans
+41347682~musulmans
+41347669~musulmans
+41347721~musulmans
+40234633~musulmans
+43828199~juifs
+38481865~juifs
+41347708~musulmans
+38481913~juifs
+41347681~musulmans
+42466756~juifs askenazes
+41347722~musulmans
+38433025~flamenco$lespagne
+42728654~musulmans
+38433024~flamenco$lespagne
+40230721~musulmans
+41347680~musulmans
+38421203~turquie\tsiganes
+38427666~amerique nord\bresil
+42155205~yemen\juifs
+43760455~sichuan\nuosu yi
+40137206~russie\kalmoukes
+43795806~sichuan\qiang
+42695285~afrique sud\zoulous
+39003197~ouganda\baganda
+38418469~centrafrique\pygmees aka
+40032801~russie\tatars kazan
+42746546~japon\ryukyuan
+43800579~tanzanie\bushmen$ihadzas
+38504518~amerique sud\incas
+43800586~tanzanie\bushmen$ihadzas
+41073209~tanzanie\gogo
+39077400~asie\inde
+38377791-001~europe\celtes
+41210702~asie\kurdes
+40941897~russie\tadjikes
+42655314~europe\juifs
+42664693~espagne\gitans
+42155167~curacao\juifs
+39132000~bolivie\quechua
+38625368~bresil\bahia
+38479646~portugal\minho
+38511511~dedougou\bwaba
+42429299~bolivie\aymara
+43838434~asie\sufi
+38562298~roumanie\tziganes
+42630994~cameroun\kirdi
+41495181~iran\azeris
+42698159~inde nord\dhrupad
+42616984~kenya\swahilie
+42429266~senegal\griots
+41335636~asie\bouriates
+40134861~russie\sartes
+40194369~afrique\mandingues
+40148941~asie\tibetains
+38471794~australie\nyongaar
+43691917~nouvelle-caledonie\kanak
+38526633~egypte\sufi
+42592194~asie\soufis
+42666126~iran\kurdes
+41073220~niger\touaregs
+39065763~trinite-et-tobago\indiens
+38381990~labrang\tibetains
+40065025~caucase\kabardes
+38550809~grande-bretagne\celtes
+43799542~cambodge\jarai
+42641200~amerique nord\inuits
+42641200-001~canada\inuits
+42641200-002~alaska\inuits
+40097933~ghana\lobi
+40097927~amerique nord\indiens lummi
+43760440~sichuan\mosuo
+43793537~amerique nord\indiens
+43560413~zanzibar\swahilie
+39221358~asie\inde
+42394386~suriname\saramaka
+41059634~inde nord\bauls
+38381589~irak\juifs
+38421202~europe\juifs
+43801458~chine\yunnan
+43799754~laos\ta oi
+41150610~guinee\peuls
+43799742~laos\akha
+41285929~turquie\syriaques
+43762282~xinjiang\ouighours
+38432240~espagne\gitans
+40944318~afrique nord\touaregs
+38617911~etats-unis\cajun
+43629724~papouasie\dani
+38451724~liban\maronites
+38522084~bengale\bauls
+38379026~afrique nord\touaregs
+39277478~mali\bonso
+43800591~tanzanie\bushmen$ihadzas
+43799583~cambodge\tampoon
+38516889~taiwan\tsou
+41072896~viet nam\jorai
+38573977~espagne\juifs
+38524768~europe centrale\juifs
+43800432~vietnam\hmong
+39976956~asie\afghanistan
+39003209~turquie\nomades
+38964935~amerique nord\hopis
+43802219~cambodge\brao$ikrung
+42763114~iran\zagros
+39237855~gabon\atege
+38483919~iles trobriand\kiriwina
+40197662~asie\tibetains
+38456842~etats-unis\navajo
+41124971~xinjiang\uyghurs
+38483925~senegal\malinke
+43795756~yunan\dai lue
+43795742~yunan\lisu
+41013850~australie\aborigenes
+43762321~xinjiang\kirghizes
+42587982~europe\juifs hassidiques
+38432491~ukraine\juifs
+43795780~tibet\tibetains
+40125760~calabre\albanais
+38536812~europe\juifs
+39041577~europe\russie
+40148215~caucase\tcherkesse
+42427710~chine\ouigour
+42638059~guyane\noirs marrons
+41072897~djerba\juifs
+38512378~hongrie\tziganes
+41386992~ouzbekistan\karakalpaks
+41072840~baninko\bambara
+38553495~etats-unis\cajun
+42633468~andalousie\gitans
+38445778~cuba\yoruba
+38939010~rhone-alpes\gitans
+43795637~guizhou\dong
+38432241~espagne\gitans
+40033923~russie\tatars kazan
+42155213~cochin\juifs
+42567718~zimbabwe\ndebele
+38421201~europe\juifs
+43801463~cambodge\brao
+41285737~turquie\pomak
+39175985~cambodge\khmers
+38562102~guinee\malinke
+38373532~pakistan\soufis
+40083564~ituri\pygmees
+39077374~asie\inde
+38454315~france\basques
+42640858~inde\kathak
+38596068~tibet\bouddhistes
+38559619~espagne\juifs sepharades
+39074127~caraibes\saint-christophe-et-nevis
+38440348~espagne\flamenco
+40941926~russie\adjikes
+40070567~louisiane\cajuns
+41378282~cote ivoire\baoule
+43762318~xinjiang\kazakh
+44220435~izmir\grecs
+38595603~roumanie\tziganes
+42685696~maroc\gnawa
+40134867~russie\sartes
+42429260~ethiopie\coptes
+40030383~togo\kabiye
+43551555~inde\hindustan
+43763577~espagne\juifs
+38530731~andes\queschuwa
+38440349~espagne\flamenco
+38560099~europe centrale\juifs ashkenazes
+38596069~tibet\bouddhistes
+38574985~nigeria\yoruba
+40137201~russie\kalmoukes
+43795815~sichuan\yi$inuosu
+39183974~iran\kurdes yarsan
+41198913~maroc\gnawa
+43760446~yunan\mosuo
+38475872~amerique nord\indiens
+43799746~laos\bit
+38396965~amerique nord\indiens
+42097627~canada\inuit
+43799778~laos\lao
+42155228~israel\sepharades
+38420681~france\marins
+40926558~hongrie\tziganes
+39010844~asie\cambodge
+38374921~mali\bambara
+39065571~nouvelle-zelande\maoris
+40969515~nouvelle-zelande\maoris
+38508657~niger\peuls wodaabe
+38578159~burkina faso\mossi
+38562115~tai'myr\nganasan
+42696212~turquie\soufis
+42727181~japon\ainous
+42615127~europe\tziganes
+43760685~yunan\yao
+38522280~balkans\musulmans
+40224953~afrique sud\nguni
+39102139~namibie\ju'hoansi
+43884708~maroc\berberes
+40239123~europe\tziganes
+43800420~vietnam\hmong
+38479496~haut-uele\mangbetu
+42666042~iran\chiites
+38471790~australie\nyongaar
+38440968~canada\inuit
+43795750~yunan\dai lue
+38563627~equateur\shuars
+39692229~europe\celtes
+40169237~guinee\peuls
+38464809~trinite\trini-indiens
+43795793~tibet\tibetains
+39244329~etats-unis\irlandais
+43762333~xinjiang\kazakh
+39022014~honduras\garifuna
+38508736~bangladesh\murung
+38558883~bagatai\bagas
+38551119~cameroun\balis
+42641173~coree\chamans
+43534133~espagne\gitans
+41060852~japon\ainous
+40134858~russie\sartes
+43800435~vietnam\yao
+42543284~mali\touaregs
+38432657~amerique nord\indiens
+38382522~tien tsin\bouddistes
+43800596~tanzanie\bushmen$ihadzas
+38551253~grande-bretagne\celtes
+41073231~mexique\la huasteca
+41072885~ouolonkoto\senoufo
+42666123~iran\tadjiks
+43799547~cambodge\khmer
+43800541~vietnam\dao chang
+41333646~bolivie\quechua
+38405825~polynesie\maohi
+40121460~amerique nord\navajos
+43760492~guizhou\shui
+42696039~algerie\kabyles
+40245837~ethiopie\maale
+40217870~haut-uele\mangbetu
+39284792~asie\pakistan
+40004888~amazonie\tuyuka
+40245887~xinjiang\dolan
+40064167~caucase\kabardes
+43800526~vietnam\thai
+39958567~etats-unis\afro-americains
+42695999~amerique nord\hopis
+43543900~maroc\gnawa
+42638038~guyane\creoles
+39294740~etats-unis\cajuns
+38436456~guinee\malinke
+38563494~panjab\soufis
+42354513~tibet\bouddhistes
+43762396~yunan\nisu
+43762382~sichuan\nuosu
+38564890~guinee\soussous
+43795722~guizhou\miao
+43762355~yunan\wa
+43760556~guizhou\shui
+43795911~cambodge\phnong
+38559522~amerique nord\cheyennes
+39244372~etats-unis\juifs
+38559523~amerique nord\lakota
+38432433~europe\tziganes
+39947042~etats-unis\afro-americains
+41016020~asie\indonesie$mjava$msurakarta
+42664626~cote ivoire\mandingues
+38547523~france\gascogne
+41219195~maroc\aissaoua
+38375047~mali\mandingue
+38420235~centrafrique\pygmees
+42429007~japon\ainous
+38602776~paris\aveyronnais
+42236368~espagne\juifs sepharades
+38617409~ouganda\ganda
+38530768~sakha  de\iakoutes
+38931174~france\bretagne
+38438297~soudan\ingenassa\berta
+38379084~perou\incas
+38558588~europe\juifs
+42196012~europe\macedoine
+38518379~france\normandie$j1946
+43748350~roumanie\tziganes
+40217859~zaire\tshokwe
+41481949~algerie\arabo-andalous
+39088111~espagne\arabo-andalou
+40097777~anatolie\soufis
+41059643~congo\shi
+43799737~laos\akha
+41488945~mali\touareg
+38536079~saintes maries mer\gitans
+43795899~cambodge\phnong
+38432551~iles philippines\t'boli
+40245890~java\solo
+38389605~mali\khassonkes
+38558987~guinee\mandingues
+42349151~russie\tziganes
+40033996~russie\tatars kazan
+43800531~vietnam\hmong
+39004471~tanzanie\hadzas
+43799537~cambodge\jarai
+42666184~iran\ouigours
+43800519~vietnam\lu
+42464059~irak\soufis
+41073282~senegal\peuls
+40065050~caucase\tcherkesses
+38931162~france\bretagne
+43748187~turquie\soufi
+43828256~turquie\armeniens
+39074974~europe\grande-bretagne
+38559092~vietnam\minorites nord
+40064548~caucase\kabarde
+38530781~nepal\gaines
+41272508~europe\croatie
+38386495-002~asie\bengali
+42669857~hongrie\tziganes
+40945663~inde\benares
+38553965~madagascar\antandroy
+40033821~russie\tatars kazan
+43799696~laos\nyaheun
+38389017-002~ centrafricaine\pygmees aka
+38389017-003~ centrafricaine\ngbaka
+38389017-004~ centrafricaine\banda
+38389017-006~cote ivoire\baoule
+38389017-007~cote ivoire\fodonon
+38389017-008~cameroun\pygmees baka
+38389017-012~bresil\bororo
+38389017-013~mexique\negritos
+38389017-014~etats-unis\chippewa
+38389017-015~canada\inuit
+38389017-019~australie\clan caledon bay
+43799682~xekong\arak
+38382142~namibie\ju'hoansi
+39038773~ethiopie\konso
+38559521~amerique nord\sioux
+38401986-001~turkestan\kirghizes
+38401986-002~turkestan\kirghizes
+38401986-003~turkestan\kazakhs
+39065461~caraibes\creoles
+43795907~cambodge\phnong
+43762343~yunan\akha
+38475948~europe\italiens
+38563680~kamtchatka\koriaks
+38373637~amsterdam\juifs
+43799668~laos\nyaheun
+38610601~pakistan\qawal
+42462005~tibet\bouddhistes
+38586817~constantine\juifs sefarades
+38553958~cameroun\mbum
+43762380~yunan\bouddhistes
+40033439~russie\tatars kazan
+38448607-001~canada\quebec
+38448607-002~canada\quebec
+38448607-008~louisiane\cajun
+38448607-009~louisiane\cajun
+38448607-010~louisiane\cajun
+38448607-011~louisiane\cajun
+38448607-012~louisiane\cajun
+43799481~cambodge\brao$ikrung
+41285340~turquie\juifs
+40224880~congo\kanyok
+43711178~russie\tziganes
+38559911~maroc\imazighn
+43578176~zambie\tonga
+42420020~turquie\soufis
+41361763~france\celtes
+38409713~europe\tsiganes
+42222281~niger\peuls
+39993827~inde nord\bauls
+42317574~algerie\touaregs
+41072823~viet nam\hmong
+38560014~guyane\kalina
+38543197~hongrie\tziganes
+42666807~iran\azeris
+42334839~tibet\bouddhistes
+38558945~guyane\kalina
+40217872~rwanda\twa
+41059640~ghana\lobi
+38529612~thailande\boudhistes
+38483823~mali\touaregs
+43799724~laos\yao$ilantene
+43795687~guizhou\dong
+39010830~iran\kurdes yarsan
+39010824~syrie\soufi
+38558996~mali\bambara
+39053504~etats-unis\navajo
+38609988~asie\kurdes
+43799526~cambodge\brao$ikavet
+38372115~europe\celtes
+41037374~roumanie\tziganes
+41128240~taiwan\hakka
+38972704~burkina faso\bissa
+41073278~kerala\pulluvan
+40065733~caucase\tcherkesses
+41023329~roumanie\tsiganes
+38476060~roumanie\tsiganes
+43800440~vietnam\yao
+40224853~zambie\tonga
+41072748~azerbaidjan\ashiq
+38559068~papouasie nouvelle-guinee\huli
+41073318~serbie\tsiganes
+43760593~chine\bouddhistes
+38394094~france\marins
+43762390~yunan\hani
+40064015~caucase\tcherkesses
+43762409~yunan\jingpaw
+38559518~etats-unis\indiens
+38563690~sakhaline\nivkh
+38553753~centrafrique\banda
+43760544~guizhou\miao
+38536860~sakhaline\nivkh
+43760551~yunan\yi laluo
+38398136-001~burkina faso\siamou
+38398136-002~burkina faso\birifor
+38398136-003~burkina faso\gan
+38398136-004~burkina faso\dagara
+38398136-005~burkina faso\dian
+38398136-006~burkina faso\siamou
+38398136-007~burkina faso\lobi
+43762391~yunan\hani
+43762385~yunan\nisu
+40134838~russie\sartes
+41072749~bastar\gond
+38389239~russie\orthodoxes
+42420031~pakistan\soufis
+39958400~etats-unis\afro-americains
+39074964~grenade\yorubas
+38972711~algerie\soufis
+38478879~andalousie\soufis
+38478851~zaire\boyela
+42196014~europe\croatie
+38471646~asie\kurdes
+42196028~europe\yougoslavie
+43795876~cambodge\phnong
+41439391~ouzbekistan\karakalpaks
+43795692~guizhou\miao
+40134743~caucase\tcherkesse
+40217863~zaire\tshokwe
+40217849~ankole\iru
+38608897~ile malaita\fataleka
+42058948~amerique\francais
+40064604~ethiopie\maale
+38544370~france\marins
+38378836~guangdong\hakkas
+38556748~papouasie nouvelle guinee\huli
+38563526~cameroun\peuls
+39004488~asie\ouigours
+43828250~turquie\armeniens
+38519261~europe\tsiganes
+38379080~perou\incas
+38441750~dehra dun\tibetains
+38964944~europe\tziganes
+43802268~etats-unis\grecs
+40224887~malawi\mang'anja
+38559094~vietnam\ede
+43578165~zambie\tonga
+38617419~angola\bena luluwa
+42420027~iran\soufis
+38395612~tibet\bouddhistes
+38483940~cote ivoire\baoule
+43760584~yunan\bai
+43762393~yunan\nisu
+38456827~etats-unis\indiens
+43799653~laos\brao$ikanying
+39191281~cote ivoire\agni n'denean
+38527947~madagascar\betsimisaraka
+43762378~yunan\wa
+42284079~europe\tzigane
+38519895~komya\derviches tourneurs
+39930542~royaume-uni\grande-bretagne
+38509477~afrique nord\touaregs
+39168194~afrique\touareg
+43795726~guizhou\miao
+42666008~iran\azeris
+39021999~congo\pygmees ituri
+38617418~shaba\tshokwe
+43535064~japon\biwa
+38972699~dahomey\fon
+41059493~bengale\bauls
+40925219~inde nord\sufi
+40141888~caucase\ossetes
+43799530~cambodge\brao$ikrung
+41219782~ile reunion\maloyas
+42666829~iran\turkmenes
+41059478~sumatra\batak
+41072825~burkina faso\siamou
+42427615~siberie\touvains
+38608896~ centrafricaine\pygmees aka
+40245868~moyen orient\abbassides
+38476466~centrafrique\banda
+42155262~israel\sepharades
+44241138~centrafrique\bantu
+43799717~laos\khmu
+42424661~iran\kurdes
+38475604~etats-unis\cajuns
+38479770~zaire\luba-shankadi
+43795850~cambodge\tampoon
+39004453~guinee\malinke
+41072828~madagascar\antanosy
+42265894~europe centrale\juifs
+40148679~europe\norvege
+40065714~caucase\tcherkesses
+40021156~amerique nord\indiens
+39103499~algerie\kabyles
+38562813~afrique centrale\kongo
+38562813-001~afrique centrale\yombe
+38562813-002~afrique centrale\yombe
+38562813-003~afrique centrale\yombe
+38562813-004~afrique centrale\yombe
+38562813-005~afrique centrale\yombe-sundi
+38562813-006~afrique centrale\bamboma
+38562813-007~afrique centrale\bamboma
+38562813-008~afrique centrale\ndibu za kimpese
+38562813-009~afrique centrale\ndibu za tadi
+38562813-010~afrique centrale\bamboma
+38562813-011~afrique centrale\asolongo
+38562813-012~afrique centrale\yombe
+38562813-013~afrique centrale\yombe
+38562813-014~afrique centrale\yombe
+38562813-015~afrique centrale\bamboma
+38562813-016~afrique centrale\bamboma
+38562813-017~afrique centrale\besi-ngombe
+38562813-018~afrique centrale\yombe
+38562813-019~afrique centrale\manianga
+38562813-020~afrique centrale\ntandu
+38562813-021~afrique centrale\ntandu
+38562813-022~afrique centrale\woyo
+38562813-023~afrique centrale\woyo
+38562813-024~afrique centrale\yombe
+38562813-025~afrique centrale\yombe
+38562813-026~afrique centrale\ndibu
+38562813-027~afrique centrale\ndibu za tadi
+38562185~guinee\soussous
+43800473~vietnam\giay
+38559098~nouvelle-guinee\kanak
+40033426~russie\tatars kazan
+41072753~centrafrique\pygmees aka
+39022279~canada\inuit
+43795703~guizhou\dong
+38518588~amerique centrale\mayas
+40033142~russie\tatars kazan
+38587257~nouvelle caledonie\kanak
+43762406~xinjiang\mongols
+38559516~etats-unis\indiens
+42454218~amazonie\indiens
+43762349~yunan\yi$ilaluo
+43760562~yunan\bai
+38559072~thailande\  chinoise
+40064557~caucase\kabardes
+41072746~bresil\indiens kaiapo
+42640941~viet-nam\bana
+38453205~mali\mandingue
+39958396~etats-unis\afro-americains
+41303846~nord-vietnam\hmong
+38429224-001~bolivie\quechuas
+38429224-002~bolivie\aymaras
+42174698~asie\japon
+39007013~cuba\yoruba
+39019205~ethiopie\ari
+42199260~russie\orthodoxes
+38562812~afrique sud\zoulous
+39029265~bengale\bauls
+39205904~etats-unis\irlandais
+42666825~iran\kurdes
+40064153~caucase\tcherkesse
+38589441~europe centrale\juifs ashkenazes
+38438936~europe centrale\juifs
+38433863~europe\tzigane
+38539382~guinee\bagas
+40134758~caucase\tcherkesse
+43795845~cambodge\tampoon
+38529620~nepal\boudhistes
+42155246~espagne\juifs
+43638696~burkina faso\gouin
+38475605~etats-unis\cajuns
+40117624~turquie\juifs sefarades
+41439361~siberie\altaiens
+40217850~cameroun\bafa
+40217852~zaire\yaka
+40217885~afrique\zaire
+38509519~arabie saoudite\qasim
+40134772~caucase\tcherkesse
+43800504~vietnam\hani$ihani hmong
+38562145~kwandebele\ndebele
+38560034~borneo\dayaks
+41023319~balkans\tsiganes
+38528919~asie\kurdes
+38528931~algerie\berberes
+38465762~bengale\bauls
+42549934~maroc\berberes
+38464332~damas\soufis
+38559058~mali\mandingues
+38373398-001~dibon\ouldeme
+38373398-002~zob\mofou
+38373398-003~zob\mofou
+38373398-004~dibon\ouldeme
+38373398-005~dibon\ouldeme
+38373398-006~dibon\ouldeme
+38373398-007~mouyengue\mouyang
+38373398-008~gambour\moundang
+38373398-009~saouringwa\toupouri
+38373398-010~bololo midjivin\guiziga
+38373398-011~bololo midjivin\guiziga
+38373398-012~bololo midjivin\guiziga
+38373398-013~golompoui\toupouri
+38373398-014~ngwadama\mofou-goudour
+38373398-015~tokombere\mouyang
+38373398-016~dibon\ouldeme
+38373398-017~vendelar\ouldeme
+38373398-018~vendelar\ouldeme
+38373398-019~dibon\ouldeme
+38594980~europe centrale\juifs ashkenazes
+42666760~iran\qashqayi
+42667318~iran\azeris
+38454232~france\basques
+42228363~mayotte\soufis
+38425144~macedoine\guegues
+40019743~etats-unis\afro-americains
+43762388~yunan\nisu
+43604794~ladakh\tibetains
+38529964~europe centrale\juifs
+43762410~yunan\jingpaw
+43762404~yunan\wa
+38466915~roumanie\tsiganes
+42539785~australie\aborigenes
+38472009~amerique sud\incas
+43799675~laos\brao$ilave
+39995898~siberie\bouriates
+42453004~syrie\kurdes
+41072751~ centrafricaine\gbaya
+41072745~nepal\newar
+41303845~laos\brao
+39103510~afrique nord\kabyles
+42420015~turquie\ottomans
+40224889~malawi\tonga
+38972696~tchad\sara
+41052330~inde\sidis
+39055018~louisiane\cajuns
+39022290~etats-unis\navajo
+39939637~papouasie-nouvelle guinee\papous
+42666173~iran\arabes
+38562811~kabylie\berberes
+40065064~caucase\tcherkesses
+38931181~france\bretagne
+40152623~chili\mapuches
+38473075~dakota sud\lakota
+40055164~congo\m'benga
+38556746~benin\bariba
+43769357~europe\france$mprovence
+43799701~attapeu\brao$ihamong
+38483816~gabon\fang
+42155255~israel\sepharades
+42696045~syrie\kurdes
+42155269~turquie\juifs
+40217857~angola\humbi
+43612911~mali\bambara
+38993915~inde nord\bauls
+42484412~cambodge\pinpeat
+39295135~anatolie\kurdes
+43655125~turquie\kadiri
+43840131~bolivie\quechuas
+38473065~afrique nord\kabyles
+42196034~europe\yougoslavie
+38590467~belgique\flamands
+40065706~caucase\tcherkesses
+41128249~ouganda\acholi
+39958583~maroc\juifs
+38427568~afrique\peuls
+38371575~biskra\gnawas
+41072782~mali\peuhls
+40033408~russie\tatars kazan
+40064550~caucase\kabardes
+40224872~congo\pygmees mbuti
+41072769~mali\dogon
+41072755~gambie\mandingues
+42640952~viet-nam\hue
+43762399~yunan\nisu
+40092007~france\mariniers
+41285826~turquie\yoruk
+38432373~pays we\guere
+42641133~indonesie\toba batak
+38438689-001~anatolie\bektashi
+40063997~caucase\tcherkesses
+42471934~taiwan\paiwan aborigenes
+43762401~yunan\bulang
+38507478~congo\m'benga
+41495106~iran\kurdes
+41177406~ouzbekistan\tadjiks
+38399584-008~chine\ouighurs
+38399584-009~afghanistan\kochi
+38399584-012~syrie\bedouins
+38399584-001~andalousie\gitans
+38399584-002~andalousie\gitans
+38399584-003~andalousie\gitans
+38399584-004~andalousie\gitans
+38399584-005~andalousie\gitans
+38399584-006~andalousie\gitans
+38399584-007~camargue\gitans
+38399584-008~camargue\gitans
+38399584-009~camargue\gitans
+38399584-010~camargue\gitans
+38399584-011~camargue\gitans
+38399584-012~camargue\gitans
+42653250~etats-unis\italiens
+43780335~iran\kurdes
+43799664~laos\brao$ikavet
+38456838~etats-unis\yurok
+39191275~cote ivoire\koulango
+38594984~san constantino albanese\arberesh
+42640953~viet-nam\hue
+42667334~iran\kermānshāhān
+38418766~suede\sames
+38590512~paris\aveyronnais
+38471707~australie\bardi
+38527227~amerique centrale\yoruba
+38572226~pakistan\soufis
+38436316~pays we\guere
+40064592~caucase\kabarde
+38617406~kalahari\kung bushmen
+38478858~zaire\ekonda
+38606480~europe\tziganes
+39205094~tibet\bouddhistes
+42780356~asie\inde$mkerala
+38392957~amerique nord\indiens
+43795843~cambodge\brao$ikrung
+43883392~senegal\ouolof
+42777286~espagne\flamenco
+43799710~laos\hani$iakha
+38475603~etats-unis\cajuns
+40217842~tibesti\teda
+38479775~zaire\kango
+38476452~mali\mandingues
+38394840-001~amour bassin\nanaj
+38394840-002~amour bassin\nanaj
+38394840-003~amour bassin\nanaj
+38394840-004~amour bassin\nanaj
+38394840-005~amour bassin\nanaj
+38394840-006~amour bassin\nanaj
+38394840-007~amour bassin\nanaj
+38394840-008~amour bassin\nanaj
+38394840-009~amour bassin\nanaj
+38394840-010~amour bassin\nanaj
+38394840-013~amour bassin\nanj
+38394840-014~amour bassin\nanaj
+38394840-015~amour bassin\oroc
+38394840-016~amour bassin\oroc
+38394840-017~amour bassin\oroc
+38394840-018~amour bassin\udege
+38394840-019~amour bassin\udege
+38394840-020~amour bassin\udege
+38394840-021~amour bassin\udege
+38394840-022~amour bassin\udege
+38394840-023~amour bassin\udege
+38394840-024~amour bassin\udege
+38394840-025~amour bassin\udege
+38394840-026~amour bassin\udege
+38394840-027~amour bassin\ulc
+38394840-028~siberie\ulc
+38394840-029~amour bassin\ulc
+38394840-030~amour bassin\ulc
+38394840-031~amour bassin\ulc
+41481944~algerie\arabo-andalous
+38476491~russie\nenec
+43795855~cambodge\phnong
+41037381~roumanie\tziganes
+40957136~pakistan\soufis
+38479563~ituri\efe
+38437624~syrie\kurdes
+38391482~turquie\soufis
+41072795~afrique sud\xhosa
+38555880~cambodge\khmers
+41072756~koweit\bedouins
+38403436~mauritanie\haratines
+42114197~antilles\indiens
+42665938~iran\tadjiks
+38536894~guyane\kalina
+41177410~madagascar\antanosy
+38559512~etats-unis\indiens
+43762403~yunan\wa
+43762402~yunan\bulang
+39947099~france\auvergne
+38475953~pakistan\kafiri
+38553758~nigeria\hausa
+38563102-001~nouvelle-zelande\maoris
+38563102-010~nouvelle-zelande\maoris
+40925199~europe\grece
+38511755~amerique nord\irlandais
+39205120~japon\bouddhistes
+38375922~madagascar\betsileo$mlalangina
+38633216~grece\arvanites
+39074985~europe\grande-bretagne
+43845665~france\bretagne
+38373406~labrang\tibetains
+40065076~caucase\tcherkesses
+38479589~rwanda\twa
+39960036~amerique nord\mineurs
+41037431~australie\aborigenes
+38449304~hongrie\croates
+40222346~europe\tziganes
+38452903-001~france\manouche
+38452903-002~russie\tzigane
+38452903-003~hongrie\olah
+38452903-004~france\gitan
+38452903-005~moldavie\tzigane
+38452903-006~france\gitans
+38452903-007~france\manouches
+38452903-009~moldavie\tzigane
+38452903-010~france\gitan
+38452903-011~hongrie\olah
+38452903-012~macedoine\tzigane
+38452903-013~hongrie\tzigane
+38452903-014~moravie\tzigane
+38452903-015~andalousie\gitans
+38452903-016~roumanie\tzigane
+38452903-017~slovaquie\tzigane
+38452903-018~irlande\tzigane
+42669291~siberie\khanty mansi
+40237763~italie\juifs
+42615399~france\juifs
+42615399-001~comtat venaissin\juifs
+38578330~benin\yoruba
+38483828~benin\mahi
+38370245~russie\juifs
+43883408~senegal\ouolof
+38576321~louisiane\acadiens
+42567707~benin\yoruba
+38520869~espagne\juifs
+38563561~europe centrale\juifs ashkenazes
+41055210~benin\yoruba
+43760676~yunan\yi nisu
+43799589~cambodge\tampoon
+38471830~australie\nyongaar
+42155191~jerusalem\juifs sepharades
+41285328~thrace\gitans
+39237320~chine\qiangs
+38607329~europe\juifs
+43795760~yunan\lahu
+38562521~mauritanie\nemadi
+40197683~nouvelle-zelande\marins
+38540019~burkina faso\gan
+42641194~mali\dogons
+38451698~xinjiang\tadjiks
+39947766~etats-unis\afro-americains
+42641143~chine\yaozu
+42155184~espagne\juifs
+38559011-001~amour bassin\nanaj
+38559011-002~amour bassin\nanaj
+38559011-003~amour bassin\nanaj
+38559011-004~amour bassin\nanaj
+38559011-005~amour bassin\nanaj
+38559011-006~amour bassin\nanaj
+38559011-007~amour bassin\nanaj
+38559011-008~amour bassin\nanaj
+38559011-009~amour bassin\nanaj
+38559011-010~amour bassin\nanaj
+38559011-013~amour bassin\nanj
+38559011-014~amour bassin\nanaj
+38559011-015~amour bassin\oroc
+38559011-016~amour bassin\oroc
+38559011-017~amour bassin\oroc
+38559011-018~amour bassin\udege
+38559011-019~amour bassin\udege
+38559011-020~amour bassin\udege
+38559011-021~amour bassin\udege
+38559011-022~amour bassin\udege
+38559011-023~amour bassin\udege
+38559011-024~amour bassin\udege
+38559011-025~amour bassin\udege
+38559011-026~amour bassin\udege
+38559011-027~amour bassin\ulc
+38559011-028~siberie\ulc
+38559011-029~amour bassin\ulc
+38559011-030~amour bassin\ulc
+38559011-031~amour bassin\ulc
+38559005~maroc\berberes
+40091967~france\mariniers
+38504470~amerique sud\aymaras
+43760703~xinjiang\ouighours
+38388771~tibet\bouddiste
+38440352~espagne\flamenco
+42633106~afrique nord\touareg
+40033524~russie\tatars kazan
+38475458~maroc\berberes
+38562124-001~kolyma\cukc
+38562124-002~kolyma\even
+38562124-003~kolyma\jukaghir
+43618069~louisiane\cajuns
+38563560-001~kolyma\cukc
+38563560-002~kolyma\even
+38563560-003~kolyma\jukaghir
+38573773~cameroun\ouldeme
+38484106~europe\juifs
+38510997~guinee\mandingues
+42687886~taiwan\aborigenes
+38618340~europe\yougoslavie
+43657226~provence\juifs
+43799749~laos\ta oi
+43799761~laos\katu$ipacoh
+40137583~caucase\tatars crimee
+42767970~zimbabwe\shona
+43760463~sichuan\miao
+43626378~etats-unis\shakers
+41052554~asie\indiens
+38508499~cameroun\bedzan
+38562873~guyane\wayanas
+42514259~europe\juifs
+41073217~niger\touaregs
+43800598~tanzanie\datoga
+38402163~russie\tchouktches
+38567102~honduras\garinagu
+43800413~vietnam\hmong
+41366067~europe\yougoslavie
+38573836~roumanie\hongrois
+42669430~congo\pygmees
+42641155~taiwan\aborigenes
+41228678~centreafrique\pygmees
+43760517~guizhou\dong
+38610695~erythree\tigrinya
+43795788~tibet\tibetains
+38439282-001~ centrafricaine\dendi
+38439282-002~ centrafricaine\nzakara
+38439282-003~ centrafricaine\banda linda
+38439282-004~ centrafricaine\banda linda
+38439282-006~ centrafricaine\banda-dakpa
+38439282-007~ centrafricaine\banda-linda
+38439282-008~ centrafricaine\banda-linda
+38439282-009~ centrafricaine\banda-linda
+38439282-010~ centrafricaine\gbaya
+38439282-011~ centrafricaine\ngbaka
+38439282-012~ centrafricaine\banda-linda
+38439282-013~ centrafricaine\aka pygmees
+38439282-014~ centrafricaine\aka pygmees
+38439282-015~ centrafricaine\banda-linda
+43629670~sahara\bedouins
+42664459~espagne\gitans
+38563629~centrafrique\banda
+43748271~louisiane\cajuns
+38401279~tibet\bouddhistes
+42421383~siberie\altai
+38479473~gabon\fang
+42667385~iran\azeris
+43628624~etats-unis\italiens
+38440351~espagne\flamenco
+42666138~iran\azeris
+42699846~cambodge\khmers
+43760660~yunan\yi nisu
+43748107~rajasthan\gitans
+40078903~espagne\gitans
+38508498~mali\dogons
+38942118~philippines\t'boli
+38479507~zaire\mongo
+38508659~madagascar\sakalava menabe
+38479711~hongrie\tsiganes
+38601160~afrique\mandingues
+39038877~siberie\evenk
+39019113~centrafrique\pygmees aka
+38400598~andalousie\gitans
+40137209~russie\kalmoukes
+43795809~sichuan\yi$inuosu
+38430498~france\marins
+40134728~caucase\tcherkesse
+43799558~cambodge\brao
+38560085~afrique centrale\kongo
+38560085-001~afrique centrale\bamboma
+38560085-002~afrique centrale\yombe
+38560085-003~afrique centrale\bamboma
+38560085-004~afrique centrale\yombe
+38560085-005~afrique centrale\yombe
+38560085-006~afrique centrale\ndibu
+38560085-007~afrique centrale\yombe
+38560085-008~afrique centrale\yombe
+38560085-009~afrique centrale\ntandu
+38560085-010~afrique centrale\yombe
+38560085-011~afrique centrale\ndibu
+38560085-012~afrique centrale\yombe
+38560085-013~afrique centrale\yombe
+38560085-014~afrique centrale\btandu
+38560085-015~afrique centrale\ndibu
+38560085-016~afrique centrale\yombe
+38560085-017~afrique centrale\yombe
+38560085-018~afrique centrale\ntandu
+38560085-019~afrique centrale\ntandu
+38560085-020~afrique centrale\yombe
+38560085-021~afrique centrale\manianga
+38560085-022~afrique centrale\yombe
+38560085-023~afrique centrale\ntandu
+38560085-024~afrique centrale\ntandu
+38560085-025~afrique centrale\manianga
+38560085-026~afrique centrale\yombe
+38560085-027~afrique centrale\ntandu
+38560085-028~afrique centrale\yombe
+38560085-029~afrique centrale\yombe
+38560085-030~afrique centrale\ndibu
+38560085-031~afrique centrale\ndidu
+39960043~amerique nord\mormons
+40149476~europe\norvege
+38520270~turquie\bektasi
+39003211~madagascar\bara
+38466225~roumanie\tsiganes
+43595279~france\corse
+43905591~amerique nord\amerindiens
+43825899~turquie\roms
+42429268~tanzanie\ngoni
+43795766~yunan\bulang
+38532462~turquie\alevi-bektashi
+38549946~amerique nord\marins
+41495164~iran\azeris
+41228682~algerie\soufis
+43795799~tibet\tibetains
+40034891~russie\tatars kazan
+41285663~turquie\syriaques
+38387068~burkina-faso\peuls
+42641186~japon\ryukyu
+40030413~gabon\myene
+38440750~yemen\juifs yemenites
+40204068~pakistan\soufis
+38405581~lijiang\naxis
+38563604~madagascar\betsileo$mlalangina
+42762978~iran\dastgah
+42640930~bengal\baul
+42664662~espagne\gitans
+40032774~russie\tatars kazan
+38573832~honduras\garinagu
+42421386~inde\tibetains
+42314199~mali\peuhls
+39985637~france\aveyron
+42667380~iran\kurdes
+38608545~espagne\flamenco
+40000063~afrique\mandingues
+39003204~honduras\garinagu
+41258833~france\gitans
+42640844~khorasan\azeris
+38530857~madagascar\malgaches
+43799571~cambodge\tampoon
+38479258~australie\nyoongar
+42196042~europe\hongrie
+40033907~russie\tatars kazan
+39065591~grenade\creoles
+43563895~turquie\ottoman
+42696025~nouvelle-zelande\maoris
+40125815~moyen orient\abbassides
+38475676~inde\sikhs
+43799765~laos\katu$ipacoh
+40064134~caucase\tcherkesses
+38512174~grande bretagne\irlandais
+43629703~papouasie\dani
+39065578~hongrie\tziganes
+42633466~andalousie\gitans
+38420688~loire\mariniers
+42666842~transoxiane\perses
+38562108~mali\dogons
+38482956~amerique centrale\garifuna
+38562861~pakistan\baloutches
+41176433~russie\tsiganes
+42699841~cambodge\khmer
+38560125~europe\juifs sefarades
+38605711~hongrie\tsiganes
+42666936~iran\sufis
+40137197~russie\kalmoukes
+39021931~hongrie\tziganes
+42667369~iran\bakhtiari
+38573818~iran\kurdes
+38508500~cameroun\bamum
+38562901~pologne\tatras
+42020537~nepal\tibetains
+43795771~tibet\tibetains
+38404110~guyane\wayapi
+42641190~hongrie\tsiganes
+43762312~xinjiang\kazakh
+38595620~hongrie\tziganes
+42498847~xinjiang\ouigours
+39088036~bengal\bauls
+38559028~russie\nenec
+38559014~europe\juifs sefarades
+40091962~france\mariniers
+39103549~maroc\imazighen
+38564418~tibet\boudhistes
+39003207~venezuela\diablos
+43843511~mali\touaregs
+40941911~russie\tadjikes
+42640853~inde\dhrupad
+42699840~cambodge\khmer
+39245349~etats-unis\irlandais
+38560087~grece\rebetes
+43799566~cambodge\brao$ikrung
+38432070-001~urss\yakoutes
+38432070-005~urss\bouriates
+38432070-006~urss\toungouses-nanai
+38432070-011~urss\toungouses-oultch
+38432070-014~urss\toungouses-oultch
+43624971~thailande\ triangle or
+38563559~europe centrale\juifs ashkenazes
+43905430~mexique\maya
+40957140~senegal\wolofs
+42633467~andalousie\gitans
+40033045~russie\tatars kazan
+38595026~kimberley\aborigenes
+43795837~cambodge\jarai
+38472859~hongrie\tsiganes
+42762827~asie\osmani
+42762833~iran\kurdes
+42428982~yunnan\naxi
+43799758~laos\ta oi
+42155234~italie\juifs
+40166093~mali\peuls
+42155220~israel\ashkenazes est

@@ -7,6 +7,7 @@ This repository contains SKOS vocabularies, RDF data dumps, linked graphs, an ap
 - **app** utils for loading the data in the triplestore;
 - **data** the **DOREMUS graph** [1] of works, performances, artists, recordings, ... 
 - **linked-data** alignments between music graphs (EDOAL + RDF)
+- **misc-alignments** various alignment tasks within the DOREMUS project
 - **query-examples** to run on the [SPARQL endpoint](http://data.doremus.org/sparql)
 - **scripts** for conversion and post-processing of vocabularies
 - **static** resources for the [data.doremus.org website](http://data.doremus.org)

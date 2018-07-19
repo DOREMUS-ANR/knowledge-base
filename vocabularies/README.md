@@ -34,6 +34,10 @@ Collection of vocabularies for the description of music. http://data.doremus.org
 * Responsibilities
 * Vocal techniques
 
+### Alignments
+* The repository alignments contains mappings between thematically similar vocabulires from the MoP and genres groupes.
+
+
 ### Useful resources
 
 * Types de sujets RAMEAU: http://data.bnf.fr/vocabulary/scheme/
