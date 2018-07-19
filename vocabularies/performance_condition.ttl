@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/technique/> a skos:ConceptScheme ;
+  rdfs:comment "Cadre général dans lequel s'effectue une représentation/exécution et/ou son enregistrement"@fr, "General information about the environment in which the performance and/or its recording happened"@en, "Quadro generale nel quale avviene una rappresentazione/esecuzione e/o registrazione"@it ;
+  rdfs:label "Conditions de représentation/exécution"@fr , "Conditions of Performance"@en , "Condizioni di rappresentazione/esecuzione"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:created "2018-07-19"^^xsd:date ;
+  dct:modified "2018-07-19"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/performance_condition/indoor> a skos:Concept ;
+    skos:definition "Représentation/exécution réalisée dans un lieu fermé (bâtiment, chapiteau, etc.)"@fr ;
+    skos:prefLabel "indoor performance"@en,
+        "en intérieur"@fr,
+        "al coperto"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performance_condition/> .
+
+<http://data.doremus.org/vocabulary/performance_condition/open_air> a skos:Concept ;
+    skos:definition "Représentation/exécution réalisée en plein air. "@fr ;
+    skos:prefLabel "open air performance"@en,
+        "en extérieur"@fr,
+        "all'aperto"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performance_condition/> .
+
+<http://data.doremus.org/vocabulary/performance_condition/public> a skos:Concept ;
+    skos:altLabel "live performance"@en ;
+    skos:definition "Représentation/exécution ayant lieu en présence de nombreuses personnes. (CNRTL, modifié)"@fr ;
+    skos:prefLabel "public performance"@en,
+        "en public"@fr,
+        "esibizione pubblica"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performance_condition/> .
+
+<http://data.doremus.org/vocabulary/performance_condition/studio> a skos:Concept ;
+    skos:definition "Représentation/exécution réalisée dans un local où ont lieu les enregistrements destinés à la radiodiffusion, à la télévision, à l'industrie du disque. (CNRTL modifié)"@fr ;
+    skos:prefLabel "studio performance"@en,
+        "en studio"@fr,
+        "in studio"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performance_condition/> .
+
+<http://data.doremus.org/vocabulary/performance_condition/under_live_conditions> a skos:Concept ;
+    skos:definition "Représentation/exécution réalisée sans interruption, dans le but d'enregistrer une oeuvre en une seule prise."@fr ;
+    skos:prefLabel "under live conditions"@en,
+        "dans les conditions du direct"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performance_condition/> .
+
+<http://data.doremus.org/vocabulary/performance_condition/without_audience> a skos:Concept ;
+    skos:definition "Représentation/exécution n'ayant pas d'auditoire."@fr ;
+    skos:prefLabel "performance without audience"@en,
+        "sans public"@fr,
+        "senza pubblico"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performance_condition/> .

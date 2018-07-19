@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/work_type/> a skos:ConceptScheme ;
+  rdfs:comment "Domaine de création d'une œuvre"@fr, "Creative field of a work"@en, "Dominio di creazione di un'opera artistica"@it ;
+  rdfs:label  "Types d'œuvre"@fr, "Work types"@en, "Tipologie di opere artistiche"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:created "2018-07-19"^^xsd:date ;
+  dct:modified "2018-07-19"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/work_type/audiovisual_work> a skos:Concept ;
+    skos:definition "Œuvre constituée de sons et/ou d'images animées."@fr ;
+    skos:prefLabel "audiovisual work"@en,
+        "œuvre audiovisuelle"@fr,
+        "opera audiovisiva"@it ;
+    skos:scopeNote "Sont considérées comme des œuvres audiovisuelles: fictions radiophoniques, films, émissions de télévision, etc."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/choreographic_work> a skos:Concept ;
+    skos:definition "Œuvre constituée de pas, de figures et de mouvements dansés. Elle peut être autonome ou s'insérer dans un spectacle ou une création audiovisuelle."@fr ;
+    skos:prefLabel "choreographic work"@en,
+        "œuvre chorégraphique"@fr,
+        "coreografia"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/costume> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/work_type/scenographic_work> ;
+    skos:definition "Œuvre constituée par la conception et la réalisation de l'habillement de personnes (comédiens, danseurs, etc.) présentes sur scène lors d'un spectacle ou apparaissant dans une création audiovisuelle."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/work_type/> ;
+    skos:prefLabel "costume (performing arts)"@en,
+        "costume (spectacle)"@fr,
+        "costumi (arti performative)"@it .
+
+<http://data.doremus.org/vocabulary/work_type/digital_and_multimedia_work> a skos:Concept ;
+    skos:definition "Œuvre constituée de programme(s) informatique(s) et pouvant associer des sons, des images, du texte, etc."@fr ;
+    skos:prefLabel "digital and multimedia work"@en,
+        "œuvre logicielle et multimédia"@fr,
+        "opera digitale e multimediale"@it ;
+    skos:scopeNote "Sont considérées comme des œuvres logicielles et multimédia : logiciels, jeux vidéo, applications numériques, etc."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/lighting> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/work_type/scenographic_work> ;
+    skos:definition "Œuvre constituée par la conception et la réalisation d'une atmosphère lumineuse pour un spectacle ou d'une création audiovisuelle."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/work_type/> ;
+    skos:prefLabel "lighting (performing arts)"@en,
+        "lumière (spectacle)"@fr,
+        "luci (arti performative)"@it .
+
+<http://data.doremus.org/vocabulary/work_type/musical_work> a skos:Concept ;
+    skos:definition """Œuvre constituée de sons organisés selon un axe temporel, en appliquant des règles variables en fonction des époques et des civilisations.
+(CNRTL, modifié)"""@fr ;
+    skos:prefLabel "musical work"@en,
+        "œuvre musicale"@fr,
+        "composizione musicale"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/performing_arts_work> a skos:Concept ;
+    skos:definition "Œuvre conçue pour faire partie d’un spectacle ou d'un évènement devant se tenir en présence d'un public."@fr ;
+    skos:prefLabel "performing arts work"@en,
+        "œuvre de spectacle vivant"@fr,
+        "opera d'arte performativa"@it ;
+    skos:scopeNote "Sont considérées comme des œuvres de spectacle vivant : les œuvres musicales, théâtrales et chorégraphiques dans toute la diversité de leurs formes (opéra, musique de variété, chorales, fanfares, cirque, arts de la rue, conte, marionnettes...). S'oppose au spectacle enregistré (cinéma-audiovisuel)."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/plastic_arts_work> a skos:Concept ;
+    skos:definition "Œuvre visuelle constituée par la représentation d'un objet, ou d'une idée, sur un support en deux ou trois dimensions. Cette représentation peut être effectuée à l'aide de différentes techniques."@fr ;
+    skos:prefLabel "plastic arts work"@en,
+        "œuvre d'arts plastiques"@fr,
+        "opera d'arte visiva"@it ;
+    skos:scopeNote "Sont considérées comme des œuvres d'arts plastiques : sculptures, installations, dessins, peintures, photographies, estampes, etc.)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/scenographic_work> a skos:Concept ;
+    skos:definition """Œuvre constituée par la conception des éléments picturaux, plastiques et techniques qui permettent l'élaboration d'une mise en scène, notamment théâtrale.
+(Larousse, modifié)"""@fr ;
+    skos:prefLabel "scenographic work"@en,
+        "scénographie"@fr,
+        "scenografia"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/set> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/work_type/scenographic_work> ;
+    skos:definition "Œuvre constituée par la conception et la réalisation des éléments figurant le lieu où se passe l'action d'un spectacle ou d'une création audiovisuelle. Ces éléments peuvent revêtir des formes très variées (peintures, accessoires,  dispositifs numériques, etc. )."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/work_type/> ;
+    skos:prefLabel "set (performing arts)"@en,
+        "décor (spectacle)"@fr,
+        "decoro (arti performative)"@it .
+
+<http://data.doremus.org/vocabulary/work_type/staging> a skos:Concept ;
+    skos:definition "Œuvre constituée par la conception et la direction du jeu scénique d'un spectacle (pièce de théâtre, opéra...) ou d'une création audiovisuelle."@fr ;
+    skos:prefLabel "staging"@en,
+        "mise en scène"@fr,
+        "messa in scena"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .
+
+<http://data.doremus.org/vocabulary/work_type/textual_work> a skos:Concept ;
+    skos:definition "Œuvre constituée de mots (transcrits sous forme textuelle ou parlés) et pouvant appartenir à différents genres, littéraires ou non."@fr ;
+    skos:prefLabel "textual work"@en,
+        "œuvre textuelle"@fr,
+        "opera testuale"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/work_type/> .

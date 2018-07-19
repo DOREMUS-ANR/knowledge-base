@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/technique/> a skos:ConceptScheme ;
+  rdfs:comment "Techniques vocales ou de jeu instrumental"@fr, "Instrument playing or voice production techniques"@en, "Tecniche per l'emissione di suono tramite voce o impiego di strumenti"@it ;
+  rdfs:label "Techniques vocales et instrumentales"@fr , "Vocal and instrumental techniques"@en , "Tecniche vocali e strumentali"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:created "2018-07-19"^^xsd:date ;
+  dct:modified "2018-07-19"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/techniques/blow> a skos:Concept ;
+    skos:altLabel "puff"@en ;
+    skos:definition "Mouvement de l'air que l'on produit en expirant avec une certaine force (Le Petit Robert 2012, modifié)"@fr ;
+    skos:prefLabel "blow"@en,
+        "souffle"@fr,
+        "soffio"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/breathing> a skos:Concept ;
+    skos:definition "Son émis en aspirant l'air dans les poumons puis en l'en rejetant."@fr ;
+    skos:prefLabel "breathing"@en,
+        "respiration"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/cantillation> a skos:Concept ;
+    skos:definition "Exécution vocale intermédiaire entre déclamation et chant, pratiquée notamment dans la liturgie juive. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "kantillation"@de,
+        "cantillation"@en,
+        "cantillation"@fr,
+        "cantillazione"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/coloratura> a skos:Concept ;
+    skos:definition "En musique classique, passage de virtuosité pour les chanteurs (ornements, vocalises, grands intervalles, trilles, arpèges, notes piquées etc)  (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "koloratur"@de,
+        "coloratura"@en,
+        "colorature"@fr,
+        "coloratura"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/cry> a skos:Concept ;
+    skos:definition "Son émis avec violence par la voix ou paroles prononcées très fort."@fr ;
+    skos:prefLabel "schrei"@de,
+        "cry"@en,
+        "cri"@fr,
+        "grido"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/incantation> a skos:Concept ;
+    skos:definition "Récitation, psalmodie ou chant d'une formule rituelle, souvent répétée de manière rythmée et accompagnée de gestes, dans un but magique bénéfique ou maléfique. Les sons de l'incantation agissent sur les éléments subtils de l'univers et possèdent une puissance propre.  (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "zauberspruch"@de,
+        "incantation"@en,
+        "incantation"@fr,
+        "incantesimo"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/onomatopoeia> a skos:Concept ;
+    skos:definition "Mot ou syllabe dont la prononciation imite l'objet qu'elle désigne (ex : atchoum, broum, hi-han, miam-miam, toc-toc, pin-pon). L'onomatopée rythmique est une formule rythmique décrite à l'aide d'une onomatopée (ex : boom-chick, chabada, du-wah, papa-maman, ping, ra, rantanplan, wawa). Une des syllabes rythmique appartenant à un système complet d'apprentissage de formules rythmiques, qui est utilisé dans certaines cultures musicales (ex : bol (Inde du Nord), taki-gamala (Indonésie), usul (Turquie) : dum et tek. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "schallwort"@de,
+        "onomatopoeia"@en,
+        "onomatopée"@fr,
+        "onomatopea"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/overtone_singing> a skos:Concept ;
+    skos:definition "Technique vocale qui permet à une personne de produire un timbre vocal caractérisé par deux notes de fréquences différentes. Il s'agit donc de faire du chant polyphonique (à plusieurs voix) au moyen d'un seul organe vocal combinant d'une part divers types de voix (de poitrine, de tête…) et d'autre part divers positionnements de la langue ou des lèvres. (Wikipédia, modifié)"@fr ;
+    skos:prefLabel "obertongesang"@de,
+        "overtone singing"@en,
+        "chant diphonique"@fr,
+        "canto difonico"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/phoneme> a skos:Concept ;
+    skos:definition "Unité sonore la plus petite de la langue orale (voyelle, diphtongue ou consonne)"@fr ;
+    skos:prefLabel "phonem"@de,
+        "phoneme"@en,
+        "phonème"@fr,
+        "fonema"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/psalmody> a skos:Concept ;
+    skos:definition "Art de chanter les psaumes, qui se récitent principalement sur une note. Par extension, chant répétitif et monotone qui évoque le chant des psaumes à l'office. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "psalmodie"@de,
+        "psalmody"@en,
+        "psalmodie"@fr,
+        "salmodia"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/rapping> a skos:Concept ;
+    skos:definition "Manière de scander les paroles, qui se pratique dans le rap. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "rapping"@en,
+        "rapping"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/scat> a skos:Concept ;
+    skos:definition "Mode de chant sans paroles, en onomatopées rythmiques, généralement improvisé, avec un phrasé souvent proche du jeu instrumental. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "scat"@en,
+        "scat"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/speech_song> a skos:Concept ;
+    skos:definition "Mode de déclamation vocale, intermédiaire entre le parlé et le chanté (initié par Arnold Schönberg en 1912).  (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "sprechgesang"@de,
+        "speech song"@en,
+        "sprechgesang"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/throat_singing> a skos:Concept ;
+    skos:definition "Type de chant diphonique dans lequel un bourdon grave est produit avec la gorge tandis que des harmoniques aiguës sont produites simultanément par amplification et résonnance. (Wikipédia, modifié)"@fr ;
+    skos:prefLabel "throat singing"@en,
+        "chant de gorge"@fr,
+        "canto gutturale"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/ululation> a skos:Concept ;
+    skos:altLabel "you-you"@fr ;
+    skos:definition "Cri aigu de joie, hululement strident longuement modulé, de manière analogue au jodel, qui est poussé par les femmes arabes lors de fêtes, de mariages, de cérémonies, de concerts. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "ululation"@en,
+        "youyou"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/ventriloquy> a skos:Concept ;
+    skos:definition "Emission de paroles sans remuer les lèvres."@fr ;
+    skos:prefLabel "ventriloquy"@en,
+        "ventriloquie"@fr,
+        "ventriloquio"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/vocalization> a skos:Concept ;
+    skos:definition "Mélodie ou fragment mélodique chanté sur une ou plusieurs voyelles. (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "vokalize"@de,
+        "vocalization"@en,
+        "vocalise"@fr,
+        "vocalizzo"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/whistling> a skos:Concept ;
+    skos:definition "Son aigu, modulé ou non, émis en faisant échapper l'air par une ouverture étroite de la bouche. (Le Petit Robert 2012, modifié)"@fr ;
+    skos:prefLabel "whistling"@en,
+        "sifflement"@fr,
+        "fischio"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
+
+<http://data.doremus.org/vocabulary/techniques/yodel> a skos:Concept ;
+    skos:altLabel "jodel"@en, "yodel"@fr, "iodel"@fr, "jodle"@fr ;
+    skos:definition "Mode de chant caractérisé par de brusques passages de la voix de poitrine à la voix de tête, qui est pratiqué dans les musiques populaires des Alpes (Suisse, Tyrol, Bavière) aussi bien que dans d'autres régions du monde (Caucase, Pygmées, Iles du Pacifique). (Dictionnaire des Mots de la Musique, Jacques Siron, modifié)"@fr ;
+    skos:prefLabel "jodel"@de,
+        "yodel"@en,
+        "jodel"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/technique/> .
