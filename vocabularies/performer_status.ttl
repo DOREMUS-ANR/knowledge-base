@@ -1,0 +1,45 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/performer_status/> a skos:ConceptScheme ;
+    rdfs:label "Performer Status"@en,
+        "Statut de l'interprète"@fr,
+        "Qualifica dell'interprete"@it ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:created "2018-07-20"^^xsd:date ;
+    dct:modified "2018-07-20"^^xsd:date ;
+    rdfs:comment "Performer status in a performance or an audiovisual work"@en,
+        "Statut d'un interprète au sein d’une représentation/exécution ou d'une oeuvre audiovisuelle"@fr,
+        "Qualifica di un interprete nel contesto di un'esibizione o di un opera audiovisiva"@it .
+
+<http://data.doremus.org/vocabulary/performer_status/emblematic> a skos:Concept ;
+    skos:altLabel "interprète de référence"@fr ;
+    skos:definition "Interprète étroitement associé à une oeuvre. "@fr ;
+    skos:prefLabel "emblematic performer"@en,
+        "interprète emblématique"@fr,
+        "interprete-simbolo"@it ;
+    skos:scopeNote "Permet de signaler une interpétation très connue d'une oeuvre. Il ne s'agit pas nécessairement du premier interprète. Par exemple, trois interprètes emblématiques pourraient être associés à la chanson de Léonard Cohen \"Hallelujah\": Leonard Cohen lui-même, John Cale et Jeff Buckley."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performer_status/> .
+
+<http://data.doremus.org/vocabulary/performer_status/guest> a skos:Concept ;
+    skos:altLabel "guest star"@en,
+        "invité vedette"@fr ;
+    skos:definition "Artiste invité par un autre artiste pour participer à son spectacle ou son enregistrement. "@fr ;
+    skos:prefLabel "guest artist"@en,
+        "artiste invité"@fr,
+        "artista invitato"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performer_status/> .
+
+<http://data.doremus.org/vocabulary/performer_status/headliner> a skos:Concept ;
+    skos:altLabel "tête d'affiche"@fr ;
+    skos:definition "Artiste exerçant un rôle prépondérant lors d'une représentation/exécution ou dans une publication audiovisuelle. "@fr ;
+    skos:prefLabel "headliner"@en,
+        "artiste principal"@fr,
+        "artista principale"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/performer_status/> .

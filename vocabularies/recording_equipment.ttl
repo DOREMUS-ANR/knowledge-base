@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/recording_equipment/> a skos:ConceptScheme ;
+  rdfs:comment "Grandes catégories de matériels d'enregistrement"@fr, "Broad categories of recording equipments"@en, "Grandi categorie di materiali utilizzati per l'acquisizione del suono"@it ;
+  rdfs:label "Types de matériel d'enregistrement"@fr , "Types of recording equipment"@en , "Tipologie di materiali per la registrazione"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:created "2018-07-20"^^xsd:date ;
+  dct:modified "2018-07-20"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/recording_equipment/acoustic> a skos:Concept ;
+    skos:altLabel "mécanique"@fr ;
+    skos:broader <http://data.doremus.org/vocabulary/recording_equipment/analog> ;
+    skos:definition "Matériel d'enregistrement mécanique utilisé lors de l'enregistrement  "@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/recording_equipment/> ;
+    skos:prefLabel "acoustic"@en,
+        "acoustique"@fr,
+        "acustico"@it ;
+    skos:scopeNote "S'applique aux cylindres et aux disques pré-lp"@fr .
+
+<http://data.doremus.org/vocabulary/recording_equipment/digital> a skos:Concept ;
+    skos:altLabel "D"@en ;
+    skos:definition "Digital equipment used in recording"@en,
+        "Matériel d'enregistrement numérique utilisé lors de l'enregistrement  "@fr ;
+    skos:prefLabel "digital"@en,
+        "numérique"@fr,
+        "digitale"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/recording_equipment/> .
+
+<http://data.doremus.org/vocabulary/recording_equipment/electrical> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/recording_equipment/analog> ;
+    skos:definition "Matériel d'enregistrement électrique utilisé lors de l'enregistrement"@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/recording_equipment/> ;
+    skos:prefLabel "electrical"@en,
+        "électrique"@fr,
+        "elettrico"@it .
+
+<http://data.doremus.org/vocabulary/recording_equipment/mixed> a skos:Concept ;
+    skos:definition "Matériels d’enregistrement différents utilisés lors de l'enregistrement"@fr ;
+    skos:prefLabel "mixed"@en,
+        "multiple"@fr,
+        "multiplo"@it ;
+    skos:scopeNote "S'applique aux repiquages d’enregistrements"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/recording_equipment/> .
+
+<http://data.doremus.org/vocabulary/recording_equipment/analog> a skos:Concept ;
+    skos:altLabel "A"@en ;
+    skos:definition "Analog equipment used in recording"@en,
+        "Matériel d'enregistrement analogique utilisé lors de l'enregistrement"@fr ;
+    skos:prefLabel "analog"@en,
+        "analogique"@fr,
+        "analogico"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/recording_equipment/> .

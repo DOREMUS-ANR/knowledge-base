@@ -1,0 +1,59 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/playing_speed/> a skos:ConceptScheme ;
+  rdfs:comment "Vitesses de lecture pour les supports audio"@fr, "Paying speed for audio carriers"@en, "Velocità di lettura del supporto audio"@it ;
+  rdfs:label "Vitesses de lecture"@fr , "Playing Speed"@en , "Velocità di lettura"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:created "2018-07-20"^^xsd:date ;
+  dct:modified "2018-07-20"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/playing_speed/33rpm> a skos:Concept ;
+    skos:altLabel "33 tours"@fr ;
+    skos:definition "Disque tournant à 33,33 tours (soit trente-trois tours et un tiers de tour) par minute"@fr ;
+    skos:prefLabel "33 rpm"@en,
+        "33 t"@fr,
+        "33 giri"@it ;
+    skos:scopeNote "S'applique aux disques microsillon"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/playing_speed/> .
+
+<http://data.doremus.org/vocabulary/playing_speed/45rpm> a skos:Concept ;
+    skos:altLabel "45 tours"@fr ;
+    skos:definition "Disque tournant à 45 tours par minute"@fr ;
+    skos:prefLabel "45 rpm"@en,
+        "45 t"@fr,
+        "45 giri"@it ;
+    skos:scopeNote "S'applique aux disques microsillon"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/playing_speed/> .
+
+<http://data.doremus.org/vocabulary/playing_speed/78rpm> a skos:Concept ;
+    skos:altLabel "78 tours"@fr ;
+    skos:definition "Disque tournant à 78 tours par minute"@fr ;
+    skos:prefLabel "78 rpm"@en,
+        "78 t"@fr,
+        "78 giri"@it ;
+    skos:scopeNote "S'applique aux disques pré-lp"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/playing_speed/> .
+
+<http://data.doremus.org/vocabulary/playing_speed/80rpm> a skos:Concept ;
+    skos:altLabel "80 tours"@fr ;
+    skos:definition "Disque tournant à 80 tours par minute"@fr ;
+    skos:prefLabel "80 rpm"@en,
+        "80 t"@fr,
+        "80 giri"@it ;
+    skos:scopeNote "S'applique aux disques pré-lp"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/playing_speed/> .
+
+<http://data.doremus.org/vocabulary/playing_speed/82rpm> a skos:Concept ;
+    skos:altLabel "82 tours"@fr ;
+    skos:definition "Disque tournant à 82 tours par minute"@fr ;
+    skos:prefLabel "82 rpm"@en,
+        "82 t"@fr,
+        "82 giri"@it ;
+    skos:scopeNote "S'applique aux disques pré-lp"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/playing_speed/> .

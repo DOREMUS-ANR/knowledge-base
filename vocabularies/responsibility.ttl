@@ -1,0 +1,80 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/responsibility/> a skos:ConceptScheme ;
+  rdfs:comment "Type de responsabilité exercée par un musicien par l'intermédiaire de son instrument ou de sa voix"@fr, "Type of responsibility exercised by a musician through its medium of performance"@en, "Tipo di responsabilità esercitata da un musicista tramite intermediazione del proprio strumento o della propria voce"@it ;
+  rdfs:label "Responsabilité des interprètes"@fr , "Responsibility of performers"@en , "Responsabilità degli esecutori"@it ;
+  dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:created "2018-07-20"^^xsd:date ;
+  dct:modified "2018-07-20"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/responsibility/background_vocal> a skos:Concept ;
+    skos:definition "Musicien qui accompagne en chantant un groupe musical ou un chanteur. (Grand dictionnaire terminologique, modifié)"@fr ;
+    skos:prefLabel "background vocal"@en,
+        "choriste"@fr,
+        "corista (musica leggera)"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/choir_singer> a skos:Concept ;
+    skos:altLabel "choriste (choeur)"@fr,"cantore"@it, "artista del coro"@it ;
+    skos:definition "Musicien qui chante une partie dans un chœur, une chorale. (Cnrtl, modifié)"@fr ;
+    skos:prefLabel "choir singer"@en,
+        "artiste de choeur"@fr,
+        "corista (coro)"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/concertmaster> a skos:Concept ;
+    skos:altLabel "leader of the orchestra"@en,
+        "spalla"@it ;
+    skos:definition "Violoniste ayant un rôle primordial dans l'orchestre. Généralement chef de pupitre des premiers violons, il exécute les solos dans les oeuvres symphoniques qui ne sont pas des concertos et sert de lien artistique entre le chef d'orchestre et les musiciens. Si l’orchestre ne dispose pas d’un super soliste, il est le musicien le plus important pendant les répétitions et les concerts."@fr ;
+    skos:prefLabel "concertmaster"@en,
+        "premier violon solo"@fr,
+        "primo violino"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/first_instrument> a skos:Concept ;
+    skos:definition "Musicien jouant dans le premier pupitre dédié à son instrument ou à sa voix (ensemble de chanteurs ou d'instrumentistes jouant la même partie dans un orchestre). "@fr ;
+    skos:prefLabel "first instrument"@en,
+        "premier instrument"@fr,
+        "primo strumento"@it ;
+    skos:scopeNote """Exemple : Musicien jouant dans le pupitre des premiers violons.
+Musicien jouant dans le pupitre des premières clarinettes."""@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/principal> a skos:Concept ;
+    skos:definition "Musicien qui est chargé, au sein d'un orchestre, de mener un pupitre. (Siron, modifié)"@fr ;
+    skos:prefLabel "principal"@en,
+        "soliste d'orchestre"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/second_instrument> a skos:Concept ;
+    skos:definition "Musicien jouant dans le deuxième pupitre dédié à son instrument ou à sa voix (ensemble de chanteurs ou d'instrumentistes jouant la même partie dans un orchestre). "@fr ;
+    skos:prefLabel "second instrument"@en,
+        "second instrument"@fr,
+        "secondo strumento"@it ;
+    skos:scopeNote """Exemples : Musicien jouant dans le pupitre des seconds violons.
+Musicien jouant dans le pupitre des secondes clarinettes."""@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/soloist> a skos:Concept ;
+    skos:altLabel "solo"@it ;
+    skos:definition "Musicien qui assure seul l'exécution d'une partie musicale dans un ensemble ou de manière isolée. (Wikipedia, modifié)"@fr ;
+    skos:prefLabel "soloist"@en,
+        "soliste"@fr,
+        "solista"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
+
+<http://data.doremus.org/vocabulary/responsibility/thorough-bass> a skos:Concept ;
+    skos:altLabel "continuo"@en,
+        "continuo"@fr,
+        "continuo"@it ;
+    skos:definition "Musicien dont le rôle est d'assurer la partie de basse continue avec son instrument (en musique baroque : technique d'improvisation et d'accompagnement à partir d'une basse chiffrée)."@fr ;
+    skos:prefLabel "thorough-bass"@en,
+        "basse continue"@fr,
+        "basso continuo"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/responsibility/> .
