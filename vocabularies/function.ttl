@@ -1,13 +1,24 @@
-@prefix : <file:///#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix n0: <https://creativecommons.org/licenses/by/4.0/> .
 @prefix org: <http://data.doremus.org/organization/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/function/> a skos:ConceptScheme ;
+    rdfs:label "Relationship designators for agents"@en,
+        "Fonctions"@fr,
+        "Funzioni per attività musicali"@it ;
+    dct:created "2018-01-10"^^xsd:date ;
+    dct:creator org:DOREMUS ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2018-08-01"^^xsd:date ;
+    rdfs:comment "Relationship designators to specify the relationship between  an agent and a work, an expression, a manifestation or an event"@en,
+        "Type de relation entre un agent et une oeuvre, une expression, une manifestation ou un évènement"@fr,
+        "Tipo di relazione tra una persona (artista, tecnico, etc.) e un'opera, un'espressione, una manifestazione o un evento"@it .
+
 
 <http://data.doremus.org/vocabulary/function/casting> a skos:Collection ;
     rdfs:label "casting" ;
@@ -229,7 +240,7 @@
     skos:prefLabel "chef de maîtrise"@fr .
 
 <http://data.doremus.org/vocabulary/function/7> a skos:Concept ;
-    skos:definition "Agent chargé d’assister le producteur, l’animateur ou le journaliste dans certaines activités liées à l’élaboration d'une émission radiophonique (assistance au metteur en onde de l’émission et montage d’éléments, documentation, constitution de plateaux d'invités, alimentation du site web de l'émission). (Radio France, modifié)\\n"@fr ;
+    skos:definition "Agent chargé d’assister le producteur, l’animateur ou le journaliste dans certaines activités liées à l’élaboration d'une émission radiophonique (assistance au metteur en onde de l’émission et montage d’éléments, documentation, constitution de plateaux d'invités, alimentation du site web de l'émission). (Radio France, modifié)"@fr ;
     skos:prefLabel "attaché de production (radio)"@fr,
         "assistente di produzione (radio)"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
@@ -264,7 +275,8 @@
 <http://data.doremus.org/vocabulary/function/chief_conductor> a skos:Concept ;
     skos:altLabel "music director"@en ;
     skos:broader <http://data.doremus.org/vocabulary/function/conductor> ;
-    skos:definition "Agent qui dirige un ensemble instrumental exécutant une œuvre musicale.\\n(UNIMARC, modifié)"@fr ;
+    skos:definition """Agent qui dirige un ensemble instrumental exécutant une œuvre musicale.
+(UNIMARC, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "chief conductor"@en,
         "chef d'orchestre"@fr,
@@ -280,7 +292,8 @@
 
 <http://data.doremus.org/vocabulary/function/costume_designer> a skos:Concept ;
     skos:altLabel "créateur des costumes"@fr ;
-    skos:definition "Agent qui fait, vend ou loue des costumes de scène, qui s'occupe des costumes d'une représentation.\\n(Petit Robert 1, modifié)"@fr ;
+    skos:definition """Agent qui fait, vend ou loue des costumes de scène, qui s'occupe des costumes d'une représentation.
+(Petit Robert 1, modifié)"""@fr ;
     skos:prefLabel "costume designer"@en,
         "costumier"@fr,
         "costumista"@it ;
@@ -288,7 +301,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_fantasy> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui crée une fantaisie musicale, morceau de forme libre, parfois très proche de l'improvisation, dans laquelle le créateur donne libre cours à son imagination\\n(Siron, modifié)"@fr ;
+    skos:definition """Agent qui crée une fantaisie musicale, morceau de forme libre, parfois très proche de l'improvisation, dans laquelle le créateur donne libre cours à son imagination
+(Siron, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical fantasy"@en,
         "créateur de la fantaisie musicale"@fr,
@@ -296,7 +310,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_harmonization> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui réalise l’adjonction d’accords ou de parties harmoniques à une mélodie.\\n(Norme NF Z 44-079, modifiée)"@fr ;
+    skos:definition """Agent qui réalise l’adjonction d’accords ou de parties harmoniques à une mélodie.
+(Norme NF Z 44-079, modifiée)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical harmonization"@en,
         "harmonisateur"@fr,
@@ -304,7 +319,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_medley> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui crée un pot-pourri, pièce composée d'une succession de mélodies, entières ou fragmentées, qui ne sont pas habituellement destinées à être jouées ensemble et qui sont souvent reliées par des passages modulants.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"@fr ;
+    skos:definition """Agent qui crée un pot-pourri, pièce composée d'une succession de mélodies, entières ou fragmentées, qui ne sont pas habituellement destinées à être jouées ensemble et qui sont souvent reliées par des passages modulants.
+(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical medley"@en,
         "créateur du pot-pourri musical"@fr,
@@ -312,7 +328,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_paraphrase> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui crée une paraphrase musicale, composition libre à partir d'un texte musical préexistant.\\n(Encyclopédie de la musique, Paris, Librairie générale française, 1992, modifiée)"@fr ;
+    skos:definition """Agent qui crée une paraphrase musicale, composition libre à partir d'un texte musical préexistant.
+(Encyclopédie de la musique, Paris, Librairie générale française, 1992, modifiée)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical paraphrase"@en,
         "créateur  de la paraphrase musicale"@fr,
@@ -328,7 +345,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reduction> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui réalise la contraction d’une oeuvre musicale conçue pour plusieurs instruments ou voix, à un plus petit nombre de parties.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modiifié)"@fr ;
+    skos:definition """Agent qui réalise la contraction d’une oeuvre musicale conçue pour plusieurs instruments ou voix, à un plus petit nombre de parties.
+(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modiifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reduction"@en,
         "créateur de la réduction musicale"@fr,
@@ -336,7 +354,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_reminiscence> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui crée une réminiscence, partie d'une oeuvre qui évoque plus ou moins un autre morceau, sans être du plagiat.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002 modifié)"@fr ;
+    skos:definition """Agent qui crée une réminiscence, partie d'une oeuvre qui évoque plus ou moins un autre morceau, sans être du plagiat.
+(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002 modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical reminiscence"@en,
         "créateur de la réminiscence musicale"@fr,
@@ -344,7 +363,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_revision> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui adapte une partition ancienne aux conventions modernes.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"@fr ;
+    skos:definition """Agent qui adapte une partition ancienne aux conventions modernes.
+(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical revision"@en,
         "réviseur (musique)"@fr,
@@ -352,7 +372,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_transposition> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui modifie l'ensemble des hauteurs d'une oeuvre musicale en les déplaçant, vers le haut ou vers le bas, par addition ou soustraction d'un intervalle constant.\\n(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"@fr ;
+    skos:definition """Agent qui modifie l'ensemble des hauteurs d'une oeuvre musicale en les déplaçant, vers le haut ou vers le bas, par addition ou soustraction d'un intervalle constant.
+(Siron, Jacques, Dictionnaire des mots de la musique. Paris, Outre mesure, 2002, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical transposition"@en,
         "notateur de la transposition"@fr,
@@ -360,7 +381,8 @@
 
 <http://data.doremus.org/vocabulary/function/creator_of_musical_variation> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui crée une variation musicale, c'est-à-dire qui transforme un élément thématique de base à l'aide de procédés variés.\\n(Encyclopédie de la musique. Paris, Librairie générale française, 1992, modifié)"@fr ;
+    skos:definition """Agent qui crée une variation musicale, c'est-à-dire qui transforme un élément thématique de base à l'aide de procédés variés.
+(Encyclopédie de la musique. Paris, Librairie générale française, 1992, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "creator of musical variation"@en,
         "créateur  de la variation musicale"@fr,
@@ -369,7 +391,8 @@
 <http://data.doremus.org/vocabulary/function/dance_notator> a skos:Concept ;
     skos:altLabel "choréologue"@fr,
         "coreologo"@it ;
-    skos:definition "Agent qui retranscrit à l'aide d'un système \\nconventionnel les pas, les mouvements et les figures d'une œuvre \\nchorégraphique. \\n(Office québécois de la langue française, modifié)"@fr ;
+    skos:definition """Agent qui retranscrit à l'aide d'un système conventionnel les pas, les mouvements et les figures d'une œuvre chorégraphique.
+(Office québécois de la langue française, modifié)"""@fr ;
     skos:prefLabel "dance notator"@en,
         "notateur du mouvement"@fr,
         "annotatore del movimento"@it ;
@@ -403,7 +426,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/live_electronic_conductor> a skos:Concept ;
-    skos:definition "Agent qui dirige une représentation musicale utilisant des sons ou des instruments électroniques joués en direct, généralement en situation de concert, par opposition à la musique électronique enregistrée.\\n(Wikipédia, modifié)"@fr ;
+    skos:definition """Agent qui dirige une représentation musicale utilisant des sons ou des instruments électroniques joués en direct, généralement en situation de concert, par opposition à la musique électronique enregistrée.
+(Wikipédia, modifié)"""@fr ;
     skos:prefLabel "live electronic conductor"@en,
         "chef du dispositif électronique en direct"@fr,
         "direttore di live electronic"@it ;
@@ -418,7 +442,8 @@
 
 <http://data.doremus.org/vocabulary/function/orchestrator> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/arranger> ;
-    skos:definition "Agent qui réalise une transcription pour orchestre d’une œuvre non écrite originalement pour celui-ci.\\n(Norme NF Z 44-079, modifiée)"@fr ;
+    skos:definition """Agent qui réalise une transcription pour orchestre d’une œuvre non écrite originalement pour celui-ci.
+(Norme NF Z 44-079, modifiée)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "orchestrator"@en,
         "orchestrateur"@fr,
@@ -464,7 +489,10 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/scenographer> a skos:Concept ;
-    skos:definition "Agent qui conçoit les esquisses et les maquettes qui serviront à la \\ncréation des décors et de l'espace scénique, elle collabore avec le \\nconcepteur de costumes et fait les recherches nécessaires pour recréer \\nune époque ou l'ambiance souhaitée par le metteur en scène. (Office québécois de la langue française, modifié) \\n"@fr ;
+    skos:definition """Agent qui conçoit les esquisses et les maquettes qui serviront à la
+création des décors et de l'espace scénique, elle collabore avec le
+concepteur de costumes et fait les recherches nécessaires pour recréer
+une époque ou l'ambiance souhaitée par le metteur en scène. (Office québécois de la langue française, modifié)"""@fr ;
     skos:prefLabel "scenographer"@en,
         "scénographe"@fr,
         "scenografo"@it ;
@@ -495,7 +523,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/stage_director> a skos:Concept ;
-    skos:definition "Agent qui dirige la mise en scène d’une œuvre dramatique (théâtre, opéra).\\n(Z 44-065 Catalogage des vidéogrammes, septembre 1998)\\n\\n"@fr ;
+    skos:definition """Agent qui dirige la mise en scène d’une œuvre dramatique (théâtre, opéra).
+    (Z 44-065 Catalogage des vidéogrammes, septembre 1998)"""@fr ;
     skos:prefLabel "stage director"@en,
         "metteur en scène"@fr,
         "regista teatrale"@it ;
@@ -508,7 +537,8 @@
     skos:prefLabel "transcriber"@en,
         "transcripteur"@fr,
         "autore della trascrizione"@it ;
-    skos:scopeNote "Pour les transcriptions qui réduisent le nombre d'instruments, préférer la fonction réducteur.\\nPour les transcriptions pour orchestre, préférer la fonction orchestrateur."@fr .
+    skos:scopeNote """Pour les transcriptions qui réduisent le nombre d'instruments, préférer la fonction réducteur.
+Pour les transcriptions pour orchestre, préférer la fonction orchestrateur."""@fr .
 
 <http://data.doremus.org/vocabulary/function/translator> a skos:Concept ;
     skos:definition "Agent qui traduit d’une langue dans une autre, ou d’un état ancien d’une langue vers son état moderne, en suivant de plus ou moins près l’original. (UNIMARC, modifié)"@fr ;
@@ -545,7 +575,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/addressee> a skos:Concept ;
-    skos:definition "Agent à qui une oeuvre ou une partie d'oeuvre est adressée \\n(RDA, modifié)"@fr ;
+    skos:definition """Agent à qui une oeuvre ou une partie d'oeuvre est adressée
+(RDA, modifié)"""@fr ;
     skos:prefLabel "addressee"@en,
         "destinataire"@fr,
         "destinatario"@it ;
@@ -629,7 +660,8 @@
         "directeur de chorale"@fr,
         "maestro del coro"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/conductor> ;
-    skos:definition "Agent qui dirige tous les chanteurs qui constituent un choeur.\\n(UNIMARC, modifié)"@fr ;
+    skos:definition """Agent qui dirige tous les chanteurs qui constituent un choeur.
+(UNIMARC, modifié)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "choral director"@en,
         "chef de choeur"@fr,
@@ -637,7 +669,7 @@
 
 <http://data.doremus.org/vocabulary/function/composer_of_basso_continuo> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/composer> ;
-    skos:definition "Agent qui réalise un développement d’une partie de basse continue, chiffrée ou non.\\n"@fr ;
+    skos:definition "Agent qui réalise un développement d’une partie de basse continue, chiffrée ou non."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "composer of basso continuo"@en,
         "réalisateur de la basse continue"@fr,
@@ -668,7 +700,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/drawer> a skos:Concept ;
-    skos:definition "Agent qui conçoit un dessin original \\n(Unimarc, modifié)"@fr ;
+    skos:definition """Agent qui conçoit un dessin original
+(Unimarc, modifié)"""@fr ;
     skos:prefLabel "drawer"@en,
         "dessinateur"@fr,
         "disegnatore"@it ;
@@ -697,7 +730,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/editor_of_the_bowing_marks> a skos:Concept ;
-    skos:definition "Agent qui indique, dans le jeu des instruments à cordes frottées, les différentes manières de mouvoir l'archet sur la corde, à l'endroit correct, dans la direction et à la vitesse prescrites, et avec la pression nécessaire.  \\n(d'après Larousse « Dictionnaire de la musique »)"@fr ;
+    skos:definition """Agent qui indique, dans le jeu des instruments à cordes frottées, les différentes manières de mouvoir l'archet sur la corde, à l'endroit correct, dans la direction et à la vitesse prescrites, et avec la pression nécessaire.
+(d'après Larousse « Dictionnaire de la musique »)"""@fr ;
     skos:prefLabel "editor of the bowing marks"@en,
         "concepteur des coups d'archet"@fr,
         "annotatore delle arcate"@it ;
@@ -707,7 +741,8 @@
     skos:altLabel "background actor"@en,
         "comparsa"@it ;
     skos:broader <http://data.doremus.org/vocabulary/function/actor> ;
-    skos:definition "Acteur à qui l'on ne demande que\\nla présence dans une pièce de théâtre, \\nun film, un ballet, etc. \\n(Larousse) \\n"@fr ;
+    skos:definition """Acteur à qui l'on ne demande que la présence dans une pièce de théâtre, un film, un ballet, etc.
+(Larousse)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "extra"@en,
         "figurant"@fr,
@@ -715,14 +750,16 @@
     skos:scopeNote "Dans la distribution, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre de spectacle vivant incorporée à une oeuvre musicale."@fr .
 
 <http://data.doremus.org/vocabulary/function/imitator> a skos:Concept ;
-    skos:definition "Agent qui imite le comportement, les \\ngestes, les paroles d'autrui dans le cadre d'un spectacle. \\n(Centre National de Ressources Textuelles \\net Lexicales CNRTL, modifié)"@fr ;
+    skos:definition """Agent qui imite le comportement, les gestes, les paroles d'autrui dans le cadre d'un spectacle.
+(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)"""@fr ;
     skos:prefLabel "imitator"@en,
         "imitateur"@fr,
         "imitatore"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/juggler> a skos:Concept ;
-    skos:definition "Agent qui lance en l'air divers objets qu'il reçoit et relance alternativement en entrecroisant leur trajectoire. \\n(Le Petit Robert, modifié)"@fr ;
+    skos:definition """Agent qui lance en l'air divers objets qu'il reçoit et relance alternativement en entrecroisant leur trajectoire.
+(Le Petit Robert, modifié)"""@fr ;
     skos:prefLabel "juggler"@en,
         "jongleur"@fr,
         "giocoliere"@it ;
@@ -765,7 +802,7 @@
 
 <http://data.doremus.org/vocabulary/function/narrator> a skos:Concept ;
     skos:altLabel "lecteur"@fr ;
-    skos:definition "Agent lisant à voix haute ou\\nrendant compte d’une action, d’une situation, du déroulement des événements, etc. (RDA, modifié)"@fr ;
+    skos:definition "Agent lisant à voix haute ou rendant compte d’une action, d’une situation, du déroulement des événements, etc. (RDA, modifié)"@fr ;
     skos:prefLabel "narrator"@en,
         "narrateur"@fr,
         "narratore"@it ;
@@ -773,7 +810,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/parodist> a skos:Concept ;
-    skos:definition "Agent qui compose ou écrit une parodie \\n(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)"@fr ;
+    skos:definition """Agent qui compose ou écrit une parodie
+(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)"""@fr ;
     skos:prefLabel "parodist"@en,
         "parodiste"@fr,
         "parodista"@it ;
@@ -799,7 +837,8 @@
 
 <http://data.doremus.org/vocabulary/function/sound-effects_engineer> a skos:Concept ;
     skos:altLabel "foley artist"@en ;
-    skos:definition "Agent chargé d'imiter, par divers procédés, les bruits de la vie quotidienne, souvent pour accompagner une émission ou un spectacle.\\n(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)\\n\\n"@fr ;
+    skos:definition """Agent chargé d'imiter, par divers procédés, les bruits de la vie quotidienne, souvent pour accompagner une émission ou un spectacle.
+(Centre National de Ressources Textuelles et Lexicales CNRTL, modifié)"""@fr ;
     skos:prefLabel "sound-effects engineer"@en,
         "bruiteur"@fr,
         "rumorista"@it ;
@@ -822,7 +861,7 @@
         "fonico"@it .
 
 <http://data.doremus.org/vocabulary/function/storyteller> a skos:Concept ;
-    skos:definition "Agent qui dit, récite des contes devant un public (Dictionnaire de l'Académie française, modifié)\\n"@fr ;
+    skos:definition "Agent qui dit, récite des contes devant un public (Dictionnaire de l'Académie française, modifié)"@fr ;
     skos:prefLabel "storyteller"@en,
         "conteur"@fr,
         "cantastorie"@it ;
@@ -831,14 +870,15 @@
 
 <http://data.doremus.org/vocabulary/function/video_producer> a skos:Concept ;
     skos:altLabel "producteur de vidéogramme"@fr ;
-    skos:definition "Agent qui a l'initiative et la responsabilité de la première fixation d'une \\nséquence d'images sonorisée ou non. (Légifrance, modifié) \\n"@fr ;
+    skos:definition "Agent qui a l'initiative et la responsabilité de la première fixation d'une séquence d'images sonorisée ou non. (Légifrance, modifié)"@fr ;
     skos:prefLabel "video producer"@en,
         "producteur (enregistrement vidéographique)"@fr,
         "produttore (registrazione video)"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/20> a skos:Concept ;
-    skos:definition "Agent responsable de la forme artistique d'une émission de radio (script de l'enregistrement, montage, choix des séquences, choix des éléments sonores, supervision du mixage, choix des prises et coordination entre les différents intervenants à l'enregistrement et à la diffusion dans le cas des concerts).\\n(Radio France, modifié)"@fr ;
+    skos:definition """Agent responsable de la forme artistique d'une émission de radio (script de l'enregistrement, montage, choix des séquences, choix des éléments sonores, supervision du mixage, choix des prises et coordination entre les différents intervenants à l'enregistrement et à la diffusion dans le cas des concerts).
+    (Radio France, modifié)"""@fr ;
     skos:prefLabel "chargé de réalisation"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
@@ -914,8 +954,10 @@
 
 <http://data.doremus.org/vocabulary/function/producer_(sound)> a skos:Concept ;
     skos:altLabel "réalisateur artistique (son)"@fr ;
-    skos:definition "Agent dont le rôle consiste à contrôler les sessions d'enregistrement, à accompagner et guider les artistes dans leur interprétation et à superviser les enregistrements, le mixage audio et le mastering.\\nIl est souvent confondu, à cause de l'anglicisme \"record producer\" avec le producteur de musique, qui est chargé de la partie économique et marketing dans l'industrie musicale \\n(wikipedia, modifié)."@fr ;
-    skos:prefLabel "producer (sound)"@en,
+    skos:definition """Agent dont le rôle consiste à contrôler les sessions d'enregistrement, à accompagner et guider les artistes dans leur interprétation et à superviser les enregistrements, le mixage audio et le mastering.
+    Il est souvent confondu, à cause de l'anglicisme \"record producer\" avec le producteur de musique, qui est chargé de la partie économique et marketing dans l'industrie musicale
+    (wikipedia, modifié)."@fr ;
+    skos:prefLabel "producer (sound)"""@en,
         "directeur artistique (son)"@fr,
         "produttore discografico"@it ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
@@ -935,7 +977,7 @@
         "regista radiofonico"@it .
 
 <http://data.doremus.org/vocabulary/function/radio_producer> a skos:Concept ;
-    skos:definition "Agent qui conçoit une émission de radio, supervise et accompagne généralement sa réalisation. \\n"@fr ;
+    skos:definition "Agent qui conçoit une émission de radio, supervise et accompagne généralement sa réalisation."@fr ;
     skos:prefLabel "radio producer"@en,
         "producteur (radio)"@fr,
         "produttore radiofonico"@it ;
@@ -943,7 +985,8 @@
 
 <http://data.doremus.org/vocabulary/function/remixer> a skos:Concept ;
     skos:altLabel "curatore del mixaggio"@it ;
-    skos:definition "Agent qui utilise le mixage audio pour réaliser un autre enregistrement d’un morceau de musique, par addition ou soustraction d’éléments, ou par simple changement de l’égalisation, de la dynamique, de la vitesse, du tempo, de la durée ou de quasiment toute autre composante musicale. \\n(Wikipédia, modifié)"@fr ;
+    skos:definition """Agent qui utilise le mixage audio pour réaliser un autre enregistrement d’un morceau de musique, par addition ou soustraction d’éléments, ou par simple changement de l’égalisation, de la dynamique, de la vitesse, du tempo, de la durée ou de quasiment toute autre composante musicale.
+(Wikipédia, modifié)"""@fr ;
     skos:prefLabel "remixer"@en,
         "remixeur"@fr,
         "curatore del missaggio"@it ;
@@ -953,7 +996,7 @@
     skos:altLabel "chef opérateur"@fr,
         "directeur du son"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/function/sound_technician> ;
-    skos:definition "Agent chargé de la qualité du son produit pour une réalisation audiovisuelle, un album de musique, un concert ou un spectacle (ONISEP, modifié)\\n\\n \\n"@fr ;
+    skos:definition "Agent chargé de la qualité du son produit pour une réalisation audiovisuelle, un album de musique, un concert ou un spectacle (ONISEP, modifié)"@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "sound engineer"@en,
         "ingénieur du son"@fr,
@@ -969,7 +1012,8 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
 
 <http://data.doremus.org/vocabulary/function/video_designer> a skos:Concept ;
-    skos:definition "Agent qui exerce une activité créatrice ou technique en rapport avec la vidéo. \\n(Le Petit Robert, 2003. Modifié)"@fr ;
+    skos:definition """Agent qui exerce une activité créatrice ou technique en rapport avec la vidéo.
+(Le Petit Robert, 2003. Modifié)"""@fr ;
     skos:prefLabel "video designer"@en,
         "vidéaste"@fr ;
     skos:scopeNote "Si elle est incorporée à la distribution d'une oeuvre musicale, la mention de cette fonction est un raccourci pour l'exécution d'une oeuvre audiovisuelle dont l'expression ainsi créée est incorporée à l'expression exécutée de l'oeuvre musicale"@fr ;
@@ -1024,7 +1068,8 @@
 
 <http://data.doremus.org/vocabulary/function/arranger> a skos:Concept ;
     skos:broader <http://data.doremus.org/vocabulary/function/musician_(creator)> ;
-    skos:definition "Agent responsable de la version d’une œuvre musicale par additions, suppressions, ou changements dans l’écriture. Les transpositions d'une tonalité à une autre doivent être considérées comme des arrangements.\\n(Z 44-079, complétée)"@fr ;
+    skos:definition """Agent responsable de la version d’une œuvre musicale par additions, suppressions, ou changements dans l’écriture. Les transpositions d'une tonalité à une autre doivent être considérées comme des arrangements.
+(Z 44-079, complétée)"""@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/function/> ;
     skos:prefLabel "arranger"@en,
         "arrangeur"@fr,
@@ -1040,16 +1085,3 @@
         "autore del testo"@it ;
     skos:scopeNote "A utiliser aussi dans le contexte d'une représentation/exécution lorsque du texte est créé par improvisation (slam, etc.)."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/function/> .
-
-<http://data.doremus.org/vocabulary/function/> a skos:ConceptScheme ;
-    rdfs:label "Relationship designators for agents"@en,
-        "Fonctions"@fr,
-        "Funzioni per attività musicali"@it ;
-    dct:created "2018-01-10" ;
-    dct:creator org:DOREMUS ;
-    dct:license n0: ;
-    dct:modified "2018-06-21" ;
-    rdfs:comment "Relationship designators to specify the relationship between  an agent and a work, an expression, a manifestation or an event"@en,
-        "Type de relation entre un agent et une oeuvre, une expression, une manifestation ou un évènement"@fr,
-        "Tipo di relazione tra una persona (artista, tecnico, etc.) e un'opera, un'espressione, una manifestazione o un evento"@it .
-
