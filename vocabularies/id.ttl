@@ -1,0 +1,146 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/vocabulary/id/> a skos:ConceptScheme ;
+    rdfs:label "Types of identifier"@en,
+        "Types d'identifiant"@fr ;
+    dct:created "2018-08-06"^^xsd:date ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:description "A categorization  of characters strings that are used in a system to represent someone or something"@en,
+        "Catégories de chaînes caractères permettant d'identifier une personne ou un objet."@fr ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2018-08-06"^^xsd:date ;
+    rdfs:comment "A categorization  of characters strings that are used in a system to represent someone or something"@en,
+        "Catégories de chaînes caractères permettant d'identifier une personne ou un objet."@fr .
+
+<http://data.doremus.org/vocabulary/id/commercial> a skos:Concept ;
+    skos:altLabel "numéro dans la marque"@fr ;
+    skos:definition "Numéro attribué à un produit audiovisuel lors de sa mise à disposition du public par un éditeur ou un distributeur, qui l'identifie à l'intérieur de la marque sous laquelle il est commercialisé."@fr ;
+    skos:prefLabel "commercial reference"@en,
+        "référence commerciale"@fr ;
+    skos:scopeNote "Pour devenir significative et être utilisable comme identifiant, la référence commerciale doit être composée du nom de la marque  et du numéro dans la marque, ce dernier pouvant être alphanumérique."@fr,
+    "La référence commerciale est utilisée pour identifier les ressources sonores et audiovisuelles en l'absence d'une numérotation normalisée des produits de l'industrie de la musique et de l'image animée."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/ean> a skos:Concept ;
+    skos:altLabel "European Article Numbering"@en ;
+    skos:definition "Code-barres destiné à l'identification univoque d'objets et utilisé par le commerce et l'industrie. Ce code-barres est la transcription graphique d’un code GTIN (Global Trade Item Number), géré mondialement par GS1 (Global Standard 1), organisme mondial actif dans le domaine de la normalisation des méthodes de codage utilisées dans la chaîne logistique. (Source : site du GS1 : https://www.gs1.fr/Notre-offre/Produit-Digitalise/Des-codes-et-des-barres/Le-code-a-barres ; consulté 2018-02-10)"@fr ;
+    skos:prefLabel "EAN" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/internal> a skos:Concept ;
+    skos:definition "Suite de caractères utilisée pour identifier une ressource de façon unique au sein d'une institution, d'un système informatique, etc. Il ne se réfère à aucun standard international et est constitué selon des normes propres au créateur des métadonnées."@fr ;
+    skos:prefLabel "internal identifier"@en,
+        "identifiant interne"@fr ;
+    skos:scopeNote "Ne doit pas être utilisé pour décrire un numéro de notice ou un numéro d'inventaire."@fr, "Renseigner obligatoirement la source à travers l'événement d'attribution de l'identifiant (E15 Identifier Assignement)."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/inventory> a skos:Concept ;
+    skos:definition "Numéro unique attribué à une ressource lors de son entrée dans les collections d'une institution. "@fr ;
+    skos:prefLabel "inventory number"@en,
+        "numéro d'inventaire"@fr ;
+    skos:scopeNote "Renseigner obligatoirement la source à travers l'événement d'attribution de l'identifiant. (E15 Identifier Assignement)."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/ipi> a skos:Concept ;
+    skos:altLabel "Interested Party Information system"@en,
+        "Système d'Informations sur les Parties Intéressées"@fr ;
+    skos:definition "Identifiant mis en place par les société gestionnaires de droits membres de la CISAC pour identifier de manière unique, à l'échelle internationale, une personne physique ou morale ayant un intérêt dans une œuvre pour toutes les catégories d'œuvres, les différents rôles impliqués dans leur création (compositeur, arrangeur, éditeur, etc.) et les droits correspondants. (source : site de la CISAC : http://fr.cisac.org/Nos-Activites/Services-d-information/IPI ; consulté : 2018-02-10)"@fr ;
+    skos:prefLabel "IPI" ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/isan> a skos:Concept ;
+    skos:altLabel "International Standard Audiovisual Number "@en,
+        "Numéro international normalisé d'oeuvre audiovisuelle"@fr ;
+    skos:definition "Numéro international normalisé, défini par l'ISO (Organisation internationale de normalisation), permettant d'identifier de manière univoque une oeuvre audiovisuelle pendant toute sa durée d'existence. (source : ISO, modifié)"@fr ;
+    skos:prefLabel "ISAN";
+    skos:scopeNote "S'applique à l'oeuvre audiovisuelle elle-même, independamment du support physique de cette oeuvre audiovisuelle et de l'identification de ce support. L'ISAN est distinct de tout enregistrement de copyright et ne peut attester de la propriété de droits attachés à une oeuvre audiovisuelle."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/isbn> a skos:Concept ;
+    skos:altLabel "International Standard Book Number"@en,
+        "Numéro international normalisé du livre "@fr ;
+    skos:definition "Numéro international normalisé, défini par l'ISO (Organisation internationale de normalisation), permettant d'identifier  de manière unique chaque format de produit ou édition d'une monographie mise à disposition du public séparément, publiée ou produite par un éditeur en particulier. (source : ISO, modifié)"@fr ;
+    skos:prefLabel "ISBN" ;
+    skos:scopeNote "S'applique aux monographies (livres),quel que soit leur format d'édition (volume imprimé, enregistrement sonore, livre numérique), mais non à leur contenu (œuvres textuelles, notamment)."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/ismn> a skos:Concept ;
+    skos:altLabel "International standard music number "@en,
+        "Numéro international normalisé de la musique"@fr ;
+    skos:definition "Numéro international normalisé, défini par l'ISO (Organisation internationale de normalisation), permettant d'identifier de manière univoque chaque édition (ou composante d'une édition) d'une publication musicale imprimée. (source : ISO, modifié)"@fr ;
+    skos:prefLabel "ISMN" ;
+    skos:scopeNote "Ne s'applique qu'à la musique notée."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/isni> a skos:Concept ;
+    skos:altLabel "International standard name identifier"@en,
+        "Code international normalisé des noms"@fr ;
+    skos:definition "Numéro international normalisé, défini par l'ISO (Organisation internationale de normalisation), permettant d'identifier  de manière unique les identités publiques à travers les multiples domaines de l'activité créatrice et offre un outil permettant de lever l'ambiguïté sur les identités publiques qui pourraient, sans elle, être confondues. (source : ISO, modifié)"@fr ;
+    skos:prefLabel "ISNI" ;
+    skos:scopeNote "Ne vise pas à offrir un accès direct aux informations détaillées sur une identité publique mais peut fournir des liens renvoyant à d'autres systèmes contenant ces informations."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/isrc> a skos:Concept ;
+    skos:altLabel " International Standard Recording Code"@en,
+        "Code International Normalisé des Enregistrements"@fr ;
+    skos:definition "Numéro international normalisé, défini par l'ISO (Organisation internationale de normalisation), permettant d'identifier de manière unique un enregistrement ou d'une partie d'un enregistrement sonore ou audiovisuel pendant toute sa durée de vie. (source : ISRC France modifié)"@fr ;
+    skos:prefLabel "ISRC" ;
+    skos:scopeNote "Identifie les enregistrements en tant que tels et non pas les produits physiques (support son) auxquels s'applique le système de numérotation des produits des catalogues (référence commerciale, code-barres)."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/iswc> a skos:Concept ;
+    skos:altLabel "International Standard Musical Work Code"@en,
+        "Code international normalisé des oeuvres musicales "@fr ;
+    skos:definition "Numéro international normalisé, défini par l'ISO (Organisation internationale de normalisation), permettant d'identifier de manière univoque et permanente les œuvres musicales. (source ISO, modifié)"@fr ;
+    skos:prefLabel "ISWC";
+    skos:scopeNote "S'appliqueà toute œuvre musicale, publiée ou non, récemment créée ou déjà existante, quel que soit son statut au regard du droit de la propriété intellectuelle."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/matrix> a skos:Concept ;
+    skos:definition "Numéro d'identification de la matrice, gravée à partir de l'enregistrement sonore, qui est ensuite utilisée pour le pressage en série des disques. (source : Wikipédia, modifié)"@fr ;
+    skos:prefLabel "matrix number"@en,
+        "numéro de matrice"@fr ;
+    skos:scopeNote "Ne s'applique qu'au disque"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/plate> a skos:Concept ;
+    skos:definition "Numéro d'ordre, généralementaccompagné des initiales de l'éditeur, donner par celui-ci à chaque publication au sein de sa productionet figurant au bas de chaque page de musique de la publication. (source : Z 44-069 - Documentation - Catalogage de la musique imprimée)"@fr ;
+    skos:prefLabel "plate number"@en,
+        "cotage"@fr ;
+    skos:scopeNote "Ne s'applique qu'à la musique notée."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/publisher> a skos:Concept ;
+    skos:definition """Numéro d'ordre que donnent parfois les éditeurs de musique à leurs publications musicales et qui figure d'ordinaire sur la page de titre ; il permet d'identifier une publication et d'en faciliter la commande et la livraison.
+(Norme AFNOR Z 44-069)"""@fr ;
+    skos:prefLabel "publisher's number"@en,
+        "numéro d'éditeur"@fr ;
+    skos:scopeNote "Pour devenir significatif et être utilisable comme identifiant, le numéro d'éditeur doit être composé du nom de l'éditeur et du numéro de la publication, ce dernier pouvant être alphanumérique."@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/record> a skos:Concept ;
+    skos:altLabel "system control number"@en,
+        "identifiant de la notice"@fr ;
+    skos:definition "Numéro  d’identification de la notice dans une base de données. (source UNIMARC, modifié)"@fr ;
+    skos:prefLabel "record number"@en,
+        "numéro de notice"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/shelfmark> a skos:Concept ;
+    skos:definition "Ensemble de symboles (lettres, chiffres, signes) servant à identifier, classer, ranger et localiser un document dans un fonds de bibliothèque ou dans un fonds ou une série d'archives (source : Vocabulaire de la documentation. ADBS éditions, 2004)"@fr ;
+    skos:prefLabel "shelfmark"@en,
+        "cote"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .
+
+<http://data.doremus.org/vocabulary/id/take> a skos:Concept ;
+    skos:definition "Numéro d'identification de la prise de son lorsque l'enregistrement a donné lieu à plusieurs prises de son de l'exécution d'une même œuvre musicale."@fr ;
+    skos:prefLabel "take number"@en,
+        "numéro de prise"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/id/> .

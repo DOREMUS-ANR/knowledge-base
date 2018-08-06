@@ -1,0 +1,45 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/spazialization/> a skos:ConceptScheme ;
+    rdfs:label "Techniques de spatialisation du son"@fr , "Sound Spatialization Techniques"@en,
+        "Tecniche di spazializzazione del suono"@it ;
+    rdfs:comment "Présence de couleur, teinte, etc. dans une expression"@fr,
+        "A presence of colour, tone, etc., in the content of an expression"@en,
+        "Presenza di colore, tinta, etc. nel contenuto di una espressione"@it ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:created "2018-08-06"^^xsd:date ;
+    dct:modified "2018-08-06"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/spazialization/mono> a skos:Concept ;
+    skos:altLabel "mono", "monaural"@fr, "monaural sound"@en;
+    skos:definition """Méthode de reproduction sonore ne permettant pas à l'auditeur de bénéficier de la reproduction du relief sonore existant dans la nature ou surtout des différents instruments comme en face d'un concert.
+Un son n'est diffusé que sur un seul canal comme provenant d'une seule source ou d'un seul endroit. Il est en général enregistré par un seul microphone et reproduit par un ou plusieurs haut-parleurs diffusant le même signal acoustique.
+(Wikipédia, modifié)"""@fr ;
+    skos:prefLabel "monophonic sound"@en,
+        "monophonie"@fr,
+        "monofonia"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/spazialization/> .
+
+<http://data.doremus.org/vocabulary/spazialization/stereo> a skos:Concept ;
+    skos:altLabel "stéréo"@fr, "stereo";
+    skos:definition """Méthode de reproduction sonore visant à reconstituer la répartition dans l'espace des sources d'origine. Le relief sonore est habituellement obtenu à l'aide de deux canaux (gauche et droit) diffusés par au moins deux transducteurs (haut-parleurs ou écouteurs).
+(Wikipédia)"""@fr ;
+    skos:prefLabel "stereophonic sound"@en,
+        "stéréophonie"@fr,
+        "stereofonia"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/spazialization/> .
+
+<http://data.doremus.org/vocabulary/spazialization/quad> a skos:Concept ;
+    skos:altLabel "tétraphonie"@fr, "surround sound"@en;
+    skos:definition "Méthode de reproduction sonore permettant la restitution des musiques et effets sonores avec une impression d'espace accentuée, grâce à l'usage de quatre voies indépendantes : avant-droite, avant-gauche, arrière-droite et arrière-gauche."@fr ;
+    skos:prefLabel "quadraphonic sound"@en,
+        "quadriphonie"@fr,
+        "quadrifonia"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/spazialization/> .

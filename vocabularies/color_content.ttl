@@ -1,0 +1,43 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/color_content/> a skos:ConceptScheme ;
+    rdfs:label "Caractéristiques de couleur"@fr , "Colour Content"@en,
+        "Caratteristiche di colore"@it ;
+    rdfs:comment "Présence de couleur, teinte, etc. dans une expression"@fr,
+        "A presence of colour, tone, etc., in the content of an expression"@en,
+        "Presenza di colore, tinta, etc. nel contenuto di una espressione"@it ;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:created "2018-08-06"^^xsd:date ;
+    dct:modified "2018-08-06"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/color_content/monochrome> a skos:Concept ;
+    skos:definition "D'une seule couleur, comprend la couleur uniforme et les différentes gradations de cette couleur."@fr ;
+    skos:prefLabel "monochrome"@en,
+        "monochrome"@fr,
+        "monocromia"@it ;
+    owl:sameAs <http://rdaregistry.info/termList/RDAColourContent/1002> ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/color_content/> .
+
+<http://data.doremus.org/vocabulary/color_content/bw> a skos:Concept ;
+    skos:altLabel "B/W"@en, "B&W"@en, "grayscale"@en, "greyscale"@en, "livelli di grigio"@it, "scala di grigi"@it, "niveau de gris"@fr ;
+    skos:definition "Comprend le noir et blanc ainsi que les gradations de gris."@fr ;
+    skos:prefLabel "black and white"@en,
+        "noir et blanc"@fr,
+        "bianco e nero"@it ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/color_content/> .
+
+<http://data.doremus.org/vocabulary/color_content/polychrome> a skos:Concept ;
+    skos:altLabel "polychromie"@fr ;
+    skos:definition "Comprend plusieurs couleurs (au-delà de deux), sans compter le fond."@fr ;
+    skos:prefLabel "polychrome"@en,
+        "couleur"@fr,
+        "policromia"@it ;
+    owl:sameAs <http://rdaregistry.info/termList/RDAColourContent/1003> ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/color_content/> .

@@ -1,0 +1,315 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/carrier/> a skos:ConceptScheme ;
+    rdfs:label "Types de support matériel"@fr , "Carrier Types"@en;
+    rdfs:comment "Catégorisation reflétant la présentation matérielle d'une ressource"@fr,
+        "A categorization reflecting the format of the storage medium and housing of a carrier"@en;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:created "2018-08-06"^^xsd:date ;
+    dct:modified "2018-08-06"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/carrier/audio> a skos:Concept ;
+	skos:prefLabel "audio carrier"@en , "support audio"@fr ;
+	skos:definition "Support d'un enregistrement nécessitant l'utilisation d'un matériel audio pour accéder au contenu – sans informations détaillées."@fr ;
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+
+<http://data.doremus.org/vocabulary/carrier/audiotape> a skos:Concept ;
+	skos:prefLabel "audiotape"@en , "bande magnétique audio"@fr ;
+	skos:definition "Bobine ouverte contenant un métrage de bande magnétique sur laquelle sont enregistrés des signaux électriques qui peuvent être convertis en sons à l’aide d’un appareil de lecture de type lecteur audio à bobines."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/sound-track_reel> a skos:Concept ;
+	skos:prefLabel "sound-track reel"@en , "bobine de piste sonore"@fr ;
+	skos:definition "Bobine ouverte contenant un métrage de film sur lequel est enregistré du son."@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1005> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/audio_cartridge> a skos:Concept ;
+	skos:prefLabel "audio cartridge"@en , "cartouche audio"@fr ;
+	skos:definition "Boîtier scellé contenant une bande magnétique enroulée sur un seul noyau qui constitue le support d’un enregistrement audio analogique."@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1002> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/analog_audiocassette> a skos:Concept ;
+	skos:prefLabel "analog audiocassette"@en , "cassette audio analogique"@fr ;
+	skos:definition "Boîtier scellé contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement audio analogique."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/digital_audiocassette> a skos:Concept ;
+	skos:prefLabel "digital audiocassette"@en , "cassette audio numérique"@fr ;
+	skos:altLabel "cassette DAT"@fr ;
+	skos:definition """Cassette contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement audio numérique.
+Comprend :
+- Digital Compact Cassette (DCC)
+- Cassette DAT (Digital Audio Tape)"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/CD-audio> a skos:Concept ;
+	skos:prefLabel "CD-audio"@en , "CD audio"@fr ;
+	skos:definition """Disque optique de type CD (Compact Disc), contenant des données sonores stockées sous forme numérique quel que soit leur format d’enregistrement et de codage.
+Comprend :
+- CD audio
+- SACD (Super audio CD)
+- CD MP3
+- CD-R audio"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/CD-extra> a skos:Concept ;
+	skos:prefLabel "CD-extra"@en , "CD-Extra"@fr ;
+	skos:definition """CD audio avec contenu partiel sur CD-ROM.
+Comprend :
+- CD-Extra
+- CD-Plus
+- OpenDisc"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/phonograph_cylinder> a skos:Concept ;
+	skos:prefLabel "phonograph cylinder"@en , "cylindre phonographique"@fr ;
+	skos:definition """Objet en forme de rouleau sur lequel des ondulations sonores ont été gravées au moyen d’une entaille ou d’empreintes en créant un sillon circulaire continu (gravure analogique).
+Comprend :
+- les cylindres en cire
+- les cylindres en celluloïde"""@fr ;
+	owl:sameAs <http://dbpedia.org/resource/Phonograph_cylinder> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/audio_disc> a skos:Concept ;
+	skos:prefLabel "audio disc"@en , "disque audio"@fr ;
+	skos:definition """Disque sur lequel les ondulations sonores, enregistrées sous forme de modulations, impulsions, etc. ont été gravées au moyen d’une entaille ou d’empreintes en créant un sillon continu en spirale (gravure analogique).
+Exclut les disques optiques comme les CD, etc.
+Comprend :
+- les disques 78 tours
+- les disques microsillons (y compris les disques souples)
+- les disques à gravure directe (Pyral)"""@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1004> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/DVD_audio> a skos:Concept ;
+	skos:prefLabel "DVD audio"@en , "DVD audio"@fr ;
+	skos:definition "Disque optique de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) contenant des données sonores."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/magnetic_wire> a skos:Concept ;
+	skos:prefLabel "magnetic wire"@en , "fil magnétique"@fr ;
+	skos:definition "Fil métallique sur lequel sont enregistrés des signaux électriques qui peuvent être convertis en sons à l’aide d’un appareil de lecture spécifique."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/MiniDisc> a skos:Concept ;
+	skos:prefLabel "MiniDisc"@en , "MiniDisc"@fr ;
+	skos:definition "Disque inséré dans un plastique rigide de sept centimètres de côté qui constitue un support magnéto-optique d'enregistrement et de reproduction numérique de données sonores. Le MiniDisc a été créé par Sony en 1992."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/music_roll> a skos:Concept ;
+	skos:prefLabel "music roll"@en , "bande perforée pour instrument mécanique"@fr ;
+	skos:altLabel """audio roll
+
+punched tape for  mechanical musical instrument"""@en ;
+	skos:definition """Rouleau ou bande de papier sur lequel les notes de musique sont représentées par des perforations, destiné à reproduire mécaniquement la musique lorsqu’il est utilisé avec un piano mécanique, un orgue mécanique, etc.
+Comprend :
+- les rouleaux pour piano
+- les cartons d’orgue de Barbarie"""@fr ;
+	owl:sameAs <http://dbpedia.org/resource/Music_roll> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/magnetic_metallic_belt> a skos:Concept ;
+	skos:prefLabel "magnetic metallic belt"@en , "ruban métallique magnétique"@fr ;
+	skos:definition "Ruban métallique sur lequel sont enregistrés des signaux électriques qui peuvent être convertis en sons à l’aide d’un appareil de lecture spécifique."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/Blu-ray_audio> a skos:Concept ;
+	skos:prefLabel "Blu-ray audio"@en , "Blu-ray audio"@fr ;
+	skos:definition """Disque optique haute définition, format Blu-ray, contenant des données audio.
+Variantes :
+- BD (abréviation de Blu-ray disc)
+- Blu-ray Pure Audio"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/audio> .
+
+<http://data.doremus.org/vocabulary/carrier/online> a skos:Concept ;
+	skos:prefLabel "online resource"@en , "ressource dématérialisée"@fr ;
+	skos:definition "Contenu numérique – sur un serveur distant ou sans association à un support particulier."@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1018> ;
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+
+<http://data.doremus.org/vocabulary/carrier/unmediated> a skos:Concept ;
+	skos:prefLabel "unmediated carrier"@en , "support sans médiation"@fr ;
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+
+<http://data.doremus.org/vocabulary/carrier/booklet> a skos:Concept ;
+	skos:prefLabel "booklet"@en , "brochure"@fr ;
+	skos:definition "Unité matérielle réunissant un certain nombre de feuillets sous la forme d’un cahier broché ou de feuilles agrafées, comptant généralement moins de 48 pages."@fr ;
+	owl:sameAs <http://dbpedia.org/resource/Brochure> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/unmediated> .
+
+<http://data.doremus.org/vocabulary/carrier/card> a skos:Concept ;
+	skos:prefLabel "card"@en , "carte"@fr ;
+	skos:altLabel "fiche"@fr ;
+	skos:definition """Petit rectangle de papier fort ou de carton servant de support d’information (texte ou image). Il peut être plié pour former une carte double.
+Comprend :
+- les cartes postales
+- les cartes à jouer
+- les cartes de visite
+- les fiches de cuisine
+- les fiches pédagogiques"""@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1045> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/unmediated> .
+
+<http://data.doremus.org/vocabulary/carrier/leaflet> a skos:Concept ;
+	skos:prefLabel "leaflet"@en , "dépliant"@fr ;
+	skos:definition """Feuille en accordéon, conçue pour être pliée au format de poche ou au format de page normal.
+Peut se présenter sous une reliure ou un emboîtage.
+Comprend :
+- les frises en accordéon"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/unmediated> .
+
+<http://data.doremus.org/vocabulary/carrier/fascicle> a skos:Concept ;
+	skos:prefLabel "fascicle"@en , "fascicule"@fr ;
+	skos:definition """Unité matérielle réunissant un certain nombre de feuillets et faisant partie d’un ensemble dont elle ne peut être dissociée.
+Les fascicules peuvent être :
+- publiés simultanément sous un même emboîtage ;
+- publiés successivement mais destinés à être réunis et reliés dans un seul et même volume."""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/unmediated> .
+
+<http://data.doremus.org/vocabulary/carrier/sheet> a skos:Concept ;
+	skos:prefLabel "sheet"@en , "feuille"@fr ;
+	skos:definition "Morceau plat de matériau fin (papier, plastique, etc.)."@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1048> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/unmediated> .
+
+<http://data.doremus.org/vocabulary/carrier/volume> a skos:Concept ;
+	skos:prefLabel "volume"@en , "volume"@fr ;
+	skos:definition "Unité matérielle réunissant sous une même couverture un certain nombre de feuillets ou de cahiers dont la reliure constitue un dos."@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1049> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/unmediated> .
+
+<http://data.doremus.org/vocabulary/carrier/video> a skos:Concept ;
+	skos:prefLabel "video carrier"@en , "support vidéo"@fr ;
+	skos:definition "Support d'un enregistrement nécessitant l'utilisation d'un matériel vidéo pour accéder au contenu – sans informations détaillées."@fr ;
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+
+<http://data.doremus.org/vocabulary/carrier/videotape> a skos:Concept ;
+	skos:prefLabel "videotape"@en , "bande vidéo"@fr ;
+	skos:definition """Bobine ouverte contenant un métrage de bande magnétique sur laquelle sont enregistrés des signaux électriques qui peuvent être convertis en images animées à l’aide d’un appareil de lecture spécifique.
+Comprend :
+- Bande 2 pouces Ampex (1956-1975)
+- Bande 1 pouce A ou IVC
+- Bande 1 pouce B (Bosch, 1976, SECAM)
+- Bande 1 pouce C (Sony, 1976, PAL)
+- Bande ½ pouce EIAJ (Sony, 1967)
+- Bande ¼ pouce AKAI"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/Blu-ray_video> a skos:Concept ;
+	skos:prefLabel "Blu-ray video"@en , "Blu-ray vidéo"@fr ;
+	skos:altLabel "Blu-ray disc"@fr, "BD"@fr ;
+	skos:definition "Disque optique haute définition, format Blu-ray, contenant des données vidéo (Sony, 2006)."@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/videocassette> a skos:Concept ;
+	skos:prefLabel "videocassette"@en , "cassette vidéo"@fr ;
+	skos:definition """Boîtier scellé contenant une bande magnétique généralement enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement vidéo analogique.
+Comprend :
+- Betacam (½ pouce, Sony, 1982)
+- Betacam SP (½ pouce, Sony, 1986)
+- Betamax (½ pouce, Sony, 1975)
+- BVU (Broadcast Video Unit) (¾ pouce, Sony, 1978)
+- BVU SP (¾ pouce, Sony)
+- HI 8 (8 mm, Sony, 1989, son numérique)
+- S-VHS (½ pouce, Matsushita, 1987, son en qualité hifi)
+- U-matic (¾ pouce, Sony, 1971, 2 tailles)
+- U-matic SP (¾ pouce, Sony)
+- V 2000 (½ pouce, Philips, 1979)
+- VCR (½ pouce, Philips, 1972)
+- VHS (½ pouce, JVC, 1976)
+- VHS C (pour caméscope, plus petite)
+- 8 mm (ou Video 8) (1985)"""@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1052> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/digital_videocassette> a skos:Concept ;
+	skos:prefLabel "digital videocassette"@en , "cassette vidéo numérique"@fr ;
+	skos:definition """Boîtier scellé contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement vidéo numérique.
+Comprend :
+- Betacam digital (½ pouce, Sony, 1993, MJPEG)
+- Betacam SX (½ pouce, Sony, 1996)
+- IMX (½ pouce, 2001)
+- D1 (¾ pouce, Sony, 1986)
+- D2 à D5 (¾ pouce, Panasonic)
+- DVC DV (¼ pouce, Sony, 1995)
+- DVCAM (¼ pouce, Sony, 1995)
+- DVCPRO (¼ pouce, Panasonic, 1998)
+- HDV (¼ pouce, Sony, 2003)
+- HDCAM (½ pouce, Sony, 1997)
+- HDCAM SR (½ pouce, Sony, 2003)
+- 8 mm Digital 8 (8 mm, Sony, 1999)"""@fr ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/videodisc> a skos:Concept ;
+	skos:prefLabel "videodisc"@en , "disque vidéo"@fr ;
+	skos:definition """Disque optique contenant des données vidéo analogiques et des pistes sonores analogiques ou numériques.
+Comprend :
+- CD-vidéo (CDV)
+- LaserDisc (Philips 1978-1980)
+- Laservision
+Ne pas confondre avec Vidéo CD (VCD), ni avec CDTV."""@fr ;
+	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1060> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/DVD_video> a skos:Concept ;
+	skos:prefLabel "DVD video"@en , "DVD vidéo"@fr ;
+	skos:definition "Disque optique de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) contenant des données vidéo. (Sony, 1995)."@fr ;
+	owl:sameAs <http://dbpedia.org/resource/DVD-Video> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/HD_DVD> a skos:Concept ;
+	skos:prefLabel "HD DVD";
+	skos:definition "DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) haute définition (Toshiba, 2006)."@fr ;
+	owl:sameAs <http://dbpedia.org/resource/HD_DVD> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
+
+<http://data.doremus.org/vocabulary/carrier/video_CD> a skos:Concept ;
+	skos:prefLabel "video CD"@en , "vidéo CD"@fr ;
+	skos:altLabel "SVCD" ;
+	skos:definition """Vidéo CD, format vidéo exploitant le support disque compact.
+Comprend :
+- VCD (la partie vidéo est encodée au format MPEG-1)
+- SVCD (Super-VCD ou standard amélioré du VCD, la partie vidéo est encodée en MPEG-2)
+- KVCD
+- XVCD (VCD avec débit variable)
+- CVD (China Video Disc)"""@fr ;
+	owl:sameAs <http://dbpedia.org/resource/Video_CD> ;
+	skos:inScheme <http://data.doremus.org/vocabulary/carrier/> ;
+	skos:broader <http://data.doremus.org/vocabulary/carrier/video> .
