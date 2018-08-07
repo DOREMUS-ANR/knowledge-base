@@ -1,0 +1,89 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.doremus.org/vocabulary/level/> a skos:ConceptScheme ;
+    rdfs:label "Niveau hiérarchique de l'oeuvre"@fr , "Hierarchical Level for Work"@en, "Livello gerarchico della composizione";
+    rdfs:comment "Permet de préciser le niveau de granularité auquel se situe la description d'une oeuvre (description d'un cycle d'oeuvres, d'une partie de ce cycle, etc.)"@fr,
+        "Permette di precisare il livello di granularità al quale si situa la descrizione di una composizione"@it;
+    dct:creator <http://data.doremus.org/organization/DOREMUS> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:created "2018-08-07"^^xsd:date ;
+    dct:modified "2018-08-07"^^xsd:date .
+
+<http://data.doremus.org/vocabulary/level/act> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/level/part> ;
+    skos:definition "Type de partie. Grande division d'une oeuvre dramatique ou lyrique qui correspond souvent à un tournant important (nœud, péripétie, dénouement) de l'action. (D'après le TLF)."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
+    skos:prefLabel "Act"@en,
+        "Acte"@fr,
+        "Atto"@it .
+
+<http://data.doremus.org/vocabulary/level/aria> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/level/part> ;
+    skos:definition "Type de partie. Mélodie d'opéra, d'oratorio, de cantate, qui forme un tout et peut se détacher de l'oeuvre complète. (D'après le TLF)."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
+    skos:prefLabel "Aria"@en,
+        "Air"@fr,
+        "Aria"@it ;
+    skos:scopeNote "A réserver pour désigner un air faisant partie d'une oeuvre plus vaste."@fr, "Ne pas utiliser pour \"air\" au sens de genre."@fr .
+
+<http://data.doremus.org/vocabulary/level/entry> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/level/part> ;
+    skos:definition "Type de partie. Divertissement exécuté par un certain nombre de danseurs dans un ballet, dans un opéra. (D'après le TLF)."@fr ;
+    skos:editorialNote "In Italian is generally used the French term"@en ;
+    skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
+    skos:prefLabel "Entry"@en,
+        "Entrée"@fr .
+
+<http://data.doremus.org/vocabulary/level/movement> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/level/part> ;
+    skos:definition "Type de partie. Subdivision de certaines oeuvres musicales. (D'après le TLF)."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
+    skos:prefLabel "Movement "@en,
+        "Mouvement"@fr,
+        "Movimento"@it .
+
+<http://data.doremus.org/vocabulary/level/overture> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/level/part> ;
+    skos:definition "Type de partie. Pièce orchestrale servant d'introduction à un opéra, un oratorio, une cantate. (D'après le TLF)."@fr ;
+    skos:editorialNote "In Italian is generally used the French term"@en ;
+    skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
+    skos:prefLabel "Overture"@en,
+        "Ouverture "@fr ;
+    skos:scopeNote "A réserver pour désigner ce qui précède un opéra complet."@fr, "Ne pas utiliser pour \"ouverture\" au sens de genre."@fr .
+
+<http://data.doremus.org/vocabulary/level/scene> a skos:Concept ;
+    skos:broader <http://data.doremus.org/vocabulary/level/part> ;
+    skos:definition "Type de partie. Subdivision d'un acte dans une oeuvre dramatique ou lyrique. (D'après le TLF)."@fr ;
+    skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
+    skos:prefLabel "Scene"@en,
+        "Scène"@fr,
+        "Scena"@it .
+
+<http://data.doremus.org/vocabulary/level/set_of_works> a skos:Concept ;
+    skos:definition "Oeuvre d'ensemble regroupant plusieurs oeuvres autonomes."@fr ;
+    skos:prefLabel "Set of works"@en,
+        "Ensemble d'oeuvres"@fr,
+        "Insieme di opere"@it ;
+    skos:scopeNote "A utiliser pour les cycles d'oeuvre (\"Der Ring des Nibelungen\" de R. Wagner, \"Winterreise\" de F. Schubert, etc.)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/level/> .
+
+<http://data.doremus.org/vocabulary/level/single_work> a skos:Concept ;
+    skos:definition "Oeuvre qui a une existence individuelle et qui forme un tout. Elle peut faire partie d'un ensemble plus vaste ou être isolée. "@fr ;
+    skos:prefLabel "Single Work"@en,
+        "Oeuvre autonome"@fr,
+        "Opera autonoma"@it ;
+    skos:scopeNote "A utiliser pour les oeuvres formant un tout comme (\"La Walkyrie\" de R. Wagner, \"Symphonie n°6\" de L. van Beethoven, etc.)"@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/level/> .
+
+<http://data.doremus.org/vocabulary/level/part> a skos:Concept ;
+    skos:definition "Subdivision d'une oeuvre autonome"@fr ;
+    skos:prefLabel "Part"@en,
+        "Partie"@fr,
+        "Parte"@it ;
+    skos:scopeNote "A n'utiliser que s'il n'existe pas de terme plus précis dans le référentiel."@fr, "Ne pas utiliser pour décrire un extrait. "@fr ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/level/> .

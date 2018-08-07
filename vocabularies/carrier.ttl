@@ -13,12 +13,12 @@
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:created "2018-08-06"^^xsd:date ;
-    dct:modified "2018-08-06"^^xsd:date .
+    dct:modified "2018-08-07"^^xsd:date .
 
 <http://data.doremus.org/vocabulary/carrier/audio> a skos:Concept ;
 	skos:prefLabel "audio carrier"@en , "support audio"@fr ;
 	skos:definition "Support d'un enregistrement nécessitant l'utilisation d'un matériel audio pour accéder au contenu – sans informations détaillées."@fr ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier/> .
 
 <http://data.doremus.org/vocabulary/carrier/audiotape> a skos:Concept ;
 	skos:prefLabel "audiotape"@en , "bande magnétique audio"@fr ;
@@ -149,11 +149,11 @@ Variantes :
 	skos:prefLabel "online resource"@en , "ressource dématérialisée"@fr ;
 	skos:definition "Contenu numérique – sur un serveur distant ou sans association à un support particulier."@fr ;
 	owl:sameAs <http://rdaregistry.info/termList/RDACarrierType/1018> ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier/> .
 
 <http://data.doremus.org/vocabulary/carrier/unmediated> a skos:Concept ;
 	skos:prefLabel "unmediated carrier"@en , "support sans médiation"@fr ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier/> .
 
 <http://data.doremus.org/vocabulary/carrier/booklet> a skos:Concept ;
 	skos:prefLabel "booklet"@en , "brochure"@fr ;
@@ -211,7 +211,7 @@ Les fascicules peuvent être :
 <http://data.doremus.org/vocabulary/carrier/video> a skos:Concept ;
 	skos:prefLabel "video carrier"@en , "support vidéo"@fr ;
 	skos:definition "Support d'un enregistrement nécessitant l'utilisation d'un matériel vidéo pour accéder au contenu – sans informations détaillées."@fr ;
-	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier> .
+	skos:topConceptOf <http://data.doremus.org/vocabulary/carrier/> .
 
 <http://data.doremus.org/vocabulary/carrier/videotape> a skos:Concept ;
 	skos:prefLabel "videotape"@en , "bande vidéo"@fr ;
