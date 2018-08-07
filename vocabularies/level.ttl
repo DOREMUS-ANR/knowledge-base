@@ -43,7 +43,7 @@
     skos:broader <http://data.doremus.org/vocabulary/level/part> ;
     skos:definition "Type de partie. Subdivision de certaines oeuvres musicales. (D'après le TLF)."@fr ;
     skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
-    skos:prefLabel "Movement "@en,
+    skos:prefLabel "Movement"@en,
         "Mouvement"@fr,
         "Movimento"@it .
 
@@ -53,7 +53,7 @@
     skos:editorialNote "In Italian is generally used the French term"@en ;
     skos:inScheme <http://data.doremus.org/vocabulary/level/> ;
     skos:prefLabel "Overture"@en,
-        "Ouverture "@fr ;
+        "Ouverture"@fr ;
     skos:scopeNote "A réserver pour désigner ce qui précède un opéra complet."@fr, "Ne pas utiliser pour \"ouverture\" au sens de genre."@fr .
 
 <http://data.doremus.org/vocabulary/level/scene> a skos:Concept ;
@@ -68,7 +68,7 @@
     skos:definition "Oeuvre d'ensemble regroupant plusieurs oeuvres autonomes."@fr ;
     skos:prefLabel "Set of works"@en,
         "Ensemble d'oeuvres"@fr,
-        "Insieme di opere"@it ;
+        "Insieme di composizioni"@it ;
     skos:scopeNote "A utiliser pour les cycles d'oeuvre (\"Der Ring des Nibelungen\" de R. Wagner, \"Winterreise\" de F. Schubert, etc.)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/level/> .
 
@@ -76,7 +76,7 @@
     skos:definition "Oeuvre qui a une existence individuelle et qui forme un tout. Elle peut faire partie d'un ensemble plus vaste ou être isolée. "@fr ;
     skos:prefLabel "Single Work"@en,
         "Oeuvre autonome"@fr,
-        "Opera autonoma"@it ;
+        "Composizione autonoma"@it ;
     skos:scopeNote "A utiliser pour les oeuvres formant un tout comme (\"La Walkyrie\" de R. Wagner, \"Symphonie n°6\" de L. van Beethoven, etc.)"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/level/> .
 
@@ -85,5 +85,5 @@
     skos:prefLabel "Part"@en,
         "Partie"@fr,
         "Parte"@it ;
-    skos:scopeNote "A n'utiliser que s'il n'existe pas de terme plus précis dans le référentiel."@fr, "Ne pas utiliser pour décrire un extrait. "@fr ;
+    skos:scopeNote "A n'utiliser que s'il n'existe pas de terme plus précis dans le référentiel."@fr, "Ne pas utiliser pour décrire un extrait."@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/level/> .
