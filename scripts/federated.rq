@@ -1,0 +1,20 @@
+PREFIX dbp: <http://dbpedia.org/property>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+CONSTRUCT {
+  ?id owl:sameAs ?dbpedia .
+  ?id foaf:depiction ?picture .
+  ?id rdfs:comment ?comment .
+  ?id dbo:wikiPageRedirects ?redirect .
+} WHERE {
+    ?id foaf:isPrimaryTopicOf ?wikipedia .
+
+    SERVICE <http://dbpedia.org/sparql> {
+        SELECT * WHERE {
+          ?dbpedia foaf:isPrimaryTopicOf ?wikipedia.
+          OPTIONAL { ?dbpedia dbo:wikiPageRedirects ?redirect . }
+          OPTIONAL { ?dbpedia foaf:depiction ?picture. }
+          OPTIONAL { ?dbpedia rdfs:comment ?comment. }
+        }
+    }
+} LIMIT 10
