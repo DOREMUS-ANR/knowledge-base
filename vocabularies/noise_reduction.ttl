@@ -15,28 +15,28 @@
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:created "2018-08-06"^^xsd:date ;
-    dct:modified "2018-08-06"^^xsd:date .
+    dct:modified "2018-08-22"^^xsd:date .
 
 <http://data.doremus.org/vocabulary/noise_reduction/se_pre> a skos:Concept ;
     skos:definition """Systems working to affect the recording medium at the time of recording.
-E.g. Dolby HX Pro."""@fr ;
+E.g. Dolby HX Pro."""@en ;
     skos:prefLabel "Single-ended pre-recording systems"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/noise_reduction/> .
 
 <http://data.doremus.org/vocabulary/noise_reduction/se_hiss> a skos:Concept ;
     skos:definition """Systems working to to reduce noise as it occurs, including both before and after the recording process as well as for live broadcast applications.
-E.g. DNL, DNR."""@fr ;
+E.g. DNL, DNR."""@en ;
     skos:prefLabel "Single-ended hiss reduction systems"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/noise_reduction/> .
 
 <http://data.doremus.org/vocabulary/noise_reduction/se_surface> a skos:Concept ;
     skos:definition """Systems applied to the playback of phonograph records to attenuate the sound of scratches, pops, and surface non-linearities.
-E.g. CEDAR, SAE 5000A, TNE 7000."""@fr ;
+E.g. CEDAR, SAE 5000A, TNE 7000."""@en ;
     skos:prefLabel "Single-ended surface noise reduction systems"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/noise_reduction/> .
 
 <http://data.doremus.org/vocabulary/noise_reduction/de> a skos:Concept ;
     skos:definition """Systems having a pre-emphasis process applied during recording and then a de-emphasis process applied at playback.
-E.g. Dolby A, Dolby SR, Dolby NR, Dolby B, Dolby C, Dolby S, dbx Professional, dbx Type I, dbx Type II"""@fr ;
+E.g. Dolby A, Dolby SR, Dolby NR, Dolby B, Dolby C, Dolby S, dbx Professional, dbx Type I, dbx Type II"""@en ;
     skos:prefLabel "Dual-ended systems"@en ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/noise_reduction/> .
