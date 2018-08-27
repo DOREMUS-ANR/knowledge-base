@@ -29,7 +29,7 @@ html(lang="en")
               li
                 if !v.isDoremus
                   div
-                    h2= v.name
+                    h2= v.name.replace("_", " ")
                 if v.description
                   div
                     span.content.description=  v.description
