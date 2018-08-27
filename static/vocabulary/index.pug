@@ -22,7 +22,7 @@ html(lang="en")
 
     div
       each list, category in vocabularies
-        h1= category
+        h1= category.replace("_", " ")
         section.card
           ul.list
             each v in list
