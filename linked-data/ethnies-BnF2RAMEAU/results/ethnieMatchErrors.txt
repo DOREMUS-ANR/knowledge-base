@@ -1,0 +1,867 @@
+43795806	$aTraditions$mAsie$mChine$mSichuan$eQiang	Score:1.0
+12460130	$aQiang$gpeuple de Chine
+
+42695285	$aTraditions$mAfrique$mAfrique du Sud$eZoulous	Score:1.0
+11948763	$aZoulous$gpeuple d'Afrique
+
+41073209	$aTraditions$mAfrique$mTanzanie$eGogo	Score:1.0
+13514558	$aGogo$gpeuple d'Afrique
+
+39132000	$aTraditions$mAmérique latine$mBolivie$eQuechua	Score:1.0
+11955020	$aQuechua$gIndiens
+
+42429299	$aTraditions$mAmérique$mBolivie$eAymara	Score:1.0
+11934071	$aAymara$gIndiens
+
+41335636	$aTraditions$mAsie$eBouriates	Score:1.0
+11982642	$aBouriates$gpeuple de Sibérie
+
+41073220	$aTraditions$mAfrique$mNiger$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+39065763	$aTraditions$mAmérique centrale$mCaraïbes$mTrinité-et-Tobago$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+43799542	$aTraditions$mAsie$mCambodge$eJarai	Score:1.0
+12317929	$aJaraï$gpeuple d'Asie du Sud-Est
+
+40097933	$aTraditions$mAfrique$mGhana$eLobi	Score:1.0
+11936963	$aLobi$gpeuple d'Afrique
+
+43793537	$aTraditions$mAmérique du Nord$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+41150610	$aTraditions$mAfrique$mGuinée$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+
+43799742	$aTraditions$mAsie$mLaos$eAkha	Score:1.0
+11963538	$aAkha$gpeuple d'Asie
+
+40944318	$aTraditions$mAfrique du Nord$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+43629724	$aTraditions$mOcéanie$mNouvelle-Guinée$mPapouasie$eDani	Score:1.0
+11973505	$aDani$gpeuple d'Indonésie
+
+38379026	$aTraditions$mAfrique du Nord$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+43800432	$aTraditions$mAsie$mVietnam$eHmong	Score:1.0
+11954235	$aHmong$gpeuple d'Asie
+
+38964935	$aTraditions$mAmérique du Nord$eHopis	Score:1.0
+11948133	$aHopi$gIndiens
+
+38456842	$aTraditions$mAmérique du Nord$mÉtats-Unis$eNavajo	Score:1.0
+11941592	$aNavajo$gIndiens
+
+43795742	$aTraditions$mAsie$mChine$mYunan$eLisu	Score:1.0
+12067628	$aLisu$gpeuple d'Asie
+
+42427710	$aTraditions$mAsie$mChine$eOuïgour	Score:1.0
+12114703	$aOuïgours$gpeuple turc
+
+41386992	$aTraditions$mAsie$mOuzbékistan$eKarakalpaks	Score:1.0
+14479527	$aKarakalpak$gpeuple turc
+
+41072840	$aTraditions$mAfrique$mMali$mBaninko$eBambara	Score:1.0
+11959584	$aBambara$gpeuple d'Afrique
+
+38445778	$aTraditions$mAmérique Centrale$mCuba$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+43795637	$aTraditions$mAsie$mChine$mGuizhou$eDong	Score:1.0
+12260095	$aDong$gpeuple de Chine
+
+42567718	$aTraditions$mAfrique$mZimbabwe$eNdebélé	Score:1.0
+11950250	$aNdebele$gpeuple d'Afrique
+
+43801463	$aTraditions$mAsie$mCambodge$eBrao	Score:1.0
+11963430	$aBrao$gpeuple d'Asie du Sud-Est
+
+39175985	$aTraditions$mAsie$mCambodge$eKhmers	Score:1.0
+12125130	$aKhmers$gpeuple d'Asie du Sud-Est
+
+41378282	$aTraditions$mAfrique$mCôte d'Ivoire$eBaoulé	Score:1.0
+11943140	$aBaoulé$gpeuple d'Afrique
+
+38574985	$aTraditions$mAfrique$mNigeria$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+38475872	$aTraditions$mAmérique du Nord$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+38396965	$aTraditions$mAmérique du Nord$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+43799778	$aTraditions$mAsie$mLaos$eLao	Score:1.0
+13553883	$aLao$gpeuple d'Asie du Sud-Est
+
+38374921	$aTraditions$mAfrique$mMali$eBambara	Score:1.0
+11959584	$aBambara$gpeuple d'Afrique
+
+38578159	$aTraditions$mAfrique$mBurkina Faso$eMossi	Score:1.0
+11945127	$aMossi$gpeuple d'Afrique
+
+42727181	$aTraditions$mAsie$mJapon$eAïnous	Score:1.0
+11965984	$aAïnous$gpeuple d'Asie
+
+43760685	$aTraditions$mAsie$mChine$mYunan$eYao	Score:1.0
+11962613	$aYao$gpeuple d'Asie
+
+43760685	$aTraditions$mAsie$mChine$mYunan$eYao	Score:1.0
+12260321	$aYao$gpeuple du Malawi, du Mozambique et de Tanzanie
+
+40224953	$aTraditions$mAfrique$mAfrique du Sud$eNguni	Score:1.0
+11967280	$aNguni$gpeuple d'Afrique
+
+43800420	$aTraditions$mAsie$mVietnam$eHmong	Score:1.0
+11954235	$aHmong$gpeuple d'Asie
+
+38479496	$aTraditions$mAfrique$mZaïre$mHaut-Uele$eMangbetu	Score:1.0
+12295795	$aMangbetu$gpeuple d'Afrique
+
+40169237	$aTraditions$mAfrique$mGuinée$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+
+38558883	$aTraditions$mAfrique$mGuinée$mBagataï$eBagas	Score:1.0
+13513780	$aBaga$gpeuple d'Afrique
+
+38551119	$aTraditions$mAfrique$mCameroun$eBalis	Score:1.0
+14503622	$aBali$gpeuple de la République démocratique du Congo
+
+41060852	$aTraditions$mAsie$mJapon$eAïnous	Score:1.0
+11965984	$aAïnous$gpeuple d'Asie
+
+43800435	$aTraditions$mAsie$mVietnam$eYao	Score:1.0
+11962613	$aYao$gpeuple d'Asie
+
+43800435	$aTraditions$mAsie$mVietnam$eYao	Score:1.0
+12260321	$aYao$gpeuple du Malawi, du Mozambique et de Tanzanie
+
+42543284	$aTraditions$mAfrique$mMali$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+38432657	$aTraditions$mAmérique du Nord$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+41072885	$aTraditions$mAfrique$mBurkina Faso$mKénédougou$mOuolonkoto$eSénoufo	Score:1.0
+11938737	$aSénoufo$gpeuple d'Afrique
+
+43799547	$aTraditions$mAsie$mCambodge$eKhmer	Score:1.0
+12125130	$aKhmers$gpeuple d'Asie du Sud-Est
+
+41333646	$aTraditions$mAmérique$mBolivie$eQuechua	Score:1.0
+11955020	$aQuechua$gIndiens
+
+40121460	$aTraditions$mAmérique du Nord$eNavajos	Score:1.0
+11941592	$aNavajo$gIndiens
+
+43760492	$aTraditions$mAsie$mChine$mGuizhou$eShui	Score:1.0
+12474713	$aShui$gpeuple de Chine
+
+42696039	$aTraditions$mAfrique du Nord$mAlgérie$eKabyles	Score:1.0
+11940990	$aKabyles$gpeuple berbère
+
+40217870	$aTraditions$mAfrique$mZaïre$mHaut-Uele$eMangbetu	Score:1.0
+12295795	$aMangbetu$gpeuple d'Afrique
+
+43800526	$aTraditions$mAsie$mVietnam$eThai	Score:1.0
+13553894	$aThaï$gpeuple d'Asie du Sud-Est
+
+42695999	$aTraditions$mAmérique du Nord$eHopis	Score:1.0
+11948133	$aHopi$gIndiens
+
+38564890	$aTraditions$mAfrique$mGuinée$eSoussous	Score:1.0
+12409167	$aSoussou$gpeuple d'Afrique
+
+43762355	$aTraditions$mAsie$mChine$mYunan$eWa	Score:1.0
+17050165	$aWa$gpeuple d'Asie
+
+43760556	$aTraditions$mAsie$mChine$mGuizhou$eShui	Score:1.0
+12474713	$aShui$gpeuple de Chine
+
+38559522	$aTraditions$mAmérique du Nord$eCheyennes	Score:1.0
+11985120	$aCheyennes$gIndiens
+
+42429007	$aTraditions$mAsie$mJapon$eAïnous	Score:1.0
+11965984	$aAïnous$gpeuple d'Asie
+
+38617409	$aTraditions$mAfrique$mOuganda$eGanda	Score:1.0
+12050073	$aGanda$gpeuple d'Afrique
+
+38438297	$aTraditions$mAfrique$mSoudan$eIngenassa$eBerta	Score:1.0
+11974539	$aBerta$gpeuple d'Afrique
+
+40217859	$aTraditions$mAfrique$mZaïre$eTshokwe	Score:1.0
+11948472	$aTshokwe$gpeuple d'Afrique
+
+41059643	$aTraditions$mAfrique$mCongo$eShi	Score:1.0
+11959585	$aShi$gpeuple d'Afrique
+
+43799737	$aTraditions$mAsie$mLaos$eAkha	Score:1.0
+11963538	$aAkha$gpeuple d'Asie
+
+41488945	$aTraditions$mAfrique$mMali$eTouareg	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+43800531	$aTraditions$mAsie$mVietnam$eHmong	Score:1.0
+11954235	$aHmong$gpeuple d'Asie
+
+39004471	$aTraditions$mAfrique$mTanzanie$eHadzas	Score:1.0
+14402854	$aHadza$gpeuple d'Afrique
+
+43799537	$aTraditions$mAsie$mCambodge$eJarai	Score:1.0
+12317929	$aJaraï$gpeuple d'Asie du Sud-Est
+
+42666184	$aTraditions$mAsie$mIran$eOuïgours	Score:1.0
+12114703	$aOuïgours$gpeuple turc
+
+43800519	$aTraditions$mAsie$mVietnam$eLu	Score:1.0
+13547433	$aLü$gpeuple d'Asie
+
+41073282	$aTraditions$mAfrique$mSénégal$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+
+38530781	$aTraditions$mAsie$mNépal$eGaïnés	Score:1.0
+14505143	$aGaine$gcaste du Népal
+
+38386495-002	$aTraditions$mAsie$eBengali	Score:1.0
+11943171	$aBengalis$gpeuple d'Asie du Sud
+
+38389017-003	$aTraditions$mAfrique$mRépublique centrafricaine$eNgbaka	Score:1.0
+11981614	$aNgbaka$gpeuple d'Afrique
+
+38389017-004	$aTraditions$mAfrique$mRépublique centrafricaine$eBanda	Score:1.0
+11959075	$aBanda$gpeuple d'Afrique
+
+38389017-006	$aTraditions$mAfrique$mCôte d'Ivoire$eBaoulé	Score:1.0
+11943140	$aBaoulé$gpeuple d'Afrique
+
+38389017-012	$aTraditions$mAmérique du sud$mBrésil$eBororo	Score:1.0
+11940862	$aBororo$gIndiens
+
+38389017-012	$aTraditions$mAmérique du sud$mBrésil$eBororo	Score:1.0
+11965897	$aBororo$gpeuple d'Afrique
+
+39038773	$aTraditions$mAfrique$mÉthiopie$eKonso	Score:1.0
+14418013	$aKonso$gpeuple d'Afrique
+
+38559521	$aTraditions$mAmérique du Nord$eSioux	Score:1.0
+11947851	$aSioux$gIndiens
+
+43762343	$aTraditions$mAsie$mChine$mYunan$eAkha	Score:1.0
+11963538	$aAkha$gpeuple d'Asie
+
+38563680	$aTraditions$mAsie$mSibérie$mKamtchatka$eKoriaks	Score:1.0
+13751996	$aKoriaks$gpeuple de Sibérie
+
+40224880	$aTraditions$mAfrique$mCongo$eKanyok	Score:1.0
+12037240	$aKanyok$gpeuple d'Afrique
+
+43578176	$aTraditions$mAfrique$mZambie$eTonga	Score:1.0
+12268316	$aTonga$gpeuple de Zambie et du Zimbabwe
+
+42222281	$aTraditions$mAfrique$mNiger$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+
+42317574	$aTraditions$mAfrique du Nord$mAlgérie$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+41072823	$aTraditions$mAsie$mViêt Nam$eHmong	Score:1.0
+11954235	$aHmong$gpeuple d'Asie
+
+40217872	$aTraditions$mAfrique$mRwanda$eTwa	Score:1.0
+11938676	$aTwa$gpeuple d'Afrique
+
+41059640	$aTraditions$mAfrique$mGhana$eLobi	Score:1.0
+11936963	$aLobi$gpeuple d'Afrique
+
+38483823	$aTraditions$mAfrique$mMali$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+43795687	$aTraditions$mAsie$mChine$mGuizhou$eDong	Score:1.0
+12260095	$aDong$gpeuple de Chine
+
+38558996	$aTraditions$mAfrique$mMali$eBambara	Score:1.0
+11959584	$aBambara$gpeuple d'Afrique
+
+39053504	$aTraditions$mAmérique du Nord$mÉtats-Unis$eNavajo	Score:1.0
+11941592	$aNavajo$gIndiens
+
+41128240	$aTraditions$mAsie$mTaïwan$eHakka	Score:1.0
+12479603	$aHakka$gpeuple de Chine
+
+41073278	$aTraditions$mAsie$mInde du Sud$mKerala$ePulluvan	Score:1.0
+17012605	$aPulluvan$gcaste de l'Inde
+
+43800440	$aTraditions$mAsie$mVietnam$eYao	Score:1.0
+11962613	$aYao$gpeuple d'Asie
+
+43800440	$aTraditions$mAsie$mVietnam$eYao	Score:1.0
+12260321	$aYao$gpeuple du Malawi, du Mozambique et de Tanzanie
+
+40224853	$aTraditions$mAfrique$mZambie$eTonga	Score:1.0
+12268316	$aTonga$gpeuple de Zambie et du Zimbabwe
+
+43762390	$aTraditions$mAsie$mChine$mYunan$eHani	Score:1.0
+12474689	$aHani$gpeuple d'Asie
+
+38559518	$aTraditions$mAmérique du Nord$mEtats-Unis$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+38553753	$aTraditions$mAfrique$mCentrafrique$eBanda	Score:1.0
+11959075	$aBanda$gpeuple d'Afrique
+
+38398136-002	$aTraditions$mAfrique$mBurkina Faso$eBirifor	Score:1.0
+12316325	$aBirifor$gpeuple d'Afrique
+
+38398136-005	$aTraditions$mAfrique$mBurkina Faso$eDian	Score:1.0
+13610710	$aDian$gpeuple d'Afrique
+
+38398136-007	$aTraditions$mAfrique$mBurkina Faso$eLobi	Score:1.0
+11936963	$aLobi$gpeuple d'Afrique
+
+43762391	$aTraditions$mAsie$mChine$mYunan$eHani	Score:1.0
+12474689	$aHani$gpeuple d'Asie
+
+41072749	$aTraditions$mAsie$mInde$mBastar$eGond	Score:1.0
+11940697	$aGond$gpeuple de l'Inde
+
+39074964	$aTraditions$mAmérique Centrale$mCaraïbes$mGrenade$eYorubas	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+41439391	$aTraditions$mAsie$mOuzbékistan$eKarakalpaks	Score:1.0
+14479527	$aKarakalpak$gpeuple turc
+
+40217863	$aTraditions$mAfrique$mZaïre$eTshokwe	Score:1.0
+11948472	$aTshokwe$gpeuple d'Afrique
+
+38378836	$aTraditions$mAsie$mChine$mGuangdong$eHakkas	Score:1.0
+12479603	$aHakka$gpeuple de Chine
+
+38563526	$aTraditions$mAfrique$mCameroun$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+
+39004488	$aTraditions$mAsie$eOuïgours	Score:1.0
+12114703	$aOuïgours$gpeuple turc
+
+43578165	$aTraditions$mAfrique$mZambie$eTonga	Score:1.0
+12268316	$aTonga$gpeuple de Zambie et du Zimbabwe
+
+38483940	$aTraditions$mAfrique$mCôte d'Ivoire$eBaoulé	Score:1.0
+11943140	$aBaoulé$gpeuple d'Afrique
+
+43760584	$aTraditions$mAsie$mChine$mYunan$eBai	Score:1.0
+15601078	$aBai$gpeuple de Chine
+
+38456827	$aTraditions$mAmérique du Nord$mÉtats-Unis$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+43762378	$aTraditions$mAsie$mChine$mYunan$eWa	Score:1.0
+17050165	$aWa$gpeuple d'Asie
+
+38509477	$aTraditions$mAfrique du Nord$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+39168194	$aTraditions$mAfrique$eTouareg	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+38617418	$aTraditions$mAfrique$mShaba$eTshokwe	Score:1.0
+11948472	$aTshokwe$gpeuple d'Afrique
+
+38972699	$aTraditions$mAfrique$mDahomey$eFon	Score:1.0
+11983014	$aFon$gpeuple d'Afrique
+
+41059478	$aTraditions$mAsie$mIndonésie$mSumatra$eBatak	Score:1.0
+11983453	$aBatak$gpeuple d'Indonésie
+
+38476466	$aTraditions$mAfrique$mCentrafrique$eBanda	Score:1.0
+11959075	$aBanda$gpeuple d'Afrique
+
+43799717	$aTraditions$mAsie$mLaos$eKhmu	Score:1.0
+12101148	$aKhmu$gpeuple d'Asie
+
+40021156	$aTraditions$mAmérique du Nord$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+39103499	$aTraditions$mAfrique du Nord$mAlgérie$eKabyles	Score:1.0
+11940990	$aKabyles$gpeuple berbère
+
+38562813	$aTraditions$mAfrique$mAfrique centrale$eKongo	Score:1.0
+11987532	$aKongo$gpeuple d'Afrique
+
+38562813-001	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-001	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-002	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-002	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-003	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-003	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-004	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-004	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-012	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-012	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-013	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-013	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-014	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-014	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-018	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-018	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-024	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-024	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562813-025	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38562813-025	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38562185	$aTraditions$mAfrique$mGuinée$eSoussous	Score:1.0
+12409167	$aSoussou$gpeuple d'Afrique
+
+43800473	$aTraditions$mAsie$mVietnam$eGiay	Score:1.0
+13319925	$aGiay$gpeuple d'Asie
+
+38559098	$aTraditions$mOcéanie$mNouvelle-Guinée$eKanak	Score:1.0
+11969392	$aKanak$gpeuple de Nouvelle-Calédonie
+
+43795703	$aTraditions$mAsie$mChine$mGuizhou$eDong	Score:1.0
+12260095	$aDong$gpeuple de Chine
+
+38559516	$aTraditions$mAmérique du Nord$mÉtats-Unis$eindiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+42454218	$aTraditions$mAmérique du Sud$mBrésil$mAmazonie$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+43760562	$aTraditions$mAsie$mChine$mYunan$eBai	Score:1.0
+15601078	$aBai$gpeuple de Chine
+
+41303846	$aTraditions$mAsie$mNord-Vietnam$eHmong	Score:1.0
+11954235	$aHmong$gpeuple d'Asie
+
+38429224-001	$aTraditions$mAmérique du Sud$mBolivie$eQuechuas	Score:1.0
+11955020	$aQuechua$gIndiens
+
+38429224-002	$aTraditions$mAmérique du Sud$mBolivie$eAymaras	Score:1.0
+11934071	$aAymara$gIndiens
+
+39007013	$aTraditions$mAmérique centrale$mCuba$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+38562812	$aTraditions$mAfrique$mAfrique du Sud$eZoulous	Score:1.0
+11948763	$aZoulous$gpeuple d'Afrique
+
+38539382	$aTraditions$mAfrique$mGuinée$eBagas	Score:1.0
+13513780	$aBaga$gpeuple d'Afrique
+
+43638696	$aTraditions$mAfrique$mBurkina Faso$eGouin	Score:1.0
+12018112	$aGouin$gpeuple d'Afrique
+
+41439361	$aTraditions$mAsie$mSibérie$eAltaïens	Score:1.0
+12441687	$aAltaïens$gpeuple turc
+
+40217852	$aTraditions$mAfrique$mZaïre$eYaka	Score:1.0
+11949666	$aYaka$gpeuple d'Afrique
+
+38562145	$aTraditions$mAfrique$mAfrique du Sud$mTransvaal$mKwaNdébélé$eNdébélé	Score:1.0
+11950250	$aNdebele$gpeuple d'Afrique
+
+38560034	$aTraditions$mAsie$mIndonésie$mBornéo$eDayaks	Score:1.0
+11967188	$aDayak$gpeuple d'Asie du Sud-Est
+
+38373398-001	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mDibon$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-004	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mDibon$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-005	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mDibon$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-006	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mDibon$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-008	$aTraditions$mAfrique$mCameroun$mGambour$eMoundang	Score:1.0
+11957944	$aMoundang$gpeuple d'Afrique
+
+38373398-009	$aTraditions$mAfrique$mCameroun$mSaouringwa$eToupouri	Score:1.0
+12134761	$aToupouri$gpeuple d'Afrique
+
+38373398-010	$aTraditions$mAfrique$mCameroun$mBololo Midjivin$eGuiziga	Score:1.0
+12482193	$aGuiziga$gpeuple d'Afrique
+
+38373398-011	$aTraditions$mAfrique$mCameroun$mBololo Midjivin$eGuiziga	Score:1.0
+12482193	$aGuiziga$gpeuple d'Afrique
+
+38373398-012	$aTraditions$mAfrique$mCameroun$mBololo Midjivin$eGuiziga	Score:1.0
+12482193	$aGuiziga$gpeuple d'Afrique
+
+38373398-013	$aTraditions$mAfrique$mCameroun$mGolompoui$eToupouri	Score:1.0
+12134761	$aToupouri$gpeuple d'Afrique
+
+38373398-016	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mDibon$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-017	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mVendelar$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-018	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mVendelar$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+38373398-019	$aTraditions$mAfrique$mCameroun$mMonts Mandara$mDibon$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+43762404	$aTraditions$mAsie$mChine$mYunan$eWa	Score:1.0
+17050165	$aWa$gpeuple d'Asie
+
+41072751	$aTraditions$mAfrique$mRépublique centrafricaine$eGbaya	Score:1.0
+11954115	$aGbaya$gpeuple d'Afrique
+
+41303845	$aTraditions$mAsie$mLaos$eBrao	Score:1.0
+11963430	$aBrao$gpeuple d'Asie du Sud-Est
+
+39103510	$aTraditions$mAfrique du Nord$eKabyles	Score:1.0
+11940990	$aKabyles$gpeuple berbère
+
+40224889	$aTraditions$mAfrique$mMalawi$eTonga	Score:1.0
+12268316	$aTonga$gpeuple de Zambie et du Zimbabwe
+
+38972696	$aTraditions$mAfrique$mTchad$eSara	Score:1.0
+11945862	$aSara$gpeuple d'Afrique
+
+39022290	$aTraditions$mAmérique du Nord$mÉtats-Unis$eNavajo	Score:1.0
+11941592	$aNavajo$gIndiens
+
+40152623	$aTraditions$mAmérique du Sud$mChili$eMapuches	Score:1.0
+12382490	$aMapuche$gIndiens
+
+38556746	$aTraditions$mAfrique$mBénin$eBariba	Score:1.0
+11941822	$aBariba$gpeuple d'Afrique
+
+38483816	$aTraditions$mAfrique$mGabon$eFang	Score:1.0
+11963545	$aFang$gpeuple d'Afrique
+
+43612911	$aTraditions$mAfrique$mMali$eBambara	Score:1.0
+11959584	$aBambara$gpeuple d'Afrique
+
+43840131	$aTraditions$mAmérique du Sud$mBolivie$eQuechuas	Score:1.0
+11955020	$aQuechua$gIndiens
+
+38473065	$aTraditions$mAfrique du Nord$eKabyles	Score:1.0
+11940990	$aKabyles$gpeuple berbère
+
+41128249	$aTraditions$mAfrique$mOuganda$eAcholi	Score:1.0
+11983700	$aAcholi$gpeuple d'Afrique
+
+41072769	$aTraditions$mAfrique$mMali$eDogon	Score:1.0
+11947256	$aDogon$gpeuple d'Afrique
+
+41285826	$aTraditions$mAsie$mTurquie$eYörük	Score:1.0
+12121037	$aYörük$gpeuple turc
+
+38432373	$aTraditions$mAfrique$mCôte d'Ivoire$mPays Wè$eGuéré	Score:1.0
+13537200	$aGuéré$gpeuple d'Afrique
+
+38456838	$aTraditions$mAmérique du Nord$mÉtats-Unis$eYurok	Score:1.0
+12293954	$aYurok$gIndiens
+
+38527227	$aTraditions$mAmérique centrale$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+38436316	$aTraditions$mAfrique$mPays Wè$eGuéré	Score:1.0
+13537200	$aGuéré$gpeuple d'Afrique
+
+38478858	$aTraditions$mAfrique$mZaïre$eEkonda	Score:1.0
+12086490	$aEkonda$gpeuple d'Afrique
+
+38392957	$aTraditions$mAmérique du Nord$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+40217842	$aTraditions$mAfrique$mTchad$mTibesti$eTeda	Score:1.0
+15540851	$aTeda$gpeuple d'Afrique
+
+38479563	$aTraditions$mAfrique$mZaïre$mIturi$eEfe	Score:1.0
+12256018	$aEfe$gpeuple d'Afrique
+
+41072795	$aTraditions$mAfrique du Sud$eXhosa	Score:1.0
+12652127	$aXhosa$gpeuple d'Afrique
+
+38555880	$aTraditions$mAsie$mCambodge$eKhmers	Score:1.0
+12125130	$aKhmers$gpeuple d'Asie du Sud-Est
+
+42114197	$aTraditions$mAmérique centrale$mAntilles$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+38559512	$aTraditions$mAmérique du Nord$mÉtats-Unis$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+43762403	$aTraditions$mAsie$mChine$mYunan$eWa	Score:1.0
+17050165	$aWa$gpeuple d'Asie
+
+38479589	$aTraditions$mAfrique$mRwanda$eTwa	Score:1.0
+11938676	$aTwa$gpeuple d'Afrique
+
+38578330	$aTraditions$mAfrique$mBénin$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+42567707	$aTraditions$mBénin$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+41055210	$aTraditions$mAfrique$mBénin$eYoruba	Score:1.0
+11939949	$aYoruba$gpeuple d'Afrique
+
+43795760	$aTraditions$mAsie$mChine$mYunan$eLahu	Score:1.0
+16686616	$aLahu$gpeuple d'Asie
+
+38562521	$aTraditions$mAfrique$mMauritanie$eNemadi	Score:1.0
+16978329	$aNemadi$gpeuple d'Afrique
+
+42641194	$aTraditions$mAfrique$mMali$eDogons	Score:1.0
+11947256	$aDogon$gpeuple d'Afrique
+
+38504470	$aTraditions$mAmérique du Sud$eAymaras	Score:1.0
+11934071	$aAymara$gIndiens
+
+42633106	$aTraditions$mAfrique du Nord$eTouareg	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+38573773	$aTraditions$mAfrique$mCameroun$eOuldémé	Score:1.0
+12098479	$aOuldémé$gpeuple d'Afrique
+
+42767970	$aTraditions$mAfrique$mZimbabwe$eShona	Score:1.0
+11937479	$aShona$gpeuple d'Afrique
+
+41052554	$aTraditions$mAsie$eIndiens	Score:1.0
+11934239	$aIndiens$gde l'Inde
+
+38562873	$aTraditions$mAmérique$mGuyane$eWayanas	Score:1.0
+11950999	$aWayana$gIndiens
+
+41073217	$aTraditions$mAfrique$mNiger$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+38402163	$aTraditions$mAsie$mRussie$eTchouktches	Score:1.0
+13517896	$aTchouktches$gpeuple de Sibérie
+
+43800413	$aTraditions$mAsie$mVietnam$eHmong	Score:1.0
+11954235	$aHmong$gpeuple d'Asie
+
+43760517	$aTraditions$mAsie$mChine$mGuizhou$eDong	Score:1.0
+12260095	$aDong$gpeuple de Chine
+
+38610695	$aTraditions$mAfrique$mErythrée$eTigrinya	Score:1.0
+12324547	$aTigrinya$gpeuple d'Afrique
+
+38439282-001	$aTraditions$mRépublique Centrafricaine$eDendi	Score:1.0
+13775442	$aDendi$gpeuple du Bénin, du Niger et du Nigeria
+
+38439282-002	$aTraditions$mRépublique Centrafricaine$eNzakara	Score:1.0
+11959224	$aNzakara$gpeuple d'Afrique
+
+38439282-010	$aTraditions$mRépublique centrafricaine$eGbaya	Score:1.0
+11954115	$aGbaya$gpeuple d'Afrique
+
+38439282-011	$aTraditions$mRépublique centrafricaine$eNgbaka	Score:1.0
+11981614	$aNgbaka$gpeuple d'Afrique
+
+38563629	$aTraditions$mAfrique$mCentrafrique$eBanda	Score:1.0
+11959075	$aBanda$gpeuple d'Afrique
+
+38479473	$aTraditions$mAfrique$mGabon$eFang	Score:1.0
+11963545	$aFang$gpeuple d'Afrique
+
+42699846	$aTraditions$mAsie$mCambodge$eKhmers	Score:1.0
+12125130	$aKhmers$gpeuple d'Asie du Sud-Est
+
+38508498	$aTraditions$mAfrique$mMali$eDogons	Score:1.0
+11947256	$aDogon$gpeuple d'Afrique
+
+38479507	$aTraditions$mAfrique$mZaïre$eMongo	Score:1.0
+11994994	$aMongo$gpeuple d'Afrique
+
+43799558	$aTraditions$mAsie$mCambodge$eBrao	Score:1.0
+11963430	$aBrao$gpeuple d'Asie du Sud-Est
+
+38560085	$aTraditions$mAfrique$mAfrique centrale$eKongo	Score:1.0
+11987532	$aKongo$gpeuple d'Afrique
+
+38560085-002	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-002	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-004	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-004	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-005	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-005	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-007	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-007	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-008	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-008	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-010	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-010	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-012	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-012	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-013	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-013	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-016	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-016	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-017	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-017	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-020	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-020	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-022	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-022	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-026	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-026	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-028	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-028	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+38560085-029	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+12345608	$aYombe$gpeuple des Congo et d'Angola
+
+38560085-029	$aTraditions$mAfrique$mAfrique centrale$eYombe	Score:1.0
+14613847	$aYombe$gpeuple de Zambie et du Malawi
+
+42429268	$aTraditions$mAfrique$mTanzanie$eNgoni	Score:1.0
+11982260	$aNgoni$gpeuple d'Afrique
+
+38387068	$aTraditions$mAfrique$mBurkina-Faso$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+
+40030413	$aTraditions$mAfrique$mGabon$eMyène	Score:1.0
+12216839	$aMyènè$gpeuple d'Afrique
+
+38405581	$aTraditions$mAsie$mChine$mLijiang$eNaxis	Score:1.0
+11980064	$aNaxi$gpeuple de Chine
+
+43629703	$aTraditions$mOcéanie$mNouvelle-Guinée$mPapouasie$eDani	Score:1.0
+11973505	$aDani$gpeuple d'Indonésie
+
+38562108	$aTraditions$mAfrique$mMali$eDogons	Score:1.0
+11947256	$aDogon$gpeuple d'Afrique
+
+38562861	$aTraditions$mAsie$mPakistan$eBaloutches	Score:1.0
+11974515	$aBaloutches$gpeuple d'Asie
+
+42699841	$aTraditions$mAsie$mCambodge$eKhmer	Score:1.0
+12125130	$aKhmers$gpeuple d'Asie du Sud-Est
+
+38404110	$aTraditions$mAmérique du Sud$mGuyane$eWayãpi	Score:1.0
+11945278	$aWayãpi$gIndiens
+
+42498847	$aTraditions$mAsie$mChine$mXinjiang$eOuïgours	Score:1.0
+12114703	$aOuïgours$gpeuple turc
+
+43843511	$aTraditions$mAfrique$mMali$eTouaregs	Score:1.0
+13318388	$aTouaregs$gpeuple berbère
+
+42699840	$aTraditions$mAsie$mCambodge$eKhmer	Score:1.0
+12125130	$aKhmers$gpeuple d'Asie du Sud-Est
+
+38432070-001	$aTraditions$mURSS$eYakoutes	Score:1.0
+12187804	$aYakoutes$gpeuple turc
+
+38432070-005	$aTraditions$mAsie$mURSS$eBouriates	Score:1.0
+11982642	$aBouriates$gpeuple de Sibérie
+
+40957140	$aTraditions$mAfrique$mSénégal$eWolofs	Score:1.0
+11937593	$aWolof$gpeuple d'Afrique
+
+43795837	$aTraditions$mAsie$mCambodge$eJarai	Score:1.0
+12317929	$aJaraï$gpeuple d'Asie du Sud-Est
+
+42428982	$aTraditions$mAsie$mChine$mYunnan$eNaxi	Score:1.0
+11980064	$aNaxi$gpeuple de Chine
+
+40166093	$aTraditions$mAfrique$mMali$ePeuls	Score:1.0
+11935469	$aPeuls$gpeuple d'Afrique
+

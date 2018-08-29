@@ -1,0 +1,333 @@
+<http://data.doremus.org/performance/5bbadc2f-e0ef-384e-a0c2-f8ac02e93caf>	13408.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung	2014-04-11	Similarité :1.0
+<http://data.doremus.org/performance/0b5a2ca0-74ca-37a9-b2d4-cb6509de81c9>	1016854.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung	2014-04-11
+
+<http://data.doremus.org/performance/1abe2f61-b467-3d13-bc88-b4d155c20b7f>	14194.ttl	Gala d’ouverture 2	2015-01-15	Similarité :1.0
+<http://data.doremus.org/performance/214bc0a1-5c2d-329a-9e60-e1333361c1bb>	1029282.ttl	Gala d'ouverture 2	2015-01-15
+
+<http://data.doremus.org/performance/e11a9f02-cafc-343b-8c4e-3a2107e4df98>	13368.ttl	Orchestre du Théâtre Mariinsky - Valery Gergiev	2014-02-17	Similarité :1.0
+<http://data.doremus.org/performance/de3300f6-e5f2-3371-812c-ed56de326b1d>	1014019.ttl	Orchestre du Théâtre Mariinsky, Valery Gergiev	2014-02-17
+
+<http://data.doremus.org/performance/bc33019b-1c1d-37a6-8b37-731018f0fbac>	13369.ttl	Orchestre du Théâtre Mariinsky - Valery Gergiev - Vadim Repin	2014-02-18	Similarité :1.0
+<http://data.doremus.org/performance/1c7cf567-b60f-3136-948c-cd379f03a0d1>	1014020.ttl	Orchestre du Théâtre Mariinsky, Valery Gergiev, Vadim Repin	2014-02-18
+
+<http://data.doremus.org/performance/86cae442-9f4a-3c9f-bb6a-187356ec064d>	13426.ttl	MDR Sinfonieorchester Leipzig - MDR Rundfunkchor Leipzig - Kristjan Järvi - Steve Reich	2014-05-05	Similarité :1.0
+<http://data.doremus.org/performance/94436e79-d81a-3a74-a15d-0d81eb5fa230>	1017741.ttl	MDR Sinfonieorchester Leipzig, MDR Rundfunkchor Leipzig, Kristjan Järvi, Steve Reich	2014-05-05
+
+<http://data.doremus.org/performance/42257d81-08b0-3a94-a6fd-e782730eb34b>	13384.ttl	Orchestre Philharmonique de Radio France - Esa-Pekka Salonen	2014-03-14	Similarité :1.0
+<http://data.doremus.org/performance/07117124-a0c5-3bc3-b2e3-84abb7425e5c>	1015347.ttl	Orchestre Philharmonique de Radio France, Esa-Pekka Salonen	2014-03-14
+
+<http://data.doremus.org/performance/4ae7f27e-78e4-3fb0-9fae-f07da8b71a6b>	13352.ttl	Orchestre National d'Île-de-France - Enrique Mazzola - Markus Werba	2014-01-26	Similarité :1.0
+<http://data.doremus.org/performance/2cb07c7c-3d2c-3cf3-93f5-82cc9b162951>	1017548.ttl	Orchestre national d'Île-de-France, Enrique Mazzola, Markus Werba	2014-01-26
+
+<http://data.doremus.org/performance/b652f36e-24e9-3e9e-9dc2-d46c8d7211ff>	13311.ttl	Orchestre de Paris - Bertrand de Billy	2013-11-28	Similarité :1.0
+<http://data.doremus.org/performance/8164acc9-061e-316c-b8d2-d4770925decc>	1011154.ttl	Orchestre de Paris, Bertrand de Billy	2013-11-28
+
+<http://data.doremus.org/performance/977d0406-7c3d-36ed-a409-e8d7d9480166>	14195.ttl	Les Arts Florissants - William Christie	2015-01-16	Similarité :1.0
+<http://data.doremus.org/performance/b9c8c77f-4b81-3057-8772-8572846e8f2a>	1029285.ttl	Les Arts Florissants, William Christie	2015-01-16
+
+<http://data.doremus.org/performance/8d5eda42-5539-316d-b0ee-c2d4787b2118>	14461.ttl	Tindersticks	2015-02-10	Similarité :1.0
+<http://data.doremus.org/performance/e5244d2c-5767-3bba-9f0c-b622aa473e8a>	1030359.ttl	Tindersticks	2015-02-10
+
+<http://data.doremus.org/performance/749b82f3-5670-3060-b2fe-698615c38837>	14057.ttl	Ensemble intercontemporain - Tito Ceccherini	2015-01-16	Similarité :1.0
+<http://data.doremus.org/performance/c74e60ce-6e2f-3363-a1ca-912fdae2698a>	1029404.ttl	Ensemble intercontemporain, Tito Ceccherini	2015-01-16
+
+<http://data.doremus.org/performance/400dca34-920a-3c2c-9807-79536f90df61>	14167.ttl	Wiener Symphoniker - Philippe Jordan - Khatia Buniatishvili - Rainer Küblböck	2014-11-28	Similarité :1.0
+<http://data.doremus.org/performance/9f20765f-a362-3006-8728-8aada29f805a>	1024947.ttl	Wiener Symphoniker, Philippe Jordan, Khatia Buniatishvili, Rainer Küblböck	2014-11-28
+
+<http://data.doremus.org/performance/0d098937-2e30-3d2d-84c9-5170fed1ace9>	13319.ttl	Orchestre de Paris - Kristjan Järvi - Yamandu Costa - Alessandro Kramer	2013-12-04	Similarité :1.0
+<http://data.doremus.org/performance/4abd385b-38c8-3daf-82c5-5478b99bf56e>	1011998.ttl	Orchestre de Paris, Kristjan Järvi, Yamandu Costa, Alessandro Kramer	2013-12-04
+
+<http://data.doremus.org/performance/1d14e38a-d407-3b61-aee4-695e6e5a086b>	14247.ttl	Les Dissonances - David Grimal	2015-02-09	Similarité :1.0
+<http://data.doremus.org/performance/8ae7da6a-8728-39ac-bf83-13e2157c200c>	1030927.ttl	Les Dissonances, David Grimal	2015-02-09
+
+<http://data.doremus.org/performance/345efe5c-1d21-3a2f-b50a-99906d74c147>	14155.ttl	Orchestre de Paris - Louis Langrée	2014-12-10	Similarité :1.0
+<http://data.doremus.org/performance/626e28a1-4ca7-3ed9-9ea8-d9bf1bd92651>	1027574.ttl	Orchestre de Paris, Louis Langrée	2014-12-10
+
+<http://data.doremus.org/performance/93ce1e22-6aa5-307d-a729-c389971a5a33>	14208.ttl	Ensemble intercontemporain - Orchestre du Conservatoire de Paris - Matthias Pintscher	2015-02-03	Similarité :1.0
+<http://data.doremus.org/performance/0ec1a7ed-c255-3da6-a989-d0aab9e9b6c7>	1030395.ttl	Ensemble intercontemporain, Orchestre du Conservatoire de Paris, Matthias Pintscher	2015-02-03
+
+<http://data.doremus.org/performance/da693a02-366f-3833-864d-7c46155c3c5d>	13305.ttl	Antonio Meneses - Maria-João Pires	2013-11-18	Similarité :1.0
+<http://data.doremus.org/performance/669d1534-f108-3201-bef1-d6913337543e>	1011607.ttl	Antonio Meneses, Maria Joao Pires	2013-11-18
+
+<http://data.doremus.org/performance/e75ff38c-01b0-35cd-aca2-fec21ab11ac4>	14029.ttl	Les Dissonances - David Grimal	2014-10-21	Similarité :1.0
+<http://data.doremus.org/performance/4280cb11-94bb-3fd2-827c-4adcff8d8fd7>	1023315.ttl	Les Dissonances, David Grimal	2014-10-21
+
+<http://data.doremus.org/performance/4d16d019-333c-3387-bb89-6a43b2e11e70>	14162.ttl	Orchestre de Paris - David Zinman - Gautier Capuçon	2014-11-19	Similarité :1.0
+<http://data.doremus.org/performance/b17b841a-d844-3a07-8dd4-0123a4c18311>	1023837.ttl	Orchestre de Paris, David Zinman, Gautier Capuçon	2014-11-19
+
+<http://data.doremus.org/performance/29473466-800e-373c-a28d-5b3cb43764fa>	14241.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Daniil Trifonov	2015-06-19	Similarité :1.0
+<http://data.doremus.org/performance/4217dd6a-6322-3bb2-8095-863c740a70bb>	1035788.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, Daniil Trifonov	2015-06-19
+
+<http://data.doremus.org/performance/5c8ee2cf-2e7b-3c02-8ac5-2c194d981e40>	14203.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Renaud Capuçon	2015-01-26	Similarité :1.0
+<http://data.doremus.org/performance/af563fd9-7ab4-3a4f-a47d-498f4ada8955>	1030324.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, Renaud Capuçon	2015-01-26
+
+<http://data.doremus.org/performance/abc0040b-6787-3c54-9287-f6083a1b0835>	14211.ttl	The Divine Comedy	2015-02-11	Similarité :1.0
+<http://data.doremus.org/performance/85397dd1-dae9-3e89-9631-c58583d850ba>	1030372.ttl	The Divine Comedy	2015-02-11
+
+<http://data.doremus.org/performance/fddc9150-266d-30cf-8895-ddf3281da72f>	14200.ttl	Orchestre de Paris / Paavo Järvi / Janine Jansen	2015-01-22	Similarité :1.0
+<http://data.doremus.org/performance/7376159c-ce00-342e-afe3-a10bb0b5d176>	1030037.ttl	Orchestre de Paris, Paavo Järvi, Janine Jansen	2015-01-22
+
+<http://data.doremus.org/performance/d2f5c410-abef-37a9-8d7b-8feae4c775ac>	13296.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Nicolas Baldeyrou - Christophe Henry	2013-11-08	Similarité :1.0
+<http://data.doremus.org/performance/ab518472-3c2e-3cd1-9157-8f0892cb6747>	1010650.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, Nicolas Baldeyrou, Christophe Henry	2013-11-08
+
+<http://data.doremus.org/performance/01dfb273-17df-38e9-8303-3c533c35b37c>	14175.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Evgeny Kissin	2014-09-19	Similarité :1.0
+<http://data.doremus.org/performance/3cf0a7e7-20a2-37de-9ddc-b9f864edf0d3>	1021141.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, Evgeny Kissin	2014-09-19
+
+<http://data.doremus.org/performance/d43e16fc-366d-318a-bfeb-175c6af57e42>	15533.ttl	Hommage à Henri Dutilleux	2016-01-22	Similarité :1.0
+<http://data.doremus.org/performance/1edeadf7-a092-3c53-80e7-836308a1b77c>	1045998.ttl	Hommage à Henri Dutilleux	2016-01-22
+
+<http://data.doremus.org/performance/8fa2f07d-df53-3009-bc60-ea12da533a39>	14193.ttl	Gala d’ouverture 1	2015-01-14	Similarité :1.0
+<http://data.doremus.org/performance/1ad3e1f8-b67a-37e0-b3c2-3233dc9edcb1>	1029164.ttl	Gala d'ouverture 1	2015-01-14
+
+<http://data.doremus.org/performance/952d0972-b839-37d9-8768-0b94ffa6f145>	14034.ttl	Ensemble intercontemporain - Matthias Pintscher	2014-10-17	Similarité :1.0
+<http://data.doremus.org/performance/1d0a435f-0640-3f88-88e2-76c63dd79fa4>	1023309.ttl	Ensemble intercontemporain, Matthias Pintscher	2014-10-17
+
+<http://data.doremus.org/performance/a19920cd-89a0-31ea-91b1-b52b95bec2b3>	14361.ttl	Gustavo Dudamel 2	2015-01-25	Similarité :1.0
+<http://data.doremus.org/performance/7a4869d6-01a6-3288-af89-8e5a90938b5d>	1029290.ttl	Gustavo Dudamel 2	2015-01-25
+
+<http://data.doremus.org/performance/974feada-d4f8-3821-a195-dc6a5822ee5a>	13318.ttl	Orchestre du Théâtre Mariinsky - Valery Gergiev - Gautier Capuçon 	2013-12-03	Similarité :1.0
+<http://data.doremus.org/performance/0a16ca60-b132-35cd-9e80-8794805de5d4>	1011731.ttl	Orchestre du Théâtre Mariinsky, Valery Gergiev, Gautier Capuçon	2013-12-03
+
+<http://data.doremus.org/performance/68451190-922b-3e0a-9e6e-6e4abcc6f267>	14095.ttl	Les Dissonances - David Grimal	2015-04-01	Similarité :1.0
+<http://data.doremus.org/performance/850618f8-2702-33f6-a43a-5c85c4c29c65>	1033088.ttl	Les Dissonances. David Grimal	2015-04-01
+
+<http://data.doremus.org/performance/5688f962-23d9-3bf7-85fe-4a6d1d92203b>	14153.ttl	Orchestre National d'Île-de-France - Enrique Mazzola - Jeff Mills	2014-12-06	Similarité :1.0
+<http://data.doremus.org/performance/a38dee38-f982-3afc-8d2b-df7a9db88d3c>	1028062.ttl	Orchestre national d'Ile-de-France, Enrique Mazzola, Jeff Mills	2014-12-06
+
+<http://data.doremus.org/performance/36474f6a-7d26-31b4-9b38-0a7081513303>	14249.ttl	Orchestre de Paris / Yuri Temirkanov / Leonidas Kavakos	2015-02-25	Similarité :1.0
+<http://data.doremus.org/performance/893b6390-da07-3c1d-a9fe-15ce08dc7417>	1031623.ttl	Orchestre de Paris, Yuri Temirkanov, Leonidas Kavakos	2015-02-25
+
+<http://data.doremus.org/performance/bbbfab2c-c68a-325c-b45a-2e3cfe3f33fc>	13376.ttl	Khatia Buniatishvili	2014-03-04	Similarité :1.0
+<http://data.doremus.org/performance/682f7138-8e22-3fab-9cf1-25e7dfb1cfc0>	1014782.ttl	Khatia Buniatishvili	2014-03-04
+
+<http://data.doremus.org/performance/1a526b80-08fb-3da2-a2ed-2ff86dfba83c>	13317.ttl	Orchestre du Théâtre Mariinsky - Valery Gergiev - Veronika Djoeva - Mikhail Petrenko	2013-12-02	Similarité :1.0
+<http://data.doremus.org/performance/1968abb1-0ab0-3863-be6c-354dc63abda0>	1011725.ttl	Orchestre du Théâtre Mariinsky, Valery Gergiev, Veronika Djoeva, Mikhail Petrenko	2013-12-02
+
+<http://data.doremus.org/performance/031459c7-00ce-3a2e-9356-98f31c292a8f>	13418.ttl	Orchestre de Paris - Paavo Järvi - Nicholas Angelich 	2014-04-23	Similarité :1.0
+<http://data.doremus.org/performance/cf6be4f3-f732-306b-9491-d378e1aa782c>	1016964.ttl	Orchestre de Paris, Paavo Järvi, Nicholas Angelich	2014-04-23
+
+<http://data.doremus.org/performance/c98b89b2-42a9-3e91-8bd0-e7cb52dab526>	15239.ttl	Mathieu Boogaerts a 20 ans	2016-02-17	Similarité :1.0
+<http://data.doremus.org/performance/60655efd-ac6b-3a7e-997a-46f51f9d5874>	1046926.ttl	Mathieu Boogaerts a 20 ans	2016-02-17
+
+<http://data.doremus.org/performance/15c882b0-917c-3172-bf52-60cda42d75f6>	15296.ttl	Lucio Silla - Mozart	2016-04-23	Similarité :1.0
+<http://data.doremus.org/performance/dcf7663b-8d33-3bb7-a0ac-66f60c9dea49>	1049479.ttl	Lucio Silla, Mozart	2016-04-23
+
+<http://data.doremus.org/performance/c2e966c3-afc8-3a8c-ac01-dd4a897fce11>	14171.ttl	Orchestre Philharmonique de Radio France - Mikko Franck - Anu Komsi - Andrew Staples	2014-10-03	Similarité :1.0
+<http://data.doremus.org/performance/da96804f-50c4-37d1-9e1f-d08a84a496fd>	1022195.ttl	Orchestre Philharmonique de Radio France, Mikko Franck, Anu Komsi, Andrew Staples	2014-10-03
+
+<http://data.doremus.org/performance/391a89ba-6106-38ae-8f66-668463b63cd2>	17874.ttl	Bach en sept paroles - III - L'appel	2017-12-11	Similarité :1.0
+<http://data.doremus.org/performance/c0576398-574e-3f46-952b-e1b4c020cc81>	1072574.ttl	Bach en sept paroles : III : L'appel	2017-12-11
+
+<http://data.doremus.org/performance/6df65eda-7779-34b3-9d97-18d9f119ba6c>	17913.ttl	Bach en sept paroles - IV - Châtiments	2018-01-30	Similarité :1.0
+<http://data.doremus.org/performance/a676833e-ed67-3fd1-934f-0de4f34df5c2>	1075612.ttl	Bach en sept paroles : IV : châtiments	2018-01-30
+
+<http://data.doremus.org/performance/3e827e83-8a17-333d-8fa5-9de582f8be1e>	16763.ttl	Sonya Yoncheva	2017-04-18	Similarité :1.0
+<http://data.doremus.org/performance/08be7c1c-7ac3-3830-bf9c-7fd5efafdbba>	1065610.ttl	Sonya Yoncheva	2017-04-18
+
+<http://data.doremus.org/performance/824454c6-0ce1-34b7-8c7f-6bfd6e193cbd>	18220.ttl	Démos	2017-06-25	Similarité :1.0
+<http://data.doremus.org/performance/c92375c3-c0e8-3793-8f83-5310f5a7ef8f>	1067440.ttl	Démos	2017-06-25
+
+<http://data.doremus.org/performance/3d30bc57-460d-3216-a14f-04d804162391>	18964.ttl	Démos	2017-06-25	Similarité :1.0
+<http://data.doremus.org/performance/c92375c3-c0e8-3793-8f83-5310f5a7ef8f>	1067440.ttl	Démos	2017-06-25
+
+<http://data.doremus.org/performance/7d4c2224-3c5e-3216-bc72-14248e68d48c>	18222.ttl	Revisiting Grappelli	2017-09-29	Similarité :1.0
+<http://data.doremus.org/performance/8705731c-821c-3e56-bd31-29546f7d0e70>	1072133.ttl	Revisiting Grappelli	2017-09-29
+
+<http://data.doremus.org/performance/e5e18cd1-a669-34c8-b840-010c7473323b>	17818.ttl	Bach en sept paroles - I -  Lumières	2017-10-11	Similarité :1.0
+<http://data.doremus.org/performance/ea87853c-e761-3228-85f4-7f60d318c305>	1072506.ttl	Bach en sept paroles : I : Lumières	2017-10-11
+
+<http://data.doremus.org/performance/e5a55224-9c01-336e-874c-f9779b45380f>	17777.ttl	Nicholas Angelich	2017-10-06	Similarité :1.0
+<http://data.doremus.org/performance/4c33eb25-e65b-30d1-ac38-1c835fe74857>	1072540.ttl	Nicholas Angelich	2017-10-06
+
+<http://data.doremus.org/performance/06b0ecbf-802e-3235-9976-22a12c9d3351>	17832.ttl	Sabine Devieilhe 	2017-11-14	Similarité :1.0
+<http://data.doremus.org/performance/8fd635d2-1530-314f-a542-9328856a35d5>	1073641.ttl	Sabine Devieilhe	2017-11-14
+
+<http://data.doremus.org/performance/ac6c78ce-df20-3ea7-9302-35d44ec6f5ef>	17845.ttl	Bach en sept paroles - II - De passage	2017-11-21	Similarité :1.0
+<http://data.doremus.org/performance/b2c951e1-7d8c-39b8-a5b8-b8a556c2f406>	1072550.ttl	Bach en sept paroles : II : De passage	2017-11-21
+
+<http://data.doremus.org/performance/0df59244-307b-39b4-b64e-ee2e4f379d2d>	16820.ttl	Démos	2017-06-24	Similarité :1.0
+<http://data.doremus.org/performance/71f60b13-502a-33c9-9be2-6ee41f84ed5f>	1067429.ttl	Démos	2017-06-24
+
+<http://data.doremus.org/performance/fdad6ee1-f3cd-35dc-8444-4ff667f15520>	16651.ttl	El Fuego latino	2016-12-13	Similarité :1.0
+<http://data.doremus.org/performance/ddfea13a-8244-399e-8b62-ec73dd717c19>	1065624.ttl	El Fuego latino	2016-12-13
+
+<http://data.doremus.org/performance/9e8b8d0c-b2c8-3a49-8aee-33fe70e53ee6>	18207.ttl	Agnes Obel	2017-05-14	Similarité :1.0
+<http://data.doremus.org/performance/9ea65769-a794-302a-a40f-77451cdb659f>	1067459.ttl	Agnes Obel	2017-05-14
+
+<http://data.doremus.org/performance/42c8188e-be30-3055-beba-6164488749f2>	17814.ttl	Sgt. Pepper Live	2017-10-22	Similarité :1.0
+<http://data.doremus.org/performance/6812b5bd-9aae-3ef9-a90a-79ab717ab51f>	1072924.ttl	Sgt. Pepper Live	2017-10-22
+
+<http://data.doremus.org/performance/42c8188e-be30-3055-beba-6164488749f2>	17814.ttl	Sgt. Pepper Live	2017-10-22	Similarité :1.0
+<http://data.doremus.org/performance/6812b5bd-9aae-3ef9-a90a-79ab717ab51f>	1072924.ttl	Sgt. Pepper Live	2017-10-22
+
+<http://data.doremus.org/performance/62c84cb6-d967-3261-9c23-012e4f832095>	11061.ttl	Nina Hagen	2010-09-17	Similarité :1.0
+<http://data.doremus.org/performance/bec42744-7f71-3c76-bcd1-5ebfaca2102d>	0949035.ttl	Nina Hagen	2010-09-17
+
+<http://data.doremus.org/performance/74a6e7cb-c526-3831-a7c7-8b3a2be9a1b3>	10923.ttl	Orchestre de Paris - Paavo Järvi - Gautier Capuçon - Thierry Escaich	2011-05-18	Similarité :1.0
+<http://data.doremus.org/performance/51e129d3-a0a6-3a85-95d1-4b11ec8deebc>	0966894.ttl	Orchestre de Paris. Paavo Järvi, Gautier Capuçon, Thierry Escaich	2011-05-18
+
+<http://data.doremus.org/performance/2d73c670-f22f-38b4-a3f5-0bafdeed98c3>	10895.ttl	Orchestre de Paris - Esa-Pekka Salonen - David Fray	2011-06-08	Similarité :1.0
+<http://data.doremus.org/performance/1adbcd43-d456-3226-8371-6b3f39268eb8>	0967949.ttl	Orchestre de Paris, Esa-Pekka Salonen, David Fray	2011-06-08
+
+<http://data.doremus.org/performance/72b80504-9021-391f-83da-2b537db23167>	10647.ttl	Orchestre Divertimento 	2010-02-17	Similarité :1.0
+<http://data.doremus.org/performance/0a7e3e70-a9ec-332c-b81e-b713c9066f15>	0934775.ttl	Orchestre Divertimento	2010-02-17
+
+<http://data.doremus.org/performance/38ab04cb-a085-3203-91ed-7451825dac99>	6515.ttl	Anniversaire Christoph Eschenbach	2010-02-20	Similarité :1.0
+<http://data.doremus.org/performance/a615abfc-2d95-3f60-a989-f6a95871b933>	0935344.ttl	Anniversaire Christoph Eschenbach	2010-02-20
+
+<http://data.doremus.org/performance/cd536dff-1f3e-3349-8a09-af317915969f>	11070.ttl	Menahem Pressler	2011-03-23	Similarité :1.0
+<http://data.doremus.org/performance/226b4f2d-7223-30bf-8d38-e3e6b3b87690>	0961909.ttl	Menahem Pressler	2011-03-23
+
+<http://data.doremus.org/performance/74388a1c-7295-39a9-a8c9-ceadbc7b5f5e>	10167.ttl	Arthur H et ses invités	2009-09-19	Similarité :1.0
+<http://data.doremus.org/performance/65cf6b18-0813-33da-9a2c-68e6acb355e5>	0921476.ttl	Arthur H et ses invités	2009-09-19
+
+<http://data.doremus.org/performance/7744e91c-5ce0-3dea-a4ce-655bc562b624>	5714.ttl	La petite renarde rusée	2009-03-07	Similarité :1.0
+<http://data.doremus.org/performance/3e3d50a3-51d4-3dc9-a870-bc8726b64d7c>	1070561.ttl	La petite renarde rusée	2009-03-07
+
+<http://data.doremus.org/performance/7744e91c-5ce0-3dea-a4ce-655bc562b624>	5714.ttl	La petite renarde rusée	2009-03-07	Similarité :1.0
+<http://data.doremus.org/performance/3e3d50a3-51d4-3dc9-a870-bc8726b64d7c>	1070561.ttl	La petite renarde rusée	2009-03-07
+
+<http://data.doremus.org/performance/37e28050-8eb5-3473-9f23-2e415af1dab6>	10889.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Leonidas Kavakos	2011-06-24	Similarité :1.0
+<http://data.doremus.org/performance/376001e7-6702-3eea-89c6-75cf00db8f39>	0969116.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, Leonidas Kavakos	2011-06-24
+
+<http://data.doremus.org/performance/2987406a-35de-3d4d-b830-e38404febedb>	6649.ttl	Carla Bley \"The Lost Chords find Paolo Fresu\"	2010-04-25	Similarité :1.0
+<http://data.doremus.org/performance/41ed6e0e-cab2-3824-9338-79968a33bc9e>	0941724.ttl	Carla Bley \"The lost chords find Paolo Fresu\"	2010-04-25
+
+<http://data.doremus.org/performance/30034df6-46d4-3218-9f18-c59cd264dd66>	10707.ttl	Orchestre Philharmonique de Radio-France - François Xavier Roth - Nathalie Stutzmann	2010-09-10	Similarité :1.0
+<http://data.doremus.org/performance/b4accd8c-d597-339c-9b27-3cbe4e73387c>	0951538.ttl	Orchestre Philharmonique de Radio France. François Xavier Roth. Nathalie Stutzmann	2010-09-10
+
+<http://data.doremus.org/performance/bda8b8e4-f5cf-32b8-9777-53c5af33efff>	10719.ttl	Orchestre de Paris - Paavo Järvi - Vadim Repin	2010-10-13	Similarité :1.0
+<http://data.doremus.org/performance/1eda96be-f3d1-3faf-a10a-b9e657ef4980>	0950803.ttl	Orchestre de Paris, Paavo Järvi, Vadim Repin	2010-10-13
+
+<http://data.doremus.org/performance/b296abf5-e4c5-335d-bae9-306565043577>	6449.ttl	Simón Bolívar Youth Orchestra Venezuela	2009-10-23	Similarité :1.0
+<http://data.doremus.org/performance/050ec49c-7a00-3a2b-8c25-29115589fb04>	0924969.ttl	Simón Bolívar Youth Orchestra Venezuela	2009-10-23
+
+<http://data.doremus.org/performance/45451f94-f822-3e30-abdd-742ebfd7d954>	10076.ttl	Domaine privé John Adams : Asko/Schönberg Ensemble	2010-03-27	Similarité :1.0
+<http://data.doremus.org/performance/7e9b0dd5-6500-30e9-8ecc-73bcacad9877>	0935580.ttl	Domaine privé John Adams. Asko / Schönberg Ensemble	2010-03-27
+
+<http://data.doremus.org/performance/7b1e01eb-cf1e-3bcb-8f75-faf759d75db8>	11110.ttl	Janine Jansen - Itamar Golan	2011-05-12	Similarité :1.0
+<http://data.doremus.org/performance/cef87b44-c684-3c00-afd7-bc4295e1dba1>	0967163.ttl	Janine Jansen, Itamar Golan	2011-05-12
+
+<http://data.doremus.org/performance/8de57696-8a5d-38fb-a5ba-b615929facda>	6443.ttl	 Brahms, musique de chambre I	2009-10-17	Similarité :1.0
+<http://data.doremus.org/performance/e735f6e3-1b1c-3f8e-af66-80eca101781c>	0924579.ttl	Brahms, musique de chambre I	2009-10-17
+
+<http://data.doremus.org/performance/0234a924-c345-30a2-9251-91baab3ca8e1>	11111.ttl	West-Eastern Divan Orchestra - Daniel Barenboim	2011-05-21	Similarité :1.0
+<http://data.doremus.org/performance/d0b6e112-6a28-3513-ae85-0c8f86a0d9ed>	0967748.ttl	West-Eastern Divan Orchestra, Daniel Barenboim	2011-05-21
+
+<http://data.doremus.org/performance/fa484503-ee56-3c56-923d-1cdd298e8227>	5473.ttl	La Querelle des Bouffons	2009-05-14	Similarité :1.0
+<http://data.doremus.org/performance/13dd9e28-a1cb-362d-8f35-a6ee011098ff>	0942599.ttl	La querelle des Bouffons	2009-05-14
+
+<http://data.doremus.org/performance/73c81c07-5f16-3f3b-b180-98fa16c16894>	6516.ttl	Anniversaire Christoph Eschenbach	2010-02-20	Similarité :1.0
+<http://data.doremus.org/performance/a615abfc-2d95-3f60-a989-f6a95871b933>	0935344.ttl	Anniversaire Christoph Eschenbach	2010-02-20
+
+<http://data.doremus.org/performance/5c70e639-2dfd-374d-bd71-ca7e920b226b>	10878.ttl	Orchestre Philharmonique de Radio France - Alan Gilbert - Yvonne Naef	2010-11-27	Similarité :1.0
+<http://data.doremus.org/performance/2faf8de4-800d-3630-9144-aac838be03aa>	0953738.ttl	Orchestre Philharmonique de Radio France. Alan Gilbert. Yvonne Naef	2010-11-27
+
+<http://data.doremus.org/performance/252e816f-c838-34cd-aa1d-166ee7deab1c>	10729.ttl	Youssou Ndour et le Super Etoile	2010-10-28	Similarité :1.0
+<http://data.doremus.org/performance/de3b340f-aa23-3b15-b9df-39f116eca3a7>	0950960.ttl	Youssou Ndour et le Super Etoile	2010-10-28
+
+<http://data.doremus.org/performance/61067792-acd3-3bd7-842d-d360d99e6c47>	10919.ttl	Nat King Cole en espagnol  - David Murray - Omara Portuondo	2010-12-21	Similarité :1.0
+<http://data.doremus.org/performance/6a127f4e-3e1a-3bf3-8575-b6d8d0d3638b>	0955769.ttl	Nat King Cole en espagnol. David Murray. Omara Portuondo	2010-12-21
+
+<http://data.doremus.org/performance/92d8788e-712d-3f69-bdf2-b8b1e815dc6b>	10406.ttl	Christophe	2010-03-16	Similarité :1.0
+<http://data.doremus.org/performance/ea5a3988-0a53-3c73-afcb-e02fa498d833>	0936151.ttl	Christophe	2010-03-16
+
+<http://data.doremus.org/performance/0664c3eb-318c-3f20-9c10-834d07e9c39f>	10962.ttl	Chamber Orchestra of Europe - Bernard Haitink	2011-01-19	Similarité :1.0
+<http://data.doremus.org/performance/aa487f98-a1a4-372c-99c2-5656fbf55bd1>	0955976.ttl	Chamber Orchestra of Europe. Bernard Haitink	2011-01-19
+
+<http://data.doremus.org/performance/352d3957-eda6-3fd2-8fe0-2994000f5154>	10720.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Sergio Tiempo	2010-10-15	Similarité :1.0
+<http://data.doremus.org/performance/a241e8a7-b429-3a2f-80f3-68b77e90810b>	0951541.ttl	Orchestre Philharmonique de Radio France. Myung-Whun Chung. Sergio Tiempo	2010-10-15
+
+<http://data.doremus.org/performance/36ade18c-ec89-3853-823c-0fba807d0c8b>	10927.ttl	Michel Portal Sextet	2011-01-09	Similarité :1.0
+<http://data.doremus.org/performance/cacc8c61-8527-376a-86b6-439728810320>	0956009.ttl	Michel Portal Sextet	2011-01-09
+
+<http://data.doremus.org/performance/3736ce32-71d7-3177-a3b1-9483db263da9>	6444.ttl	Brahms, musique de chambre II	2009-10-18	Similarité :1.0
+<http://data.doremus.org/performance/610769b9-83ad-3acc-99cb-7727353ee787>	0924580.ttl	Brahms, musique de chambre II	2009-10-18
+
+<http://data.doremus.org/performance/dbf9219c-f741-35d1-b593-a9849395607d>	10961.ttl	Chamber Orchestra of Europe - Bernard Haitink	2011-01-18	Similarité :1.0
+<http://data.doremus.org/performance/3e9f2093-0d70-3066-94f6-9a4d7d46f60c>	0955975.ttl	Chamber Orchestra of Europe. Bernard Haitink	2011-01-18
+
+<http://data.doremus.org/performance/cfb8f635-5ba1-3d5f-af29-bac7d46e47e3>	11119.ttl	Orchestre de Paris - Paavo Järvi - Janine Jansen - Antoine Tamestit	2011-01-13	Similarité :1.0
+<http://data.doremus.org/performance/2abf43e2-e7a6-36d0-9745-f8580baabaa7>	0957530.ttl	Orchestre de Paris, Paavo Järvi, Janine Jansen, Antoine Tamestit	2011-01-13
+
+<http://data.doremus.org/performance/35f5952a-4c32-365a-a9bc-2d233c8267b6>	10674.ttl	Chamber Orchestra of Europe - Maria-Joao Pires	2010-09-29	Similarité :1.0
+<http://data.doremus.org/performance/2f07597c-1c79-3911-b725-533577af5d4b>	0948888.ttl	Chamber Orchestra of Europe, Maria-Joao Pires	2010-09-29
+
+<http://data.doremus.org/performance/724f5e7b-45fa-33c0-b0b1-89643293036a>	10934.ttl	Orchestre de Paris - Paavo Järvi - Leif Ove Andsnes	2011-05-25	Similarité :1.0
+<http://data.doremus.org/performance/a89e8b68-0f72-38b4-baa8-ade7a29afdfc>	0967729.ttl	Orchestre de Paris. Paavo Järvi, Leif Ove Andsnes	2011-05-25
+
+<http://data.doremus.org/performance/5443439d-c279-3e86-a764-3326dec6e342>	6445.ttl	Brahms, musique de chambre III	2009-10-18	Similarité :1.0
+<http://data.doremus.org/performance/4d4526c0-1549-3c40-aee5-2443ac7ce10a>	0924584.ttl	Brahms, musique de chambre III	2009-10-18
+
+<http://data.doremus.org/performance/40cb1568-3059-312d-a429-8c73f1f50390>	10708.ttl	Orchestre de Paris - Paavo Järvi - Soile Isokoski - Juha Uusitalo	2010-09-15	Similarité :1.0
+<http://data.doremus.org/performance/c2c5fa46-147a-3bd1-b81a-8a070686b0c6>	0949048.ttl	Orchestre de Paris, Paavo Järvi, Soile Isokoski, Juha Uusitalo	2010-09-15
+
+<http://data.doremus.org/performance/acc87d24-0f27-318e-be7a-b7f6a0300849>	11668.ttl	Orchestre Philharmonique de Radio France - Vasily Petrenko - Dimitri Voropaev - Sergei Leiferkus	2012-02-10	Similarité :1.0
+<http://data.doremus.org/performance/c55aa049-0cb9-3b63-b9cb-52df32b20a33>	0981598.ttl	Orchestre Philharmonique de Radio France, Vasily Petrenko, Dimitri Voropaev, Sergei Leiferkus	2012-02-10
+
+<http://data.doremus.org/performance/0dd7e492-d8ae-3922-935a-216745b642f3>	12689.ttl	Orchestre Philharmonique de Radio France - Vasily Petrenko - Julia Fischer	2013-06-14	Similarité :1.0
+<http://data.doremus.org/performance/a041af38-ec88-3812-9cbb-a3347b35d52d>	1004739.ttl	Orchestre Philharmonique de Radio France, Vasily Petrenko, Julia Fischer	2013-06-14
+
+<http://data.doremus.org/performance/44aa8a56-7c1e-3f5c-a0a4-7c2160ad1833>	13285.ttl	Orchestre de Paris - Paavo Järvi - Yefim Bronfman 	2013-10-23	Similarité :1.0
+<http://data.doremus.org/performance/f5cbf3b9-4442-34c3-a5fa-74515df1ba19>	1010184.ttl	Orchestre de Paris, Paavo Järvi, Yefim Bronfman	2013-10-23
+
+<http://data.doremus.org/performance/c7b66be4-373e-30af-b69b-1f4f2c45cf43>	12419.ttl	Orchestre de Paris - Yutaka Sado - Boris Berezovsky	2013-06-05	Similarité :1.0
+<http://data.doremus.org/performance/1a4221d2-8f23-3ba5-95e7-37a102d8fbd9>	1003224.ttl	Orchestre de Paris, Yutaka Sado, Boris Berezovsky	2013-06-05
+
+<http://data.doremus.org/performance/fdec3ff3-3b92-326e-9931-325146bf4316>	11624.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - Symphonie n°9 de Beethoven 	2011-12-02	Similarité :1.0
+<http://data.doremus.org/performance/f87ba807-ff2e-3064-ae8c-d0c7bff66eb6>	0978085.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, Symphonie n°9 de Beethoven	2011-12-02
+
+<http://data.doremus.org/performance/cfe58f28-8789-3143-bcd6-cabf8f5b0272>	11610.ttl	Orchestre de Paris - Paavo Järvi - Dang Thai Son	2011-11-09	Similarité :1.0
+<http://data.doremus.org/performance/a761c966-5ad4-3746-b16a-32a07be21774>	0977247.ttl	Orchestre de Paris - Paavo Järvi - Dang Thai Son	2011-11-09
+
+<http://data.doremus.org/performance/62797b39-7007-32c6-9c98-56b6a69773d0>	11655.ttl	Orchestre Philharmonique de Radio France - Alexander  Vedernikov - Mikhaïl Rudy	2012-01-06	Similarité :1.0
+<http://data.doremus.org/performance/309387bb-7876-328e-8c09-d64b8035fec2>	0980044.ttl	Orchestre Philharmonique de Radio France, Alexander Vedernikov, Mikhaïl Rudy	2012-01-06
+
+<http://data.doremus.org/performance/81cb9fd8-38e1-3c2a-82f4-50f0d0b449f7>	11634.ttl	Orchestre de Paris - Pierre Boulez - Bertrand Chamayou	2011-12-21	Similarité :1.0
+<http://data.doremus.org/performance/c9ca12f7-9d72-35f3-9dc0-51d784e1d897>	0979095.ttl	Orchestre de Paris, Pierre Boulez, Bertrand Chamayou	2011-12-21
+
+<http://data.doremus.org/performance/440b8d5e-e52b-3afd-ba7a-02a966fd059d>	12731.ttl	Orchestre de Paris - Andrey Boreyko - Khatia Buniatishvili	2013-06-12	Similarité :1.0
+<http://data.doremus.org/performance/de2f8352-e8d2-3b1d-97fd-14eb27cefc7d>	1004845.ttl	Orchestre de Paris, Andrey Boreyko, Khatia Buniatishvili	2013-06-12
+
+<http://data.doremus.org/performance/b23819bf-4beb-3a90-ab87-b60dac5d8bcc>	11701.ttl	Orchestre Philharmonique de Radio France - Gustavo Dudamel	2012-04-13	Similarité :1.0
+<http://data.doremus.org/performance/053160de-d772-3947-8384-896d3e092b6b>	0985772.ttl	Orchestre Philharmonique de Radio France, Gustavo Dudamel	2012-04-13
+
+<http://data.doremus.org/performance/0d0f669b-4a07-3c19-bd8b-db57f2bcea06>	11595.ttl	Orchestre Philharmonique de Radio France - Eliahu Inbal - Isabelle Faust - Steve Davislim 	2011-10-21	Similarité :1.0
+<http://data.doremus.org/performance/bdda0f1e-8a40-3510-a4cf-6e4be6e30165>	0976415.ttl	Orchestre Philharmonique de Radio France, Eliahu Inbal, Isabelle Faust, Steve Davislim	2011-10-21
+
+<http://data.doremus.org/performance/9aca53b7-f26d-3b9f-a8e5-d816541312b8>	11922.ttl	Orchestre de Paris - Kristjan Järvi - Xavier de Maistre	2012-06-20	Similarité :1.0
+<http://data.doremus.org/performance/bac539fb-566c-335a-b9bc-d7c9d82dbf95>	0989253.ttl	Orchestre de Paris, Kristjan Järvi, Xavier de Maistre	2012-06-20
+
+<http://data.doremus.org/performance/e8dfb23f-5268-3b97-9a48-35ff81694fe3>	11704.ttl	Orchestre Philharmonique de Radio France - Gustavo Dudamel	2012-04-20	Similarité :1.0
+<http://data.doremus.org/performance/6b5552ee-7ee7-3189-af0c-badec18734c7>	0985774.ttl	Orchestre Philharmonique de Radio France, Gustavo Dudamel	2012-04-20
+
+<http://data.doremus.org/performance/10806859-3bc1-3b94-868e-cf4cc01c89c9>	11686.ttl	Orchestre de Paris - Paavo Järvi - Katia et Marielle Labèque	2012-03-15	Similarité :1.0
+<http://data.doremus.org/performance/6281aef9-fc0b-3677-9c9d-50da6696d354>	0983794.ttl	Orchestre de Paris, Paavo Järvi, Katia et Marielle Labèque	2012-03-15
+
+<http://data.doremus.org/performance/548fced7-7b5d-3ad8-b356-9ac279e918b7>	11627.ttl	Orchestre Philharmonique de Radio France - Alan Gilbert - Barry Douglas	2011-12-09	Similarité :1.0
+<http://data.doremus.org/performance/626d6890-9445-31fd-aa60-228eb953377a>	0978428.ttl	Orchestre Philharmonique de Radio France - Alan Gilbert - Barry Douglas	2011-12-09
+
+<http://data.doremus.org/performance/6980f055-9609-3a9b-af93-f1b84900f75b>	13247.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung - David Kadouch	2013-09-13	Similarité :1.0
+<http://data.doremus.org/performance/91222574-2c4f-3450-9358-929736931faa>	1008361.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung, David Kadouch	2013-09-13
+
+<http://data.doremus.org/performance/bf1e5270-c6a7-39b2-89e0-8504ac6a1398>	11709.ttl	Orchestre National du Capitole de Toulouse - Tugan Sokhiev - Jean-Yves Thibaudet	2012-05-12	Similarité :1.0
+<http://data.doremus.org/performance/91f0075f-8837-3f12-8a69-32d4c35c41a7>	0987968.ttl	Orchestre National du Capitole de Toulouse, Tugan Sokhiev, Jean-Yves Thibaudet	2012-05-12
+
+<http://data.doremus.org/performance/23954dab-b015-315c-99a6-78027ce3d5fa>	11687.ttl	Orchestre Philharmonique de Radio France - Myung-Whun Chung	2012-03-16	Similarité :1.0
+<http://data.doremus.org/performance/7728c0a1-7562-36da-b399-f7b2ddbea81a>	0983800.ttl	Orchestre Philharmonique de Radio France, Myung-Whun Chung	2012-03-16
+
+<http://data.doremus.org/performance/54467581-34a5-3f3a-95b5-3eb79428e16d>	11659.ttl	Orchestre de Paris - Andris Nelsons - Sergey Khachatryan	2012-01-18	Similarité :1.0
+<http://data.doremus.org/performance/29a678f1-934b-3760-8291-7ac66e1b26f4>	0980051.ttl	Orchestre de Paris, Andris Nelsons, Sergey Khachatryan	2012-01-18
+
+<http://data.doremus.org/performance/c5cfc177-7c27-350f-8b9f-e63e8ab92ccd>	11605.ttl	Kammerorchester des Bayerischen Rundfunks - Hélène Grimaud - Sandrine Piau - Radoslaw Szulc	2011-11-03	Similarité :1.0
+<http://data.doremus.org/performance/112aa869-effa-3f09-a1d5-a282995f6def>	0977014.ttl	Kammerorchester des Bayerischen Rundfunks - Hélène Grimaud - Sandrine Piau - Radoslaw Szulc	2011-11-03
+
+<http://data.doremus.org/performance/07a43481-955b-3827-b271-6a00360577e3>	11711.ttl	Orchestre de Paris - Paavo Järvi  	2012-05-23	Similarité :1.0
+<http://data.doremus.org/performance/6b210a19-1224-3f20-9d28-3c6d7a1fa825>	0987827.ttl	Orchestre de Paris, Paavo Järvi	2012-05-23
+
+<http://data.doremus.org/performance/15d39365-44c2-351a-9499-17ee93814d47>	11926.ttl	AaRON	2012-01-15	Similarité :1.0
+<http://data.doremus.org/performance/c6ed239a-e6fe-3b1d-80a5-55bafb725c8f>	0980795.ttl	AaRON	2012-01-15
+
+<http://data.doremus.org/performance/aacf0f40-a98e-3cd8-b306-aaf247b6e52c>	12685.ttl	Orchestre Philharmonique de Radio France - Mikko Franck - Leila Josefowicz	2013-04-05	Similarité :1.0
+<http://data.doremus.org/performance/8376c426-c2c5-3faa-8ea8-4bdf361e345c>	1001594.ttl	Orchestre Philharmonique de Radio France, Mikko Franck, Leila Josefowicz	2013-04-05
+
