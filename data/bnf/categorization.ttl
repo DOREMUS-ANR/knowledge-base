@@ -15,17 +15,17 @@
 
 <http://data.doremus.org/categorization/bnf/10201> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "chanson anglophone"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/chanson> ;
+	skos:broader <http://data.doremus.org/categorization/10200> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10202> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "chanson d'autres langues"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/chanson> ;
+	skos:broader <http://data.doremus.org/categorization/10200> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10203> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "chanson francophone"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/chanson> ;
+	skos:broader <http://data.doremus.org/categorization/10200> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10700> a mus:M19_Categorization , skos:Concept ;
@@ -34,27 +34,27 @@
 
 <http://data.doremus.org/categorization/bnf/10701> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "blues"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/jazz%2C+blues+et+gospel> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10702> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "gospel, spiritual"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/jazz%2C+blues+et+gospel> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10703> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "jazz"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/jazz%2C+blues+et+gospel> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10704> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "jazz-rock"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/jazz%2C+blues+et+gospel> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10705> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "open music"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/jazz%2C+blues+et+gospel> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10800> a mus:M19_Categorization , skos:Concept ;
@@ -63,27 +63,27 @@
 
 <http://data.doremus.org/categorization/bnf/10801> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "comédie musicale, opérette"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+%28divers%29> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10800> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10802> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "interprétation par des amateurs"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+%28divers%29> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10800> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10803> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique de film"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+%28divers%29> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10800> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10804> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique mécanique"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+%28divers%29> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10800> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10805> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique militaire, fanfare, débuchés"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+%28divers%29> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10800> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10900> a mus:M19_Categorization , skos:Concept ;
@@ -93,64 +93,64 @@
 <http://data.doremus.org/categorization/bnf/10901> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique ancienne"@fr;
   skos:scopeNote "avant 1600"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10902> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique baroque"@fr;
   skos:scopeNote "1600-1750" ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10903> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique classique adaptée"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10904> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique contemporaine"@fr;
   skos:scopeNote "depuis 1945"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10905> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique de scène"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10906> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique dramatique vocale"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10907> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique instrumentale de chambre"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10908> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique instrumentale orchestrale"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10909> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique instrumentale soliste"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10910> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique sacrée"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10911> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique vocale avec choeur"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/10912> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique vocale soliste"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+classique> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/10900> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11000> a mus:M19_Categorization , skos:Concept ;
@@ -163,17 +163,17 @@
 
 <http://data.doremus.org/categorization/bnf/11101> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "new age"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+fonctionnelle> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11100> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11102> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "relaxation"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+fonctionnelle> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11100> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11103> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "ambiance"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musique+fonctionnelle> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11100> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11200> a mus:M19_Categorization , skos:Concept ;
@@ -186,67 +186,67 @@
 
 <http://data.doremus.org/categorization/bnf/11301> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Amérique latine"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11302> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "folk, country"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11303> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique d'inspiration folklorique et folklore adapté"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11304> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique traditionnelle étrangère"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11305> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique traditionnelle française"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11306> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "salsa"@es ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11307> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "tango"@es ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11308> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Afrique"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11309> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Amérique du Nord"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11310> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Antilles"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11311> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Asie/Océanie"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11312> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Europe"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11313> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musique du monde Moyen Orient/pays arabes"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+du+monde> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11300> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11500> a mus:M19_Categorization , skos:Concept ;
@@ -255,67 +255,67 @@
 
 <http://data.doremus.org/categorization/bnf/11501> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "african jazz"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11502> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "disco, dance music"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11503> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "metal, hard rock"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11504> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "rap, hip hop"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11505> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "reggae, ragga"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11506> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "rhythm and blues, soul, funk, R'n'b"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11507> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "pop, rock"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11508> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "rock progressif"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11509> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "rock 'n' roll, rockabilly"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11510> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "techno"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11511> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "world"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11512> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "disco, rap"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11513> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "rock alternatif"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/rock> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11500> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11700> a mus:M19_Categorization , skos:Concept ;
@@ -324,17 +324,17 @@
 
 <http://data.doremus.org/categorization/bnf/11701> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "musette"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/vari%C3%A9t%C3%A9+instrumentale+et+vocale> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11706> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "variétés électro-acoustiques"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/vari%C3%A9t%C3%A9+instrumentale+et+vocale> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/11707> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "variétés instrumentales occidentales"@fr ;
-	skos:broader <http://data.doremus.org/categorization/bnf/vari%C3%A9t%C3%A9+instrumentale+et+vocale> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/11700> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/12200> a mus:M19_Categorization , skos:Concept ;
@@ -343,15 +343,50 @@
 
 <http://data.doremus.org/categorization/bnf/12201> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "techno"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+%C3%A9lectroniques> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/12200> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/12202> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "disco, dance music"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+%C3%A9lectroniques> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/12200> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
 
 <http://data.doremus.org/categorization/bnf/12203> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "electro"@en ;
-	skos:broader <http://data.doremus.org/categorization/bnf/musiques+%C3%A9lectroniques> ;
+	skos:broader <http://data.doremus.org/categorization/bnf/12200> ;
+	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/0> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "éditions critiques"@fr ;
+	skos:topConceptOf <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/1> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "initiation musicale"@fr ;
+	skos:topConceptOf <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/5> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "musique légère"@fr ;
+	skos:topConceptOf <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/6> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "musique de scène"@fr ;
+	skos:topConceptOf <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/2> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "enseignement"@fr ;
+	skos:topConceptOf <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/2e> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "enseignement élémentaire"@fr ;
+	skos:broader <http://data.doremus.org/categorization/bnf/2> ;
+	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/2s> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "enseignement secondaire"@fr ;
+	skos:broader <http://data.doremus.org/categorization/bnf/2> ;
+	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
+
+<http://data.doremus.org/categorization/bnf/2u> a mus:M19_Categorization , skos:Concept ;
+	rdfs:label "enseignement supérieur"@fr ;
+	skos:broader <http://data.doremus.org/categorization/bnf/2> ;
 	skos:inScheme <http://data.doremus.org/categorization/bnf/> .
