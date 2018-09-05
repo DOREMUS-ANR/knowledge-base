@@ -1,0 +1,26 @@
+@prefix mus: <http://data.doremus.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.doremus.org/format/material> a mus:M175_Music_Format ;
+    rdfs:label "material"@en,
+        "matériel"@fr,
+        "materiale"@it .
+
+<http://data.doremus.org/format/parts> a mus:M175_Music_Format ;
+    rdfs:label "parts"@en,
+        "parties"@fr,
+        "parti"@it .
+
+<http://data.doremus.org/format/soloist> a mus:M175_Music_Format ;
+    rdfs:label "music for soloist instrument"@en,
+        "musique pour instrument soliste"@fr,
+        "musica per strumento solista"@it .
+
+<http://data.doremus.org/format/voice_instrument> a mus:M175_Music_Format ;
+    rdfs:label "music for a voice and an instrument"@en,
+        "musique pour une voix et un instrument"@fr,
+        "musica per una voce e uno strumento"@it .

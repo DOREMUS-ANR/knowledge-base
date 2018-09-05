@@ -1,0 +1,320 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#a> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6453> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Orchesterpartitur"@de,
+        "Partitur"@de,
+        "Spielpartitur"@de,
+        "performance score"@en,
+        "playing score"@en,
+        "score"@en,
+        "Partitura"@es,
+        "grande partition"@fr,
+        "partition"@fr,
+        "partition d’orchestre"@fr,
+        "partitúra"@hu,
+        "vezérkönyv"@hu,
+        "parte con guida"@it,
+        "partitura"@it,
+        "partitura"@ru,
+        "партитура"@ru ;
+    skos:definition """
+Score format consisting of a series of staves on which all the instrumental and/or vocal parts of a musical work are written, one under the other in vertical alignment, so that they can be read simultaneously
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "a"@en ;
+    skos:prefLabel "full score"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#b> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6454> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Studienpartitur"@de,
+        "Taschenpartitur"@de,
+        "kleine Partitur"@de,
+        "miniature score"@en,
+        "pocket score"@en,
+        "study score"@en,
+        "partitura de bolsillo"@es,
+        "partition de poche"@fr,
+        "partition de travail"@fr,
+        "partition miniature"@fr,
+        "petite partition"@fr,
+        "Zsebpartitúra"@hu,
+        "partitura tascabile"@it,
+        "partiturina"@it,
+        "karmannaja partitura"@ru,
+        "карманная партитура"@ru ;
+    skos:definition """
+A musical score not primarily intended for performance use, with the notation and/or text reduced in size.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "b"@en ;
+    skos:prefLabel "score (miniature or study size)"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#c> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6455> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Klavierauszug"@de,
+        "Sparte"@de,
+        "chorus score"@en,
+        "partitura vocal"@es,
+        "partition chant et piano"@fr,
+        "partition vocale"@fr,
+        "Spartito"@it ;
+    skos:definition """
+Score where accompaniment is reduced for keyboard instrument(s), and the voice and/or instrumental solo part(s) remain unaltered.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "c"@en ;
+    skos:prefLabel "vocal score, accompaniment reduced for keyboard"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#d> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6456> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Chorpartitur"@de,
+        "Singpartitur"@de,
+        "choral score"@en,
+        "partitura de coro"@es,
+        "partition des chœurs"@fr,
+        "karpartitúra"@hu,
+        "kóruspartitúra"@hu,
+        "partitura vocale"@it,
+        "horovaja partitura"@ru,
+        "хоровая партитура"@ru ;
+    skos:definition """
+Score where the accompaniment to vocal or choral parts has been omitted and only the voice parts remain.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "d"@en ;
+    skos:prefLabel """
+voice score, chorus score, accompaniment has been dropped
+"""@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#e> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6457> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:prefLabel "condensed score, piano conductor score"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#f> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6458> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Direktion"@de,
+        "Direktionsstimme"@de,
+        "Klavierpartitur"@de,
+        "conductor score"@en,
+        "particela de director"@es,
+        "partitura guión"@es,
+        "partition condensée"@fr,
+        "parte di conduttore"@it,
+        "partitura condensata"@it ;
+    skos:definition """
+Score format presenting only the principal musical parts on a minimum number of staves, and generally organized by instrumental sections. A conductor score is a performance part for a particular instrument of an ensemble work to which cues have been added for the other instruments to permit the performer of the part also to conduct the performance.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "f"@en ;
+    skos:prefLabel "graphic score"@en,
+        "partition conducteur"@fr ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#g> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6459> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "short score"@en,
+        "partitura reducida"@es,
+        "partition réduite"@fr,
+        "partitura ristretta"@it ;
+    skos:definition """
+Score format giving all the parts on a minimum number of staves, normally two, as with hymnals.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "g"@en ;
+    skos:prefLabel "close score"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#h> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6460> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Tabulatur"@de,
+        "finger notation"@en,
+        "Cifra"@es,
+        "tablatura"@es,
+        "tablature"@fr,
+        "tabulatúra"@hu,
+        "Intavolatura"@it,
+        "tabulatura"@ru,
+        "табулатура"@ru ;
+    skos:definition """
+Score consisting of a music notation where letters, numbers or graphic symbols indicate the finger position on the instrument or the name of the notes.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "h"@en ;
+    skos:prefLabel "tablature"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#i> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6461> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Chorbuch"@de,
+        "libro de coro"@es,
+        "livre de choeur"@fr,
+        "kóruskönyv"@hu,
+        "libro corale"@it ;
+    skos:definition """
+Score format giving the different vocal parts on two facing pages of the book.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "i"@en ;
+    skos:prefLabel "choir-book"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#j> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6462> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Cembalo-Partitur"@de,
+        "Generalbaβpartitur"@de,
+        "partitura de coro y continuo"@es,
+        "particella"@fr,
+        "particella"@it ;
+    skos:definition """
+Score of only voices and continuo, omitting the other instruments.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "j"@en ;
+    skos:prefLabel "compressed score"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#k> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6463> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Pseudo-Partitur"@de,
+        "Pseudopartitura"@es,
+        "pseudo-partition"@fr,
+        "Pseudopartitura"@it ;
+    skos:definition "Score without vertical coincidence of voices."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "k"@en ;
+    skos:prefLabel "pseudo-score"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#l> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6464> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "particela (parte) solista"@es,
+        "Cartina"@it ;
+    skos:definition """
+Score consisting of a part containing only one solo for a voice of a choir
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "l"@en ;
+    skos:prefLabel "solo part"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#m> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6470> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:prefLabel "multiple formats"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#n> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6471> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "Partitino"@de,
+        "parties en accolade"@fr,
+        "Spartitino"@it ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "n"@en ;
+    skos:prefLabel """
+score with only homogeneous groups of instruments of the orchestra
+"""@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#o> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6465> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "text and chords"@en,
+        "texte et accords"@fr,
+        "testo e accordi"@it ;
+    skos:definition """
+Score frequently used in modern pop music, consisting generally in a melodic line with letters and/or graphic symbols representing chords or finger positions on the guitar.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "o"@en ;
+    skos:prefLabel "condensed score with text and chord symbols"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#p> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6466> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:altLabel "partitura da tavolo"@it ;
+    skos:definition """
+Score consisting of parts written with different orientation on facing pages, so as to enable reading by players standing around a table.
+"""@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "p"@en ;
+    skos:prefLabel "table book"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#u> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6467> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "u"@en ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#x> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6468> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:definition "Not printed or manuscript music."@en ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "x"@en ;
+    skos:prefLabel "not applicable"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#z> a skos:Concept ;
+    reg:identifier <http://metadataregistry.org/concepts/6469> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    skos:inScheme <http://iflastandards.info/ns/unimarc/terms/tos#> ;
+    skos:notation "z"@en ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf <http://iflastandards.info/ns/unimarc/terms/tos#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://iflastandards.info/ns/unimarc/terms/tos#> a skos:ConceptScheme ;
+    dc:title "UNIMARC: Format of notated music: Type of score" ;
+    skos:hasTopConcept <http://iflastandards.info/ns/unimarc/terms/tos#a>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#b>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#c>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#d>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#e>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#f>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#g>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#h>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#i>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#j>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#k>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#l>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#m>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#n>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#o>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#p>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#u>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#x>,
+        <http://iflastandards.info/ns/unimarc/terms/tos#z> .
+
