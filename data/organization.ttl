@@ -4,6 +4,8 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix schema: <http://schema.org/> .
+@prefix ecrm:	<http://erlangen-crm.org/current/> .
 
 <http://data.doremus.org/organization/DOREMUS> a foaf:Project, prov:Agent ;
   rdfs:label "DOREMUS" ;
@@ -17,7 +19,21 @@
   owl:sameAs <http://catalogue.bnf.fr/ark:/12148/cb16651244g> ;
   owl:sameAs <http://viaf.org/viaf/315254866> ;
   owl:sameAs <http://dbpedia.org/resource/Philharmonie_de_Paris> ;
-  owl:sameAs <http://www.wikidata.org/entity/Q3378907> .
+  owl:sameAs <http://www.wikidata.org/entity/Q3378907> ;
+  owl:sameAs <http://data.doremus.org/artist/8f195289-d887-3fb2-839f-45d4c8e58fda> ;
+  owl:sameAs <http://data.doremus.org/artist/f8401fcd-1e30-3cde-a7d7-5c51b62fa8b4> ;
+  schema:location .
+
+<http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> a ecrm:E53_Place ;
+  rdfs:label "Philharmonie de Paris" ;
+  ecrm:P89_falls_within <http://sws.geonames.org/2988507/>;
+  owl:sameAs <http://data.doremus.org/place/eb53e50b-bfbc-35f1-bb23-7e6a2e60ea1c> ;
+  owl:sameAs <http://data.doremus.org/place/1eecc91c-60a7-33d2-87c4-a207b2e9623a> ;
+  owl:sameAs <http://data.doremus.org/place/42b7a5a1-61c7-3838-9771-1fd065a7a4ab> ;
+  owl:sameAs <http://data.doremus.org/place/01119211-51a5-301a-9077-d1de584d1882> ;
+  owl:sameAs <http://data.doremus.org/place/a54c7c26-ed3e-3312-87ae-3324614d454a> ;
+  owl:sameAs <http://data.doremus.org/place/2c1983d6-ac3a-3e7c-9b98-2b264fab004d> ;
+  owl:sameAs <http://data.doremus.org/place/6b28afca-0c8c-3858-8c55-d2391f21fbb3> .
 
 <http://data.doremus.org/organization/BnF> a foaf:Organization, prov:Agent ;
   rdfs:label "Bibliothèque Nationale de France" ;
