@@ -22,7 +22,7 @@
   owl:sameAs <http://www.wikidata.org/entity/Q3378907> ;
   owl:sameAs <http://data.doremus.org/artist/8f195289-d887-3fb2-839f-45d4c8e58fda> ;
   owl:sameAs <http://data.doremus.org/artist/f8401fcd-1e30-3cde-a7d7-5c51b62fa8b4> ;
-  schema:location .
+  schema:location <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6>.
 
 <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> a ecrm:E53_Place ;
   rdfs:label "Philharmonie de Paris" ;
