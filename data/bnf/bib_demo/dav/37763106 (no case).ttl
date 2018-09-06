@@ -1,0 +1,445 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1969"^^xsd:gYear .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Bye bye, love" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/title_responsibility> .
+
+<http://sws.geonames.org/5128581/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "New York City"@fr ;
+        ecrm:P1_is_identified_by  "New York City"@fr .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "I can't stop loving you" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/responsibility> .
+
+<http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "You don't know me" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Just a little lovin'" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Hey, good lookin'" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/title_responsibility> .
+
+<http://data.doremus.org/bnf>
+        dcterms:modified  "2018-09-06T09:27:52.608Z"^^xsd:dateTime .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "I love you so much it hurts" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "It makes no difference now" .
+
+<http://data.doremus.org/event/ef2ecd3a-dd17-3d25-9e21-b64092683f4c>
+        a                     efrbroo:F28_Expression_Creation , prov:Entity ;
+        efrbroo:R17_created   <http://data.doremus.org/manifestation/715bbf9f-f853-3bd8-af98-70d6aaa67892> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/510a642b-3618-334b-9d79-05f7c77ff2a2> ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom   <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy   <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953>
+        a                             efrbroo:F24_Publication_Expression , prov:Entity ;
+        rdfs:label                    "Modern sounds in country and western music" ;
+        mus:U167_has_title_proper     "Modern sounds in country and western music" ;
+        mus:U169_was_issued_under_label_name
+                <http://data.doremus.org/artist/99dd19d9-3647-3838-9823-4712074ec418> ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/title> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/cast/1> ;
+        mus:U184_has_publication_statement
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/publication/1> ;
+        mus:U185_has_distribution_statement
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/distribution/1> ;
+        mus:U19_is_categorized_as     <http://data.doremus.org/vocabulary/categorization/bnf/11506> , <http://data.doremus.org/vocabulary/categorization/bnf/11302> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/title_responsibility> ;
+        ecrm:P148_has_component       <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7> ;
+        ecrm:P1_is_identified_by      <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/id/ABCS 410> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Born to lose" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Half as much" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Born to lose" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "It makes no difference now" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/assignment/>
+        a                        ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned       <http://data.doremus.org/vocabulary/categorization/bnf/11302> , <http://data.doremus.org/vocabulary/categorization/bnf/11506> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/manifestation/79442396-4430-3395-ae0f-cb758e36c336/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Modern sounds in country and western music" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/publication/1>
+        a             mus:M160_Publication_Statement ;
+        rdfs:comment  "New York City : ABC records, Inc., 1969" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/responsibility>
+        a       mus:M157_Statement_of_Responsibility .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "I can't stop loving you" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Hey, good lookin'" .
+
+<http://data.doremus.org/manifestation/715bbf9f-f853-3bd8-af98-70d6aaa67892/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Modern sounds in country and western music" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Just a little lovin'" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "Modern sounds in country and western music / Ray Charles, chant, p, p electr; Don Wilkerson, saxo t; the Raelets, groupe voc... [et al.]" .
+
+<http://data.doremus.org/manifestation/715bbf9f-f853-3bd8-af98-70d6aaa67892/assignment/>
+        a                        ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned       <http://data.doremus.org/vocabulary/categorization/bnf/11302> , <http://data.doremus.org/vocabulary/categorization/bnf/11506> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/6/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Born to lose" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Bye bye, love" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/1/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Bye bye, love" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Careless love" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "You win again" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Half as much" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/responsibility> .
+
+<http://data.doremus.org/manifestation/79442396-4430-3395-ae0f-cb758e36c336>
+        a                          prov:Entity , efrbroo:F3_Manifestation_Product_Type ;
+        mus:CLU198_should_have_container
+                [ a                 mus:M171_Container ;
+                  rdfs:label        "pochette" ;
+                  ecrm:P3_has_note  "pochette"
+                ] ;
+        mus:CLU206_should_have_media_type
+                "audio" ;
+        mus:CLU217_should_have_playing_speed
+                <http://data.doremus.org/vocabulary/playing_speed/33rpm> ;
+        ecrm:P104_is_subject_to    <http://data.doremus.org/manifestation/79442396-4430-3395-ae0f-cb758e36c336/communication_right> ;
+        efrbroo:CLR6_should_carry  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "I love you so much it hurts" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Just a little lovin'" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/5/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/id/ABCS 410>
+        a                       ecrm:E42_Identifier ;
+        rdfs:label              "ABCS 410" ;
+        ecrm:P2_has_type        <http://data.doremus.org/vocabulary/id/commercial> ;
+        efrbroo:R8_consists_of  "ABCS 410" ;
+        efrbroo:R8_consists_of  <http://data.doremus.org/artist/99dd19d9-3647-3838-9823-4712074ec418> .
+
+<http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T09:27:52.451Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Careless love" .
+
+<http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "1969" ;
+        time:hasBeginning  <http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/interval/end> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "You win again" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Careless love" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/10/responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Half as much" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/3/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Hey, good lookin'" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/12/responsibility> .
+
+<http://data.doremus.org/manifestation/715bbf9f-f853-3bd8-af98-70d6aaa67892>
+        a                             prov:Entity , mus:M46_Set_of_Tracks ;
+        rdfs:label                    "Modern sounds in country and western music" ;
+        mus:U167_has_title_proper     "Modern sounds in country and western music" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/715bbf9f-f853-3bd8-af98-70d6aaa67892/title> ;
+        mus:U19_is_categorized_as     <http://data.doremus.org/vocabulary/categorization/bnf/11506> , <http://data.doremus.org/vocabulary/categorization/bnf/11302> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        dc:identifier                 "37763106" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/activity/1> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/e09fc6e4-c27c-3329-bb0a-4603207a26c0> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/work/e09fc6e4-c27c-3329-bb0a-4603207a26c0>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "Ray Charles, chant, p, p electr" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/4/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "I love you so much it hurts" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/distribution/1>
+        a             mus:M161_Distribution_Statement ;
+        rdfs:comment  "New York City" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Worried mind" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "It makes no difference now" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/8/title_responsibility> .
+
+<http://data.doremus.org/artist/99dd19d9-3647-3838-9823-4712074ec418>
+        a                         mus:M154_Label_Name ;
+        rdfs:label                "ABC records" ;
+        ecrm:P1_is_identified_by  "ABC records" .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "You don't know me" .
+
+<http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/2ff60689-8bcc-36d6-9522-1e5f2f3d773f> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "Worried mind" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/responsibility> .
+
+<http://data.doremus.org/event/75709018-8fbd-3180-9496-aed68a44064d/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1969"^^xsd:gYear .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "You don't know me" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/2/title_responsibility> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/title_responsibility>
+        a                        mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment             "You win again" ;
+        ecrm:P148_has_component  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/title> , <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/9/responsibility> .
+
+<http://data.doremus.org/editing/be2276a6-ac78-3fa0-a31e-a4d3ce5959d5>
+        a                     mus:M29_Editing , prov:Entity ;
+        mus:U225_used_sound_spatialization_technique
+                <http://data.doremus.org/vocabulary/spazialization/stereo> ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom   <http://catalogue.bnf.fr/ark:/12148/cb37763106v.intermarc> ;
+        prov:wasGeneratedBy   <http://data.doremus.org/activity/ec349269-8f05-343a-b80e-39be5174041a> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/11/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "I can't stop loving you" .
+
+<http://data.doremus.org/artist/2ff60689-8bcc-36d6-9522-1e5f2f3d773f>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "ABC records, Inc." ;
+        ecrm:P131_is_identified_by  "ABC records, Inc." ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/5128581/> .
+
+<http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7>
+        a                             mus:M167_Publication_Expression_Fragment ;
+        rdfs:label                    "Worried mind" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/responsibility> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fae8c094-048f-3fb7-854e-e6d87a28a953/fragment/7/title_responsibility> .

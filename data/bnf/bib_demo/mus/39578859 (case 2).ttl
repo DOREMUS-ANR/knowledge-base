@@ -1,0 +1,414 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a/interval> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/de1d0975-829a-3bb9-9c63-d5191f2eb0d0> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/265213b5-7cfb-31bc-bce7-f35d452f3521> .
+
+<http://data.doremus.org/activity/14e05a2a-5140-3023-b3b5-7eb2987fc673>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.657Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/7c2aad56-45d0-3f6d-a2fa-d9979cd93e07>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.628Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/2fcf5c02-4d34-3812-bbb6-4f33fecdb0a1>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/e1d8c9af-0de4-33f8-8b88-39e8cd452a58>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.658Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/15f95339-6fed-3d4b-b188-87578afceb14>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.663Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/3dc7e6b9-5203-3afb-a4fb-e8971acc85ad>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/12998f04-ca6d-3e42-aafb-31fb6f1464db>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/bnf>
+        dcterms:modified  "2018-09-06T12:02:11.671Z"^^xsd:dateTime .
+
+<http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Questo libro di sonate // e della Ortensia // Caccini" .
+
+<http://data.doremus.org/activity/7cb3f6ab-9f75-358f-b550-24da5cc20ef1>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.656Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734>
+        a                             efrbroo:F24_Publication_Expression , prov:Entity ;
+        rdfs:label                    "Questo libro di sonate // e della Ortensia // Caccini" ;
+        mus:U167_has_title_proper     "Questo libro di sonate // e della Ortensia // Caccini" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734/title> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734/title_responsibility> ;
+        mus:U50_has_annotation        "Au v°  de la p. de t. : \"Animale salvatico\"" , "Au bas de la p. de t. : \"Carissima Teresa leggete questo mio scritto che sovi piacera assai sammore\"" , "Les pièces instrumentales sont soit pour clavier, soit pour un instr. mélodique non déterminé" , "Contient 22 arias, 8 pièces instrumentales, 2 exercices notés en Sol 2 et Ut 3 et quelques extraits d'arias" , "Rébus à la p. de t. avec les mentions : \"Anime care io voglio\", \"delle // del Purgatorio\", \"Anime\"" , "Dessin au fusain rouge à la p. de t. ; lettrine ornée au f. 30" , "Bc" , "Voix : Ut 1 ou Ut 3" ;
+        mus:U58_has_full_published_recording
+                <http://data.doremus.org/expression/f560b2f3-4ac9-3eac-bcb4-3dd03ed1c9e7> , <http://data.doremus.org/expression/08050127-269c-3570-92c1-c17b18708026> , <http://data.doremus.org/expression/de0ae16e-b7ad-3621-be56-ae0d118557a6> , <http://data.doremus.org/expression/23bd85cb-8d7e-3fc7-a4ba-8d1840551228> , <http://data.doremus.org/expression/afe9d922-3812-329a-b99b-95c3f5d4a240> , <http://data.doremus.org/expression/2fcf5c02-4d34-3812-bbb6-4f33fecdb0a1> , <http://data.doremus.org/expression/6b5507ac-e37d-3171-b7b3-f2048e7940b0> , <http://data.doremus.org/expression/a46f7108-29a7-3aa5-bb38-bd1de9eb9724> , <http://data.doremus.org/expression/3b00e345-21c4-3c11-a5af-c8f134705100> , <http://data.doremus.org/expression/12998f04-ca6d-3e42-aafb-31fb6f1464db> , <http://data.doremus.org/expression/46d8aecb-2889-30a5-8035-3d47e34f5995> , <http://data.doremus.org/expression/25ef7bc8-a9cf-3616-80c6-242a2fe7664c> , <http://data.doremus.org/expression/f1d01422-a38a-38ca-b712-0598301f9d9b> , <http://data.doremus.org/expression/969a25cb-8f49-3b89-9e96-959f71b19edc> , <http://data.doremus.org/expression/8661c425-13f7-378e-8208-9a5a5314c07c> , <http://data.doremus.org/expression/3451fc2a-3f5c-3bf1-a8cf-3e7beab91cbe> , <http://data.doremus.org/expression/67e0123e-5f93-3483-807a-4ef5a036630b> , <http://data.doremus.org/expression/1964a92b-e4f3-3443-90fd-d87963fe66cd> , <http://data.doremus.org/expression/788bee4a-8007-3449-ad96-c3b8bb60fbcf> , <http://data.doremus.org/expression/cbab9ddf-9b56-3c18-85b6-d13405d4e8b9> , <http://data.doremus.org/expression/29fda5f0-3d47-3d36-af39-77733a16e2de> , <http://data.doremus.org/expression/a6f8d4c0-1a98-3a32-9c1e-592bcb5e973a> , <http://data.doremus.org/expression/1f68dcd7-b445-395b-94e3-ddbd55632a52> , <http://data.doremus.org/expression/20902b42-d353-3688-aaa2-554e1eaed75a> , <http://data.doremus.org/expression/0b570e8c-7729-3d82-9a9c-fce54a7da34a> , <http://data.doremus.org/expression/ce9bb813-10d5-346a-9eca-11951348c82e> , <http://data.doremus.org/expression/6569b6a7-e2b3-37ed-ad3f-a5d945f4eea9> , <http://data.doremus.org/expression/8c4d8b9d-3852-3dcd-9599-628570c31db7> , <http://data.doremus.org/expression/3dc7e6b9-5203-3afb-a4fb-e8971acc85ad> , <http://data.doremus.org/expression/c92bb858-56b9-3859-9a85-631a3576786f> , <http://data.doremus.org/expression/2c2a1aca-e0f6-326f-b4bf-71c5bfc4f243> , <http://data.doremus.org/expression/a1a0b5a4-c3da-3c26-92c2-aae88975e12c> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/265213b5-7cfb-31bc-bce7-f35d452f3521> .
+
+<http://data.doremus.org/expression/3b00e345-21c4-3c11-a5af-c8f134705100>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/aa779ff9-5a58-3e2e-a66d-a9f15df98f6e>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.642Z"^^xsd:dateTime , "2018-09-06T12:02:11.641Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/3828013a-28ac-3ace-ac15-e74774d62f82>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.647Z"^^xsd:dateTime , "2018-09-06T12:02:11.646Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/2c2ed12b-689d-362c-b9bc-1eab4fa68ab0>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.650Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1700"^^xsd:gYear .
+
+<http://data.doremus.org/expression/de0ae16e-b7ad-3621-be56-ae0d118557a6>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/796ae926-4374-3de7-9944-183146f66c6a>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.664Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/fa1d526f-c717-36e4-b96e-c2a23aaf5711>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.665Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/46d8aecb-2889-30a5-8035-3d47e34f5995>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "1700/1730" ;
+        time:hasBeginning  <http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a/interval/end> .
+
+<http://data.doremus.org/activity/bbf18f2d-f474-3cdb-b9fe-723f9d685634>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.667Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/29fda5f0-3d47-3d36-af39-77733a16e2de>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/1964a92b-e4f3-3443-90fd-d87963fe66cd>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/manifestation/fa9c2de8-d1e2-3eaf-ac58-30c08a92e2c8/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/activity/6746324f-b2d2-3956-a28c-3aeaba364974>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.659Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/fb286b25-fb1c-3a4a-a433-529767e5fc68>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.668Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/e31f292e-bd9f-3569-95b2-5dafe8bc6481>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.662Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/265213b5-7cfb-31bc-bce7-f35d452f3521>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.542Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/788bee4a-8007-3449-ad96-c3b8bb60fbcf>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/23bd85cb-8d7e-3fc7-a4ba-8d1840551228>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/expression/2c2a1aca-e0f6-326f-b4bf-71c5bfc4f243>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/c92bb858-56b9-3859-9a85-631a3576786f>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/8c4d8b9d-3852-3dcd-9599-628570c31db7>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/1b423cdd-54e2-34e4-8dee-159e0d230b91>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.639Z"^^xsd:dateTime , "2018-09-06T12:02:11.638Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/0b570e8c-7729-3d82-9a9c-fce54a7da34a>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/7303a0fb-e2d5-3cab-9f7d-71de11732495>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.637Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/event/56146504-c5fb-3350-a39f-108fb378732a/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1730"^^xsd:gYear .
+
+<http://data.doremus.org/expression/f560b2f3-4ac9-3eac-bcb4-3dd03ed1c9e7>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/afe9d922-3812-329a-b99b-95c3f5d4a240>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/6b5507ac-e37d-3171-b7b3-f2048e7940b0>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/19ab4d76-30be-345e-a133-1b06bf3de983>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.652Z"^^xsd:dateTime , "2018-09-06T12:02:11.651Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/7bdb0a1b-0f7e-3b5b-b530-672d616ebba4>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.654Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/36f191b1-e790-3dbb-b872-9ec7798bfac1>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.649Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/a1a0b5a4-c3da-3c26-92c2-aae88975e12c>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/08050127-269c-3570-92c1-c17b18708026>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/4398f965-062e-3c59-8d5f-e335fe8a71e3>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.636Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/6c760fdb-cf4c-3371-bf7f-121120f5cf1c>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.643Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/work/de1d0975-829a-3bb9-9c63-d5191f2eb0d0>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/265213b5-7cfb-31bc-bce7-f35d452f3521> .
+
+<http://data.doremus.org/expression/1f68dcd7-b445-395b-94e3-ddbd55632a52>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/98e69fcb-8964-3042-8a0c-7454d252c205>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.655Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/96b1e99b-c348-352a-bf3a-098c1067a952>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.668Z"^^xsd:dateTime , "2018-09-06T12:02:11.667Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/8c9c2133-734b-3815-b58b-110a9d416e5f>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.666Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/67e0123e-5f93-3483-807a-4ef5a036630b>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/20902b42-d353-3688-aaa2-554e1eaed75a>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/5d6dbc7e-0131-3289-9cd3-2e99376676ce>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.661Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/8661c425-13f7-378e-8208-9a5a5314c07c>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/8a6ad260-64f1-3bdf-aa58-843cf5079117>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.648Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/a46f7108-29a7-3aa5-bb38-bd1de9eb9724>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/6569b6a7-e2b3-37ed-ad3f-a5d945f4eea9>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/969a25cb-8f49-3b89-9e96-959f71b19edc>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/a42c6da0-8498-3f6f-9e73-9d7df575d14a>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.669Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/f1d01422-a38a-38ca-b712-0598301f9d9b>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/9ba48c00-9710-3d6a-be38-fb533d53538f>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.660Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "Questo libro di sonate // e della Ortensia // Caccini" .
+
+<http://data.doremus.org/activity/28359bc5-a784-345d-9a12-362923f2702b>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.635Z"^^xsd:dateTime , "2018-09-06T12:02:11.634Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/activity/b7c9f33b-1917-39c3-b4b1-0a1516bce33a>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.653Z"^^xsd:dateTime , "2018-09-06T12:02:11.652Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/25ef7bc8-a9cf-3616-80c6-242a2fe7664c>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/a6f8d4c0-1a98-3a32-9c1e-592bcb5e973a>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/manifestation/fa9c2de8-d1e2-3eaf-ac58-30c08a92e2c8>
+        a                          efrbroo:F3_Manifestation_Product_Type , prov:Entity ;
+        mus:CLU206_should_have_media_type
+                "unmediated" ;
+        ecrm:P104_is_subject_to    <http://data.doremus.org/manifestation/fa9c2de8-d1e2-3eaf-ac58-30c08a92e2c8/communication_right> ;
+        efrbroo:CLR6_should_carry  <http://data.doremus.org/publication/8b1bbaa0-6df7-3c05-b2d2-57e047924734> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/265213b5-7cfb-31bc-bce7-f35d452f3521> .
+
+<http://data.doremus.org/expression/ce9bb813-10d5-346a-9eca-11951348c82e>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/3451fc2a-3f5c-3bf1-a8cf-3e7beab91cbe>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/3bd96f73-ef66-358f-859f-ba8e0154873a>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.640Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
+
+<http://data.doremus.org/expression/cbab9ddf-9b56-3c18-85b6-d13405d4e8b9>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/80cb24d5-39c7-35ea-9bcf-57b27d603924>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-06T12:02:11.645Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39578859q.intermarc> .
