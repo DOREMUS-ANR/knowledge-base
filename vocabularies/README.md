@@ -27,20 +27,31 @@ Collection of vocabularies for the description of music. http://data.doremus.org
   * Redomi: http://data.doremus.org/vocabulary/redomi/genre/
   * Itema3: http://data.doremus.org/vocabulary/itema3/genre/
   * Itema3 Musical Documentation: http://data.doremus.org/vocabulary/itema3/genre/musdoc
+* Carrier Types: http://data.doremus.org/vocabulary/carrier/
+* Color Content: http://data.doremus.org/vocabulary/color_content/
+* Functions: http://data.doremus.org/vocabulary/function/
+* Ethnic Groups RAMEAU: http://data.bnf.fr/vocabulary/scheme/r166
+* Types of identifier: http://data.doremus.org/vocabulary/id/
+* Hierarchical Level for Work: http://data.doremus.org/vocabulary/level/
+* Noise Reduction Techniques: http://data.doremus.org/vocabulary/noise_reduction/
+* Conditions of Performance: http://data.doremus.org/vocabulary/performance_condition/
+* Vocal and instrumental techniques: http://data.doremus.org/vocabulary/technique/
+* Performer Status: http://data.doremus.org/vocabulary/performer_status/
+* Playing Speed: http://data.doremus.org/vocabulary/playing_speed/
+* Recording Equipment: http://data.doremus.org/vocabulary/recording_equipment/
+* Responsibility of performers: http://data.doremus.org/vocabulary/responsibility/
+* Sound Spatialization Techniques: http://data.doremus.org/vocabulary/spazialization/
+* Work types: http://data.doremus.org/vocabulary/work_type/
 
-### Work in progress vocabularies
-
-* Functions http://data.doremus.org/vocabulary/function/
-* Responsibilities
-* Vocal techniques
 
 ### Alignments
-* The repository alignments contains mappings between thematically similar vocabulires from the MoP and genres groupes.
-
+* The repository alignments contains mappings between thematically similar vocabularies from the MoP and genres groups.
 
 ### Useful resources
 
-* Types de sujets RAMEAU: http://data.bnf.fr/vocabulary/scheme/
+* Types de subjects RAMEAU: http://data.bnf.fr/vocabulary/scheme/
+* RDA Content type: http://rdaregistry.info/termList/RDAContentType
+* IAML Format of notated music: http://iflastandards.info/ns/unimarc/terms/tos
 
 ## License
 

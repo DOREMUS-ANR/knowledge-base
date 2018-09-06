@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-<http://data.doremus.org/vocabulary/technique/> a skos:ConceptScheme ;
+<http://data.doremus.org/vocabulary/performance_condition/> a skos:ConceptScheme ;
   rdfs:comment "Cadre général dans lequel s'effectue une représentation/exécution et/ou son enregistrement"@fr, "General information about the environment in which the performance and/or its recording happened"@en, "Quadro generale nel quale avviene una rappresentazione/esecuzione e/o registrazione"@it ;
   rdfs:label "Conditions de représentation/exécution"@fr , "Conditions of Performance"@en , "Condizioni di rappresentazione/esecuzione"@it ;
   dct:creator <http://data.doremus.org/organization/DOREMUS> ;
