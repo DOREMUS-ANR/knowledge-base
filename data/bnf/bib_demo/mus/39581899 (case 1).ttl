@@ -1,0 +1,289 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/activity/3>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da> .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "1751" ;
+        time:hasBeginning  <http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/interval/end> .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1751"^^xsd:gYear .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1787"^^xsd:gYear .
+
+<http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Nous n.s. marirons dimanche XX.e concerto comique" .
+
+<http://data.doremus.org/publication/33faaa52-e563-31ea-a9a5-04a115c6e5b4>
+        a                 efrbroo:F24_Publication_Expression ;
+        rdfs:comment      "1 partie ms."@fr ;
+        ecrm:P3_has_note  "1 partie ms."@fr .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/activity/2>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1> .
+
+<http://data.doremus.org/manifestation/a8560c67-ff74-302e-baca-cf6b8596756b/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/manifestation/864b0317-d03c-323c-8739-b663e6527494>
+        a                               efrbroo:F3_Manifestation_Product_Type ;
+        mus:U208_has_extent_of_carrier  "1 partie ms. (2 p. ; 31 x 23 cm)" ;
+        efrbroo:CLP43_should_have_dimension
+                [ a                   ecrm:E54_Dimension ;
+                  ecrm:P90_has_value  "31"^^xsd:int ;
+                  ecrm:P91_has_unit   "x 23 cm"
+                ] ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/33faaa52-e563-31ea-a9a5-04a115c6e5b4> .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468>
+        a                           ecrm:E21_Person ;
+        rdfs:label                  "Marie-Anne Castagneri" ;
+        ecrm:P100i_died_in          <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death> ;
+        ecrm:P131_is_identified_by  "Castagneri, Marie-Anne (1722-1787)" ;
+        ecrm:P98i_was_born          <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth> ;
+        schema:birthDate            "1722"^^xsd:gYear ;
+        schema:deathDate            "1787"^^xsd:gYear ;
+        foaf:firstName              "Marie-Anne" ;
+        foaf:name                   "Marie-Anne Castagneri" ;
+        foaf:surname                "Castagneri" .
+
+<http://data.doremus.org/expression/770a1a57-c461-3424-8654-572bf508f642>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/manifestation/a8560c67-ff74-302e-baca-cf6b8596756b>
+        a                          prov:Entity , efrbroo:F3_Manifestation_Product_Type ;
+        mus:CLU206_should_have_media_type
+                "unmediated" ;
+        mus:CLU207_should_have_carrier_type
+                "volume"@fr ;
+        mus:CLU210_should_have_pagination
+                <http://data.doremus.org/manifestation/a8560c67-ff74-302e-baca-cf6b8596756b/pagination/1> ;
+        ecrm:P104_is_subject_to    <http://data.doremus.org/manifestation/a8560c67-ff74-302e-baca-cf6b8596756b/communication_right> ;
+        efrbroo:CLR6_should_carry  <http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b> ;
+        dc:identifier              "39581899" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb39581899g.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/aa3ad30c-8fb9-3281-99d9-9a43982086a9> .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "1693" ;
+        time:hasBeginning  <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth/interval/end> .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468> .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1722"^^xsd:gYear .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1760"^^xsd:gYear .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "1722" ;
+        time:hasBeginning  <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth/interval/end> .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1760"^^xsd:gYear .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1693"^^xsd:gYear .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1787"^^xsd:gYear .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/activity/1> , <http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/activity/3> , <http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/activity/2> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/e1d89890-7c77-3607-ba9a-a2c176f98351> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb39581899g.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/aa3ad30c-8fb9-3281-99d9-9a43982086a9> .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1722"^^xsd:gYear .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth>
+        a                      ecrm:E67_Birth ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth/interval> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1776"^^xsd:gYear .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death>
+        a                      ecrm:E69_Death ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death/interval> .
+
+<http://data.doremus.org/event/e7b2d33b-626e-3176-9e70-a416287b173f/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1751"^^xsd:gYear .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth>
+        a                      ecrm:E67_Birth ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/birth/interval> .
+
+<http://data.doremus.org/work/e1d89890-7c77-3607-ba9a-a2c176f98351>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb39581899g.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/aa3ad30c-8fb9-3281-99d9-9a43982086a9> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth/interval>
+        a                             ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label                    "1704" ;
+        ecrm:P79_beginning_is_qualified_by
+                "uncertain" ;
+        ecrm:P80_end_is_qualified_by  "uncertain" ;
+        time:hasBeginning             <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth/interval/start> ;
+        time:hasEnd                   <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth/interval/end> .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1693"^^xsd:gYear .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death>
+        a                      ecrm:E69_Death ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death/interval> .
+
+<http://data.doremus.org/manifestation/a8560c67-ff74-302e-baca-cf6b8596756b/pagination/1>
+        a                   ecrm:E54_Dimension ;
+        ecrm:P90_has_value  "4"^^xsd:int ;
+        ecrm:P91_has_unit   "page" .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "1704"^^xsd:gYear .
+
+<http://data.doremus.org/activity/aa3ad30c-8fb9-3281-99d9-9a43982086a9>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-11T10:27:18.382Z"^^xsd:dateTime , "2018-09-11T10:27:18.379Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb39581899g.intermarc> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "1776" ;
+        time:hasBeginning  <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death/interval/end> .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death/interval>
+        a                             ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label                    "1760" ;
+        ecrm:P79_beginning_is_qualified_by
+                "uncertain" ;
+        ecrm:P80_end_is_qualified_by  "uncertain" ;
+        time:hasBeginning             <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death/interval/start> ;
+        time:hasEnd                   <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death/interval/end> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1>
+        a                           ecrm:E21_Person ;
+        rdfs:label                  "Élisabeth-Catherine Boivin" ;
+        ecrm:P100i_died_in          <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death> ;
+        ecrm:P131_is_identified_by  "Boivin, Élisabeth-Catherine (1704?-1776)" ;
+        ecrm:P98i_was_born          <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth> ;
+        schema:birthDate            "1704"^^xsd:gYear ;
+        schema:deathDate            "1776"^^xsd:gYear ;
+        foaf:firstName              "Élisabeth-Catherine" ;
+        foaf:name                   "Élisabeth-Catherine Boivin" ;
+        foaf:surname                "Boivin" .
+
+<http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "1787" ;
+        time:hasBeginning  <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/artist/159ea46d-3d16-3471-8ab3-7a575cb93468/death/interval/end> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death>
+        a                      ecrm:E69_Death ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death/interval> .
+
+<http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da>
+        a                           ecrm:E21_Person ;
+        rdfs:label                  "Jean-Pantaléon Leclerc" ;
+        ecrm:P100i_died_in          <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/death> ;
+        ecrm:P131_is_identified_by  "Leclerc, Jean-Pantaléon (1693-176.?)" ;
+        ecrm:P98i_was_born          <http://data.doremus.org/artist/fb9eb83c-f382-3947-a8e2-99edc609b7da/birth> ;
+        schema:birthDate            "1693"^^xsd:gYear ;
+        schema:deathDate            "1760"^^xsd:gYear ;
+        foaf:firstName              "Jean-Pantaléon" ;
+        foaf:name                   "Jean-Pantaléon Leclerc" ;
+        foaf:surname                "Leclerc" .
+
+<http://catalogue.bnf.fr/ark:/12148/cb39581899g.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth>
+        a                      ecrm:E67_Birth ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth/interval> .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/death/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1776"^^xsd:gYear .
+
+<http://data.doremus.org/artist/7cbd34c9-8a70-30f5-a292-b3c450a9f6d1/birth/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "1704"^^xsd:gYear .
+
+<http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "Nous n.s. marirons dimanche XX.e concerto comique" .
+
+<http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b>
+        a                             efrbroo:F24_Publication_Expression , prov:Entity ;
+        rdfs:label                    "Nous n.s. marirons dimanche XX.e concerto comique" ;
+        mus:U167_has_title_proper     "Nous n.s. marirons dimanche XX.e concerto comique" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b/title> ;
+        mus:U182_has_music_format_statement
+                "[Parties]" ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/d428a91f-7ca5-3c82-8317-e3256f55928b/title_responsibility> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        mus:U229_has_music_format     <http://data.doremus.org/format/parts> ;
+        mus:U50_has_annotation        "Partie ms." , "Daté d'après Lesure, Catalogue" , "D'après la cohérence de la collection et de par la présence récurrente de filigranes dont certains datés de 1742 (concertos n°  3, 6 et 7), il est possible que l'ensemble des tirages de ces concertos date des années 1760" , "Fait partie d'une collection qui réunit 18 concertos comiques (Rés. F. 50-67) en parties séparées avec une partie de basso ms. ; ces 18 parties ms., toutes de la même main et sur le même papier, ont vraisemblablement été copiées entre 1755 (date d'éd. du dernier concerto de cette collection) et 1765" , "Parties : violino primo (2 p.), violino secondo (1 p.), violino terzo (1 p.), organo (2 p.)" ;
+        ecrm:P165_incorporates        <http://data.doremus.org/expression/770a1a57-c461-3424-8654-572bf508f642> , <http://data.doremus.org/publication/33faaa52-e563-31ea-a9a5-04a115c6e5b4> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb39581899g.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/aa3ad30c-8fb9-3281-99d9-9a43982086a9> .
