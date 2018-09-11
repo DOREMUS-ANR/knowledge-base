@@ -37,6 +37,7 @@ Collection of vocabularies for the description of music. http://data.doremus.org
 * Conditions of Performance: http://data.doremus.org/vocabulary/performance_condition/
 * Vocal and instrumental techniques: http://data.doremus.org/vocabulary/technique/
 * Performer Status: http://data.doremus.org/vocabulary/performer_status/
+* Performance Mode: http://data.doremus.org/vocabulary/performance_mode/
 * Playing Speed: http://data.doremus.org/vocabulary/playing_speed/
 * Recording Equipment: http://data.doremus.org/vocabulary/recording_equipment/
 * Responsibility of performers: http://data.doremus.org/vocabulary/responsibility/
@@ -59,6 +60,4 @@ Collection of vocabularies for the description of music. http://data.doremus.org
 
 Unless differently specified, all the vocabularies are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
-The copyright of MIMO
-<!-- , Hornbostel & Sachs -->
-and Rameau belongs to the respective owners.
+The copyright of MIMO and Rameau belongs to the respective owners.
