@@ -1,0 +1,1108 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/event/13849914-8653-3eb2-85b3-de3fa92569c5>
+        a                     efrbroo:F28_Expression_Creation , prov:Entity ;
+        efrbroo:R17_created   <http://data.doremus.org/manifestation/54733e30-c0b5-345f-865f-71c2fc33317f> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/03b0d97d-0691-311f-92d5-80c5a57bc28d> ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom   <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy   <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, ens. instr." .
+
+<http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/interval/end> .
+
+<http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/interval/end> .
+
+<http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/interval/end> .
+
+<http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Pictures at an exhibition" .
+
+<http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "12 Pianisten" ;
+        ecrm:P131_is_identified_by  "12 Pianisten" .
+
+<http://data.doremus.org/performance/0a150455-cb75-317b-8cef-02713203d8cf>
+        a                         mus:M42_Performed_Expression_Creation ;
+        mus:U205_has_cast_detail  "die 12 Pianisten, ens. instr.." ;
+        ecrm:P4_has_time-span     <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of       <http://data.doremus.org/performance/0a150455-cb75-317b-8cef-02713203d8cf/1> ;
+        efrbroo:R17_created       <http://data.doremus.org/expression/309dc842-643e-34e1-996f-c9ecbd69354b> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/a05e0f35-9a51-31bc-92d7-0214d2869767> ;
+        efrbroo:R25_performed     <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/performance/568e67cb-a43d-3364-8d4b-e7f9395f2e59>
+        a                         mus:M42_Performed_Expression_Creation ;
+        mus:U205_has_cast_detail  "die 12 Pianisten, ens. instr.." ;
+        ecrm:P4_has_time-span     <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of       <http://data.doremus.org/performance/568e67cb-a43d-3364-8d4b-e7f9395f2e59/1> ;
+        efrbroo:R17_created       <http://data.doremus.org/expression/c83590ef-bcdc-39b1-8216-20af4ddb4226> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/04a6e6b1-5a78-308a-8bed-8608bb9558ac> ;
+        efrbroo:R25_performed     <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330>
+        a                      prov:Entity , efrbroo:F29_Recording_Event ;
+        rdfs:comment           "Prod. : Ars Produktion, P 2013"@fr ;
+        mus:U225_used_sound_spatialization_technique
+                <http://data.doremus.org/vocabulary/spazialization/stereo> ;
+        ecrm:P3_has_note       "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/5> , <http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/2> , <http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/1> , <http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/6> , <http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/3> , <http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/4> ;
+        efrbroo:R20_recorded   <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83> ;
+        efrbroo:R21_created    <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1> , <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5> , <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a> , <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234> , <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9> , <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3> ;
+        efrbroo:R22_created_a_realisation_of
+                <http://data.doremus.org/work/16e6991e-5b4f-3b2a-aedf-cc2eee972ea3> , <http://data.doremus.org/work/c739d643-e0d5-3436-a260-c99a992ad158> , <http://data.doremus.org/work/f12e5dd1-3ee0-3550-ba50-75192ff33d3c> , <http://data.doremus.org/work/f6fb1260-11c2-335a-bf21-1a25c29701de> , <http://data.doremus.org/work/7b56ea9c-3e86-3d1b-94b6-ee84501971be> , <http://data.doremus.org/work/e5599652-a7e0-3332-a2ff-660e811c8ea6> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/1c718f24-5705-344a-81c8-748c81539116> , <http://data.doremus.org/activity/ac8a9152-851e-38c2-a167-bb33b397f4b5> , <http://data.doremus.org/activity/b6e4af98-6c9d-3812-bec4-1a6681d5bac6> , <http://data.doremus.org/activity/208e9547-958f-314c-a7e2-9822b4c26ff5> , <http://data.doremus.org/activity/e26b1267-26d0-3445-835b-9e00fe8ad47d> , <http://data.doremus.org/activity/1f0ebb3e-5260-34c6-8c4b-47cf86c3181d> .
+
+<http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "2012-05" ;
+        time:hasBeginning  <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval/end> .
+
+<http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/3>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/audio_producer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242/casting/1>
+        a                           mus:M6_Casting ;
+        mus:U23_has_casting_detail  <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242/casting/1/detail/1> .
+
+<http://data.doremus.org/artist/c106a1ce-bb38-362b-aafb-26aad186b60a>
+        a           ecrm:E21_Person ;
+        rdfs:label  "Christopher Sischka" ;
+        foaf:name   "Christopher Sischka" .
+
+<http://data.doremus.org/work/e5599652-a7e0-3332-a2ff-660e811c8ea6>
+        a                           efrbroo:F21_Recording_Work ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3> .
+
+<http://data.doremus.org/work/2031d019-cc91-3f9c-877e-7c90672424ff>
+        efrbroo:R10_has_member      <http://data.doremus.org/work/eeec9eb7-887a-3cf9-a112-96ac95ce1473> ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/expression/d2d1291a-0930-31eb-a54f-a392abbdf75a> .
+
+<http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2012-05"^^xsd:gYearMonth .
+
+<http://data.doremus.org/work/546b4700-229a-353f-b31d-9f3113db0a6f/derivation_assignment>
+        a                        mus:M39_Derivation_Type_Assignment ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> ;
+        ecrm:P41_classified      <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> , <http://data.doremus.org/work/546b4700-229a-353f-b31d-9f3113db0a6f> .
+
+<http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/interval/end> .
+
+<http://data.doremus.org/performance/91741007-2452-3e52-b75f-95f70716477f>
+        a                         mus:M42_Performed_Expression_Creation ;
+        mus:U205_has_cast_detail  "die 12 Pianisten, Karlsruher Schlagzeug Ensemble, ens. instr.." ;
+        ecrm:P4_has_time-span     <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of       <http://data.doremus.org/performance/91741007-2452-3e52-b75f-95f70716477f/1> , <http://data.doremus.org/performance/91741007-2452-3e52-b75f-95f70716477f/2> ;
+        efrbroo:R17_created       <http://data.doremus.org/expression/4f34458a-f4ee-300b-bd03-d5c75a6f4493> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/f94b7a74-05d5-306d-84a8-29ec441808e6> ;
+        efrbroo:R25_performed     <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Toccata" .
+
+<http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/activity/1> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/50a3a7c9-0e95-3472-ac8a-f02324f3b218> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/work/04a6e6b1-5a78-308a-8bed-8608bb9558ac>
+        a                          mus:M44_Performed_Work ;
+        efrbroo:R9_is_realised_in  <http://data.doremus.org/expression/c83590ef-bcdc-39b1-8216-20af4ddb4226> .
+
+<http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1>
+        a                           cro:ProducersRights ;
+        rdfs:comment                "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/assignment> ;
+        ecrm:P3_has_note            "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P75i_is_possessed_by   <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> ;
+        schema:startTime            "2013"^^xsd:gYear .
+
+<http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1/casting/1>
+        a                           mus:M6_Casting ;
+        mus:U23_has_casting_detail  <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1/casting/1/detail/1> .
+
+<http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Arabian overture \"Shourouk\"" .
+
+<http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/interval> .
+
+<http://data.doremus.org/performance/568e67cb-a43d-3364-8d4b-e7f9395f2e59/1>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a> .
+
+<http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/interval/end> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Mussorgsky, Yossifov, Schnyder… [et al.], comp., Noriko Ishikawa, Daniel Schnyder, Ferdinand Wrede, arr." .
+
+<http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1>
+        a                           cro:ProducersRights ;
+        rdfs:comment                "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/assignment> ;
+        ecrm:P3_has_note            "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P75i_is_possessed_by   <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> ;
+        schema:startTime            "2013"^^xsd:gYear .
+
+<http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:57.592Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/interval/end> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/distribution/2>
+        a             mus:M161_Distribution_Statement ;
+        rdfs:comment  "[Paris] : [distrib. Abeille musique], 2013" .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/6>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/audio_producer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/work/f12e5dd1-3ee0-3550-ba50-75192ff33d3c>
+        a                           efrbroo:F21_Recording_Work ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1> .
+
+<http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1>
+        a                           cro:ProducersRights ;
+        rdfs:comment                "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/assignment> ;
+        ecrm:P3_has_note            "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P75i_is_possessed_by   <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> ;
+        schema:startTime            "2013"^^xsd:gYear .
+
+<http://data.doremus.org/artist/cad53081-1183-312b-8581-61f3a39311f7>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "Karlsruher Schlagzeug Ensemble" ;
+        ecrm:P131_is_identified_by  "Karlsruher Schlagzeug Ensemble" .
+
+<http://data.doremus.org/work/a05e0f35-9a51-31bc-92d7-0214d2869767>
+        a                          mus:M44_Performed_Work ;
+        efrbroo:R9_is_realised_in  <http://data.doremus.org/expression/309dc842-643e-34e1-996f-c9ecbd69354b> .
+
+<http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/vocabulary/iaml/mop/oie>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "ensamble"@es , "conjunto musical"@es ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://data.doremus.org/vocabulary/iaml/mop/o> ;
+        <http://www.w3.org/2004/02/skos/core#editorialNote>
+                "English term is preferred globally." ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://iflastandards.info/ns/unimarc/terms/mop/oie> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://data.doremus.org/vocabulary/iaml/mop/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "instrumental ensemble"@en , "complesso strumentale"@it , "instrumentalensemble"@de , "conjunto instrumental"@es , "conjunto instrumental"@pt , "ensemble instrumental"@fr .
+
+<http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1>
+        a                           cro:ProducersRights ;
+        rdfs:comment                "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/assignment> ;
+        ecrm:P3_has_note            "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P75i_is_possessed_by   <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> ;
+        schema:startTime            "2013"^^xsd:gYear .
+
+<http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/interval> .
+
+<http://data.doremus.org/event/24cde4d5-87ca-371c-af99-7f99686dd7c1>
+        a                    efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created  <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/79ca3ad8-ca2c-3a48-bf70-342c4157bce4> .
+
+<http://data.doremus.org/work/16e6991e-5b4f-3b2a-aedf-cc2eee972ea3>
+        a                           efrbroo:F21_Recording_Work ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5> .
+
+<http://data.doremus.org/activity/1c718f24-5705-344a-81c8-748c81539116>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:59.319Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/event/adb0c6ec-968d-332a-961e-124bdae26cfd>
+        a       efrbroo:F28_Expression_Creation .
+
+<http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Modest Mussorgsky, comp., Noriko Ishikawa, arr." .
+
+<http://data.doremus.org/event/80288bc5-2068-324f-b4fb-01a7ae928117/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/author> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/c106a1ce-bb38-362b-aafb-26aad186b60a> .
+
+<http://data.doremus.org/event/6fb45136-0458-3797-9153-d46e016745b4>
+        a       efrbroo:F28_Expression_Creation .
+
+<http://data.doremus.org/work/ea678d79-cc98-3090-9604-d594730c63bb/derivation_assignment>
+        a                        mus:M39_Derivation_Type_Assignment ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> ;
+        ecrm:P41_classified      <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> , <http://data.doremus.org/work/ea678d79-cc98-3090-9604-d594730c63bb> .
+
+<http://data.doremus.org/expression/a9c6b45f-5610-3e85-959b-264086003669>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/audio_producer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/work/79ca3ad8-ca2c-3a48-bf70-342c4157bce4/derivation_assignment>
+        a                        mus:M39_Derivation_Type_Assignment ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> ;
+        ecrm:P41_classified      <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> , <http://data.doremus.org/work/79ca3ad8-ca2c-3a48-bf70-342c4157bce4> .
+
+<http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Ouvertüre zu \"Wilhelm Tell\"" .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/publication/2>
+        a             mus:M160_Publication_Statement ;
+        rdfs:comment  "[Paris], 2013" .
+
+<http://data.doremus.org/manifestation/a46460e0-af9b-33c9-8f83-489c51a96847/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400/casting/1>
+        a                           mus:M6_Casting ;
+        mus:U23_has_casting_detail  <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400/casting/1/detail/1> .
+
+<http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1>
+        a                           cro:ProducersRights ;
+        rdfs:comment                "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/assignment> ;
+        ecrm:P3_has_note            "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P75i_is_possessed_by   <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> ;
+        schema:startTime            "2013"^^xsd:gYear .
+
+<http://data.doremus.org/performance/485edc72-bf26-3f13-9095-7e995d71c316>
+        a                         mus:M42_Performed_Expression_Creation ;
+        mus:U205_has_cast_detail  "die 12 Pianisten, ens. instr.." ;
+        ecrm:P4_has_time-span     <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of       <http://data.doremus.org/performance/485edc72-bf26-3f13-9095-7e995d71c316/1> ;
+        efrbroo:R17_created       <http://data.doremus.org/expression/4622f1ad-4814-31fd-888e-dd1d856d6ca3> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/b5920fce-e636-3304-9831-788fdbf8fa20> ;
+        efrbroo:R25_performed     <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Gioacchino Rossini, comp., Ferdinand Wrede, arr." .
+
+<http://data.doremus.org/expression/d2d1291a-0930-31eb-a54f-a392abbdf75a>
+        a                          prov:Entity , mus:M43_Performed_Expression ;
+        rdfs:label                 "Toccata" ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U54_is_performed_expression_of
+                <http://data.doremus.org/expression/1519a294-8a09-344f-a166-87280d5ae5e0> ;
+        ecrm:P102_has_title        "Toccata" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/ac8a9152-851e-38c2-a167-bb33b397f4b5> .
+
+<http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, ens. instr." .
+
+<http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/work/50a3a7c9-0e95-3472-ac8a-f02324f3b218>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9>
+        a                        efrbroo:F26_Recording , prov:Entity ;
+        ecrm:P104_is_subject_to  <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1> ;
+        prov:wasAttributedTo     <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom      <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy      <http://data.doremus.org/activity/1c718f24-5705-344a-81c8-748c81539116> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/assignment/>
+        a                        ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned       <http://data.doremus.org/vocabulary/categorization/bnf/10908> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6>
+        a                             efrbroo:F24_Publication_Expression , prov:Entity ;
+        rdfs:label                    "Pictures" ;
+        mus:U167_has_title_proper     "Pictures" ;
+        mus:U169_was_issued_under_label_name
+                <http://data.doremus.org/artist/4db77d33-e6ef-3367-aeb9-e78355c3dd2e> ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/responsibility/2> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/cast/1> ;
+        mus:U178_has_statement_of_responsibility_relating_to_edition
+                <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/responsibility/1> ;
+        mus:U184_has_publication_statement
+                <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/publication/1> , <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/publication/2> ;
+        mus:U185_has_distribution_statement
+                <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/distribution/2> , <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/distribution/1> ;
+        mus:U19_is_categorized_as     <http://data.doremus.org/vocabulary/categorization/bnf/10908> ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/title_responsibility> ;
+        mus:U55_incorporates_performed_expression
+                <http://data.doremus.org/expression/c83590ef-bcdc-39b1-8216-20af4ddb4226> , <http://data.doremus.org/expression/309dc842-643e-34e1-996f-c9ecbd69354b> , <http://data.doremus.org/expression/4f34458a-f4ee-300b-bd03-d5c75a6f4493> , <http://data.doremus.org/expression/9f2588c2-8eec-3e02-b8e5-79f9bdc27030> , <http://data.doremus.org/expression/d2d1291a-0930-31eb-a54f-a392abbdf75a> , <http://data.doremus.org/expression/4622f1ad-4814-31fd-888e-dd1d856d6ca3> ;
+        mus:U58_has_full_published_recording
+                <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> , <http://data.doremus.org/expression/1519a294-8a09-344f-a166-87280d5ae5e0> , <http://data.doremus.org/expression/a9c6b45f-5610-3e85-959b-264086003669> , <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> , <http://data.doremus.org/expression/60e12652-b53b-3f65-b21a-9f80e9bca31e> ;
+        mus:U59_has_partial_published_recording
+                <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> ;
+        ecrm:P165_incorporates        <http://data.doremus.org/publication/861f2e54-a3b8-3736-aed3-31d4261df0fc> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Pictures" .
+
+<http://data.doremus.org/work/8962fd15-5eaf-3903-bf34-cc54663476c2>
+        mus:U38_has_descriptive_expression
+                <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> ;
+        efrbroo:R10_has_member      <http://data.doremus.org/work/b5920fce-e636-3304-9831-788fdbf8fa20> , <http://data.doremus.org/work/79ca3ad8-ca2c-3a48-bf70-342c4157bce4> ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/expression/4622f1ad-4814-31fd-888e-dd1d856d6ca3> .
+
+<http://data.doremus.org/expression/c83590ef-bcdc-39b1-8216-20af4ddb4226>
+        a                          prov:Entity , mus:M43_Performed_Expression ;
+        rdfs:label                 "Ouvertüre zu \"Wilhelm Tell\"" ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U54_is_performed_expression_of
+                <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> ;
+        ecrm:P102_has_title        "Ouvertüre zu \"Wilhelm Tell\"" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/e26b1267-26d0-3445-835b-9e00fe8ad47d> .
+
+<http://data.doremus.org/work/7b56ea9c-3e86-3d1b-94b6-ee84501971be>
+        a                           efrbroo:F21_Recording_Work ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a> .
+
+<http://data.doremus.org/work/0789cf27-199a-3987-9150-ecc2b165c8de>
+        a                          mus:M44_Performed_Work ;
+        efrbroo:R9_is_realised_in  <http://data.doremus.org/expression/9f2588c2-8eec-3e02-b8e5-79f9bdc27030> .
+
+<http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983>
+        a                       efrbroo:F25_Performance_Plan ;
+        ecrm:P165_incorporates  <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> , <http://data.doremus.org/expression/a9c6b45f-5610-3e85-959b-264086003669> , <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> , <http://data.doremus.org/expression/60e12652-b53b-3f65-b21a-9f80e9bca31e> , <http://data.doremus.org/expression/1519a294-8a09-344f-a166-87280d5ae5e0> , <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> .
+
+<http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, ens. instr." .
+
+<http://data.doremus.org/performance/485edc72-bf26-3f13-9095-7e995d71c316/1>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a> .
+
+<http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Thomas Turek, comp." .
+
+<http://data.doremus.org/activity/ac8a9152-851e-38c2-a167-bb33b397f4b5>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:59.306Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Georges Bizet, comp., Noriko Ishikawa, arr." .
+
+<http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/interval>
+        a                  ecrm:E52_Time-Span , time:Interval ;
+        rdfs:label         "2013" ;
+        time:hasBeginning  <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/interval/end> .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/4>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/audio_producer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/work/f6ac6c75-710f-300e-94c1-e6ee9c7a2422>
+        efrbroo:R10_has_member      <http://data.doremus.org/work/a05e0f35-9a51-31bc-92d7-0214d2869767> ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/expression/309dc842-643e-34e1-996f-c9ecbd69354b> .
+
+<http://data.doremus.org/event/4e60888c-145a-3169-a44a-7282210c28fc/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/performance/6d902c8a-81eb-39a1-a293-8d8addb43270/1>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a> .
+
+<http://data.doremus.org/performance/6d902c8a-81eb-39a1-a293-8d8addb43270>
+        a                         mus:M42_Performed_Expression_Creation ;
+        mus:U205_has_cast_detail  "die 12 Pianisten, ens. instr.." ;
+        ecrm:P4_has_time-span     <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of       <http://data.doremus.org/performance/6d902c8a-81eb-39a1-a293-8d8addb43270/1> ;
+        efrbroo:R17_created       <http://data.doremus.org/expression/9f2588c2-8eec-3e02-b8e5-79f9bdc27030> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/0789cf27-199a-3987-9150-ecc2b165c8de> ;
+        efrbroo:R25_performed     <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1>
+        a                           cro:ProducersRights ;
+        rdfs:comment                "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/assignment> ;
+        ecrm:P3_has_note            "Prod. : Ars Produktion, P 2013"@fr ;
+        ecrm:P75i_is_possessed_by   <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> ;
+        schema:startTime            "2013"^^xsd:gYear .
+
+<http://data.doremus.org/work/546b4700-229a-353f-b31d-9f3113db0a6f>
+        efrbroo:R2_is_derivative_of  <http://data.doremus.org/work/c2fa5e6f-4008-3903-bc38-377b8553ffcc> ;
+        efrbroo:R9_is_realised_in    <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> .
+
+<http://data.doremus.org/work/f6fb1260-11c2-335a-bf21-1a25c29701de>
+        a                           efrbroo:F21_Recording_Work ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, Karlsruher Schlagzeug Ensemble, ens. instr." .
+
+<http://data.doremus.org/performance/91741007-2452-3e52-b75f-95f70716477f/1>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a> .
+
+<http://data.doremus.org/work/256f6466-46f8-3086-bc26-692dc326227b>
+        mus:U38_has_descriptive_expression
+                <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> ;
+        efrbroo:R10_has_member      <http://data.doremus.org/work/04a6e6b1-5a78-308a-8bed-8608bb9558ac> , <http://data.doremus.org/work/ea678d79-cc98-3090-9604-d594730c63bb> ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/expression/c83590ef-bcdc-39b1-8216-20af4ddb4226> .
+
+<http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5>
+        a                        efrbroo:F26_Recording , prov:Entity ;
+        ecrm:P104_is_subject_to  <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1> ;
+        prov:wasAttributedTo     <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom      <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy      <http://data.doremus.org/activity/e26b1267-26d0-3445-835b-9e00fe8ad47d> .
+
+<http://data.doremus.org/activity/b6e4af98-6c9d-3812-bec4-1a6681d5bac6>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:59.324Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/responsibility/2>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Mussorgsky, Yossifov, Schnyder… [et al.], comp., Noriko Ishikawa, Daniel Schnyder, Ferdinand Wrede, arr." .
+
+<http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374>
+        a                             prov:Entity , mus:M46_Set_of_Tracks ;
+        rdfs:label                    "Kein Liebeslied" ;
+        mus:U10_has_order_number      "5"^^xsd:int ;
+        mus:U167_has_title_proper     "Kein Liebeslied" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374/responsibility/1> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374/cast/1> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U51_is_partial_or_full_recording_of
+                <http://data.doremus.org/expression/9f2588c2-8eec-3e02-b8e5-79f9bdc27030> ;
+        mus:U53_has_duration          "PT3M28S" ;
+        dc:identifier                 "43527194-005" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/b6e4af98-6c9d-3812-bec4-1a6681d5bac6> .
+
+<http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Alexander Yossifov, comp." .
+
+<http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941>
+        a                             mus:M46_Set_of_Tracks , prov:Entity ;
+        rdfs:label                    "Arabian overture \"Shourouk\"" ;
+        mus:U10_has_order_number      "3"^^xsd:int ;
+        mus:U167_has_title_proper     "Arabian overture \"Shourouk\"" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941/responsibility/1> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941/cast/1> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U51_is_partial_or_full_recording_of
+                <http://data.doremus.org/expression/309dc842-643e-34e1-996f-c9ecbd69354b> ;
+        mus:U53_has_duration          "PT5M45S" ;
+        dc:identifier                 "43527194-003" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/208e9547-958f-314c-a7e2-9822b4c26ff5> .
+
+<http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183>
+        a                             prov:Entity , mus:M46_Set_of_Tracks ;
+        rdfs:label                    "Habanera aus \"Carmen-Fantasie\"" ;
+        mus:U10_has_order_number      "4"^^xsd:int ;
+        mus:U167_has_title_proper     "Habanera aus \"Carmen-Fantasie\"" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183/responsibility/1> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183/cast/1> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U51_is_partial_or_full_recording_of
+                <http://data.doremus.org/expression/4622f1ad-4814-31fd-888e-dd1d856d6ca3> ;
+        mus:U53_has_duration          "PT3M37S" ;
+        dc:identifier                 "43527194-004" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/1c718f24-5705-344a-81c8-748c81539116> .
+
+<http://data.doremus.org/event/9a28c0ae-a7f6-3644-95fd-558506bd9cd2>
+        a                    efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created  <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/546b4700-229a-353f-b31d-9f3113db0a6f> .
+
+<http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/interval> .
+
+<http://data.doremus.org/expression/9f2588c2-8eec-3e02-b8e5-79f9bdc27030>
+        a                          prov:Entity , mus:M43_Performed_Expression ;
+        rdfs:label                 "Kein Liebeslied" ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U54_is_performed_expression_of
+                <http://data.doremus.org/expression/a9c6b45f-5610-3e85-959b-264086003669> ;
+        ecrm:P102_has_title        "Kein Liebeslied" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/b6e4af98-6c9d-3812-bec4-1a6681d5bac6> .
+
+<http://data.doremus.org/expression/309dc842-643e-34e1-996f-c9ecbd69354b>
+        a                          prov:Entity , mus:M43_Performed_Expression ;
+        rdfs:label                 "Arabian overture \"Shourouk\"" ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U54_is_performed_expression_of
+                <http://data.doremus.org/expression/60e12652-b53b-3f65-b21a-9f80e9bca31e> ;
+        ecrm:P102_has_title        "Arabian overture \"Shourouk\"" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/208e9547-958f-314c-a7e2-9822b4c26ff5> .
+
+<http://data.doremus.org/manifestation/a46460e0-af9b-33c9-8f83-489c51a96847>
+        a                               prov:Entity , efrbroo:F3_Manifestation_Product_Type ;
+        mus:CLU198_should_have_container
+                [ a                 mus:M171_Container ;
+                  rdfs:label        "boîte" ;
+                  ecrm:P3_has_note  "boîte"
+                ] ;
+        mus:CLU206_should_have_media_type
+                "audio" ;
+        mus:CLU53_should_have_duration  "PT1H05M07S"^^xsd:dayTimeDuration ;
+        mus:U208_has_extent_of_carrier  "1 SACD" ;
+        mus:U212_has_technical_features
+                "DSD" ;
+        ecrm:P104_is_subject_to         <http://data.doremus.org/manifestation/a46460e0-af9b-33c9-8f83-489c51a96847/communication_right> ;
+        efrbroo:CLP43_should_have_dimension
+                [ a                   ecrm:E54_Dimension ;
+                  ecrm:P90_has_value  "1"^^xsd:int ;
+                  ecrm:P91_has_unit   "SACD"
+                ] ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6> ;
+        dc:identifier                   "43527194" ;
+        prov:wasAttributedTo            <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom             <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy             <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/performance/72739e60-7623-373a-a24a-2e784dc617a2/1>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a> .
+
+<http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3>
+        a                        efrbroo:F26_Recording , prov:Entity ;
+        ecrm:P104_is_subject_to  <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1> ;
+        prov:wasAttributedTo     <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom      <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy      <http://data.doremus.org/activity/208e9547-958f-314c-a7e2-9822b4c26ff5> .
+
+<http://data.doremus.org/event/82bcfea4-20d7-3a51-b166-3669c4066dbf>
+        a                    efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created  <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/ea678d79-cc98-3090-9604-d594730c63bb> .
+
+<http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Kein Liebeslied" .
+
+<http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, ens. instr." .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/2>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/audio_producer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/expression/1519a294-8a09-344f-a166-87280d5ae5e0>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d>
+        a                             mus:M46_Set_of_Tracks , prov:Entity ;
+        rdfs:label                    "Toccata" ;
+        mus:U10_has_order_number      "2"^^xsd:int ;
+        mus:U167_has_title_proper     "Toccata" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d/responsibility/1> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d/cast/1> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U51_is_partial_or_full_recording_of
+                <http://data.doremus.org/expression/d2d1291a-0930-31eb-a54f-a392abbdf75a> ;
+        mus:U53_has_duration          "PT3M47S" ;
+        dc:identifier                 "43527194-002" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/ac8a9152-851e-38c2-a167-bb33b397f4b5> .
+
+<http://data.doremus.org/publication/861f2e54-a3b8-3736-aed3-31d4261df0fc>
+        a                 efrbroo:F24_Publication_Expression ;
+        rdfs:comment      "Notice en allemand et anglais"@fr ;
+        ecrm:P3_has_note  "Notice en allemand et anglais"@fr .
+
+<http://data.doremus.org/work/c739d643-e0d5-3436-a260-c99a992ad158>
+        a                           efrbroo:F21_Recording_Work ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234> .
+
+<http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb>
+        a                             mus:M46_Set_of_Tracks , prov:Entity ;
+        rdfs:label                    "Ouvertüre zu \"Wilhelm Tell\"" ;
+        mus:U10_has_order_number      "6"^^xsd:int ;
+        mus:U167_has_title_proper     "Ouvertüre zu \"Wilhelm Tell\"" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb/responsibility/1> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb/cast/1> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U51_is_partial_or_full_recording_of
+                <http://data.doremus.org/expression/c83590ef-bcdc-39b1-8216-20af4ddb4226> ;
+        dc:identifier                 "43527194-006" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/e26b1267-26d0-3445-835b-9e00fe8ad47d> .
+
+<http://data.doremus.org/work/b4e88f04-9e18-3db2-9099-c991f1e2b83d>
+        a                           efrbroo:F20_Performance_Work ;
+        efrbroo:R12_is_realised_in  <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e>
+        a                             mus:M46_Set_of_Tracks , prov:Entity ;
+        rdfs:label                    "Pictures at an exhibition" ;
+        mus:U10_has_order_number      "1"^^xsd:int ;
+        mus:U167_has_title_proper     "Pictures at an exhibition" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e/responsibility/1> ;
+        mus:U174_has_cast_statement   <http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e/cast/1> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U51_is_partial_or_full_recording_of
+                <http://data.doremus.org/expression/4f34458a-f4ee-300b-bd03-d5c75a6f4493> ;
+        dc:identifier                 "43527194-001" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/1f0ebb3e-5260-34c6-8c4b-47cf86c3181d> .
+
+<http://data.doremus.org/event/80288bc5-2068-324f-b4fb-01a7ae928117>
+        a                    efrbroo:F30_Publication_Event ;
+        ecrm:P9_consists_of  <http://data.doremus.org/event/80288bc5-2068-324f-b4fb-01a7ae928117/activity/1> ;
+        efrbroo:R24_created  <http://data.doremus.org/publication/861f2e54-a3b8-3736-aed3-31d4261df0fc> .
+
+<http://data.doremus.org/work/ea678d79-cc98-3090-9604-d594730c63bb>
+        efrbroo:R2_is_derivative_of  <http://data.doremus.org/work/85a3a0aa-a1ac-329a-b7f2-ce326620955e> ;
+        efrbroo:R9_is_realised_in    <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> .
+
+<http://data.doremus.org/performance/72739e60-7623-373a-a24a-2e784dc617a2>
+        a                         mus:M42_Performed_Expression_Creation ;
+        mus:U205_has_cast_detail  "die 12 Pianisten, ens. instr.." ;
+        ecrm:P4_has_time-span     <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of       <http://data.doremus.org/performance/72739e60-7623-373a-a24a-2e784dc617a2/1> ;
+        efrbroo:R17_created       <http://data.doremus.org/expression/d2d1291a-0930-31eb-a54f-a392abbdf75a> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/eeec9eb7-887a-3cf9-a112-96ac95ce1473> ;
+        efrbroo:R25_performed     <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> .
+
+<http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1>
+        a                        efrbroo:F26_Recording , prov:Entity ;
+        ecrm:P104_is_subject_to  <http://data.doremus.org/recording/f6618769-32e5-3a9c-b431-b73e22375bb1/producer_right/1> ;
+        prov:wasAttributedTo     <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom      <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy      <http://data.doremus.org/activity/ac8a9152-851e-38c2-a167-bb33b397f4b5> .
+
+<http://data.doremus.org/performance/0a150455-cb75-317b-8cef-02713203d8cf/1>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/d9e59540-9e67-3b57-9da0-499a9654c79a> .
+
+<http://data.doremus.org/work/3172ad9c-458d-3296-96a4-90588c71e8bb>
+        mus:U38_has_descriptive_expression
+                <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> ;
+        efrbroo:R10_has_member      <http://data.doremus.org/work/f94b7a74-05d5-306d-84a8-29ec441808e6> , <http://data.doremus.org/work/546b4700-229a-353f-b31d-9f3113db0a6f> ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/expression/4f34458a-f4ee-300b-bd03-d5c75a6f4493> .
+
+<http://data.doremus.org/event/4774d494-d605-38bd-a84c-292eef7ac4c0>
+        a       efrbroo:F28_Expression_Creation .
+
+<http://data.doremus.org/work/f94b7a74-05d5-306d-84a8-29ec441808e6>
+        a                          mus:M44_Performed_Work ;
+        efrbroo:R9_is_realised_in  <http://data.doremus.org/expression/4f34458a-f4ee-300b-bd03-d5c75a6f4493> .
+
+<http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/recording/346b6a4e-d400-3174-953f-927519979ec5/producer_right/1/interval> .
+
+<http://data.doremus.org/work/b5920fce-e636-3304-9831-788fdbf8fa20>
+        a                          mus:M44_Performed_Work ;
+        efrbroo:R9_is_realised_in  <http://data.doremus.org/expression/4622f1ad-4814-31fd-888e-dd1d856d6ca3> .
+
+<http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/recording/d9923063-b6a2-3457-8384-9a273d9d83b3/producer_right/1/interval> .
+
+<http://sws.geonames.org/2850174/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "Ratingen"@fr ;
+        ecrm:P1_is_identified_by  "Ratingen (Allemagne)"@fr .
+
+<http://data.doremus.org/activity/e26b1267-26d0-3445-835b-9e00fe8ad47d>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:59.331Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/editing/5a38b681-b139-324a-817e-db3a810ca45b>
+        a                     mus:M29_Editing , prov:Entity ;
+        mus:U225_used_sound_spatialization_technique
+                <http://data.doremus.org/vocabulary/spazialization/stereo> ;
+        efrbroo:R17_created   <http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941> , <http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183> , <http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb> , <http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374> , <http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d> , <http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e> ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom   <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy   <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/bnf>
+        dcterms:modified  "2018-09-12T12:03:59.336Z"^^xsd:dateTime .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/distribution/1>
+        a             mus:M161_Distribution_Statement ;
+        rdfs:comment  "[Ratingen (Allemagne)]" .
+
+<http://data.doremus.org/event/0aa886f2-974a-38ab-b010-ceb1233b1330/activity/5>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/audio_producer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f> .
+
+<http://data.doremus.org/expression/4f34458a-f4ee-300b-bd03-d5c75a6f4493>
+        a                          prov:Entity , mus:M43_Performed_Expression ;
+        rdfs:label                 "Pictures at an exhibition" ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U54_is_performed_expression_of
+                <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> ;
+        ecrm:P102_has_title        "Pictures at an exhibition" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/1f0ebb3e-5260-34c6-8c4b-47cf86c3181d> .
+
+<http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        rdfs:label                 "Habanera aus \"Carmen-Fantasie\"" ;
+        mus:U13_has_casting        <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400/casting/1> ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        ecrm:P102_has_title        "Habanera aus \"Carmen-Fantasie\"" .
+
+<http://data.doremus.org/event/2736dca9-c00e-37cf-85b8-aec36ce5984d>
+        a                    efrbroo:F28_Expression_Creation ;
+        efrbroo:R17_created  <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/b4e88f04-9e18-3db2-9099-c991f1e2b83d> .
+
+<http://data.doremus.org/activity/208e9547-958f-314c-a7e2-9822b4c26ff5>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:59.313Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/interval> .
+
+<http://data.doremus.org/expression/4622f1ad-4814-31fd-888e-dd1d856d6ca3>
+        a                          prov:Entity , mus:M43_Performed_Expression ;
+        rdfs:label                 "Habanera aus \"Carmen-Fantasie\"" ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        mus:U54_is_performed_expression_of
+                <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> ;
+        ecrm:P102_has_title        "Habanera aus \"Carmen-Fantasie\"" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/1c718f24-5705-344a-81c8-748c81539116> .
+
+<http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, Karlsruher Schlagzeug Ensemble, ens. instr." .
+
+<http://data.doremus.org/manifestation/54733e30-c0b5-345f-865f-71c2fc33317f/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Pictures" .
+
+<http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a>
+        a                        efrbroo:F26_Recording , prov:Entity ;
+        ecrm:P104_is_subject_to  <http://data.doremus.org/recording/c43cc772-6288-39a8-8991-ec911ee3aa6a/producer_right/1> ;
+        prov:wasAttributedTo     <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom      <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy      <http://data.doremus.org/activity/b6e4af98-6c9d-3812-bec4-1a6681d5bac6> .
+
+<http://data.doremus.org/work/eeec9eb7-887a-3cf9-a112-96ac95ce1473>
+        a                          mus:M44_Performed_Work ;
+        efrbroo:R9_is_realised_in  <http://data.doremus.org/expression/d2d1291a-0930-31eb-a54f-a392abbdf75a> .
+
+<http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183/cast/1>
+        a             mus:M155_Cast_Statement ;
+        rdfs:comment  "die 12 Pianisten, ens. instr." .
+
+<http://data.doremus.org/performance/91741007-2452-3e52-b75f-95f70716477f/2>
+        a                        mus:M28_Individual_Performance ;
+        mus:U1_used_medium_of_performance
+                <http://data.doremus.org/vocabulary/iaml/mop/oie> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/cad53081-1183-312b-8581-61f3a39311f7> .
+
+<http://data.doremus.org/work/822f5bce-b9ff-3d4d-a3d7-5b7e486f361c>
+        efrbroo:R10_has_member      <http://data.doremus.org/work/0789cf27-199a-3987-9150-ecc2b165c8de> ;
+        efrbroo:R13_is_realised_in  <http://data.doremus.org/expression/9f2588c2-8eec-3e02-b8e5-79f9bdc27030> .
+
+<http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Daniel Schnyder, comp., arr." .
+
+<http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        rdfs:label                 "Pictures at an exhibition" ;
+        mus:U13_has_casting        <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1/casting/1> ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        ecrm:P102_has_title        "Pictures at an exhibition" .
+
+<http://data.doremus.org/manifestation/54733e30-c0b5-345f-865f-71c2fc33317f/assignment/>
+        a                        ecrm:E13_Attribute_Assignment ;
+        ecrm:P141_assigned       <http://data.doremus.org/vocabulary/categorization/bnf/10908> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "Pictures / Mussorgsky, Yossifov, Schnyder… [et al.], comp.; Noriko Ishikawa, Daniel Schnyder, Ferdinand Wrede, arr.; die 12 Pianisten, Karlsruher Schlagzeug Ensemble, ens. instr." .
+
+<http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Habanera aus \"Carmen-Fantasie\"" .
+
+<http://data.doremus.org/publication/770ad200-bfc0-3c43-9c78-6da0b3fd56d6/publication/1>
+        a             mus:M160_Publication_Statement ;
+        rdfs:comment  "[Ratingen (Allemagne)] : Ars Produktion" .
+
+<http://data.doremus.org/manifestation/54733e30-c0b5-345f-865f-71c2fc33317f>
+        a                             prov:Entity , mus:M46_Set_of_Tracks ;
+        rdfs:label                    "Pictures" ;
+        mus:U167_has_title_proper     "Pictures" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/manifestation/54733e30-c0b5-345f-865f-71c2fc33317f/title> ;
+        mus:U19_is_categorized_as     <http://data.doremus.org/vocabulary/categorization/bnf/10908> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1011> ;
+        efrbroo:R5_has_component      <http://data.doremus.org/manifestation/5e88d58a-73a4-3f55-b3c6-cd8610b32941> , <http://data.doremus.org/manifestation/26eb74a0-0a86-3505-bd8a-dedbe504790d> , <http://data.doremus.org/manifestation/60578c6a-6ae6-3fe0-9ffc-cf931f7c6b3e> , <http://data.doremus.org/manifestation/08cae3eb-6282-3d00-9043-a3e476970374> , <http://data.doremus.org/manifestation/ce9510f5-a891-3dfb-961e-fe8c3d931183> , <http://data.doremus.org/manifestation/d9a40155-41c5-3408-a0ca-a09a0fab95bb> ;
+        dc:identifier                 "43527194" ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/bf1e0901-8483-3e27-9022-941ff239b826> .
+
+<http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83>
+        a                      prov:Entity , efrbroo:F31_Performance ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/performance/485edc72-bf26-3f13-9095-7e995d71c316> , <http://data.doremus.org/performance/568e67cb-a43d-3364-8d4b-e7f9395f2e59> , <http://data.doremus.org/performance/72739e60-7623-373a-a24a-2e784dc617a2> , <http://data.doremus.org/performance/0a150455-cb75-317b-8cef-02713203d8cf> , <http://data.doremus.org/performance/6d902c8a-81eb-39a1-a293-8d8addb43270> , <http://data.doremus.org/performance/91741007-2452-3e52-b75f-95f70716477f> ;
+        efrbroo:R25_performed  <http://data.doremus.org/expression/91d59e6b-d666-3386-bec2-decfa11a5983> ;
+        efrbroo:R66_included_performed_version_of
+                <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242> , <http://data.doremus.org/expression/1519a294-8a09-344f-a166-87280d5ae5e0> , <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> , <http://data.doremus.org/expression/a9c6b45f-5610-3e85-959b-264086003669> , <http://data.doremus.org/expression/ec478910-352b-36bf-967d-0f75bab357e1> , <http://data.doremus.org/expression/60e12652-b53b-3f65-b21a-9f80e9bca31e> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/1c718f24-5705-344a-81c8-748c81539116> , <http://data.doremus.org/activity/e26b1267-26d0-3445-835b-9e00fe8ad47d> , <http://data.doremus.org/activity/ac8a9152-851e-38c2-a167-bb33b397f4b5> , <http://data.doremus.org/activity/1f0ebb3e-5260-34c6-8c4b-47cf86c3181d> , <http://data.doremus.org/activity/208e9547-958f-314c-a7e2-9822b4c26ff5> , <http://data.doremus.org/activity/b6e4af98-6c9d-3812-bec4-1a6681d5bac6> .
+
+<http://data.doremus.org/recording/91fe5c2f-b2e1-3dab-bbab-0e25447a30d9/producer_right/1/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/work/79ca3ad8-ca2c-3a48-bf70-342c4157bce4>
+        efrbroo:R2_is_derivative_of  <http://data.doremus.org/work/a2051919-8026-32e1-82e5-4890b25d9c47> ;
+        efrbroo:R9_is_realised_in    <http://data.doremus.org/expression/4b726efc-52d5-3bac-8aa2-1a4b30d17400> .
+
+<http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2013"^^xsd:gYear .
+
+<http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        rdfs:label                 "Ouvertüre zu \"Wilhelm Tell\"" ;
+        mus:U13_has_casting        <http://data.doremus.org/expression/a2af6c5d-4de4-3a9a-971d-c795060d5242/casting/1> ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        ecrm:P102_has_title        "Ouvertüre zu \"Wilhelm Tell\"" .
+
+<http://data.doremus.org/artist/0f86ea94-d56d-352c-89e2-672c32faf33f>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "Ars Produktion" ;
+        ecrm:P131_is_identified_by  "Ars Produktion" ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/2850174/> .
+
+<http://data.doremus.org/artist/4db77d33-e6ef-3367-aeb9-e78355c3dd2e>
+        a                         mus:M154_Label_Name ;
+        rdfs:label                "Ars Produktion" ;
+        ecrm:P1_is_identified_by  "Ars Produktion" .
+
+<http://data.doremus.org/performance/0dbc92a3-3c56-303f-b5f7-570345975c83/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2012-05"^^xsd:gYearMonth .
+
+<http://data.doremus.org/expression/60e12652-b53b-3f65-b21a-9f80e9bca31e>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/1f0ebb3e-5260-34c6-8c4b-47cf86c3181d>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T12:03:58.882Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> .
+
+<http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234>
+        a                        efrbroo:F26_Recording , prov:Entity ;
+        ecrm:P104_is_subject_to  <http://data.doremus.org/recording/bc5d9e5f-3fa8-3ade-8def-1e0d774c3234/producer_right/1> ;
+        prov:wasAttributedTo     <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom      <http://catalogue.bnf.fr/ark:/12148/cb435271949.intermarc> ;
+        prov:wasGeneratedBy      <http://data.doremus.org/activity/1f0ebb3e-5260-34c6-8c4b-47cf86c3181d> .
