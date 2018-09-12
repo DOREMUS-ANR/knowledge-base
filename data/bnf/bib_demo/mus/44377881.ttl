@@ -1,0 +1,278 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/distribution_rigth>
+        a                           cro:DistributionRight ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/distribution_rigth/assignment> ;
+        schema:startTime            "20150202d\n2015\n02\n02"^^xsd:gYear .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/id/979-0-043-09357-2>
+        a                       ecrm:E42_Identifier ;
+        rdfs:label              "979-0-043-09357-2" ;
+        ecrm:P2_has_type        <http://data.doremus.org/vocabulary/id/ismn> ;
+        efrbroo:R8_consists_of  "br." , "979-0-043-09357-2" .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Juan Nagao, Michel Lysight, Philippe Geiss... [et al.], proposé par Nicolas Prost" .
+
+<http://data.doremus.org/bnf>
+        dcterms:modified  "2018-09-12T17:45:44.611Z"^^xsd:dateTime .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Saxiana presto : 7 pièces caractéristiques pour saxophone (soprano ou alto) solo" , "Saxiana presto" .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "Saxiana presto: 7 pièces caractéristiques pour saxophone (soprano ou alto) solo / Juan Nagao, Michel Lysight, Philippe Geiss... [et al.]; proposé par Nicolas Prost" .
+
+<http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/distribution_rigth/interval>
+        a           time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label  "20150202d\n2015\n02\n02" .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75>
+        a                             prov:Entity , efrbroo:F24_Publication_Expression ;
+        rdfs:label                    "Saxiana presto" ;
+        mus:U167_has_title_proper     "Saxiana presto" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/responsibility/1> ;
+        mus:U184_has_publication_statement
+                <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/publication/1> ;
+        mus:U185_has_distribution_statement
+                <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/distribution/1> ;
+        mus:U201_has_illustrative_content
+                "ill. en coul." ;
+        mus:U202_has_colour_details   "illustration(s)en couleur" ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/title_responsibility> ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        mus:U229_has_music_format     <http://data.doremus.org/format/soloist> ;
+        mus:U50_has_annotation        "Degré : difficile (7-8)" , "Contient aussi des oeuvres de Gabriela Ortiz, Polina Mydyulyanova, Luis Naon et Vache Sharafyan" , "Durée totale : 17 min 20 s" , "Préface en français et anglais" ;
+        mus:U67_has_subtitle          "7 pièces caractéristiques pour saxophone (soprano ou alto) solo" ;
+        ecrm:P165_incorporates        <http://data.doremus.org/expression/a17b3e25-5214-3fce-8650-ab8871468847> , <http://data.doremus.org/expression/6a06f3e3-e906-3562-95ef-a5c05b9389d0> , <http://data.doremus.org/expression/2a8ab420-0201-3866-9240-1807fded6224> , <http://data.doremus.org/expression/1b45e6d3-dbfe-332b-a1e5-a943d3d35509> , <http://data.doremus.org/expression/cbcacb7b-2985-32ce-b187-65586549e76c> , <http://data.doremus.org/expression/95057a35-9dca-388b-9cc8-7f0e301c6fde> , <http://data.doremus.org/publication/50f22d9e-baf8-3fc8-8356-9ad27856d512> , <http://data.doremus.org/expression/90dc3444-7c98-36f4-9b07-5f1dbe1cc5d2> ;
+        ecrm:P1_is_identified_by      <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/id/979-0-043-09357-2> , <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/id/GB9357> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/8a30e733-fa9a-3f59-b5b4-3fa575203d63> .
+
+<http://sws.geonames.org/2988507/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "Paris"@fr ;
+        ecrm:P1_is_identified_by  "Paris"@fr .
+
+<http://data.doremus.org/activity/8a30e733-fa9a-3f59-b5b4-3fa575203d63>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:41.108Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/expression/a17b3e25-5214-3fce-8650-ab8871468847>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/1b45e6d3-dbfe-332b-a1e5-a943d3d35509>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/activity/dc6ced6e-d9bf-389a-93ec-8fbf09d70d7a>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.608Z"^^xsd:dateTime , "2018-09-12T17:45:44.607Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/expression/cbcacb7b-2985-32ce-b187-65586549e76c>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/expression/2a8ab420-0201-3866-9240-1807fded6224>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/id/GB9357>
+        a                       ecrm:E42_Identifier ;
+        rdfs:label              "GB9357" ;
+        ecrm:P2_has_type        <http://data.doremus.org/vocabulary/id/plate> ;
+        efrbroo:R8_consists_of  "GB9357" .
+
+<http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "2015" ;
+        time:hasBeginning  <http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/interval/end> .
+
+<http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209>
+        a                          prov:Entity , efrbroo:F3_Manifestation_Product_Type ;
+        mus:CLU206_should_have_media_type
+                "unmediated" ;
+        mus:CLU207_should_have_carrier_type
+                "brochure"@fr ;
+        mus:CLU210_should_have_pagination
+                <http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/pagination/1> ;
+        mus:U212_has_technical_features
+                "ill. en coul." ;
+        ecrm:P104_is_subject_to    <http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/communication_right> , <http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/distribution_rigth> ;
+        efrbroo:CLR6_should_carry  <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75> ;
+        dc:identifier              "44377881" ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/8a30e733-fa9a-3f59-b5b4-3fa575203d63> .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/distribution/1>
+        a             mus:M161_Distribution_Statement ;
+        rdfs:comment  "Paris" .
+
+<http://data.doremus.org/event/4abe534f-80e5-3882-ad15-ab312a2ddcd7>
+        a                    efrbroo:F32_Carrier_Production_Event ;
+        ecrm:P9_consists_of  <http://data.doremus.org/event/4abe534f-80e5-3882-ad15-ab312a2ddcd7/activity/1> ;
+        efrbroo:R26_produced_things_of_type
+                <http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209> .
+
+<http://data.doremus.org/manifestation/e5caaf77-7e9a-3c61-b6e9-c8da84e06947>
+        a                               efrbroo:F3_Manifestation_Product_Type ;
+        mus:U208_has_extent_of_carrier  "1 partie" ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/50f22d9e-baf8-3fc8-8356-9ad27856d512> .
+
+<http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2015"^^xsd:gYear .
+
+<http://data.doremus.org/activity/9ad7ab3a-adef-3ca7-bce7-afc85963212b>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.610Z"^^xsd:dateTime , "2018-09-12T17:45:44.609Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/activity/0f7242fa-9a36-3eec-8327-56abb591950b>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.601Z"^^xsd:dateTime , "2018-09-12T17:45:44.600Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/expression/6a06f3e3-e906-3562-95ef-a5c05b9389d0>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/artist/f9bf5b92-d064-33f0-9da1-3ba42b232b5d>
+        a           ecrm:E21_Person ;
+        rdfs:label  "Impr. Armiane" ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/2969679/> ;
+        foaf:name   "Impr. Armiane" .
+
+<http://data.doremus.org/activity/ffc17395-c27b-3097-a625-0c7bd36d5f2b>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.603Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/activity/564e0235-fe1f-3d6f-8e33-e368ba8092bc>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.594Z"^^xsd:dateTime , "2018-09-12T17:45:44.593Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/activity/126d5052-c52d-3bfb-97ee-4f2bdf2434d3>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.604Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/activity/1> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/1e7c2595-66d7-3a98-91e7-9f688fa2cef4> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/8a30e733-fa9a-3f59-b5b4-3fa575203d63> .
+
+<http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75/publication/1>
+        a             mus:M160_Publication_Statement ;
+        rdfs:comment  "Paris : Gérard Billaudot Éditeur, 2015" .
+
+<http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/distribution_rigth/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/distribution_rigth/interval> .
+
+<http://data.doremus.org/event/4abe534f-80e5-3882-ad15-ab312a2ddcd7/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/printer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/f9bf5b92-d064-33f0-9da1-3ba42b232b5d> .
+
+<http://data.doremus.org/expression/90dc3444-7c98-36f4-9b07-5f1dbe1cc5d2>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://sws.geonames.org/2969679/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "78-Versailles"@fr , "Versailles"@en ;
+        ecrm:P1_is_identified_by  "78-Versailles"@fr ;
+        <http://www.geonames.org/ontology#name>
+                "Versailles" .
+
+<http://data.doremus.org/expression/95057a35-9dca-388b-9cc8-7f0e301c6fde>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> .
+
+<http://data.doremus.org/manifestation/bac44a89-dbd7-3848-a46f-887c7bb5b209/pagination/1>
+        a                   ecrm:E54_Dimension ;
+        ecrm:P90_has_value  "25"^^xsd:int ;
+        ecrm:P91_has_unit   "page" .
+
+<http://data.doremus.org/work/1e7c2595-66d7-3a98-91e7-9f688fa2cef4>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/ee64a15a-06fc-37d5-80eb-fd090fa14f75> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/8a30e733-fa9a-3f59-b5b4-3fa575203d63> .
+
+<http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2015"^^xsd:gYear .
+
+<http://data.doremus.org/activity/675115da-2b32-333a-824d-1f56304959c3>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:44.606Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377881q.intermarc> .
+
+<http://data.doremus.org/publication/50f22d9e-baf8-3fc8-8356-9ad27856d512>
+        a                 efrbroo:F24_Publication_Expression ;
+        rdfs:comment      "1 partie"@fr ;
+        ecrm:P3_has_note  "1 partie"@fr .
+
+<http://data.doremus.org/artist/704726e3-c2d0-3f57-a3e5-7bd31612d4e5>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "Gérard Billaudot Éditeur" ;
+        ecrm:P131_is_identified_by  "Gérard Billaudot Éditeur" ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/2988507/> .
+
+<http://data.doremus.org/event/7be1d764-07c9-3d72-b54e-49e1ea499e6d/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/704726e3-c2d0-3f57-a3e5-7bd31612d4e5> .

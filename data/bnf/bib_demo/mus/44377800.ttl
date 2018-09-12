@@ -1,0 +1,218 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/id/GB9568>
+        a                       ecrm:E42_Identifier ;
+        rdfs:label              "GB9568" ;
+        ecrm:P2_has_type        <http://data.doremus.org/vocabulary/id/plate> ;
+        efrbroo:R8_consists_of  "GB9568" .
+
+<http://catalogue.bnf.fr/ark:/12148/cb44377800w.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/704726e3-c2d0-3f57-a3e5-7bd31612d4e5> .
+
+<http://data.doremus.org/expression/95ee31d0-dbb1-3a55-b585-d1c6e3426a06>
+        a                           efrbroo:F22_Self-Contained_Expression ;
+        mus:U227_has_content_type   <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        mus:U78_estimated_duration  "PT9M10S"^^xsd:dayTimeDuration .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "Gregory M. Barrett" .
+
+<http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/distribution_rigth>
+        a                           cro:DistributionRight ;
+        ecrm:P141i_was_assigned_by  <http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/distribution_rigth/assignment> ;
+        schema:startTime            "20141125d\n2014\n11\n25"^^xsd:gYear .
+
+<http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/pagination/1>
+        a                   ecrm:E54_Dimension ;
+        ecrm:P90_has_value  "1"^^xsd:int ;
+        ecrm:P91_has_unit   "page" .
+
+<http://data.doremus.org/publication/70260443-531f-3ae7-b7c2-abcdef0d9d89>
+        a                 efrbroo:F24_Publication_Expression ;
+        rdfs:comment      "3 parties"@fr ;
+        ecrm:P3_has_note  "3 parties"@fr .
+
+<http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2014"^^xsd:gYear .
+
+<http://sws.geonames.org/3002620/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "85-Le Poiré-sur-Vie"@fr , "Le Poiré-sur-Vie"@en ;
+        ecrm:P1_is_identified_by  "85-Le Poiré-sur-Vie"@fr ;
+        <http://www.geonames.org/ontology#name>
+                "Le Poiré-sur-Vie" .
+
+<http://data.doremus.org/event/7b339b19-421d-3371-a876-73305ecc7c3c>
+        a                    efrbroo:F32_Carrier_Production_Event ;
+        ecrm:P9_consists_of  <http://data.doremus.org/event/7b339b19-421d-3371-a876-73305ecc7c3c/activity/1> ;
+        efrbroo:R26_produced_things_of_type
+                <http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb> .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f>
+        a                             efrbroo:F24_Publication_Expression , prov:Entity ;
+        rdfs:label                    "The three shepherds rock" ;
+        mus:U167_has_title_proper     "The three shepherds rock" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/responsibility/1> ;
+        mus:U182_has_music_format_statement
+                "[Partition et parties]" ;
+        mus:U184_has_publication_statement
+                <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/publication/1> ;
+        mus:U185_has_distribution_statement
+                <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/distribution/1> ;
+        mus:U201_has_illustrative_content
+                "ill. en coul." ;
+        mus:U202_has_colour_details   "illustration(s)en couleur" ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/title_responsibility> ;
+        mus:U221_has_title_proper_of_series
+                "Collection Jean-Marc Fessard" ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        mus:U229_has_music_format     <http://iflastandards.info/ns/unimarc/terms/tos#m> ;
+        mus:U50_has_annotation        "Durée totale : 9 min 10 s" , "Réunit : \"Into the deep valley and sing\" ; \"Would I with her today\" ; \"Upward the echo from the ravines\" ; \"Through the night\" ; \"Ready to wander\"" , "Degré : moyenne difficulté (6)" ;
+        mus:U67_has_subtitle          "with apologies to Franz Schubert" ;
+        ecrm:P165_incorporates        <http://data.doremus.org/publication/70260443-531f-3ae7-b7c2-abcdef0d9d89> , <http://data.doremus.org/expression/95ee31d0-dbb1-3a55-b585-d1c6e3426a06> ;
+        ecrm:P1_is_identified_by      <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/id/GB9568> , <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/id/979-0-043-09568-2> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb44377800w.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/3b5ff72c-e4c5-3bde-8e7e-43e6670e6308> .
+
+<http://data.doremus.org/event/7b339b19-421d-3371-a876-73305ecc7c3c/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/printer> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/587765ec-757b-353a-8bb4-4ac2953fa91a> .
+
+<http://data.doremus.org/bnf>
+        dcterms:modified  "2018-09-12T17:46:11.600Z"^^xsd:dateTime .
+
+<http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2014"^^xsd:gYear .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/id/979-0-043-09568-2>
+        a                       ecrm:E42_Identifier ;
+        rdfs:label              "979-0-043-09568-2" ;
+        ecrm:P2_has_type        <http://data.doremus.org/vocabulary/id/ismn> ;
+        efrbroo:R8_consists_of  "979-0-043-09568-2" , "br." .
+
+<http://data.doremus.org/artist/587765ec-757b-353a-8bb4-4ac2953fa91a>
+        a           ecrm:E21_Person ;
+        rdfs:label  "Impr. IGO" ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/3002620/> ;
+        foaf:name   "Impr. IGO" .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "The three shepherds rock" , "The three shepherds rock : with apologies to Franz Schubert" , "The three shepherds rock : with apologies to Franz Schubert : pour 3 clarinettes (2 clarinettes en si bémol et clarinette basse en si bémol)" .
+
+<http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "2014" ;
+        time:hasBeginning  <http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/interval/end> .
+
+<http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/distribution_rigth/interval>
+        a           time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label  "20141125d\n2014\n11\n25" .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "The three shepherds rock: with apologies to Franz Schubert: pour 3 clarinettes (2 clarinettes en si bémol et clarinette basse en si bémol) / Gregory M. Barrett" .
+
+<http://data.doremus.org/manifestation/c914b8e5-76df-3945-9a33-bc10f58b5373>
+        a                               efrbroo:F3_Manifestation_Product_Type ;
+        mus:U208_has_extent_of_carrier  "3 parties" ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/70260443-531f-3ae7-b7c2-abcdef0d9d89> .
+
+<http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb>
+        a                               prov:Entity , efrbroo:F3_Manifestation_Product_Type ;
+        mus:CLU206_should_have_media_type
+                "unmediated" ;
+        mus:CLU207_should_have_carrier_type
+                "volume"@fr ;
+        mus:CLU210_should_have_pagination
+                <http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/pagination/1> ;
+        mus:U208_has_extent_of_carrier  "1 partition (11 p.)" ;
+        mus:U212_has_technical_features
+                "ill. en coul." ;
+        ecrm:P104_is_subject_to         <http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/distribution_rigth> , <http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/communication_right> ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f> ;
+        dc:identifier                   "44377800" ;
+        prov:wasAttributedTo            <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom             <http://catalogue.bnf.fr/ark:/12148/cb44377800w.intermarc> ;
+        prov:wasGeneratedBy             <http://data.doremus.org/activity/3b5ff72c-e4c5-3bde-8e7e-43e6670e6308> .
+
+<http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/50b6313d-a581-388d-9329-84177a45cce2/activity/1> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/0cd2b441-82d6-30e1-b87e-50f324f85625> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb44377800w.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/3b5ff72c-e4c5-3bde-8e7e-43e6670e6308> .
+
+<http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/distribution_rigth/assignment>
+        a                      ecrm:E13_Attribute_Assignment ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/manifestation/6253e2f6-3afd-35c5-b03e-75221f0278bb/distribution_rigth/interval> .
+
+<http://data.doremus.org/artist/704726e3-c2d0-3f57-a3e5-7bd31612d4e5>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "Gérard Billaudot Éditeur" ;
+        ecrm:P131_is_identified_by  "Gérard Billaudot Éditeur" ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/2988507/> .
+
+<http://sws.geonames.org/2988507/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "Paris"@fr ;
+        ecrm:P1_is_identified_by  "Paris"@fr .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/distribution/1>
+        a             mus:M161_Distribution_Statement ;
+        rdfs:comment  "Paris" .
+
+<http://data.doremus.org/work/0cd2b441-82d6-30e1-b87e-50f324f85625>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb44377800w.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/3b5ff72c-e4c5-3bde-8e7e-43e6670e6308> .
+
+<http://data.doremus.org/activity/3b5ff72c-e4c5-3bde-8e7e-43e6670e6308>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:46:11.584Z"^^xsd:dateTime , "2018-09-12T17:46:01.991Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb44377800w.intermarc> .
+
+<http://data.doremus.org/publication/10c8bedc-7776-30bc-9e2b-bba32f128c5f/publication/1>
+        a             mus:M160_Publication_Statement ;
+        rdfs:comment  "Paris : Gérard Billaudot Éditeur, 2014" .

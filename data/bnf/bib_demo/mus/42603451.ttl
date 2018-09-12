@@ -1,0 +1,205 @@
+@prefix schema: <http://schema.org/> .
+@prefix cro:   <http://rhizomik.net/ontologies/copyrightonto#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ecrm:  <http://erlangen-crm.org/current/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efrbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mus:   <http://data.doremus.org/ontology#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/interval>
+        a                  time:Interval , ecrm:E52_Time-Span ;
+        rdfs:label         "2011" ;
+        time:hasBeginning  <http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/interval/start> ;
+        time:hasEnd        <http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/interval/end> .
+
+<http://data.doremus.org/work/00e2a9d8-de2f-3006-873f-b289368c69ca/derivation_assignment>
+        a                        mus:M39_Derivation_Type_Assignment ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/organization/BnF> ;
+        ecrm:P41_classified      <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a> , <http://data.doremus.org/work/00e2a9d8-de2f-3006-873f-b289368c69ca> .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe>
+        a                             efrbroo:F24_Publication_Expression , prov:Entity ;
+        rdfs:label                    "Fantaisie brillante" ;
+        mus:U167_has_title_proper     "Fantaisie brillante" ;
+        mus:U170_has_title_statement  <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/title> ;
+        mus:U172_has_statement_of_responsibility_relatingt_to_title
+                <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/responsibility/3> ;
+        mus:U178_has_statement_of_responsibility_relating_to_edition
+                <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/responsibility/1> ;
+        mus:U179_has_parallel_statement_of_responsibility_relating_to_edition
+                <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/responsibility/2> ;
+        mus:U182_has_music_format_statement
+                "[Partition et parties]" ;
+        mus:U184_has_publication_statement
+                <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/publication/1> ;
+        mus:U185_has_distribution_statement
+                <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/distribution/1> ;
+        mus:U201_has_illustrative_content
+                "portr., couv. ill. en coul." ;
+        mus:U202_has_colour_details   "portr., couv. illustration(s)en couleur" ;
+        mus:U220_has_title_and_statement_of_responsibility
+                <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/title_responsibility> ;
+        mus:U221_has_title_proper_of_series
+                "Magnifica" ;
+        mus:U227_has_content_type     <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        mus:U229_has_music_format     <http://iflastandards.info/ns/unimarc/terms/tos#m> ;
+        mus:U50_has_annotation        "Préface en français, anglais et japonais" ;
+        ecrm:P165_incorporates        <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a> , <http://data.doremus.org/publication/8df30602-5c7c-3357-9589-6daafba79a93> ;
+        ecrm:P1_is_identified_by      <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/id/IMD 856> ;
+        prov:wasAttributedTo          <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom           <http://catalogue.bnf.fr/ark:/12148/cb42603451h.intermarc> ;
+        prov:wasGeneratedBy           <http://data.doremus.org/activity/0ed9cb17-1eab-37d4-b4a8-c48a38722355> .
+
+<http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/interval/start>
+        a               time:Instant ;
+        time:inXSDDate  "2011"^^xsd:gYear .
+
+<http://data.doremus.org/manifestation/c94152d4-4d46-353d-95eb-bbe2ca5739a5>
+        a                               efrbroo:F3_Manifestation_Product_Type , prov:Entity ;
+        mus:CLU206_should_have_media_type
+                "unmediated" ;
+        mus:CLU207_should_have_carrier_type
+                "volume"@fr ;
+        mus:CLU210_should_have_pagination
+                <http://data.doremus.org/manifestation/c94152d4-4d46-353d-95eb-bbe2ca5739a5/pagination/1> ;
+        mus:U208_has_extent_of_carrier  "1 partition (12 p.)" ;
+        mus:U212_has_technical_features
+                "couv. ill. en coul." , "portr." ;
+        ecrm:P104_is_subject_to         <http://data.doremus.org/manifestation/c94152d4-4d46-353d-95eb-bbe2ca5739a5/communication_right> ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe> ;
+        dc:identifier                   "42603451" ;
+        prov:wasAttributedTo            <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom             <http://catalogue.bnf.fr/ark:/12148/cb42603451h.intermarc> ;
+        prov:wasGeneratedBy             <http://data.doremus.org/activity/0ed9cb17-1eab-37d4-b4a8-c48a38722355> .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/responsibility/3>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "J. B. Arban, arr. [pour quintette de cuivres], A. Carradot" .
+
+<http://data.doremus.org/manifestation/c94152d4-4d46-353d-95eb-bbe2ca5739a5/pagination/1>
+        a                   ecrm:E54_Dimension ;
+        ecrm:P90_has_value  "1"^^xsd:int ;
+        ecrm:P91_has_unit   "page" .
+
+<http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a>
+        a                          efrbroo:F22_Self-Contained_Expression ;
+        rdfs:label                 "Fantaisie brillante" ;
+        mus:U13_has_casting        <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a/casting/1> ;
+        mus:U227_has_content_type  <http://rdaregistry.info/termList/RDAContentType/1010> ;
+        ecrm:P102_has_title        "Fantaisie brillante" .
+
+<http://data.doremus.org/activity/0ed9cb17-1eab-37d4-b4a8-c48a38722355>
+        a             prov:Derivation , prov:Activity ;
+        rdfs:comment  "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        prov:atTime   "2018-09-12T17:45:04.239Z"^^xsd:dateTime , "2018-09-12T17:45:04.136Z"^^xsd:dateTime ;
+        prov:used     <http://catalogue.bnf.fr/ark:/12148/cb42603451h.intermarc> .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/responsibility/2>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "J. B. Arban, arr. [pour quintette de cuivres], A. Carradot" .
+
+<http://data.doremus.org/work/00e2a9d8-de2f-3006-873f-b289368c69ca>
+        efrbroo:R2_is_derivative_of  <http://data.doremus.org/work/b5b6e6fe-9420-3418-b62b-c92ce2eb4444> ;
+        efrbroo:R9_is_realised_in    <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a> .
+
+<http://data.doremus.org/bnf>
+        dcterms:modified  "2018-09-12T17:45:04.265Z"^^xsd:dateTime .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/id/IMD 856>
+        a                       ecrm:E42_Identifier ;
+        rdfs:label              "IMD 856" ;
+        ecrm:P2_has_type        <http://data.doremus.org/vocabulary/id/plate> ;
+        efrbroo:R8_consists_of  "IMD 856" .
+
+<http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a/casting/1>
+        a                           mus:M6_Casting ;
+        mus:U23_has_casting_detail  <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a/casting/1/detail/4> , <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a/casting/1/detail/3> , <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a/casting/1/detail/2> , <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a/casting/1/detail/1> .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/publication/1>
+        a             mus:M160_Publication_Statement ;
+        rdfs:comment  "Paris : International music diffusion, 2011" .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/responsibility/1>
+        a             mus:M157_Statement_of_Responsibility ;
+        rdfs:comment  "J. B. Arban, arr. [pour quintette de cuivres], A. Carradot" .
+
+<http://data.doremus.org/artist/89bc7ad8-ba29-36ad-8f7f-534c0143fb7b>
+        a                           efrbroo:F11_Corporate_Body ;
+        rdfs:label                  "International music diffusion" ;
+        ecrm:P131_is_identified_by  "International music diffusion" ;
+        ecrm:P74_has_current_or_former_residence
+                <http://sws.geonames.org/2988507/> .
+
+<http://data.doremus.org/publication/8df30602-5c7c-3357-9589-6daafba79a93>
+        a                 efrbroo:F24_Publication_Expression ;
+        rdfs:comment      "5 parties"@fr ;
+        ecrm:P3_has_note  "5 parties"@fr .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/title>
+        a             mus:M156_Title_Statement ;
+        rdfs:comment  "Fantaisie brillante" .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/distribution/1>
+        a             mus:M161_Distribution_Statement ;
+        rdfs:comment  "Paris" .
+
+<http://catalogue.bnf.fr/ark:/12148/cb42603451h.intermarc>
+        a                     prov:Entity ;
+        prov:wasAttributedTo  <http://data.doremus.org/organization/BnF> .
+
+<http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe/title_responsibility>
+        a             mus:M158_Title_and_Statement_of_Responsibility ;
+        rdfs:comment  "Fantaisie brillante / J. B. Arban; arr. [pour quintette de cuivres], A. Carradot" .
+
+<http://data.doremus.org/work/3a0c1541-6106-3b3f-b02f-cbad06103e39>
+        a                          prov:Entity , efrbroo:F19_Publication_Work ;
+        efrbroo:R3_is_realised_in  <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe> ;
+        prov:wasAttributedTo       <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom        <http://catalogue.bnf.fr/ark:/12148/cb42603451h.intermarc> ;
+        prov:wasGeneratedBy        <http://data.doremus.org/activity/0ed9cb17-1eab-37d4-b4a8-c48a38722355> .
+
+<http://data.doremus.org/manifestation/c94152d4-4d46-353d-95eb-bbe2ca5739a5/communication_right>
+        a                 cro:CommunicationRight ;
+        rdfs:comment      "pas de restriction de communication" ;
+        ecrm:P3_has_note  "pas de restriction de communication" .
+
+<http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/interval/end>
+        a               time:Instant ;
+        time:inXSDDate  "2011"^^xsd:gYear .
+
+<http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/activity/1>
+        a                        ecrm:E7_Activity ;
+        mus:U31_had_function     <http://data.doremus.org/vocabulary/function/publisher> ;
+        ecrm:P14_carried_out_by  <http://data.doremus.org/artist/89bc7ad8-ba29-36ad-8f7f-534c0143fb7b> .
+
+<http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a>
+        a                      efrbroo:F30_Publication_Event , prov:Entity ;
+        ecrm:P4_has_time-span  <http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/interval> ;
+        ecrm:P9_consists_of    <http://data.doremus.org/event/5fe4474f-6bf2-35f5-b293-accb7936bd0a/activity/1> ;
+        efrbroo:R19_created_a_realisation_of
+                <http://data.doremus.org/work/3a0c1541-6106-3b3f-b02f-cbad06103e39> ;
+        efrbroo:R24_created    <http://data.doremus.org/publication/fa686b83-1185-34b5-94a4-ff20fd2f08fe> ;
+        prov:wasAttributedTo   <http://data.doremus.org/organization/DOREMUS> ;
+        prov:wasDerivedFrom    <http://catalogue.bnf.fr/ark:/12148/cb42603451h.intermarc> ;
+        prov:wasGeneratedBy    <http://data.doremus.org/activity/0ed9cb17-1eab-37d4-b4a8-c48a38722355> .
+
+<http://data.doremus.org/work/dfc3408a-ec1a-37e0-b3c8-59ff45de0bdf>
+        mus:U38_has_descriptive_expression
+                <http://data.doremus.org/expression/d38ac887-2ccf-3a6b-93f3-4983b777973a> ;
+        efrbroo:R10_has_member  <http://data.doremus.org/work/00e2a9d8-de2f-3006-873f-b289368c69ca> .
+
+<http://sws.geonames.org/2988507/>
+        a                         ecrm:E53_Place ;
+        rdfs:label                "Paris"@fr ;
+        ecrm:P1_is_identified_by  "Paris"@fr .
+
+<http://data.doremus.org/manifestation/0f0424bf-3ec8-3cdc-90dc-389176909647>
+        a                               efrbroo:F3_Manifestation_Product_Type ;
+        mus:U208_has_extent_of_carrier  "5 parties" ;
+        efrbroo:CLR6_should_carry       <http://data.doremus.org/publication/8df30602-5c7c-3357-9589-6daafba79a93> .
