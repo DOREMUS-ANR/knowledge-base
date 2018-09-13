@@ -4,10 +4,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix mus: <http://data.doremus.org/ontology#> .
 
-<http://data.doremus.org/vocabulary/categorization/bnf/> a skos:ConceptScheme ;
-    rdfs:label "Categozations (BnF)"@en;
+<http://data.doremus.org/categorization/bnf/> a skos:ConceptScheme ;
+    rdfs:label "Categorizations (BnF)"@en;
     dct:created "2018-08-13"^^xsd:date ;
-    dct:modified "2018-08-13"^^xsd:date .
+    dct:modified "2018-09-13"^^xsd:date .
 
 <http://data.doremus.org/categorization/bnf/10200> a mus:M19_Categorization , skos:Concept ;
 	rdfs:label "chanson"@fr ;
