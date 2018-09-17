@@ -184,7 +184,7 @@
   keys:tonic keys:F ;
   mus:U83_has_relative_key <http://data.doremus.org/vocabulary/key/dm> ;
   mus:U84_has_parallel_key <http://data.doremus.org/vocabulary/key/fm> ;
-  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/gm>, <http://data.doremus.org/vocabulary/key/am>, <http://data.doremus.org/vocabulary/key/bb>, <http://data.doremus.org/vocabulary/key/d> ;
+  mus:U85_has_closely_related_key <http://data.doremus.org/vocabulary/key/gm>, <http://data.doremus.org/vocabulary/key/am>, <http://data.doremus.org/vocabulary/key/bb>, <http://data.doremus.org/vocabulary/key/c> ;
   owl:sameAs keys:FMajor ;
   skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/key#f> .
 
