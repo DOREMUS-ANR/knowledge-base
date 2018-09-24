@@ -1,0 +1,224 @@
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/042bab4d-9bd6-3926-83f6-ee17c299b38e"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/cc65ab46-8dcb-357a-867e-8d7f05cc6646"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.86</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/c4815e56-826c-389d-9c0a-089744c61f7c"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/29d390e5-1335-3959-bcae-7d572b2ca7fc"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/cf8e8482-e4ec-3266-b3ea-78303219a1a5"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/629445fe-1cd3-3cb8-a6ed-3e48bd851a0e"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/0d9339d0-7890-3750-8ebe-d6b169d894e1"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/fe8e545d-ac11-3c75-9145-46f59e8cfa3c"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.88</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/f351d2a4-6b25-35a8-a28f-9e64d03370c4"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/e0314cf2-fab6-3df8-87eb-e35a860e32fe"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.81</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/7d17192f-df2e-3b03-9129-9d8e9b57b138"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/c090f810-5b73-38a8-87fa-f0cd3e73e591"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.51</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/7e6c0ccf-a40f-309b-b658-bb2d31c5d2fa"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/ef69788e-2f9e-3f0b-907e-23d946da8372"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.62</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/6f7c0c8a-bbd0-38a6-8192-db5cf3220695"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/bc897659-f3ab-3d8b-834a-9518888c947a"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.67</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/7440f1fd-f075-3d69-b446-ab642429a679"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/e88dac80-eaaa-3e42-bc38-948444bd7ffe"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/971e52f6-d7b2-3b4c-9d8c-b4d9a3746884"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/945a2b01-378a-342a-ad0a-72bbfc06ca0e"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.49</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/a62b6953-03e6-3e32-bc46-ff416d77cf74"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/971e52f6-d7b2-3b4c-9d8c-b4d9a3746884"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.52</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/0cb32a6d-772a-3d14-98f1-ec00da30a8f6"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/3e3f2864-8f97-3d36-b10f-1840792794f6"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.26</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/1d126fd0-8fb7-3e7f-b534-cf9c754ebadc"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/a8ffccde-a994-3492-a7f0-12888d0c4f9c"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.89</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/93076adf-9464-3722-a346-825c77cc05ff"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/7e51612b-7297-333b-8f1f-33f67f119ee8"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.71</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/2e206175-0018-3e00-9204-d2619f45e271"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/29d390e5-1335-3959-bcae-7d572b2ca7fc"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/3064160f-25b6-3208-9f01-1225c3a64814"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/8b9ae75f-5256-33f6-af1c-8a3798be178a"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/e2d29d53-b056-375c-be8f-02cd7ac9d665"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/cc65ab46-8dcb-357a-867e-8d7f05cc6646"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.86</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/ef69788e-2f9e-3f0b-907e-23d946da8372"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/f37369bc-73a0-392a-a012-ef121f33c983"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.51</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/110052a8-6c13-34c7-91cc-38645da73f4c"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/e0314cf2-fab6-3df8-87eb-e35a860e32fe"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/92a6df94-1df7-3129-9bb0-ae85d427fd09"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/ab5da6ab-1e33-3fc8-967f-fafb4e9b6c34"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.82</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/4a93ffbe-bdc7-3868-9b39-260e059e63a9"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/7440f1fd-f075-3d69-b446-ab642429a679"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.44</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/8495628b-2c02-327b-8817-a44d9cd84268"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/822f09b3-dcf0-315d-af1b-770de8aa5266"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.61</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/e2e6b7ac-4d5c-3cba-b515-4a8b505e7543"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/9e4dc785-d08c-3c16-8ae1-2b44b52b332d"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.49</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/777cfa39-a33a-3e03-bf78-2f11e256441d"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/35e3fd68-0d1a-3495-8686-2a87515e1f96"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</measure>
+<relation> = </relation>
+</Cell>
+</map>
+
+<map>
+<Cell>
+<entity1 rdf:resource="http://data.doremus.org/expression/ce7d504f-879d-3b97-b78a-b63fb8fcf343"/>
+<entity2 rdf:resource="http://data.doremus.org/expression/75aa0426-c046-3716-bdce-3bb15cbd9f78"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.53</measure>
+<relation> = </relation>
+</Cell>
+</map>
