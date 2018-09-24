@@ -5,4 +5,4 @@ This folder contains the results of various data interlinking tasks within the D
 - **ethnies-BnF2RAMEAU**: alignment of ethnics/region related terms from the BIB records of the BNF to the RAMEAU controlled vocabulary.
 - **foreseen-realised-concerts**: alignment of the foreseen concerts to the realised ones from the Philharmonie de Paris catalogue (euterpe and ALOES databases).
 
-Authors: Nassim Bendjoudi, Ilies Djerroud
+
