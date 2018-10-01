@@ -3984,8 +3984,8 @@
 
 <http://data.doremus.org/vocabulary/diabolo/mop/hang_(rohner-scharer)> a skos:Concept ;
     skos:altLabel "hang" ;
-    skos:editorialNote "Le hang est un instrument de musique acoustique de la famille des idiophones invente par felix rohner et sabina scharer a berne (suisse) en 2001. Le hang est un volume lenticulaire creux compose de deux coupelles metalliques embouties. La partie haute de l'instrument s'appelle le \" ding \", elle est constituee d'une note fondamentale et de sept ou huit notes l'entourant. La partie basse, \" gu \" est une surface lisse dotee d'un trou en son centre."@fr ;
-    skos:prefLabel "hang (rohner-scharer)" ;
+    skos:description "Le hang est un instrument de musique acoustique de la famille des idiophones invente par Felix Rohner et Sabina Scharer a Berne (Suisse) en 2001. Le hang est un volume lenticulaire creux compose de deux coupelles metalliques embouties. La partie haute de l'instrument s'appelle le \" ding \", elle est constituee d'une note fondamentale et de sept ou huit notes l'entourant. La partie basse, \" gu \" est une surface lisse dotee d'un trou en son centre."@fr , "Le joueur de hang pose generalement l'instrument sur ses genoux pour jouer. Il fait ensuite resonner le hang en tapant dessus avec la main et les doigts. L'instrument peut se jouer a deux mains et permet alors d'atteindre plusieurs notes"@fr;
+    skos:prefLabel "hang (Rohner-Scharer)" ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/mop/> .
 
 <http://data.doremus.org/vocabulary/diabolo/mop/harmonic_canon_(partch)> a skos:Concept ;
@@ -5246,10 +5246,6 @@
 <http://data.doremus.org/vocabulary/diabolo/mop/lauta> a skos:Concept ;
     skos:editorialNote "Nouveau terme"@fr ;
     skos:prefLabel "lauta" ;
-    skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/mop/> .
-
-<http://data.doremus.org/vocabulary/diabolo/mop/le_joueur_de_hang_pose_generalement_linstrument_sur_ses_genoux_pour_jouer._il_fait_ensuite_resonner_le_hang_en_tapant_dessus_avec_la_main_et_les_doigts._linstrument_peut_se_jouer_a_deux_mains_et_permet_alors_datteindre_plusieurs_notes.> a skos:Concept ;
-    skos:prefLabel "le joueur de hang pose generalement l'instrument sur ses genoux pour jouer. il fait ensuite resonner le hang en tapant dessus avec la main et les doigts. l'instrument peut se jouer a deux mains et permet alors d'atteindre plusieurs notes." ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/diabolo/mop/> .
 
 <http://data.doremus.org/vocabulary/diabolo/mop/lembe-nsoni> a skos:Concept ;
@@ -10540,4 +10536,3 @@
     dcterms:creator <http://data.doremus.org/organization/DOREMUS> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2017-11-07"^^xsd:date .
-
