@@ -1,0 +1,37 @@
+Threshold = 0.8
+Links loading ...
+log4j:WARN No appenders could be found for logger (fr.inrialpes.exmo.align.impl.BasicRelation).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Total links loaded : 12462
+Sorting valid and unsure links...
+Sure links      : 798
+To Validate     : 11664
+Total Written Links  : 12462  (12462 original links, 0 inferred links)
+
+Loading models...
+Warning : this step can take a long time, depending on the size of your models.
+Model 1 loaded, (pp)
+Model 2 loaded, (bnf)
+Model 3 loaded, (rf)
+Valid Links loading ...
+Total sure links loaded : 798
+PivotGraph construction...
+Finding unlinked resources...
+Writing results...
+
+-------------------------------------------------------------------------------------------------
+RESULTS
+-------------------------------------------------------------------------------------------------
+Sure Single Links : 135
+Sure Triangles : 603
+Special Cases detected : 63
+Total : 801
+Unique resources from pp : 5068
+Unique resources from bnf : 135450
+Unique resources from rf : 15127
+Total run time : ..............386868
+Sorting : .....................159217
+Model Loading : ...............124004
+Pivot Graph generation : ......8746
+Unique Resources handling : ...85738
