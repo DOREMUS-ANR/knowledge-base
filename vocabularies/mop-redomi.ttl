@@ -14,491 +14,602 @@
     dct:modified "2017-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/arpegina> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Instrument inventé en 1997 par le luthier Bernard Sabatier. Sorte de grand alto auquel a été ajouté une cinquième corde (mi grave)."@fr ;
     skos:prefLabel "arpegina" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/alboka> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/clarinette> ;
     skos:prefLabel "alboka" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/alto> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "alto" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/arc_musical> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/monocorde> ;
     skos:prefLabel "arc musical" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/arpeggione> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "arpeggione" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/balafon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "balo" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions_a_clavier> ;
     skos:prefLabel "balafon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/balalaika> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "balalaika" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/bandoneon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "bandoneon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/banjo> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "banjo" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "baryton (instrument)" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/batterie> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "batterie" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/beganna> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "bagana" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/lyre> ;
     skos:editorialNote "Lyre éthiopienne réservée à la musique religieuse orthodoxe, utilisée uniquement pour les prières et la méditation."@fr ;
     skos:prefLabel "beganna" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/biniou> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cornemuse> ;
     skos:prefLabel "biniou" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> ;
     skos:prefLabel "boite a musique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/bombarde> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "bombarde" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/bouzouki> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "bouzouki" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/bugle> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "bugle" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cabrette> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cornemuse> ;
     skos:prefLabel "cabrette" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/calamophone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:editorialNote "Grande plume sonorisée. Le calamophone permet d'amplifier le son d' une énorme plume pour qu'elle devienne un véritable instrument de musique, au même titre que les percussions et les cordes d'un musicien."@fr ;
     skos:prefLabel "calamophone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/carillon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cloche> ;
     skos:prefLabel "carillon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/castagnettes> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:editorialNote "Instrument à percussions composé d'une paire de coquilles creuses de bois dur, d'ivoire ou d'un autre matériau, reliées entre elles par une cordelette laissant un peu de jeu. Les castagnettes sont urilisées principalement dans la musique espagnole traditionnelle. Leur appellation moderne vient de l'espagnol castano (châtaignier, bois avec lequel elles étaient communément fabriquées)."@fr ;
     skos:prefLabel "castagnettes" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/celesta> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions_a_clavier> ;
     skos:editorialNote "Sorte d'harmonium inventé et perfectionné par la famille Mustel."@fr ;
     skos:prefLabel "celesta" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cervelas> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/basson> ;
     skos:prefLabel "cervelas" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/charango> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Guitare andine faite avec une carapace de tatou."@fr ;
     skos:prefLabel "charango" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cistre> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:editorialNote "Luth ancien à cordes métalliques pincées, à corps piriforme plat et mince, en usage en Europe entre le 15ème et le 18ème siècle. A DISTINGUER du sistre qui est une percussion."@fr ;
     skos:prefLabel "cistre" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/clairon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "clairon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/clavicetherium> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/clavecin> ;
     skos:prefLabel "clavicetherium" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/clavicorde> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/piano> ;
     skos:prefLabel "clavicorde" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/claviharpe> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:prefLabel "claviharpe" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/concertina> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:editorialNote "Sorte d'accordéon portable inventé en Angleterre en 1829, amélioré en Allemagne en 1880. Evolue vers le bandonéon."@fr ;
     skos:prefLabel "concertina" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/conque> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "conque" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/contrebasse> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "contrebasse" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/contrebasson> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/basson> ;
     skos:editorialNote "Le contrebasson est un instrument à vent. C'est le plus grave des instruments de la famille des bois. Sa forme est proche de celle du basson et il a une anche double. Le contrebasson sonne une octave plus bas que le basson normal. Les partitions pour contrebasson sont écrites en clé de FA et sonnent une octave plus bas que ce qui est écrit. On a prit l’habitude au XIXe siècle de l’établir en cuivre, avec tuyau conique d’une longueur théorique de 4,68 mètres, anche double et 15 clefs. "@fr ;
     skos:prefLabel "contrebasson" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cor_anglais> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "cor anglais" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cor> ;
     skos:prefLabel "cor de basset" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cor_des_alpes> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "cor des alpes" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cristal_baschet> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_experimental> ;
     skos:editorialNote "Le cristal Baschet est un instrument de musique contemporain mis au point en 1952 par les frères Bernard et François Baschet. Il appartient à la famille des structures sonores qui utilisent comme principe acoustique la mise en vibration d'une verge métallique. Toujours fabriqué aujourd'hui, le cristal est constitué d'un clavier d'une tessiture maximale (en 2007) de 5 octaves Fa0-Sol5."@fr ;
     skos:prefLabel "cristal baschet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/crouth> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/violon> ;
     skos:prefLabel "crouth" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cymbales> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "cymbales" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cymbalum> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "dulcimer",
         "tympanon" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cithare> ;
     skos:prefLabel "cymbalum" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/djiridoo> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "djiridoo" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/dotar> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:prefLabel "dotar" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/epinette> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:prefLabel "epinette" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/erhu> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/viele> ;
     skos:editorialNote "Vièle chinoise."@fr ;
     skos:prefLabel "erhu" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/fifre> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:editorialNote "Petite flûte traversière à six trous en si bémol ou en ré."@fr ;
     skos:prefLabel "fifre" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flabiol> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flabiol" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute_a_bec> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "flute douce" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flute a bec" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute_alto> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flute alto" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute_basse> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flute basse" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute_de_pan> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flute de pan" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute_indienne> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flute indienne" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute_traversiere> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "flute traversiere" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/galoubet> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:editorialNote "Flûte à bec traditionnelle de Provence."@fr ;
     skos:prefLabel "galoubet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/gong> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "gong" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/guimbarde> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "guimbarde" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/guitare_basse> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "basse electrique" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "guitare basse" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "guitare electrique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/gwo_ka> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:editorialNote "L'origine du Gwo Ka remonte en Guadeloupe au temps de l'esclavage au début du XVIIIème siècle. Les recherches musicologiques permettent aujourd'hui de trouver les racines du Gwo Ka dans les percussions et dans les chants des pays de la côte ouest du continent africain (Golfe de Guinée, ancien royaume du Congo...). A partir des musiques et des danses extrêmement riches et diverses de leur pays d'origine, les esclaves ont élaboré un outil de communication, un art nouveau (au même titre que le créole) : le Gwo Ka."@fr ;
     skos:prefLabel "gwo ka" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/harmonica> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "harmonica" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/harmonica_de_verre> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "glass harmonica" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "harmonica de verre" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/harmonium> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:prefLabel "harmonium" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/harpe> ;
     skos:prefLabel "harpe celtique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/harpe_indienne> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/harpe> ;
     skos:prefLabel "harpe indienne" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/hautbois> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "hautbois" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_ancien> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:prefLabel "instrument ancien" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_baroque> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:prefLabel "instrument baroque" ;
     skos:related <http://dbpedia.org/resource/Baroque_music> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/kantele> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Psaltérion (Finlande)."@fr ;
     skos:prefLabel "kantele" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/kora> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "cora" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/harpe> ;
     skos:prefLabel "kora" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/koto> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "koto" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/lame_sonore> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "lame sonore" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/likembe> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:editorialNote "Le likembe ou piano à pouces est un instrument de la famille des lamellophones que l'on retrouve dans de nombreux pays d'Afrique sous différents noms : sanza, mbira... Outre Konono N°1 qui a contribué à populariser cet instrument en occident, il y a d'autres maitres-likembé comme Antoine Moundanda"@fr ;
     skos:prefLabel "likembe" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/lithophone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "lithophone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/lutherie> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/facture_dinstrument> ;
     skos:prefLabel "lutherie" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/mandole> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Le mandole, de la famille de la mandoline, joué par les hommes, est un instrument typiquement algérien de la musique arabo andalouse."@fr ;
     skos:prefLabel "mandole" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/mandoline> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "mandoline" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/marimba> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions_a_clavier> ;
     skos:prefLabel "marimba" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/melodeon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/accordeon> ;
     skos:prefLabel "melodeon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/mridangam> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/tambour> ;
     skos:prefLabel "mridangam" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/nay> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "ney" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:editorialNote "Longue flûte de roseau. Instrument traditionnellement utilisé notamment dans la musqiue soufi."@fr ;
     skos:prefLabel "nay" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/ngoni> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/harpe> ;
     skos:prefLabel "ngoni" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/ocarina> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "ocarina" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/ondes_martenot> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "ondes martenot" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/ophicleide> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:editorialNote "Instrument à vent en cuivre, de tessiture grave à embouchure et à clés. Apparût au XIXème siècle il est tombé en désuétude, remplacé par le trombone ou le tuba"@fr ;
     skos:prefLabel "ophicleide" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/organologie> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:prefLabel "organologie" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue_a_bouche> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "plung" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "orgue a bouche" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue_electrique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "orgue electrique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> ;
     skos:prefLabel "orgue electronique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue_mecanique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "limonaire",
         "orgue de barbarie" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> ;
     skos:prefLabel "orgue mecanique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue_positif> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/orgue> ;
     skos:prefLabel "orgue positif" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/oud> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:prefLabel "oud" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/piano_electrique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "piano electrique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/piano_prepare> ;
     skos:editorialNote "Piano \"préparé\" au moyen de morceaux de papier placés entre les marteaux et les cordes. Nom inventé par Maurice Ravel (\"Tzigane\") en 1920."@fr ;
     skos:prefLabel "piano lutheal" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/piano_mecanique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> ;
     skos:prefLabel "piano mecanique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/pianoforte> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/piano> ;
     skos:prefLabel "pianoforte" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/piccolo> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "piccolo" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/pipa> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:prefLabel "pipa" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/qanun> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "qanoun" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Cithare sur caisse (Afrique/Asie)."@fr ;
     skos:prefLabel "qanun" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/qin> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cithare> ;
     skos:editorialNote "Cithare chinoise à 7 cordes. La guqin est une cithare ancienne."@fr ;
     skos:prefLabel "qin" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/qitar> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:editorialNote "Instrument de la famille du luth, le qitar est un instrument traditionnel de la musique arabo andalouse."@fr ;
     skos:prefLabel "qitar" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/rabab> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Instrument oriental dont l'origine remonte au 12ème siècle, constitué de 2 cordes tendues sur une peau, il se joue avec un archet."@fr ;
     skos:prefLabel "rabab" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/rebec> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/viele> ;
     skos:prefLabel "rebec" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/santur> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "santour" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cithare> ;
     skos:editorialNote "Instrument indien."@fr ;
     skos:prefLabel "santur" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/sanza> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "sanza" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/sarangi> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "sarangi" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/sarod> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:editorialNote "Luth indien. Descendant du \"rabob\" pakistanais, il est utilisé de nos jours comme instrument soliste dans la musique classique de l'Inde du Nord. Ali Akbar Khan est le sarodiste le plus fameux."@fr ;
     skos:prefLabel "sarod" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/sarrussophone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "sarrusophone" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_anche> ;
     skos:editorialNote "Instrument de musique à anche double de la famille des bois."@fr ;
     skos:prefLabel "sarrussophone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/saxophone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "saxophone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/saz> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:editorialNote "Instrument à cordes appartenant à la famille des luths. Instrument traditionnel de Turquie, Azerbaidjan, Arménie."@fr ;
     skos:prefLabel "saz" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/scie_musicale> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:editorialNote "Idiophone frotté."@fr ;
     skos:prefLabel "scie musicale" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/serinette> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> ;
     skos:prefLabel "serinette" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/serpent_(musique)> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:editorialNote "Instrument ancien à vent de la famille des cuivres, proche du cornet à bouquin, de tessiture grave."@fr ;
     skos:prefLabel "serpent (musique)" ;
@@ -506,108 +617,132 @@
         <http://data.doremus.org/vocabulary/redomi/mop/cuivres> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/shakuhachi> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "kiotaku" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:editorialNote "Le shakuhachi : instrument japonais de toute pureté. Il existe plusieurs théories sur l'origine du mot shakuhachi. Selon le \"Tosho\", un recueil de biographies chinois datant du début du septième siècle, un homme nommé Rosai façonna une flûte de pan à douze tuyaux correspondant au système chinois des douze hauteurs de son fixes. Le tuyau produisant le son grave, connu sous le nom de \"Kosho\" (correspondant à un \"Ichikotsu \" japonais ou au ré occidental), mesurait un shaku (unité de mesure) et huit (hachi) dixièmes (sun) de shaku - c'est-à-dire, environ 54,5 centimètres. Le nom de l'instrument, shakuhachi, proviendrait donc de ses dimensions. Le shakuhachi généralement utilisé aujourd'hui est fait d'une tige de bambou coupée jusqu'au septième segment. L'instrument est muni de cinq trous, quatre devant et un derrière (extrait du site shakuhachi.com/)."@fr ;
     skos:prefLabel "shakuhachi" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/sifflet> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/flute> ;
     skos:prefLabel "sifflet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/sitar> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:prefLabel "sitar" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/steel_drum> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "steel drum" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/structures_sonores> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "structures sonores" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/synthetiseur> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> ;
     skos:prefLabel "synthetiseur" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tabla> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/tambour> ;
     skos:prefLabel "tabla" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tam_tam> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/tambour> ;
     skos:prefLabel "tam tam" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tambour_de_basque> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "tambourin a cymbalettes" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/tambour> ;
     skos:editorialNote "Petit tambour à une peau avec un cadre en bois et des cymbalettes. A ne pas confondre avec le tambourin de Provence, ou tambour provençal, grand tambour à double peau avec un long corps cylindrique."@fr ;
     skos:prefLabel "tambour de basque" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tampura> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/luth> ;
     skos:editorialNote "Bourdon, instrument d'Inde du Nord donnant la tonique et la quinte. Il possède quatre à six cordes, ces cordes se jouant à vide. Les cordes sont égrenées une à une pendant tout le morceau, de façon à produire un bourdon constant. Son rôle est fondamental pour la constitution de l'atmosphère sonore d'un raga. La répétition régulière de microtons définit le champ où va s'opérer l'improvisation du soliste."@fr ;
     skos:prefLabel "tampura" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tapan> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_traditionnel> ;
     skos:editorialNote " Depuis le XVe siècle, il fait partie de tous les orchestres populaires bulgares. On le nomme davul en Turquie. C'est un tambour traditionnel en bois (hêtre, noyer, châtaignier), couverts de peaux tannées qui sont tendues sur des anneaux et enfilées avec des cordes qui alternent en diagonale sur les deux anneaux. "@fr ;
     skos:prefLabel "tapan" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/mop/tambour> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/theorbe> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "theorbe" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/theremin> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> ;
     skos:editorialNote "L'un des premiers instruments de musique électronique inventé en 1920 par Lev Sergeyevich Termen, développé par la firme RCA et beaucoup utilisé dans les orchestrations de musique de films."@fr ;
     skos:prefLabel "theremin" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/timbales> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:prefLabel "timbales" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/trautonium> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> ;
     skos:editorialNote "Instrument électronique créé en 1930 par l'Allemand Trautwein et utilisé notamment par Paul Hindemith."@fr ;
     skos:prefLabel "trautonium" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/trombone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "trombone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/trompe_de_chasse> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "cor de chasse" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "trompe de chasse" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/trompette> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "trompette" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/trompette_marine> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "trompette marine" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tuba> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:prefLabel "tuba" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/vibraphone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions_a_clavier> ;
     skos:prefLabel "vibraphone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue> ;
     skos:prefLabel "vielle organisee" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/vihuela> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/guitare> ;
     skos:prefLabel "vihuela" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/vina> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "veena",
         "vinai" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cithare> ;
@@ -615,87 +750,106 @@
     skos:prefLabel "vina" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/viole_damour> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "viole d'amour" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/viole> ;
     skos:prefLabel "viole de gambe" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/violon_electrique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> ;
     skos:prefLabel "violon electrique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/violon_prepare> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/violon> ;
     skos:prefLabel "violon prepare" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/violoncelle> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:prefLabel "violoncelle" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/virginal> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:prefLabel "virginal" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/xylophone> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions_a_clavier> ;
     skos:prefLabel "xylophone" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/zarb> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/tambour> ;
     skos:prefLabel "zarb" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/zourna> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "zourna" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/accordeon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/melodeon> ;
     skos:prefLabel "accordeon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/clarinette> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/alboka> ;
     skos:prefLabel "clarinette" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/clavecin> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/clavicetherium> ;
     skos:prefLabel "clavecin" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cloche> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/carillon> ;
     skos:prefLabel "cloche" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cor> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/cuivres> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cor_de_basset> ;
     skos:prefLabel "cor" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cornet> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:prefLabel "cornet" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/facture_dinstrument> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "facture" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/lutherie> ;
     skos:prefLabel "facture d'instrument" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/guitare> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/vihuela> ;
     skos:prefLabel "guitare" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_anche> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/sarrussophone> ;
     skos:prefLabel "instrument a anche" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_experimental> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "corticalart",
         "halaphone",
         "phonogene" ;
@@ -704,78 +858,92 @@
     skos:prefLabel "instrument experimental" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_traditionnel> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "instrument folklorique" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/tapan> ;
     skos:prefLabel "instrument traditionnel" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/lyre> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/beganna> ;
     skos:prefLabel "lyre" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/monocorde> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/arc_musical> ;
     skos:prefLabel "monocorde" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/orgue> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/orgue_positif> ;
     skos:prefLabel "orgue" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/piano_prepare> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/piano> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/piano_lutheal> ;
     skos:prefLabel "piano prepare" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/shamisen> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:editorialNote "Le shamisen est une sorte de luth (de 1,10 mètre à 1,40 mètre) à caisse de résonance carrée traditionnellement construit en bois de santal et recouverte de peau de chat ou de chien. Il possède trois cordes (d'où son nom, trois cordes du goût) de soie ou de nylon. À l'instar du banjo, on joue du shamisen à l'aide d'un plectre en ivoire ou en bois appelé bachi (?). D'ailleurs on donne parfois au shamisen le nom de banjo japonais. Le shamisen est un instrument de musique traditionnel à cordes utilisé en musique japonaise. Instrument d'origine chinoise qui fut introduit dans l'île d'Okinawa au milieu du XVIe siècle et utilisé dans la musique populaire. C'est au début de la période Edo (1603 à 1868) qu'il fit son apparition dans les autres îles de l'archipel japonais. Il est utilisé avec des voix dans les chants populaires et comme instrument soliste ou d'ensemble (comme dans les orchestres de kabuki). Il devient l'instrument de prédilection des geisha. La musique traditionnelle au shamisen intercale au milieu de la mélodie de longs silences qui donnent d'autant plus de force aux notes. Des musiciens contemporains, comme les Yoshida Kyodai, utilisent le shamisen pour produire des musiques très rythmées plus proches de ses origines okinawaiennes. Le shamisen d'Okinawa est traditionnellement recouvert de peau de serpent et est nommé Jabisen (extrait du site Wikipedia)."@fr ;
     skos:prefLabel "shamisen" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/mop/luth> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tombak> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/tambour> ;
     skos:editorialNote "Instrument de percussion digitale originaire d'Iran (Perse)."@fr ;
     skos:prefLabel "tombak" ;
     skos:related <http://data.doremus.org/vocabulary/redomi/mop/percussions> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/vielle_a_roue> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/vielle_organisee> ;
     skos:prefLabel "vielle a roue" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/viole> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/viole_de_gambe> ;
     skos:prefLabel "viole" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/basson> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cervelas>,
         <http://data.doremus.org/vocabulary/redomi/mop/contrebasson> ;
     skos:prefLabel "basson" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cornemuse> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/biniou>,
         <http://data.doremus.org/vocabulary/redomi/mop/cabrette> ;
     skos:prefLabel "cornemuse" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/viele> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/erhu>,
         <http://data.doremus.org/vocabulary/redomi/mop/rebec> ;
     skos:prefLabel "viele" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/violon> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/crouth>,
         <http://data.doremus.org/vocabulary/redomi/mop/violon_prepare> ;
     skos:prefLabel "violon" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/piano> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/clavicorde>,
         <http://data.doremus.org/vocabulary/redomi/mop/piano_prepare>,
@@ -783,6 +951,7 @@
     skos:prefLabel "piano" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cithare> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cymbalum>,
         <http://data.doremus.org/vocabulary/redomi/mop/qin>,
@@ -791,6 +960,7 @@
     skos:prefLabel "cithare" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/harpe> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/harpe_celtique>,
         <http://data.doremus.org/vocabulary/redomi/mop/harpe_indienne>,
@@ -799,6 +969,7 @@
     skos:prefLabel "harpe" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_electronique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/orgue_electronique>,
         <http://data.doremus.org/vocabulary/redomi/mop/synthetiseur>,
@@ -807,6 +978,7 @@
     skos:prefLabel "instrument electronique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_mecanique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "musique mecanique" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/boite_a_musique>,
@@ -816,6 +988,7 @@
     skos:prefLabel "instrument mecanique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/percussions_a_clavier> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/balafon>,
         <http://data.doremus.org/vocabulary/redomi/mop/celesta>,
@@ -825,6 +998,7 @@
     skos:prefLabel "percussions a clavier" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_electrique> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/guitare_basse>,
         <http://data.doremus.org/vocabulary/redomi/mop/guitare_electrique>,
@@ -835,6 +1009,7 @@
     skos:prefLabel "instrument electrique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_clavier> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/clavecin>,
         <http://data.doremus.org/vocabulary/redomi/mop/claviharpe>,
@@ -846,6 +1021,7 @@
     skos:prefLabel "instrument a clavier" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/tambour> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/percussions> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/mridangam>,
         <http://data.doremus.org/vocabulary/redomi/mop/tabla>,
@@ -856,6 +1032,7 @@
     skos:prefLabel "tambour" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/cuivres> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/baryton_(instrument)>,
         <http://data.doremus.org/vocabulary/redomi/mop/bugle>,
@@ -869,6 +1046,7 @@
     skos:prefLabel "cuivres" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/luth> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/cistre>,
         <http://data.doremus.org/vocabulary/redomi/mop/dotar>,
@@ -883,6 +1061,7 @@
     skos:related <http://data.doremus.org/vocabulary/redomi/mop/shamisen> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/flute> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/fifre>,
         <http://data.doremus.org/vocabulary/redomi/mop/flabiol>,
@@ -916,9 +1095,11 @@
         <http://data.doremus.org/vocabulary/redomi/mop/organologie>,
         <http://data.doremus.org/vocabulary/redomi/mop/percussions>,
         <http://data.doremus.org/vocabulary/redomi/mop/scie_musicale> ;
+    skos:topConceptOf <http://data.doremus.org/vocabulary/redomi/mop> ;
     skos:prefLabel "instrument de musique" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/percussions> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:altLabel "instrument a percussions" ;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/batterie>,
@@ -942,6 +1123,7 @@
     skos:related <http://data.doremus.org/vocabulary/redomi/mop/tombak> .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_vent> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/accordeon>,
         <http://data.doremus.org/vocabulary/redomi/mop/bandoneon>,
@@ -967,6 +1149,7 @@
     skos:prefLabel "instrument a vent" .
 
 <http://data.doremus.org/vocabulary/redomi/mop/instrument_a_cordes> a skos:Concept ;
+    skos:inScheme <http://data.doremus.org/vocabulary/redomi/mop/>;
     skos:broader <http://data.doremus.org/vocabulary/redomi/mop/instrument_de_musique> ;
     skos:narrower <http://data.doremus.org/vocabulary/redomi/mop/alto>,
         <http://data.doremus.org/vocabulary/redomi/mop/arpeggione>,
