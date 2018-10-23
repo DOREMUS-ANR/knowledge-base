@@ -1,15 +1,21 @@
 const request = require('request');
-const rdfTranslator = require('rdf-translator');
 const fs = require('fs');
+const path = require('path');
 
-var file = __dirname + '/../vocabularies/mop-mimo.ttl';
-
+var file = path.join(__dirname, '../vocabularies/mop-mimo.ttl');
 var options = {
   url: 'http://data.mimo-db.eu/sparql/describe?uri=http://www.mimo-db.eu/InstrumentsKeywords',
   headers: {
     'Accept': 'text/turtle'
   }
 };
+
+function writeTtl(str) {
+  fs.writeFile(file, str, 'utf8', (err) => {
+    if (err) console.error(err);
+    else console.log("The file was saved!");
+  });
+}
 
 function onDownloaded(error, response, body) {
   console.log('downloaded!');
@@ -18,18 +24,9 @@ function onDownloaded(error, response, body) {
     return console.error('Error: ' + response.statusCode, response);
 
   // add the missing concept scheme on the first line
-  body = '<http://www.mimo-db.eu/InstrumentsKeywords> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> .\n' + body;
+  const ttl = '<http://www.mimo-db.eu/InstrumentsKeywords> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> .\n' + body;
 
-
-  writeTtl(body);
-}
-
-function writeTtl(str) {
-  fs.writeFile(file, str, 'utf8', function(err) {
-    if (err) return console.error(err);
-
-    console.log("The file was saved!");
-  });
+  return writeTtl(ttl);
 }
 
 console.log('downloading MIMO');

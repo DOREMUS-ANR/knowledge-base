@@ -113,6 +113,9 @@ SPARQL CLEAR  GRAPH 'http://data.doremus.org/vocabulary/iaml/genre';
 ld_dir ('/data/knowledge-base/vocabularies', 'genre-iaml.ttl','http://data.doremus.org/vocabulary/iaml/genre');
 rdf_loader_run ();
 cl_exec('checkpoint');
+ld_dir ('/data/knowledge-base/vocabularies/alignments/genre/ttl', '*.ttl','http://data.doremus.org/vocabulary/iaml/genre');
+rdf_loader_run ();
+cl_exec('checkpoint');
 
 SPARQL CREATE GRAPH 'http://data.doremus.org/vocabulary/redomi/genre';
 SPARQL CLEAR  GRAPH 'http://data.doremus.org/vocabulary/redomi/genre';
@@ -159,6 +162,9 @@ cl_exec('checkpoint');
 SPARQL CREATE GRAPH 'http://www.mimo-db.eu/InstrumentsKeywords';
 SPARQL CLEAR  GRAPH 'http://www.mimo-db.eu/InstrumentsKeywords';
 ld_dir ('/data/knowledge-base/vocabularies', 'mop-mimo.ttl','http://www.mimo-db.eu/InstrumentsKeywords');
+rdf_loader_run ();
+cl_exec('checkpoint');
+ld_dir ('/data/knowledge-base/vocabularies/alignments/mop/ttl', '*.ttl','http://www.mimo-db.eu/InstrumentsKeywords');
 rdf_loader_run ();
 cl_exec('checkpoint');
 
