@@ -962,7 +962,7 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/mop/> .
 
 <http://data.doremus.org/vocabulary/itema3/mop/54> a skos:Concept ;
-    skos:prefLabel "Piano" ;
+    skos:prefLabel "Piano"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/mop/> .
 
 <http://data.doremus.org/vocabulary/itema3/mop/546> a skos:Concept ;
@@ -970,11 +970,11 @@
     skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/mop/> .
 
 <http://data.doremus.org/vocabulary/itema3/mop/55> a skos:Concept ;
-    skos:prefLabel "Piano préparé" ;
+    skos:prefLabel "Piano préparé"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/mop/> .
 
 <http://data.doremus.org/vocabulary/itema3/mop/56> a skos:Concept ;
-    skos:prefLabel "Pianoforte" ;
+    skos:prefLabel "Pianoforte"@fr ;
     skos:topConceptOf <http://data.doremus.org/vocabulary/itema3/mop/> .
 
 <http://data.doremus.org/vocabulary/itema3/mop/566> a skos:Concept ;

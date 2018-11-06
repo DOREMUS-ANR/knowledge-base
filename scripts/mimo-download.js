@@ -20,11 +20,12 @@ function writeTtl(str) {
 function onDownloaded(error, response, body) {
   console.log('downloaded!');
   if (error) return console.error(error);
-  if (response.statusCode != 200)
+  if (response.statusCode != 200) {
     return console.error('Error: ' + response.statusCode, response);
+  }
 
   // add the missing concept scheme on the first line
-  const ttl = '<http://www.mimo-db.eu/InstrumentsKeywords> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> .\n' + body;
+  const ttl = '<http://www.mimo-db.eu/InstrumentsKeywords#> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> .\n' + body;
 
   return writeTtl(ttl);
 }

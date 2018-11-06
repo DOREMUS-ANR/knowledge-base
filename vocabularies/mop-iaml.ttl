@@ -478,8 +478,8 @@
         "serpentão"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/bsh> a skos:Concept ;
-    skos:altLabel "s'ofar",
-        "shofar hajovel",
+    skos:altLabel "s'ofar"@he-Latn,
+        "shofar hajovel"@he-Latn,
         "rem's horn"@en,
         "chophar"@fr ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/b> ;
@@ -1664,8 +1664,8 @@ skos:prefLabel "bass trombone"@en,
         "baixo"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/mbw> a skos:Concept ;
-    skos:altLabel "camalpa",
-        "ukeke",
+    skos:altLabel "camalpa"@es,
+        "ukeke"@haw,
         "birimbao"@es,
         "caramba"@es,
         "harpa"@es,
@@ -2055,20 +2055,20 @@ skos:prefLabel "bass trombone"@en,
         "pianola"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/mra> a skos:Concept ;
-    skos:altLabel "rabāb",
-        "rabāba",
-        "rbab",
-        "rebab",
-        "rubāb",
-        "rubob" ;
+    skos:altLabel "rabāba"@ar,
+        "rbab"@ar,
+        "rebab"@ar,
+        "rubob"@ar,
+        "rubāb"@ar,
+        "ربابة‎"@ar .
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/m> ;
-    skos:editorialNote "The term rabab is preferred globally." ;
+    skos:editorialNote "Arabic term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/mra> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "rabab",
+    skos:prefLabel "rabab"@ar-Latn,
         "Rebab"@de,
-        "rabāb"@en,
-        "rabāb"@es,
+        "rabāb"@en,
+        "rabāb"@es,
         "rebab"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/mss> a skos:Concept ;
@@ -2447,19 +2447,19 @@ skos:prefLabel "bass trombone"@en,
         "wind chimes"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pad> a skos:Concept ;
-    skos:altLabel "darabucca",
-        "darabuka",
-        "darabukka",
-        "darbuka",
-        "darbukat",
-        "derabukka",
-        "derbuka",
-        "doumbek",
-        "tabourka",
-        "tarabonka",
-        "tarabuka",
-        "tarbourka",
-        "tunbuk",
+    skos:altLabel "darabucca"@ar,
+        "darabuka"@ar,
+        "darabukka"@ar,
+        "darbuka"@ar,
+        "darbukat"@ar,
+        "derabukka"@ar,
+        "derbuka"@ar,
+        "doumbek"@ar,
+        "tabourka"@ar,
+        "tarabonka"@ar,
+        "tarabuka"@ar,
+        "tarbourka"@ar,
+        "tunbuk"@ar,
         "arabische Trommel"@de,
         "dumbeg-drum"@en,
         "goblet drum"@en,
@@ -2470,23 +2470,25 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pad> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "arabian drum"@en,
+    skos:prefLabel "دربوكة"@ar,
+        "arabian drum"@en,
         "derbake"@es,
         "darbouka"@fr,
         "darabukke"@it,
         "darbuka"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pag> a skos:Concept ;
-    skos:altLabel "ekón",
-        "ogàn",
+    skos:altLabel "ekón"@es,
+        "ogàn"@es,
         "agogo bells"@en,
         "agogô"@en,
-        "gongué"@fr ;
+        "gongué"@fr,
+        "agogo"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "The term agogo is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pag> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "agogo",
+    skos:prefLabel "agogo"@yo,
         "agogô"@de,
         "agogo"@en,
         "agogó"@es,
@@ -2495,12 +2497,10 @@ skos:prefLabel "bass trombone"@en,
         "agogô"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pan> a skos:Concept ;
-    skos:altLabel "bigornia",
-        "yunke",
-        "yunque",
+    skos:altLabel "bigornia"@es,
+        "yunke"@es,
         "amboss"@de,
         "ambosse"@de,
-        "yunque"@es ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pan> ;
@@ -2508,6 +2508,7 @@ skos:prefLabel "bass trombone"@en,
     skos:prefLabel "anvil"@en,
         "enclume"@fr,
         "incudine"@it,
+        "yunque"@es ;
         "bigorna"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pbb> a skos:Concept ;
@@ -2637,7 +2638,7 @@ skos:prefLabel "bass trombone"@en,
         "bronte"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pca> a skos:Concept ;
-    skos:altLabel "castanyoles",
+    skos:altLabel "castanyoles"@ca,
         "Clappern"@de,
         "Kastagnetten"@de,
         "castañetas"@es,
@@ -2657,13 +2658,14 @@ skos:prefLabel "bass trombone"@en,
         "castanholas"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pcb> a skos:Concept ;
-    skos:altLabel "xaqué",
+    skos:altLabel "xaqué"@pt,
         "Kurbisrassel"@de,
         "afoche"@es,
         "afuché"@es,
         "afoxe"@pt,
         "afuche cabaza"@pt,
         "cabasa"@pt,
+        "calabash"@en,
         "caqueré"@pt,
         "casabia"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
@@ -2728,19 +2730,23 @@ skos:prefLabel "bass trombone"@en,
         "correntes"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pci> a skos:Concept ;
-    skos:altLabel "dolcema",
-        "pantaleon",
-        "psaltari",
+    skos:altLabel "dolcema"@it,
+        "akkord"@en,
+        "pantaleon"@de,
+        "psaltari"@osx,
         "Brettl"@de,
         "Hachbratt"@de,
         "Hackbrett"@de,
+        "hackbräde"@sv,
         "Kymbalon"@de,
         "dowcememere"@en,
         "dulcimer"@en,
+        "dulcimer"@fi,
         "dulcimor"@en,
         "psalter"@en,
         "psaltery"@en,
         "cimbalom"@es,
+        "cimbalom"@fi,
         "címbalo húngaro"@es,
         "dulcémele"@es,
         "doucemelle"@fr,
@@ -2759,17 +2765,16 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "Hungarian term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pci> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "struck",
-        "struck"@en,
-        "cordes frappées"@fr,
-        "struck"@la ;
+    skos:note "corde percosse"@it,
+        "struck string"@en,
+        "cordes frappées"@fr ;
     skos:prefLabel "címbalo"@es,
         "cymbalum"@fr,
         "cimbalom"@hu,
         "zimbalão"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pco> a skos:Concept ;
-    skos:altLabel "xocalho",
+    skos:altLabel "xocalho"@pt,
         "Metallgefässrassel"@de,
         "Shüttenrohr"@de,
         "metal chocalcho"@en,
@@ -2781,6 +2786,7 @@ skos:prefLabel "bass trombone"@en,
         "tubo sonoro"@it,
         "chocallo"@pt,
         "chocolo"@pt,
+        "gamaka"@en,
         "ganzá"@pt ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "Portuguese term is preferred globally." ;
@@ -3178,14 +3184,16 @@ skos:prefLabel "bass trombone"@en,
     skos:prefLabel "intonarumori"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pje> a skos:Concept ;
-    skos:altLabel "djembe",
-        "yimbe",
-        "djembé"@fr ;
+    skos:altLabel "djembe"@en,
+        "djembe"@it,
+        "yimbe"@en,
+        "djembé"@fr,
+        "djembe"@de;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "The term jembe is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pje> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "jembe",
+    skos:prefLabel "jembe"@en,
         "jembe"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pji> a skos:Concept ;
@@ -3231,12 +3239,12 @@ skos:prefLabel "bass trombone"@en,
         "litófono"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/plj> a skos:Concept ;
-    skos:altLabel "loo-jon" ;
+    skos:altLabel "loo-jon"@en ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "The term lujon is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/plj> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "lujon",
+    skos:prefLabel "lujon"@en,
         "loo-jon"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pmb> a skos:Concept ;
@@ -3254,13 +3262,13 @@ skos:prefLabel "bass trombone"@en,
         "marimba"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pmc> a skos:Concept ;
-    skos:altLabel "asson",
-        "asô",
-        "dadu",
-        "maracá",
-        "marraga",
-        "maruga",
-        "nasisi",
+    skos:altLabel "asson"@ht,
+        "asô"@ht,
+        "dadu"@es,
+        "maracá"@pt,
+        "marraga"@pt,
+        "maruga"@es,
+        "nasisi"@es,
         "alfandoque"@es,
         "guará"@es,
         "huada"@es,
@@ -3358,7 +3366,7 @@ skos:prefLabel "bass trombone"@en,
         "violino de ferro"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pra> a skos:Concept ;
-    skos:altLabel "carraca",
+    skos:altLabel "carraca"@es,
         "Knallfrosch"@de,
         "Knarre"@de,
         "bird-scare"@en,
@@ -3377,7 +3385,7 @@ skos:prefLabel "bass trombone"@en,
         "ratchet"@en,
         "matraca"@es,
         "crécelle"@fr,
-        "  רעשן‎  "@he,
+        "רעשן‎"@he,
         "raganella"@it,
         "cega-rega"@pt .
 
@@ -3518,7 +3526,7 @@ skos:prefLabel "bass trombone"@en,
         "escultura sonora"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pst> a skos:Concept ;
-    skos:altLabel "ping-pong",
+    skos:altLabel "ping-pong"@en,
         "Trinidad-Gongtrommel"@de,
         "bass pan"@en,
         "rhythm pan"@en,
@@ -3532,14 +3540,16 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pst> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "steel drum"@en,
+        "steel drums"@sv,
+        "steel-rummut"@fi,
         "tambores metálicos de Trinidad y Tobago"@es,
         "tambour d'acier"@fr,
         "tamburo di ferro"@it,
         "tambor de metal"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/psw> a skos:Concept ;
-    skos:altLabel "pu-ili",
-        "ruthe",
+    skos:altLabel "pu-ili"@haw,
+        "ruthe"@de,
         "Klapper aus Bambus"@de,
         "Stab aus Bambus"@de,
         "rod"@en,
@@ -3572,8 +3582,8 @@ skos:prefLabel "bass trombone"@en,
         "tabla"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/ptb> a skos:Concept ;
-    skos:altLabel "tambori",
-        "tamborim",
+    skos:altLabel "tamborí"@ca,
+        "tambori"@en,
         "Handtrommel"@de,
         "Rahmentrommel"@de,
         "Taberett"@de,
@@ -3648,8 +3658,8 @@ skos:prefLabel "bass trombone"@en,
         "temple block"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/ptg> a skos:Concept ;
-    skos:altLabel "gong ageng",
-        "kempul",
+    skos:altLabel "gong ageng"@jv,
+        "kempul"@jv,
         "Buckelgong"@de,
         "chinesischer Gong"@de,
         "gestimmtes Gong"@de,
@@ -3679,8 +3689,8 @@ skos:prefLabel "bass trombone"@en,
         "gong chinês"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pti> a skos:Concept ;
-    skos:altLabel "atabal",
-        "bedon",
+    skos:altLabel "atabal"@es,
+        "bedon"@frm,
         "Heerpauken"@de,
         "kettledrum"@en,
         "nacaires"@fr,
@@ -3690,6 +3700,7 @@ skos:prefLabel "bass trombone"@en,
         "trompette-timbale"@fr,
         "timballi"@it,
         "timpano"@it,
+        "timpani"@fi,
         "timpano a pedale"@it,
         "timpano cromatico"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
@@ -3697,14 +3708,16 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pti> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "Pauken"@de,
+        "patarummut"@fi,
         "timpani"@en,
         "timbal"@es,
         "timbales"@fr,
         "timpani"@it,
+        "timpani"@sv,
         "timbales"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/ptl> a skos:Concept ;
-    skos:altLabel "tripet",
+    skos:altLabel "tripet"@frm,
         "Stegeryff"@de,
         "Triangel"@de,
         "acciarino"@it,
@@ -3718,6 +3731,8 @@ skos:prefLabel "bass trombone"@en,
     skos:prefLabel "triangle"@en,
         "triángulo"@es,
         "triangle"@fr,
+        "triangeli"@fi,
+        "triangel"@sv,
         "triangolo"@it,
         "triângulo"@pt .
 
@@ -3755,9 +3770,12 @@ skos:prefLabel "bass trombone"@en,
         "tarola"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/ptr> a skos:Concept ;
-    skos:altLabel "pantheru",
-        "rikk",
-        "riqq",
+    skos:altLabel "pantheru"@si-Latn,
+        "rikk"@ar-Latn,
+        "riqq"@ar-Latn,
+        "riq"@ar-Latn,
+        "doira"@fr,
+        "chandrapirai"@ta,
         "Rahmentrommen"@de,
         "Schellentrommel"@de,
         "Tamburin"@de,
@@ -3779,7 +3797,10 @@ skos:prefLabel "bass trombone"@en,
         "pandereta"@es,
         "tambour de basque"@fr,
         "tamburello"@it,
-        "pandeireta"@pt .
+        "pandeireta"@pt,
+        "dap'"@hy-Latn,
+        "դափ"@hy,
+        "رق"@ar .
 
 <http://data.doremus.org/vocabulary/iaml/mop/ptt> a skos:Concept ;
     skos:altLabel "Tom"@de,
@@ -3943,8 +3964,8 @@ skos:prefLabel "bass trombone"@en,
         "xilomarimba"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pxy> a skos:Concept ;
-    skos:altLabel "gigelyra",
-        "tryphon",
+    skos:altLabel "gigelyra"@de,
+        "tryphon"@en,
         "Holzharmonika"@de,
         "Holzspiel"@de,
         "Hülze Glechter"@de,
@@ -3979,18 +4000,21 @@ skos:prefLabel "bass trombone"@en,
         "xilófono"@es,
         "xylophone"@fr,
         "xilofono"@it,
+        "ksylofoni"@fi,
+        "xylofon"@sv,
         "xilofone"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pza> a skos:Concept ;
-    skos:altLabel "dombak",
-        "tombak",
-        "tonbak" ;
+    skos:altLabel "dombak"@fa,
+        "tombak"@fa,
+        "tonbak"@fa ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "The term zarb is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pza> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "zarb",
+    skos:prefLabel "zarb"@ar,
         "zarb"@es,
+        "كاسور"@ar,
         "zarb"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pzz> a skos:Concept ;
@@ -4197,8 +4221,7 @@ skos:prefLabel "bass trombone"@en,
         "contrabbasso a cinque corde"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/sfi> a skos:Concept ;
-    skos:altLabel "fele",
-        "Fiedel"@de,
+    skos:altLabel "Fiedel"@de,
         "Fiele"@de,
         "Videl"@de,
         "Vigel"@de,
@@ -4207,7 +4230,7 @@ skos:prefLabel "bass trombone"@en,
         "fedylle"@en,
         "ffythele"@en,
         "phidil"@en,
-        "viula (Provenç.)"@fr,
+        "viula"@pro,
         "vièle"@fr,
         "fidella"@it,
         "fidula"@it,
@@ -4225,12 +4248,13 @@ skos:prefLabel "bass trombone"@en,
         "viola (família)"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/sgu> a skos:Concept ;
-    skos:altLabel "gusla" ;
+    skos:altLabel "gusle"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/s> ;
     skos:editorialNote "The term gusle is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/sgu> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "gusle",
+    skos:prefLabel "gusle"@hbs,
+        "gusle"@en,
         "guzla"@es,
         "gusla"@it,
         "gusla"@pt .
@@ -4278,7 +4302,7 @@ skos:prefLabel "bass trombone"@en,
         "lira da gamba"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/sny> a skos:Concept ;
-    skos:altLabel "nickelharpa",
+    skos:altLabel "nickelharpa"@it,
         "Schlüsselfidel"@de,
         "Schlüsselfiedel"@de,
         "Schlüsselgeige"@de,
@@ -4439,7 +4463,7 @@ skos:prefLabel "bass trombone"@en,
         "viola de arco"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/svc> a skos:Concept ;
-    skos:altLabel "bas viol de braccio",
+    skos:altLabel "bas viol de braccio"@fr,
         "Violoncell"@de,
         "bass-Geige"@de,
         "bass violin"@en,
@@ -4454,6 +4478,7 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/svc> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "cello"@en,
+        "sello"@fi,
         "violonchelo"@es,
         "violoncelle"@fr,
         "violoncello"@it,
@@ -4583,18 +4608,18 @@ skos:prefLabel "bass trombone"@en,
         "lira"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tbi> a skos:Concept ;
-    skos:altLabel "琵琶"@ja ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tbi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "biwa"@en,
         "biwa"@es,
+        "琵琶"@ja,
         "biwa"@ja-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tbj> a skos:Concept ;
-    skos:altLabel "banjar",
-        "banjer",
+    skos:altLabel "banjar"@cpe,
+        "banjer"@en,
         "Banjo Zither"@de,
         "Zither Banjo"@de,
         "ramkie"@en,
@@ -4630,19 +4655,20 @@ skos:prefLabel "bass trombone"@en,
         "balalaika"@ru-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tbo> a skos:Concept ;
-    skos:altLabel "bozuk",
-        "buzuk",
-        "buzuki",
-        "buzuq",
-        "bouzouk"@el,
-        "μπουζούκι"@el ;
+    skos:altLabel "bozuk"@ar-Latn,
+        "buzuk"@ar-Latn,
+        "buzuki"@el-Latn,
+        "buzuq"@ar-Latn,
+        "bouzouk"@el-Latn;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tbo> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "bouzouki"@el-Latn,
+        "μπουζούκι"@el,
         "bouzouki"@en,
         "bouzouki"@es,
+        "بزق‎‎"@ar,
         "bouzouki"@it .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tch> a skos:Concept ;
@@ -4658,9 +4684,9 @@ skos:prefLabel "bass trombone"@en,
         "chitarrone"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tci> a skos:Concept ;
-    skos:altLabel "bandoura",
-        "bijuga cither",
-        "cistra",
+    skos:altLabel "bandoura"@en,
+        "bijuga cither"@de,
+        "cistra"@fr,
         "Bass Cister"@de,
         "Cister"@de,
         "Cither"@de,
@@ -4708,7 +4734,6 @@ skos:prefLabel "bass trombone"@en,
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "16. Jh. und danach"@de,
         "bis zum 18. Jh."@de,
-        "American Spanish"@es,
         "dal 16. sec. in poi"@it,
         "dal 18. sec. in poi"@it,
         "séc. 16 e segs."@pt ;
@@ -4719,8 +4744,8 @@ skos:prefLabel "bass trombone"@en,
         "cistre"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tcs> a skos:Concept ;
-    skos:altLabel "calchedon",
-        "gallishon",
+    skos:altLabel "calchedon"@de,
+        "gallishon"@de,
         "colocion"@es,
         "calichon"@fr,
         "colachon"@fr,
@@ -4757,12 +4782,13 @@ skos:prefLabel "bass trombone"@en,
         "cistre"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tcz> a skos:Concept ;
-    skos:altLabel "cobuz" ;
+    skos:altLabel "cobuz"@hu ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "The term cobza is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tcz> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "cobza",
+    skos:prefLabel "cobza"@hu,
+        "cobza"@en,
         "cobza"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tgu__r> a skos:Concept ;
@@ -4855,7 +4881,7 @@ skos:prefLabel "bass trombone"@en,
         "cítara"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tko> a skos:Concept ;
-    skos:altLabel "cora",
+    skos:altLabel "cora"@en,
         "Ditalharfe"@de,
         "dital harp"@en,
         "arpa-laúd"@es,
@@ -4865,7 +4891,7 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "The term kora is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tko> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "kora",
+    skos:prefLabel "kora"@fr,
         "Harfengitarre"@de,
         "kora"@en,
         "kora"@es,
@@ -4873,7 +4899,6 @@ skos:prefLabel "bass trombone"@en,
         "harpa-alaúde"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tkt> a skos:Concept ;
-    skos:altLabel "箏"@ja ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tkt> ;
@@ -4884,6 +4909,7 @@ skos:prefLabel "bass trombone"@en,
         "koto"@es,
         "koto"@fr,
         "koto"@it,
+        "箏"@ja,
         "koto"@ja-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tlf> a skos:Concept ;
@@ -4921,7 +4947,7 @@ skos:prefLabel "bass trombone"@en,
         "lira-guitarra"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tlu> a skos:Concept ;
-    skos:altLabel "luit",
+    skos:altLabel "luit"@nl,
         "laut"@hu,
         "lauto"@it,
         "leuto"@it ;
@@ -4934,6 +4960,8 @@ skos:prefLabel "bass trombone"@en,
         "laúd"@es,
         "luth"@fr,
         "liuto"@it,
+        "luta"@sv,
+        "luuttu"@fi,
         "alaúde"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tma> a skos:Concept ;
@@ -4951,8 +4979,8 @@ skos:prefLabel "bass trombone"@en,
         "bandolim"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tmd> a skos:Concept ;
-    skos:altLabel "gallizona",
-        "mandoër",
+    skos:altLabel "gallizona"@de,
+        "mandoër"@de,
         "Bandürichen"@de,
         "Mandürichen"@de,
         "orpharion"@en,
@@ -4962,7 +4990,7 @@ skos:prefLabel "bass trombone"@en,
         "mandoire"@fr,
         "mandole"@fr,
         "mandolle"@fr,
-        "mandura"@fr,
+        "mandura"@pro,
         "bandora"@it,
         "mandolino lombardo"@it,
         "mandolino milanese"@it,
@@ -4974,8 +5002,7 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tmd> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "provençal"@fr,
-        "fino al 17. sec."@it ;
+    skos:note "fino al 17. sec."@it ;
     skos:prefLabel "mandore"@en,
         "mandola"@es,
         "mandore"@fr,
@@ -4988,11 +5015,11 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tpi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:note "This instrument had four strings and four frets, and was held transversely and plucked with a plectrum" ;
-    skos:prefLabel "pipa" .
+    skos:prefLabel "pipa"@en .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tps> a skos:Concept ;
-    skos:altLabel "kantele",
-        "nebel",
+    skos:altLabel "kantele"@en,
+        "nebel"@he,
         "Psalter"@de,
         "Saltari"@de,
         "saltere"@fr,
@@ -5010,11 +5037,11 @@ skos:prefLabel "bass trombone"@en,
         "psaltérion"@fr,
         "salterio"@it,
         "psalterium"@la,
+        "kantele"@fi,
         "saltério"@pt,
         "гусли"@ru .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tpx> a skos:Concept ;
-    skos:altLabel "φόρμιγξ"@el ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "Modern Greek (1453-) term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tpx> ;
@@ -5022,20 +5049,21 @@ skos:prefLabel "bass trombone"@en,
     skos:prefLabel "phorminx"@el-Latn,
         "phorminx"@en,
         "phorminx"@it,
+        "φόρμιγξ"@el,
         "phorminx"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tqa> a skos:Concept ;
-    skos:altLabel "kanun" ;
+    skos:altLabel "kanun"@ar-Latn;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "The term qanun is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tqa> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "qanun",
+    skos:prefLabel "qanun"@ar-Latn,
+        "قانون‎"@ar,
         "qānūn"@en,
         "qānūn"@es .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tsh> a skos:Concept ;
-    skos:altLabel "三味線"@ja ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tsh> ;
@@ -5044,6 +5072,7 @@ skos:prefLabel "bass trombone"@en,
     skos:prefLabel "shamisen"@en,
         "shamisen"@es,
         "shamisen"@it,
+        "三味線"@ja,
         "shamisen"@ja-Latn .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tsi> a skos:Concept ;
@@ -5051,9 +5080,11 @@ skos:prefLabel "bass trombone"@en,
     skos:editorialNote "The term sitār is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tsi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "Large, fretted long-necked lute" ;
-    skos:prefLabel "sitār",
-        "sitar"@en,
+    skos:definition "Large, fretted long-necked lute" ;
+    skos:altLabel "sitar"@en,
+    skos:prefLabel "sitār"@en,
+        "sitar"@fi,
+        "sitar"@sv,
         "sitar"@es,
         "sitar"@it .
 
@@ -5074,31 +5105,32 @@ skos:prefLabel "bass trombone"@en,
         "tiorba"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/ttn> a skos:Concept ;
-    skos:altLabel "tanburica",
-        "ṭanbūr" ;
+    skos:altLabel "tanburica"@hbs,
+        "ṭanbūr"@ar-Latn ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "The term tanbur is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/ttn> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "tanbur",
+    skos:prefLabel "tanbur"@ar-Latn,
         "tanbur"@en,
         "tambûr"@fr,
         "tanbur"@it,
         "tanbur"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tud> a skos:Concept ;
-    skos:altLabel "aoud",
-        "oud",
-        "ud" ;
+    skos:altLabel "aoud"@ar-Latn,
+        "oud"@ar-Latn,
+        "ud"@ar-Latn ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
     skos:editorialNote "The term 'ud is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tud> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "'ud",
+    skos:prefLabel "'ud"@ar-Latn,
+        "عود‎"@ar,
         "oud"@en .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tuk> a skos:Concept ;
-    skos:altLabel "ukelele",
+    skos:altLabel "ukelele"@en,
         "ukelele"@es,
         "uculele"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/t> ;
@@ -5139,10 +5171,11 @@ skos:prefLabel "bass trombone"@en,
         "vihuela"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tzi> a skos:Concept ;
-    skos:altLabel "hommel",
-        "humle",
-        "hummel",
-        "langspil",
+    skos:altLabel "hommel"@sv,
+        "humle"@sv,
+        "hummel"@sv,
+        "langspil"@sv,
+        "långspel"@sv,
         "Akkordzither"@de,
         "Elegiezither"@de,
         "Hexenscheit"@de,
@@ -5599,9 +5632,9 @@ skos:prefLabel "bass trombone"@en,
         "gaita de foles"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wch> a skos:Concept ;
-    skos:altLabel "schalamaux",
-        "schalamo",
-        "schalumò",
+    skos:altLabel "schalamaux"@de,
+        "schalamo"@de,
+        "schalumò"@it,
         "mock trumpet"@en,
         "calimiau"@fr,
         "chalemiau"@fr,
@@ -5720,20 +5753,19 @@ skos:prefLabel "bass trombone"@en,
         "contrafagote"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wdi> a skos:Concept ;
-    skos:altLabel "didgeridoo",
-        "didgeridu",
-        "mandapul",
-        "ngarrriralkpwina",
-        "yirdaki",
-        "yiḏaki",
+    skos:altLabel "didgeridoo"@en,
+        "didgeridú"@es,
+        "mandapul"@aus,
+        "ngarrriralkpwina"@aus,
+        "yirdaki"@aus,
+        "yiḏaki"@aus,
         "didjeridu"@en ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "The term didjeridu is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wdi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:note "wooden drone pipe" ;
-    skos:prefLabel "didjeridu",
-        "didgeridoo"@en,
+    skos:definition "wooden drone pipe"@en ;
+    skos:prefLabel "didjeridu"@en,
         "didjeridu"@es .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wdp> a skos:Concept ;
@@ -5746,7 +5778,7 @@ skos:prefLabel "bass trombone"@en,
         "doppione"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wdu> a skos:Concept ;
-    skos:altLabel "curtoll",
+    skos:altLabel "curtoll"@en,
         "Corthol"@de,
         "Curthol"@de,
         "Dolzian"@de,
@@ -5773,18 +5805,18 @@ skos:prefLabel "bass trombone"@en,
         "dulciana"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wdv> a skos:Concept ;
-    skos:altLabel "dvoinice",
-        "dvojanka",
-        "dvojenice",
-        "dvojkinje",
-        "dvoynice",
-        "slagarka",
-        "vidulice" ;
+    skos:altLabel "dvoinice"@hbs,
+        "dvojanka"@hbs,
+        "dvojenice"@hbs,
+        "dvojkinje"@hbs,
+        "dvoynice"@hbs,
+        "slagarka"@hbs,
+        "vidulice"@hbs ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "The term dvojnice is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wdv> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "dvojnice",
+    skos:prefLabel "dvojnice"@hbs,
         "dvojnice"@en,
         "dvojnice"@it,
         "dvoinice"@pt .
@@ -5930,9 +5962,9 @@ skos:prefLabel "bass trombone"@en,
         "pibgorn"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wmo> a skos:Concept ;
-    skos:altLabel "sheng",
-        "sho"@ja,
-        "笙"@ja,
+    skos:altLabel "sheng"@zh-Latn,
+        "sheng"@en,
+        "sho"@ja-Latn,
         "scho-no fouye"@ja-Latn ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "English term is preferred globally." ;
@@ -5942,6 +5974,8 @@ skos:prefLabel "bass trombone"@en,
         "órgano de boca"@es,
         "orgue à bouche"@fr,
         "armonica"@it,
+        "笙"@ja,
+        "笙"@zh,
         "shô"@ja-Latn,
         "gaita de beiços"@pt .
 
@@ -5959,16 +5993,19 @@ skos:prefLabel "bass trombone"@en,
         "museta"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wna> a skos:Concept ;
-    skos:altLabel "nai",
-        "nay",
-        "nye" ;
+    skos:altLabel "nai"@ar-Latn,
+        "nay"@ar-Latn,
+        "nay"@de,
+        "nye"@ar-Latn;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "The term ney is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wna> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "ney",
+    skos:prefLabel "ney"@ar-Latn,
+        "ناي"@ar
         "ney"@en,
         "ney"@es,
+        "naj"@de,
         "ney"@it,
         "nay"@pt .
 
@@ -6174,28 +6211,29 @@ skos:prefLabel "bass trombone"@en,
         "saxofone"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wsh> a skos:Concept ;
-    skos:altLabel "尺八"@ja ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "Japanese term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wsh> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "shakuhachi"@en,
+        "尺八"@ja ,
         "shakuhachi"@es,
         "shakuhachi"@ja-Latn,
         "shakuhachi"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wsn> a skos:Concept ;
-    skos:altLabel "mizmār",
-        "surnay",
-        "zurla",
-        "zurna" ;
+    skos:altLabel "mizmār"@ar-Latn,
+        "surnay"@ar-Latn,
+        "zurla"@hbs,
+        "zurna"@hbs ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/w> ;
     skos:editorialNote "The term surnāy is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wsn> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
-    skos:prefLabel "surnāy",
+    skos:prefLabel "surnāy"@ar-Latn,
         "zurna"@en,
         "zurna"@es,
+        "زرنة"@ar,
         "surna"@fr .
 
 <http://data.doremus.org/vocabulary/iaml/mop/wsr> a skos:Concept ;
@@ -6567,6 +6605,8 @@ skos:prefLabel "bass trombone"@en,
 <http://data.doremus.org/vocabulary/iaml/mop/svl> a skos:Concept ;
     skos:altLabel "Violine"@de,
         "dessus de violon"@fr,
+        "fele"@no,
+        "fiolin"@no,
         "soprano di viola da braccio"@it ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/s> ;
     skos:editorialNote "English term is preferred globally." ;
@@ -6698,7 +6738,7 @@ skos:prefLabel "bass trombone"@en,
         "tuba"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kor> a skos:Concept ;
-    skos:altLabel "orglet",
+    skos:altLabel "orglet"@no,
         "positive"@en,
         "orgue positif"@fr,
         "orgues"@fr,
@@ -6717,11 +6757,13 @@ skos:prefLabel "bass trombone"@en,
         "órgano"@es,
         "orgue"@fr,
         "organo"@it,
+        "orgel"@sv,
+        "urut"@fi,
         "organum"@la,
         "órgão"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/kpf> a skos:Concept ;
-    skos:altLabel "pforte",
+    skos:altLabel "pforte"@ita,
         "Ditanaklasis"@de,
         "Lyraflügel"@de,
         "aliquot piano"@en,
@@ -6752,6 +6794,8 @@ skos:prefLabel "bass trombone"@en,
         "piano"@en,
         "piano"@es,
         "piano"@fr,
+        "piano"@sv,
+        "piano"@fi,
         "pianoforte"@it,
         "piano"@pt .
 
@@ -6771,7 +6815,7 @@ skos:prefLabel "bass trombone"@en,
         "percussão"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/tgu> a skos:Concept ;
-    skos:altLabel "gittern",
+    skos:altLabel "gittern"@en,
         "Akkordgitarre"@de,
         "Gitarre"@de,
         "Guittern"@de,
@@ -6799,6 +6843,8 @@ skos:prefLabel "bass trombone"@en,
         "guitarra"@es,
         "guitare"@fr,
         "chitarra"@it,
+        "gitarr"@sv,
+        "kitara"@fi,
         "guitarra"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/vct> a skos:Concept ;
