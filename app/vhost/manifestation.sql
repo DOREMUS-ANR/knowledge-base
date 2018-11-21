@@ -14,7 +14,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_11'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_11'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (

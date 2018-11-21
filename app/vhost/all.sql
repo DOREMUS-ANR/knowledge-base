@@ -14,7 +14,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_1'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_1'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -51,7 +51,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_2'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_2'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -88,7 +88,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_3'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_3'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -125,7 +125,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_4'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_4'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -162,7 +162,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_5'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_5'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -199,7 +199,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_6'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_6'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -236,7 +236,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_7'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_7'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -273,7 +273,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_8'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_8'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -310,7 +310,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_9'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_9'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -347,7 +347,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_10'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_10'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -384,7 +384,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_11'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_11'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -421,7 +421,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_12'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_12'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -458,7 +458,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_13'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_13'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -495,7 +495,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_14'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_14'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -532,7 +532,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_15'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_15'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -569,7 +569,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_16'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_16'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -606,7 +606,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_17'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_17'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -643,7 +643,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_18'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_18'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -680,7 +680,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_19'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_19'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -717,7 +717,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_20'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_20'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -754,7 +754,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_21'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_21'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -791,7 +791,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_22'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_22'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
@@ -828,7 +828,7 @@ is_brws=>0,
 def_page=>'',
 vsp_user=>'dba',
 ses_vars=>0,
-opts=>vector ('browse_sheet', '', 'url_rewrite', 'http_rule_list_23'),
+opts=>vector ('browse_sheet', '', 'cors', '*', 'cors_restricted', 0, 'url_rewrite', 'http_rule_list_23'),
 is_default_host=>0);
 
 DB.DBA.URLREWRITE_CREATE_RULELIST (
