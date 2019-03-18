@@ -5,9 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 const rdfTranslator = require('rdf-translator');
-const SparqlClient = require('sparql-client');
 const translitterify = require('translitterify');
 const Geonames = require('geonames.js');
+const SparqlClient = require('./sparql-client');
 
 const geonames = new Geonames({
   username: 'lisena',
