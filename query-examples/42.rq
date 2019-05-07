@@ -1,0 +1,27 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the name of the vocal soloist most recorded by Radio France in 2014
+# [fr] Donne-moi le nom du ou de la soliste vocale ayant le plus été enregistré(e) par Radio France en 2014
+
+SELECT DISTINCT ?artist SAMPLE(?artistName) as ?name COUNT(DISTINCT ?rec) as ?recording_num
+WHERE {
+ ?rec  a efrbroo:F29_Recording_Event ;
+       ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/organization/Radio_France> ;
+       efrbroo:R20_recorded ?performance .
+
+ ?performance ecrm:P9_consists_of* ?part;
+    ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?time .
+
+ ?part ecrm:P14_carried_out_by ?artist ;
+    mus:U1_used_medium_of_performance / skos:broader* <http://data.doremus.org/vocabulary/iaml/mop/v> .
+
+ ?artist foaf:name ?artistName
+
+ FILTER ( year(?time) = 2014 )
+
+} GROUP BY ?artist
+ORDER BY DESC (COUNT(DISTINCT ?rec))
+LIMIT 1

@@ -18,6 +18,7 @@ WHERE {
         efrbroo:R9_is_realised_in ?expression .
   OPTIONAL {
     ?work ecrm:P148_has_component ?movement .
+    #  ?movement mus:U14_has_tempo ?tempo .
   }
 
   ?casting mus:U23_has_casting_detail ?castingDet .

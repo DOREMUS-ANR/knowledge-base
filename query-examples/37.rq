@@ -1,0 +1,23 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the list of concerts performed at the Abbaye aux Dames de Saintes outside the festival period of Saintes
+# [fr] Donne-moi la liste des concerts performe à l’Abbaye aux Dames de Saintes hors période du festival de Saintes
+
+SELECT DISTINCT ?concert ?label ?in_festival
+WHERE {
+  ?concert a efrbroo:F31_Performance;
+      rdfs:label ?label;
+      rdfs:comment ?comment;
+      ecrm:P7_took_place_at <http://sws.geonames.org/11185639/> .
+
+  OPTIONAL { FILTER (bif:contains(?comment, "dans le cadre du Festival de Saintes"))
+      BIND("true" AS ?in_festival)
+  }
+
+
+} LIMIT 100
+
+# Note: this information is not parsed but it is contained in the comment

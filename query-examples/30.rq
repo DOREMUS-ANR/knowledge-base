@@ -19,7 +19,3 @@ WHERE {
     ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?mop .
   }
 } LIMIT 300
-
-# TODO double check after fix https://github.com/DOREMUS-ANR/knowledge-base/issues/23
-
-# Note: this query will be improved by the creation of the controlled vocabulary of functions

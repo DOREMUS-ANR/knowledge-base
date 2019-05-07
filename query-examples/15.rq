@@ -23,11 +23,11 @@ WHERE {
 
   ?activity ecrm:P14_carried_out_by ?composer .
 
- 
+
   OPTIONAL {
     ?activity mus:U31_had_function_of_type ?function
   }
   OPTIONAL {
     ?activity mus:U1_used_medium_of_performance ?mop
   }
-}
+} LIMIT 100

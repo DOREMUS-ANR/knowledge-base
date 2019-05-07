@@ -1,0 +1,12 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the works related to popular music
+# [fr] Donne-moi toutes les oeuvres liées à la musique populaire
+
+SELECT * WHERE {
+   ?expression rdfs:label ?label ;
+        mus:U65_has_geographical_context []
+} LIMIT 100

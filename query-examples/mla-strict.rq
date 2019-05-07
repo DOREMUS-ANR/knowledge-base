@@ -18,13 +18,13 @@ WHERE {
   ?casting mus:U23_has_casting_detail ?allCastingDets .
 
   ?casting mus:U23_has_casting_detail ?castingDet1, ?castingDet2 .
-  ?castingDet1 mus:U2_foresees_use_of_medium_of_performance ?bassoon ;
+  ?castingDet1 mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?bassoon ;
        mus:U30_foresees_quantity_of_mop 2 .
 
-  ?castingDet2 mus:U2_foresees_use_of_medium_of_performance ?flute .
+  ?castingDet2 mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?flute .
 
-  VALUES (?bassoon) { ( <http://data.doremus.org/vocabulary/iaml/mop/wba> ) (<http://www.mimo-db.eu/InstrumentsKeywords/3795>) }
-  VALUES (?flute) { ( <http://data.doremus.org/vocabulary/iaml/mop/wfl> ) (<http://www.mimo-db.eu/InstrumentsKeywords/3955>) }
+  VALUES ?bassoon { <http://www.mimo-db.eu/InstrumentsKeywords/3795> }
+  VALUES ?flute { <http://www.mimo-db.eu/InstrumentsKeywords/3955> }
 }
 GROUP BY ?expression ?casting
 HAVING (COUNT(?allCastingDets) = 2)

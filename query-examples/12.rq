@@ -14,14 +14,8 @@ WHERE {
           mus:U13_has_casting ?casting ;
           mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/mld> .
 
-  ?casting mus:U23_has_casting_detail ?castingDet .
-  ?castingDet mus:U2_foresees_use_of_medium_of_performance / skos:prefLabel ?voix .
-
-  {
-    ?castingDet mus:U2_foresees_use_of_medium_of_performance <http://data.doremus.org/vocabulary/iaml/mop/vbr> .
-  } UNION {
-    ?castingDet mus:U2_foresees_use_of_medium_of_performance <http://data.doremus.org/vocabulary/iaml/mop/vms> .
-  }
+  ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?avgVoice .
+  ?avgVoice skos:prefLabel ?voix.
 
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span ?ts.
@@ -29,6 +23,8 @@ WHERE {
                 time:hasBeginning / time:inXSDDate ?start .
 
   FILTER ( ?start >= "1870"^^xsd:gYear AND ?end <= "1913"^^xsd:gYear AND lang(?voix) = "en" )
+
+  VALUES ?avgVoice { <http://data.doremus.org/vocabulary/iaml/mop/vbr> <http://data.doremus.org/vocabulary/iaml/mop/vms> }
 
 } GROUP BY ?expression ?voix
 

@@ -1,0 +1,25 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me a cycle of melodies whose author of text is the same for each melody
+# [fr] Donne moi un cycle de mélodies dont l’auteur de texte est le même pour chaque mélodie
+
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, SAMPLE(?authorName) as ?author
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          rdfs:label ?title ;
+          mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/mld> ;
+          efrbroo:R5_has_component ?single .
+
+  [] efrbroo:R17_created ?single ;
+          ecrm:P9_consists_of  [ ecrm:P14_carried_out_by ?author ;
+                                    mus:U31_had_function <http://data.doremus.org/vocabulary/function/author> ] .
+  ?author foaf:name ?authorName .
+
+}
+GROUP BY ?expression
+HAVING (COUNT(DISTINCT ?author) = 1)
+LIMIT 100

@@ -7,31 +7,29 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 # [fr] donne-moi toutes les oeuvres de compositeurs allemands écrites entre 1800 et 1850 et exécutées au Royal Albert Hall
 
 
-SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?start, ?end, ?composerName 
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?start as ?date, SAMPLE(?composerName) as ?composer
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
           rdfs:label ?title .
-          
+
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span ?ts ;
-          ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
-          
-  ?composer foaf:name ?composerName .
-  
+          ecrm:P9_consists_of [ ecrm:P14_carried_out_by ?composer  ;
+                                 mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer>
+                               ] .
+
+  ?composer foaf:name ?composerName ; schema:birthPlace / geonames:countryCode "DE".
+
   ?ts time:hasEnd / time:inXSDDate ?end ;
                 time:hasBeginning / time:inXSDDate ?start .
 
   ?performance a efrbroo:F31_Performance ;
     efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
-    ecrm:P7_took_place_at	?place .
-  
-  FILTER ( ?start >= "1800"^^xsd:gYear AND ?end <= "1850"^^xsd:gYear AND contains(str(?place), "Royal Albert Hall"))
+    ecrm:P7_took_place_at	<http://sws.geonames.org/6944344/> .
+
+  FILTER ( ?start >= "1800"^^xsd:gYear AND ?end <= "1850"^^xsd:gYear )
 }
 ORDER BY ?start
 LIMIT 500
 
-# Note: this query can evolve if we model/map differently the places or if we changhe the performace to PerformedEventCreation
-
-# Note 2: we have not the information about the composer nationality
-
-# Note 3: we have not the places perfectly parsed (i.e. http://data.doremus.org/describe/?url=http%3A%2F%2Fdata.doremus.org%2Fperformance%2F2f84bb29-e6ef-35c6-b4d9-38b31e89ca80&sid=209)
+# Note: we have not the information about the composer nationality. We use the birth place

@@ -1,0 +1,24 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the operas of which the composer is also the librettist
+# [fr] Donne-moi tous les opéras dont le compositeur est également le librettiste
+
+SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, SAMPLE(?composerName) as ?composer
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          rdfs:label ?title ;
+          mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/op> .
+
+  ?expCreation efrbroo:R17_created ?expression ;
+          ecrm:P9_consists_of [ ecrm:P14_carried_out_by ?composer  ;
+                                 mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer>
+                               ] ,
+                               [ ecrm:P14_carried_out_by ?composer  ;
+                                    mus:U31_had_function <http://data.doremus.org/vocabulary/function/librettist>
+                               ] .
+
+  ?composer foaf:name ?composerName .
+} LIMIT 500

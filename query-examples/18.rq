@@ -10,13 +10,13 @@ SELECT DISTINCT ?concert ?conductor ?note
 WHERE {
   ?concert ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityDir ;
       ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityMus ;
-      ecrm:P7_took_place_at <http://data.doremus.org/place/a12b6211-da7f-34dc-ad6d-6b6467608772> .
+      ecrm:P7_took_place_at <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> .
 
   ?activityDir ecrm:P14_carried_out_by ?conductor ;
-    mus:U31_had_function / skos:broader* <http://data.doremus.org/vocabulary/function/conductor> .
+    mus:U31_had_function <http://data.doremus.org/vocabulary/function/chief_conductor> .
 
   ?activityMus ecrm:P14_carried_out_by ?conductor ;
-    mus:U1_used_medium_of_performance / skos:exactMatch* <http://data.doremus.org/vocabulary/iaml/mop/svl> .
+    mus:U1_used_medium_of_performance / skos:exactMatch* <http://www.mimo-db.eu/InstrumentsKeywords/3573> .
 
   OPTIONAL { ?concert mus:U205_has_cast_detail ?note }
 } LIMIT 100

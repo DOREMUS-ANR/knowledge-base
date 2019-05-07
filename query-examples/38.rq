@@ -1,0 +1,21 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the artists that have been recorded more than 10 times by Radio France
+# [fr] Donne-moi les artistes qui ont été enregistrés plus de 10 fois par Radio France
+
+
+SELECT DISTINCT ?artist SAMPLE(?artistName) as ?name COUNT(DISTINCT ?rec) as ?recording_num
+WHERE {
+ ?rec  a efrbroo:F29_Recording_Event ;
+       ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/organization/Radio_France> ;
+       efrbroo:R20_recorded ?performance .
+
+ ?performance ecrm:P9_consists_of* / ecrm:P14_carried_out_by ?artist .
+
+ ?artist foaf:name ?artistName
+} GROUP BY ?artist
+HAVING (COUNT(DISTINCT ?rec) > 10)
+LIMIT 100

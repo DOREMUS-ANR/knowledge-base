@@ -1,0 +1,24 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the sonatas for piano and violin whose duration is between 20 and 30 minutes
+# [fr] Donne-moi toutes les sonates pour piano et violon dont la durée est comprise entre 20 et 30 minutes
+
+SELECT DISTINCT ?duration , SAMPLE(?title) as ?title , ?expression
+WHERE {
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+          rdfs:label ?title ;
+          mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?piano, ?violin ;
+          mus:U12_has_genre / skos:exactMatch* <http://data.doremus.org/vocabulary/iaml/genre/sn> ;
+          mus:U78_estimated_duration ?duration .
+
+
+  VALUES ?violin { <http://www.mimo-db.eu/InstrumentsKeywords/3573>}
+  VALUES ?piano { <http://www.mimo-db.eu/InstrumentsKeywords/2299>}
+
+  FILTER (?duration >= 1200 AND ?duration <= 1800)
+}
+
+# No records found

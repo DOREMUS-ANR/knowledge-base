@@ -14,14 +14,18 @@ WHERE {
 
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P4_has_time-span ?ts ;
-          ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
-          
-  ?composer foaf:name ?composerName .
-  
+          ecrm:P9_consists_of [ ecrm:P14_carried_out_by ?composer  ;
+                                 mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer>
+                               ] .
+
+  ?composer foaf:name ?composerName ; schema:birthPlace / geonames:countryCode ?scandinavian.
+  VALUES ?scandinavian { 'DK' 'NO' 'SE'}
+
   ?ts time:hasEnd / time:inXSDDate ?end ;
                 time:hasBeginning / time:inXSDDate ?start .
 
   FILTER ( contains(str(?genre), "chambre") AND ?start >= "1800"^^xsd:gYear AND ?end < "1900"^^xsd:gYear )
 } ORDER BY ?start
 
-# Note: we have not the information about the composers' nationality 
+# Note: we have not the information about the composers' nationality. Using the birth place
+# Note 2: we have not the information about countries belonging to Scandinavia. Hard coding them

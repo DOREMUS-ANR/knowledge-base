@@ -1,0 +1,34 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all works for piano based on works of Schubert
+# [fr] Donne-moi toutes les oeuvres pour piano basées sur des oeuvres de Schubert
+
+SELECT DISTINCT ?work as ?original, SAMPLE(?title) as ?original_title, ?work2 as ?derived, SAMPLE(?title2) as ?derived_title
+WHERE {
+  ?work efrbroo:R2_is_derivative_of ?work2.
+
+  ?work a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in ?expression .
+
+  ?expression rdfs:label ?title ;
+        mus:U13_has_casting ?casting .
+
+  [] efrbroo:R17_created ?expression ;
+          ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/artist/03954109-0253-35d6-a70e-89ab27dea09c> .
+
+  { SELECT ?casting
+    WHERE {
+    ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* <http://data.doremus.org/vocabulary/iaml/mop/kpf> ;
+          mus:U23_has_casting_detail ?cDet .
+    } GROUP BY ?casting
+    HAVING (COUNT(?cDet) = 1)
+  }
+
+  ?work2 a efrbroo:F14_Individual_Work;
+        efrbroo:R9_is_realised_in / rdfs:label ?title2 .
+}
+ORDER BY ?title
+LIMIT 500

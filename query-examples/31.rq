@@ -9,8 +9,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?compositionDate, ?reductionExpression AS ?reduction, SAMPLE(?reductionTitle) AS ?title, ?expression AS ?original
 WHERE {
   ?reduction mus:U47_has_derivation_type <http://data.doremus.org/vocabulary/derivation/reduction> ;
-        mus:U38_has_descriptive_expression ?reductionExpression;
-        efrbroo:R2_is_derivative_of / mus:U38_has_descriptive_expression ?expression .
+  efrbroo:R13_is_realised_in ?reductionExpression ;
+  efrbroo:R2_is_derivative_of / efrbroo:R13_is_realised_in ?expression .
 
   ?expCreation efrbroo:R17_created ?expression ;
       efrbroo:R17_created / rdfs:label ?expressionTitle ;

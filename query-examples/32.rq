@@ -18,6 +18,4 @@ WHERE {
   FILTER NOT EXISTS {
     ?performance mus:U54_is_performed_expression_of / rdfs:label ?perfTitle .
   }
-}
-
-# Note: there are no data about it
+} LIMIT 100

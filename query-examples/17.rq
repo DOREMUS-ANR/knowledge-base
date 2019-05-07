@@ -9,20 +9,17 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT DISTINCT ?concert ?conductor
 WHERE {
-  ?concert ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityDir ;
-      ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityMus ;
-      ecrm:P9_consists_of / ecrm:P9_consists_of* / ecrm:P14_carried_out_by / rdfs:label ?orchestra.
+  ?concert ecrm:P9_consists_of* ?activityDir ;
+      ecrm:P9_consists_of* ?activityMus ;
+      ecrm:P9_consists_of* / ecrm:P14_carried_out_by <http://data.doremus.org/artist/59b8bd1b-3108-38c4-bc5c-48b7f25ec22e> .
 
   ?activityDir ecrm:P14_carried_out_by ?conductor ;
     mus:U31_had_function / skos:broader* <http://data.doremus.org/vocabulary/function/conductor> .
 
   ?activityMus ecrm:P14_carried_out_by ?conductor ;
     mus:U1_used_medium_of_performance ?mop ;
-    mus:U32_had_responsibility "soloist"@fr .
+    mus:U32_had_responsibility <http://data.doremus.org/vocabulary/responsibility/soloist> .
 
-  FILTER ( contains(lcase(str(?orchestra)), "orchestre national de france") )
-}
+} LIMIT 100
 
 # Note: there are no data about it
-
-# Note: this query will be improved by the creation of the controlled vocabulary of resposibilities
