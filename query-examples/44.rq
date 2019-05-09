@@ -1,0 +1,28 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the list of the recordings made in 2014 by Harmonia Mundi with
+#         French musical ensembles, using at least one Urtext score
+# [fr] Donne-moi la liste des enregistrements réalisés en 2014 par Harmonia Mundi
+#         avec des ensembles musicaux français, utilisant au moins une partition Urtext
+
+
+SELECT DISTINCT ?rec ?ensemble sample(?ensemble_name) as ?name
+WHERE {
+ ?rec  a efrbroo:F29_Recording_Event ;
+       ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/artist/91eaff1a-0683-3ce6-86a2-5741f1677777> ;
+       efrbroo:R20_recorded ?concert .
+
+ ?concert a efrbroo:F31_Performance;
+   ecrm:P9_consists_of* ?part ;
+   ecrm:P9_consists_of / ecrm:P16_used_specific_object [
+              mus:U221_has_title_proper_of_series	"Urtext"  ] .
+
+  ?part ecrm:P14_carried_out_by ?ensemble ;
+    mus:U1_used_medium_of_performance / skos:broader* <http://data.doremus.org/vocabulary/iaml/mop/o> .
+
+  ?ensemble rdfs:label ?ensemble_name;
+            ecrm:P74_has_current_or_former_residence / geonames:countryCode 'FR' .
+} LIMIT 100

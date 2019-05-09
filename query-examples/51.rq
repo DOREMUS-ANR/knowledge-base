@@ -1,0 +1,18 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the recordings of opera aria whose library has no score
+# [fr] Donne moi tous les enregistrements d’airs d’opéra dont la bibliothèque ne dispose d’aucune partition  
+
+SELECT DISTINCT ?t ?work
+WHERE {
+  ?t mus:U51_is_partial_or_full_recording_of / mus:U54_is_performed_expression_of ?work.
+  ?work mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/op> .
+
+  ?score ecrm:P2_has_type "score".
+
+  FILTER
+    NOT EXISTS {?score ecrm:P128_carries ?work }
+} LIMIT 100

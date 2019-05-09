@@ -1,0 +1,21 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me the cutting of all the recordings of Don Giovanni by Mozart
+# [fr] Donne moi le découpage de tous les enregistrements de Don Giovanni de Mozart
+
+SELECT DISTINCT ?trackset ?track
+WHERE {
+  ?trackset efrbroo:R5_has_component ?track .
+  ?track a mus:M24_Track ;
+        mus:U51_is_partial_or_full_recording_of / mus:U54_is_performed_expression_of	?work .
+
+  ?work rdfs:label ?title.
+
+  ?expCreation efrbroo:R17_created ?work ;
+          ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/artist/4802a043-23bb-3b8d-a443-4a3bd22ccc63> .
+
+  FILTER (contains(str(?title), "Don Giovanni"))
+}

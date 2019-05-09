@@ -1,0 +1,20 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me pairs of recorded tracks that are composed with the same key
+# [fr] donne-moi des paires de titres enregistrés qui sont composés dans la même tonalité
+
+SELECT DISTINCT ?work1 SAMPLE(?title1) as ?title1 ?work2 SAMPLE(?title2) as ?title2 ?key
+WHERE {
+  ?trackset efrbroo:R5_has_component ?t1, ?t2 .
+
+  ?t1 mus:U51_is_partial_or_full_recording_of / mus:U54_is_performed_expression_of ?work1.
+  ?t2 mus:U51_is_partial_or_full_recording_of / mus:U54_is_performed_expression_of ?work2.
+
+  ?work1 rdfs:label ?title1 ; mus:U11_has_key ?key .
+  ?work2 rdfs:label ?title2 ; mus:U11_has_key ?key .
+
+  FILTER (?work1 != ?work2)
+} LIMIT 100

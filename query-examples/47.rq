@@ -1,0 +1,27 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Among concerts and CDs, which works are often played after < other work > ?
+# [fr] Dans les concerts et les cd, quelles oeuvres sont souvent jouées après < telle autre oeuvre > ?
+
+SELECT DISTINCT ?work2 SAMPLE(?title) as ?title (COUNT(distinct ?t2)) as ?num_times SAMPLE(?t2) as ?example_track
+WHERE {
+  ?trackset efrbroo:R5_has_component ?t1, ?t2 .
+
+  ?t1 mus:U10_has_order_number ?on1 ;
+      mus:U51_is_partial_or_full_recording_of / mus:U54_is_performed_expression_of ?work1.
+
+  ?t2 mus:U10_has_order_number ?on2 ;
+      mus:U51_is_partial_or_full_recording_of / mus:U54_is_performed_expression_of ?work2.
+
+  ?work2 rdfs:label ?title .
+
+  VALUES ?work1 { <http://data.doremus.org/expression/d72301f0-0aba-3ba6-93e5-c4efbee9c6ea> }
+  FILTER (?work1 != ?work2)
+  FILTER (?on2 = (?on1 + 1))
+}
+GROUP BY ?work2
+ORDER BY DESC (COUNT(distinct ?t2))
+LIMIT 100
