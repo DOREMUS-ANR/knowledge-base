@@ -9,9 +9,6 @@
 <http://data.doremus.org/vocabulary/spazialization/> a skos:ConceptScheme ;
     rdfs:label "Techniques de spatialisation du son"@fr , "Sound Spatialization Techniques"@en,
         "Tecniche di spazializzazione del suono"@it ;
-    rdfs:comment "Présence de couleur, teinte, etc. dans une expression"@fr,
-        "A presence of colour, tone, etc., in the content of an expression"@en,
-        "Presenza di colore, tinta, etc. nel contenuto di una espressione"@it ;
     dct:creator <http://data.doremus.org/organization/DOREMUS> ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:created "2018-08-06"^^xsd:date ;
