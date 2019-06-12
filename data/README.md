@@ -1,5 +1,7 @@
 # DOREMUS knowledge base data dumps
 
+> The file have been moved to http://data.doremus.org/dump/
+
 * `bnf` Dataset describing the musical part of BnF archives
 * `diabolo` _(soon available)_ Dataset "Discothèque" of Radio France
 * `isni` Interlinking (through `owl:sameAs` links) of artists between DOREMUS and linked data sources (isni, viaf, dbpedia, musicbrainz, ...)
