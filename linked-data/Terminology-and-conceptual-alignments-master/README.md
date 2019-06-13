@@ -11,4 +11,4 @@ Ce référentiel contient 3 dossiers ;
 	- Dossier « Database » contient les deux bases de concerts prévus (Prévus_M26.tar.gz) et réalisées (Réalisés_F31.tar.gz) qui s’est basés pour l’extraction des données et pour l’alignement des termes.
 	- Dossier « Scripts » contient deux dossier , (Query_Script) contient les codes avec les requêtes SPARQL qui servent à extraire les données nécessaires pour l’alignement des termes,
 (Alignement_Script) contient les codes nécessaires pour l’alignement des termes et des données extraites par les requêtes SPARQL. 
-	- Dossier « Interface » contient les codes qui représentent l’interface conçue afin que les experts de Philharmonie puissent examiner les résultats obtenus des alignements.# cddcqc
+	- Dossier « Interface » contient les codes qui représentent l’interface conçue afin que les experts de Philharmonie puissent examiner les résultats obtenus des alignements.
