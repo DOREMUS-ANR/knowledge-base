@@ -1,0 +1,2 @@
+Fichier M26 : liste des differents informations obetenus par les requetes sur les concerts prévus (URI, tirtre, date, identifiant)
+Fichier F31 : liste des differents informations obetenus par les requetes sur les concerts réalisés (URI, tirtre, date, identifiant)

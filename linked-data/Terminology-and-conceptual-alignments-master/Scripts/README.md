@@ -1,0 +1,2 @@
+(Query_Script) contient les codes avec les requêtes SPARQL qui servent à extraire les données nécessaires pour l’alignement des termes,
+(Alignement_Script) contient les codes nécessaires pour l’alignement des termes et des données extraites par les requêtes SPARQL. 
