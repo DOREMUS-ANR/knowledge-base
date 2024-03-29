@@ -1,0 +1,52 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.doremus.org/vocabulary/creation-or-performance-mode> a skos:ConceptScheme;
+  rdfs:label "List of creation or performance mode"@en, "Liste des modes de création ou d’exécution"@fr;
+  dct:creator <http://data.doremus.org/organization/DOREMUS>;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:created "2016-03-14"^^xsd:date;
+  dct:modified "2017-11-07"^^xsd:date;
+  skos:hasTopConcept <http://data.doremus.org/vocabulary/creation-or-performance-mode/improvisation>,
+    <http://data.doremus.org/vocabulary/creation-or-performance-mode/improvisation-in-part>,
+    <http://data.doremus.org/vocabulary/creation-or-performance-mode/a-cappella>, <http://data.doremus.org/vocabulary/creation-or-performance-mode/a-cappella-in-part>,
+    <http://data.doremus.org/vocabulary/creation-or-performance-mode/four-hands> .
+
+<http://data.doremus.org/vocabulary/creation-or-performance-mode/improvisation> a
+    skos:Concept;
+  skos:prefLabel "improvisation"@fr, "improvisation"@en, "improvvisazione"@it;
+  skos:definition "Action de concevoir et d'exécuter simultanément une oeuvre."@fr;
+  skos:inScheme <http://data.doremus.org/vocabulary/creation-or-performance-mode>;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/creation-or-performance-mode> .
+
+<http://data.doremus.org/vocabulary/creation-or-performance-mode/improvisation-in-part>
+  a skos:Concept;
+  skos:prefLabel "improvisation (séquences)"@fr, "improvisation (in part)"@en, "improvvisazione (in parte)"@it;
+  skos:definition "Action de concevoir et d'exécuter simultanément certains passages d'une oeuvre."@fr;
+  skos:inScheme <http://data.doremus.org/vocabulary/creation-or-performance-mode>;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/creation-or-performance-mode> .
+
+<http://data.doremus.org/vocabulary/creation-or-performance-mode/a-cappella> a skos:Concept;
+  skos:prefLabel "a cappella"@fr, "a cappella"@en, "a cappella"@it;
+  skos:definition "Action de chanter une oeuvre sans accompagnement instrumental."@fr;
+  skos:inScheme <http://data.doremus.org/vocabulary/creation-or-performance-mode>;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/creation-or-performance-mode> .
+
+<http://data.doremus.org/vocabulary/creation-or-performance-mode/a-cappella-in-part>
+  a skos:Concept;
+  skos:prefLabel "a cappella (séquences)"@fr, "a cappella (in part)"@en, "a cappella (in parte)"@it;
+  skos:definition "Action de chanter certains passages d'une oeuvre sans accompagnement instrumental."@fr;
+  skos:inScheme <http://data.doremus.org/vocabulary/creation-or-performance-mode>;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/creation-or-performance-mode> .
+
+<http://data.doremus.org/vocabulary/creation-or-performance-mode/four-hands> a skos:Concept;
+  skos:prefLabel "à quatre mains"@fr, "four hands"@en, "a quattro mani"@it;
+  skos:definition "Action de jouer à deux musiciens sur un même instrument."@fr;
+  skos:inScheme <http://data.doremus.org/vocabulary/creation-or-performance-mode>;
+  skos:topConceptOf <http://data.doremus.org/vocabulary/creation-or-performance-mode> .
