@@ -1,0 +1,133 @@
+name: doremus-kb
+
+volumes:
+  qlever-data:
+  workbench-data:
+
+services:
+  qlever-volume-admin:
+    image: alpine:3.22
+    command: ["sh", "-c", "mkdir -p /data/index-next && chown 999:999 /data /data/index-next"]
+    volumes:
+      - type: volume
+        source: qlever-data
+        target: /data
+        volume:
+          nocopy: true
+    restart: "no"
+
+  qlever-index:
+    image: adfreiburg/qlever:0.6.0
+    container_name: doremus-qlever-index
+    entrypoint: bash
+    working_dir: /data
+    depends_on:
+      qlever-volume-admin:
+        condition: service_completed_successfully
+    environment:
+      QLEVER_INDEX_MEMORY: ${QLEVER_INDEX_MEMORY:-4G}
+      QLEVER_FORCE_REBUILD: ${QLEVER_FORCE_REBUILD:-0}
+    command:
+      - -c
+      - >-
+        if [ -d /data/index-current ] && [ $${QLEVER_FORCE_REBUILD:-0} != 1 ]; then
+        echo index-current-present-nothing-to-do;
+        exit 0;
+        fi;
+        rm -rf /data/index-next &&
+        mkdir -p /data/index-next &&
+        cp /config/Qleverfile /data/index-next/Qleverfile &&
+        cd /data/index-next &&
+        qlever index --stxxl-memory $${QLEVER_INDEX_MEMORY:-4G} &&
+        cd /data &&
+        rm -rf /data/index-previous &&
+        { [ ! -d /data/index-current ] || mv /data/index-current /data/index-previous; } &&
+        mv /data/index-next /data/index-current
+    volumes:
+      - type: volume
+        source: qlever-data
+        target: /data
+        volume:
+          nocopy: true
+      - ${QLEVER_DEPLOY_QLEVERFILE:-./qlever/Qleverfile}:/config/Qleverfile:ro
+      - ./dumps:/data/source/dumps:ro
+    restart: "no"
+
+  qlever:
+    image: adfreiburg/qlever:0.6.0
+    container_name: doremus-qlever
+    entrypoint: bash
+    working_dir: /data
+    depends_on:
+      qlever-volume-admin:
+        condition: service_completed_successfully
+      qlever-index:
+        condition: service_completed_successfully
+    environment:
+      QLEVER_ACCESS_TOKEN: ${QLEVER_ACCESS_TOKEN:-}
+      QLEVER_MEMORY_FOR_QUERIES: ${QLEVER_MEMORY_FOR_QUERIES:-16G}
+      QLEVER_CACHE_MAX_SIZE: ${QLEVER_CACHE_MAX_SIZE:-2G}
+      QLEVER_QUERY_TIMEOUT: ${QLEVER_QUERY_TIMEOUT:-120s}
+    command:
+      - -c
+      - >-
+        cd /data/index-current &&
+        qlever start
+        --run-in-foreground
+        --access-token=${QLEVER_ACCESS_TOKEN:-}
+        --memory-for-queries ${QLEVER_MEMORY_FOR_QUERIES:-16G}
+        --cache-max-size ${QLEVER_CACHE_MAX_SIZE:-2G}
+        --timeout ${QLEVER_QUERY_TIMEOUT:-120s}
+    ports:
+      - "${QLEVER_BIND_ADDRESS:-127.0.0.1}:${QLEVER_PORT:-8863}:7019"
+    volumes:
+      - type: volume
+        source: qlever-data
+        target: /data
+        volume:
+          nocopy: true
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS -G -H 'Accept: application/sparql-results+json' --data-urlencode 'query=ASK { ?s ?p ?o }' http://localhost:7019 >/dev/null",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+  workbench:
+    image: ghcr.io/ehrhart/rdf-workbench:latest
+    container_name: doremus-workbench
+    environment:
+      TRIPLESTORE_PROVIDER: qlever
+      SPARQL_ENDPOINT: http://qlever:7019
+      SPARQL_TIMEOUT_MS: ${SPARQL_TIMEOUT_MS:-120000}
+      WORKBENCH_NAME: DOREMUS Workbench
+      WORKBENCH_URL: ${WORKBENCH_URL:-https://data.doremus.org}
+      RESOURCE_BASE_URI: https://data.doremus.org
+      DEREFERENCE_PATHS: ${DEREFERENCE_PATHS:?DEREFERENCE_PATHS must be set}
+      WORKBENCH_DB_PATH: /data/workbench.sqlite
+      ALLOW_ANONYMOUS_READ: "1"
+      BOOTSTRAP_ADMIN_USERNAME: ${WORKBENCH_ADMIN_USER:-dba}
+      BOOTSTRAP_ADMIN_PASSWORD: ${WORKBENCH_ADMIN_PASSWORD:?WORKBENCH_ADMIN_PASSWORD must be set}
+      QLEVER_ACCESS_TOKEN: ${QLEVER_ACCESS_TOKEN:?QLEVER_ACCESS_TOKEN must be set}
+    volumes:
+      - workbench-data:/data
+    ports:
+      - "${WORKBENCH_PORT:-8862}:3000"
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))",
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
