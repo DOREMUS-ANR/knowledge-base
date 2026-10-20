@@ -2,33 +2,41 @@ PREFIX mus: <http://data.doremus.org/ontology#>
 PREFIX ecrm: <http://erlangen-crm.org/current/>
 PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # [en] Give me all the works that have been written by German composers between 1800 and 1850 and performed at the Royal Albert Hall.
 # [fr] donne-moi toutes les oeuvres de compositeurs allemands écrites entre 1800 et 1850 et exécutées au Royal Albert Hall
 
-
-SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?start as ?date, SAMPLE(?composerName) as ?composer
+SELECT DISTINCT ?expression (SAMPLE(?title_raw) as ?title) (?start as ?date) (SAMPLE(?composerName) as ?composer)
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          rdfs:label ?title .
+    rdfs:label ?title_raw .
 
   ?expCreation efrbroo:R17_created ?expression ;
-          ecrm:P4_has_time-span ?ts ;
-          ecrm:P9_consists_of [ ecrm:P14_carried_out_by ?composer  ;
-                                 mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer>
-                               ] .
+    ecrm:P4_has_time-span ?ts ;
+    ecrm:P9_consists_of [
+      ecrm:P14_carried_out_by ?composer_raw ;
+      mus:U31_had_function <http://data.doremus.org/vocabulary/function/composer>
+    ] .
 
-  ?composer foaf:name ?composerName ; schema:birthPlace / geonames:countryCode "DE".
+  ?composer_raw foaf:name ?composerName ;
+    schema:birthPlace / geonames:countryCode "DE" .
 
   ?ts time:hasEnd / time:inXSDDate ?end ;
-                time:hasBeginning / time:inXSDDate ?start .
+    time:hasBeginning / time:inXSDDate ?start .
 
   ?performance a efrbroo:F31_Performance ;
     efrbroo:R25_performed / ecrm:P165_incorporates ?expression ;
-    ecrm:P7_took_place_at	<http://sws.geonames.org/6944344/> .
+    ecrm:P7_took_place_at <http://sws.geonames.org/6944344/> .
 
-  FILTER ( ?start >= "1800"^^xsd:gYear AND ?end <= "1850"^^xsd:gYear )
+  FILTER ( ?start >= "1800"^^xsd:gYear && ?end <= "1850"^^xsd:gYear )
 }
+GROUP BY ?expression ?start
 ORDER BY ?start
 LIMIT 500
 

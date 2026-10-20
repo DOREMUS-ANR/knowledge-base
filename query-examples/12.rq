@@ -2,30 +2,33 @@ PREFIX mus: <http://data.doremus.org/ontology#>
 PREFIX ecrm: <http://erlangen-crm.org/current/>
 PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # [en] Give me all the melodies written on French texts for average voice between 1870 and 1913.
 # [fr] Donne-moi toutes les mélodies écrites sur des textes français pour voix moyenne entre 1870 et 1913.
 
-
-SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?voix
+SELECT DISTINCT ?expression (SAMPLE(?title_raw) as ?title) ?voix
 WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          rdfs:label ?title ;
-          mus:U13_has_casting ?casting ;
-          mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/mld> .
+    rdfs:label ?title_raw ;
+    mus:U13_has_casting ?casting ;
+    mus:U12_has_genre <http://data.doremus.org/vocabulary/iaml/genre/mld> .
 
   ?casting mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?avgVoice .
-  ?avgVoice skos:prefLabel ?voix.
+  ?avgVoice skos:prefLabel ?voix .
 
   ?expCreation efrbroo:R17_created ?expression ;
-          ecrm:P4_has_time-span ?ts.
+    ecrm:P4_has_time-span ?ts .
   ?ts time:hasEnd / time:inXSDDate ?end ;
-                time:hasBeginning / time:inXSDDate ?start .
+    time:hasBeginning / time:inXSDDate ?start .
 
-  FILTER ( ?start >= "1870"^^xsd:gYear AND ?end <= "1913"^^xsd:gYear AND lang(?voix) = "en" )
+  FILTER ( ?start >= "1870"^^xsd:gYear && ?end <= "1913"^^xsd:gYear && lang(?voix) = "en" )
 
   VALUES ?avgVoice { <http://data.doremus.org/vocabulary/iaml/mop/vbr> <http://data.doremus.org/vocabulary/iaml/mop/vms> }
 
-} GROUP BY ?expression ?voix
+}
+GROUP BY ?expression ?voix
 
 # Note: we have not the information on the language of the text

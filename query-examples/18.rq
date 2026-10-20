@@ -9,8 +9,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?concert ?conductor ?note
 WHERE {
   ?concert ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityDir ;
-      ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityMus ;
-      ecrm:P7_took_place_at <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> .
+    ecrm:P9_consists_of / ecrm:P9_consists_of* ?activityMus ;
+    ecrm:P7_took_place_at <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> .
 
   ?activityDir ecrm:P14_carried_out_by ?conductor ;
     mus:U31_had_function <http://data.doremus.org/vocabulary/function/chief_conductor> .
@@ -19,4 +19,5 @@ WHERE {
     mus:U1_used_medium_of_performance / skos:exactMatch* <http://www.mimo-db.eu/InstrumentsKeywords/3573> .
 
   OPTIONAL { ?concert mus:U205_has_cast_detail ?note }
-} LIMIT 100
+}
+LIMIT 100

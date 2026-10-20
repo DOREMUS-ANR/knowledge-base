@@ -2,23 +2,27 @@ PREFIX mus: <http://data.doremus.org/ontology#>
 PREFIX ecrm: <http://erlangen-crm.org/current/>
 PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 # [en] Give me the list of all the concerts recorded by Radio France at the Cité de la Musique between 1995 and 2014
 # [fr] Donne-moi la liste de tous les concerts enregistrés par Radio France à la Cité de la Musique entre 1995 et 2014
 
-SELECT DISTINCT ?concert SAMPLE(?title) year(?time)
+SELECT DISTINCT ?concert (SAMPLE(?title_raw) as ?title) (year(?time_raw) as ?time)
 WHERE {
- ?rec  a efrbroo:F29_Recording_Event ;
-       ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/organization/Radio_France> ;
-       ecrm:P7_took_place_at ?place ;
-       ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?time ;
-       efrbroo:R20_recorded ?concert .
+  ?rec a efrbroo:F29_Recording_Event ;
+    ecrm:P9_consists_of / ecrm:P14_carried_out_by <http://data.doremus.org/organization/Radio_France> ;
+    ecrm:P7_took_place_at ?place ;
+    ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?time_raw ;
+    efrbroo:R20_recorded ?concert .
 
- <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> owl:sameAs ?place.
+  <http://data.doremus.org/place/bd21be9c-3f2b-3aa3-a460-114d579eabe6> owl:sameAs ?place .
 
+  ?concert a efrbroo:F31_Performance ;
+    rdfs:label ?title_raw .
 
- ?concert a efrbroo:F31_Performance;
-  rdfs:label ?title.
-
- FILTER (year(?time) >= 1995 AND year(?time) <= 2014 )
-} LIMIT 500
+  FILTER (year(?time_raw) >= 1995 && year(?time_raw) <= 2014)
+}
+GROUP BY ?concert ?time_raw
+LIMIT 500

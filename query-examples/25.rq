@@ -2,14 +2,17 @@ PREFIX mus: <http://data.doremus.org/ontology#>
 PREFIX ecrm: <http://erlangen-crm.org/current/>
 PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
 
 # [en] Give me the list of works composed by Mozart in the last 5 years of his life
 # [fr] Donne moi la liste des oeuvres composées par Mozart dans les 5 dernières années de sa vie
 
-SELECT DISTINCT ?expression, SAMPLE(?title) as ?title, ?compositionDate
-WHERE {
+SELECT DISTINCT ?expression (SAMPLE(?title_raw) as ?title) ?compositionDate WHERE {
   ?expression a efrbroo:F22_Self-Contained_Expression ;
-          rdfs:label ?title .
+          rdfs:label ?title_raw .
   ?expCreation efrbroo:R17_created ?expression ;
           ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer ;
           ecrm:P4_has_time-span / time:hasBeginning / time:inXSDDate ?compositionDate .
@@ -18,4 +21,6 @@ WHERE {
           schema:deathDate ?death .
 
   FILTER ( year(?compositionDate) - year(?death) <= 5 )
-} ORDER BY ?compositionDate
+}
+GROUP BY ?expression ?compositionDate
+ORDER BY ?compositionDate
