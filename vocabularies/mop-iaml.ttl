@@ -2060,7 +2060,7 @@ skos:prefLabel "bass trombone"@en,
         "rebab"@ar,
         "rubob"@ar,
         "rubāb"@ar,
-        "ربابة‎"@ar .
+        "ربابة‎"@ar ;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/m> ;
     skos:editorialNote "Arabic term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/mra> ;
@@ -2500,7 +2500,7 @@ skos:prefLabel "bass trombone"@en,
     skos:altLabel "bigornia"@es,
         "yunke"@es,
         "amboss"@de,
-        "ambosse"@de,
+        "ambosse"@de;
     skos:broader <http://data.doremus.org/vocabulary/iaml/mop/p> ;
     skos:editorialNote "English term is preferred globally." ;
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/pan> ;
@@ -2508,7 +2508,7 @@ skos:prefLabel "bass trombone"@en,
     skos:prefLabel "anvil"@en,
         "enclume"@fr,
         "incudine"@it,
-        "yunque"@es ;
+        "yunque"@es,
         "bigorna"@pt .
 
 <http://data.doremus.org/vocabulary/iaml/mop/pbb> a skos:Concept ;
@@ -5081,7 +5081,7 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/tsi> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:definition "Large, fretted long-necked lute" ;
-    skos:altLabel "sitar"@en,
+    skos:altLabel "sitar"@en;
     skos:prefLabel "sitār"@en,
         "sitar"@fi,
         "sitar"@sv,
@@ -6002,7 +6002,7 @@ skos:prefLabel "bass trombone"@en,
     skos:exactMatch <http://iflastandards.info/ns/unimarc/terms/mop/wna> ;
     skos:inScheme <http://data.doremus.org/vocabulary/iaml/mop/> ;
     skos:prefLabel "ney"@ar-Latn,
-        "ناي"@ar
+        "ناي"@ar,
         "ney"@en,
         "ney"@es,
         "naj"@de,

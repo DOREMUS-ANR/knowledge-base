@@ -1258,8 +1258,7 @@ doremus_artist:007601b9-9122-3aaa-a1dd-e261232d27f4
     owl:sameAs viaf:45465558;
     owl:sameAs mbza:0cfd7a34-5590-46d2-8181-20ab1a119da9.
 doremus_artist:34687936
-    owl:sameAs viaf:a310f4b5-2cfb-4caf-b682-3832829d0f3d;
-    owl:sameAs mbza: Lord Berners".
+    owl:sameAs viaf:a310f4b5-2cfb-4caf-b682-3832829d0f3d.
 doremus_artist:207a6640-7116-3e6a-aa5d-5117bc732562
     owl:sameAs viaf:32192226;
     owl:sameAs mbza:b2035cd4-4a08-4c88-84e3-bd60e95442f4.
@@ -2953,8 +2952,7 @@ doremus_artist:d6c0073a-f2db-308e-bf19-4ba5b6ef37a8
     owl:sameAs viaf:17408774;
     owl:sameAs mbza:e49fec72-0f57-4efc-86f5-51224a864487.
 doremus_artist:39378335
-    owl:sameAs viaf:c4ab35f2-045b-4061-83d7-80611ff6b962;
-    owl:sameAs mbza: 7th Earl of Harewood".
+    owl:sameAs viaf:c4ab35f2-045b-4061-83d7-80611ff6b962.
 doremus_artist:de564023-93c5-32fa-8c11-d70af70a1b6b
     owl:sameAs viaf:150768802;
     owl:sameAs mbza:c63020f2-223e-406a-8988-0794db124cd0.
@@ -3244,8 +3242,7 @@ doremus_artist:d90ac8f4-27e2-3f59-b1f0-d6d38ea38519
     owl:sameAs viaf:61777256;
     owl:sameAs mbza:2b03af50-e5b9-4995-8279-a2a6cb380251.
 doremus_artist:85506350
-    owl:sameAs viaf:7bc3b79c-dedb-48a1-9ce1-1bd9a4399354;
-    owl:sameAs mbza: Валентин Ильич".
+    owl:sameAs viaf:7bc3b79c-dedb-48a1-9ce1-1bd9a4399354.
 doremus_artist:e1d04210-d345-3ceb-a2ff-a11a83625714
     owl:sameAs viaf:79200581;
     owl:sameAs mbza:dfa92490-2d3f-48e6-a5a5-2bab670aa1a2.
@@ -6064,8 +6061,7 @@ doremus_artist:242d1897-38fe-3b91-a7c3-be8611a52e8c
     owl:sameAs viaf:11021753;
     owl:sameAs mbza:9dec4da4-492f-457c-baed-89ef54d6cb53.
 doremus_artist:160082693
-    owl:sameAs viaf:df920902-6acf-47ff-8e98-54f0b5e0de44;
-    owl:sameAs mbza: پژمان".
+    owl:sameAs viaf:df920902-6acf-47ff-8e98-54f0b5e0de44.
 doremus_artist:aaae8287-2fd6-3fe3-ad0a-eb864d24fd97
     owl:sameAs viaf:38534716;
     owl:sameAs mbza:42dd60f6-d8e2-4f2a-b62a-8a8dadb53cd2.

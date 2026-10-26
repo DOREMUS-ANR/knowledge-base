@@ -3868,7 +3868,7 @@ doremus_artist:b5e624e4-a5bd-3e5c-89f2-5d5ce5e60333
     <http://commons.wikimedia.org/wiki/Special:FilePath/Harkon_Boerresen.gif>;
     foaf:isPrimaryTopicOf wik:Hakon_Børresen.
 doremus_artist:b6acee3b-df5e-3a3e-9c97-bd81d38b3263
-    dbp:birthPlace dbr:Puente_La_Reina_–_Gares;
+    dbp:birthPlace <http://dbpedia.org/resource/Puente_La_Reina_–_Gares>;
     dbp:deathPlace dbr:Madrid;
     rdfs:comment
         "Emilio Arrieta (* 21. Oktober 1823 in Puente la Reina (Navarra); \u2020 11. Februar 1894 in Madrid) war ein spanischer Komponist."@de,
@@ -6207,7 +6207,7 @@ rdfs:label "Port Huron, Michigan".
 rdfs:label "Portsmouth, New Hampshire".
 <http://dbpedia.org/resource/Preston,_Lancashire> rdfs:label "Preston, Lancashire".
 
-dbr:Puente_La_Reina_–_Gares rdfs:label "Puente La Reina \u2013 Gares".
+<http://dbpedia.org/resource/Puente_La_Reina_–_Gares> rdfs:label "Puente La Reina \u2013 Gares".
 
 dbr:Puławy rdfs:label "Pu\u0142awy".
 
